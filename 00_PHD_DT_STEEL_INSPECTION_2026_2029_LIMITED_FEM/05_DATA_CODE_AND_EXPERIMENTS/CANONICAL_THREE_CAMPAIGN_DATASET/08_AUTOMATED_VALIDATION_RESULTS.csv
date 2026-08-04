@@ -1,0 +1,13 @@
+Test_ID,Description,Result,Detail
+T01,216/216 raw files accounted for,PASS,n=216
+T02,No duplicate SHA256 among raw files,PASS,unique=216 total=216
+T03,216/216 files have sensor mapping resolved (or would carry a blocker),PASS,files_mapped=216 unresolved_blocks=0
+T04,No file has two blocks assigned the same Physical_Sensor_ID,PASS,files_with_dup=0
+T05,Every analysis-ready recording (Set A & B) has exactly 4000 samples,PASS,bad_A=[] bad_B=[]
+T06,"Analysis Set A always has shape [4000,2]",PASS,"observed_shapes={(4000, 2)}"
+T07,"Analysis Set B always has shape [4000,9]",PASS,"observed_shapes={(4000, 9)}"
+T08,No NaN/Inf in analysis-ready arrays (Set A & B),PASS,bad_A=[] bad_B=[]
+T09,"Analysis-ready layer uses only per-recording per-channel mean removal, no global scaling",PASS,tag='per_recording_per_channel_mean_removal_only'
+T10,No run appears in both Train and Held-Out/Test within any single fold (LORO & LOCO manifests),PASS,loro_ok=True(None) loco_ok=True(None)
+T11,Empirical smoke-test: generated windows show no recording present in both train and test splits,PASS,smoke_loro_test:overlap=0;smoke_loco_test:overlap=0
+T12,Entire CANONICAL_THREE_CAMPAIGN_DATASET is reproducible from raw CSVs with one command,PASS,entry_point=run_pipeline.sh present

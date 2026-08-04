@@ -1,0 +1,123 @@
+PROPOSED FOLDER TREE  --  REORGANIZATION_PLAN_20260803
+Repository: 00_PHD_DT_STEEL_INSPECTION_2026_2029_LIMITED_FEM
+STATUS: PROPOSAL ONLY. Nothing has been moved. Awaiting "APPROVE REORGANIZATION".
+
+n    = files at or below the node after the proposed moves
+size = cumulative bytes at or below the node
+
+ROOT AFTER REORGANISATION
+  00_README_START_HERE.md        <- the ONLY loose file at root
+  .claude/                       <- hidden IDE tooling folder (unchanged)
+  + the 12 top-level folders below
+
+=============================================================================
+.claude\                                                        n=1    0 KB
+00_GOVERNANCE\                                                  n=14   109 KB
+01_CURRENT_CONTROL\                                             n=10   38 KB
+02_EVIDENCE_BASE\                                               n=38   113.1 MB
+    CLAIM_AND_COMPETITOR_REGISTERS\                             n=1    1 KB
+    CURRENT\                                                    n=3    32 KB
+    RQ1_GATE1\                                                  n=17   78.1 MB
+        RQ1_UPDATED_DEEP_READ_10.07\                            n=16   78.1 MB
+    RQ2_GATES2_3\                                               n=10   35.0 MB
+        DEEP_READ_20.07.2026\                                   n=5    11.8 MB
+    RQ3_GATE4\                                                  n=1    4 KB
+    WP4_GATE5\                                                  n=1    3 KB
+    ZOTERO_DEEP_READ\                                           n=5    47 KB
+03_PAPERS\                                                      n=14   119 KB
+    PAPER_1\                                                    n=11   99 KB
+        CURRENT_MANUSCRIPT\                                     n=1    38 KB
+        GATE1_EVIDENCE\                                         n=2    8 KB
+        IT_REQUESTS\                                            n=1    6 KB
+        REFERENCE_AUDIT\                                        n=1    6 KB
+        REVISION_HISTORY\                                       n=1    6 KB
+    PAPER_2\                                                    n=1    4 KB
+    PAPER_3\                                                    n=1    3 KB
+    PAPER_S1_SENSOR_COMPARISON_CANDIDATE\                       n=1    11 KB
+04_PHD_SPECIAL_TOPICS\                                          n=4    30 KB
+    CHUYEN_DE_TONG_QUAN\                                        n=4    30 KB
+05_DATA_CODE_AND_EXPERIMENTS\                                   n=23   169 KB
+    CAMPAIGN_DOCUMENTATION\                                     n=1    37 KB
+    CANONICAL_THREE_CAMPAIGN_DATASET\                           n=8    28 KB
+    THREE_CAMPAIGN_REANALYSIS\                                  n=14   103 KB
+        12_CONFUSION_MATRICES\                                  n=3    0 KB
+        13_TRAINING_CURVES\                                     n=1    0 KB
+06_LITERATURE_AND_ZOTERO\                                       n=25   30.6 MB
+    PERPLEXITY_DISCOVERY\                                       n=23   29.6 MB
+        References\                                             n=11   29.4 MB
+    STANDARDS\                                                  n=1    1000 KB
+    ZOTERO_MCP\                                                 n=1    0 KB
+07_PROMPTS_AND_HANDOFFS\                                        n=19   347 KB
+    ASSETS\                                                     n=1    222 KB
+    NOTEBOOKLM\                                                 n=1    27 KB
+    OPENCODE\                                                   n=3    44 KB
+        PAPER1\                                                 n=1    15 KB
+    PAPER1\                                                     n=1    21 KB
+    PROMPT_CONTROL_CENTER\                                      n=8    21 KB
+    phd-prompt-compressor\                                      n=2    3 KB
+        references\                                             n=1    1 KB
+    phd-prompt-router\                                          n=3    5 KB
+        references\                                             n=2    2 KB
+08_DEMO_AND_PROTOTYPES\                                         n=1    11 KB
+    IT_HANDOFFS\                                                n=1    11 KB
+90_ARCHIVE\                                                     n=144  38.8 MB
+    CLEANUP_PROVENANCE_20260718\                                n=5    81 KB
+    DUPLICATE_LITERATURE\                                       n=2    4.3 MB
+    GOVERNANCE_HISTORY\                                         n=3    47 KB
+        CHARTERS\                                               n=1    29 KB
+        EVIDENCE_BASE\                                          n=2    17 KB
+    HISTORICAL_UNIQUE_FILES\                                    n=41   303 KB
+        BACKUP_BEFORE_WRITEBACK_20260718\                       n=14   84 KB
+        PRE_FINAL_CLEANUP_SNAPSHOT_20260718\                    n=27   218 KB
+            01_CURRENT_CONTROL\                                 n=7    66 KB
+                PROJECT_CLEANUP_20260718\                       n=7    66 KB
+            07_FABLE_LEGACY_PACK_20260718\                      n=5    18 KB
+            92_ARCHIVE_SUPERSEDED_FILES\                        n=3    12 KB
+            Paper 1\                                            n=5    59 KB
+            Perplexity_Pro\                                     n=1    8 KB
+    PAPER_VERSION_HISTORY\                                      n=5    452 KB
+        PAPER_1\                                                n=5    452 KB
+    README_HISTORY\                                             n=2    19 KB
+    SNAPSHOTS_20260718\                                         n=86   33.6 MB
+        BACKUP_BEFORE_WRITEBACK_20260718\                       n=9    65 KB
+        PRE_FINAL_CLEANUP_SNAPSHOT_20260718\                    n=77   33.5 MB
+            01_CURRENT_CONTROL\                                 n=1    36 KB
+                PROJECT_CLEANUP_20260718\                       n=1    36 KB
+            BACKUP_BEFORE_WRITEBACK_20260718\                   n=23   149 KB
+            Paper 1\                                            n=5    437 KB
+            Perplexity_Pro\                                     n=25   32.7 MB
+                References\                                     n=13   32.6 MB
+            Zotero MCP\                                         n=10   69 KB
+91_REVIEW_REQUIRED\                                             n=7    213 KB
+    PAPER1_VERSION_REVIEW\                                      n=6    206 KB
+    STALE_AGENT_RULES\                                          n=1    6 KB
+99_REPOSITORY_LOGS\                                             n=12   372 KB
+    REPOSITORY_AUDIT_20260803\                                  n=12   372 KB
+=============================================================================
+NOTES
+
+* 90_BACKUP/ is emptied by moving its 127 files into 90_ARCHIVE/:
+    - 41 files -> HISTORICAL_UNIQUE_FILES/  (one representative per unique hash;
+      these have NO copy anywhere else in the repository)
+    - 86 files -> SNAPSHOTS_20260718/       (exact duplicates of an active file,
+      or a second/third copy of a preserved unique file)
+  The empty 90_BACKUP/ shell is then left in place for the user to remove
+  manually, or moved to 91_REVIEW_REQUIRED/EMPTY_FOLDERS/. NOT deleted.
+
+* Folders kept deliberately empty (placeholders in the target structure):
+    03_PAPERS/PAPER_4_OPTIONAL/
+    04_PHD_SPECIAL_TOPICS/CHUYEN_DE_1/
+    04_PHD_SPECIAL_TOPICS/CHUYEN_DE_2/
+    06_LITERATURE_AND_ZOTERO/REFERENCE_EXPORTS/   (for future RIS exports)
+
+* Folders proposed for 91_REVIEW_REQUIRED/EMPTY_FOLDERS/ (purpose unconfirmed,
+  NOT deleted):
+    New folder/
+    02_EVIDENCE_BASE/02.08.2026 Q2-Q3/
+
+* New empty folders created with a README placeholder only:
+    06_LITERATURE_AND_ZOTERO/MISSING_FULLTEXT/
+  No schema, competency question, or evidence artifact is fabricated.
+
+* CANONICAL_THREE_CAMPAIGN_DATASET/ and THREE_CAMPAIGN_REANALYSIS/ remain two
+  SEPARATE packages. No merge, and no supersession claim, is made.

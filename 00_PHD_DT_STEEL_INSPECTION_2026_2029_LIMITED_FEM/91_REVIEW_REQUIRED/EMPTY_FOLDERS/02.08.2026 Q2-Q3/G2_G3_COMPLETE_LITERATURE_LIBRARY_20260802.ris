@@ -1,0 +1,1270 @@
+TY  - JOUR
+AU  - Hüthwohl, Philipp
+AU  - Brilakis, Ioannis
+AU  - Borrmann, André
+AU  - Sacks, Rafael
+PY  - 2018
+TI  - Integrating RC Bridge Defect Information into BIM Models
+JO  - Journal of Computing in Civil Engineering
+VL  - 32
+IS  - 3
+DO  - 10.1061/(ASCE)CP.1943-5487.0000744
+UR  - https://ascelibrary.org/doi/10.1061/%28ASCE%29CP.1943-5487.0000744
+PB  - American Society of Civil Engineers
+KW  - G1
+KW  - G2
+KW  - Closest_Competitor
+KW  - Inspection_Record
+KW  - IFC_GlobalId
+KW  - BIM_FM
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed.
+N1  - Relevance: Closest competitors; Inspection_Record/Action_Record evidence base.
+N1  - Role: Methodological source (inspection-BIM layer only).
+N1  - Limitation: No sensor/condition-monitoring linkage; inspection-to-IFC formalization only, no maintenance/work-order record.
+ER  -
+
+TY  - JOUR
+AU  - Xu, Shuyuan
+AU  - Wang, Jun
+AU  - Wang, Xiangyu
+AU  - Wu, Peng
+AU  - Shou, Wenchi
+AU  - Liu, Cheng
+PY  - 2022
+TI  - A Parameter-Driven Method for Modeling Bridge Defects through IFC
+JO  - Journal of Computing in Civil Engineering
+VL  - 36
+IS  - 4
+DO  - 10.1061/(ASCE)CP.1943-5487.0001026
+UR  - https://ascelibrary.org/doi/abs/10.1061/(ASCE)CP.1943-5487.0001026
+PB  - American Society of Civil Engineers
+KW  - G1
+KW  - G2
+KW  - Closest_Competitor
+KW  - Inspection_Record
+KW  - Action_Record
+KW  - IFC_GlobalId
+KW  - BIM_FM
+KW  - Abstract_Only
+N1  - Full-text status: Abstract/metadata reviewed only.
+N1  - Relevance: Closest competitors; Inspection_Record/Action_Record entity evidence.
+N1  - Role: Strong adjacent source; only study with explicit maintenance-action entity linked to IFC defects.
+N1  - Limitation: No condition-monitoring/sensor evidence; static inspection-to-repair chain only, relies on manually reported inspection data.
+ER  -
+
+TY  - JOUR
+AU  - Lee, Yong Cheol
+AU  - Eastman, Charles M.
+AU  - Solihin, Wawan
+PY  - 2021
+TI  - Rules and validation processes for interoperable BIM data exchange
+JO  - Journal of Computational Design and Engineering
+VL  - 8
+IS  - 1
+SP  - 97
+EP  - 114
+DO  - 10.1093/jcde/qwaa064
+UR  - https://doi.org/10.1093/jcde/qwaa064
+PB  - Oxford University Press
+KW  - G2
+KW  - G3
+KW  - Closest_Competitor
+KW  - IFC_GlobalId
+KW  - Asset_Identity
+KW  - Constraint_Validation
+KW  - Abstract_Only
+N1  - Full-text status: Reviewed via citing document/secondary excerpt, not primary full text.
+N1  - Relevance: IFC GlobalId governance; constraint validation methodology.
+N1  - Role: Methodological source (identity-validation layer).
+N1  - Limitation: Strong on rule-based GUID/data-exchange validation, weak on inspection/maintenance linkage.
+ER  -
+
+TY  - CPAPER
+AU  - Heaton, James
+AU  - Parlikad, Ajith Kumar
+AU  - Schooling, Jennifer
+PY  - 2020
+TI  - A building information modelling approach to the alignment of organisational objectives to asset information requirements
+T2  - IFAC-PapersOnLine
+VL  - 53
+IS  - 3
+SP  - 366
+EP  - 371
+DO  - 10.1016/j.ifacol.2020.11.059
+UR  - https://doi.org/10.1016/j.ifacol.2020.11.059
+PB  - Elsevier/IFAC
+KW  - G1
+KW  - Closest_Competitor
+KW  - BIM_FM
+KW  - Asset_Management
+KW  - Digital_Twin
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed.
+N1  - Relevance: Closest competitors; Asset Information Model framing.
+N1  - Role: Strong adjacent source (AIM/Digital Twin framing, not the locked evidence-inspection-action chain).
+N1  - Limitation: Conceptual AIM structuring; no explicit sensor-to-component-to-inspection-to-action data model or validation.
+ER  -
+
+TY  - JOUR
+AU  - Lu, Qiuchen
+AU  - Xie, Xiang
+AU  - Parlikad, Ajith Kumar
+AU  - Schooling, Jennifer M.
+PY  - 2020
+TI  - Digital twin-enabled anomaly detection for built asset monitoring in operation and maintenance
+JO  - Automation in Construction
+VL  - 118
+C7  - 103277
+DO  - 10.1016/j.autcon.2020.103277
+UR  - https://doi.org/10.1016/j.autcon.2020.103277
+PB  - Elsevier
+KW  - G1
+KW  - Closest_Competitor
+KW  - Condition_Evidence
+KW  - IFC_GlobalId
+KW  - Digital_Twin
+KW  - Abstract_Only
+N1  - Full-text status: Abstract/partial full text reviewed.
+N1  - Relevance: Closest competitors; sensor-to-BIM anomaly detection.
+N1  - Role: Strongest verified sensor-plus-BIM pairing found; closest partial competitor to the locked chain.
+N1  - Limitation: Anomaly output does not close the loop into a formal inspection-record or maintenance-action-status schema.
+ER  -
+
+TY  - JOUR
+AU  - Antunes, M. L. R.
+AU  - César Júnior, K. M. L.
+AU  - Ribeiro, J. C. L.
+AU  - Franco de Carvalho, J. M.
+PY  - 2024
+TI  - Analysis of IFC interoperability data schema for project representation
+JO  - Automation in Construction
+VL  - 166
+DO  - 10.1016/j.autcon.2024.105650
+UR  - https://doi.org/10.1016/j.autcon.2024.105650
+PB  - Elsevier
+KW  - G1
+KW  - Closest_Competitor
+KW  - IFC_GlobalId
+KW  - Metadata_Only
+KW  - Verification_Required
+N1  - Full-text status: Metadata/abstract-level only.
+N1  - Relevance: Closest competitors seed study (tentative match for "Lorvão Antunes et al. 2024").
+N1  - Role: Background/uncertain source.
+N1  - Limitation: Author-name match to originally cited seed study is probable but not confirmed at full-text level; inspection/maintenance content not confirmed. Verification required before use for methodological claims.
+ER  -
+
+TY  - JOUR
+AU  - Kim, Kyungki
+AU  - Kim, Hyunjoo
+AU  - Kim, Wondae
+AU  - Kim, Chulyeon
+AU  - Kim, Junghoon
+AU  - Yu, Jungho
+PY  - 2018
+TI  - Integration of ifc objects and facility management work information using Semantic Web
+JO  - Automation in Construction
+VL  - 87
+SP  - 173
+EP  - 187
+UR  - https://isiarticles.com/bundles/Article/pre/pdf/94618.pdf
+PB  - Elsevier
+KW  - G1
+KW  - Closest_Competitor
+KW  - IFC_GlobalId
+KW  - BIM_FM
+KW  - Metadata_Only
+KW  - Verification_Required
+N1  - Full-text status: Metadata-only; full text not retrieved.
+N1  - Relevance: Closest competitors seed study.
+N1  - Role: Background/uncertain source.
+N1  - Limitation: Access insufficient to confirm sensor-evidence linkage or inspection/maintenance record content. Verification required.
+ER  -
+
+TY  - GEN
+AU  - World Wide Web Consortium
+AU  - Open Geospatial Consortium
+PY  - 2017
+TI  - Semantic Sensor Network Ontology
+PB  - W3C
+UR  - https://www.w3.org/TR/vocab-ssn/
+KW  - G2
+KW  - Condition_Evidence
+KW  - Official_Standard
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed (official W3C recommendation).
+N1  - Relevance: Condition Evidence metadata model (sensor linkage, observation/result structure).
+N1  - Role: Methodological/foundational standard.
+N1  - Limitation: Domain-general; not SHM- or BIM-specific.
+ER  -
+
+TY  - JOUR
+AU  - Janowicz, Krzysztof
+AU  - Haller, Armin
+AU  - Cox, Simon J. D.
+AU  - Le Phuoc, Danh
+AU  - Lefrançois, Maxime
+PY  - 2018
+TI  - SOSA: A Lightweight Ontology for Sensors, Observations, Samples, and Actuators
+JO  - arXiv preprint
+UR  - https://arxiv.org/abs/1805.09979
+KW  - G2
+KW  - Condition_Evidence
+KW  - Provenance
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed.
+N1  - Relevance: Condition Evidence model; phenomenonTime/resultTime separation aligned to PROV-O.
+N1  - Role: Methodological source.
+N1  - Limitation: General sensor/observation ontology, not SHM-specific.
+ER  -
+
+TY  - GEN
+AU  - Janowicz, Krzysztof
+AU  - Haller, Armin
+AU  - Cox, Simon J. D.
+AU  - Le Phuoc, Danh
+AU  - Lefrançois, Maxime
+PY  - 2019
+TI  - The SOSA/SSN Ontology: A Joint W3C and OGC Standard Specifying the Semantics of Sensors, Observations, Actuation, and Sampling
+JO  - Semantic Web Journal
+UR  - https://www.semantic-web-journal.net/system/files/swj1804.pdf
+KW  - G2
+KW  - Condition_Evidence
+KW  - Provenance
+KW  - Official_Standard
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed.
+N1  - Relevance: Condition Evidence model, joint W3C/OGC standard specification.
+N1  - Role: Methodological/foundational standard.
+N1  - Limitation: Domain-general, requires SHM-specific extension.
+ER  -
+
+TY  - GEN
+AU  - World Wide Web Consortium
+PY  - 2017
+TI  - Extensions to the Semantic Sensor Network Ontology
+PB  - W3C
+UR  - https://www.w3.org/TR/vocab-ssn-ext/
+KW  - G2
+KW  - Condition_Evidence
+KW  - Official_Standard
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed (official W3C recommendation).
+N1  - Relevance: Condition Evidence acquisition-session/observation-collection modeling.
+N1  - Role: Supporting standard.
+N1  - Limitation: General extension mechanism, not condition-monitoring specific.
+ER  -
+
+TY  - CPAPER
+AU  - Hamdan, Al-Hakam
+AU  - Bonduel, Mathias
+AU  - Scherer, Raimar J.
+PY  - 2019
+TI  - An ontological model for the representation of damage to constructions
+T2  - Proceedings of the 7th Linked Data in Architecture and Construction Workshop (LDAC 2019)
+UR  - https://ceur-ws.org/Vol-2389/05paper.pdf
+KW  - G2
+KW  - Condition_Evidence
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed.
+N1  - Relevance: Damage Topology Ontology (DOT); separates damage topology from classification/assessment.
+N1  - Role: Methodological source, structural precedent for keeping evidence distinct from diagnosis.
+N1  - Limitation: Ontology-level framework, not implemented as a component-level traceability schema with record IDs.
+ER  -
+
+TY  - CPAPER
+AU  - Kernicky, Timothy
+AU  - Whelan, Matthew
+AU  - Al-Shaer, Ehab
+PY  - 2019
+TI  - Vibration-based damage detection with uncertainty quantification by structural identification using nonlinear constraint satisfaction with interval arithmetic
+JO  - Structural Health Monitoring
+DO  - 10.1177/1475921718806476
+UR  - https://journals.sagepub.com/doi/10.1177/1475921718806476
+PB  - SAGE
+KW  - G2
+KW  - Condition_Evidence
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed.
+N1  - Relevance: Condition Evidence model; confidence/uncertainty as separate field from damage severity.
+N1  - Role: Methodological source supporting lab-evidence-without-classifier-transfer contribution.
+N1  - Limitation: Vibration-based SHM diagnostic context; does not address inspection-management (non-diagnostic) linkage.
+ER  -
+
+TY  - GEN
+AU  - World Wide Web Consortium
+PY  - 2016
+TI  - Data on the Web Best Practices: Data Quality Vocabulary
+PB  - W3C
+UR  - https://www.w3.org/TR/vocab-dqv/
+KW  - G2
+KW  - Condition_Evidence
+KW  - Official_Standard
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed (official W3C recommendation).
+N1  - Relevance: Data-quality warning/validity-status metadata for Condition Evidence.
+N1  - Role: Cross-domain transferable standard.
+N1  - Limitation: No SHM-specific reuse identified in reviewed literature; indirectly supported transfer only.
+ER  -
+
+TY  - JOUR
+AU  - Albertoni, Riccardo
+AU  - Isaac, Antoine
+PY  - 2020
+TI  - Introducing the Data Quality Vocabulary (DQV)
+JO  - Semantic Web
+DO  - 10.3233/SW-200382
+UR  - https://journals.sagepub.com/doi/full/10.3233/SW-200382
+PB  - IOS Press
+KW  - G2
+KW  - Condition_Evidence
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed.
+N1  - Relevance: Data-quality metadata model for Condition Evidence validity status.
+N1  - Role: Supporting/methodological source.
+N1  - Limitation: General data-quality vocabulary, not domain-specific to BIM/SHM.
+ER  -
+
+TY  - GEN
+AU  - Lebo, Timothy
+AU  - Sahoo, Satya
+AU  - McGuinness, Deborah
+PY  - 2013
+TI  - PROV-O: The PROV Ontology
+PB  - W3C
+UR  - https://www.w3.org/TR/prov-o/
+KW  - G2
+KW  - G3
+KW  - Condition_Evidence
+KW  - Provenance
+KW  - Official_Standard
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed (official W3C recommendation).
+N1  - Relevance: Provenance model for Condition Evidence and bidirectional traceability requirements.
+N1  - Role: Foundational methodological standard, used across multiple G2/G3 requirements.
+N1  - Limitation: Domain-general provenance ontology; requires domain-specific extension for BIM/SHM.
+ER  -
+
+TY  - RPRT
+AU  - DataCite Metadata Working Group
+PY  - 2021
+TI  - DataCite Metadata Schema Documentation for the Publication and Citation of Research Data and Other Research Outputs, Version 4.1
+PB  - DataCite
+UR  - https://schema.datacite.org/meta/kernel-4.1/doc/DataCite-MetadataKernel_v4.1.pdf
+KW  - G2
+KW  - Condition_Evidence
+KW  - Provenance
+KW  - Official_Standard
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed.
+N1  - Relevance: Version/RelatedIdentifier scheme for Condition_Evidence model checkpoint/version identity.
+N1  - Role: Methodological standard.
+N1  - Limitation: Originates in dataset/software citation practice, not SHM-specific.
+ER  -
+
+TY  - RPRT
+AU  - DataCite
+PY  - 2022
+TI  - Versioning
+PB  - DataCite Support Documentation
+UR  - https://support.datacite.org/docs/versioning
+KW  - G2
+KW  - Condition_Evidence
+KW  - Provenance
+KW  - Official_Standard
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed.
+N1  - Relevance: Version governance mechanism for Condition_Evidence and schema versioning.
+N1  - Role: Supporting standard documentation.
+N1  - Limitation: General DOI versioning practice, not domain-specific.
+ER  -
+
+TY  - RPRT
+AU  - DataCite
+PY  - 2022
+TI  - Tracking metadata provenance
+PB  - DataCite Support Documentation
+UR  - https://support.datacite.org/docs/tracking-provenance
+KW  - G2
+KW  - Provenance
+KW  - Official_Standard
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed.
+N1  - Relevance: Production-scale PROV-O implementation for metadata provenance.
+N1  - Role: Supporting evidence for creator-source-operation-timestamp-version traceability pattern.
+N1  - Limitation: Dataset DOI context, not BIM/construction-specific.
+ER  -
+
+TY  - CPAPER
+AU  - Stolk, Sander
+AU  - McGlinn, Kris
+PY  - 2020
+TI  - Validation of IfcOWL datasets using SHACL
+T2  - Proceedings of the 8th Linked Data in Architecture and Construction Workshop (LDAC 2020)
+UR  - https://linkedbuildingdata.net/ldac2020/files/papers/07paper.pdf
+KW  - G3
+KW  - Constraint_Validation
+KW  - SHACL
+KW  - ifcOWL
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed.
+N1  - Relevance: Referential-integrity failure testing; foundational SHACL-for-ifcOWL methodology.
+N1  - Role: Methodological source (strong candidate anchor for Paper 2).
+N1  - Limitation: Demonstrates general ifcOWL validation, not the specific named fixture battery (orphan/duplicate ID, conflicting status) required by the thesis.
+ER  -
+
+TY  - JOUR
+AU  - Wang, Chao
+AU  - Cheng, Jack C. P.
+AU  - Chen, Weiwei
+PY  - 2024
+TI  - Enhancement and validation of ifcOWL ontology based on Shapes Constraint Language (SHACL)
+JO  - Automation in Construction
+VL  - 161
+C7  - 105293
+DO  - 10.1016/j.autcon.2024.105293
+UR  - https://www.sciencedirect.com/science/article/pii/S0926580524000293
+PB  - Elsevier
+KW  - G3
+KW  - Constraint_Validation
+KW  - SHACL
+KW  - ifcOWL
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed.
+N1  - Relevance: Referential-integrity failure testing; SHACL operationalization of IFC EXPRESS WHERE-rules at scale.
+N1  - Role: Strong methodological source, strongest published evidence for SHACL-based IFC constraint operationalization.
+N1  - Limitation: Does not test the specific fixture battery (orphan Sensor_ID, conflicting status, unaccountable status change) proposed by the thesis.
+ER  -
+
+TY  - JOUR
+AU  - Ke, Jian
+AU  - Acosta, Maribel
+AU  - et al.
+PY  - 2024
+TI  - Efficient Validation of SHACL Shapes with Reasoning
+JO  - Proceedings of the VLDB Endowment
+VL  - 17
+UR  - https://www.vldb.org/pvldb/vol17/p3589-acosta.pdf
+PB  - VLDB Endowment
+KW  - G3
+KW  - Constraint_Validation
+KW  - SHACL
+KW  - Abstract_Only
+N1  - Full-text status: Abstract/partial reviewed.
+N1  - Relevance: Constraint validation methodology, efficient SHACL reasoning.
+N1  - Role: Supporting methodological source demonstrating sustained academic uptake of SHACL validation research.
+N1  - Limitation: General database-systems paper, not BIM-specific.
+ER  -
+
+TY  - THES
+AU  - van den Bersselaar, R.
+PY  - 2022
+TI  - SHACL-based rule-checking prototype for validating technical requirements documents against BIM models
+PB  - Eindhoven University of Technology
+UR  - https://pure.tue.nl/ws/portalfiles/portal/215386995/Bersselaar_van_den_0894574_CME_Vries_d.pdf
+KW  - G3
+KW  - Constraint_Validation
+KW  - SHACL
+KW  - BIM_FM
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed.
+N1  - Relevance: Constraint validation; applied SHACL rule-checking for BIM quality control.
+N1  - Role: Supporting/applied methodological source (MSc thesis).
+N1  - Limitation: Not peer-reviewed journal publication; dependent on prior BIM modelling quality.
+ER  -
+
+TY  - CPAPER
+AU  - Anonymous
+PY  - 2023
+TI  - Validation of building models against legislation using SHACL and the RASE methodology
+T2  - Proceedings of the 11th Linked Data in Architecture and Construction Workshop (LDAC 2023)
+UR  - https://linkedbuildingdata.net/ldac2023/files/papers/papers/LDAC2023_paper_8284.pdf
+KW  - G3
+KW  - Constraint_Validation
+KW  - SHACL
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed.
+N1  - Relevance: Constraint validation methodology, regulatory compliance plus completeness checking.
+N1  - Role: Supporting methodological source.
+N1  - Limitation: Regulatory-compliance focus, not condition-evidence/inspection traceability specific.
+ER  -
+
+TY  - GEN
+AU  - Anonymous
+PY  - 2026
+TI  - Ontological Knowledge Blocks: Executable Compliance and Provenance Governance
+JO  - arXiv preprint
+UR  - https://arxiv.org/pdf/2605.23297.pdf
+KW  - G3
+KW  - Constraint_Validation
+KW  - SHACL
+KW  - Provenance
+KW  - Accountability
+KW  - Abstract_Only
+N1  - Full-text status: Abstract/partial reviewed.
+N1  - Relevance: Closest academic precedent for validating provenance completeness and traceability with SHACL.
+N1  - Role: Supporting methodological source, domain-adjacent (EU AI Act context).
+N1  - Limitation: Not BIM-specific; methodologically transferable only.
+ER  -
+
+TY  - GEN
+AU  - buildingSMART International
+PY  - 2024
+TI  - Information Delivery Specification (IDS)
+PB  - buildingSMART International
+UR  - https://www.buildingsmart.org/standards/bsi-standards/information-delivery-specification-ids/
+KW  - G3
+KW  - Constraint_Validation
+KW  - Official_Standard
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed (official standard, finalized June 2024).
+N1  - Relevance: Constraint/negative-testing infrastructure for IFC-linked data.
+N1  - Role: Official standard, not peer-reviewed research.
+N1  - Limitation: Engineering standard, not an academic negative-testing study.
+ER  -
+
+TY  - GEN
+AU  - buildingSMART International
+PY  - 2020
+TI  - IFC4.2 Software Identity Template
+PB  - buildingSMART International
+UR  - https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/schema/templates/software-identity.htm
+KW  - G2
+KW  - IFC_GlobalId
+KW  - Asset_Identity
+KW  - Official_Standard
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed (official normative documentation).
+N1  - Relevance: IFC GlobalId persistence intent and governance.
+N1  - Role: Official standard/normative statement.
+N1  - Limitation: Normative expectation only; no enforcement mechanism in schema.
+ER  -
+
+TY  - GEN
+AU  - buildingSMART International
+PY  - 2023
+TI  - IFC4.3 Revision Control Concept
+PB  - buildingSMART International
+UR  - https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Object_Attributes/Revision_Control/content.html
+KW  - G2
+KW  - IFC_GlobalId
+KW  - Official_Standard
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed (official normative documentation).
+N1  - Relevance: GUID-plus-change-action revision-control mechanism.
+N1  - Role: Official standard.
+N1  - Limitation: Applies to model-server workflows, not typically implemented in mainstream authoring-tool/IFC-file exchange.
+ER  -
+
+TY  - GEN
+AU  - buildingSMART International
+PY  - 2020
+TI  - Provide identity to IFC files (NextGen-IFC Issue #67)
+PB  - buildingSMART International GitHub
+UR  - https://github.com/buildingSMART/NextGen-IFC/issues/67
+KW  - G2
+KW  - IFC_GlobalId
+KW  - Verification_Required
+N1  - Full-text status: Full text reviewed (community issue/proposal).
+N1  - Relevance: Official acknowledgment of file-level identity gap in IFC.
+N1  - Role: Standards-body community discussion, unresolved proposal.
+N1  - Limitation: Unresolved as of review; no ratified solution exists.
+ER  -
+
+TY  - GEN
+AU  - Tammik, Jeremy
+PY  - 2019
+TI  - IFC GUID Generation and Uniqueness
+PB  - Autodesk (technical blog)
+UR  - https://jeremytammik.github.io/tbc/a/0819_ifc_guid.htm
+KW  - G2
+KW  - IFC_GlobalId
+KW  - Asset_Identity
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed.
+N1  - Relevance: GUID generation stability/instability across authoring-tool export cycles.
+N1  - Role: Vendor engineering explanation, not independent study.
+N1  - Limitation: Vendor-specific (Revit); generalization to other authoring tools not established.
+ER  -
+
+TY  - GEN
+AU  - buildingSMART Forums
+PY  - 2020
+TI  - GUIDs in a BIM Project
+PB  - buildingSMART Forums
+UR  - https://forums.buildingsmart.org/t/guids-in-an-bim-project/2593
+KW  - G2
+KW  - IFC_GlobalId
+KW  - Verification_Required
+N1  - Full-text status: Full text reviewed (practitioner forum thread).
+N1  - Relevance: Duplicate-GUID occurrence in federated project deliveries.
+N1  - Role: Practitioner/anecdotal report.
+N1  - Limitation: Not peer-reviewed; illustrates empirically observed risk, not a controlled study.
+ER  -
+
+TY  - GEN
+AU  - ifcopenshell contributors
+PY  - 2023
+TI  - RegenerateGlobalIds (IfcPatch recipe documentation)
+PB  - ifcopenshell
+UR  - https://docs.ifcopenshell.org/autoapi/ifcpatch/recipes/RegenerateGlobalIds/index.html
+KW  - G2
+KW  - G3
+KW  - IFC_GlobalId
+KW  - Constraint_Validation
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed (tool documentation).
+N1  - Relevance: Duplicate/invalid-GUID detection and repair tooling; supports orphan-ID/duplicate-ID test design.
+N1  - Role: Open-source tooling documentation.
+N1  - Limitation: Confirms duplicate GUIDs as a known data-quality problem; not an academic study.
+ER  -
+
+TY  - GEN
+AU  - CORENET
+PY  - 2021
+TI  - General Modelling Practices (IFC-SG)
+PB  - Singapore Building and Construction Authority
+UR  - https://info.corenet.gov.sg/ifc-sg/modelling---authoring/GeneralModellingPractices
+KW  - G2
+KW  - IFC_GlobalId
+KW  - Official_Standard
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed.
+N1  - Relevance: National guideline for GUID uniqueness across federated discipline models.
+N1  - Role: Official government guideline.
+N1  - Limitation: Prescriptive best practice; adoption outside Singapore's regulatory context unverified.
+ER  -
+
+TY  - JOUR
+AU  - Deng, Yichuan
+AU  - Menassa, Carol C.
+AU  - Kamat, Vineet R.
+PY  - 2021
+TI  - From BIM to digital twins: a systematic review of the evolution of intelligent building representations in the AEC-FM industry
+JO  - Journal of Information Technology in Construction (ITcon)
+VL  - 26
+UR  - https://www.itcon.org/papers/2021_05-SI-ITcon-Deng.pdf
+PB  - ITcon
+KW  - G1
+KW  - G2
+KW  - IFC_GlobalId
+KW  - Digital_Twin
+KW  - BIM_FM
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed.
+N1  - Relevance: Systematic review confirming literature-wide gap in sensor-to-BIM identity persistence.
+N1  - Role: Background review/systematic review.
+N1  - Limitation: Meta-analysis; confirms gap exists but does not resolve it.
+ER  -
+
+TY  - GEN
+AU  - Xie, Xiang
+AU  - et al.
+PY  - 2022
+TI  - A Digital Twin-Enabled Anomaly Detection System for Asset Management
+PB  - UCL Discovery repository
+UR  - https://discovery.ucl.ac.uk/id/eprint/10102713/1/manuscript.pdf
+KW  - G1
+KW  - G2
+KW  - IFC_GlobalId
+KW  - Digital_Twin
+KW  - Inspection_Record
+KW  - Abstract_Only
+N1  - Full-text status: Manuscript reviewed at abstract/partial level.
+N1  - Relevance: Proposed IFC schema extensions (IfcMaintenanceHistory, IfcInspectionHistory) for sensor-maintenance traceability.
+N1  - Role: Conceptual framework paper.
+N1  - Limitation: Proposed extension not yet part of ratified IFC schema; not empirically validated at scale.
+ER  -
+
+TY  - JOUR
+AU  - Brookes, Ben
+AU  - et al.
+PY  - 2023
+TI  - Technologies for digital twin applications in construction
+JO  - Automation in Construction
+UR  - https://radar.brookes.ac.uk/radar/file/45bbdc29-5a2d-4da2-8d92-a64bee6f8543/1/1-s2.0-S0926580523001917-main.pdf
+PB  - Elsevier
+KW  - G1
+KW  - G2
+KW  - IFC_GlobalId
+KW  - Digital_Twin
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed.
+N1  - Relevance: Review documenting IfcObject matching-table pattern (BIM GUID crosswalk to BMS/sensor IDs).
+N1  - Role: Literature review citing peer-reviewed semantic modeling studies.
+N1  - Limitation: Reviewed studies rely on manually maintained matching tables; no automated re-validation after model revision.
+ER  -
+
+TY  - RPRT
+AU  - Building Lifecycle Management Initiative
+PY  - 2025
+TI  - Establishing GUID Identifiers - RTU Example
+PB  - Western Michigan Municipal Utilities Group (WMMUG)
+UR  - https://wmmug.org/wp-content/uploads/2025/06/WMMUG2505C_EstablishingGUID_Identifiers_RTU_Example-IFMA.pdf
+KW  - G2
+KW  - IFC_GlobalId
+KW  - Asset_Identity
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed.
+N1  - Relevance: Identifier schema design; canonical human-readable Asset Tag as master key with GUID secondary.
+N1  - Role: Practitioner/vendor worked example.
+N1  - Limitation: Illustrative proof-of-concept, not independently validated empirical study.
+ER  -
+
+TY  - GEN
+AU  - Grüninger, Michael
+AU  - Fox, Mark S.
+PY  - 1995
+TI  - Methodology for the Design and Evaluation of Ontologies
+UR  - https://ceur-ws.org/Vol-1908/paper16.pdf
+KW  - G2
+KW  - Competency_Questions
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed (foundational reference, cited via CEUR-WS proceedings).
+N1  - Relevance: Foundational competency-question methodology.
+N1  - Role: Methodological source, origin of competency-question concept.
+N1  - Limitation: General ontology-engineering framework, not BIM-specific.
+ER  -
+
+TY  - JOUR
+AU  - Espinoza, Angelina
+AU  - Del-Moral, Ernesto
+AU  - Martínez-Martínez, Alfonso
+AU  - Alí, Nour
+PY  - 2021
+TI  - A validation & verification driven ontology: An iterative process
+JO  - Applied Ontology
+DO  - 10.3233/AO-210251
+UR  - https://journals.sagepub.com/doi/10.3233/AO-210251
+PB  - IOS Press
+KW  - G2
+KW  - Competency_Questions
+KW  - Constraint_Validation
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed.
+N1  - Relevance: CODEP process; competency-question elicitation and validation-criteria definition prior to implementation.
+N1  - Role: Strong methodological source, anchor for pre-registered competency-question protocol.
+N1  - Limitation: General ontology-engineering process, not domain-specific to BIM/condition-evidence chain.
+ER  -
+
+TY  - CHAP
+AU  - Monfardini, Giulia
+AU  - et al.
+PY  - 2023
+TI  - Use of Competency Questions in Ontology Engineering: A Survey
+T2  - Advances in Pattern-Based Ontology Engineering
+DO  - 10.1007/978-3-031-47262-6_3
+UR  - https://link.springer.com/chapter/10.1007/978-3-031-47262-6_3
+PB  - Springer
+KW  - G2
+KW  - Competency_Questions
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed.
+N1  - Relevance: Survey of 63 ontology engineers on competency-question practice.
+N1  - Role: Supporting methodological source.
+N1  - Limitation: General ontology-engineering survey, not construction/BIM-specific.
+ER  -
+
+TY  - JOUR
+AU  - Keet, C. Maria
+AU  - Khan, Zubeida Casmod
+PY  - 2024
+TI  - Discerning and Characterising Types of Competency Questions for Ontologies
+JO  - arXiv preprint
+DO  - 10.48550/arXiv.2412.13688
+UR  - https://arxiv.org/abs/2412.13688
+KW  - G2
+KW  - Competency_Questions
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed.
+N1  - Relevance: QuO model distinguishing Scoping/Validating/Foundational/Relationship/Metaproperty competency questions.
+N1  - Role: Strong methodological source for competency-question typology.
+N1  - Limitation: General ontology-engineering typology, applied here by transfer to the BIM traceability domain.
+ER  -
+
+TY  - GEN
+AU  - Keet, C. Maria
+PY  - 2024
+TI  - On the Roles of Competency Questions in Ontology Engineering (EKAW'24 position paper)
+UR  - http://www.meteck.org/files/EKAW24positionPaperCQs.pdf
+KW  - G2
+KW  - Competency_Questions
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed.
+N1  - Relevance: Competency questions serve manifold purposes beyond scoping (knowledge acquisition, validation).
+N1  - Role: Methodological position paper.
+N1  - Limitation: General ontology engineering, not BIM-specific.
+ER  -
+
+TY  - GEN
+AU  - Keet, C. Maria
+PY  - 2022
+TI  - Only answering competency questions is not enough to evaluate your ontology
+PB  - Keet blog (methodological commentary)
+UR  - https://keet.wordpress.com/2022/06/08/only-answering-competency-questions-is-not-enough-to-evaluate-your-ontology/
+KW  - G2
+KW  - Competency_Questions
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed.
+N1  - Relevance: Caution that CQ answering alone is insufficient for ontology evaluation.
+N1  - Role: Supporting methodological commentary by a recognized domain authority.
+N1  - Limitation: Blog-format commentary rather than peer-reviewed article, but authored by established competency-question researcher.
+ER  -
+
+TY  - JOUR
+AU  - Wiśniewski, Dawid
+AU  - Potoniec, Jędrzej
+AU  - Ławrynowicz, Agnieszka
+AU  - Keet, C. Maria
+PY  - 2019
+TI  - Analysis of Ontology Competency Questions and their formalizations in SPARQL-OWL
+JO  - Journal of Web Semantics
+DO  - 10.1016/j.websem.2019.100534
+UR  - https://dl.acm.org/doi/10.1016/j.websem.2019.100534
+PB  - Elsevier
+KW  - G2
+KW  - G3
+KW  - Competency_Questions
+KW  - Constraint_Validation
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed.
+N1  - Relevance: Formal ⟨Q, σ⟩ pair definition of competency questions with executable-query/expected-answer/satisfaction semantics.
+N1  - Role: Strong methodological source anchoring pre-registered competency-question protocol.
+N1  - Limitation: General SPARQL-OWL ontology engineering, not BIM-specific.
+ER  -
+
+TY  - JOUR
+AU  - Wiśniewski, Dawid
+AU  - Potoniec, Jędrzej
+AU  - Ławrynowicz, Agnieszka
+AU  - Keet, C. Maria
+PY  - 2019
+TI  - Dataset of ontology competency questions to SPARQL-OWL queries translations
+JO  - Data in Brief
+UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC6971340/
+PB  - Elsevier
+KW  - G2
+KW  - G3
+KW  - Competency_Questions
+KW  - Constraint_Validation
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed.
+N1  - Relevance: 234 CQs paired with 131 SPARQL-OWL queries, gold-standard test-data set.
+N1  - Role: Supporting methodological dataset article.
+N1  - Limitation: Provides test data/executable queries but not explicit acceptance-criteria documentation beyond query-answer equivalence.
+ER  -
+
+TY  - THES
+AU  - Wiśniewski, Dawid
+PY  - 2021
+TI  - Test-driven development of ontologies
+PB  - Poznań University of Technology
+UR  - https://bip-archiwum.put.poznan.pl/sites/default/files/wisniewski_rozprawa.pdf
+KW  - G2
+KW  - G3
+KW  - Competency_Questions
+KW  - Constraint_Validation
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed (PhD thesis).
+N1  - Relevance: Full test-driven ontology development loop (CQ to SPARQL-OWL, entailment pass/fail, refactoring on failure).
+N1  - Role: Strong methodological source directly modeling failure conditions as test outcomes.
+N1  - Limitation: General ontology engineering thesis, not applied to BIM/condition-evidence domain.
+ER  -
+
+TY  - JOUR
+AU  - Hammad, Ahmed
+AU  - Akbarnezhad, Ali
+AU  - Rey, David
+PY  - 2018
+TI  - Towards Unified Ontology for Modeling Lifecycle Inspection and Repair Information Models
+T2  - Proceedings of ICCCBE 2018
+UR  - https://spectrum.library.concordia.ca/id/eprint/994160/1/paper_icccbe2018_FINAL-Dr_Hammad.pdf
+KW  - G2
+KW  - Inspection_Record
+KW  - Action_Record
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed.
+N1  - Relevance: Inspection_Record entity fields (inspector ID/qualification, date/method); 3R repair/rehab/replace action modeling.
+N1  - Role: Strong methodological source for Inspection_Record and Action_Record design.
+N1  - Limitation: Ontology framework only; not validated with a full status/audit-trail entity.
+ER  -
+
+TY  - JOUR
+AU  - Ren, Guoqian
+AU  - Ding, Runsheng
+AU  - Li, Hui
+PY  - 2019
+TI  - Building an ontological knowledgebase for bridge maintenance
+JO  - Advances in Engineering Software
+UR  - https://www.sciencedirect.com/science/article/abs/pii/S0965997818307634
+PB  - Elsevier
+KW  - G2
+KW  - Inspection_Record
+KW  - Action_Record
+KW  - Abstract_Only
+N1  - Full-text status: Abstract-only reviewed.
+N1  - Relevance: Bridge maintenance ontology with condition/defect and maintenance-action classes.
+N1  - Role: Supporting source for Inspection_Record/Action_Record entity classification.
+N1  - Limitation: Knowledgebase-level, not implemented as a schema with formal record IDs.
+ER  -
+
+TY  - JOUR
+AU  - Artus, Maximilian
+AU  - Koch, Christian
+AU  - Borrmann, André
+PY  - 2018
+TI  - Integrating RC Bridge Defect Information into BIM Models (TUM RC bridge defect information model)
+JO  - TUM Publications
+UR  - https://publications.cms.bgu.tum.de/2018_Borrmann_bridgedefects.pdf
+KW  - G2
+KW  - Inspection_Record
+KW  - IFC_GlobalId
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed.
+N1  - Relevance: Hierarchical defect information objects mapped to new IFC entities (IfcMeasuredRegion, IfcDegradation).
+N1  - Role: Methodological source, proof-of-concept for IFC-linked defect modeling.
+N1  - Limitation: No lifecycle/status tracking modeled.
+ER  -
+
+TY  - THES
+AU  - Bahreini, Farzad
+PY  - 2022
+TI  - Ontological and Machine Learning Approaches for Bridge Inspection, Diagnosis, and Repair Decision-Making
+PB  - Concordia University
+UR  - https://spectrum.library.concordia.ca/id/eprint/991029/1/Bahreini_PhD_F2022.pdf
+KW  - G2
+KW  - Inspection_Record
+KW  - Action_Record
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed (PhD thesis).
+N1  - Relevance: OCSD ontology covering inspection, diagnosis, and 3R (repair/rehab/replace) concepts.
+N1  - Role: Supporting methodological source.
+N1  - Limitation: Conceptual ontology; not implemented as records with IDs/status.
+ER  -
+
+TY  - GEN
+AU  - buildingSMART International
+PY  - 2023
+TI  - IFC4.3 Pset_ProjectOrderMaintenanceWorkOrder
+PB  - buildingSMART International
+UR  - https://ifc43-docs.standards.buildingsmart.org/
+KW  - G2
+KW  - Action_Record
+KW  - Official_Standard
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed (official IFC4.3 standard).
+N1  - Relevance: Maintenance work-order property set (MaintenanceType enum, ScheduledFrequency).
+N1  - Role: Official standard defining Action_Record precedent properties.
+N1  - Limitation: Standard defines properties, not lifecycle states or audit entities.
+ER  -
+
+TY  - GEN
+AU  - buildingSMART International
+PY  - 2023
+TI  - IFC4.3 IfcTask entity specification
+PB  - buildingSMART International
+UR  - https://ifc43-docs.standards.buildingsmart.org/
+KW  - G2
+KW  - Action_Record
+KW  - Status_Event
+KW  - Official_Standard
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed (official IFC4.3 standard).
+N1  - Relevance: IfcTask.Status (free-text label) and IfcTask.Priority (unordered integer) as existing Action_Record/Status_Event precedent.
+N1  - Role: Official standard.
+N1  - Limitation: Status is a mutable label with no versioned history; Priority is unstructured integer.
+ER  -
+
+TY  - GEN
+AU  - Chen, Kuei-Yen
+PY  - 2020
+TI  - Facility Maintenance Traceability Information Coding in BIM-Based Facility Repair Platform
+JO  - Advances in Civil Engineering
+DO  - 10.1155/2020/3426563
+UR  - https://onlinelibrary.wiley.com/doi/10.1155/2020/3426563
+PB  - Hindawi/Wiley
+KW  - G2
+KW  - G3
+KW  - Bidirectional_Traceability
+KW  - BIM_FM
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed.
+N1  - Relevance: QR-code-based traceability coding; functionally reverse-capable identifier lookup.
+N1  - Role: Case-tested prototype, methodological source for bidirectional traceability.
+N1  - Limitation: Traceability is ID-based (QR) rather than a full provenance chain to run/version.
+ER  -
+
+TY  - JOUR
+AU  - Carvalho, J. P.
+AU  - et al.
+PY  - 2023
+TI  - BIM Model to Support O&M Tasks
+JO  - Journal of Information Technology in Construction (ITcon)
+VL  - 28
+UR  - https://itcon.org/papers/2023-16-ITcon-Carvalho.pdf
+PB  - ITcon
+KW  - G2
+KW  - G3
+KW  - Bidirectional_Traceability
+KW  - BIM_FM
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed.
+N1  - Relevance: BIM elements linked to external maintenance sheet, six maintenance-act categories.
+N1  - Role: Framework/taxonomy source for bidirectional traceability.
+N1  - Limitation: No computational round-trip or integrity test reported.
+ER  -
+
+TY  - GEN
+AU  - ASCE
+PY  - 2016
+TI  - IFC BIM-Based Facility Management Approach to Optimize Data Collection for Corrective Maintenance
+JO  - Journal of Performance of Constructed Facilities
+VL  - 31
+IS  - 1
+DO  - 10.1061/(ASCE)CF.1943-5509.0000941
+UR  - https://ascelibrary.org/doi/10.1061/(ASCE)CF.1943-5509.0000941
+PB  - American Society of Civil Engineers
+KW  - G2
+KW  - G3
+KW  - Bidirectional_Traceability
+KW  - BIM_FM
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed.
+N1  - Relevance: Alarm-to-BIM element-to-CMMS record linkage validated on a university building.
+N1  - Role: Case-study source for bidirectional traceability evidence.
+N1  - Limitation: One-directional workflow (alarm to CMMS); no reverse verification.
+ER  -
+
+TY  - JOUR
+AU  - Anonymous (Building performance IFC schema authors)
+PY  - 2020
+TI  - Building performance and maintenance information model based on IFC schema
+JO  - Automation in Construction
+UR  - https://www.sciencedirect.com/science/article/abs/pii/S0926580520302181
+PB  - Elsevier
+KW  - G2
+KW  - Bidirectional_Traceability
+KW  - BIM_FM
+KW  - Abstract_Only
+N1  - Full-text status: Abstract-only reviewed.
+N1  - Relevance: Performance Information Model (openPIM) proposed schema-level linkage.
+N1  - Role: Schema proposal source.
+N1  - Limitation: Implementation and integrity testing not reported.
+ER  -
+
+TY  - THES
+AU  - Tavakoli, Sina
+AU  - Yitmen, Ibrahim
+PY  - 2023
+TI  - Blockchain-based digital twin data provenance for predictive asset management in building facilities
+PB  - Jönköping University (DiVA Portal)
+UR  - http://hj.diva-portal.org/smash/record.jsf?pid=diva2:1816800
+KW  - G2
+KW  - G3
+KW  - Bidirectional_Traceability
+KW  - Accountability
+KW  - Digital_Twin
+KW  - Abstract_Only
+N1  - Full-text status: Abstract-level reviewed.
+N1  - Relevance: Blockchain-based digital twin data provenance conceptual model.
+N1  - Role: Supporting conceptual proposal.
+N1  - Limitation: Model proposal, not empirically validated beyond conceptual description.
+ER  -
+
+TY  - GEN
+AU  - RWTH Aachen
+PY  - 2021
+TI  - Expressing FactDAG Provenance with PROV-O
+PB  - RWTH Aachen University Publications
+UR  - https://publications.rwth-aachen.de/record/807951/files/807951.pdf
+KW  - G2
+KW  - Provenance
+KW  - Bidirectional_Traceability
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed.
+N1  - Relevance: Formal FactDAG-to-PROV-O alignment for revisioned resource lineage tracing.
+N1  - Role: Supporting formal alignment paper.
+N1  - Limitation: No BIM/IFC or sensor case study; domain-agnostic.
+ER  -
+
+TY  - JOUR
+AU  - Kone, [First name not confirmed]
+AU  - et al.
+PY  - 2025
+TI  - An Ontology-Driven Bi-Directional Workflow for BIM/Knowledge Graph Validation
+JO  - Journal of Information Technology in Construction (ITcon)
+VL  - 30
+UR  - https://www.itcon.org/papers/2025_73-ITcon-Kone.pdf
+PB  - ITcon
+KW  - G2
+KW  - G3
+KW  - Bidirectional_Traceability
+KW  - ifcOWL
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed.
+N1  - Relevance: Entity-count/relational-containment methodology for IFC-knowledge-graph parity testing; direct basis for forward/reverse parity test design.
+N1  - Role: Strong methodological source anchoring bidirectional round-trip parity test.
+N1  - Limitation: Applied to IFC-to-knowledge-graph transformation, not the specific condition-evidence-to-action chain.
+ER  -
+
+TY  - GEN
+AU  - Anonymous
+PY  - 2023
+TI  - Let's invert it! From RDF to relational data with R2RML
+UR  - https://openreview.net/attachment?id=XUc9rtTsHp&name=pdf
+KW  - G3
+KW  - Bidirectional_Traceability
+KW  - Constraint_Validation
+KW  - Abstract_Only
+N1  - Full-text status: Abstract/partial reviewed.
+N1  - Relevance: R2RML inversion test suite methodology used for forward/reverse parity test design.
+N1  - Role: Supporting methodological source.
+N1  - Limitation: General RDF-relational mapping domain, not BIM-specific.
+ER  -
+
+TY  - JOUR
+AU  - Lee, Dongmin
+AU  - Lee, SangHyun
+AU  - Masoud, Nazila
+AU  - Krishnan, M. S.
+AU  - Li, Victor C.
+PY  - 2021
+TI  - Integrated digital twin and blockchain framework to support accountable information sharing in construction projects
+JO  - Automation in Construction
+VL  - 127
+C7  - 103688
+DO  - 10.1016/j.autcon.2021.103688
+UR  - https://doi.org/10.1016/j.autcon.2021.103688
+PB  - Elsevier
+KW  - G2
+KW  - G3
+KW  - Accountability
+KW  - Human_Review
+KW  - Digital_Twin
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed (open-access via University of Michigan repository).
+N1  - Relevance: Anchor study for accountable human-reviewed action workflow; blockchain-based traceable/immutable data-transaction logging.
+N1  - Role: Anchor study.
+N1  - Limitation: Tested on a prefabricated-brick positioning case, not a full inspection-to-work-order pipeline; no reviewer/approver roles modeled.
+ER  -
+
+TY  - JOUR
+AU  - Çelik, Yasin
+AU  - Petri, Ioan
+AU  - Barati, Masoud
+PY  - 2023
+TI  - Blockchain supported BIM data provenance for construction projects
+JO  - Computers in Industry
+VL  - 144
+C7  - 103768
+DO  - 10.1016/j.compind.2022.103768
+UR  - https://www.sciencedirect.com/science/article/pii/S0166361522001646
+PB  - Elsevier
+KW  - G2
+KW  - G3
+KW  - Accountability
+KW  - Provenance
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed (ScienceDirect and Cardiff University ORCA repository).
+N1  - Relevance: Anchor study for accountability/provenance; BIM object metadata recorded on Ethereum test network.
+N1  - Role: Anchor study.
+N1  - Limitation: Framed around provenance, not accountability for decisions; no described human approval gate; cost/scalability concerns noted.
+ER  -
+
+TY  - JOUR
+AU  - Johannes, Diaz
+AU  - Voordijk, Hans
+AU  - Adriaanse, Adriaan
+AU  - Aranda-Mena, Guillermo
+PY  - 2021
+TI  - Identifying Maturity Dimensions for Smart Maintenance Management of Constructed Assets: A Multiple Case Study
+JO  - Journal of Construction Engineering and Management
+VL  - 147
+IS  - 9
+C7  - 05021007
+DO  - 10.1061/(ASCE)CO.1943-7862.0002112
+UR  - https://ris.utwente.nl/ws/portalfiles/portal/264321856/Johannes_2021_Identifying_maturity_dimensions_for.pdf
+PB  - American Society of Civil Engineers
+KW  - G2
+KW  - Accountability
+KW  - Human_Review
+KW  - Asset_Management
+KW  - Full_Text_Reviewed
+N1  - Full-text status: Full text reviewed (open access via University of Twente repository).
+N1  - Relevance: Anchor study for accountable human-reviewed workflow; organizational maturity dimensions for allocating maintenance responsibility.
+N1  - Role: Anchor study (maturity-model, not technical accountability framework).
+N1  - Limitation: Framework is diagnostic/maturity-oriented, not a working information system; no metadata schema or workflow specification.
+ER  -
+
+TY  - GEN
+AU  - Anonymous (blockchain/BIM/IoT/DAO maintenance authors)
+PY  - 2021
+TI  - Blockchain and BIM (Building Information Modeling) integration for construction and maintenance
+JO  - arXiv preprint
+UR  - https://arxiv.org/pdf/2104.00547.pdf
+KW  - G2
+KW  - Accountability
+KW  - Human_Review
+KW  - Abstract_Only
+N1  - Full-text status: Abstract/partial reviewed.
+N1  - Relevance: DAO/CAFM framework with explicit human confirmation step before payment/status release.
+N1  - Role: Supporting conceptual proposal; direct evidence that thesis must avoid claiming full automation.
+N1  - Limitation: Semi-automated, not autonomous; human check limited to task completion confirmation, not diagnostic judgment.
+ER  -
+
+TY  - JOUR
+AU  - Zhong, [First name not confirmed]
+AU  - et al.
+PY  - 2024
+TI  - Blockchain-BIM accountability and provenance literature review (construction innovation)
+JO  - Construction Innovation: Information, Process, Management
+UR  - https://irep.ntu.ac.uk/id/eprint/49512/1/1789554_Zhong.pdf
+PB  - Emerald
+KW  - G2
+KW  - Accountability
+KW  - BACKGROUND_REVIEW
+KW  - Abstract_Only
+N1  - Full-text status: Abstract/partial reviewed.
+N1  - Relevance: Synthesizes accountability as transparency, fraud prevention, traceability via blockchain/smart contracts.
+N1  - Role: Background review.
+N1  - Limitation: Review-level claims of "automated maintenance operations" risk overstating autonomy of underlying primary studies.
+ER  -
+
+TY  - JOUR
+AU  - Kamal, [First name not confirmed]
+AU  - et al.
+PY  - 2022
+TI  - BIM-based repair and maintenance for hospital work order management
+JO  - Automation in Construction
+DO  - 10.1016/j.autcon.2022.104174
+UR  - https://www.sciencedirect.com/science/article/abs/pii/S0926580522004174
+PB  - Elsevier
+KW  - G2
+KW  - Accountability
+KW  - Action_Record
+KW  - Abstract_Only
+N1  - Full-text status: Abstract-only reviewed.
+N1  - Relevance: BIM plus Genetic Algorithm plus Discrete Event Simulation for repair/maintenance work-order scheduling.
+N1  - Role: Supporting case-study source.
+N1  - Limitation: No accountability metadata (creator/reviewer/approver fields); optimization-focused, not audit-trail focused.
+ER  -
+
+TY  - JOUR
+AU  - Anonymous
+PY  - 2019
+TI  - Effects of BIM and COBie Database Facility Management on Work Order Processing Times: Case Study
+JO  - Journal of Performance of Constructed Facilities
+VL  - 33
+IS  - 6
+DO  - 10.1061/(ASCE)CF.1943-5509.0001333
+UR  - https://ascelibrary.org/doi/abs/10.1061/(ASCE)CF.1943-5509.0001333
+PB  - American Society of Civil Engineers
+KW  - G2
+KW  - Accountability
+KW  - BIM_FM
+KW  - Abstract_Only
+N1  - Full-text status: Abstract-only reviewed.
+N1  - Relevance: Statistical two-sample t-test on real CMMS export data linking COBie/BIM to work orders.
+N1  - Role: Supporting empirical source.
+N1  - Limitation: Found no significant work-order time improvement from BIM/COBie; highlights lack of standardized recording rules, a gap in auditable metadata.
+ER  -

@@ -1,0 +1,11 @@
+analysis,variant,campaign_id,sensor_config,held_out_run,macro_f1,n_train,n_test,note
+A_provenance_R12,with_R12,Campaign2,S1S2S3_xyz,R7,0.9708069768299292,1200,240,"R12 in train set if it falls in train_runs2, else irrelevant to this fold"
+A_provenance_R12,without_R12,Campaign2,S1S2S3_xyz,R7,0.9749843652282677,1180,240,R12 recording_id=BS1B1L1R12 excluded from both train and test pools
+B_window_length,mid40s,Campaign2,S1S2S3_xyz,R7,0.9708069768299292,1200,240,
+B_window_length,full_duration,Campaign2,S1S2S3_xyz,R7,0.858878826368169,2601,520,
+C_normalisation,amplitude_preserving,Campaign2,S1S2S3_xyz,R7,0.9708069768299292,1200,240,
+C_normalisation,rms_normalized,Campaign2,S1S2S3_xyz,R7,0.841175720775007,1200,240,
+D_axis_selection,Campaign2_Ax_only,Campaign2,S1S2_Ax,R7,0.7698463543215015,1200,240,
+D_axis_selection,Campaign2_xyz,Campaign2,S1S2_xyz,R7,0.9192119622989158,1200,240,
+D_axis_selection,Campaign3_Ax_only,Campaign3,S1S2_Ax,R13,0.6598641905231974,1200,240,
+D_axis_selection,Campaign3_xyz,Campaign3,S1S2_xyz,R13,0.6903081797235022,1200,240,
