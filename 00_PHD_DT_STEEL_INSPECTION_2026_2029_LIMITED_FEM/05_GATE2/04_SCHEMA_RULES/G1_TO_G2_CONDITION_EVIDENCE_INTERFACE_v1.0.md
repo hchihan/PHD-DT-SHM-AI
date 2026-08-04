@@ -1,7 +1,7 @@
 # G1 TO G2 CONDITION EVIDENCE INTERFACE v1.0
 
 **Document type:** Implementation-neutral interface specification  
-**Status:** Proposed v1.0 for schema review  
+**Status:** CURRENT WORKING SPECIFICATION for G2 review
 **Current gate state:** Gate 1 is `OPEN/NOT READY`; this specification does not claim Gate 1, Gate 2, or Gate 3 completion.  
 **Governing scope:** Limited-FEM. FEM is nominal, uncalibrated, reference-only, not used for damage diagnosis.  
 **Contract boundary:** Gate 1 laboratory condition/state-change evidence to Gate 2 Evidence-to-Action Traceability Specification Readiness.
@@ -78,8 +78,8 @@ Upstream evidence is limited to controlled laboratory state-change evidence. It 
 | `00_GOVERNANCE/RESEARCH_ARCHITECTURE.md` | Read completely | Four-layer architecture; G2 requires identifier integrity, bidirectional traceability, and chain completeness | Does not define the detailed interface fields |
 | `01_CURRENT_CONTROL/CURRENT_STATUS_AND_NEXT_DIRECTION.md` | Read completely | Current gate is G1; run registry, LORO/LOGO decision, and model provenance remain unresolved; G2 criteria precede schema/demo | Contains navigation/version drift; current charter prevails |
 | `90_ARCHIVE/HISTORICAL_UNIQUE_FILES/BACKUP_BEFORE_WRITEBACK_20260718/RESEARCH_ARCHITECTURE_DECISION_RECORD_20260717.md` | Read completely; archived | Accepted Limited-FEM rationale; no calibration, diagnosis, or quantitative lab-to-field transfer | Historical supporting provenance, not current operational authority |
-| `G2_G3_PAPER2_REVISED_ROADMAP_v1.1.md` | Missing repository-wide | None | **Evidence is currently insufficient.** |
-| `G2_G3_DUAL_PAPER_ROADMAP_v1.2.md` | Missing repository-wide | None | **Evidence is currently insufficient.** |
+| `05_GATE2/G2_G3_PAPER2_CURRENT_ROADMAP_v2.1_20260804.md` | Current control roadmap | Establishes one Paper 2, G2-before-G3 sequence, evidence requirements, and tool boundary | Does not itself close a gate |
+| `01_CURRENT_CONTROL/G1_G2_INTERFACE_DECISION_REGISTER.csv` | Current decision register | Controls unresolved normative choices and prevents silent assumptions | Open decisions must be resolved before affected acceptance claims |
 | `G2_G3_ROUND1_DEEP_READ_AND_NOVELTY_BOUNDARY.md` | Read completely | Minimum evidence/BIM/provenance fields; strict negative-test definition; candidate versus verified identity boundary | Bellon full text was incomplete in that report |
 | `G2_G3_ROUND2_INSPECTION_ACTION_MODEL_DEEP_READ.md` | Read completely | Minimum Condition_Evidence and Inspection/Action/Status models; workflow and accountability boundaries | Xu full text was unavailable in that report |
 | `G2_G3_SCREENING_EVIDENCE_AND_GAP_REPORT.md` | Read completely | Prior-art boundary; integrated traceability, integrity, and human-review gaps | Screening evidence does not replace project execution evidence |
