@@ -9,7 +9,7 @@
 2. `SOURCE_OF_TRUTH_HIERARCHY_v2.1.md` khi có nghi ngờ mâu thuẫn.
 3. `RQ_WP_CHAPTER_PAPER_GATE_MATRIX_v2.1.md` + `EVIDENCE_GATES_v2.1.md` khi chạm RQ/WP/paper/gate.
 4. `TERMINOLOGY_CONTROL_CURRENT.md` cho thuật ngữ.
-5. `../90_ARCHIVE/HISTORICAL_UNIQUE_FILES/BACKUP_BEFORE_WRITEBACK_20260718/CURRENT_STATUS_AND_NEXT_DIRECTION.md` + `UNRESOLVED_ITEMS_TRACKER_v2.1.md` cho hiện trạng.
+5. `../01_CURRENT_CONTROL/CURRENT_STATUS_AND_NEXT_DIRECTION.md` + `../01_CURRENT_CONTROL/CURRENT_DIRECTION_LOCK_20260804.md` cho hiện trạng và hướng thực thi hiện hành.
 
 ## 2. Khai báo đầu nhiệm vụ (bắt buộc)
 `RQ → WP → Chapter/Paper → Evidence Gate → Scope classification (Core / Supporting / Future Work / Out of Scope)`.

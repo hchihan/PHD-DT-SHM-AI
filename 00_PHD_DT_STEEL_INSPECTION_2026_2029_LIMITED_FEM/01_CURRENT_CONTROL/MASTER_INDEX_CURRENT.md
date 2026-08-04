@@ -1,121 +1,85 @@
 # MASTER INDEX - CURRENT
-**Version:** 2026-07-18 cleanup · **v2.1 sync 2026-07-19**  
-**Status:** CURRENT  
-**Scope:** Navigation authority for files that actually exist. It does not reconstruct files recorded as missing.
 
-> **SOURCE OF TRUTH cao nhất: `../../00_GOVERNANCE/MASTER_RESEARCH_CHARTER_v2.1_TRACEABILITY_CORE_20260719.md`.** Trật tự ưu tiên đầy đủ: `../../00_GOVERNANCE/SOURCE_OF_TRUTH_HIERARCHY_v2.1.md`.
+**Effective date:** 2026-08-04
+**Status:** CURRENT NAVIGATION AUTHORITY
+**Rule:** This index lists current governing and working files only. Historical, superseded, review-required, backup, audit, and discovery files are intentionally excluded.
 
-## Authority Order
+## 1. Entry And Authority
 
-1. Supervisor decision 17/07/2026 (Verdict B) + Council review → THE_COUNCIL_REVIEW.
-2. **Charter v2.1 (Traceability-Core)** — source of truth cao nhất.
-3. Bộ file cấu trúc v2.1: matrix, evidence gates, ADR 20260719, terminology, agent rules.
-4. Charter v2.0 (docx) — nguồn quyết định lịch sử; v1.1 — SUPERSEDED.
-5. Current Direction/Architecture; Living Evidence Base; RQ/WP addenda & Paper packages.
-6. Discovery, backup, archive records.
-
-## Governance
-
-| Current file | Status | Owns |
+| File | Status | Role |
 |---|---|---|
-| `../../00_GOVERNANCE/MASTER_RESEARCH_CHARTER_v2.1_TRACEABILITY_CORE_20260719.md` | **CURRENT_SOURCE_OF_TRUTH** | Trục lõi, RQ/WP/Paper/Gate, claims, CEI, legal, field |
-| `../../00_GOVERNANCE/RQ_WP_CHAPTER_PAPER_GATE_MATRIX_v2.1.md` | CURRENT_APPROVED | Ma trận RQ–WP–Chapter–Paper–Gate |
-| `../../00_GOVERNANCE/EVIDENCE_GATES_v2.1.md` | CURRENT_APPROVED | Định nghĩa G1–G7 |
-| `../../00_GOVERNANCE/RESEARCH_ARCHITECTURE_DECISION_RECORD_20260719.md` | CURRENT_APPROVED | ADR v2.1 traceability-core |
-| `../../00_GOVERNANCE/RESEARCH_ARCHITECTURE_DECISION_RECORD_ACTION_ID_20260719.md` | CURRENT_APPROVED | ADR data-model: Action_Record_ID |
-| `../../00_GOVERNANCE/SOURCE_OF_TRUTH_HIERARCHY_v2.1.md` | CURRENT_APPROVED | Trật tự ưu tiên khi mâu thuẫn |
-| `../../00_GOVERNANCE/AGENT_RULES.md` | CURRENT_APPROVED | Quy tắc agent governance |
-| `../90_ARCHIVE/HISTORICAL_UNIQUE_FILES/BACKUP_BEFORE_WRITEBACK_20260718/MASTER_RESEARCH_CHARTER.md` | CURRENT_NAVIGATION | Concise entry → v2.1 |
-| `../90_ARCHIVE/HISTORICAL_UNIQUE_FILES/BACKUP_BEFORE_WRITEBACK_20260718/MASTER_RESEARCH_CHARTER_v1.1_LIMITED_FEM_20260717.md` | **SUPERSEDED — ARCHIVED** | Historical (đã archive) |
-| `../90_ARCHIVE/HISTORICAL_UNIQUE_FILES/BACKUP_BEFORE_WRITEBACK_20260718/RESEARCH_ARCHITECTURE_DECISION_RECORD_20260717.md` | **SUPERSEDED — ARCHIVED** | ADR Limited-FEM 20260717 (đã archive) |
-| `../90_ARCHIVE/HISTORICAL_UNIQUE_FILES/BACKUP_BEFORE_WRITEBACK_20260718/RESEARCH_DIRECTION_AND_SCOPE.md` | CURRENT_APPROVED | Boundary & discipline positioning |
-| `../90_ARCHIVE/HISTORICAL_UNIQUE_FILES/BACKUP_BEFORE_WRITEBACK_20260718/RESEARCH_ARCHITECTURE.md` | CURRENT_APPROVED | Four-layer architecture |
-| `../90_ARCHIVE/SNAPSHOTS_20260718/PRE_FINAL_CLEANUP_SNAPSHOT_20260718/THE_COUNCIL_REVIEW_FEM_OR_NO_FEM_17.07.2026.md` | DECISION_AUTHORITY | Supervisor/Council decision basis |
-| `../../00_GOVERNANCE/TERMINOLOGY_CONTROL_CURRENT.md` | CURRENT | Terminology rules (+v2.1 addendum) |
-| `../90_ARCHIVE/HISTORICAL_UNIQUE_FILES/PRE_FINAL_CLEANUP_SNAPSHOT_20260718/CLAUDE.md` | KEEP_SYSTEM | Agent operating controls (→v2.1) |
-| `../90_ARCHIVE/GOVERNANCE_HISTORY/CHARTERS/MASTER_RESEARCH_CHARTER_v2_20260719.docx` | HISTORICAL_DECISION_SOURCE | Charter v2.0 reframe |
+| `../00_README_START_HERE.md` | CURRENT_ENTRY | Repository entry point |
+| `../00_GOVERNANCE/MASTER_RESEARCH_CHARTER_v2.1_TRACEABILITY_CORE_20260719.md` | ACADEMIC_SOURCE_OF_TRUTH | Highest academic authority |
+| `../00_GOVERNANCE/SOURCE_OF_TRUTH_HIERARCHY_v2.1.md` | CURRENT_AUTHORITY_ORDER | Conflict resolution and evidence order |
+| `CURRENT_DIRECTION_LOCK_20260804.md` | CURRENT_DIRECTION_LOCK | Execution direction and non-negotiable boundaries |
+| `CURRENT_STATUS_AND_NEXT_DIRECTION.md` | CURRENT_STATUS | Gate and Paper 2 status plus immediate work order |
 
-## Current Control
+## 2. Approved Governance
 
-| Current file | Status |
+| File | Role |
 |---|---|
-| `../90_ARCHIVE/HISTORICAL_UNIQUE_FILES/BACKUP_BEFORE_WRITEBACK_20260718/CURRENT_STATUS_AND_NEXT_DIRECTION.md` | CURRENT |
-| `../UNRESOLVED_ITEMS_TRACKER_v2.1.md` | CURRENT (thay UNRESOLVED_ITEMS_CURRENT) |
-| `../SYSTEM_UPDATE_REPORT_v2.1_20260719.md` | CURRENT_REPORT |
-| `../CHANGELOG_v2.1_20260719.md` | CURRENT_REPORT |
-| `../SYSTEM_GUIDANCE_AUDIT_v2.1_20260719.md` | CURRENT_REPORT |
-| `../SIX_STRUCTURAL_FIXES_IMPLEMENTATION_REPORT.md` | CURRENT_REPORT |
-| `../SOURCE_OF_TRUTH_VALIDATION_REPORT.md` | CURRENT_REPORT |
-| `../KEYWORD_AND_CONFLICT_CHECK_REPORT.md` | CURRENT_REPORT |
-| `../../99_ARCHIVE_PRE_V2_SYSTEM_20260719/LEGACY_NAVIGATION/UNRESOLVED_ITEMS_CURRENT.md` | SUPERSEDED — ARCHIVED |
-| `../MISSING_CURRENT_FILES_REGISTER_20260718.md` | CURRENT_AUDIT |
-| `PROJECT_FILE_INVENTORY_BEFORE_CLEANUP_20260718.csv` | CURRENT_AUDIT |
-| `PROJECT_FILE_MIGRATION_MANIFEST_FINAL_20260718.csv` | CURRENT_AUDIT |
-| `DELETED_SUPERSEDED_FILES_MANIFEST_20260718.csv` | CURRENT_AUDIT |
-| `BROKEN_LINK_AUDIT_20260718.md` | CURRENT_AUDIT |
-| `PROJECT_CLEANUP_FINAL_REPORT_20260718.md` | CURRENT_AUDIT |
+| `../00_GOVERNANCE/RQ_WP_CHAPTER_PAPER_GATE_MATRIX_v2.1.md` | RQ-WP-Chapter-Paper-Gate mapping |
+| `../00_GOVERNANCE/EVIDENCE_GATES_v2.1.md` | Gate definitions and acceptance requirements |
+| `../00_GOVERNANCE/RESEARCH_ARCHITECTURE_DECISION_RECORD_20260719.md` | Traceability-core architecture decision |
+| `../00_GOVERNANCE/RESEARCH_ARCHITECTURE_DECISION_RECORD_ACTION_ID_20260719.md` | `Action_Record_ID` model decision |
+| `../00_GOVERNANCE/TERMINOLOGY_CONTROL_CURRENT.md` | Controlled terminology |
+| `../00_GOVERNANCE/AGENT_RULES.md` | Agent scope and evidence rules |
+| `../00_GOVERNANCE/RESEARCH_DIRECTION_AND_SCOPE.md` | Supporting research boundary |
+| `../00_GOVERNANCE/RESEARCH_ARCHITECTURE.md` | Supporting four-layer architecture |
 
-## Evidence Base
+## 3. Current G2-G3 And Paper 2 Set
 
-| Current file | Status | Role |
+| File | Status | Role |
 |---|---|---|
-| `../../02_EVIDENCE_BASE/CURRENT/LIVING_EVIDENCE_BASE_v2.1_TRACEABILITY_CORE.md` | **CURRENT_SOURCE_OF_TRUTH** | v2.1 consolidated evidence base (groups A–J, Action_Record_ID) |
-| `../../02_EVIDENCE_BASE/CURRENT/EVIDENCE_MIGRATION_REPORT_v2.1.md` | CURRENT_REPORT | Migration v1.1+v1.2 → v2.1 |
-| `../../02_EVIDENCE_BASE/CURRENT/LIVING_EVIDENCE_BASE_CURRENT.md` | CURRENT_POINTER | Points to v2.1 (v1.1/v1.2 historical) |
-| `../90_ARCHIVE/GOVERNANCE_HISTORY/EVIDENCE_BASE/LIVING_EVIDENCE_BASE_v1.1_LIMITED_FEM.md` | HISTORICAL_BASE | Canonical base; 33 records (kế thừa vào v2.1) |
-| `../90_ARCHIVE/GOVERNANCE_HISTORY/EVIDENCE_BASE/01_LIVING_EVIDENCE_BASE_v1.2_LIMITED_FEM_20260718.md` | HISTORICAL_UPDATE | 19 new deep reads (kế thừa vào v2.1) |
-| `../90_ARCHIVE/SNAPSHOTS_20260718/BACKUP_BEFORE_WRITEBACK_20260718/03_RQ1_GATE1_METHOD_EVIDENCE_ADDENDUM_v1.0_20260718.md` | CURRENT_CANDIDATE | RQ1/Gate 1 method evidence |
-| `../90_ARCHIVE/SNAPSHOTS_20260718/BACKUP_BEFORE_WRITEBACK_20260718/04_RQ2_TRACEABILITY_EVIDENCE_ADDENDUM_v1.2_20260718.md` | CURRENT_CANDIDATE | RQ2/Gates 2-3 evidence |
-| `../02_EVIDENCE_BASE/CLAIM_AND_COMPETITOR_REGISTERS/07_CLOSEST_COMPETITOR_MATRIX_PAPER2_20260718.csv` | CURRENT_CANDIDATE | Paper 2 competitor matrix |
-| `../90_ARCHIVE/SNAPSHOTS_20260718/BACKUP_BEFORE_WRITEBACK_20260718/05_RQ3_FIELD_FEASIBILITY_EVIDENCE_ADDENDUM_v1.0_20260718.md` | CURRENT_CANDIDATE | RQ3/Gate 4 evidence |
-| `../90_ARCHIVE/SNAPSHOTS_20260718/BACKUP_BEFORE_WRITEBACK_20260718/06_WP4_DECISION_SUPPORT_EVIDENCE_ADDENDUM_v1.0_20260718.md` | CURRENT_CANDIDATE | WP4/Gate 5 evidence |
+| `../05_GATE2/G2_G3_PAPER2_CURRENT_ROADMAP_v2.1_20260804.md` | CURRENT_ROADMAP | G2 specification to G3 validation sequence |
+| `../03_PAPERS/PAPER_2/PAPER2_CURRENT_DIRECTION_v2.1_20260804.md` | CURRENT_PAPER_DIRECTION | Single Paper 2 scope and claim boundary |
+| `../05_GATE2/04_SCHEMA_RULES/G1_TO_G2_CONDITION_EVIDENCE_INTERFACE_v1.0.md` | CURRENT_WORKING_SPECIFICATION | G1-to-G2 evidence contract |
+| `G1_G2_INTERFACE_DECISION_REGISTER.csv` | CURRENT_DECISION_REGISTER | Open interface decisions and approval state |
 
-Detailed Gate matrix and Gate-definition files listed by the old Master Index were already missing before cleanup. Their absence is controlled in `../MISSING_CURRENT_FILES_REGISTER_20260718.md`. No Gate was closed or reconstructed during cleanup.
+## 4. Current Evidence Bases
 
-## Zotero Evidence Audit
-
-Current files under `../../02_EVIDENCE_BASE/ZOTERO_AUDIT/`:
-
-- `02_NEW_DEEP_READ_EVIDENCE_MATRIX_20260718.csv`
-- `08_DUPLICATE_AND_METADATA_CORRECTION_LOG_20260718.csv`
-- `09_ZOTERO_DEEP_READ_COMPLETION_REPORT_20260718.md`
-- `10_ZOTERO_WRITEBACK_QUEUE_20260718.md`
-- `PHASE0_SAFETY_BACKUP_AND_DRY_RUN_REPORT_20260718.md`
-
-Zotero writeback remains pending; local SQLite was not modified.
-
-## Paper 1
-
-| Current file | Status |
+| File | Role |
 |---|---|
-| `../90_ARCHIVE/HISTORICAL_UNIQUE_FILES/PRE_FINAL_CLEANUP_SNAPSHOT_20260718/Paper 1/PAPER1_GATE1_Q2_VERIFIED_EVIDENCE_REVISED_v2_MANUSCRIPT_SOURCE_20260718.md` | CURRENT_WORKING_MANUSCRIPT |
-| `../90_ARCHIVE/HISTORICAL_UNIQUE_FILES/PRE_FINAL_CLEANUP_SNAPSHOT_20260718/Paper 1/PAPER1_GATE1_READINESS_REPORT_v2.md` | CURRENT - GATE 1 NOT READY |
-| `../90_ARCHIVE/HISTORICAL_UNIQUE_FILES/PRE_FINAL_CLEANUP_SNAPSHOT_20260718/Paper 1/PAPER1_GATE1_CLAIM_EVIDENCE_AUDIT_v2.md` | CURRENT_CANDIDATE |
-| `../90_ARCHIVE/HISTORICAL_UNIQUE_FILES/PRE_FINAL_CLEANUP_SNAPSHOT_20260718/Paper 1/PAPER1_GATE1_DATA_ANALYSIS_REQUESTS_FOR_IT_v2.md` | CURRENT |
-| `../90_ARCHIVE/SNAPSHOTS_20260718/PRE_FINAL_CLEANUP_SNAPSHOT_20260718/Paper 1/PAPER1_GATE1_VERIFIED_REFERENCE_AUDIT_v2.csv` | CURRENT |
-| `../90_ARCHIVE/HISTORICAL_UNIQUE_FILES/PRE_FINAL_CLEANUP_SNAPSHOT_20260718/Paper 1/PAPER1_GATE1_MAJOR_REVISION_LOG_v2.md` | CURRENT |
+| `../02_EVIDENCE_BASE/CURRENT/LIVING_EVIDENCE_BASE_CURRENT.md` | Current evidence-base pointer |
+| `../02_EVIDENCE_BASE/CURRENT/LIVING_EVIDENCE_BASE_v2.1_TRACEABILITY_CORE.md` | Consolidated v2.1 evidence base |
+| `../02_EVIDENCE_BASE/RQ2_GATES2_3/04_RQ2_TRACEABILITY_EVIDENCE_ADDENDUM_v1.2_20260718.md` | RQ2 supporting evidence addendum |
+| `../02_EVIDENCE_BASE/CLAIM_AND_COMPETITOR_REGISTERS/07_CLOSEST_COMPETITOR_MATRIX_PAPER2_20260718.csv` | Paper 2 competitor register |
+| `../G2_G3_SCREENING_EVIDENCE_AND_GAP_REPORT.md` | Screening and gap evidence |
+| `../G2_G3_ROUND1_DEEP_READ_AND_NOVELTY_BOUNDARY.md` | Round 1 deep-read synthesis |
+| `../G2_G3_ROUND2_INSPECTION_ACTION_MODEL_DEEP_READ.md` | Round 2 record-model synthesis |
 
-Three non-canonical DOCX outlines are retained under `../../03_PAPERS/PAPER_1/ARCHIVE_MINIMAL/OUTLINE_VERSION_REVIEW/` because their contents differ. No DOCX is CURRENT_APPROVED.
+These reports support design decisions but do not constitute executed gate evidence.
 
-## Chuyen De Tong Quan
+## 5. Upstream G1 Context
 
-Current candidates under `../../04_PHD_SPECIAL_TOPICS/CHUYEN_DE_TONG_QUAN/`:
+| File | Status |
+|---|---|
+| `../03_PAPERS/PAPER_1/PAPER1_DIRECTION_AND_GATE_v2.1_20260719.md` | CURRENT_UPSTREAM_DIRECTION; G1 remains open |
+| `../03_PAPERS/PAPER_1/GATE1_EVIDENCE/PAPER1_GATE1_READINESS_REPORT_v2.md` | CURRENT_UPSTREAM_READINESS_EVIDENCE |
+| `../05_DATA_CODE_AND_EXPERIMENTS/THREE_CAMPAIGN_REANALYSIS/00_EXECUTIVE_REPORT.md` | SUPPORTING_PROVISIONAL_RESULTS |
+| `../05_DATA_CODE_AND_EXPERIMENTS/CANONICAL_THREE_CAMPAIGN_DATASET/00_README.md` | SUPPORTING_DATASET_DOCUMENTATION |
 
-- `CHUYEN_DE_TONG_QUAN_EVIDENCE_GAPS_v1.md`
-- `EVIDENCE_MATRIX_CHUYEN_DE_TONG_QUAN_v1.csv`
-- `MATRIX_CHUYEN_DE_RQ_WP_PAPER_GATE_v1.md`
-- `OUTLINE_CHUYEN_DE_TONG_QUAN_CHI_TIET_v1.md`
+No current index entry implies G1 acceptance.
 
-These files require reconciliation with the 19-source v1.2 update before academic approval.
+## 6. Reset Control
 
-## Literature, Prompts, Backup, Archive
+| File | Role |
+|---|---|
+| `PRE_UPDATE_GIT_STATUS_20260804.txt` | Exact pre-update Git status |
+| `REPOSITORY_FILE_CLASSIFICATION_20260804.csv` | Pre-reset all-file classification |
+| `CURRENT_RESET_FILE_MANIFEST_20260804.csv` | Pre-reset action plan and hashes |
+| `SUPERSEDED_DOCUMENT_REGISTER_20260804.csv` | Superseded/archive register |
+| `CROSS_FILE_CONSISTENCY_AUDIT_20260804.md` | Final consistency QA |
+| `CURRENT_REPOSITORY_RESET_REPORT_20260804.md` | Reset outcome report |
+| `CURRENT_REPOSITORY_RESET_MANIFEST_20260804.csv` | Pre/post action and hash manifest |
 
-- `../../06_LITERATURE_AND_ZOTERO/PERPLEXITY_PRO/`: DISCOVERY_SOURCE_ONLY; NOT_CITABLE_EVIDENCE.
-- `../../07_PROMPTS_AND_HANDOFFS/OPENCODE/`: current and retained operational prompts.
-- `../../90_BACKUP/PRE_FINAL_CLEANUP_SNAPSHOT_20260718/`: complete pre-final snapshot with checksum manifest.
-- `../../90_BACKUP/BACKUP_BEFORE_WRITEBACK_20260718/`: protected Zotero writeback backup.
-- `../../92_ARCHIVE_MINIMAL/`: minimal historical/unique archive; not source of truth.
+## 7. State Summary
 
-## Current Scope Control
+| Item | State |
+|---|---|
+| G1 | `OPEN / NOT READY` |
+| G2 | `OPEN / SPECIFICATION DEVELOPMENT` |
+| G3 | `NOT OPEN` |
+| Paper 2 | `DESIGN AND EVIDENCE DEVELOPMENT` |
 
-There is no RQ4. WP4 owns Gate 5. FEM is **nominal, uncalibrated, reference-only, not used for damage diagnosis**. Laboratory evidence, field feasibility, and decision support remain separate evidence classes.
+Historical and superseded files are discoverable through `SUPERSEDED_DOCUMENT_REGISTER_20260804.csv` and `../90_ARCHIVE/`; they are not listed as current here.

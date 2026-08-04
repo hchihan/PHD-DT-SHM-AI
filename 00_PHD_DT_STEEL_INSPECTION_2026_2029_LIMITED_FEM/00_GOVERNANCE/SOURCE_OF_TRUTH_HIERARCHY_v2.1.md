@@ -1,37 +1,90 @@
-# SOURCE OF TRUTH HIERARCHY — v2.1
-**Version:** v2.1 | **Date:** 2026-07-19 | **Status:** CURRENT
-**Mục đích:** một và chỉ một trật tự ưu tiên khi các tài liệu mâu thuẫn. Không được để nhiều file cùng tự nhận "source of truth".
+# SOURCE OF TRUTH HIERARCHY v2.1
 
----
+**Version:** v2.1 current-direction consolidation
+**Effective date:** 2026-08-04
+**Status:** CURRENT
+**Purpose:** Provide one conflict-resolution order and prevent historical, discovery, or implementation files from becoming accidental research authority.
 
-## 1. Trật tự ưu tiên (cao → thấp)
+## 1. Authority Order
 
-1. **Quyết định hai thầy hướng dẫn 17/07/2026 (Verdict B)** + Council review 17–19/07/2026 → `THE_COUNCIL_REVIEW_FEM_OR_NO_FEM_17.07.2026.md` (DECISION_AUTHORITY).
-2. **Charter v2.1 (SOURCE OF TRUTH cao nhất)** → `MASTER_RESEARCH_CHARTER_v2.1_TRACEABILITY_CORE_20260719.md`.
-3. **Bộ file cấu trúc v2.1 đồng cấp dưới Charter v2.1:** `RQ_WP_CHAPTER_PAPER_GATE_MATRIX_v2.1.md`, `EVIDENCE_GATES_v2.1.md`, `RESEARCH_ARCHITECTURE_DECISION_RECORD_20260719.md`, `RESEARCH_ARCHITECTURE_DECISION_RECORD_ACTION_ID_20260719.md`, `TERMINOLOGY_CONTROL_CURRENT.md`, `AGENT_RULES.md`.
-4. **Charter v2.0** → `MASTER_RESEARCH_CHARTER_v2_20260719.docx` — **nguồn quyết định lịch sử** (historical decision source); dùng để tra cứu ngữ cảnh reframe, không phải nguồn hiện hành khi khác v2.1.
-5. **File điều hướng hiện hành:** `00_README_START_HERE.md`, `../90_ARCHIVE/HISTORICAL_UNIQUE_FILES/BACKUP_BEFORE_WRITEBACK_20260718/MASTER_RESEARCH_CHARTER.md` (concise), `RESEARCH_DIRECTION_AND_SCOPE.md`, `RESEARCH_ARCHITECTURE.md`, `../01_CURRENT_CONTROL/MASTER_INDEX_CURRENT.md`.
-6. **Current status / trackers:** `CURRENT_STATUS_AND_NEXT_DIRECTION.md`, `UNRESOLVED_ITEMS_TRACKER_v2.1.md`, `UNRESOLVED_ITEMS_CURRENT.md`.
-7. **Evidence base & Paper packages hiện hành** (`02_EVIDENCE_BASE/`, `03_PAPERS/`).
-8. **Discovery / literature / prompts** (`06_...`, `07_...`) — không citable làm evidence.
-9. **v1.1 (LIMITED-FEM) — SUPERSEDED, ĐÃ ARCHIVE** → `../90_ARCHIVE/HISTORICAL_UNIQUE_FILES/BACKUP_BEFORE_WRITEBACK_20260718/MASTER_RESEARCH_CHARTER_v1.1_LIMITED_FEM_20260717.md` + `../90_ARCHIVE/HISTORICAL_UNIQUE_FILES/BACKUP_BEFORE_WRITEBACK_20260718/RESEARCH_ARCHITECTURE_DECISION_RECORD_20260717.md`: giữ làm lịch sử, không dùng hiện hành.
-10. **Archive chung pre-v2 + backup/archive cũ** (`99_ARCHIVE_PRE_V2_SYSTEM_20260719/`, `90_BACKUP/`, `92_ARCHIVE_MINIMAL/`) — không bao giờ là source of truth.
+When documents conflict, apply this order from highest to lowest:
 
----
+1. Supervisor decision of 2026-07-17 (Verdict B), recorded in `THE_COUNCIL_REVIEW_FEM_OR_NO_FEM_17.07.2026.md`.
+2. `MASTER_RESEARCH_CHARTER_v2.1_TRACEABILITY_CORE_20260719.md`, the highest academic source of truth.
+3. The approved v2.1 structural set: `RQ_WP_CHAPTER_PAPER_GATE_MATRIX_v2.1.md`, `EVIDENCE_GATES_v2.1.md`, `RESEARCH_ARCHITECTURE_DECISION_RECORD_20260719.md`, `RESEARCH_ARCHITECTURE_DECISION_RECORD_ACTION_ID_20260719.md`, `TERMINOLOGY_CONTROL_CURRENT.md`, and `AGENT_RULES.md`.
+4. The current-direction control set: `../01_CURRENT_CONTROL/CURRENT_DIRECTION_LOCK_20260804.md`, `../05_GATE2/G2_G3_PAPER2_CURRENT_ROADMAP_v2.1_20260804.md`, `../03_PAPERS/PAPER_2/PAPER2_CURRENT_DIRECTION_v2.1_20260804.md`, and `../05_GATE2/04_SCHEMA_RULES/G1_TO_G2_CONDITION_EVIDENCE_INTERFACE_v1.0.md`.
+5. Current navigation and status: `../00_README_START_HERE.md`, `../01_CURRENT_CONTROL/MASTER_INDEX_CURRENT.md`, `../01_CURRENT_CONTROL/CURRENT_STATUS_AND_NEXT_DIRECTION.md`, `RESEARCH_DIRECTION_AND_SCOPE.md`, and `RESEARCH_ARCHITECTURE.md`.
+6. Accepted gate evidence and signed gate decisions, in the evidence order defined in Section 3.
+7. Current evidence bases, working specifications, paper packages, and decision registers.
+8. Supporting literature, discovery outputs, prompts, demos, and IT handoffs. These do not override governance or constitute gate evidence by themselves.
+9. Review-required material, repository logs, backups, and archives. These are never current sources of truth.
 
-## 2. Trạng thái các charter
+The current-direction set in item 4 narrows execution and resolves navigation drift; it does not amend the Charter or create a new RQ, WP, chapter, paper, or gate.
 
-| File | Trạng thái | Vai trò |
-|---|---|---|
-| `MASTER_RESEARCH_CHARTER_v2.1_TRACEABILITY_CORE_20260719.md` | **SOURCE OF TRUTH** | Hiện hành cao nhất |
-| `MASTER_RESEARCH_CHARTER_v2_20260719.docx` | HISTORICAL DECISION SOURCE | Reframe v2.0; tra cứu ngữ cảnh |
-| `MASTER_RESEARCH_CHARTER.md` (concise) | CURRENT NAVIGATION | Điểm vào ngắn, trỏ về v2.1 |
-| `../90_ARCHIVE/HISTORICAL_UNIQUE_FILES/BACKUP_BEFORE_WRITEBACK_20260718/MASTER_RESEARCH_CHARTER_v1.1_LIMITED_FEM_20260717.md` | **SUPERSEDED — ARCHIVED** | Lịch sử; đã chuyển vào archive chung |
+## 2. Locked Direction
 
-## 3. Quy tắc file cũ
-- v2.1 = source of truth cao nhất; v2.0 = nguồn quyết định lịch sử; v1.1 = superseded (đã archive vào `99_ARCHIVE_PRE_V2_SYSTEM_20260719/`).
-- File dẫn hướng pre-v2 còn lẫn trong active locations → gom vào `99_ARCHIVE_PRE_V2_SYSTEM_20260719/` (xem `ARCHIVE_MANIFEST.md`). File FEM-core cũ đã nằm sẵn trong `90_BACKUP/` và `92_ARCHIVE_MINIMAL` — giữ nguyên.
-- Evidence file có giá trị: không xóa; chỉ đổi phân loại/liên kết/trạng thái sử dụng.
-- Không sửa kết quả nghiên cứu, metric, citation nếu không có bằng chứng.
-- File superseded phải có header: `Status: SUPERSEDED` / `Superseded by: [v2.1 file]` / `Preserved for: historical traceability only.`
-- Không xóa khi chưa chắc chắn — đưa vào archive thay vì xóa.
+```text
+Vibration data
+-> condition/state-change evidence
+-> BIM-linked component
+-> Inspection_Record
+-> Action_Record
+-> Status_Event
+-> inspection-maintenance action support
+```
+
+```text
+Sensor_ID
+-> BIM_GUID
+-> Condition_Evidence_ID
+-> Inspection_Record_ID
+-> Action_Record_ID
+```
+
+`Action_Status` is an attribute or current-state projection of `Action_Record`; it is not an identifier-chain endpoint. CEI is mandatory structured evidence metadata, not a scalar, Health Index, severity, damage probability, or priority.
+
+FEM is **nominal, uncalibrated, reference-only, not used for damage diagnosis**.
+
+## 3. Gate Evidence Order
+
+For every gate claim, evidence must be read in this order:
+
+1. Gate definition and acceptance criteria in `EVIDENCE_GATES_v2.1.md`.
+2. Approved preregistration, specification, schema, or protocol.
+3. Immutable input/provenance records and version identifiers.
+4. Executed implementation artifacts and test outputs.
+5. Validation evidence, including required positive, negative, integrity, and round-trip tests.
+6. Reviewer decision and signed gate acceptance record.
+7. Paper claim or submission record.
+
+A planned filename, schema draft, report, demo, code run, Revit model, IFC file, Dynamo graph, Pset, IDS, SQLite database, or website is not sufficient to close a gate. Gate status changes only through the defined acceptance and sign-off record.
+
+## 4. Current State Constraints
+
+| Item | Locked state |
+|---|---|
+| G1 | `OPEN / NOT READY` |
+| G2 | `OPEN / SPECIFICATION DEVELOPMENT` |
+| G3 | `NOT OPEN` |
+| Paper 2 | `DESIGN AND EVIDENCE DEVELOPMENT` |
+
+Paper 2 is one paper covering G2 specification and, only after G2 readiness, G3 executed validation. Paper 2A, Paper 2B, and dual-paper roadmap commitments are superseded.
+
+## 5. Historical and Superseded Material
+
+- Charter v2.0 is a historical decision source only.
+- v1.1 Limited-FEM governance and pre-v2 architecture records remain historical only.
+- Files in `90_ARCHIVE/`, `91_REVIEW_REQUIRED/`, `99_REPOSITORY_LOGS/`, and `output/` cannot override current governance.
+- Superseded documents are recorded in `../01_CURRENT_CONTROL/SUPERSEDED_DOCUMENT_REGISTER_20260804.csv` and preserved in `../90_ARCHIVE/CURRENT_RESET_20260804/` or an earlier protected archive.
+- The pre-reset rollback snapshot is `../90_ARCHIVE/BACKUP_BEFORE_CURRENT_RESET_20260804/`.
+- Do not delete uncertain, unique, empirical, or historical evidence. Hard deletion requires byte identity, SHA-256 proof, a retained canonical copy, and a verified backup.
+
+## 6. Conflict Rule
+
+When a lower-ranked file conflicts with a higher-ranked file:
+
+1. follow the higher-ranked file;
+2. record the conflict or open decision;
+3. do not silently merge incompatible claims;
+4. archive a superseded control document rather than rewriting historical evidence; and
+5. state `Evidence is currently insufficient` when the required execution evidence does not exist.
