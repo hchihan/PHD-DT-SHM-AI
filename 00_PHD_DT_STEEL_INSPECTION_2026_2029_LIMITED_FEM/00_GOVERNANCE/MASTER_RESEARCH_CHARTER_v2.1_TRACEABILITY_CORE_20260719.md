@@ -142,7 +142,7 @@ Legal mapping **chỉ** dùng để: (i) neo đóng góp vào QLXD; (ii) thể h
 
 **Không được:** dùng văn bản pháp luật để suy ra ngưỡng hư hỏng; tuyên bố mọi công trình đều bắt buộc quan trắc; dùng điều khoản pháp lý làm căn cứ chẩn đoán kỹ thuật; tự tạo ngưỡng Normal–Watch–Inspect–Priority từ luật.
 
-Mọi luật/nghị định/thông tư/quyết định/số điều phải được xác minh bằng nguồn chính thức. Mục chưa kiểm chứng ghi: **"Legal reference pending official-source verification."** (Danh mục cần xác minh: Luật Xây dựng 135/2025; NĐ 207/2026/NĐ-CP; TT 32/2026/TT-BXD; QĐ 46/2026/QĐ-UBND Khánh Hòa; Công văn 3839 — tất cả **pending official-source verification**, xem `UNRESOLVED_ITEMS_TRACKER_v2.1.md`.)
+Mọi luật/nghị định/thông tư/quyết định/số điều phải được xác minh bằng nguồn chính thức. Mục chưa kiểm chứng ghi: **"Legal reference pending official-source verification."** (Danh mục cần xác minh: Luật Xây dựng 135/2025; NĐ 207/2026/NĐ-CP; TT 32/2026/TT-BXD; QĐ 46/2026/QĐ-UBND Khánh Hòa; Công văn 3839 — tất cả **pending official-source verification**, xem `../01_CURRENT_CONTROL/CURRENT_STATUS_AND_NEXT_DIRECTION.md`; danh mục lịch sử ở `../90_ARCHIVE/CURRENT_RESET_20260804/CURRENT_CONTROL_HISTORY/UNRESOLVED_ITEMS_TRACKER_v2.1.md`.)
 
 ---
 

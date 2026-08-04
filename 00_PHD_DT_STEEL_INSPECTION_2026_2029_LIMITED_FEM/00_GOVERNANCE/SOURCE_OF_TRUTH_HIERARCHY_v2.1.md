@@ -9,7 +9,7 @@
 
 When documents conflict, apply this order from highest to lowest:
 
-1. Supervisor decision of 2026-07-17 (Verdict B), recorded in `THE_COUNCIL_REVIEW_FEM_OR_NO_FEM_17.07.2026.md`.
+1. Supervisor decision of 2026-07-17 (Verdict B), recorded in `THE_COUNCIL_REVIEW_FEM_OR_NO_FEM_17.07.2026.md`, controls the Limited-FEM scope decision only. Its historical identifier notation is superseded by the 2026-07-19 Action-ID ADR.
 2. `MASTER_RESEARCH_CHARTER_v2.1_TRACEABILITY_CORE_20260719.md`, the highest academic source of truth.
 3. The approved v2.1 structural set: `RQ_WP_CHAPTER_PAPER_GATE_MATRIX_v2.1.md`, `EVIDENCE_GATES_v2.1.md`, `RESEARCH_ARCHITECTURE_DECISION_RECORD_20260719.md`, `RESEARCH_ARCHITECTURE_DECISION_RECORD_ACTION_ID_20260719.md`, `TERMINOLOGY_CONTROL_CURRENT.md`, and `AGENT_RULES.md`.
 4. The current-direction control set: `../01_CURRENT_CONTROL/CURRENT_DIRECTION_LOCK_20260804.md`, `../05_GATE2/G2_G3_PAPER2_CURRENT_ROADMAP_v2.1_20260804.md`, `../03_PAPERS/PAPER_2/PAPER2_CURRENT_DIRECTION_v2.1_20260804.md`, and `../05_GATE2/04_SCHEMA_RULES/G1_TO_G2_CONDITION_EVIDENCE_INTERFACE_v1.0.md`.

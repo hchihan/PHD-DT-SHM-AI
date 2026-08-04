@@ -63,3 +63,5 @@ FEM is **nominal, uncalibrated, reference-only, not used for damage diagnosis**.
 ## 6. Evidence Limitation
 
 The repository contains substantial design evidence and deep-read synthesis but no accepted G1 Condition_Evidence payload, no approved G2 package, and no executed G3 validation package. **Evidence is currently insufficient** to claim G1, G2, or G3 completion.
+
+Legal and management-obligation references remain pending official-source verification. Field-access evidence remains unresolved for G4 but does not authorize or block the current G2 specification work. Historical `Action_Status`-as-chain notation remains in protected evidence, archives, and the 2026-07-17 decision record; it is not current and must not be propagated.
