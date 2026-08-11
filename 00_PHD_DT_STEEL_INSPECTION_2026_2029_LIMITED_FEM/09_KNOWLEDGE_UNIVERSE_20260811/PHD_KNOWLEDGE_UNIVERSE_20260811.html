@@ -1,0 +1,1860 @@
+<title>PhD Knowledge Universe — Data-informed Digital Twin for Coastal Industrial Steel Buildings</title>
+
+<style>
+:root{
+  --ground:#E9ECF0; --surface:#F6F8FA; --surface-2:#FFFFFF;
+  --ink:#101922; --ink-2:#44525F; --ink-3:#77838F;
+  --rule:#C6CFD8; --rule-2:#DBE2E9;
+  --l1:#2F6F9E; --l2:#B45F2B; --l3:#3B8763; --l4:#7A5C9B;
+  --fem:#69767F; --danger:#A32F3E; --core:#1D2C3A;
+  --shadow:0 1px 2px rgba(16,25,34,.06),0 8px 24px rgba(16,25,34,.08);
+  --mono:ui-monospace,"Cascadia Mono","SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --sans:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --ground:#0C131A; --surface:#121B24; --surface-2:#182530;
+    --ink:#E5EBF1; --ink-2:#A0AEBB; --ink-3:#6D7C8A;
+    --rule:#26333F; --rule-2:#1D2932;
+    --l1:#5DA5D8; --l2:#E28A52; --l3:#5EBA8C; --l4:#AA8CCA;
+    --fem:#8B98A5; --danger:#E0697A; --core:#CFDAE4;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 30px rgba(0,0,0,.35);
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#0C131A; --surface:#121B24; --surface-2:#182530;
+  --ink:#E5EBF1; --ink-2:#A0AEBB; --ink-3:#6D7C8A;
+  --rule:#26333F; --rule-2:#1D2932;
+  --l1:#5DA5D8; --l2:#E28A52; --l3:#5EBA8C; --l4:#AA8CCA;
+  --fem:#8B98A5; --danger:#E0697A; --core:#CFDAE4;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 30px rgba(0,0,0,.35);
+}
+:root[data-theme="light"]{
+  --ground:#E9ECF0; --surface:#F6F8FA; --surface-2:#FFFFFF;
+  --ink:#101922; --ink-2:#44525F; --ink-3:#77838F;
+  --rule:#C6CFD8; --rule-2:#DBE2E9;
+  --l1:#2F6F9E; --l2:#B45F2B; --l3:#3B8763; --l4:#7A5C9B;
+  --fem:#69767F; --danger:#A32F3E; --core:#1D2C3A;
+  --shadow:0 1px 2px rgba(16,25,34,.06),0 8px 24px rgba(16,25,34,.08);
+}
+
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.55;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{font-family:var(--serif);font-weight:600;text-wrap:balance;margin:0}
+a{color:inherit}
+button,select,input{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--l2);outline-offset:2px}
+
+/* ---------- shell ---------- */
+.app{display:flex;flex-direction:column;height:100vh;min-height:640px}
+.topbar{display:flex;align-items:center;gap:18px;padding:10px 18px;background:var(--surface);border-bottom:1px solid var(--rule);flex-wrap:wrap}
+.brand{display:flex;flex-direction:column;gap:1px;min-width:250px}
+.brand .t{font-family:var(--serif);font-size:16px;letter-spacing:.1px}
+.brand .s{font-family:var(--mono);font-size:10px;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-3)}
+.tabs{display:flex;gap:2px;flex-wrap:wrap}
+.tab{background:transparent;border:1px solid transparent;border-radius:2px;padding:5px 11px;font-size:12px;letter-spacing:.02em;color:var(--ink-2);cursor:pointer}
+.tab:hover{background:var(--surface-2);color:var(--ink)}
+.tab[aria-selected="true"]{background:var(--surface-2);border-color:var(--rule);color:var(--ink);font-weight:600;box-shadow:inset 0 -2px 0 var(--l2)}
+.spacer{flex:1}
+.searchwrap{position:relative;display:flex;align-items:center}
+.searchwrap input{background:var(--surface-2);border:1px solid var(--rule);border-radius:2px;padding:6px 10px 6px 26px;width:230px;font-size:12.5px}
+.searchwrap svg{position:absolute;left:7px;width:13px;height:13px;stroke:var(--ink-3);fill:none;stroke-width:1.8}
+.iconbtn{background:var(--surface-2);border:1px solid var(--rule);border-radius:2px;padding:5px 10px;font-size:11.5px;cursor:pointer;color:var(--ink-2)}
+.iconbtn:hover{color:var(--ink);border-color:var(--ink-3)}
+
+.body{flex:1;display:flex;min-height:0;position:relative}
+
+/* ---------- rail ---------- */
+.rail{width:258px;flex:0 0 258px;background:var(--surface);border-right:1px solid var(--rule);overflow-y:auto;padding:14px 14px 40px}
+.rail h3{font-family:var(--mono);font-size:10px;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-3);margin:16px 0 7px;font-weight:600}
+.rail h3:first-child{margin-top:0}
+.ctl{display:flex;flex-direction:column;gap:5px}
+.ctl label{font-size:11px;color:var(--ink-3);font-family:var(--mono);letter-spacing:.04em}
+.ctl select{width:100%;background:var(--surface-2);border:1px solid var(--rule);border-radius:2px;padding:5px 7px;font-size:12px}
+.lens{display:flex;flex-direction:column;gap:3px;margin-top:2px}
+.lensbtn{text-align:left;background:var(--surface-2);border:1px solid var(--rule);border-radius:2px;padding:6px 9px;font-size:12px;cursor:pointer;color:var(--ink-2);display:flex;align-items:center;gap:7px}
+.lensbtn:hover{border-color:var(--ink-3);color:var(--ink)}
+.lensbtn[aria-pressed="true"]{background:var(--core);color:var(--ground);border-color:var(--core);font-weight:600}
+.lensbtn .dot{width:7px;height:7px;border-radius:50%;background:currentColor;flex:0 0 7px}
+.legend{display:flex;flex-direction:column;gap:5px;font-size:11.5px;color:var(--ink-2)}
+.legend .row{display:flex;align-items:center;gap:8px}
+.legend .sw{width:13px;height:13px;flex:0 0 13px;border-radius:2px;border:1px solid var(--rule)}
+.legend .ln{width:26px;height:0;flex:0 0 26px;border-top:2px solid var(--ink-2)}
+.legend .ln.dash{border-top-style:dashed}
+.legend .ln.red{border-top-color:var(--danger);border-top-width:2.4px}
+.legend svg{flex:0 0 16px}
+.note{font-size:11px;color:var(--ink-3);line-height:1.5;border-left:2px solid var(--rule);padding-left:8px;margin-top:6px}
+
+/* ---------- canvas ---------- */
+.canvaswrap{flex:1;min-width:0;position:relative;overflow:hidden;background:var(--ground)}
+#universe{width:100%;height:100%;display:block;cursor:grab;touch-action:none}
+#universe.grabbing{cursor:grabbing}
+.zoomctl{position:absolute;right:14px;bottom:14px;display:flex;flex-direction:column;gap:4px;z-index:5}
+.zoomctl button{width:30px;height:30px;background:var(--surface-2);border:1px solid var(--rule);border-radius:2px;cursor:pointer;font-size:14px;color:var(--ink-2);display:grid;place-items:center}
+.zoomctl button:hover{color:var(--ink)}
+.hint{position:absolute;left:14px;bottom:14px;font-family:var(--mono);font-size:10px;color:var(--ink-3);letter-spacing:.04em;pointer-events:none}
+.tip{position:fixed;pointer-events:none;z-index:60;background:var(--core);color:var(--ground);padding:6px 9px;border-radius:2px;font-size:11.5px;max-width:270px;box-shadow:var(--shadow);opacity:0;transition:opacity .1s}
+.tip .tt{font-weight:700;display:block;margin-bottom:2px}
+.tip .tm{font-family:var(--mono);font-size:10px;opacity:.8;letter-spacing:.04em}
+
+/* svg node styling */
+.node{cursor:pointer}
+.node .glyph{stroke-width:1.6;transition:opacity .15s}
+.node text{font-family:var(--sans);fill:var(--ink);pointer-events:none}
+.node .lbl{font-size:11.8px;font-weight:600}
+.node .sub{font-size:10px;font-family:var(--mono);fill:var(--ink-3);letter-spacing:.03em}
+.node:hover .glyph{filter:brightness(1.12)}
+.node.sel .glyph{stroke:var(--ink);stroke-width:3}
+.dim{opacity:.07;pointer-events:none}
+.edge{fill:none;stroke-linecap:round}
+.edge.solid{stroke-dasharray:none}
+.edge.dashed{stroke-dasharray:7 6}
+.edge.prohibited{stroke:var(--danger);stroke-dasharray:2 5;stroke-width:2.2}
+.ringlabel{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;fill:var(--ink-3)}
+.beltlabel{font-family:var(--mono);font-size:12px;letter-spacing:.18em;text-transform:uppercase;fill:var(--danger)}
+
+/* ---------- detail panel ---------- */
+.panel{position:absolute;top:0;right:0;bottom:0;width:392px;max-width:88vw;background:var(--surface);border-left:1px solid var(--rule);box-shadow:var(--shadow);transform:translateX(100%);transition:transform .18s ease;overflow-y:auto;z-index:20}
+.panel.open{transform:translateX(0)}
+@media (prefers-reduced-motion:reduce){.panel{transition:none}}
+.panel .ph{position:sticky;top:0;background:var(--surface);border-bottom:1px solid var(--rule);padding:14px 16px 12px;z-index:2}
+.panel .ph .k{font-family:var(--mono);font-size:10px;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-3);display:flex;gap:8px;align-items:center;margin-bottom:5px}
+.panel .ph h2{font-size:19px;line-height:1.25}
+.panel .close{position:absolute;top:11px;right:12px;background:none;border:none;font-size:18px;color:var(--ink-3);cursor:pointer;line-height:1}
+.panel .pb{padding:14px 16px 60px;display:flex;flex-direction:column;gap:13px}
+.chips{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
+.chip{font-family:var(--mono);font-size:10px;letter-spacing:.05em;padding:2.5px 7px;border-radius:2px;border:1px solid var(--rule);color:var(--ink-2);background:var(--surface-2);text-transform:uppercase}
+.chip.core{border-color:var(--l2);color:var(--l2)}
+.chip.sup{border-color:var(--l1);color:var(--l1)}
+.chip.fut{border-color:var(--ink-3);color:var(--ink-3)}
+.chip.out{border-color:var(--danger);color:var(--danger)}
+.fld{display:flex;flex-direction:column;gap:3px}
+.fld .fk{font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
+.fld .fv{font-size:13px;color:var(--ink);line-height:1.55}
+.fld.warn .fv{color:var(--danger)}
+.kw{display:flex;flex-wrap:wrap;gap:4px}
+.kw span{font-family:var(--mono);font-size:10px;padding:2px 6px;background:var(--surface-2);border:1px solid var(--rule-2);border-radius:2px;color:var(--ink-2)}
+
+/* ---------- document views ---------- */
+.doc{flex:1;overflow-y:auto;padding:28px 34px 90px;background:var(--ground)}
+.doc-inner{max-width:1180px;margin:0 auto}
+.doc h1{font-size:27px;margin-bottom:4px}
+.doc .lede{font-size:14.5px;color:var(--ink-2);max-width:66ch;margin-bottom:22px}
+.doc h2{font-size:19px;margin:30px 0 8px;padding-bottom:6px;border-bottom:1px solid var(--rule)}
+.doc h3{font-size:15px;margin:20px 0 6px}
+.doc p{max-width:70ch;color:var(--ink-2);margin:0 0 10px}
+.doc ul{max-width:70ch;color:var(--ink-2);padding-left:18px;margin:0 0 12px}
+.doc li{margin-bottom:5px}
+.tablewrap{overflow-x:auto;border:1px solid var(--rule);border-radius:3px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:11.8px}
+th{text-align:left;font-family:var(--mono);font-size:9.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-3);padding:9px 9px;border-bottom:1px solid var(--rule);white-space:nowrap;background:var(--surface-2);position:sticky;top:0}
+td{padding:8px 9px;border-bottom:1px solid var(--rule-2);vertical-align:top;color:var(--ink-2)}
+tr:last-child td{border-bottom:none}
+td.id{font-family:var(--mono);font-size:10.5px;color:var(--ink);white-space:nowrap;font-weight:600}
+td.num{font-variant-numeric:tabular-nums;text-align:center;font-family:var(--mono)}
+.tag{display:inline-block;font-family:var(--mono);font-size:9.5px;letter-spacing:.05em;padding:1.5px 5px;border-radius:2px;border:1px solid currentColor;white-space:nowrap}
+.t-core{color:var(--l2)} .t-sup{color:var(--l1)} .t-fut{color:var(--ink-3)} .t-out{color:var(--danger)}
+.t-now{color:var(--l2)} .t-next{color:var(--l1)} .t-later{color:var(--ink-3)} .t-post{color:var(--ink-3)}
+.t-hi{color:var(--danger)} .t-md{color:var(--l2)} .t-lo{color:var(--l3)}
+.callout{border:1px solid var(--rule);border-left:3px solid var(--l2);background:var(--surface);padding:12px 14px;border-radius:2px;margin:14px 0;max-width:74ch}
+.callout.warn{border-left-color:var(--danger)}
+.callout .ct{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);margin-bottom:4px}
+.callout p{margin:0;color:var(--ink)}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px;margin:14px 0}
+.card{border:1px solid var(--rule);background:var(--surface);border-radius:3px;padding:14px 15px}
+.card .ct{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);margin-bottom:6px}
+.card h4{font-size:14.5px;margin-bottom:6px}
+.card p{font-size:12.8px;margin:0 0 7px}
+.card ul{font-size:12.8px;margin:0;padding-left:16px}
+.rail-hidden .rail{display:none}
+.execwrap{background:var(--surface);border:1px solid var(--rule);border-radius:3px;padding:10px;overflow-x:auto}
+.execwrap svg{display:block;width:100%;height:auto;min-width:900px}
+
+@media (max-width:960px){
+  .rail{position:absolute;z-index:30;height:100%;box-shadow:var(--shadow)}
+  .rail.collapsed{display:none}
+}
+@media print{
+  :root{--ground:#fff;--surface:#fff;--surface-2:#fff;--ink:#000;--ink-2:#222;--ink-3:#555;--rule:#bbb;--rule-2:#ddd}
+  .topbar,.rail,.zoomctl,.hint,.panel,.tabs,.iconbtn{display:none!important}
+  .app{height:auto}
+  .canvaswrap{overflow:visible;height:auto}
+  #universe{height:auto}
+  .doc{padding:0}
+}
+</style>
+
+<div class="app">
+  <header class="topbar">
+    <div class="brand">
+      <span class="t">PhD Knowledge Universe</span>
+      <span class="s">Limited-FEM · Charter v2.1 · state of 2026-08-11</span>
+    </div>
+    <nav class="tabs" role="tablist" id="tabs">
+      <button class="tab" role="tab" data-view="universe" aria-selected="true">Universe</button>
+      <button class="tab" role="tab" data-view="exec" aria-selected="false">Executive map</button>
+      <button class="tab" role="tab" data-view="gaps" aria-selected="false">Gap portfolio</button>
+      <button class="tab" role="tab" data-view="roadmap" aria-selected="false">Roadmap</button>
+      <button class="tab" role="tab" data-view="shortlist" aria-selected="false">Shortlist</button>
+      <button class="tab" role="tab" data-view="ecosystem" aria-selected="false">Outputs</button>
+      <button class="tab" role="tab" data-view="audit" aria-selected="false">Critical audit</button>
+    </nav>
+    <span class="spacer"></span>
+    <label class="searchwrap">
+      <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M16.5 16.5 21 21"/></svg>
+      <input id="search" type="search" placeholder="Search nodes, IDs, keywords…" aria-label="Search the knowledge universe">
+    </label>
+    <button class="iconbtn" id="themeBtn" type="button">Theme</button>
+  </header>
+
+  <div class="body" id="bodyWrap">
+    <aside class="rail" id="rail">
+      <h3>Lenses</h3>
+      <div class="lens" id="lenses">
+        <button class="lensbtn" data-lens="core" aria-pressed="false"><span class="dot"></span>Show core thesis only</button>
+        <button class="lensbtn" data-lens="gaps" aria-pressed="false"><span class="dot"></span>Show research gaps</button>
+        <button class="lensbtn" data-lens="pub" aria-pressed="false"><span class="dot"></span>Show publication opportunities</button>
+        <button class="lensbtn" data-lens="tt" aria-pressed="false"><span class="dot"></span>Show technology-transfer pathways</button>
+        <button class="lensbtn" data-lens="gate" aria-pressed="false"><span class="dot"></span>Show Gate dependencies</button>
+        <button class="lensbtn" data-lens="prohib" aria-pressed="false"><span class="dot"></span>Show prohibited claims</button>
+      </div>
+
+      <h3>Filters</h3>
+      <div class="ctl">
+        <label for="fLayer">Layer</label>
+        <select id="fLayer"><option value="">All layers</option></select>
+        <label for="fScope">Scope</label>
+        <select id="fScope"><option value="">All scopes</option></select>
+        <label for="fReady">Readiness</label>
+        <select id="fReady"><option value="">All readiness states</option></select>
+        <label for="fGate">Evidence Gate</label>
+        <select id="fGate"><option value="">All gates</option></select>
+        <label for="fKind">Node type</label>
+        <select id="fKind"><option value="">All node types</option></select>
+        <label for="fRQ">RQ / WP</label>
+        <select id="fRQ"><option value="">All RQ / WP</option></select>
+      </div>
+      <button class="iconbtn" id="resetBtn" type="button" style="margin-top:10px;width:100%">Reset all filters</button>
+
+      <h3>Scope colour</h3>
+      <div class="legend">
+        <div class="row"><span class="sw" style="background:var(--l1)"></span>Layer 1 — Laboratory evidence</div>
+        <div class="row"><span class="sw" style="background:var(--l2)"></span>Layer 2 — Information traceability</div>
+        <div class="row"><span class="sw" style="background:var(--l3)"></span>Layer 3 — Field feasibility</div>
+        <div class="row"><span class="sw" style="background:var(--l4)"></span>Layer 4 — Inspection–maintenance support</div>
+        <div class="row"><span class="sw" style="background:var(--fem)"></span>Nominal reference model (FEM satellite)</div>
+        <div class="row"><span class="sw" style="background:var(--danger)"></span>Out of scope — quarantine belt</div>
+      </div>
+      <p class="note">Fill = scope. Solid fill = <b>Core</b>. Tinted fill = <b>Supporting</b>. Hollow with dashed edge = <b>Future / Post-PhD</b>. Hatched red = <b>Out of scope</b>.</p>
+
+      <h3>Node shape</h3>
+      <div class="legend" id="shapeLegend"></div>
+
+      <h3>Link meaning</h3>
+      <div class="legend">
+        <div class="row"><span class="ln"></span>Current dependency</div>
+        <div class="row"><span class="ln dash"></span>Extension hypothesis</div>
+        <div class="row"><span class="ln red"></span>Prohibited transfer or claim</div>
+      </div>
+      <p class="note">Node size reflects strategic role in the programme. It does <b>not</b> reflect certainty or evidence strength.</p>
+
+      <h3>Gate state · 2026-08-04</h3>
+      <div class="legend" id="gateLegend"></div>
+    </aside>
+
+    <div class="canvaswrap" id="canvaswrap">
+      <svg id="universe" role="img" aria-label="Zoomable knowledge map of the PhD research programme"></svg>
+      <div class="zoomctl">
+        <button type="button" id="zIn" aria-label="Zoom in">+</button>
+        <button type="button" id="zOut" aria-label="Zoom out">−</button>
+        <button type="button" id="zFit" aria-label="Fit to screen" style="font-size:10px">fit</button>
+      </div>
+      <div class="hint">drag to pan · scroll to zoom · click a node for its evidence record</div>
+    </div>
+
+    <div class="doc" id="doc" hidden><div class="doc-inner" id="docInner"></div></div>
+
+    <aside class="panel" id="panel" aria-live="polite">
+      <div class="ph">
+        <button class="close" id="panelClose" type="button" aria-label="Close detail panel">×</button>
+        <div class="k" id="pKind"></div>
+        <h2 id="pTitle"></h2>
+        <div class="chips" id="pChips"></div>
+      </div>
+      <div class="pb" id="pBody"></div>
+    </aside>
+  </div>
+</div>
+
+<div class="tip" id="tip" role="tooltip"></div>
+
+<script>
+/* ============================================================
+   PhD KNOWLEDGE UNIVERSE — data model
+   All content derives from the repository governance set:
+   Charter v2.1 (traceability-core), ACCEPTED ADRs, Evidence
+   Gates v2.1, RQ-WP-Chapter-Paper-Gate Matrix v2.1, Terminology
+   Control v2.2, Current Direction Lock 20260804, Master G1-G2-G3
+   Evidence Synthesis 20260804, G1-G2 Condition Evidence
+   Interface v1.0, RQ1/RQ2/RQ3/WP4 addenda, Paper 1/2/3
+   directions, and the THREE_CAMPAIGN_REANALYSIS executive report.
+   No citation, metric, standard clause or journal ranking is
+   invented. Where the repository is silent the record says so.
+   ============================================================ */
+const CLUSTERS={
+  L1:{cx:720,cy:650,ang:205,name:"Layer 1 — Laboratory evidence",colour:"--l1"},
+  L2:{cx:1880,cy:650,ang:335,name:"Layer 2 — Information traceability",colour:"--l2"},
+  L3:{cx:1880,cy:1350,ang:25,name:"Layer 3 — Field feasibility",colour:"--l3"},
+  L4:{cx:720,cy:1350,ang:155,name:"Layer 4 — Inspection–maintenance support",colour:"--l4"}
+};
+const ORBIT={1:230,2:400,3:565};
+const SPAN={1:74,2:56,3:42};
+const STAGGER=75;
+const CENTRE={x:1300,y:950};
+const KINDS={Data:"square",Method:"hex",Evidence:"circle",Standard:"tag",Actor:"person",Decision:"diamond",Output:"rrect",Risk:"triangle"};
+
+/* ---------------- CENTRE, BRIDGES, FEM SATELLITE, QUARANTINE ---------------- */
+const FIXED=[
+{id:"CORE",l:"Data-informed Digital Twin",sub:"Coastal industrial steel buildings",x:1300,y:950,rr:74,k:"Evidence",s:"CORE",r:"Locked",c:"CORE",
+ def:"Thesis core: a data-informed Digital Twin framework for condition monitoring and inspection–maintenance support of coastal industrial steel buildings (Charter v2.1 §2).",
+ cl:"From vibration data to traceable condition evidence, from evidence to BIM-linked inspection records, and from inspection records to transparent management action.",
+ ev:"MASTER_RESEARCH_CHARTER_v2.1_TRACEABILITY_CORE_20260719.md §2; RESEARCH_ARCHITECTURE.md; RQ_WP_CHAPTER_PAPER_GATE_MATRIX_v2.1.md.",
+ lim:"The core contribution is a verifiable component-level evidence chain traceable to management action — not a new AI algorithm, not a FEM model, not a software product. No gate is closed.",
+ na:"Close Gate 1; govern and baseline Gate 2; only then authorise a bounded Gate 3 prototype.",
+ rk:"Any framing that presents the algorithm, the viewer or the BIM link as the contribution destroys the Construction Management identity of the thesis.",
+ kw:["Construction Management","Asset Management","coastal industrial steel building","data-informed Digital Twin","inspection-maintenance support"]},
+
+{id:"CORE-PROBLEM",l:"Fragmented records",sub:"the management problem",x:1300,y:792,rr:38,k:"Risk",s:"CORE",r:"Locked",c:"CORE",
+ def:"Sensing, BIM, inspection and maintenance records are held apart. An alert cannot be verifiably connected to a component, to the inspection that examined it, or to the status of the resulting action.",
+ cl:"The owner cannot answer, in a checkable way: which sensor, which component, which last inspection, which action status?",
+ ev:"RESEARCH_DIRECTION_AND_SCOPE.md §1; MASTER_RESEARCH_CHARTER.md §4.",
+ lim:"Stated as a management problem, not as a detection-accuracy problem.",
+ na:"Keep every RQ anchored to this statement so the gap stays a management gap.",
+ kw:["provenance","accountability","information governance","audit trail"]},
+
+{id:"CORE-CM",l:"Construction & Asset Management",sub:"disciplinary identity",x:1300,y:1108,rr:38,k:"Actor",s:"CORE",r:"Locked",c:"CORE",
+ def:"The thesis is positioned in Construction Management / Asset Management. Sensors, AI, BIM/IFC, databases, web viewers and FEM are instruments only.",
+ cl:"The unit of management value is one transparent evidence-to-action chain with provenance and accountability.",
+ ev:"RESEARCH_DIRECTION_AND_SCOPE.md §2–3; Charter v2.1 §2 'Lõi QLXD'.",
+ lim:"Accountability means traceability of role, evidence source, author, time, version and approval status. It is not a legal liability finding (Charter §2.4).",
+ na:"Every title, keyword and argument must lead with the management framing.",
+ kw:["accountability","provenance","asset management","information governance"]},
+
+{id:"CORE-EVCHAIN",l:"Evidence chain",sub:"locked",x:1092,y:950,rr:40,k:"Method",s:"CORE",r:"Locked",c:"CORE",
+ def:"Vibration data → condition / state-change evidence (+ CEI) → BIM-linked component → Inspection_Record → Action_Record → Status_Event → inspection-maintenance action support.",
+ cl:"The chain is locked and may not be reordered, shortened or extended without a written change request.",
+ ev:"Charter v2.1 §2.1; CURRENT_DIRECTION_LOCK_20260804.md §1; Master synthesis §C.",
+ lim:"Status_Event is candidate append-only history; exact lifecycle rules remain PROPOSED — NOT YET ACCEPTED.",
+ na:"Resolve the Action-Status-Event ADR before the Gate 2 baseline.",
+ kw:["condition evidence","state-change evidence","inspection record","Action_Status"]},
+
+{id:"CORE-IDCHAIN",l:"Identifier chain",sub:"locked",x:1508,y:950,rr:40,k:"Data",s:"CORE",r:"Locked",c:"CORE",
+ def:"Sensor_ID → BIM_GUID / Asset_ID @ Model_Version_ID → Condition_Evidence_ID → Inspection_Record_ID → Action_Record_ID.",
+ cl:"A traceability chain must end in a stable identifier, not in a status attribute.",
+ ev:"ACCEPTED ADR RESEARCH_ARCHITECTURE_DECISION_RECORD_ACTION_ID_20260719.md; Charter v2.1 §2.2.",
+ lim:"Action_Status / Workflow_Status is a current-state projection, never an identifier. Status_Event_ID is proposed only. Do not add Component_ID when Asset_ID + BIM_GUID + Model_Version_ID suffices; a database surrogate key is a technical key only. FEM_Node_ID is optional metadata at most.",
+ na:"Freeze identifier governance as part of the Gate 2 package.",
+ kw:["Sensor_ID","BIM_GUID","IFC GlobalId","Asset_ID","Condition_Evidence_ID","Inspection_Record_ID","Action_Status","Status_Event_ID"]},
+
+/* ---- interfaces ---- */
+{id:"IF1",l:"Interface L1 → L2",sub:"evidence becomes traceable",x:1300,y:540,rr:34,k:"Decision",s:"CORE",r:"Validation pending",c:"BR",g:"G1→G2",
+ def:"The conditions under which a model output may become a Condition_Evidence_ID.",
+ inn:"Per-window predictions, per-recording and per-run results, run registry, sensor provenance, fold registry, preprocessing spec, model config, source hashes.",
+ tr:"A pre-specified, approved aggregation rule forms one run-level evidence claim in one component context, with a populated CEI metadata structure.",
+ outp:"One immutable Condition_Evidence_ID version with Evidence_Status, CEI, provenance links and an explicit interpretation boundary.",
+ at:"Every source, run, sensor, fold and model reference resolves; source hashes recompute; CEI dimensions all present; reviewer approval recorded; Eligible_For_G2_Traceability evaluated explicitly.",
+ fm:"A window prediction is promoted straight to evidence; sensor identity is assumed from CSV column position; a threshold is chosen after seeing results; multiple BIM GUIDs are stored in one field.",
+ ac:"G1 evidence steward creates; authorised reviewer verifies; separation-of-duties policy applies.",
+ ev:"G1_TO_G2_CONDITION_EVIDENCE_INTERFACE_v1.0.md §6–§12.",
+ lim:"No official Condition_Evidence instance exists yet: there is no accepted G1 payload. Evidence is currently insufficient.",
+ kw:["Condition_Evidence_ID","CEI","provenance","run registry","aggregation rule"]},
+
+{id:"IF2",l:"Interface L2 → L3",sub:"schema goes to site",x:1880,y:1000,rr:34,k:"Decision",s:"CORE",r:"Idea",c:"BR",g:"G2→G4",
+ def:"The schema, identifiers and competency questions that are carried unchanged from the laboratory specification to the real building.",
+ inn:"Baselined G2 package: identifier governance, CEI structure, Inspection_Record schema, constraint catalogue, CQ registry.",
+ tr:"Instantiate the same contract against field sensors, the site BIM model version and real inspection records.",
+ outp:"Field sensor register, Sensor_ID → BIM_GUID mapping, field Inspection_Record instances, 2–3 executed traceability scenarios.",
+ at:"The identical CQ set is answerable at the site without schema change; every field sensor resolves to a verified BIM binding at a stated model version.",
+ fm:"Carrying the laboratory classifier instead of the schema; treating a candidate BIM binding as verified; silently editing the schema to fit the site.",
+ ac:"PhD candidate with the site operator and the BIM information manager.",
+ ev:"Charter v2.1 §6; EVIDENCE_GATES_v2.1 G4; Paper 3 direction.",
+ lim:"Gate 4 is readiness-only; field access is not confirmed. This interface may be prepared but not executed.",
+ kw:["competency questions","schema","field feasibility","Sensor_ID","BIM_GUID"]},
+
+{id:"IF3",l:"Interface L3 → L4",sub:"evidence to action review",x:1300,y:1400,rr:34,k:"Decision",s:"CORE",r:"Idea",c:"BR",g:"G4→G5",
+ def:"How state-change evidence, an inspection finding and operational context together enter an inspection-priority review.",
+ inn:"State-change evidence with CEI, inspection finding, contextual constraints (access, shutdown window, criticality as recorded).",
+ tr:"A transparent, unweighted rule set proposes a level; a human reviewer accepts, rejects or amends with a recorded rationale.",
+ outp:"Action_Record with level, rationale, responsible person, timestamp and an append-only status history.",
+ at:"Every scenario reproduces the expected level; every level change carries actor, time, reason and evidence reference; no automated authorisation occurs.",
+ fm:"Evidence confidence read as damage severity; a recommendation treated as an authorised action; 'completed' treated as verified closure.",
+ ac:"Facility manager / inspection engineer as reviewer and approver.",
+ ev:"EVIDENCE_GATES_v2.1 G5; WP4 addendum C4-03/C4-04.",
+ lim:"Four-level labels are not, by themselves, evidence of validated decision logic (Master synthesis §I).",
+ kw:["Normal","Watch","Inspect","Priority Inspection","human-in-the-loop","decision support"]},
+
+{id:"IF4",l:"Interface L4 → L2",sub:"action history thickens the record",x:1044,y:1092,rr:32,k:"Decision",s:"CORE",r:"Idea",c:"BR",g:"G5→G2",
+ def:"The return path: action and status history are written back so the asset information record grows richer over time.",
+ inn:"Status_Event entries, verification records, closure/reopen decisions.",
+ tr:"Append-only history is attached to Action_Record_ID and remains queryable for current-state reconstruction.",
+ outp:"A component whose history answers: what was seen, who decided, on what basis, what was verified, and what is still open.",
+ at:"Current state can be reconstructed from the event history alone; reopening preserves the prior closure.",
+ fm:"Overwriting status instead of appending; deleting events to correct them; losing the evidence basis after closure.",
+ ac:"Approver and verifier under the (still unresolved) role/permission matrix.",
+ ev:"ADR_ACTION_STATUS_EVENT_20260804_DRAFT.md; Master synthesis §F.",
+ lim:"PROPOSED — NOT YET ACCEPTED. Nothing in this interface may be presented as an accepted decision.",
+ kw:["Status_Event_ID","audit trail","provenance","accountability"]},
+
+{id:"IF5",l:"The closed loop",sub:"asset ↔ record ↔ decision ↔ inspection",x:1548,y:742,rr:32,k:"Method",s:"CORE",r:"Idea",c:"BR",
+ def:"Physical asset ↔ digital record ↔ human decision ↔ physical inspection. Closing this loop, verifiably, is what makes the framework a management contribution rather than a monitoring demonstration.",
+ cl:"The loop is the deliverable. Each single arc already exists in prior art; the governed, testable closure of all four is the candidate contribution.",
+ ev:"Master synthesis §E candidate gaps; RQ2 addendum competitor boundary (XUN8EX6X does not validate the full chain).",
+ lim:"Corpus-bounded. CLOSE_SEARCH means structural closure within the reviewed corpus — not universal absence, and not a Gate 2 pass. Never write 'first' or 'no study worldwide'.",
+ na:"Demonstrate the closure end-to-end in a bounded Gate 3 instance after the Gate 2 baseline.",
+ kw:["bidirectional traceability","round-trip test","competency questions","accountability"]},
+
+/* ---- FEM satellite (firewalled) ---- */
+{id:"FEM",l:"Nominal reference model",sub:"FEM satellite",x:1300,y:262,rr:40,k:"Method",s:"SUPPORTING",r:"Locked",c:"FEM",
+ def:"The only sanctioned FEM descriptor: nominal, uncalibrated, reference-only, not used for damage diagnosis.",
+ cl:"A nominal design model may inform where sensors are placed and may illustrate component location. Nothing more.",
+ ev:"Charter v2.1 §2.3 and §9; TERMINOLOGY_CONTROL_CURRENT.md §3; ADR 20260719 firewall.",
+ lim:"FEM has no RQ, no WP, no chapter, no Paper and no Evidence Gate. FEM_Node_ID is optional metadata and never a mandatory link.",
+ na:"Carry the mandatory qualifier at first mention in every document and section.",
+ rk:"Any drift toward calibration, model updating, stiffness inference or FEM-derived ground truth reopens the FEM-core architecture the supervisors rejected on 17/07/2026.",
+ kw:["Limited-FEM","nominal reference model","reference-informed sensor placement"]},
+{id:"FEM-OK",l:"Permitted FEM uses",sub:"inside the firewall",x:1092,y:262,rr:26,k:"Method",s:"SUPPORTING",r:"Locked",c:"FEM",
+ def:"Reference-informed sensor placement; illustration of component position and information; qualitative mechanical hypotheses explicitly labelled 'hypothesis, not confirmed'; FEM_Node_ID as optional metadata.",
+ ev:"Charter v2.1 §9; concise Charter §9.",
+ lim:"Every permitted use is descriptive or heuristic. None may enter a claim.",
+ kw:["reference-informed sensor placement","nominal reference model"]},
+{id:"FEM-NO",l:"Prohibited FEM uses",sub:"firewall breach",x:1508,y:262,rr:26,k:"Risk",s:"OUT",r:"Locked",c:"FEM",
+ def:"Calibrated FEM; damage diagnosis; stiffness-loss or bolt-preload inference; quantitative 1:10-to-field transfer; FEM-based ground truth; 'optimal sensor placement'; any FEM RQ/WP/chapter/Paper/Gate.",
+ ev:"Charter v2.1 §9 and §11; EVIDENCE_GATES_v2.1 'Gates KHÔNG tồn tại'.",
+ lim:"Calibrated FEM, EMA/model updating and similitude belong to a Post-PhD branch and must never be wired back into a current claim.",
+ rk:"High. This is the single most likely route by which the thesis loses its Construction Management identity.",
+ kw:["calibrated FEM","MAC","EMA","equivalent stiffness","optimal sensor placement"]}
+];
+
+/* ---- out-of-scope quarantine belt ---- */
+const OOS=[
+ ["OOS1","Field damage diagnosis","Prohibited as a current claim. Every field anomaly leads to an inspection, never to a damage conclusion.","Charter v2.1 §10 prohibited; Paper 3 direction."],
+ ["OOS2","Predictive maintenance · RUL","Out of scope. Post-PhD extension only; no forecasting of failure time.","Charter §7 and §12; Terminology Control §2."],
+ ["OOS3","Damage severity · weighted Health Index","Prohibited. CEI is confidence/evidence metadata, never severity, probability or priority.","Charter v2.1 §7 and §10; Current Direction Lock §4."],
+ ["OOS4","Calibrated FEM diagnosis","Prohibited. No calibration, MAC, EMA, stiffness degradation or FEM-derived ground truth.","Charter v2.1 §2.3; Evidence Gates 'prohibited gates'."],
+ ["OOS5","Autonomous maintenance decision","Prohibited. Decision support is human-reviewed; the framework never authorises an inspection or an action.","Charter §11; Paper 2 direction §4."],
+ ["OOS6","Commercial-ready Digital Twin platform","Out of scope. A viewer, database or website is a supporting instrument, never the contribution.","Current Direction Lock §5; Terminology Control §2."],
+ ["OOS7","CFD · Smart City · Edge AI","Out of scope; not to be started.","Charter §7."],
+ ["OOS8","Direct lab-to-field classifier transfer","Prohibited — and contradicted by the project's own cross-campaign result.","Charter §10; THREE_CAMPAIGN_REANALYSIS §5 and §7."]
+];
+
+/* ---------------- LAYER 1 — RQ1 · WP1 · Chapter 4 · Paper 1 · Gate 1 ---------------- */
+const L1=[
+{id:"L1-FRAME",l:"1:10 steel frame",o:1,k:"Data",s:"CORE",r:"Locked",
+ def:"Scaled 1:10 steel portal-frame laboratory model — the controlled specimen that generates labelled vibration evidence.",
+ ev:"Charter v2.1 §7; CANONICAL_THREE_CAMPAIGN_DATASET/00_README.md.",
+ lim:"A scaled laboratory specimen. No quantitative conclusion may be transferred to a real building.",
+ kw:["laboratory validity","coastal industrial steel building"]},
+{id:"L1-STATE",l:"Controlled states",o:1,k:"Data",s:"CORE",r:"Locked",
+ def:"Four controlled connection states per campaign: healthy (S0) and three altered-connection conditions (B1, B2, B3), covering apex, beam–column and brace–column connection regions.",
+ ev:"THREE_CAMPAIGN_REANALYSIS §1: label mapping Healthy/B1/B2/B3 → 0..3; filename grammar S0 / S1B{1,2,3}.",
+ lim:"These are controlled laboratory state labels, not physical damage severities. They must never be mapped to a damage scale.",
+ na:"Keep the state registry as the only source of state labels for evidence formation.",
+ kw:["condition evidence","laboratory validity"]},
+{id:"L1-EXC",l:"Excitation types",o:1,k:"Data",s:"CORE",r:"Data available",
+ def:"Three excitation conditions per state: beat excitation at two levels (L1, L2) and white noise.",
+ ev:"THREE_CAMPAIGN_REANALYSIS §1 (deterministic filename parsing: B with L1/L2 sub-level, N = White_Noise).",
+ lim:"Controlled excitation. Field response is ambient and operational; the two are not interchangeable.",
+ na:"Report excitation-stratified results so excitation is not silently confounded with state.",
+ kw:["excitation robustness","run registry"]},
+{id:"L1-SENSOR",l:"Sensor positions S1–S3",o:1,k:"Data",s:"CORE",r:"Validation pending",
+ def:"Three functional accelerometer positions: S1 apex, S2 beam–column, S3 brace–column. Sensor configurations compared include single sensors, the S1+S2 pair and the full three-sensor set.",
+ ev:"THREE_CAMPAIGN_REANALYSIS §1 and §5; sensor configuration results file.",
+ lim:"CRITICAL: a static-gravity fingerprint audit shows CSV column position does not reliably identify the same physical unit across Campaign 1 and Campaign 2 (bimodal and trimodal clusters). Campaign 3 is clean. Until per-file reassignment is done, Campaign 1/2 single- and paired-sensor results must be read as 'column position', not as verified apex/beam-column/brace-column identity.",
+ na:"Execute gap RP-01 before any sensor-position claim enters Paper 1.",
+ rk:"High — this is the single most important open item in Gate 1.",
+ gap:"RP-01",
+ kw:["sensor configuration","sensor subset","Sensor_ID","sensor placement assessment"]},
+{id:"L1-ACQ",l:"Acquisition & preprocessing",o:1,k:"Method",s:"CORE",r:"Data available",
+ def:"PASCO CSV acquisition at 100.000 Hz with no jitter flags; axes Ax/Ay/Az; middle 40 s common window (4000 samples); per-recording mean removal; fixed 2 s / 200-sample non-overlapping windows; amplitude preserved in the main analysis.",
+ ev:"THREE_CAMPAIGN_REANALYSIS §1–§2; CANONICAL_THREE_CAMPAIGN_DATASET/00_README.md.",
+ lim:"The repository evidences PASCO acquisition only. No ADXL-class or other low-cost node data exists in the current repository — **Evidence is currently insufficient** for any low-cost sensor claim (see gap SC-04).",
+ na:"Keep the windowing and preprocessing specification versioned and approved before canonical evidence is created.",
+ kw:["low-cost sensor","sampling","windowing","reproducibility"]},
+{id:"L1-REG",l:"Run registry & provenance",o:1,k:"Evidence",s:"CORE",r:"Data available",
+ def:"Canonical registry of campaign, run, recording, source file, hash, label, sensor set and QC status. 216 recordings across three campaigns (4 states × 3 excitations × 6 runs × 3 campaigns), 72 CSVs per campaign, all present, hashed and quality-audited.",
+ ev:"THREE_CAMPAIGN_REANALYSIS §1 (216/216 completeness cells, zero missing, zero duplicate hashes); CANONICAL_THREE_CAMPAIGN_DATASET registries.",
+ lim:"The expected 05_DATA_CODE_AND_EXPERIMENTS/G1_EXECUTION_PACK/ does not exist. There is no locked RUN_REGISTRY_LOCKED.csv, no accepted independent-unit decision, no signed acceptance matrix. Evidence is currently insufficient.",
+ na:"Lock the canonical run registry and sensor identity/provenance — item 1 of the Gate 1 priority list.",
+ g:"G1",
+ kw:["run registry","campaign","provenance","reproducibility"]},
+{id:"L1-PROTO",l:"Leakage-safe evaluation",o:1,k:"Method",s:"CORE",r:"Method ready",
+ def:"Group-aware protocol: split at run level before windowing; scaler and all learned preprocessing fitted on training folds only; leave-one-run-out (LORO) within campaign and leave-one-campaign-out (LOCO) across campaigns; recording-level label permutation as a negative control.",
+ ev:"THREE_CAMPAIGN_REANALYSIS §2 and §7; RQ1 addendum C1-12, C1-13, C1-14.",
+ lim:"Only seed 42 was run for the CNN; the task minimum is three seeds. Within-campaign CNN coverage is 4 of 6 folds for one configuration only. LORO folds overlap in training data and are not independent datasets — six-fold Wilcoxon is exploratory at most (C1-16).",
+ na:"Complete the multi-seed sweep and the within-campaign CNN matrix off the constrained sandbox.",
+ g:"G1",
+ kw:["run-aware evaluation","leakage-safe evaluation","LORO","group-aware split","train-only preprocessing"]},
+{id:"L1-MODEL",l:"Comparative models",o:1,k:"Method",s:"CORE",r:"Validation pending",
+ def:"Logistic Regression, SVM and Random Forest on a fixed feature set, plus a compact 1D-CNN. Models are comparison instruments, not the contribution.",
+ ev:"THREE_CAMPAIGN_REANALYSIS §5: full feature-baseline matrix (13 sensor configs × 6 folds × 3 models within campaign; 3 configs × 3 folds × 3 models across campaigns).",
+ lim:"ResNet1D was NOT run in the 2026 reanalysis. The Charter still carries a candidate ResNet1D figure from an earlier pipeline whose sensor mode and provenance are unverified. No ResNet1D number may enter Paper 1 until that is resolved or the model is removed.",
+ na:"Execute gap RP-04: confirm-or-remove ResNet1D on provenance grounds.",
+ rk:"High — an unverified model result in a claim table is a direct Gate 1 failure mode.",
+ gap:"RP-04",
+ kw:["run-aware evaluation","reproducibility"]},
+{id:"L1-METRIC",l:"Metrics, uncertainty & null",o:1,k:"Evidence",s:"CORE",r:"Validation pending",
+ def:"Macro-F1 with per-class and per-fold breakdown, confusion matrices, between-run and between-campaign variability, and a recording-level permutation null.",
+ cl:"Candidate claim pending Gate 1 closure — within-campaign Random Forest median macro-F1 was 0.683 (Campaign 1, Ax only), 0.878 (Campaign 2, xyz) and 0.609 (Campaign 3, xyz) against a 0.25 chance level, with permutation p = 0.000 in both within-campaign configurations tested.",
+ ev:"THREE_CAMPAIGN_REANALYSIS §5 and §7.",
+ lim:"Every figure is a candidate claim pending Gate 1 closure. The Charter's earlier candidate figures (RF ≈ 0.862; 1D-CNN S12 ≈ 0.841; ResNet1D ≈ 0.828) come from a different, earlier pipeline and are not reproduced by the 2026 reanalysis. Confusion matrices and per-window predictions were retained for three representative folds only; training curves were not retained.",
+ na:"Produce the complete run/fold uncertainty package, then the acceptance matrix and sign-off.",
+ g:"G1",
+ kw:["uncertainty","reproducibility","run-aware evaluation"]},
+{id:"L1-CROSS",l:"Cross-campaign collapse",o:1,k:"Evidence",s:"CORE",r:"Data available",
+ def:"Under leave-one-campaign-out, every configuration and every model family landed at or below the 0.25 chance level (median macro-F1: LogReg 0.186, SVM 0.195, RF 0.166, CNN 0.152).",
+ cl:"Candidate claim pending Gate 1 closure — and the most load-bearing negative result the programme owns.",
+ ev:"THREE_CAMPAIGN_REANALYSIS §5 and §7. In the tested cross-campaign permutation, the real classifier scored below all 100 label-shuffled runs, p(null ≥ real) = 1.000.",
+ lim:"The cause is not isolated: sensor remounting, the column-position instability, excitation-duration differences and session effects are all candidate explanations. Evidence is currently insufficient to attribute the collapse to any single factor.",
+ na:"Do not repair this by tuning. Report it, and use it as the empirical argument for why the thesis transfers a schema rather than a classifier (gap FD-05).",
+ rk:"Presenting this as a failure to be fixed would be a strategic error; it is the strongest available justification for the traceability-core architecture.",
+ g:"G1",
+ kw:["domain shift","leakage-safe evaluation","campaign","state-change evidence"]},
+{id:"L1-G1",l:"Gate 1",o:1,k:"Decision",s:"CORE",r:"Validation pending",g:"G1",
+ def:"Dataset integrity and run-aware evaluation. Fifteen gate items with required artifact, acceptance criterion, evidence path, owner and sign-off.",
+ cl:"Gate 1 is the current priority for the whole programme.",
+ ev:"EVIDENCE_GATES_v2.1.md G1; CURRENT_STATUS_AND_NEXT_DIRECTION.md Stream A.",
+ lim:"Status at 2026-08-04: OPEN — PARTIAL EVIDENCE. Every gate item remains OPEN; no item is signed.",
+ na:"Canonical run registry → sensor provenance → split audit → leakage-safe multi-seed LORO → ResNet1D confirm/remove → uncertainty → acceptance and sign-off. Only then lock the Paper 1 claims.",
+ kw:["run registry","LORO","reproducibility","uncertainty"]},
+
+/* ---- Layer 1 gaps (orbit 2) ---- */
+{id:"L1-G-RP01",l:"Physical sensor identity",o:2,k:"Risk",s:"CORE",r:"Data available",gap:"RP-01"},
+{id:"L1-G-RP02",l:"Multi-seed reproducibility",o:2,k:"Method",s:"CORE",r:"Method ready",gap:"RP-02"},
+{id:"L1-G-RP04",l:"ResNet1D provenance",o:2,k:"Risk",s:"CORE",r:"Validation pending",gap:"RP-04"},
+{id:"L1-G-RP03",l:"Open dataset & benchmark",o:2,k:"Output",s:"SUPPORTING",r:"Method ready",gap:"RP-03",tt:1,pub:1},
+{id:"L1-G-EV01",l:"Window & sampling sensitivity",o:2,k:"Method",s:"CORE",r:"Data available",gap:"EV-01"},
+{id:"L1-G-EV02",l:"Excitation robustness",o:2,k:"Method",s:"CORE",r:"Data available",gap:"EV-02"},
+{id:"L1-G-EV03",l:"Campaign repeatability",o:2,k:"Method",s:"CORE",r:"Method ready",gap:"EV-03"},
+{id:"L1-G-EV04",l:"CEI confidence calibration",o:2,k:"Evidence",s:"CORE",r:"Validation pending",gap:"EV-04"},
+{id:"L1-G-SC01",l:"Sensor placement assessment",o:2,k:"Method",s:"CORE",r:"Data available",gap:"SC-01",pub:1},
+{id:"L1-G-SC02",l:"Minimum sensor count",o:2,k:"Method",s:"SUPPORTING",r:"Data available",gap:"SC-02",pub:1},
+{id:"L1-G-SC03",l:"Axis & subset selection",o:2,k:"Method",s:"SUPPORTING",r:"Data available",gap:"SC-03"},
+{id:"L1-G-SC04",l:"Low-cost vs reference sensor",o:2,k:"Data",s:"SUPPORTING",r:"Idea",gap:"SC-04",pub:1},
+{id:"L1-G-SC05",l:"Sensor fusion & disagreement",o:2,k:"Method",s:"CORE",r:"Method ready",gap:"SC-05"},
+
+/* ---- Layer 1 outer orbit ---- */
+{id:"L1-O-P1",l:"Paper 1",o:3,k:"Output",s:"CORE",r:"Validation pending",g:"G1",pub:1,
+ def:"Run-aware evaluation of sensor configurations for laboratory condition evidence: dataset integrity, run registry, LORO, sensor-configuration effect, CEI as a by-product.",
+ ev:"PAPER1_DIRECTION_AND_GATE_v2.1_20260719.md; Matrix v2.1 §1.",
+ lim:"Journal target is to be verified before it is locked. Milestone M1 sits under Gate 1 and is not a new gate. Every metric carries 'Candidate claim pending Gate 1 closure'.",
+ na:"Close Gate 1, lock the claim table, resolve the candidate claims, assemble the reproducibility package.",
+ kw:["run-aware evaluation","sensor configuration","reproducibility"]},
+{id:"L1-F01",l:"Multi-level condition DOE",o:3,k:"Method",s:"FUTURE",r:"Idea",
+ def:"An extended experiment with several graded connection-condition levels.",
+ lim:"Only defensible if reliable experimental ground truth for each level exists. Without it, graded levels invite a severity claim that the Charter prohibits.",
+ na:"Post-PhD, or a separate funded experiment with independent verification of each level.",
+ kw:["laboratory validity","condition evidence"]},
+{id:"L1-F02",l:"Active sensing & modal testing",o:3,k:"Method",s:"FUTURE",r:"Idea",
+ def:"Controlled actuation or additional modal testing as an independent evidence branch.",
+ lim:"Separate branch. It must not become a route back to model updating or calibrated FEM.",
+ kw:["laboratory validity"]},
+{id:"L1-F03",l:"Bounded explainability",o:3,k:"Method",s:"FUTURE",r:"Idea",
+ def:"Feature-attribution or similar methods used only to help understand model behaviour.",
+ lim:"Must never be presented as physical damage interpretation. Terminology Control removes 'mechanical damage interpretation' as a thesis activity.",
+ rk:"Medium — explainability output is very easily over-read as mechanism.",
+ kw:["uncertainty","condition evidence"]},
+{id:"L1-F04",l:"Calibrated FEM · EMA · similitude",o:3,k:"Method",s:"FUTURE",r:"Idea",
+ def:"Calibrated finite element modelling, experimental modal analysis, model updating and dynamic similitude between the 1:10 model and a real structure.",
+ ev:"Charter v2.1 §12 lists these explicitly as post-PhD extensions.",
+ lim:"Distant galaxy. It may not be connected back to any current claim, gate or chapter. Minimum evidence to approach it: an independently validated modal dataset, a documented updating protocol and an accepted similitude law — none of which exists.",
+ rk:"High — this is the branch the supervisors closed on 17/07/2026.",
+ kw:["calibrated FEM","Limited-FEM"]}
+];
+
+/* ---------------- LAYER 2 — RQ2 · WP2 · Chapter 5 · Paper 2 · Gates 2, 3, 6 ---------------- */
+const L2=[
+{id:"L2-RQ2",l:"RQ2 — the locked question",o:1,k:"Decision",s:"CORE",r:"Locked",g:"G2",
+ def:"“How can condition evidence and its confidence be organised and linked to BIM components and inspection records to enable verifiable justification and accountability of inspection decisions under limited field damage data?”",
+ cl:"This is the Construction Management identity pillar of the whole thesis.",
+ ev:"Charter v2.1 §3 (locked original wording); Matrix v2.1 §1.",
+ lim:"RQ2 may not be widened into pure ontology engineering, commercial software, automated decision, damage diagnosis, predictive maintenance, RUL or a weighted Health Index.",
+ na:"Pre-register SCQ/VCQ/RCQ before building any schema or demonstrator.",
+ kw:["traceability-to-decision","accountability","justification","limited field damage data"]},
+{id:"L2-ASSET",l:"Component identity",o:1,k:"Data",s:"CORE",r:"Locked",
+ def:"Asset_ID together with BIM_GUID / IFC GlobalId, interpreted at a stated Model_Version_ID. Asset_ID is not the same thing as a GUID.",
+ ev:"Charter v2.1 §2.2; Master synthesis §F (FREEZE); G1-G2 interface §7.6 and §11.",
+ lim:"Do not add Component_ID when Asset_ID + BIM_GUID + Model_Version_ID is sufficient. A database surrogate key is a technical implementation key only.",
+ na:"Freeze identifier governance in the Gate 2 package.",
+ kw:["BIM","IFC","BIM_GUID","IFC GlobalId","Asset_ID","schema"]},
+{id:"L2-CE",l:"Condition evidence + CEI",o:1,k:"Evidence",s:"CORE",r:"Validation pending",
+ def:"One immutable evidence-record version representing one bounded evidence claim, formed by a pre-specified aggregation rule from one Run_ID (or a defined recording-level aggregation) in one component context, with a mandatory CEI metadata structure.",
+ cl:"CEI is a first-class metadata structure: evidence-validity status, model confidence, run/fold variability, sensor configuration, data-quality status, provenance, timestamp and version.",
+ ev:"Charter v2.1 §7; Current Direction Lock §4; G1-G2 interface §5 and §7.5.",
+ lim:"CEI is never a universal scalar, a Health Index, damage severity, damage probability, maintenance priority, or an authorisation to act. Where a single index cannot be justified, write: 'Evidence is currently insufficient to define CEI as a universal scalar index.'",
+ na:"Populate the CEI structure from the accepted Gate 1 uncertainty package (gap EV-04).",
+ g:"G1→G2",
+ kw:["Condition_Evidence_ID","CEI","provenance","uncertainty"]},
+{id:"L2-IR",l:"Inspection_Record_ID",o:1,k:"Data",s:"CORE",r:"Idea",
+ def:"The accountable record of an inspection: minimum schema plus role and approval status, linked to the component and to the evidence that prompted it.",
+ ev:"EVIDENCE_GATES_v2.1 G2 (Inspection_Record schema item); Master synthesis §F (FREEZE).",
+ lim:"The minimum schema is not yet written or approved. Exact Inspection_Record–Action_Record cardinality is EXPERT_REVIEW_REQUIRED; do not force 1:1.",
+ na:"Draft the minimum schema in parallel with Gate 1 closure, then take it to expert review.",
+ g:"G2",
+ kw:["inspection record","BIM-linked inspection record","schema"]},
+{id:"L2-AR",l:"Action_Record_ID",o:1,k:"Data",s:"CORE",r:"Idea",
+ def:"The stable identity of an inspection-maintenance action. It must be traceable to evidence, CEI, component, inspection record, role, timestamp, version, approval status and the applicable management or legal reference.",
+ ev:"ACCEPTED ADR Action_ID 20260719; Master synthesis §F (FREEZE).",
+ lim:"Action_Status / Workflow_Status is a current-state projection of Action_Record, never an identifier. A recommendation is not automatically an Action_Record.",
+ na:"Complete the Action_Record schema as a Gate 2 artifact.",
+ g:"G2",
+ kw:["Action_Status","accountability","provenance"]},
+{id:"L2-SE",l:"Status_Event history",o:1,k:"Decision",s:"CORE",r:"Idea",
+ def:"Append-only event history for the action lifecycle: prior state, new state, actor/role, occurred-at, reason, record version, authorisation context and source reference.",
+ ev:"ADR_ACTION_STATUS_EVENT_20260804_DRAFT.md; Master synthesis §F (append-only Status_Event = FREEZE structurally).",
+ lim:"PROPOSED — NOT YET ACCEPTED. The name Status_Event_ID, the lifecycle vocabulary, the role/permission matrix, the verification criteria and the closure/reopen policy are all GOVERNANCE_DECISION_REQUIRED.",
+ na:"Put the ADR to the supervisor and to expert review; do not treat any proposed rule as accepted.",
+ rk:"Medium-high — writing the proposed model as if accepted is the fastest way to lose governance credibility.",
+ g:"G2",
+ kw:["Status_Event_ID","audit trail","accountability","provenance"]},
+{id:"L2-CQ",l:"SCQ / VCQ / RCQ registry",o:1,k:"Method",s:"CORE",r:"Idea",
+ def:"Pre-registered competency questions — scoping, validation and relationship — each with its query, expected answer and failure condition, in paired forward and reverse form.",
+ ev:"Charter v2.1 §3 (pre-registration required); RQ2 addendum C2-16; Master synthesis §F (paired forward/reverse CQ = FREEZE).",
+ lim:"Reverse lookup is not round-trip parity. Query-answer parity and transformation round-trip must be declared separately (Terminology Control §2).",
+ na:"Pre-register the CQ registry with exact expected answers BEFORE any schema or demonstrator is built.",
+ g:"G2",
+ kw:["competency questions","round-trip test","bidirectional traceability","schema"]},
+{id:"L2-CON",l:"Constraint catalogue",o:1,k:"Method",s:"CORE",r:"Idea",
+ def:"Versioned families of chain-specific constraints: identity, relation, chronology, transition, authorization, evidence and closure.",
+ ev:"Master synthesis §F (constraint families = FREEZE); EVIDENCE_GATES_v2.1 G2.",
+ lim:"Implementation-neutral by decision. Mandatory SHACL, a mandatory graph database and mandatory blockchain are all REMOVE.",
+ na:"Fix the catalogue, then instantiate it in the smallest bounded test instance after the Gate 2 baseline.",
+ g:"G2",
+ kw:["referential integrity","orphan record","duplicate","conflict","schema"]},
+{id:"L2-FIX",l:"Fixture & oracle manifest",o:1,k:"Method",s:"CORE",r:"Idea",
+ def:"Controlled valid and invalid fixtures with isolated mutations, and a machine-readable oracle stating the exact expected violation IDs, codes and counts.",
+ ev:"Master synthesis §F (fixture and machine-readable oracle = FREEZE); EVIDENCE_GATES_v2.1 G2/G3.",
+ lim:"Generic valid/invalid fixtures are established prior art. Only chain-specific mutation and exact expected-versus-actual assertion sit inside the candidate novelty boundary.",
+ na:"Author the manifest before implementation so results cannot be rationalised after the fact.",
+ g:"G2→G3",
+ kw:["orphan record","duplicate","conflict","round-trip test"]},
+{id:"L2-G2",l:"Gate 2",o:1,k:"Decision",s:"CORE",r:"Idea",g:"G2",
+ def:"Traceability model and competency questions: fifteen gate items from the Final Decision Register through identifier governance, CEI structure, schemas, CQ registry, constraint catalogue and fixture/oracle manifest to baseline sign-off.",
+ ev:"EVIDENCE_GATES_v2.1 G2; Master synthesis §F.",
+ lim:"Status at 2026-08-04: OPEN — LITERATURE BOUNDARY CLOSED, SPECIFICATION NOT YET FROZEN. CLOSE_SEARCH is corpus-bounded and is not a Gate 2 pass.",
+ na:"Review the ADR; complete the Decision Register and ER model; pre-register CQ expected answers; baseline the constraint catalogue and fixture/oracle manifest; obtain expert review and approval.",
+ kw:["competency questions","schema","referential integrity"]},
+{id:"L2-G3",l:"Gate 3",o:1,k:"Decision",s:"CORE",r:"Idea",g:"G3",
+ def:"End-to-end laboratory traceability-to-decision demonstration with paired forward/reverse CQs, identity, evidence, event, authorization, verification and closure tests against an exact oracle.",
+ ev:"EVIDENCE_GATES_v2.1 G3.",
+ lim:"Status: OPEN — NOT IMPLEMENTED, NOT VALIDATED, NOT OFFICIALLY PASSED. Execution authorization is NOT OPEN until the Gate 2 package is approved and baselined. Do not run Graph 02. Do not build a website, database or prototype yet.",
+ na:"After Gate 2 acceptance, build only the smallest bounded, technology-neutral test instance, using synthetic payloads until a real Gate 1 payload is accepted.",
+ rk:"High — building the demonstrator early is the most tempting and most damaging shortcut available.",
+ kw:["round-trip test","referential integrity","orphan record","duplicate"]},
+
+/* ---- Layer 2 gaps ---- */
+{id:"L2-G-ID01",l:"Inspection–Action cardinality",o:2,k:"Decision",s:"CORE",r:"Idea",gap:"ID-01"},
+{id:"L2-G-ID02",l:"Lifecycle & authorization",o:2,k:"Decision",s:"CORE",r:"Idea",gap:"ID-02",pub:1},
+{id:"L2-G-ID03",l:"Verification & guarded closure",o:2,k:"Decision",s:"CORE",r:"Idea",gap:"ID-03",pub:1},
+{id:"L2-G-ID04",l:"GUID persistence",o:2,k:"Data",s:"CORE",r:"Idea",gap:"ID-04"},
+{id:"L2-G-ID05",l:"Sensor–component relations",o:2,k:"Data",s:"CORE",r:"Idea",gap:"ID-05"},
+{id:"L2-G-IS01",l:"AIR for condition evidence",o:2,k:"Standard",s:"SUPPORTING",r:"Idea",gap:"IS-01",tt:1},
+{id:"L2-G-IS02",l:"ISO 19650 mapping",o:2,k:"Standard",s:"SUPPORTING",r:"Idea",gap:"IS-02",pub:1},
+{id:"L2-G-IS03",l:"TCVN 14177:2024 mapping",o:2,k:"Standard",s:"SUPPORTING",r:"Idea",gap:"IS-03",pub:1,tt:1},
+{id:"L2-G-IS04",l:"IDS / schema rule checking",o:2,k:"Method",s:"SUPPORTING",r:"Method ready",gap:"IS-04",tt:1},
+{id:"L2-G-SA02",l:"Benchmark test suite",o:2,k:"Output",s:"SUPPORTING",r:"Method ready",gap:"SA-02",tt:1,pub:1},
+
+/* ---- Layer 2 outer orbit ---- */
+{id:"L2-O-P2",l:"Paper 2",o:3,k:"Output",s:"CORE",r:"Idea",g:"G2·G3·G6",pub:1,
+ def:"One paper reporting the Gate 2 specification and, later, the executed Gate 3 validation of an implementation-neutral, identity-governed, event-aware, verification-controlled evidence-to-action traceability specification.",
+ ev:"PAPER2_CURRENT_DIRECTION_v2.1_20260804.md.",
+ lim:"Paper 2A/2B, split-paper and dual-paper commitments are superseded. Gate 2 and Gate 3 remain separate gates even though one paper reports both. Established prior art — sensor-to-BIM, BIM-linked records, IFC GlobalId, BIM-CMMS, generic workflow, CQs, provenance, SHACL/SPARQL/IDS validation, generic fixtures, navigation, generic human-in-the-loop, status flags, viewers — is excluded from independent novelty.",
+ na:"Complete the Gate 2 package; obtain expert review; only then implement.",
+ kw:["component-level traceability","competency questions","accountability","schema"]},
+{id:"L2-O-TT1",l:"AIR & record templates",o:3,k:"Output",s:"SUPPORTING",r:"Idea",tt:1,
+ def:"Asset Information Requirements template and inspection-record template for operators of industrial steel assets.",
+ lim:"Transferable only after the Gate 2 schema is baselined; standards alignment must stay labelled until clause-level verification is done.",
+ kw:["Asset Information Model","inspection record","ISO 19650"]},
+{id:"L2-O-TT2",l:"Schema & CQ library",o:3,k:"Output",s:"SUPPORTING",r:"Idea",tt:1,
+ def:"The traceability schema plus a reusable competency-question library with expected answers.",
+ lim:"Release only after Gate 2 baseline; the library is a specification artifact, not a validated product.",
+ kw:["competency questions","schema","bidirectional traceability"]},
+{id:"L2-O-TT3",l:"IFC / IDS validation toolkit",o:3,k:"Output",s:"SUPPORTING",r:"Idea",tt:1,
+ def:"A checking toolkit that instantiates the constraint catalogue against IFC/IDS or an equivalent technology.",
+ lim:"The toolkit is a supporting instrument. It is explicitly not the scientific contribution (Current Direction Lock §5).",
+ kw:["IFC","schema","referential integrity"]},
+{id:"L2-O-TT8",l:"Standards-aligned guide",o:3,k:"Output",s:"FUTURE",r:"Idea",tt:1,
+ def:"An implementation guide aligning the evidence-to-action chain with ISO 19650 and TCVN 14177:2024 information-management practice.",
+ lim:"Cannot be written before clause-level verification of both standards. Until then every mapping stays labelled 'candidate mapping requiring clause-level verification'.",
+ kw:["ISO 19650","TCVN 14177:2024","information governance"]},
+{id:"L2-F01",l:"Ontology / knowledge graph",o:3,k:"Method",s:"FUTURE",r:"Idea",
+ def:"Semantic interoperability through ontology or knowledge-graph representation (IFC, IDS, COBie, BCF, bSDD).",
+ lim:"Only defensible with a clear research question that is not ontology engineering for its own sake. RQ2 explicitly may not be widened into pure ontology engineering. No technology is mandated.",
+ kw:["IFC","schema","semantic interoperability"]},
+{id:"L2-F02",l:"CDE governance & access control",o:3,k:"Method",s:"FUTURE",r:"Idea",
+ def:"Common Data Environment governance, data ownership, approval authority and role-based access control across parties.",
+ lim:"Requires multi-party field agreements that do not exist. Post-PhD or a separate study.",
+ kw:["information governance","ISO 19650","accountability"]},
+{id:"L2-F03",l:"CMMS / EAM integration",o:3,k:"Output",s:"FUTURE",r:"Idea",tt:1,
+ def:"Integration of the evidence-to-action chain with work-order and enterprise asset-management systems.",
+ lim:"BIM-CMMS integration is established prior art and carries no independent novelty. Value here is transfer, not contribution.",
+ kw:["technology transfer","Action_Status"]},
+{id:"L2-F04",l:"Portfolio-level extension",o:3,k:"Method",s:"FUTURE",r:"Idea",
+ def:"Extending from component level to system, building and portfolio level.",
+ lim:"Distant. Minimum evidence to approach: a validated component-level chain at one site, then a second site.",
+ kw:["asset management","scalability"]}
+];
+
+/* ---------------- LAYER 3 — RQ3 · WP3 · Chapter 6 · Paper 3 · Gates 4, 5 ---------------- */
+const L3=[
+{id:"L3-SITE",l:"Rapexco Hòa Hiệp",o:1,k:"Actor",s:"CORE",r:"Idea",g:"G4",
+ def:"The single real coastal industrial steel building selected for field feasibility.",
+ ev:"Charter v2.1 §3 RQ3; Matrix v2.1 §1; Paper 3 direction.",
+ lim:"One building, three sensors, a short monitoring period and limited event coverage. Findings are feasibility findings, never generalisation.",
+ kw:["field feasibility","coastal industrial steel building"]},
+{id:"L3-ACCESS",l:"Field-access basis",o:1,k:"Risk",s:"CORE",r:"Idea",g:"G4",
+ def:"A signed or confirmed field-access agreement is a hard prerequisite for deployment.",
+ ev:"EVIDENCE_GATES_v2.1 G4 (field-access basis, hard prerequisite); Paper 3 direction.",
+ lim:"UNCONFIRMED at 2026-08-04. This is the binding constraint on the whole of Layer 3.",
+ na:"Confirm the access basis now — it is the one Stream C item that cannot be prepared around.",
+ rk:"High — every Layer 3 gap is blocked behind this single item.",
+ kw:["field feasibility","field preparation"]},
+{id:"L3-POS",l:"Three functional positions",o:1,k:"Data",s:"CORE",r:"Idea",
+ def:"One selected frame line instrumented at apex, beam–column and brace–column positions, mirroring the laboratory functional layout.",
+ ev:"Charter v2.1 §6; Paper 3 direction.",
+ lim:"Placement is reference-informed by the nominal, uncalibrated, reference-only design model. It is never 'optimal sensor placement'.",
+ kw:["reference-informed sensor placement","sensor configuration","Sensor_ID"]},
+{id:"L3-INST",l:"Installation record & mapping",o:1,k:"Data",s:"CORE",r:"Idea",g:"G4",
+ def:"Field sensor register with coordinates, orientation, mounting, sampling, time synchronisation, and the Sensor_ID → BIM_GUID mapping at a stated model version.",
+ ev:"EVIDENCE_GATES_v2.1 G4; Charter v2.1 §6 minimum field evidence items 1–2.",
+ lim:"Mandatory thesis evidence even if Paper 3 is never published.",
+ na:"Prepare the register and the mapping protocol now, under Stream C readiness.",
+ kw:["Sensor_ID","BIM_GUID","field feasibility"]},
+{id:"L3-BASE",l:"Operational baseline",o:1,k:"Evidence",s:"CORE",r:"Idea",g:"G4",
+ def:"A baseline of operational response at the site, used as a reference for state-change evidence.",
+ ev:"EVIDENCE_GATES_v2.1 G4 (no universal duration imposed); RQ3 addendum C3-05.",
+ lim:"The field baseline is an operational reference. It is NOT assumed damage-free. No universal minimum duration applies.",
+ kw:["field baseline","operational variability","state-change evidence"]},
+{id:"L3-EOV",l:"Environmental variability",o:1,k:"Data",s:"CORE",r:"Idea",
+ def:"Recorded wind, temperature, humidity and machinery/operational-load metadata alongside the vibration record.",
+ ev:"RQ3 addendum C3-05, C3-07 (environment and activity can mimic or dominate state changes).",
+ lim:"No transferable correction model exists across the reviewed sources. Metadata must be recorded prospectively or the field record is uninterpretable.",
+ kw:["environmental variability","operational variability","unlabeled data"]},
+{id:"L3-QC",l:"Data return & completeness",o:1,k:"Evidence",s:"CORE",r:"Idea",g:"G4",
+ def:"Evidence that data actually comes back: completeness, drift checks and quality control over the monitoring period.",
+ ev:"EVIDENCE_GATES_v2.1 G4 (data return; completeness & drift).",
+ lim:"Feasibility evidence. It says nothing about detection performance.",
+ kw:["field feasibility","reproducibility","unlabeled data"]},
+{id:"L3-SCEN",l:"Traceability scenarios",o:1,k:"Method",s:"CORE",r:"Idea",g:"G4",
+ def:"Two to three end-to-end traceability scenarios executed at the site: from a field observation forward to an action record, and backward from a component to its evidence history.",
+ ev:"Charter v2.1 §6 minimum field evidence item 6; EVIDENCE_GATES_v2.1 G4.",
+ lim:"The Charter requires 2–3 scenarios, not a fixed larger number. Scenarios demonstrate that the chain runs, not that damage was detected.",
+ kw:["bidirectional traceability","inspection record","field feasibility"]},
+{id:"L3-UNLAB",l:"Unlabelled field data",o:1,k:"Data",s:"CORE",r:"Idea",
+ def:"Field data carries no state labels. Any change indication is state-change evidence that may trigger review — never a damage conclusion.",
+ ev:"Charter v2.1 §6; RQ3 addendum C3-09; Paper 3 direction 'Ranh giới'.",
+ lim:"The laboratory classifier may not be carried to the field to conclude anything. The project's own cross-campaign collapse is direct evidence of why.",
+ rk:"High — this is the most likely place for an overclaim to appear in a thesis defence.",
+ kw:["unlabeled data","state-change evidence","anomaly detection","human-in-the-loop"]},
+{id:"L3-G4",l:"Gate 4",o:1,k:"Decision",s:"CORE",r:"Idea",g:"G4",
+ def:"Minimum field mapping and baseline feasibility: access basis, sensor register, Sensor→BIM mapping, data return, completeness and drift, operational baseline, traceability scenarios.",
+ ev:"EVIDENCE_GATES_v2.1 G4.",
+ lim:"Readiness and preparation only. Deployment is not authorised; Gate 4 evidence may not be used to close Gate 1, 2 or 3.",
+ na:"Confirm access; prepare register, GUID stability audit, mapping protocol, data governance and inspection templates.",
+ kw:["field feasibility","field preparation"]},
+
+/* ---- Layer 3 gaps ---- */
+{id:"L3-G-FD01",l:"Baseline definition & updating",o:2,k:"Method",s:"CORE",r:"Idea",gap:"FD-01"},
+{id:"L3-G-FD02",l:"EOV normalisation",o:2,k:"Method",s:"SUPPORTING",r:"Idea",gap:"FD-02",pub:1},
+{id:"L3-G-FD03",l:"Unsupervised state-change evidence",o:2,k:"Method",s:"CORE",r:"Idea",gap:"FD-03",pub:1},
+{id:"L3-G-FD04",l:"Sensor fault vs state change",o:2,k:"Risk",s:"CORE",r:"Idea",gap:"FD-04"},
+{id:"L3-G-FD05",l:"Schema transfers, classifier does not",o:2,k:"Evidence",s:"CORE",r:"Data available",gap:"FD-05",pub:1},
+{id:"L3-G-FD06",l:"Event-triggered inspection",o:2,k:"Method",s:"SUPPORTING",r:"Idea",gap:"FD-06"},
+{id:"L3-G-FD07",l:"Completeness & synchronisation",o:2,k:"Method",s:"CORE",r:"Idea",gap:"FD-07"},
+{id:"L3-G-SA03",l:"Schema transferability across sites",o:2,k:"Method",s:"FUTURE",r:"Idea",gap:"SA-03"},
+
+/* ---- Layer 3 outer orbit ---- */
+{id:"L3-O-P3",l:"Paper 3 (optional)",o:3,k:"Output",s:"CORE",r:"Idea",g:"G4·G5",pub:1,
+ def:"Field feasibility at Rapexco. Publication is optional/bonus and sits outside the critical path; the minimum field-feasibility evidence is mandatory for the thesis regardless.",
+ ev:"Charter v2.1 §6; Paper 3 direction; Matrix v2.1 §4.",
+ lim:"Journal target is not locked and must not be asserted. The thesis stands on Paper 1 + Paper 2.",
+ kw:["field feasibility","inspection record","operational baseline"]},
+{id:"L3-O-TT4",l:"Field deployment protocol",o:3,k:"Output",s:"SUPPORTING",r:"Idea",tt:1,
+ def:"A reusable protocol for instrumenting an industrial steel frame and binding each channel to a BIM component before acquisition begins.",
+ ev:"RQ3 addendum C3-09 next action: map every field channel to Sensor_ID and BIM_GUID before acquisition.",
+ lim:"Protocol quality is only demonstrated once one deployment has actually returned data.",
+ kw:["field feasibility","Sensor_ID","BIM_GUID"]},
+{id:"L3-O-TT7",l:"Pilot service for operators",o:3,k:"Output",s:"FUTURE",r:"Idea",tt:1,
+ def:"A bounded pilot service offering traceable inspection recording to industrial building operators.",
+ lim:"Requires a validated chain, data-governance agreements and a commercial vehicle. Post-PhD; explicitly outside the current thesis.",
+ kw:["technology transfer","information governance"]},
+{id:"L3-F01",l:"UAV · thermal · image modality",o:3,k:"Data",s:"FUTURE",r:"Idea",
+ def:"Additional inspection evidence modalities feeding the same record structure.",
+ lim:"Only defensible as an additional evidence modality inside the existing chain, never as a second diagnostic system.",
+ kw:["inspection record","condition evidence"]},
+{id:"L3-F02",l:"Weather & operation data fusion",o:3,k:"Method",s:"FUTURE",r:"Idea",
+ def:"Systematic fusion of environmental and operational data streams with vibration evidence.",
+ lim:"Depends on FD-02; no transferable correction model exists in the reviewed corpus.",
+ kw:["environmental variability","operational variability"]},
+{id:"L3-F03",l:"Active learning on confirmed cases",o:3,k:"Method",s:"FUTURE",r:"Idea",
+ def:"Using inspection-confirmed cases to progressively build a field label set.",
+ lim:"Requires FD-08-style accumulation over years. Post-PhD. No retrospective relabelling.",
+ kw:["inspection record","unlabeled data"]},
+{id:"L3-F04",l:"Edge · predictive · RUL",o:3,k:"Method",s:"FUTURE",r:"Idea",
+ def:"Edge deployment, predictive maintenance, remaining useful life and autonomous maintenance.",
+ lim:"Distant galaxy and partly prohibited as a current claim. Minimum evidence to approach: a multi-year, inspection-confirmed field record at several assets — which does not exist.",
+ rk:"High — the most attractive and most dangerous drift direction for a Digital Twin thesis.",
+ kw:["predictive maintenance","RUL"]},
+{id:"L3-F05",l:"DT maturity progression",o:3,k:"Method",s:"FUTURE",r:"Idea",
+ def:"Descriptive → diagnostic support → predictive maturity progression, with the current position stated explicitly.",
+ cl:"The thesis is at data-informed, inspection-support, non-predictive maturity, self-defined in the research-framework chapter.",
+ ev:"RESEARCH_ARCHITECTURE.md §4; WP4 addendum C4-06.",
+ lim:"Digital Twin maturity levels must NOT be mapped onto the four condition-action levels.",
+ kw:["data-informed Digital Twin","decision support"]}
+];
+
+/* ---------------- LAYER 4 — WP4 · Chapter 7 · Paper 4 (optional) · Gate 5 ---------------- */
+const L4=[
+{id:"L4-LEVELS",l:"Four-level action logic",sub:"action logic, not severity",o:1,k:"Decision",s:"CORE",r:"Idea",g:"G5",
+ def:"A four-level inspection-priority logic. This is action and inspection-priority logic — it is NOT a damage severity scale.",
+ ev:"Charter v2.1 §7; EVIDENCE_GATES_v2.1 G5; WP4 addendum core finding.",
+ lim:"No reviewed source implements this or a genuinely equivalent transparent escalation with an auditable trigger, status history and scenario validation. The four labels alone are not evidence of validated decision logic.",
+ na:"Specify entry, exit and permitted transitions, then take them to facility-manager scenario review.",
+ rk:"Medium — the labels read like a severity scale to anyone who has not read the definition. Guard the wording everywhere.",
+ kw:["Normal","Watch","Inspect","Priority Inspection","decision support"]},
+{id:"L4-RULES",l:"Entry / exit / transition rules",o:1,k:"Method",s:"CORE",r:"Idea",g:"G5",
+ def:"Explicit, unweighted rules governing when an asset enters or leaves each level and which transitions are permitted.",
+ ev:"EVIDENCE_GATES_v2.1 G5 (4-level logic, transparent, unweighted).",
+ lim:"No weighted Health Index. No automated decision. Rules must be readable by a facility manager without a model.",
+ kw:["decision support","explainability","human-in-the-loop"]},
+{id:"L4-PKG",l:"Evidence package",o:1,k:"Evidence",s:"CORE",r:"Idea",
+ def:"What a reviewer actually sees: the condition or state-change evidence, its CEI structure, the component, the evidence history and the applicable management obligation.",
+ ev:"WP4 addendum proposed scenario-evaluation criteria (transparent trigger; traceability).",
+ lim:"CEI must be presented as structured metadata. Presenting it as one number would convert it into the Health Index the Charter prohibits.",
+ kw:["condition evidence","CEI","provenance"]},
+{id:"L4-FIND",l:"Inspection finding",o:1,k:"Evidence",s:"CORE",r:"Idea",
+ def:"The human observation recorded during inspection: what was found, by whom, when, with photographs and attachments.",
+ ev:"WP4 addendum C4-03; G2 Inspection_Record schema.",
+ lim:"Defect severity recorded in a finding does not automatically become an Action_Level (Terminology Control §6).",
+ kw:["inspection record","human-in-the-loop"]},
+{id:"L4-CTX",l:"Contextual constraints",o:1,k:"Data",s:"CORE",r:"Idea",
+ def:"Access windows, shutdown constraints, resources and recorded component criticality that shape what action is realistic.",
+ lim:"Criticality and consequence may be used only where asset-management data actually records them. Inventing a criticality weighting would recreate a weighted index.",
+ kw:["asset management","decision support"]},
+{id:"L4-APPR",l:"Human approval",o:1,k:"Actor",s:"CORE",r:"Idea",g:"G5",
+ def:"A named responsible person approves, with role, timestamp and rationale recorded.",
+ ev:"WP4 addendum C4-04; Charter v2.1 §2.4 accountability definition.",
+ lim:"Accountability is traceability of role, evidence source, author, time, version and approval status — not a legal liability finding and not personal blame.",
+ kw:["accountability","human-in-the-loop","audit trail"]},
+{id:"L4-HIST",l:"Status history & rationale",o:1,k:"Evidence",s:"CORE",r:"Idea",
+ def:"Append-only history of level changes with prior state, new state, actor, time and reason, plus a plain-language rationale.",
+ ev:"WP4 addendum proposed criteria (status history; explainability); ADR draft.",
+ lim:"Exact vocabulary is unresolved. 'Completed' is not verified closure.",
+ kw:["Status_Event_ID","audit trail","accountability"]},
+{id:"L4-SCEN",l:"Scenario-based validation",o:1,k:"Method",s:"CORE",r:"Idea",g:"G5",
+ def:"Fixed input fixtures with an expected level, the actual level and a discrepancy log.",
+ ev:"WP4 addendum proposed criterion 'scenario reproducibility'.",
+ lim:"Scenario reproducibility is not field validation and not evidence of decision effectiveness.",
+ kw:["decision support","reproducibility"]},
+{id:"L4-EXP",l:"Facility-manager review",o:1,k:"Actor",s:"CORE",r:"Idea",g:"G5",
+ def:"Expert and facility-manager review of the scenarios and of the resulting records.",
+ ev:"EVIDENCE_GATES_v2.1 G5 (expert review, sign-off by Expert).",
+ lim:"Missing. Gate 5 cannot close without it, and much of the Gate 2 vocabulary depends on the same review.",
+ na:"Recruit reviewers early — this is a long-lead item that blocks two gates at once.",
+ rk:"Medium-high — expert access is a scheduling risk that is easy to discover too late.",
+ kw:["human-in-the-loop","decision support","accountability"]},
+{id:"L4-G5",l:"Gate 5",o:1,k:"Decision",s:"CORE",r:"Idea",g:"G5",
+ def:"Inspection-action scenario review: transparent four-level logic, facility-manager/expert review, no automated decision, no field damage conclusion without inspection.",
+ ev:"EVIDENCE_GATES_v2.1 G5.",
+ lim:"Status: OPEN; expert-reviewed decision-support evidence is missing.",
+ kw:["decision support","human-in-the-loop"]},
+
+/* ---- Layer 4 gaps ---- */
+{id:"L4-G-IA01",l:"Formal decision rules",o:2,k:"Method",s:"CORE",r:"Idea",gap:"IA-01",pub:1},
+{id:"L4-G-IA02",l:"Escalation & de-escalation",o:2,k:"Method",s:"CORE",r:"Idea",gap:"IA-02"},
+{id:"L4-G-IA03",l:"Decision provenance & explainability",o:2,k:"Evidence",s:"CORE",r:"Idea",gap:"IA-03",pub:1},
+{id:"L4-G-IA04",l:"Uncertainty communication",o:2,k:"Risk",s:"CORE",r:"Idea",gap:"IA-04"},
+{id:"L4-G-IA05",l:"False-alarm vs missed inspection",o:2,k:"Method",s:"SUPPORTING",r:"Idea",gap:"IA-05"},
+{id:"L4-G-SA01",l:"Traceability maturity model",o:2,k:"Method",s:"FUTURE",r:"Idea",gap:"SA-01"},
+{id:"L4-G-SA04",l:"Dashboard usability",o:2,k:"Method",s:"SUPPORTING",r:"Idea",gap:"SA-04",pub:1},
+{id:"L4-G-SA05",l:"Adoption & compliance reporting",o:2,k:"Method",s:"FUTURE",r:"Idea",gap:"SA-05"},
+
+/* ---- Layer 4 outer orbit ---- */
+{id:"L4-O-P4",l:"Paper 4 (optional/merged)",o:3,k:"Output",s:"SUPPORTING",r:"Idea",g:"G5",pub:1,
+ def:"From condition evidence to inspection priority: the four-level logic with expert scenario review. May be merged into Paper 3.",
+ ev:"Charter v2.1 §5; Matrix v2.1 §1.",
+ lim:"Optional. WP4 is merged into WP2/WP3 and there is no RQ4.",
+ kw:["decision support","Normal","Watch","Inspect","Priority Inspection"]},
+{id:"L4-O-TT5",l:"Dashboard demonstrator",o:3,k:"Output",s:"SUPPORTING",r:"Idea",tt:1,
+ def:"A demonstrator that shows the chain and the decision record to a facility manager.",
+ lim:"A viewer, dashboard or website is a supporting instrument and explicitly not the contribution (Current Direction Lock §5).",
+ kw:["decision support","explainability"]},
+{id:"L4-O-TT6",l:"FM training package",o:3,k:"Output",s:"FUTURE",r:"Idea",tt:1,
+ def:"Training material for facility managers on evidence-to-action recording.",
+ lim:"Only meaningful after scenario review shows the records are readable by the intended audience.",
+ kw:["technology transfer","decision support"]},
+{id:"L4-F01",l:"Cost–benefit & value of information",o:3,k:"Method",s:"FUTURE",r:"Idea",
+ def:"Economic evaluation of traceable inspection support against fragmented practice.",
+ lim:"Requires operator cost and downtime data that the project does not hold.",
+ kw:["asset management","decision support"]},
+{id:"L4-F02",l:"Portfolio-level prioritisation",o:3,k:"Method",s:"FUTURE",r:"Idea",
+ def:"Prioritising inspection across many assets.",
+ lim:"Distant; must not become a weighted Health Index by another name.",
+ kw:["asset management","decision support"]},
+{id:"L4-F03",l:"ISO 55000-family alignment",o:3,k:"Standard",s:"FUTURE",r:"Idea",
+ def:"Alignment of the decision-support layer with asset-management principles in the ISO 55000 family.",
+ lim:"Standards-alignment branch requiring clause-level verification. Nothing may be asserted about any clause before the official text is read.",
+ kw:["asset management","information governance"]},
+{id:"L4-F04",l:"Predictive / RUL-based planning",o:3,k:"Method",s:"FUTURE",r:"Idea",
+ def:"Planning inspections from forecast deterioration.",
+ lim:"Prohibited as a current claim; Post-PhD only. Minimum evidence to approach: validated deterioration models plus long-run inspection-confirmed field data.",
+ rk:"High.",
+ kw:["predictive maintenance","RUL"]},
+{id:"L4-O-TT9",l:"Multi-building programme",o:3,k:"Output",s:"FUTURE",r:"Idea",tt:1,
+ def:"A multi-building research programme extending the validated chain to a portfolio.",
+ lim:"Post-PhD. Depends on a validated single-site chain and on replication at a second site.",
+ kw:["scalability","technology transfer"]}
+];
+
+const NODES=[].concat(FIXED,
+  L1.map(n=>Object.assign({c:"L1",rq:"RQ1",wp:"WP1",ch:"C4",pp:"Paper 1",g:n.g||"G1"},n)),
+  L2.map(n=>Object.assign({c:"L2",rq:"RQ2",wp:"WP2",ch:"C5",pp:"Paper 2",g:n.g||"G2"},n)),
+  L3.map(n=>Object.assign({c:"L3",rq:"RQ3",wp:"WP3",ch:"C6",pp:"Paper 3 (optional)",g:n.g||"G4"},n)),
+  L4.map(n=>Object.assign({c:"L4",rq:"—",wp:"WP4 (merged into WP2/WP3)",ch:"C7 (optional, may merge C6)",pp:"Paper 4 (optional)",g:n.g||"G5"},n)),
+  OOS.map((o,i)=>({id:o[0],l:o[1],c:"OOS",k:"Risk",s:"OUT",r:"Locked",x:540+i*(1520/7),y:2114,rr:26,def:o[2],ev:o[3],
+    lim:"Quarantined. Retained as a visible boundary, not deleted — but it may not be started and may not be implied in any current claim.",
+    kw:["out of scope"]}))
+);
+
+/* ============================================================
+   RESEARCH GAP PORTFOLIO — 38 gaps in 8 families
+   G(id, layer, gap statement, current evidence, missing evidence,
+     candidate RQ, data needed, method, validation, scope,
+     readiness, priority, possible output, gate dependency,
+     risk, claim boundary)
+   ============================================================ */
+function G(a){return{id:a[0],layer:a[1],gap:a[2],cur:a[3],miss:a[4],rq:a[5],data:a[6],method:a[7],val:a[8],scope:a[9],ready:a[10],prio:a[11],out:a[12],gate:a[13],risk:a[14],bound:a[15]};}
+
+const GAPS=[
+/* ---- Family 1 — evidence validity ---- */
+G(["EV-01","L1","Sensitivity of laboratory condition evidence to window length, overlap and sampling rate is characterised on single representative folds only, not across the fold matrix.",
+"Single-fold sensitivity results exist: middle-40 s window 0.971 vs full duration 0.859; amplitude-preserving 0.971 vs RMS-normalised 0.841 (Campaign 2, held-out R7, RF) — candidate claims pending Gate 1 closure.",
+"Full fold-matrix sensitivity; sampling-rate variation; overlap variation; uncertainty intervals per variant.",
+"How sensitive is laboratory condition evidence to windowing and sampling choices under a leakage-safe run-aware protocol?",
+"None new — re-window the existing 216 recordings.","Factorial sensitivity sweep on fixed folds, seeds and preprocessing.",
+"Rank order of configurations remains stable across folds; each variant reported with run/fold uncertainty.",
+"Core","Data available","Now","Paper 1 section + reproducibility package","G1","low",
+"Sensitivity is not optimality. No 'best configuration' claim may be made."]),
+
+G(["EV-02","L1","Excitation type is present in the design but its effect is not separated in the current aggregate results, so excitation and state can be silently confounded.",
+"Three excitation conditions recorded per state (beat L1, beat L2, white noise); filename grammar is deterministic and every completeness cell is filled.",
+"Excitation-stratified LORO results; leave-one-excitation-out evaluation.",
+"Does laboratory condition evidence hold across excitation types, or is it excitation-specific?",
+"None new — existing recordings.","Stratified and leave-one-excitation-out evaluation on the same folds and seeds.",
+"Per-excitation macro-F1 with uncertainty, no fold leakage, pre-specified before execution.",
+"Core","Data available","Now","Paper 1","G1","medium",
+"Controlled laboratory excitation is not field ambient excitation. No robustness claim may be extended to the field."]),
+
+G(["EV-03","L1","Between-campaign variability is large and its causes are not isolated, so repeatability across days, campaigns and sensor remounting is unquantified.",
+"Within-campaign RF median macro-F1 0.683 / 0.878 / 0.609 across Campaigns 1–3; Campaign 3 spread is much wider (std 0.184) than Campaign 2 (std 0.091) — candidate claims pending Gate 1 closure.",
+"A designed repeatability study that separates remounting, column-position instability, excitation duration and session effects.",
+"Which controllable experimental factors drive between-campaign variability in connection-state evidence?",
+"A new controlled repeat campaign with fixed instrumentation and logged mount/dismount events.","Designed repeatability experiment with variance decomposition.",
+"Pre-registered protocol; variance attributed to named factors with intervals; difficult runs retained, not excluded.",
+"Core","Method ready","Next","Paper 1 limitations + supportive paper","G1","high",
+"A variability finding is not a damage-detection failure and not a statement about field performance."]),
+
+G(["EV-04","L1→L2","CEI is defined as a mandatory first-class metadata structure but there is no accepted evidence package to populate its confidence and variability dimensions.",
+"CEI structure specified: evidence-validity status, model confidence, run/fold variability, sensor configuration, data-quality status, provenance, timestamp/version.",
+"An accepted Gate 1 run/fold uncertainty package; a populated CEI instance for even one evidence record.",
+"How should run and fold variability be represented as CEI confidence metadata without collapsing into a scalar?",
+"Accepted Gate 1 uncertainty outputs.","Metadata specification plus reviewer walkthrough on real records.",
+"Every Condition_Evidence record carries all mandatory CEI dimensions and a reviewer can check each one against source evidence.",
+"Core","Validation pending","Now","Paper 1 by-product + Paper 2 specification","G1→G2","medium",
+"CEI is never severity, damage probability, maintenance priority or an authorisation. If a single index cannot be justified, state that evidence is currently insufficient."]),
+
+/* ---- Family 2 — sensor configuration and placement ---- */
+G(["SC-01","L1","Sensor positions are compared informally; there is no pre-registered assessment criterion for how position affects separability of controlled connection states.",
+"Reference-informed placement is the sanctioned framing; three functional positions exist; a 13-configuration within-campaign matrix was run for the feature baselines.",
+"A pre-registered position-comparison criterion applied on identical folds, seeds and compute budgets, after sensor identity is fixed.",
+"How do candidate sensor positions differ in their support for distinguishing controlled connection states?",
+"Existing recordings; Campaign 3 is already identity-clean.","Position-wise comparison on common folds with equal budgets.",
+"Pre-registered comparison; uncertainty reported; conclusions bounded to the laboratory specimen.",
+"Core","Data available","Now","Paper 1 + supportive paper","G1","medium",
+"Never 'optimal sensor placement'. No optimisation problem and no ground truth for optimality has been defined. Terminology Control removes the term."]),
+
+G(["SC-02","L1","The number of sensors needed before returns diminish is not established.",
+"Combining sensors helped in every campaign tested (for example S1+S2_Ax 0.760 > S2_Ax 0.683 > S1_Ax 0.645 in Campaign 1) — candidate claims pending Gate 1 closure.",
+"A systematic subset sweep with uncertainty; a performance-versus-count curve.",
+"How many sensors are required before additional sensors stop adding usable evidence, under leakage-safe evaluation?",
+"Existing recordings.","Exhaustive subset sweep on fixed folds and seeds.",
+"Performance-versus-count curve with intervals; conclusion stable across campaigns or explicitly reported as campaign-dependent.",
+"Supporting","Data available","Next","Supportive paper","G1","medium",
+"Laboratory-specific. No extrapolation to field instrumentation density."]),
+
+G(["SC-03","L1","Axis and channel-subset selection is only partly characterised.",
+"Axis sensitivity exists on one fold: Campaign 2 Ax-only 0.770 vs xyz 0.919; Campaign 3 Ax-only 0.660 vs xyz 0.690 — candidate claims pending Gate 1 closure. Analysis Sets A/B/C fix the input shapes.",
+"Full axis-ablation matrix across folds and campaigns.",
+"Which axis sets carry connection-state information, and does the answer depend on sensor position?",
+"Existing recordings (Analysis Sets A, B, C).","Axis ablation on common folds.",
+"Consistent ranking across folds and campaigns, or explicit reporting of inconsistency.",
+"Supporting","Data available","Next","Paper 1 / supportive paper","G1","low",
+"Descriptive comparison only; no claim about which axis 'should' be used in the field."]),
+
+G(["SC-04","L1","Low-cost sensing is discussed in the literature base but the project holds no low-cost-node data of its own.",
+"Literature only: low-cost nodes may perform under controlled impulse yet fail under ambient vibration (RQ3 addendum C3-06). The project's own acquisition is PASCO-based. **Evidence is currently insufficient** for any low-cost-sensor claim.",
+"A paired acquisition campaign; noise floor, synchronisation, drift and data-loss qualification.",
+"Do low-cost nodes reproduce the condition evidence obtained with reference-grade acquisition on the same specimen and protocol?",
+"New paired recordings with both device classes on the same runs.","Pre-deployment qualification log plus paired classification on identical folds.",
+"Acceptance log for noise, timing, loss and drift; paired metrics with uncertainty.",
+"Supporting","Idea","Next","Supportive paper + field qualification protocol","G1 / G4","medium",
+"Sensor comparison is not a sensor-engineering contribution. Do not name any device class in a claim until the project has recorded it."]),
+
+G(["SC-05","L1→L2","There is no approved rule for representing cross-sensor disagreement inside condition evidence and CEI.",
+"The G1→G2 interface requires per-sensor results and disagreement to stay visible and forbids collapsing sensor IDs; SENSOR_DISAGREEMENT is a defined quality flag.",
+"An approved aggregation rule that defines consensus, dominance, abstention or review behaviour.",
+"How should cross-sensor disagreement be represented in condition evidence and its confidence metadata?",
+"Per-window predictions across the full fold matrix (currently retained for three folds only).","Disagreement metrics plus a pre-specified aggregation rule.",
+"Rule approved before any canonical evidence record is created; disagreement reproducible from retained per-sensor results.",
+"Core","Method ready","Now","Paper 1 / Paper 2 interface","G1→G2","medium",
+"Fusion is not improved diagnosis. Disagreement handling must never be tuned after seeing outcomes."]),
+
+/* ---- Family 3 — leakage and reproducibility ---- */
+G(["RP-01","L1","Physical sensor identity is not established per file: CSV column position does not reliably denote the same physical unit across Campaigns 1 and 2.",
+"An independent static-gravity fingerprint audit found column positions cleanly bimodal in Campaign 1 and trimodal in Campaign 2, with zero intermediate values; Campaign 3 maps to one tight cluster per position. Sensor_Mapping_Status for Campaign 1/2 is SENSOR_SET_CONFIRMED_COLUMN_POSITION_UNSTABLE.",
+"Per-file fingerprint-based physical-sensor reassignment for 144 files, and re-execution of every single- and paired-sensor configuration that used Campaigns 1 or 2.",
+"Not a research question — an execution blocker that gates several claims.",
+"Existing fingerprint data already captured in the reanalysis outputs.","Per-file reassignment, then re-run of the affected configurations.",
+"After reassignment each position maps to one cluster per campaign; affected results re-reported.",
+"Core","Data available","Now","Gate 1 evidence pack","G1","high",
+"Until this is resolved, Campaign 1/2 single- and paired-sensor results are 'column position 1/2/3', never verified apex / beam-column / brace-column identity. This is the single most important open Gate 1 item."]),
+
+G(["RP-02","L1","The reproducibility package is incomplete: single-seed CNN coverage, partial fold coverage, no retained training curves, no locked model or environment provenance.",
+"Feature-baseline coverage is complete for both within-campaign and cross-campaign matrices at seed 42; the CNN cross-campaign matrix is complete at seed 42; within-campaign CNN covers one configuration and four of six folds; twelve automated dataset checks passed at package build time.",
+"Seeds 123 and 2026; the full within-campaign CNN matrix; retained per-epoch histories where figures are needed; model and checkpoint hashes; environment lockfile; commit tag; a patience ablation for the folds that collapsed near single-class output.",
+"Not a research question — an execution requirement for Gate 1 closure.",
+"Existing recordings; compute outside the constrained sandbox.","Full seed sweep with pre-registered configuration and retained artifacts.",
+"Run and fold mean ± standard deviation reported; reproduction attempt recorded, including failures.",
+"Core","Method ready","Now","Gate 1 acceptance matrix","G1","medium",
+"No model-superiority claim of any kind. Models are comparison instruments."]),
+
+G(["RP-03","L1","The canonical dataset is packaged but not released, so independent reproduction is impossible.",
+"A canonical package exists with raw-file inventory, sensor mapping registry, channel-quality registry, exclusion registry, master run registry, fold manifests, a window generator that fits scalers on training windows only, and an automated test suite.",
+"Release decision, licence, data-ownership and ethics clearance, a persistent identifier, and at least one independent reproduction attempt.",
+"Can a leakage-safe steel-connection vibration benchmark be released such that an independent party reproduces at least one fold?",
+"None new.","Packaging plus an independent reproduction trial.",
+"A third party reproduces a nominated fold within a declared tolerance.",
+"Supporting","Method ready","Next","Data paper / repository release / benchmark protocol","G1","low",
+"Release is not a generality claim. The dataset remains a scaled laboratory specimen."]),
+
+G(["RP-04","L1","A model result carried in the Charter as a candidate claim cannot be verified from project provenance.",
+"The Charter lists ResNet1D ≈ 0.828 macro-F1 as a candidate claim pending Gate 1 closure. The 2026 three-campaign reanalysis did not run ResNet1D at all. No reviewed source can verify the project's ResNet1D sensor mode.",
+"Sensor mode, channels, fold membership, seeds, preprocessing and stored artifacts from the original pipeline — or a decision to remove the model.",
+"Not a research question — a provenance decision.",
+"Original pipeline artifacts, if recoverable.","Provenance audit against the Gate 1 acceptance criteria.",
+"A recorded confirm-or-remove decision signed at Gate 1.",
+"Core","Validation pending","Now","Gate 1 acceptance / Paper 1 claim table","G1","high",
+"No ResNet1D number enters Paper 1 until this is resolved. 'ResNet1D corroborates the finding' remains a candidate claim pending Gate 1 closure."])
+];
+
+GAPS.push(
+/* ---- Family 4 — identity and traceability ---- */
+G(["ID-01","L2","The cardinality between inspection records and action records is undecided, so the chain cannot be constrained or tested.",
+"The Gate 2 Final Decision Register marks exact Inspection–Action cardinality EXPERT_REVIEW_REQUIRED with the explicit instruction not to force 1:1.",
+"A reviewed cardinality decision with its rationale, and fixtures that test the chosen cardinality.",
+"What cardinality between inspection records and action records preserves accountability without forcing an artificial one-to-one relation?",
+"Structured elicitation from facility managers and inspection consultants.","Expert review, then constraint and fixture testing of the chosen cardinality.",
+"Competency-question answers and cardinality constraints pass on valid fixtures and reject invalid ones.",
+"Core","Idea","Now","Paper 2 specification","G2","medium",
+"Corpus-bounded. Never 'first' or 'no study worldwide'."]),
+
+G(["ID-02","L2","Action lifecycle vocabulary, the role/permission matrix and authorization rules are proposed but not accepted.",
+"The Action-Status-Event ADR is PROPOSED — NOT YET ACCEPTED. The register marks lifecycle vocabulary and the role matrix EXPERT_REVIEW_REQUIRED and the authorization requirement FREEZE_PROVISIONALLY.",
+"An accepted vocabulary, an accepted role/permission matrix with separation of duties, and negative fixtures for unauthorized approval and prohibited self-approval.",
+"Which action lifecycle states and authorization rules make an inspection decision auditable in Vietnamese industrial asset practice?",
+"Expert review with practitioners; site organisational roles.","ADR plus expert panel, then authorization negative tests.",
+"Unauthorized approval, rejection, rework and self-approval are rejected by the approved role matrix.",
+"Core","Idea","Now","Paper 2 core contribution","G2→G3","high",
+"Accountability is traceability of role, evidence, author, time, version and approval status — not a legal liability finding (Charter §2.4)."]),
+
+G(["ID-03","L2","Post-action verification and guarded closure/reopen are required structurally, but the criteria and the entity choice are unresolved.",
+"Verification requirement is FREEZE; verification entity versus Inspection_Record subtype is FREEZE_PROVISIONALLY; closure/reopen requirement is FREEZE_PROVISIONALLY; exact criteria are EXPERT_REVIEW_REQUIRED.",
+"Verification criteria, the entity decision, and fixtures for closure-without-verification and for reopen-preserving-history.",
+"What verification evidence must exist before an inspection-maintenance action may be closed, and what must be preserved when it is reopened?",
+"Expert review plus scenario cases from the site.","Specification, then negative testing against an exact oracle.",
+"Closure is blocked without accepted verification; a valid reopen preserves the prior closure and its history.",
+"Core","Idea","Now","Paper 2 candidate novelty","G2→G3","high",
+"'Completed' is not verified closure. A recommendation is not automatically an Action_Record. Defect severity is not an Action_Level."]),
+
+G(["ID-04","L2/L3","The stability of component identity across BIM model revisions has never been audited on a real model.",
+"Model_Version_ID is part of the identity context; BIM binding states and supersession rules are specified in the G1→G2 interface.",
+"An empirical GUID-stability audit across real successive versions of the site model.",
+"How do BIM model revisions affect the stability of component-level evidence bindings, and what supersession behaviour keeps history interpretable?",
+"Versioned IFC/Revit exports of the site model.","GUID diff audit across versions plus supersession fixture tests.",
+"Every superseded binding retains forward and reverse lineage; duplicate or reused GUIDs block verification.",
+"Core","Idea","Next","Paper 2 / Paper 3 + practical guidance","G2 / G4","medium",
+"This audits identity, not defects. A verified binding verifies identity linkage only."]),
+
+G(["ID-05","L2/L3","Sensor relocation, replacement and many-to-one or one-to-many sensor–component relations have no history model.",
+"The interface permits explicit association rows with declared cardinality and prefers component-scoped evidence records; a list of GUIDs in one field is prohibited.",
+"A relocation and replacement history model, and fixtures showing that historical evidence still resolves correctly.",
+"How should sensor relocation and replacement be recorded so that historical condition evidence remains correctly attributed?",
+"Field installation and maintenance records.","History model plus time-aware binding fixtures.",
+"Historical evidence resolves to the binding that was valid at its own observation time.",
+"Core","Idea","Next","Paper 2 / Paper 3","G2 / G4","medium",
+"No automatic re-attribution of past evidence to a new binding."]),
+
+/* ---- Family 5 — interoperability and standards alignment ---- */
+G(["IS-01","L2","Asset Information Requirements for condition evidence have not been derived, so the framework is not yet expressible as an owner requirement.",
+"The thesis positions itself against ISO 19650 and TCVN 14177:2024 as framing; the G1→G2 interface defines the fields an evidence record must carry.",
+"Clause-level extraction from the official standard texts; owner and operator requirement interviews.",
+"What Asset Information Requirements are needed to make condition evidence traceable during operation of an industrial steel asset?",
+"Official standard texts; owner/operator interviews.","Clause-level mapping, then requirement derivation and review.",
+"Each derived requirement traces to a verified clause or is explicitly labelled thesis-defined.",
+"Supporting","Idea","Next","Supportive paper + AIR template","G2","medium",
+"Standard-aligned framing only. Do not assert that any standard prescribes the schema."]),
+
+G(["IS-02","L2","The mapping between the evidence-to-action chain and ISO 19650 information management is asserted at framing level only.",
+"Framing statements exist in the direction and scope document; no clause-level evidence has been extracted.",
+"A verified clause-level mapping of information delivery, common data environment, approval and revision concepts onto the chain.",
+"How does the traceability contract map onto ISO 19650 operational information management?",
+"Official standard text.","Mapping table using three explicit labels: standard-aligned framing / candidate mapping requiring clause-level verification / validated requirement.",
+"An independent reviewer confirms the label attached to every mapping row.",
+"Supporting","Idea","Next","Paper 2 appendix / standards paper","G2","medium",
+"No clause may be asserted without verification against the official source."]),
+
+G(["IS-03","L2","The mapping to TCVN 14177:2024 and to Vietnamese management obligations is unverified.",
+"Legal mapping is permitted only to anchor management obligation, never to create technical thresholds. The Charter lists Luật Xây dựng 135/2025, NĐ 207/2026/NĐ-CP, TT 32/2026/TT-BXD, QĐ 46/2026/QĐ-UBND Khánh Hòa and Công văn 3839 as pending official-source verification.",
+"Official texts and a verified clause-level obligation table.",
+"Which recorded management obligations in Vietnamese practice can be satisfied by a traceable evidence-to-action record?",
+"Official legal and standard texts; practitioner interviews.","Obligation mapping table with verification status per row.",
+"Every legal reference either carries a verified citation or the label 'Legal reference pending official-source verification'.",
+"Supporting","Idea","Next","Paper 2 legal-mapping table + supportive paper","G2","medium",
+"Legal texts may not be used to derive damage thresholds, to claim that monitoring is universally mandatory, or to justify the four action levels."]),
+
+G(["IS-04","L2","The constraint catalogue is implementation-neutral by decision, but neutrality has never been demonstrated.",
+"The register REMOVEs mandatory SHACL, mandatory graph database and mandatory blockchain; constraint families are FROZEN; the fixture/oracle approach is FROZEN.",
+"At least two independent instantiations of the same catalogue and a comparison against the same oracle.",
+"Can chain-specific integrity constraints be expressed implementation-neutrally and instantiated in two technologies without changing acceptance results?",
+"The constraint catalogue and fixture set.","Dual instantiation, then exact oracle comparison.",
+"Identical violation identifiers, codes and counts from both instantiations.",
+"Supporting","Method ready","Next","Paper 2 validation section + validation toolkit","G3","medium",
+"The tool is an instrument, never the novelty. Validation languages and viewers cannot substitute for gate acceptance."])
+);
+
+GAPS.push(
+/* ---- Family 6 — field data and domain shift ---- */
+G(["FD-01","L3","There is no project criterion for how much baseline coverage is enough to interpret state-change evidence at the site.",
+"The gate explicitly imposes no universal baseline duration; the literature base holds that baselines should be location-specific and account for environmental effects.",
+"A pre-registered baseline-coverage criterion, and observed variability against it.",
+"What baseline coverage is sufficient to interpret state-change evidence at this coastal industrial site?",
+"Field acquisition after Gate 4 opens.","Pre-registration of coverage criteria, then measurement against them.",
+"Criteria are stated in advance and reported as met or not met, with the shortfall named.",
+"Core","Idea","Field preparation","Paper 3 / thesis Chapter 6","G4","medium",
+"An operational baseline is a reference, not proof of a damage-free state."]),
+
+G(["FD-02","L3","Environmental and operational variability cannot currently be separated from state change because the metadata is not being recorded.",
+"Literature evidence that temperature adjustment materially changes threshold behaviour, and that wind, activity, freezing and missing data can mimic or dominate state changes; no source supplies a transferable correction model.",
+"Co-located wind, temperature, humidity and machinery/operational-load logs at the site.",
+"How much of the observed field variability is explained by recorded environmental and operational metadata?",
+"Environmental and operational logs synchronised with the vibration record.","Pre-registered covariate analysis on the project's own field data.",
+"Explained variance reported with its limitations; unexplained variability retained rather than smoothed away.",
+"Supporting","Idea","Field preparation","Paper 3 / supportive paper","G4","high",
+"Normalisation is not damage detection. Without prospective metadata the field record is uninterpretable, so this must be designed before deployment."]),
+
+G(["FD-03","L3","The method that will produce field state-change evidence from unlabelled data has not been selected or bounded.",
+"Field data is unlabelled by design. Charter and Paper 3 direction require that any anomaly leads to an inspection, never to a damage conclusion.",
+"A selected unsupervised or one-class method with pre-registered thresholds and an explicit acceptance rule.",
+"Can unsupervised state-change evidence be produced that is fit to trigger a review, without ever supporting a damage conclusion?",
+"Field baseline and monitoring data.","One-class or change-point detection with thresholds fixed before observation.",
+"Every flagged change resolves to a review record with a human disposition.",
+"Core","Idea","Field preparation","Paper 3","G4 / G5","high",
+"State-change evidence is not damage. The laboratory classifier is never transferred to the field."]),
+
+G(["FD-04","L3","Sensor faults and structural state change are not separable with the current design.",
+"Literature warns that sensor faults, missing data and communication interruption can mimic structural change; the CEI structure already contains a data-quality dimension.",
+"A sensor-health check embedded in the evidence pipeline, and injected-fault test cases.",
+"How can sensor health be distinguished from structural state change in field evidence?",
+"Sensor diagnostics, communication logs, injected-fault cases.","Sensor-health checks feeding the CEI data-quality dimension, plus fault-injection tests.",
+"Injected sensor-fault cases are flagged as data-quality events and do not escalate to inspection review.",
+"Core","Idea","Field preparation","Paper 3 + CEI specification","G4","high",
+"Without this, false escalation is unmanaged and the whole decision layer loses credibility."]),
+
+G(["FD-05","L1→L3","The project has strong evidence that classifiers do not transfer across acquisition contexts, but has not yet stated explicitly what does transfer.",
+"Under leave-one-campaign-out every configuration and every model family fell at or below the 0.25 chance level (medians: LogReg 0.186, SVM 0.195, RF 0.166, CNN 0.152), and in the tested cross-campaign permutation the real classifier scored below all 100 shuffled-label runs — candidate claims pending Gate 1 closure.",
+"An explicit schema-transfer test: the same competency-question set answered at a second context without schema change.",
+"Which layer of the framework transfers across contexts when the classifier demonstrably does not?",
+"The laboratory instantiation plus one field instantiation of the same schema.","Instantiate the identical CQ and constraint set in both contexts and compare answerability.",
+"The identical competency-question set is answerable in both contexts with no schema modification.",
+"Core","Data available (laboratory side)","Next","Paper 2 and Paper 3 framing — the highest-value argument available","G2 / G4","low",
+"Schema transferability is not classifier transferability and must never be written as though it were."]),
+
+G(["FD-06","L3","There is no protocol linking operational or weather events to inspection review.",
+"None in the project; the literature base supports linking each alert timestamp prospectively to a human inspection record.",
+"An event-trigger protocol and at least one executed event-to-review scenario.",
+"How should storm, high-wind or operational-change events be linked to inspection review records?",
+"Weather and operations logs alongside field evidence.","Event-trigger rule plus scenario execution.",
+"Each triggering event resolves to a review record with a recorded disposition.",
+"Supporting","Idea","Field preparation","Paper 3 / Paper 4","G4 / G5","medium",
+"An event trigger is not a damage conclusion."]),
+
+G(["FD-07","L3","Field completeness, missingness and time-synchronisation criteria are undefined.",
+"The laboratory record has no mid-file gaps and no sampling deviation; the gate requires data return plus completeness and drift checks; the literature warns about mode-dependent missingness.",
+"Pre-registered completeness, missingness and synchronisation criteria for the field record.",
+"What completeness and synchronisation criteria make field evidence admissible into the traceability chain?",
+"Field data-return and QC logs.","Pre-registered QC criteria applied per monitoring period.",
+"Completeness and drift reported per period against criteria fixed in advance.",
+"Core","Idea","Field preparation","Gate 4 evidence","G4","medium",
+"Admissibility is not accuracy."]),
+
+/* ---- Family 7 — inspection action and accountability ---- */
+G(["IA-01","L4","The four action levels exist as labels but their entry, exit and permitted transitions are unspecified.",
+"No reviewed source implements Normal → Watch → Inspect → Priority Inspection or a genuinely equivalent transparent escalation with an auditable trigger, status history and scenario validation.",
+"Specified entry and exit rules, permitted transitions, and scenario review by facility managers.",
+"What transparent, unweighted rules should move an asset between Normal, Watch, Inspect and Priority Inspection?",
+"Expert scenarios from practitioners.","Rule specification followed by scenario-based expert review.",
+"Every scenario reproduces the expected level and rationale; discrepancies are logged rather than reconciled after the fact.",
+"Core","Idea","Next","Paper 4 / thesis Chapter 7","G5","medium",
+"This is action and inspection-priority logic, not a damage severity scale, and not a weighted health index."]),
+
+G(["IA-02","L4","De-escalation is undefined, so an asset can rise through the levels but cannot defensibly come back down.",
+"Nothing in the project; the draft ADR requires that closure be guarded and that reopening preserve history.",
+"Transition guards for downward movement and their verification conditions.",
+"Under what verified conditions may an asset return to a lower inspection-priority level?",
+"Expert review.","Transition guards plus negative fixtures for illegal de-escalation.",
+"Illegal de-escalation is rejected; every legal de-escalation carries a verification reference.",
+"Core","Idea","Next","Paper 4","G5","medium",
+"No automatic de-escalation on a 'completed' flag."]),
+
+G(["IA-03","L4","There is no template for the record that makes a decision explainable to a facility manager.",
+"Accountability is defined; the WP4 addendum proposes explainability as a plain-language reason with supporting evidence links.",
+"A rationale schema and a comprehension check with real reviewers.",
+"What minimum record makes an inspection decision explainable and auditable to a facility manager?",
+"Reviewer sessions with practitioners.","Rationale schema plus a reconstruct-the-decision comprehension test.",
+"Reviewers reconstruct the decision from the record alone, without the researcher present.",
+"Core","Idea","Next","Paper 2 / Paper 4","G5","low",
+"Explainability of the decision record, not explanation of physical mechanism."]),
+
+G(["IA-04","L4","How CEI is presented to a non-specialist reviewer is undecided, and the obvious presentation is the prohibited one.",
+"CEI is locked as a structured metadata record and explicitly not a scalar, health index, severity, probability or priority.",
+"Tested presentation formats and evidence about how reviewers actually read them.",
+"How should evidence confidence be communicated to a reviewer without becoming a score?",
+"Reviewer sessions.","Presentation variants evaluated with practitioners.",
+"Reviewers do not read CEI as severity or as an instruction to act.",
+"Core","Idea","Next","Paper 4 / supportive paper","G5","high",
+"CEI must never be displayed as a single number. This is the most likely route by which the Health Index prohibition is broken in practice."]),
+
+G(["IA-05","L4","The cost asymmetry between false alarms and missed inspections is not represented anywhere.",
+"Nothing in the project.","Operator cost, downtime and consequence data; a declared scenario cost frame.",
+"How do inspection-triggering thresholds trade false alarms against missed inspections for this asset class?",
+"Operator cost and downtime data.","Scenario cost analysis with declared assumptions.",
+"Sensitivity of conclusions to the assumed cost ratio is reported.",
+"Supporting","Idea","Later","Supportive paper","beyond G5","medium",
+"No optimisation claim, no expected-loss minimisation presented as a decision rule, and nothing resembling remaining useful life."]),
+
+/* ---- Family 8 — scalability, adoption, transfer ---- */
+G(["SA-01","L4","There is no maturity construct for evidence-to-action traceability, and the available maturity literature is about Digital Twins, not about traceability.",
+"Digital Twin maturity work exists in the evidence base; the addendum explicitly warns that maturity levels must not be mapped onto condition-action levels.",
+"A distinct traceability-maturity construct with expert validation.",
+"What maturity levels describe evidence-to-action traceability in built-asset management?",
+"Multi-organisation review.","Construct development followed by expert validation.",
+"Expert agreement plus discriminant validity against Digital Twin maturity constructs.",
+"Future","Idea","Post-PhD","Post-PhD paper","—","medium",
+"Do not map Digital Twin maturity onto the four action levels."]),
+
+G(["SA-02","L2","There is no reusable test suite by which competing traceability implementations could be compared.",
+"Constraint families and the fixture/oracle approach are frozen for Gate 2; the exact expected-versus-actual assertion rule is specified.",
+"A released suite and its application to at least one implementation outside the project.",
+"Can a reusable test suite discriminate a correct BIM-linked inspection-traceability implementation from a deliberately broken one?",
+"The project's own fixtures and oracle.","Packaging plus application to an external implementation and to a deliberately broken control.",
+"The suite passes the correct implementation and fails the broken control on the expected identifiers and counts.",
+"Supporting","Method ready","Later","Validation toolkit + paper","after G3","medium",
+"Corpus-bounded novelty. The suite is an instrument, not the contribution."]),
+
+G(["SA-03","L3","Whether the schema transfers to a second building is untested.",
+"Laboratory-side only; the classifier-transfer failure is documented but the schema-transfer counterpart is not.",
+"A second site and a replication of the same competency-question set.",
+"Does the same competency-question and constraint set answer at a second building without schema change?",
+"A second building with a BIM model and an operator agreement.","Replication study.",
+"The identical CQ set passes at both sites; any schema change is reported as a failure of transferability.",
+"Future","Idea","Post-PhD","Programme grant / multi-building study","—","medium",
+"Transferability of schema, never of classifier."]),
+
+G(["SA-04","L4","The usability and cognitive load of the decision record for facility managers is unmeasured.",
+"Nothing in the project; the addendum requires transparency of purpose, roles, communication, data quality and provenance.",
+"Participant sessions with real facility managers and ethics clearance.",
+"Can a facility manager read the evidence-to-action record correctly and quickly enough to use it?",
+"Participant sessions; task-based measures.","Task-based usability evaluation.",
+"Participants complete defined retrieval and decision tasks without researcher assistance.",
+"Supporting","Idea","Later","Supportive paper + demonstrator","G5","medium",
+"Usability evidence is not evidence of decision quality, and the demonstrator is not the contribution."]),
+
+G(["SA-05","L4","Organisational adoption, compliance reporting and lessons-learned use of the record are unaddressed.",
+"Nothing in the project; legal and management-obligation references remain pending official-source verification.",
+"Longitudinal organisational data and a verified obligation table.",
+"What organisational conditions allow a traceable evidence-to-action record to be adopted and used for compliance reporting?",
+"Multi-organisation longitudinal study.","Case study with change-management framing.",
+"Adoption evidence is reported with the organisational conditions that produced it.",
+"Future","Idea","Post-PhD","Post-PhD programme","—","medium",
+"No compliance claim before clause-level verification of the referenced obligations."])
+);
+
+/* ---------------- EXPLICIT EDGES ---------------- */
+const EDGES=[
+ ["CORE","CORE-PROBLEM","solid","frames"],["CORE","CORE-CM","solid","positions"],
+ ["CORE","CORE-EVCHAIN","solid","locked chain"],["CORE","CORE-IDCHAIN","solid","locked identifiers"],
+ ["CORE","IF5","solid","closes the loop"],["IF5","L2-RQ2","solid","is answered by"],
+ ["L1-METRIC","IF1","solid","evidence formation"],["IF1","L2-CE","solid","Condition_Evidence_ID"],
+ ["L1-REG","IF1","solid","provenance"],["L1-PROTO","L1-METRIC","solid",""],
+ ["L1-SENSOR","L1-G-RP01","solid","blocked by"],["L1-MODEL","L1-G-RP04","solid","blocked by"],
+ ["L1-PROTO","L1-CROSS","solid",""],["L1-G1","L1-O-P1","solid","gates"],
+ ["L2-CE","L2-IR","solid",""],["L2-IR","L2-AR","solid",""],["L2-AR","L2-SE","solid","append-only"],
+ ["L2-CQ","L2-G2","solid",""],["L2-CON","L2-G2","solid",""],["L2-FIX","L2-G2","solid",""],
+ ["L2-G2","L2-G3","solid","baseline before execution"],["L2-G3","L2-O-P2","solid","gates"],
+ ["L2-CQ","IF2","solid","carried to site"],["IF2","L3-INST","solid","instantiated as"],
+ ["L3-ACCESS","L3-G4","solid","hard prerequisite"],["L3-INST","L3-SCEN","solid",""],
+ ["L3-BASE","L3-UNLAB","solid",""],["L3-SCEN","IF3","solid",""],["IF3","L4-LEVELS","solid",""],
+ ["L4-LEVELS","L4-APPR","solid","human review"],["L4-APPR","L4-HIST","solid",""],
+ ["L4-HIST","IF4","solid","history returns"],["IF4","L2-AR","solid","thickens the record"],
+ ["L4-EXP","L4-G5","solid",""],["L4-G5","L4-O-P4","solid","gates"],
+ ["L1-CROSS","L3-G-FD05","solid","is the argument for"],["L3-G-FD05","L2-RQ2","dashed","justifies"],
+ ["FEM-OK","FEM","solid",""],["FEM-NO","FEM","solid",""],
+ ["FEM","L3-POS","dashed","reference-informed placement"],["FEM","L1-SENSOR","dashed","reference only"],
+ ["L1-MODEL","L3-UNLAB","prohibited","direct lab-to-field classifier transfer"],
+ ["FEM","L2-CE","prohibited","FEM-based ground truth"],
+ ["L2-CE","OOS3","prohibited","CEI as severity or Health Index"],
+ ["L3-UNLAB","OOS1","prohibited","field damage diagnosis"],
+ ["L4-LEVELS","OOS3","prohibited","action level as damage severity"],
+ ["L1-F04","CORE","prohibited","calibrated FEM feeding a current claim"],
+ ["L4-F04","OOS2","prohibited","predictive planning as a thesis claim"],
+ ["L2-O-TT3","OOS6","prohibited","tool presented as the contribution"]
+];
+
+/* ---------------- ROADMAP · SHORTLIST · OUTPUT ECOSYSTEM · AUDIT ---------------- */
+const ROADMAP=[
+ {ph:"NOW — close Gate 1",win:"Stream A · current priority",dep:"No dependency. Field-site independent.",
+  items:["Lock the canonical run registry and sensor identity/provenance (RP-01 is the blocking item).",
+   "Audit split-before-windowing and train-only preprocessing.",
+   "Execute leakage-safe multi-seed LORO; complete the within-campaign CNN matrix.",
+   "Confirm or remove ResNet1D on provenance grounds (RP-04).",
+   "Report run and fold uncertainty; complete the acceptance matrix and obtain sign-off.",
+   "Only then lock the Paper 1 claim table."],
+  guard:"Nothing in this phase depends on Rapexco, on a demonstrator or on any standard. Gate 1 is the only place where the programme currently converts work into accepted evidence."},
+ {ph:"NEXT — govern and baseline Gates 2–3",win:"Stream B · runs in parallel with Now",dep:"Real Condition_Evidence payload waits for Gate 1; specification work does not.",
+  items:["Put the Action-Status-Event ADR to the supervisor; do not treat any proposed rule as accepted.",
+   "Complete the Gate 2 Final Decision Register and the ER model; freeze identifier governance.",
+   "Pre-register the CQ registry with exact expected answers, in paired forward/reverse form.",
+   "Baseline the constraint catalogue and the fixture/oracle manifest.",
+   "Secure expert review for cardinality, lifecycle vocabulary, role matrix and verification criteria (ID-01 to ID-03).",
+   "Obtain approval and baseline Gate 2 — only then authorise a bounded Gate 3 instance."],
+  guard:"Do not build a website, database or prototype. Do not run Graph 02. Gate 3 execution is NOT OPEN."},
+ {ph:"FIELD PREPARATION — open Gate 4",win:"Stream C · readiness only",dep:"Blocked at one point only: the field-access basis.",
+  items:["Confirm the field-access basis — the single hard prerequisite.",
+   "Audit BIM model and GUID stability across versions (ID-04).",
+   "Prepare the field sensor register and the Sensor_ID → BIM_GUID mapping protocol.",
+   "Pre-register environmental and operational metadata requirements (FD-02) and completeness criteria (FD-07).",
+   "Prepare inspection-record and Action_Record templates and the list of 2–3 traceability scenarios."],
+  guard:"Preparation only. No deployment, no field claim, and Gate 4 evidence may never be used to close Gates 1–3."},
+ {ph:"THESIS SYNTHESIS — Gate 5 and Gate 7",win:"After Gates 1–4 have accepted evidence",dep:"Depends on expert review, which is a long-lead item worth starting early.",
+  items:["Specify the four-level entry, exit and transition rules (IA-01, IA-02).",
+   "Run scenario-based validation with facility managers and record discrepancies.",
+   "Assemble the four-layer synthesis without letting any layer borrow another layer's evidence.",
+   "Submit Paper 3 only if the site window allows."],
+  guard:"The four labels are not evidence of validated decision logic. No automated decision, no damage conclusion without inspection."},
+ {ph:"PARALLEL SUPPORTIVE STUDIES",win:"Opportunistic, low cost, no gate risk",dep:"All reuse data or artifacts that already exist.",
+  items:["Window/sampling and axis sensitivity across the full fold matrix (EV-01, SC-03).",
+   "Sensor subset and minimum-count study (SC-02).",
+   "Dataset and benchmark-protocol release (RP-03).",
+   "Standards mapping with explicit verification labels (IS-01 to IS-03)."],
+  guard:"A supportive study may never consume the effort that Gate 1 closure needs. If it competes, it waits."},
+ {ph:"POST-PhD PROGRAMME",win:"Distant galaxies — visible, not started",dep:"Each requires evidence the programme does not have.",
+  items:["Calibrated FEM, experimental modal analysis, model updating and similitude.",
+   "Predictive maintenance, remaining useful life and edge deployment.",
+   "Multi-building and portfolio-level replication (SA-03).",
+   "Traceability maturity model and organisational adoption (SA-01, SA-05)."],
+  guard:"None of these may be wired back into a current claim, gate or chapter."},
+ {ph:"TECHNOLOGY-TRANSFER PATHWAY",win:"Follows evidence, never leads it",dep:"Every item depends on a baselined Gate 2 and, for field items, on Gate 4.",
+  items:["AIR and inspection-record templates; traceability schema and CQ library.",
+   "IFC/IDS validation toolkit and benchmark test suite (IS-04, SA-02).",
+   "Field deployment protocol; dashboard demonstrator; facility-manager training package.",
+   "Standards-aligned implementation guide, once clause-level verification exists."],
+  guard:"A viewer, dashboard, database or website is a supporting instrument and is never presented as the scientific contribution."}
+];
+
+const CRIT=["Strategic fit","Novelty potential","Evidence availability","Feasible in 12 months","Publication potential","Transfer potential","Scope-creep risk","Gate dependency"];
+const SHORT=[
+ {id:"RP-01",n:"Fix physical sensor identity, then re-run affected configurations",v:[5,2,5,5,3,2,1,1],cls:"Do now",
+  why:"It is not a research opportunity, it is the lock on the door. Several Paper 1 claims are currently unsupportable because Campaign 1/2 sensor identity is unresolved. Nothing else in Layer 1 is worth doing first."},
+ {id:"RP-02",n:"Complete the multi-seed, full-matrix reproducibility package",v:[5,2,4,4,3,3,1,1],cls:"Do now",
+  why:"Gate 1 cannot be signed without run/fold uncertainty across seeds. Low intellectual novelty, maximum gate value."},
+ {id:"RP-04",n:"Resolve ResNet1D provenance — confirm or remove",v:[5,1,3,5,3,1,1,1],cls:"Do now",
+  why:"A candidate claim in the Charter cannot be verified from project provenance. Removing it costs almost nothing; leaving it unresolved is a defence liability."},
+ {id:"FD-05",n:"Reframe the cross-campaign collapse as the argument for schema transfer",v:[5,4,5,5,5,3,2,2],cls:"Do now",
+  why:"The strongest asset the programme currently owns is a rigorous negative result: classifiers did not transfer across campaigns, and the permutation control shows the real model performing below shuffled labels. That is exactly the empirical justification for a traceability-core thesis. It costs writing, not experiments."},
+ {id:"EV-04",n:"Populate the CEI metadata structure from real Gate 1 uncertainty",v:[5,4,3,4,4,3,2,2],cls:"Do now",
+  why:"CEI is the hinge between Layer 1 and Layer 2 and is currently a definition without an instance. One populated CEI record turns a specification into a demonstrable contract."},
+ {id:"ID-02",n:"Take lifecycle, roles and authorization to expert review",v:[5,5,1,3,5,4,2,3],cls:"Prepare quietly",
+  why:"This sits inside the candidate novelty boundary for Paper 2, but it is entirely dependent on expert access. Start recruiting reviewers now; the review itself is a long-lead item that also unblocks Gate 5."},
+ {id:"ID-03",n:"Specify post-action verification and guarded closure/reopen",v:[5,5,1,3,5,4,2,3],cls:"Prepare quietly",
+  why:"'Completed is not verified closure' is a genuinely distinctive position within the reviewed corpus. It must be specified before implementation, not discovered during it."},
+ {id:"SC-01",n:"Pre-register a sensor-position assessment criterion",v:[4,3,4,4,4,3,3,2],cls:"Prepare quietly",
+  why:"Real publication value and existing data — but it must wait behind RP-01, and it must never be written as optimal placement."},
+ {id:"IS-03",n:"Verify TCVN 14177:2024 and the Vietnamese obligation references",v:[4,2,1,3,3,5,2,2],cls:"Prepare quietly",
+  why:"The legal-mapping table is what anchors the thesis in Vietnamese asset-management practice, and every reference is currently pending official-source verification. Cheap to do, embarrassing to leave undone."},
+ {id:"RP-03",n:"Release the leakage-safe dataset and benchmark protocol",v:[3,3,5,4,4,4,2,2],cls:"Prepare quietly",
+  why:"The package already exists. Release is mostly governance and clearance work, and it buys reproducibility credibility that a defence panel will notice."},
+ {id:"SA-02",n:"Package the fixture/oracle set as a reusable test suite",v:[3,4,3,2,4,5,3,4],cls:"Keep for post-PhD",
+  why:"High transfer value, but it depends on an executed Gate 3 and would pull effort toward tooling at exactly the wrong moment."},
+ {id:"L1-F04",n:"Calibrated FEM, EMA, model updating and similitude",v:[1,4,1,1,4,2,5,5],cls:"Avoid",
+  why:"Scientifically attractive, structurally fatal. This is the architecture the supervisors closed on 17/07/2026. It has no gate, no chapter and no paper, and pursuing it would reopen the FEM-core framing that the Limited-FEM decision exists to prevent."}
+];
+
+const ECO=[
+ {o:"Paper 1 — laboratory evidence & run-aware evaluation",u:"SHM and asset-monitoring researchers",p:"Reported vibration-classification results are frequently leakage-contaminated and not run-aware.",e:"Closed Gate 1 with locked registry, LORO, uncertainty and reproducibility package.",m:"The Gate 1 evidence pack plus a locked claim table.",t:"Research-grade evidence only.",g:"G1",i:"Contribution: the leakage-safe protocol and the sensor-configuration comparison. Implementation: the models themselves.",c:"Dataset ownership and release clearance must be settled before publication of the package."},
+ {o:"Paper 2 — verifiable component-level traceability",u:"Asset owners, information managers, CM researchers",p:"Alerts cannot be verifiably tied to component, inspection and action status.",e:"Baselined Gate 2 specification plus executed Gate 3 validation.",m:"Preregistered CQs with expected answers, constraint catalogue, fixture/oracle manifest and executed negative tests.",t:"Specification and bounded reference instance.",g:"G2, G3, G6",i:"Contribution: the governed identity–event–authorization–verification contract and its validation. Implementation: Revit, IFC, IDS, SQLite, any viewer.",c:"Corpus-bounded novelty language only; no 'first' claim."},
+ {o:"Paper 3 — field feasibility (optional)",u:"Industrial building operators",p:"Nobody has shown the chain running on a real coastal industrial steel building.",e:"Gate 4 minimum field evidence, including 2–3 executed scenarios.",m:"Sensor register, Sensor→BIM mapping, data return, baseline, workflow, scenarios.",t:"Field-feasibility demonstration.",g:"G4, G5",i:"Contribution: feasibility evidence. Implementation: the deployment itself.",c:"Field-access agreement and site data governance are unresolved prerequisites."},
+ {o:"Paper 4 — evidence to inspection priority (optional, may merge)",u:"Facility managers",p:"Escalation decisions are undocumented and unreviewable.",e:"Gate 5 scenario review with facility managers.",m:"Four-level rules plus scenario discrepancy log and expert review record.",t:"Reviewed design.",g:"G5",i:"Contribution: transparent unweighted logic with accountability. Implementation: any dashboard.",c:"Human-participant sessions need ethics clearance."},
+ {o:"Asset Information Requirements & inspection-record templates",u:"Owners and operators writing requirements",p:"Operators do not know what to ask for in order to get traceable condition records.",e:"Gate 2 schema plus verified standards mapping.",m:"A template set with each row labelled as verified, candidate or thesis-defined.",t:"Ready for pilot use once Gate 2 is baselined.",g:"G2",i:"Contribution: the requirement derivation. Implementation: the document format.",c:"Standards text licensing; no clause may be asserted unverified."},
+ {o:"Traceability schema & competency-question library",u:"Researchers and software implementers",p:"There is no shared, testable specification for evidence-to-action traceability.",e:"Baselined Gate 2 package.",m:"Schema plus CQ library with exact expected answers.",t:"Specification artifact.",g:"G2",i:"Contribution: the specification. Implementation: any serialization.",c:"Release licence to be decided."},
+ {o:"IFC/IDS validation toolkit & benchmark test suite",u:"BIM information managers, tool vendors",p:"Traceability implementations cannot currently be compared or falsified.",e:"Executed Gate 3 validation and a deliberately broken control.",m:"Fixtures, oracle and a runnable checker.",t:"Prototype toolkit.",g:"after G3",i:"Contribution: the chain-specific mutations and exact oracle. Implementation: the checker.",c:"Must be presented as an instrument, never as the novelty."},
+ {o:"Field deployment protocol & FM training package",u:"Operators and inspection contractors",p:"Sensors get installed without ever being bound to a component identity.",e:"Gate 4 deployment evidence plus Gate 5 review.",m:"Protocol document plus a training module.",t:"Pilot-ready after one successful deployment.",g:"G4, G5",i:"Contribution: the binding-before-acquisition discipline. Implementation: the training material.",c:"Site agreements and worker-safety constraints."},
+ {o:"Pilot service and multi-building programme",u:"Industrial asset portfolios",p:"Fragmented inspection records across many assets.",e:"A validated single-site chain and one replication.",m:"A bounded pilot with a governance agreement.",t:"Post-PhD.",g:"—",i:"Contribution: none yet — this is deployment, not research.",c:"Data ownership, commercial structure and liability all unresolved. Explicitly outside the current thesis."}
+];
+
+const AUDIT={
+ strong:"The programme's strongest feature is that its evidence discipline is real rather than declared. Gate states are recorded honestly (G1 OPEN — PARTIAL EVIDENCE, G2 specification not frozen, G3 execution NOT OPEN), prior art is explicitly excluded from the novelty claim, and the reanalysis reported its own most damaging result — cross-campaign collapse below chance, with the real classifier scoring below all 100 label-shuffled permutations — instead of tuning it away. A thesis that discovers and publishes its own negative control is far harder to attack than one that reports only its best fold. The four-layer firewall, the locked identifier chain ending at a stable identifier, and the corpus-bounded CLOSE_SEARCH language are all defences that most comparable programmes lack.",
+ gap:"The most important scientific gap is not in Layer 1 at all. It is the absence of an accepted, expert-reviewed account of what makes an inspection decision auditable: cardinality, lifecycle vocabulary, role and permission matrix, verification criteria and closure/reopen policy (ID-01 to ID-03). These sit exactly on the candidate novelty boundary of Paper 2, they are what distinguishes the thesis from established sensor-to-BIM prior art, and every one of them is currently marked EXPERT_REVIEW_REQUIRED or FREEZE_PROVISIONALLY. Without them, Paper 2 reduces to a schema that resembles work already in the corpus.",
+ block:"The current evidence bottleneck is Gate 1 provenance, and inside it one item dominates: physical sensor identity. Because CSV column position does not reliably denote the same physical unit in Campaigns 1 and 2, every single- and paired-sensor claim from those campaigns is currently a statement about a column, not about the apex, beam–column or brace–column position. Behind it sit the incomplete multi-seed sweep and the unverified ResNet1D provenance. Until these three are resolved there is no accepted Condition_Evidence payload, which means Layer 2 has nothing real to trace and Gate 3 has nothing real to validate.",
+ tempt:[
+  {t:"Calibrated FEM, modal testing and similitude",w:"It is intellectually attractive, it would answer the mechanical 'why', and it is the natural instinct of a structures-trained researcher. It is also exactly the architecture the supervisors closed on 17/07/2026. It has no RQ, no WP, no chapter, no paper and no gate, and pursuing it converts a Construction Management thesis into a structural-engineering one."},
+  {t:"Building the demonstrator early",w:"A viewer, database or dashboard produces visible progress quickly and is very satisfying to show. But Gate 3 execution is NOT OPEN, the competency questions and the oracle must be pre-registered first, and a demonstrator built before the specification will silently become the specification. The governance is explicit: do not build, do not run Graph 02."},
+  {t:"Turning CEI into one number",w:"A single confidence score would make the dashboard clean, the four levels easy to compute and the story simple. It is also precisely the weighted Health Index the Charter prohibits, and it would collapse the metadata structure that gives the chain its auditability. The pressure to do this will come from usability, not from science, which is what makes it dangerous."}
+ ],
+ close:"Defend the core in this order: first the leakage-safe laboratory evidence with honest provenance, because it is the only thing that currently converts into an accepted gate; then the governed evidence-to-action contract with expert-reviewed authorization, verification and closure, because that is what makes the thesis Construction Management rather than monitoring; and only then extend outward — field feasibility, standards mapping, decision-support review — treating every distant galaxy, above all calibrated FEM and prediction, as visible but unlit until the evidence that would justify approaching it actually exists."
+};
+
+/* ============================================================
+   LAYOUT
+   ============================================================ */
+const GAPMAP={};GAPS.forEach(g=>GAPMAP[g.id]=g);
+const NMAP={};
+(function layout(){
+  const byCO={};
+  NODES.forEach(n=>{ if(n.o&&CLUSTERS[n.c]){ const k=n.c+"|"+n.o; (byCO[k]=byCO[k]||[]).push(n); } });
+  Object.keys(byCO).forEach(k=>{
+    const [c,o]=k.split("|"), cl=CLUSTERS[c], list=byCO[k], sp=SPAN[o];
+    const span=sp*2, start=cl.ang-sp;
+    list.forEach((n,i)=>{
+      const t=list.length===1?0.5:i/(list.length-1);
+      const a=(start+span*t)*Math.PI/180;
+      const R=ORBIT[o]+(i%2)*STAGGER;
+      n.x=cl.cx+R*Math.cos(a); n.y=cl.cy+R*Math.sin(a);
+      n.rr=o==1?26:(o==2?21:19);
+    });
+  });
+  NODES.forEach(n=>{ if(!n.rr) n.rr=24; NMAP[n.id]=n; if(n.gap&&GAPMAP[n.gap]&&!n.def) n.def=GAPMAP[n.gap].gap; });
+})();
+
+/* radial dashed edges: orbit2 → nearest orbit1, orbit3 → nearest orbit2 */
+const AUTO=[];
+["L1","L2","L3","L4"].forEach(c=>{
+  const o1=NODES.filter(n=>n.c===c&&n.o===1), o2=NODES.filter(n=>n.c===c&&n.o===2), o3=NODES.filter(n=>n.c===c&&n.o===3);
+  const near=(n,arr)=>arr.reduce((b,m)=>{const d=(m.x-n.x)**2+(m.y-n.y)**2;return (!b||d<b.d)?{d,m}:b;},null);
+  o2.forEach(n=>{const t=near(n,o1);if(t)AUTO.push([n.id,t.m.id,"dashed",""]);});
+  o3.forEach(n=>{const t=near(n,o2.length?o2:o1);if(t)AUTO.push([n.id,t.m.id,"dashed",""]);});
+});
+const ALLEDGES=EDGES.concat(AUTO).filter(e=>NMAP[e[0]]&&NMAP[e[1]]);
+
+/* ============================================================
+   RENDER
+   ============================================================ */
+const SVGNS="http://www.w3.org/2000/svg";
+const svg=document.getElementById("universe"), tip=document.getElementById("tip");
+const VB={x:20,y:20,w:2560,h:2300};
+let view={x:VB.x,y:VB.y,w:VB.w,h:VB.h};
+const el=(t,a)=>{const e=document.createElementNS(SVGNS,t);for(const k in a)e.setAttribute(k,a[k]);return e;};
+const COL=c=>({L1:"--l1",L2:"--l2",L3:"--l3",L4:"--l4",FEM:"--fem",OOS:"--danger"}[c]||"--core");
+
+function glyph(shape,r){
+  switch(shape){
+    case "square":return el("rect",{x:-r*.82,y:-r*.82,width:r*1.64,height:r*1.64,rx:2});
+    case "diamond":return el("polygon",{points:`0,${-r*1.1} ${r*1.1},0 0,${r*1.1} ${-r*1.1},0`});
+    case "triangle":return el("polygon",{points:`0,${-r*1.15} ${r*1.05},${r*.75} ${-r*1.05},${r*.75}`});
+    case "hex":{let p=[];for(let i=0;i<6;i++){const a=(i*60-30)*Math.PI/180;p.push(`${(r*1.08*Math.cos(a)).toFixed(1)},${(r*1.08*Math.sin(a)).toFixed(1)}`);}return el("polygon",{points:p.join(" ")});}
+    case "rrect":return el("rect",{x:-r*1.15,y:-r*.72,width:r*2.3,height:r*1.44,rx:r*.7});
+    case "tag":return el("polygon",{points:`${-r*1.1},${-r*.8} ${r*.6},${-r*.8} ${r*1.15},0 ${r*.6},${r*.8} ${-r*1.1},${r*.8}`});
+    case "person":return el("path",{d:`M0,${-r*.95} a${r*.42},${r*.42} 0 1,0 0.01,0 M${-r*.95},${r*1.05} a${r*.95},${r*.85} 0 0,1 ${r*1.9},0 z`});
+    default:return el("circle",{r:r});
+  }
+}
+function wrap(text,max){
+  const w=text.split(" "),out=[];let line="";
+  w.forEach(x=>{ if((line+" "+x).trim().length>max){out.push(line.trim());line=x;} else line+=" "+x; });
+  if(line.trim())out.push(line.trim());
+  return out.slice(0,3);
+}
+
+const gRoot=el("g",{});
+svg.appendChild(gRoot);
+const gBack=el("g",{}),gEdge=el("g",{}),gNode=el("g",{});
+gRoot.appendChild(gBack);gRoot.appendChild(gEdge);gRoot.appendChild(gNode);
+
+/* backdrop: cluster fields, firewall, quarantine belt */
+(function backdrop(){
+  Object.keys(CLUSTERS).forEach(k=>{
+    const c=CLUSTERS[k];
+    [1,2,3].forEach(o=>{
+      const a0=(c.ang-SPAN[o])*Math.PI/180,a1=(c.ang+SPAN[o])*Math.PI/180;
+      [ORBIT[o],ORBIT[o]+STAGGER].forEach(R=>{
+        const x0=c.cx+R*Math.cos(a0),y0=c.cy+R*Math.sin(a0),x1=c.cx+R*Math.cos(a1),y1=c.cy+R*Math.sin(a1);
+        gBack.appendChild(el("path",{d:`M${x0.toFixed(1)},${y0.toFixed(1)} A${R},${R} 0 0,1 ${x1.toFixed(1)},${y1.toFixed(1)}`,fill:"none",stroke:`var(${c.colour})`,"stroke-opacity":.14,"stroke-width":1}));
+      });
+    });
+    gBack.appendChild(el("line",{x1:CENTRE.x,y1:CENTRE.y,x2:c.cx,y2:c.cy,stroke:`var(${c.colour})`,"stroke-opacity":.45,"stroke-width":3}));
+    const parts=c.name.split(" — ");
+    const t=el("text",{x:c.cx,y:c.cy-8,"text-anchor":"middle",class:"ringlabel",fill:`var(${c.colour})`,style:"font-size:15px;letter-spacing:.2em"});
+    t.textContent=parts[0];gBack.appendChild(t);
+    const t2=el("text",{x:c.cx,y:c.cy+18,"text-anchor":"middle",class:"ringlabel",fill:`var(${c.colour})`,style:"font-size:13px"});
+    t2.textContent=parts[1];gBack.appendChild(t2);
+  });
+  gBack.appendChild(el("circle",{cx:1300,cy:262,r:150,fill:"none",stroke:"var(--fem)","stroke-opacity":.5,"stroke-width":1.4,"stroke-dasharray":"9 6"}));
+  const ft=el("text",{x:1300,y:86,"text-anchor":"middle",class:"ringlabel",fill:"var(--fem)"});
+  ft.textContent="FEM firewall — nominal, uncalibrated, reference-only, not used for damage diagnosis";
+  gBack.appendChild(ft);
+  const belt=el("rect",{x:440,y:2060,width:1720,height:112,rx:4,fill:"var(--danger)","fill-opacity":.07,stroke:"var(--danger)","stroke-opacity":.45,"stroke-width":1.2,"stroke-dasharray":"6 5"});
+  gBack.appendChild(belt);
+  const bt=el("text",{x:1300,y:2042,"text-anchor":"middle",class:"beltlabel"});
+  bt.textContent="Quarantine belt — out of scope, retained as a visible boundary, not started";
+  gBack.appendChild(bt);
+})();
+
+/* edges */
+const edgeEls=[];
+ALLEDGES.forEach(([a,b,type,label])=>{
+  const A=NMAP[a],B=NMAP[b];
+  const dx=B.x-A.x,dy=B.y-A.y,L=Math.hypot(dx,dy)||1;
+  const x1=A.x+dx/L*(A.rr+3),y1=A.y+dy/L*(A.rr+3),x2=B.x-dx/L*(B.rr+3),y2=B.y-dy/L*(B.rr+3);
+  const mx=(x1+x2)/2-dy*0.07,my=(y1+y2)/2+dx*0.07;
+  const stroke=type==="prohibited"?"var(--danger)":`var(${COL(A.c==="BR"||A.c==="CORE"?B.c:A.c)})`;
+  const p=el("path",{d:`M${x1},${y1} Q${mx},${my} ${x2},${y2}`,class:"edge "+type,stroke:stroke,"stroke-width":type==="prohibited"?2.2:(type==="dashed"?1.3:2),"stroke-opacity":type==="dashed"?.45:.72});
+  if(label)p.appendChild(Object.assign(document.createElementNS(SVGNS,"title"),{textContent:label}));
+  p.dataset.a=a;p.dataset.b=b;p.dataset.type=type;
+  gEdge.appendChild(p);edgeEls.push(p);
+});
+
+/* nodes */
+const nodeEls={};
+NODES.forEach(n=>{
+  const g=el("g",{class:"node",transform:`translate(${n.x.toFixed(1)},${n.y.toFixed(1)})`,tabindex:"0",role:"button"});
+  const cvar=COL(n.c==="BR"?"CORE":n.c);
+  const gl=glyph(n.id==="CORE"?"circle":KINDS[n.k]||"circle",n.rr);
+  gl.setAttribute("class","glyph");
+  gl.setAttribute("stroke",`var(${cvar})`);
+  if(n.s==="CORE"){gl.setAttribute("fill",`var(${cvar})`);gl.setAttribute("fill-opacity",n.id==="CORE"?1:.9);}
+  else if(n.s==="SUPPORTING"){gl.setAttribute("fill",`var(${cvar})`);gl.setAttribute("fill-opacity",.32);}
+  else if(n.s==="OUT"){gl.setAttribute("fill","var(--danger)");gl.setAttribute("fill-opacity",.16);gl.setAttribute("stroke","var(--danger)");gl.setAttribute("stroke-dasharray","4 3");}
+  else {gl.setAttribute("fill","none");gl.setAttribute("stroke-dasharray","5 4");}
+  g.appendChild(gl);
+  if(n.s==="CORE"&&n.id!=="CORE"){/* solid fill: label sits outside */}
+  const lines=wrap(n.l,n.id==="CORE"?18:17);
+  const baseY=n.rr+15;
+  lines.forEach((ln,i)=>{
+    const t=el("text",{x:0,y:baseY+i*13.5,"text-anchor":"middle",class:"lbl"});
+    if(n.id==="CORE"){t.setAttribute("class","lbl");t.setAttribute("y",baseY+8+i*20);t.setAttribute("style","font-size:17px;font-family:var(--serif)");}
+    t.textContent=ln;g.appendChild(t);
+  });
+  const sub=n.gap?n.gap:(n.sub||(n.g&&n.o===1?n.g:""));
+  if(sub){const s=el("text",{x:0,y:baseY+lines.length*13.5+(n.id==="CORE"?14:1),"text-anchor":"middle",class:"sub"});s.textContent=sub;g.appendChild(s);}
+  g.addEventListener("click",()=>select(n.id));
+  g.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();select(n.id);}});
+  g.addEventListener("mouseenter",e=>showTip(e,n));
+  g.addEventListener("mousemove",e=>moveTip(e));
+  g.addEventListener("mouseleave",hideTip);
+  gNode.appendChild(g);nodeEls[n.id]=g;
+});
+
+function showTip(e,n){
+  tip.innerHTML=`<span class="tt">${n.l}</span><span class="tm">${[n.c==="BR"?"Interface":(CLUSTERS[n.c]?CLUSTERS[n.c].name:n.c),n.k,n.s,n.r].filter(Boolean).join(" · ")}</span>`;
+  tip.style.opacity="1";moveTip(e);
+}
+function moveTip(e){tip.style.left=Math.min(e.clientX+14,innerWidth-290)+"px";tip.style.top=(e.clientY+16)+"px";}
+function hideTip(){tip.style.opacity="0";}
+
+/* ---------------- zoom / pan ---------------- */
+function applyView(){svg.setAttribute("viewBox",`${view.x} ${view.y} ${view.w} ${view.h}`);}
+function fit(){view={x:VB.x,y:VB.y,w:VB.w,h:VB.h};applyView();}
+fit();
+svg.addEventListener("wheel",e=>{
+  e.preventDefault();
+  const r=svg.getBoundingClientRect();
+  const px=view.x+(e.clientX-r.left)/r.width*view.w, py=view.y+(e.clientY-r.top)/r.height*view.h;
+  const k=e.deltaY>0?1.12:1/1.12;
+  const nw=Math.max(260,Math.min(VB.w*2.4,view.w*k)), nh=nw*(view.h/view.w);
+  view.x=px-(px-view.x)*(nw/view.w);view.y=py-(py-view.y)*(nh/view.h);view.w=nw;view.h=nh;applyView();
+},{passive:false});
+let drag=null;
+svg.addEventListener("pointerdown",e=>{drag={x:e.clientX,y:e.clientY,vx:view.x,vy:view.y};svg.classList.add("grabbing");svg.setPointerCapture(e.pointerId);});
+svg.addEventListener("pointermove",e=>{
+  if(!drag)return;const r=svg.getBoundingClientRect();
+  view.x=drag.vx-(e.clientX-drag.x)*view.w/r.width;view.y=drag.vy-(e.clientY-drag.y)*view.h/r.height;applyView();
+});
+["pointerup","pointercancel","pointerleave"].forEach(t=>svg.addEventListener(t,()=>{drag=null;svg.classList.remove("grabbing");}));
+const zoomBy=k=>{const cx=view.x+view.w/2,cy=view.y+view.h/2;view.w=Math.max(260,Math.min(VB.w*2.4,view.w*k));view.h=view.w*(VB.h/VB.w);view.x=cx-view.w/2;view.y=cy-view.h/2;applyView();};
+document.getElementById("zIn").onclick=()=>zoomBy(1/1.25);
+document.getElementById("zOut").onclick=()=>zoomBy(1.25);
+document.getElementById("zFit").onclick=fit;
+
+/* ---------------- filters, lenses, search ---------------- */
+const F={layer:"",scope:"",ready:"",gate:"",kind:"",rq:"",q:""};
+const lenses={core:false,gaps:false,pub:false,tt:false,gate:false,prohib:false};
+function uniq(f){return [...new Set(NODES.map(f).filter(Boolean))].sort();}
+function fill(id,vals,labels){const s=document.getElementById(id);vals.forEach((v,i)=>{const o=document.createElement("option");o.value=v;o.textContent=(labels&&labels[i])||v;s.appendChild(o);});}
+fill("fLayer",["L1","L2","L3","L4","BR","FEM","CORE","OOS"],["Layer 1 — Laboratory evidence","Layer 2 — Information traceability","Layer 3 — Field feasibility","Layer 4 — Decision support","Interfaces between layers","FEM satellite","Centre","Out of scope"]);
+fill("fScope",["CORE","SUPPORTING","FUTURE","OUT"],["Core scope","Supporting scope","Future work","Out of scope"]);
+fill("fReady",["Idea","Data available","Method ready","Validation pending","Locked"]);
+fill("fGate",uniq(n=>n.g));
+fill("fKind",Object.keys(KINDS));
+fill("fRQ",["RQ1","RQ2","RQ3","—"],["RQ1 · WP1 · Chapter 4","RQ2 · WP2 · Chapter 5","RQ3 · WP3 · Chapter 6","WP4 · Chapter 7 (no RQ4)"]);
+[["fLayer","layer"],["fScope","scope"],["fReady","ready"],["fGate","gate"],["fKind","kind"],["fRQ","rq"]].forEach(([id,k])=>{
+  document.getElementById(id).addEventListener("change",e=>{F[k]=e.target.value;refresh();});
+});
+document.getElementById("search").addEventListener("input",e=>{F.q=e.target.value.trim().toLowerCase();refresh();});
+document.getElementById("resetBtn").onclick=()=>{
+  Object.keys(F).forEach(k=>F[k]="");Object.keys(lenses).forEach(k=>lenses[k]=false);
+  ["fLayer","fScope","fReady","fGate","fKind","fRQ"].forEach(id=>document.getElementById(id).value="");
+  document.getElementById("search").value="";
+  document.querySelectorAll(".lensbtn").forEach(b=>b.setAttribute("aria-pressed","false"));
+  refresh();
+};
+document.querySelectorAll(".lensbtn").forEach(b=>b.addEventListener("click",()=>{
+  const k=b.dataset.lens;lenses[k]=!lenses[k];b.setAttribute("aria-pressed",String(lenses[k]));refresh();
+}));
+
+function textOf(n){
+  const g=n.gap?GAPMAP[n.gap]:null;
+  return [n.id,n.l,n.sub,n.k,n.s,n.r,n.g,n.rq,n.def,n.cl,n.ev,n.lim,n.na,n.rk,(n.kw||[]).join(" "),
+    g&&[g.gap,g.cur,g.miss,g.rq,g.method,g.out,g.bound].join(" ")].filter(Boolean).join(" ").toLowerCase();
+}
+function visible(n){
+  if(F.layer&&n.c!==F.layer)return false;
+  if(F.scope&&n.s!==F.scope)return false;
+  if(F.ready&&n.r!==F.ready)return false;
+  if(F.gate&&(n.g||"")!==F.gate)return false;
+  if(F.kind&&n.k!==F.kind)return false;
+  if(F.rq&&(n.rq||"")!==F.rq)return false;
+  if(F.q&&textOf(n).indexOf(F.q)<0)return false;
+  const any=Object.values(lenses).some(Boolean);
+  if(any){
+    let ok=false;
+    if(lenses.core&&(n.s==="CORE"))ok=true;
+    if(lenses.gaps&&n.gap)ok=true;
+    if(lenses.pub&&n.pub)ok=true;
+    if(lenses.tt&&n.tt)ok=true;
+    if(lenses.gate&&(n.k==="Decision"||n.c==="BR"))ok=true;
+    if(lenses.prohib&&(n.s==="OUT"||n.c==="OOS"||n.id==="FEM-NO"))ok=true;
+    if(!ok)return false;
+  }
+  return true;
+}
+function refresh(){
+  const vis={};
+  NODES.forEach(n=>{const v=visible(n);vis[n.id]=v;nodeEls[n.id].classList.toggle("dim",!v);});
+  edgeEls.forEach(p=>{
+    let v=vis[p.dataset.a]&&vis[p.dataset.b];
+    if(lenses.prohib&&p.dataset.type==="prohibited")v=true;
+    p.classList.toggle("dim",!v);
+  });
+}
+
+/* ---------------- detail panel ---------------- */
+const panel=document.getElementById("panel");
+document.getElementById("panelClose").onclick=()=>{panel.classList.remove("open");document.querySelectorAll(".node.sel").forEach(x=>x.classList.remove("sel"));};
+document.addEventListener("keydown",e=>{if(e.key==="Escape")document.getElementById("panelClose").click();});
+function row(k,v,cls){return v?`<div class="fld ${cls||""}"><span class="fk">${k}</span><span class="fv">${v}</span></div>`:"";}
+function select(id){
+  const n=NMAP[id];if(!n)return;
+  document.querySelectorAll(".node.sel").forEach(x=>x.classList.remove("sel"));
+  nodeEls[id].classList.add("sel");
+  const g=n.gap?GAPMAP[n.gap]:null;
+  const layerName=n.c==="BR"?"Interface between layers":(CLUSTERS[n.c]?CLUSTERS[n.c].name:(n.c==="FEM"?"FEM satellite":(n.c==="OOS"?"Quarantine belt":"Programme centre")));
+  document.getElementById("pKind").textContent=[n.k,layerName].filter(Boolean).join(" · ");
+  document.getElementById("pTitle").textContent=n.l;
+  const sc={CORE:"core",SUPPORTING:"sup",FUTURE:"fut",OUT:"out"}[n.s]||"sup";
+  document.getElementById("pChips").innerHTML=
+    `<span class="chip ${sc}">${n.s}</span>`+
+    (n.r?`<span class="chip">${n.r}</span>`:"")+
+    (n.rq&&n.rq!=="—"?`<span class="chip">${n.rq}</span>`:"")+
+    (n.wp?`<span class="chip">${n.wp}</span>`:"")+
+    (n.ch?`<span class="chip">${n.ch}</span>`:"")+
+    (n.pp?`<span class="chip">${n.pp}</span>`:"")+
+    (n.g?`<span class="chip">${n.g}</span>`:"")+
+    (n.gap?`<span class="chip sup">Gap ${n.gap}</span>`:"");
+  let h="";
+  h+=row("Definition",n.def);
+  h+=row("Claim",n.cl);
+  if(n.inn){h+=row("Input",n.inn);h+=row("Transformation",n.tr);h+=row("Output",n.outp);h+=row("Acceptance test",n.at);h+=row("Failure mode",n.fm,"warn");h+=row("Responsible actor",n.ac);}
+  h+=row("Current evidence",g?g.cur:n.ev);
+  h+=row("Missing evidence",g?g.miss:"","warn");
+  h+=row("Limitation",n.lim,"warn");
+  h+=row("Candidate research question",g?g.rq:"");
+  h+=row("Required new data",g?g.data:"");
+  h+=row("Validation method",g?g.val:"");
+  h+=row("Potential output",g?g.out:"");
+  h+=row("Priority",g?g.prio:"");
+  h+=row("Next action",n.na||(g?("Priority: "+g.prio):""));
+  h+=row("Dependency",g?("Gate dependency: "+g.gate):(n.g?("Evidence Gate "+n.g):""));
+  h+=row("Risk / claim warning",(n.rk?n.rk+" ":"")+(g?("Risk "+g.risk+". "+g.bound):""),"warn");
+  if(n.kw&&n.kw.length)h+=`<div class="fld"><span class="fk">Keywords</span><div class="kw">${n.kw.map(k=>`<span>${k}</span>`).join("")}</div></div>`;
+  document.getElementById("pBody").innerHTML=h;
+  panel.classList.add("open");
+}
+
+/* ---------------- legends ---------------- */
+document.getElementById("shapeLegend").innerHTML=Object.keys(KINDS).map(k=>{
+  const s=document.createElementNS(SVGNS,"svg");s.setAttribute("viewBox","-14 -14 28 28");s.setAttribute("width","16");s.setAttribute("height","16");
+  const gl=glyph(KINDS[k],10);gl.setAttribute("fill","var(--ink-2)");gl.setAttribute("fill-opacity",".35");gl.setAttribute("stroke","var(--ink-2)");gl.setAttribute("stroke-width","1.4");
+  s.appendChild(gl);return `<div class="row">${s.outerHTML}${k}</div>`;
+}).join("");
+document.getElementById("gateLegend").innerHTML=[
+ ["G1","OPEN — PARTIAL EVIDENCE"],["G2","OPEN — literature boundary closed, specification not frozen"],
+ ["G3","OPEN — not implemented, not validated; execution NOT OPEN"],["G4","Readiness only; field access unconfirmed"],
+ ["G5","OPEN; expert review missing"],["G6 / G7","OPEN"]
+].map(([g,s])=>`<div class="row"><b style="font-family:var(--mono);font-size:10.5px;min-width:34px">${g}</b><span style="font-size:11px">${s}</span></div>`).join("");
+
+/* ---------------- theme ---------------- */
+document.getElementById("themeBtn").onclick=()=>{
+  const cur=document.documentElement.getAttribute("data-theme");
+  const dark=cur?cur==="dark":matchMedia("(prefers-color-scheme: dark)").matches;
+  document.documentElement.setAttribute("data-theme",dark?"light":"dark");
+};
+refresh();
+
+/* ============================================================
+   DOCUMENT VIEWS — Deliverables 2 to 6
+   ============================================================ */
+const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;");
+const scopeTag=s=>`<span class="tag t-${{CORE:"core",Core:"core",SUPPORTING:"sup",Supporting:"sup",FUTURE:"fut",Future:"fut",OUT:"out"}[s]||"sup"}">${s}</span>`;
+const prioTag=p=>`<span class="tag t-${/now/i.test(p)?"now":/next/i.test(p)?"next":/post/i.test(p)?"post":"later"}">${p}</span>`;
+const riskTag=r=>`<span class="tag t-${/high/i.test(r)?"hi":/low/i.test(r)?"lo":"md"}">${r}</span>`;
+
+function execMap(){
+  const L=[["L1","Layer 1 — Laboratory evidence","RQ1 · WP1 · C4 · Paper 1 · Gate 1","1:10 steel frame · 3 campaigns · 216 recordings<tspan x='0' dy='15'>4 states × 3 excitations × 6 runs</tspan><tspan x='0' dy='15'>run-aware, leakage-safe LORO / LOCO</tspan>","G1 — OPEN, partial evidence","--l1",130],
+   ["L2","Layer 2 — Information traceability","RQ2 · WP2 · C5 · Paper 2 · Gates 2, 3, 6","identity-governed, event-aware,<tspan x='0' dy='15'>verification-controlled evidence-to-action</tspan><tspan x='0' dy='15'>specification + preregistered CQ / oracle</tspan>","G2 — specification not frozen","--l2",560],
+   ["L3","Layer 3 — Field feasibility","RQ3 · WP3 · C6 · Paper 3 (optional)","Rapexco Hòa Hiệp · one frame line<tspan x='0' dy='15'>apex / beam-column / brace-column</tspan><tspan x='0' dy='15'>baseline · data return · 2–3 scenarios</tspan>","G4 — readiness only, access unconfirmed","--l3",990],
+   ["L4","Layer 4 — Inspection–maintenance support","WP4 (merged) · C7 optional · Paper 4 optional","Normal → Watch → Inspect → Priority<tspan x='0' dy='15'>action logic, not damage severity</tspan><tspan x='0' dy='15'>human approval · status history · review</tspan>","G5 — expert review missing","--l4",1420]];
+  return `<div class="execwrap"><svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" aria-label="Executive map of the research programme">
+  <rect x="0" y="0" width="1920" height="1080" fill="var(--surface)"/>
+  <text x="80" y="82" style="font-family:var(--serif);font-size:34px;font-weight:600;fill:var(--ink)">Data-informed Digital Twin for Coastal Industrial Steel Buildings</text>
+  <text x="80" y="118" style="font-family:var(--sans);font-size:17px;fill:var(--ink-2)">Condition monitoring and inspection–maintenance support · Construction Management / Asset Management · Limited-FEM architecture</text>
+  <text x="80" y="156" style="font-family:var(--mono);font-size:13px;letter-spacing:.06em;fill:var(--l2)">FROM VIBRATION DATA TO TRACEABLE CONDITION EVIDENCE · TO BIM-LINKED INSPECTION RECORDS · TO TRANSPARENT MANAGEMENT ACTION</text>
+  <line x1="80" y1="182" x2="1840" y2="182" stroke="var(--rule)" stroke-width="1.5"/>
+  <text x="80" y="222" style="font-family:var(--mono);font-size:12px;letter-spacing:.1em;fill:var(--ink-3)">CENTRAL PROBLEM</text>
+  <text x="80" y="252" style="font-family:var(--sans);font-size:16px;fill:var(--ink)">Sensing, BIM, inspection and maintenance records are fragmented: an alert cannot be verifiably tied to a component, to the inspection that examined it, or to the status of the resulting action.</text>
+  ${L.map(([k,name,map,body,gate,col,x])=>`
+    <g transform="translate(${x},310)">
+      <rect x="0" y="0" width="400" height="240" rx="3" fill="var(${col})" fill-opacity="0.08" stroke="var(${col})" stroke-width="1.6"/>
+      <rect x="0" y="0" width="400" height="5" fill="var(${col})"/>
+      <text x="20" y="40" style="font-family:var(--serif);font-size:20px;font-weight:600;fill:var(--ink)">${name}</text>
+      <text x="20" y="64" style="font-family:var(--mono);font-size:11.5px;letter-spacing:.05em;fill:var(${col})">${map}</text>
+      <text x="20" y="102" style="font-family:var(--sans);font-size:14px;fill:var(--ink-2)"><tspan x="20">${body.replace(/x='0'/g,"x='20'")}</tspan></text>
+      <text x="20" y="212" style="font-family:var(--mono);font-size:12px;fill:var(--ink-3)">${gate}</text>
+    </g>`).join("")}
+  ${[0,1,2].map(i=>`<path d="M${130+400+i*430+8},430 L${130+(i+1)*430-8},430" stroke="var(--ink-3)" stroke-width="2" marker-end="url(#ar)"/>`).join("")}
+  <path d="M1620,560 C1620,620 400,620 330,560" stroke="var(--l4)" stroke-width="2" stroke-dasharray="8 6" fill="none" marker-end="url(#ar4)"/>
+  <text x="960" y="612" text-anchor="middle" style="font-family:var(--mono);font-size:12px;fill:var(--l4)">action and status history return to thicken the asset information record</text>
+  <defs>
+    <marker id="ar" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="var(--ink-3)"/></marker>
+    <marker id="ar4" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="var(--l4)"/></marker>
+  </defs>
+  <line x1="80" y1="660" x2="1840" y2="660" stroke="var(--rule)" stroke-width="1"/>
+  <text x="80" y="700" style="font-family:var(--mono);font-size:12px;letter-spacing:.1em;fill:var(--ink-3)">EVIDENCE CHAIN — LOCKED</text>
+  <text x="80" y="730" style="font-family:var(--sans);font-size:16px;fill:var(--ink)">Vibration data → condition / state-change evidence (+ CEI) → BIM-linked component → Inspection_Record → Action_Record → Status_Event → inspection-maintenance action support</text>
+  <text x="80" y="772" style="font-family:var(--mono);font-size:12px;letter-spacing:.1em;fill:var(--ink-3)">IDENTIFIER CHAIN — LOCKED</text>
+  <text x="80" y="802" style="font-family:var(--mono);font-size:16px;fill:var(--l2)">Sensor_ID → BIM_GUID / Asset_ID @ Model_Version_ID → Condition_Evidence_ID → Inspection_Record_ID → Action_Record_ID</text>
+  <text x="80" y="826" style="font-family:var(--sans);font-size:13px;fill:var(--ink-3)">Action_Status / Workflow_Status is a current-state projection, not an identifier. Status_Event_ID is proposed, not accepted.</text>
+  <g transform="translate(80,862)">
+    <rect x="0" y="0" width="560" height="150" rx="3" fill="var(--l2)" fill-opacity="0.09" stroke="var(--l2)" stroke-width="1.6"/>
+    <text x="18" y="30" style="font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;fill:var(--l2)">CURRENT PRIORITY</text>
+    <text x="18" y="58" style="font-family:var(--sans);font-size:15px;fill:var(--ink)">Close Gate 1. Lock the canonical run registry and</text>
+    <text x="18" y="80" style="font-family:var(--sans);font-size:15px;fill:var(--ink)">physical sensor identity; run multi-seed leakage-safe</text>
+    <text x="18" y="102" style="font-family:var(--sans);font-size:15px;fill:var(--ink)">LORO; resolve ResNet1D provenance; report run/fold</text>
+    <text x="18" y="124" style="font-family:var(--sans);font-size:15px;fill:var(--ink)">uncertainty; obtain sign-off. Gate 2 governance runs in parallel.</text>
+  </g>
+  <g transform="translate(680,862)">
+    <rect x="0" y="0" width="560" height="150" rx="3" fill="none" stroke="var(--fem)" stroke-width="1.4" stroke-dasharray="8 5"/>
+    <text x="18" y="30" style="font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;fill:var(--fem)">FEM FIREWALL</text>
+    <text x="18" y="58" style="font-family:var(--sans);font-size:15px;fill:var(--ink-2)">Nominal, uncalibrated, reference-only, not used for</text>
+    <text x="18" y="80" style="font-family:var(--sans);font-size:15px;fill:var(--ink-2)">damage diagnosis. Permitted: reference-informed sensor</text>
+    <text x="18" y="102" style="font-family:var(--sans);font-size:15px;fill:var(--ink-2)">placement, component illustration, qualitative hypothesis.</text>
+    <text x="18" y="124" style="font-family:var(--sans);font-size:15px;fill:var(--ink-2)">No RQ, no WP, no chapter, no paper, no Evidence Gate.</text>
+  </g>
+  <g transform="translate(1280,862)">
+    <rect x="0" y="0" width="560" height="150" rx="3" fill="var(--danger)" fill-opacity="0.07" stroke="var(--danger)" stroke-width="1.4" stroke-dasharray="6 5"/>
+    <text x="18" y="30" style="font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;fill:var(--danger)">EXTENSION GALAXIES — VISIBLE, NOT STARTED</text>
+    <text x="18" y="58" style="font-family:var(--sans);font-size:14.5px;fill:var(--ink-2)">Sensor placement assessment · minimum sensor count ·</text>
+    <text x="18" y="79" style="font-family:var(--sans);font-size:14.5px;fill:var(--ink-2)">low-cost sensor comparison · benchmark release ·</text>
+    <text x="18" y="100" style="font-family:var(--sans);font-size:14.5px;fill:var(--ink-2)">standards mapping · unsupervised state-change evidence ·</text>
+    <text x="18" y="121" style="font-family:var(--sans);font-size:14.5px;fill:var(--ink-2)">multi-site replication · calibrated FEM and prediction (post-PhD)</text>
+  </g>
+</svg></div>`;
+}
+
+const VIEWS={
+ exec:()=>`<h1>Executive map</h1><p class="lede">A single 16:9 plate for a supervisor meeting: central problem, four-layer architecture, RQ–WP–Chapter–Paper–Gate mapping, both locked chains, the current priority, the FEM firewall, and the extension galaxies that are visible but not started.</p>${execMap()}`,
+
+ gaps:()=>`<h1>Research gap portfolio</h1><p class="lede">Thirty-eight gaps in eight families. Gaps with existing project evidence are separated from gaps that are currently speculation — the "current evidence" column says which is which, and every row carries an explicit claim boundary.</p>
+ <div class="callout"><div class="ct">Reading rule</div><p>A gap is not a promise. Rows marked <b>Idea</b> under readiness have no project data behind them yet; rows marked <b>Data available</b> can begin immediately with material the repository already holds.</p></div>
+ <div class="tablewrap"><table><thead><tr><th>Gap</th><th>Layer</th><th>Precise gap</th><th>Current evidence</th><th>Missing evidence</th><th>Candidate RQ</th><th>Data needed</th><th>Method</th><th>Validation</th><th>Scope</th><th>Readiness</th><th>Priority</th><th>Possible output</th><th>Gate</th><th>Risk</th><th>Claim boundary</th></tr></thead><tbody>
+ ${GAPS.map(g=>`<tr><td class="id">${g.id}</td><td class="id">${g.layer}</td><td>${esc(g.gap)}</td><td>${esc(g.cur)}</td><td>${esc(g.miss)}</td><td>${esc(g.rq)}</td><td>${esc(g.data)}</td><td>${esc(g.method)}</td><td>${esc(g.val)}</td><td>${scopeTag(g.scope)}</td><td>${esc(g.ready)}</td><td>${prioTag(g.prio)}</td><td>${esc(g.out)}</td><td class="id">${g.gate}</td><td>${riskTag(g.risk)}</td><td>${esc(g.bound)}</td></tr>`).join("")}
+ </tbody></table></div>`,
+
+ roadmap:()=>`<h1>Opportunity roadmap</h1><p class="lede">Sequenced by dependency, not by attractiveness. No future idea is allowed to displace the work that closes the current gate.</p>
+ <div class="callout warn"><div class="ct">Ordering constraint</div><p>Gate 1 closure and Gate 2 governance run in parallel; Gate 3 execution is <b>NOT OPEN</b> until the Gate 2 package is approved and baselined; Gate 4 is readiness-only until field access is confirmed; and Gate 4 evidence may never be used to close Gates 1–3.</p></div>
+ <div class="grid2">${ROADMAP.map(p=>`<div class="card"><div class="ct">${esc(p.win)}</div><h4>${esc(p.ph)}</h4><p style="font-family:var(--mono);font-size:11.5px;color:var(--ink-3)">${esc(p.dep)}</p><ul>${p.items.map(i=>`<li>${esc(i)}</li>`).join("")}</ul><p style="margin-top:10px;border-left:2px solid var(--danger);padding-left:9px;color:var(--ink)"><b>Guard:</b> ${esc(p.guard)}</p></div>`).join("")}</div>`,
+
+ shortlist:()=>`<h1>Top opportunity shortlist</h1><p class="lede">Twelve opportunities scored 1–5 on eight criteria. The totals are shown but are deliberately not used to rank: two criteria are costs, not benefits, and judgement decides the classification.</p>
+ <div class="callout"><div class="ct">How to read the scores</div><p>For <b>scope-creep risk</b> and <b>dependency on unfinished gates</b>, a high score is bad. Everything else, higher is better. The classification column is a judgement call and the reasoning is given in full underneath.</p></div>
+ <div class="tablewrap"><table><thead><tr><th>#</th><th>Opportunity</th>${CRIT.map(c=>`<th>${c}</th>`).join("")}<th>Classification</th></tr></thead><tbody>
+ ${SHORT.map(s=>`<tr><td class="id">${s.id}</td><td><b style="color:var(--ink)">${esc(s.n)}</b></td>${s.v.map((x,i)=>`<td class="num" style="color:${(i>=6?(x>=4?"var(--danger)":"var(--ink-2)"):(x>=4?"var(--l3)":"var(--ink-2)"))}">${x}</td>`).join("")}<td><span class="tag t-${{"Do now":"now","Prepare quietly":"next","Keep for post-PhD":"later","Avoid":"out"}[s.cls]}">${s.cls}</span></td></tr>`).join("")}
+ </tbody></table></div>
+ <h2>Why each one is classified this way</h2>
+ ${SHORT.map(s=>`<h3>${s.id} — ${esc(s.n)} <span class="tag t-${{"Do now":"now","Prepare quietly":"next","Keep for post-PhD":"later","Avoid":"out"}[s.cls]}">${s.cls}</span></h3><p>${esc(s.why)}</p>`).join("")}`,
+
+ ecosystem:()=>`<h1>Publication and technology-transfer ecosystem</h1><p class="lede">Product trajectories with no journal ranking and no claim about publishability — only the user, the problem, the evidence required, and what is genuinely intellectual contribution rather than implementation.</p>
+ <div class="tablewrap"><table><thead><tr><th>Output</th><th>User</th><th>Problem solved</th><th>Scientific evidence required</th><th>Minimum viable research output</th><th>Readiness assumption</th><th>Gate dependency</th><th>Contribution vs implementation</th><th>Ethical / contractual / governance concern</th></tr></thead><tbody>
+ ${ECO.map(e=>`<tr><td><b style="color:var(--ink)">${esc(e.o)}</b></td><td>${esc(e.u)}</td><td>${esc(e.p)}</td><td>${esc(e.e)}</td><td>${esc(e.m)}</td><td>${esc(e.t)}</td><td class="id">${esc(e.g)}</td><td>${esc(e.i)}</td><td>${esc(e.c)}</td></tr>`).join("")}
+ </tbody></table></div>`,
+
+ audit:()=>`<h1>Critical audit</h1><p class="lede">Five judgements about the research programme as it stands on 11 August 2026, written to be useful rather than reassuring.</p>
+ <h2>1 · The strongest part of the programme</h2><p>${esc(AUDIT.strong)}</p>
+ <h2>2 · The most important scientific gap</h2><p>${esc(AUDIT.gap)}</p>
+ <h2>3 · The current evidence bottleneck</h2><p>${esc(AUDIT.block)}</p>
+ <h2>4 · Three attractive but dangerous ideas</h2>
+ ${AUDIT.tempt.map((t,i)=>`<div class="callout warn"><div class="ct">Scope-creep risk ${i+1}</div><p><b>${esc(t.t)}</b> — ${esc(t.w)}</p></div>`).join("")}
+ <h2>5 · Strategic conclusion</h2><div class="callout"><p>${esc(AUDIT.close)}</p></div>
+ <h2>Self-check against the required quality gates</h2>
+ <div class="tablewrap"><table><thead><tr><th>Check</th><th>Status</th></tr></thead><tbody>
+ ${[["Four layers, not three","Yes — Layer 4 is present as the Construction Management identity layer, mapped to WP4 merged into WP2/WP3, Chapter 7 optional, Gate 5."],
+    ["RQ–WP–Chapter–Paper–Gate mapping","Yes — carried on every layer node and in the executive map."],
+    ["Both chains present","Yes — evidence chain and identifier chain, both at the centre and in the executive map."],
+    ["Paper 2 novelty foregrounded","Yes — evidence-to-inspection traceability with identity, event, authorization and verification governance, bounded to the reviewed corpus."],
+    ["Gate 1 kept as the current priority","Yes — Now phase, and three of the five Do-now shortlist items are Gate 1 items."],
+    ["Field feasibility separated from field diagnosis","Yes — Layer 3 nodes and the quarantine belt state the boundary explicitly."],
+    ["Standards alignment separated from verified compliance","Yes — IS-01 to IS-03 carry the three-level labelling rule and the pending-verification note."],
+    ["FEM in the right role","Yes — satellite inside a dashed firewall with permitted and prohibited uses, plus a red prohibited link to evidence formation."],
+    ["Core / Supporting / Future / Out of scope separated","Yes — encoded in fill, in the scope chip, and in the quarantine belt."],
+    ["Minimum evidence stated for each extension","Yes — every gap row carries required data, method and validation."],
+    ["No invented citations, metrics or clauses","Yes — figures are quoted from the repository's own reanalysis with their candidate-claim label; where the repository is silent the record says evidence is currently insufficient."]
+  ].map(([a,b])=>`<tr><td><b style="color:var(--ink)">${a}</b></td><td>${b}</td></tr>`).join("")}
+ </tbody></table></div>`
+};
+
+const docEl=document.getElementById("doc"),docIn=document.getElementById("docInner"),cw=document.getElementById("canvaswrap"),rail=document.getElementById("rail");
+document.getElementById("tabs").addEventListener("click",e=>{
+  const b=e.target.closest(".tab");if(!b)return;
+  document.querySelectorAll(".tab").forEach(t=>t.setAttribute("aria-selected",String(t===b)));
+  const v=b.dataset.view;
+  if(v==="universe"){cw.hidden=false;cw.style.display="";docEl.hidden=true;rail.style.display="";}
+  else{cw.style.display="none";docEl.hidden=false;rail.style.display="none";panel.classList.remove("open");docIn.innerHTML=VIEWS[v]();docEl.scrollTop=0;}
+});
+</script>
