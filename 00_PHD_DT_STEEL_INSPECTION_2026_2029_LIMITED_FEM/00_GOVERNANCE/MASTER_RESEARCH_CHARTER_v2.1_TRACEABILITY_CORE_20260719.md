@@ -1,6 +1,8 @@
 # MASTER RESEARCH CHARTER — v2.1 TRACEABILITY-CORE
-**Version:** v2.1 (Traceability-Core, Limited-FEM) | **Date:** 2026-07-19
-**Status:** **SOURCE OF TRUTH (cao nhất).** Kế thừa và tinh chỉnh `MASTER_RESEARCH_CHARTER_v2_20260719.docx` (v2.0). Supersedes v1.1 (LIMITED-FEM) làm nguồn hiện hành; v1.1 và v2.0 được giữ làm nguồn quyết định lịch sử.
+**Version:** v2.1.1 (administrative alignment; no scope amendment) | **Issued:** 2026-07-19 | **Updated:** 2026-08-04
+**Status:** **SOURCE OF TRUTH (cao nhất).** | **Source-of-truth level:** 2
+**Supersedes:** v1.1 (LIMITED-FEM) as current; v1.1 and v2.0 remain historical decision sources. | **Superseded by:** None.
+**Change summary (2026-08-04):** Aligns gate-state language, the evidence firewall, corpus-bounded `CLOSE_SEARCH`, and the accepted Action-ID decision. It does not accept the proposed Action-Status-Event model or close any gate.
 **Approved basis:** Council review 17–19/07/2026; supervisor Verdict B (17/07/2026); kiến trúc Limited-FEM giữ nguyên.
 **Field:** Construction Management / Asset Management (Quản lý xây dựng / Quản lý tài sản công trình).
 
@@ -41,7 +43,9 @@ Vibration data
 Sensor_ID → BIM_GUID → Condition_Evidence_ID → Inspection_Record_ID → Action_Record_ID
 ```
 
-CEI là thuộc tính tường minh của **mọi** `Condition_Evidence_ID`. `Action_Status` là **thuộc tính** của `Action_Record_ID`, không phải mắt xích định danh (xem `RESEARCH_ARCHITECTURE_DECISION_RECORD_ACTION_ID_20260719.md`). `Action_Record_ID` phải truy được: evidence, CEI, component, inspection record, role, timestamp, version, approval status và management/legal reference áp dụng. `FEM_Node_ID` chỉ được phép tồn tại như **optional metadata**; không bao giờ là mắt xích bắt buộc.
+CEI là thuộc tính tường minh của **mọi** `Condition_Evidence_ID`. `Action_Status`/`Workflow_Status` là **current-state projection/attribute** của `Action_Record_ID`, không phải mắt xích định danh (xem `RESEARCH_ARCHITECTURE_DECISION_RECORD_ACTION_ID_20260719.md`). Bối cảnh định danh cấu kiện trong G2 phải giữ `Asset_ID`, `BIM_GUID` và `Model_Version_ID`; không tự thêm `Component_ID` vào canonical chain, và database surrogate key chỉ là technical implementation key. `Action_Record_ID` phải truy được: evidence, CEI, component, inspection record, role, timestamp, version, approval status và management/legal reference áp dụng. `FEM_Node_ID` chỉ được phép tồn tại như **optional metadata**; không bao giờ là mắt xích bắt buộc.
+
+`Status_Event` là hướng specification hiện hành cho append-only history. Tên `Status_Event_ID`, lifecycle, transition vocabulary, authorization, verification và closure/reopen vẫn phụ thuộc `ADR_ACTION_STATUS_EVENT_20260804_DRAFT.md` ở trạng thái **PROPOSED — NOT YET ACCEPTED**, expert review và G2 baseline; phần này không âm thầm sửa quyết định Charter/ADR đã accepted.
 
 ### 2.3 Vai trò FEM (locked)
 
@@ -192,11 +196,13 @@ Chi tiết: `EVIDENCE_GATES_v2.1.md`. Tóm tắt:
 
 Mọi file chiến lược/review/status dùng: **Claim → Evidence → Limitation → Next action.** Phải phân biệt và không trộn lẫn bốn lớp bằng chứng: (1) laboratory evidence; (2) information traceability; (3) field feasibility; (4) management decision support. Không dùng bằng chứng lớp này để tuyên bố kết quả lớp khác.
 
+**Gate status at 2026-08-04:** G1 = `OPEN — PARTIAL EVIDENCE`; G2 = `OPEN — LITERATURE BOUNDARY CLOSED, SPECIFICATION NOT YET FROZEN`; G3 = `OPEN — NOT IMPLEMENTED, NOT VALIDATED, NOT OFFICIALLY PASSED`, while G3 execution remains **NOT OPEN** until the G2 package is baselined and explicitly accepted. `CLOSE_SEARCH` is corpus-bounded, not universal absence and not a G2 PASS.
+
 ---
 
 ## 12. Current priority (G1)
 
-1. Khóa run registry; 2. xác nhận cấu trúc run và metadata; 3. kiểm tra leakage; 4. thực hiện LORO; 5. xác nhận sensor mode và provenance của ResNet1D; 6. cập nhật uncertainty ở cấp run; 7. **chỉ sau đó** mới khóa claim Paper 1.
+1. Khóa canonical run registry; 2. xác nhận sensor identity/provenance; 3. audit split-before-windowing; 4. thực hiện leakage-safe run-aware/LORO với multi-seed evaluation; 5. xác nhận hoặc loại ResNet1D theo provenance; 6. cập nhật run/fold uncertainty; 7. hoàn tất acceptance matrix và sign-off; 8. **chỉ sau đó** mới khóa claim Paper 1.
 
 Song song (được phép): draft SCQ/VCQ/RCQ; thiết kế CEI metadata structure; draft Inspection_Record schema; legal-reference inventory. Không xây framework phức tạp hoặc decision logic chi tiết trước khi competency questions và acceptance criteria được pre-register.
 

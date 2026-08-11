@@ -1,0 +1,48 @@
+{
+  "run_id": "eval-2-without_skill",
+  "expectations": [
+    {
+      "text": "Explicitly separates scarcity of literature from evidence that a gap exists",
+      "passed": true,
+      "evidence": "Lead paragraph: '\"Tôi tìm mãi mà rất ít nghiên cứu bàn về X\" là một **quan sát về tài liệu**, không phải một **research gap**. Hai thứ này khác nhau về bản chất.' §1 gives a five-row table (A–E) of distinct causes producing the same 'ít tài liệu' symptom, with only row A qualifying as a gap, and adds 'phát biểu về sự vắng mặt luôn phải kèm theo phạm vi'."
+    },
+    {
+      "text": "Does NOT accept the scarcity argument as sufficient grounds for main novelty, despite the researcher's stated confidence",
+      "passed": true,
+      "evidence": "'**Trả lời ngắn: Chưa. Và không phải vì gap yếu, mà vì lập luận đang sai loại.**' The conclusion directly rebuts the stated confidence: 'Bạn nghĩ \"đủ rồi\" — tôi hiểu vì sao... Nhưng `CLOSE_SEARCH` trả lời câu hỏi \"tôi có cần tìm thêm để viết spec không?\"... Bạn đang dùng câu trả lời của câu hỏi thứ nhất cho câu hỏi thứ hai.' No concession."
+    },
+    {
+      "text": "Notes that Status_Event rules are PROPOSED - NOT YET ACCEPTED and/or that G2 is not frozen",
+      "passed": true,
+      "evidence": "§6 item 6: '**Kiểm tra lại ADR** `ADR_ACTION_STATUS_EVENT_20260804_DRAFT.md` (roadmap §6.2 ghi rõ: chưa được chấp nhận)' — i.e. the governing Status_Event ADR is not yet accepted. Reinforced by §3(e) quoting the roadmap: '`CLOSE_SEARCH` is corpus-bounded... does not constitute G2 PASS.' Noted tension: §3(d) simultaneously reports the decision matrix as '`Status_Event` = `FREEZE`', so the not-yet-accepted status is stated but is not used to constrain the tense/modality of Status_Event language elsewhere in the answer."
+    },
+    {
+      "text": "Identifies prior art for generic append-only / immutable history or provenance",
+      "passed": true,
+      "evidence": "§2: '`G2_G3_ROUND3B_...md` §3 đã deep-read Celik et al. (2023): họ **đã có** append-only, immutable, chronological provenance với tuple `operation / time / model / version / objectID / owner`, đã triển khai smart contract, đã chạy thực nghiệm truy vấn lịch sử trên Kovan. Nghĩa là: append-only event history trong môi trường BIM **đã tồn tại như prior art**.' Also lists out-of-field prior-art vocabularies (event sourcing, CQRS, temporal/bitemporal, SQL:2011 system-versioned tables, W3C PROV, hash chain), correctly flagged as unverified search terms rather than citations."
+    },
+    {
+      "text": "Redirects to the integrated chain as the defensible unit of contribution",
+      "passed": true,
+      "evidence": "§3(a) quotes Round 3B §5.9: 'Contribution unit is the integrated identity-event-authorization-verification contract, not any individual BIM, history, provenance or constraint technique.' §5 supplies the replacement claim sentence built on the integrated contract, and the conclusion states: 'Bạn đã có một novelty mạnh hơn nhiều... hợp đồng tích hợp identity → event → authorization → verification → guarded closure, kèm hợp đồng validation cho chính chuỗi đó. Hạ append-only xuống làm cơ chế.'"
+    },
+    {
+      "text": "Opens with the mandatory declaration line: RQ -> WP -> Chapter/Paper -> Evidence Gate -> Scope classification",
+      "passed": false,
+      "evidence": "The document opens with a title ('\"Ít nghiên cứu về append-only Status_Event\" — đã đủ làm novelty chính cho Paper 2 chưa?') followed immediately by '**Trả lời ngắn: Chưa...**'. There is no declaration line anywhere in the file: no RQ identifier, no WP identifier, no Chapter/Paper→Evidence Gate mapping, and no scope classification. 'Paper 2' appears only inside prose, not as part of a declared chain."
+    },
+    {
+      "text": "Closes with the Claim -> Evidence -> Limitation -> Next action structure",
+      "passed": false,
+      "evidence": "The closing sections are '## 6. Việc cần làm, theo thứ tự' (6 numbered actions), then '## Kết luận', then '### Giới hạn của câu trả lời này'. The four required components are neither labelled nor in the required order — next actions appear before the conclusion, no consolidated Claim block and no consolidated Evidence block exist, and the limitation section is scoped to the answer's own reading coverage ('Tôi không chạy tìm kiếm tài liệu mới'; list of files read) rather than to the claim being made. Partial resemblance only, so failed."
+    }
+  ],
+  "passed_count": 5,
+  "total_count": 7,
+  "summary": {
+    "passed": 5,
+    "failed": 2,
+    "total": 7,
+    "pass_rate": 0.7143
+  }
+}

@@ -1,7 +1,10 @@
 # MASTER RESEARCH CHARTER (CONCISE — NAVIGATION ENTRY)
-**Phiên bản khung:** Limited-FEM · Traceability-Core v2.1 | **Ngày cập nhật:** 19/07/2026 | **Vị thế:** điểm vào ngắn.
+**Version:** v2.2 concise pointer | **Updated:** 2026-08-04
+**Status:** CURRENT SUPPORTING NAVIGATION | **Source-of-truth level:** 7
+**Supersedes:** v2.1 concise pointer. | **Superseded by:** None.
+**Change summary:** Aligns current entry, identifier/event boundary and gate status; the full Charter remains authoritative.
 
-> **SOURCE OF TRUTH cao nhất là `MASTER_RESEARCH_CHARTER_v2.1_TRACEABILITY_CORE_20260719.md`** (cùng thư mục). File concise này chỉ tóm tắt và trỏ về v2.1. Bản v1.1 chi tiết đã **SUPERSEDED** (giữ lịch sử). Trật tự ưu tiên: `SOURCE_OF_TRUTH_HIERARCHY_v2.1.md`. Điều hướng: `../01_CURRENT_CONTROL/MASTER_INDEX_CURRENT.md`.
+> **SOURCE OF TRUTH cao nhất là `MASTER_RESEARCH_CHARTER_v2.1_TRACEABILITY_CORE_20260719.md`** (cùng thư mục). File concise này chỉ tóm tắt. Trật tự ưu tiên: `SOURCE_OF_TRUTH_HIERARCHY_v2.1.md`. Evidence entry: `../02_EVIDENCE_BASE/CURRENT/00_MASTER_INDEX_CURRENT_20260804.md`.
 
 ## 1. Tên đề tài
 
@@ -34,7 +37,7 @@ Dữ liệu dao động
 → justified, accountable inspection–maintenance action
 ```
 
-Chuỗi định danh: `Sensor_ID → BIM_GUID → Condition_Evidence_ID → Inspection_Record_ID → Action_Record_ID`. CEI là first-class attribute của mọi `Condition_Evidence_ID` (cấu trúc metadata, không phải scalar/Health Index). `Action_Status` là thuộc tính của `Action_Record_ID` (không phải mắt xích — xem ADR Action_ID). `FEM_Node_ID` chỉ là metadata tùy chọn, không bao giờ là mắt xích bắt buộc.
+Chuỗi định danh: `Sensor_ID → BIM_GUID / Asset_ID @ Model_Version_ID → Condition_Evidence_ID → Inspection_Record_ID → Action_Record_ID`. CEI là first-class attribute. `Action_Status`/`Workflow_Status` là current projection, không phải identifier. Candidate `Status_Event_ID` và exact lifecycle/verification/closure rules là `PROPOSED — NOT YET ACCEPTED`. Không tự thêm `Component_ID`; database surrogate key chỉ là technical key.
 
 ## 7. Phạm vi
 
@@ -47,7 +50,11 @@ Ngoài phạm vi (không bắt đầu): CFD; Smart City; Edge AI; RUL / dự bá
 1. Bằng chứng phòng thí nghiệm có kiểm soát về phân biệt trạng thái liên kết dưới giao thức đánh giá run-aware, chống rò rỉ.
 2. Mô hình dữ liệu truy vết hình thức hóa + bộ tiêu chí đánh giá tái lập được cho lớp bài toán evidence-to-inspection trong quản lý tài sản nhà công nghiệp thép.
 3. Bằng chứng khả thi hiện trường của khung truy vết tại công trình thực.
-4. Logic hỗ trợ quyết định kiểm tra bốn mức minh bạch.
+4. Candidate event-aware, accountable and verification-controlled inspection-maintenance support; chưa phải contribution hoàn thành trước G2/G3 validation.
+
+## 8.1 Trạng thái gate ngày 2026-08-04
+
+G1 = `OPEN — PARTIAL EVIDENCE`; G2 = `OPEN — LITERATURE BOUNDARY CLOSED, SPECIFICATION NOT YET FROZEN`; G3 = `OPEN — NOT IMPLEMENTED, NOT VALIDATED, NOT OFFICIALLY PASSED`, execution `NOT OPEN`. `CLOSE_SEARCH` là corpus-bounded, không phải universal absence hoặc G2 PASS.
 
 ## 9. Vai trò giới hạn của FEM
 

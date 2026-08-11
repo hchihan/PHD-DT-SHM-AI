@@ -1,0 +1,54 @@
+{
+  "run_id": "eval-0-without_skill",
+  "expectations": [
+    {
+      "text": "Classifies sensor-to-BIM and/or IFC GlobalId linkage as ESTABLISHED PRIOR ART",
+      "passed": true,
+      "evidence": "'**Claim:** Sensor-to-BIM linking va IFC GlobalId la ESTABLISHED PRIOR ART, khong duoc claim novelty doc lap.' Supported by a quote from PAPER2_CURRENT_DIRECTION §3 'Established prior art — excluded from independent novelty'."
+    },
+    {
+      "text": "Does NOT affirm sensor-to-BIM as the main novelty of Paper 2",
+      "passed": true,
+      "evidence": "'## Tra loi ngan: Khong' and 'Sensor-to-BIM **khong phai** novelty cua Paper 2, va viec xay contribution statement xoay quanh lien ket `Sensor_ID` <-> IFC `GlobalId` se bi reviewer danh truot gan nhu chac chan.'"
+    },
+    {
+      "text": "Redirects the contribution to the integrated identity-governed evidence-to-action chain",
+      "passed": true,
+      "evidence": "§2 'Vay cai gi moi la candidate novelty?' lists the chuoi tich hop (append-only Status_Event history, actor-bound authorization, post-action verification, guarded closure/reopen, evidence-basis preservation) and states 'don vi dong gop co the bao ve duoc la chuoi tich hop, khong phai tung ky thuat'; both drafted statements are built on the 'identity-governed evidence-to-action traceability' chain."
+    },
+    {
+      "text": "States the novelty finding is bounded to the reviewed corpus (no 'first' / universal-absence language)",
+      "passed": true,
+      "evidence": "§5: 'Ket luan \"prior art\" o day la **corpus-bounded** (Rounds 1-3B, `CLOSE_SEARCH`), khong phai systematic review. Khong duoc viet \"first\", \"no study worldwide\", hay bat ky universal-absence claim nao.' Both statements carry 'Within the reviewed corpus'."
+    },
+    {
+      "text": "Any contribution statement produced avoids validated/proven language, consistent with G2 not frozen and G3 execution not open",
+      "passed": false,
+      "evidence": "FAILS on the first of the two statements produced. §3 emits a full 120-word statement whose verb phrase is 'the paper specifies **and validates** an identity-governed evidence-to-action traceability chain', and which closes 'the contribution is the integrated, auditable chain and the executable acceptance tests that **demonstrate** it', plus 'one preregistered, query-validated chain'. §4 does warn this version is unusable now and offers a hedged alternative, but the assertion requires that ANY statement produced avoid validated/proven language — the validated-register draft was still produced and handed to the user as paste-ready text (labelled 'ban dung khi da co bang chung G2/G3'). Partial mitigation only, so marked failed."
+    },
+    {
+      "text": "Cites at least one repository file path or governance section as the basis for the classification",
+      "passed": true,
+      "evidence": "Cites '`03_PAPERS\\PAPER_2\\PAPER2_CURRENT_DIRECTION_v2.1_20260804.md` §3', '`00_GOVERNANCE\\AGENT_RULES.md` §5', and '`08_AI_SKILL_SYSTEM\\phd-dt-research-skills\\_phd-canon\\novelty-boundary.md`'. See confound_note regarding the third path."
+    },
+    {
+      "text": "Opens with the mandatory declaration line: RQ -> WP -> Chapter/Paper -> Evidence Gate -> Scope classification",
+      "passed": false,
+      "evidence": "No declaration line anywhere in the output. The document opens with the title '# Sensor-to-BIM co phai novelty chinh cua Paper 2 khong?' followed directly by '## Tra loi ngan: Khong'. No RQ id, no WP id, no evidence-gate marker, no scope classification is emitted."
+    },
+    {
+      "text": "Closes with the Claim -> Evidence -> Limitation -> Next action structure",
+      "passed": false,
+      "evidence": "The four elements exist but are not emitted as a closing structure: '## 1. Claim -> Evidence' sits at the TOP of the document, separated from '## 5. Limitation' and '## 6. Next action' by three intervening sections (§2 candidate novelty, §3 statement, §4 warning). The document therefore closes with only Limitation + Next action, not the required Claim -> Evidence -> Limitation -> Next action closing block. Partially met, so marked failed."
+    }
+  ],
+  "passed_count": 5,
+  "total_count": 8,
+  "confound_note": "KNOWN CONFOUND PRESENT. The baseline output explicitly cites a canon file belonging to the skill under test: '`08_AI_SKILL_SYSTEM\\phd-dt-research-skills\\_phd-canon\\novelty-boundary.md` xep \"sensor-to-BIM linking\" va \"IFC GlobalId as a persistent component identifier\" vao danh sach classify as PRIOR ART by default, va dung dung cau hoi nay lam worked example.' This is the strongest form of the confound: the baseline reports that the canon file uses THIS EXACT eval question as its worked example, so assertions 1, 2, 3 and 4 may have been answered by reading the skill's own canon rather than by unaided reasoning over the evidence base. Assertion 6 (cites a repository file path) is also partly satisfied by that same canon path, although it independently cites PAPER2_CURRENT_DIRECTION_v2.1 and AGENT_RULES.md, which are genuine repository governance files outside the skill. The three failures (5, 7, 8) are the discriminating ones and are unaffected by the confound: even with canon access, the baseline did not emit the declaration line, did not use the closing Claim -> Evidence -> Limitation -> Next action block, and produced a 'specifies and validates' statement inconsistent with G2 not frozen / G3 execution not open. Treat the baseline's 5/8 as an upper bound on true unaided baseline performance.",
+  "summary": {
+    "passed": 5,
+    "failed": 3,
+    "total": 8,
+    "pass_rate": 0.625
+  }
+}

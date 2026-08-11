@@ -1,9 +1,12 @@
 # EVIDENCE GATES — v2.1 (EXECUTION GATES)
-**Version:** v2.1 | **Date:** 2026-07-19 | **Status:** CURRENT (dưới Charter v2.1)
+**Version:** v2.2 | **Issued:** 2026-07-19 | **Updated:** 2026-08-04
+**Status:** CURRENT | **Source-of-truth level:** 4
+**Supersedes:** v2.1 execution-gate wording. | **Superseded by:** None.
+**Change summary:** Reconciles gate status with execution authorization, adds the G2 decision/schema/oracle prerequisites and G3 event/authorization/verification tests; no gate is marked PASS.
 **Rule:** Mỗi Gate item là một **execution gate** với artifact bắt buộc + acceptance criterion + evidence path + owner + reviewer/sign-off + status. **Không đánh dấu PASS chỉ vì code chạy thành công.** Không đóng gate bằng giả định. Không tồn tại gate FEM-calibration/MAC/EMA/stiffness/OSP.
 
-**Current gate: G1** — materially strengthened nhưng experimentally OPEN (LORO + ResNet1D provenance pending).
-**Status legend:** OPEN · IN-PROGRESS · READY-FOR-REVIEW · PASS (signed) · N/A.
+**Current priority: G1** — `OPEN — PARTIAL EVIDENCE`; canonical registry, leakage-safe LORO/multi-seed evaluation, ResNet1D provenance, uncertainty and sign-off remain missing.
+**Status legend:** OPEN · PARTIAL EVIDENCE · IN-PROGRESS · READY-FOR-REVIEW · EXECUTION-NOT-OPEN · PASS (signed) · N/A.
 
 ---
 
@@ -47,25 +50,39 @@ Milestone công bố nằm **dưới** G1; không tạo Evidence Gate mới.
 
 ## G2 — Traceability model & competency questions
 
+**Gate status:** `OPEN — LITERATURE BOUNDARY CLOSED, SPECIFICATION NOT YET FROZEN`. The corpus-bounded `CLOSE_SEARCH` decision is not G2 PASS.
+
 | Gate item | Required artifact | Acceptance criterion | Evidence path | Owner | Reviewer/sign-off | Status |
 |---|---|---|---|---|---|---|
-| Identifier schema | schema doc | `Sensor_ID → BIM_GUID → Condition_Evidence_ID → Inspection_Record_ID → Action_Record_ID` | 02_EVIDENCE_BASE/RQ2_GATES2_3/ | PhD | Supervisor | OPEN |
+| G2 Final Decision Register | reviewed register | Every FREEZE/FREEZE_PROVISIONALLY/EXPERT_REVIEW_REQUIRED/WAIT_FOR_G1_PAYLOAD/REMOVE item has basis, owner and approval state | 02_EVIDENCE_BASE/CURRENT/ | PhD | Supervisor | OPEN |
+| Action-Status-Event ADR | accepted ADR or explicit unresolved decision | Proposed ADR reviewed; no proposed rule treated as accepted | 00_GOVERNANCE/ | PhD | Supervisor | OPEN |
+| Identifier governance | schema doc | `Sensor_ID → BIM_GUID / Asset_ID @ Model_Version_ID → Condition_Evidence_ID → Inspection_Record_ID → Action_Record_ID`; no `Action_Status` identifier; no unnecessary `Component_ID` | 02_EVIDENCE_BASE/RQ2_GATES2_3/ | PhD | Supervisor | OPEN |
 | CEI attribute structure | CEI spec | Metadata fields (validity, model confidence, run/fold variability, sensor config, data-quality, provenance, timestamp/version); không scalar | 02_EVIDENCE_BASE/RQ2_GATES2_3/ | PhD | Supervisor | OPEN |
 | Action_Record schema | schema doc | `Action_Record_ID` truy được evidence, CEI, component, inspection record, role, timestamp, version, approval status, management/legal ref | 02_EVIDENCE_BASE/RQ2_GATES2_3/ | PhD | Supervisor | OPEN |
 | SCQ/VCQ/RCQ | pre-registration doc | Pre-registered TRƯỚC khi build schema/demo | 02_EVIDENCE_BASE/RQ2_GATES2_3/ | PhD | Supervisor | OPEN |
 | Acceptance criteria | criteria doc | Tiêu chí chấp nhận cho từng CQ | 02_EVIDENCE_BASE/RQ2_GATES2_3/ | PhD | Supervisor | OPEN |
 | Inspection_Record schema | minimum schema | Trường tối thiểu + role + approval status | 02_EVIDENCE_BASE/RQ2_GATES2_3/ | PhD | Supervisor | OPEN |
+| Status_Event schema | minimum event model | Append-only event identity, action relation, prior/new status, actor/role, time, reason, version and authorization context | 02_EVIDENCE_BASE/RQ2_GATES2_3/ | PhD | Supervisor | OPEN |
+| Verification and closure rules | specification | Post-action verification required; `completed` alone cannot close; closure/reopen guards explicit | 02_EVIDENCE_BASE/RQ2_GATES2_3/ | PhD | Supervisor/Expert | OPEN |
+| CQ Registry and expected answers | preregistration | Paired forward/reverse CQs, exact expected answers and query-answer parity distinguished from transformation round-trip | 02_EVIDENCE_BASE/RQ2_GATES2_3/ | PhD | Supervisor | OPEN |
+| Constraint Catalogue | versioned catalogue | Identity, relation, chronology, transition, authorization, evidence and closure families fixed | 02_EVIDENCE_BASE/RQ2_GATES2_3/ | PhD | Supervisor | OPEN |
+| Fixture/Oracle Manifest | machine-readable or versioned manifest | Controlled valid/invalid fixtures, isolated mutations, expected focus IDs/codes/counts and exact expected-vs-actual rule | 02_EVIDENCE_BASE/RQ2_GATES2_3/ | PhD | Supervisor | OPEN |
+| G2 baseline/sign-off | approval record | Complete internally consistent package reviewed, approved and baselined | 02_EVIDENCE_BASE/RQ2_GATES2_3/ | PhD | Supervisor | OPEN |
 
 ## G3 — End-to-end laboratory traceability-to-decision demo
 
+**Gate status:** `OPEN — NOT IMPLEMENTED, NOT VALIDATED, NOT OFFICIALLY PASSED`. **Execution authorization:** `EXECUTION-NOT-OPEN` until the G2 package is approved and baselined. Real G1 `Condition_Evidence` may be used only after provenance-complete G1 payload acceptance.
+
 | Gate item | Required artifact | Acceptance criterion | Evidence path | Owner | Reviewer/sign-off | Status |
 |---|---|---|---|---|---|---|
-| Chain demo | demo | evidence → CEI → BIM component → inspection record → Action_Record | lab demo repo | PhD | Supervisor | OPEN |
-| Round-trip | test log | Truy vết hai chiều đầy đủ | lab demo repo | PhD | — | OPEN |
-| Orphan-ID test | test log | Phát hiện id mồ côi | lab demo repo | PhD | — | OPEN |
-| Duplicate-ID test | test log | Phát hiện id trùng | lab demo repo | PhD | — | OPEN |
-| Missing-CEI test | test log | Phát hiện evidence thiếu CEI | lab demo repo | PhD | — | OPEN |
-| Invalid-data validation | SHACL-or-equivalent report | Ràng buộc validation chạy, bắt lỗi | lab demo repo | PhD | Supervisor | OPEN |
+| Chain demo | demo | evidence → CEI → BIM component → inspection record → Action_Record → Status_Event → review/authorization → verification/guarded closure | bounded prototype | PhD | Supervisor | EXECUTION-NOT-OPEN |
+| Paired forward/reverse CQ | test log | Exact expected and actual result sets match; reverse lookup is not mislabeled as round-trip parity | bounded prototype | PhD | Supervisor | EXECUTION-NOT-OPEN |
+| Identity/relation tests | test log | Orphan, duplicate, stale/reused ID, wrong type and invalid cardinality are rejected | bounded prototype | PhD | — | EXECUTION-NOT-OPEN |
+| Evidence tests | test log | Missing/malformed CEI, missing provenance and stale evidence basis are rejected | bounded prototype | PhD | — | EXECUTION-NOT-OPEN |
+| Event/chronology tests | test log | Illegal transition, ordering and current-state reconstruction failures are rejected | bounded prototype | PhD | — | EXECUTION-NOT-OPEN |
+| Authorization tests | test log | Unauthorized approval/rejection/rework and prohibited self-approval are rejected per approved role matrix | bounded prototype | PhD | Expert/Supervisor | EXECUTION-NOT-OPEN |
+| Verification/closure tests | test log | Closure without accepted verification is blocked; valid reopen preserves prior history | bounded prototype | PhD | Expert/Supervisor | EXECUTION-NOT-OPEN |
+| Exact oracle validation | implementation-neutral report | Actual violations/results equal preregistered focus IDs, codes and counts | bounded prototype | PhD | Supervisor | EXECUTION-NOT-OPEN |
 
 ## G4 — Minimum field mapping & baseline feasibility (Rapexco)
 
@@ -109,5 +126,5 @@ calibrated FEM · MAC · EMA · equivalent stiffness · stiffness degradation ·
 ## Trạng thái hiện tại (Claim → Evidence → Limitation → Next action)
 - **Claim:** Hệ gate đã chuyển sang execution-gate với artifact + acceptance + sign-off; M1 milestone gắn dưới G1.
 - **Evidence:** File này; Charter v2.1; matrix v2.1; ADR Action_ID.
-- **Limitation:** G1 chưa PASS (LORO, ResNet1D provenance); G2 cần pre-register CQ; G3–G7 mở; artifacts G1 chưa khởi tạo.
-- **Next action:** khởi tạo `G1_EXECUTION_PACK/`; khóa run registry → LORO → ResNet1D provenance → run-level uncertainty; ký G1_ACCEPTANCE_MATRIX; song song pre-register SCQ/VCQ/RCQ + CEI/Action_Record schema.
+- **Limitation:** G1 has partial evidence but no signed acceptance; G2 literature boundary is closed but specification is not frozen; G3 is not implemented, validated or passed and execution is not open.
+- **Next action:** lock canonical run/sensor provenance → leakage-safe multi-seed LORO → ResNet1D provenance decision → run/fold uncertainty → G1 sign-off; in parallel review the Action-Status-Event ADR and complete the G2 Decision Register, ER model, CQ/expected answers, Constraint Catalogue, Fixture/Oracle Manifest, expert review and baseline.

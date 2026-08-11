@@ -1,5 +1,8 @@
 # ARCHITECTURE DECISION RECORD — 2026-07-19 (v2.1 Traceability-Core)
-**Status:** ACCEPTED | **Date:** 2026-07-19 | **Supersedes as current:** ADR 2026-07-17 (Limited-FEM) — giữ làm nguồn lịch sử, không xóa.
+**Version:** v1.1 administrative annotation | **Status:** ACCEPTED | **Decision date:** 2026-07-19 | **Updated:** 2026-08-04
+**Source-of-truth level:** 3
+**Supersedes:** ADR 2026-07-17 (Limited-FEM) as current — giữ làm nguồn lịch sử, không xóa. | **Superseded by:** None.
+**Change summary:** Metadata alignment only; the accepted traceability-core and Limited-FEM decision is unchanged.
 **Basis:** Council review 17–19/07/2026; supervisor Verdict B (17/07/2026); Charter v2.0 (docx) và v2.1 (traceability-core).
 
 ---

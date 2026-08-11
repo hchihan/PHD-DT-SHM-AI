@@ -1,8 +1,11 @@
 # G1 TO G2 CONDITION EVIDENCE INTERFACE v1.0
 
+**Version:** v1.1 | **Issued:** 2026-08-04 | **Updated:** 2026-08-04
 **Document type:** Implementation-neutral interface specification  
-**Status:** CURRENT WORKING SPECIFICATION for G2 review
-**Current gate state:** Gate 1 is `OPEN/NOT READY`; this specification does not claim Gate 1, Gate 2, or Gate 3 completion.  
+**Status:** CURRENT WORKING SPECIFICATION for G2 review | **Source-of-truth level:** 7
+**Supersedes:** v1.0 working specification. | **Superseded by:** None.
+**Change summary:** Aligns gate wording, moved paths, Round 3A-3B boundary and proposed event governance; instance schemas and evidence claims are otherwise preserved.
+**Current gate state:** G1 is `OPEN — PARTIAL EVIDENCE`; G2 is `OPEN — LITERATURE BOUNDARY CLOSED, SPECIFICATION NOT YET FROZEN`; G3 is not implemented/validated/passed and execution is not open. This specification closes no gate.  
 **Governing scope:** Limited-FEM. FEM is nominal, uncalibrated, reference-only, not used for damage diagnosis.  
 **Contract boundary:** Gate 1 laboratory condition/state-change evidence to Gate 2 Evidence-to-Action Traceability Specification Readiness.
 
@@ -58,7 +61,7 @@ Sensor_ID
 → Action_Record_ID
 ```
 
-`Action_Status` is a controlled current-state projection or attribute of `Action_Record_ID`; it is not a substitute for `Action_Record_ID`. State changes are represented by downstream `Status_Event` records.
+`Action_Status`/`Workflow_Status` is a controlled current-state projection or attribute of `Action_Record_ID`; it is not a substitute for `Action_Record_ID`. State changes are represented by candidate downstream append-only `Status_Event` records. Exact `Status_Event_ID`, authorization, verification and closure/reopen rules remain `PROPOSED — NOT YET ACCEPTED` in the draft ADR.
 
 Upstream evidence is limited to controlled laboratory state-change evidence. It does not establish field damage, defect diagnosis, stiffness degradation, maintenance priority, or an authorized action.
 
@@ -78,11 +81,13 @@ Upstream evidence is limited to controlled laboratory state-change evidence. It 
 | `00_GOVERNANCE/RESEARCH_ARCHITECTURE.md` | Read completely | Four-layer architecture; G2 requires identifier integrity, bidirectional traceability, and chain completeness | Does not define the detailed interface fields |
 | `01_CURRENT_CONTROL/CURRENT_STATUS_AND_NEXT_DIRECTION.md` | Read completely | Current gate is G1; run registry, LORO/LOGO decision, and model provenance remain unresolved; G2 criteria precede schema/demo | Contains navigation/version drift; current charter prevails |
 | `90_ARCHIVE/HISTORICAL_UNIQUE_FILES/BACKUP_BEFORE_WRITEBACK_20260718/RESEARCH_ARCHITECTURE_DECISION_RECORD_20260717.md` | Read completely; archived | Accepted Limited-FEM rationale; no calibration, diagnosis, or quantitative lab-to-field transfer | Historical supporting provenance, not current operational authority |
-| `05_GATE2/G2_G3_PAPER2_CURRENT_ROADMAP_v2.1_20260804.md` | Current control roadmap | Establishes one Paper 2, G2-before-G3 sequence, evidence requirements, and tool boundary | Does not itself close a gate |
+| `02_EVIDENCE_BASE/RQ2_GATES2_3/G2_G3_PAPER2_CURRENT_ROADMAP_v2.1_20260804.md` | Current control roadmap | Establishes one Paper 2, G2-before-G3 sequence, evidence requirements, and tool boundary | Does not itself close a gate |
 | `01_CURRENT_CONTROL/G1_G2_INTERFACE_DECISION_REGISTER.csv` | Current decision register | Controls unresolved normative choices and prevents silent assumptions | Open decisions must be resolved before affected acceptance claims |
 | `G2_G3_ROUND1_DEEP_READ_AND_NOVELTY_BOUNDARY.md` | Read completely | Minimum evidence/BIM/provenance fields; strict negative-test definition; candidate versus verified identity boundary | Bellon full text was incomplete in that report |
 | `G2_G3_ROUND2_INSPECTION_ACTION_MODEL_DEEP_READ.md` | Read completely | Minimum Condition_Evidence and Inspection/Action/Status models; workflow and accountability boundaries | Xu full text was unavailable in that report |
 | `G2_G3_SCREENING_EVIDENCE_AND_GAP_REPORT.md` | Read completely | Prior-art boundary; integrated traceability, integrity, and human-review gaps | Screening evidence does not replace project execution evidence |
+| `G2_G3_ROUND3A_NOVELTY_AND_SCHEMA_BOUNDARY.md` | Immutable evidence | Distinguishes reverse lookup, query parity and transformation round trip; exact fixture/oracle boundary | Does not freeze expert-dependent fields or close a gate |
+| `G2_G3_ROUND3B_HISTORY_ACCOUNTABILITY_AND_SEARCH_CLOSURE.md` | Immutable evidence | Event/authorization/verification/closure boundary and corpus-bounded `CLOSE_SEARCH` | Search closure is not universal absence or G2 PASS |
 
 ### 3.2 Gate 1 governance and execution sources
 

@@ -1,5 +1,10 @@
 # RQ2 Traceability Evidence Addendum
-**Version:** v1.2 | **Date:** 2026-07-18
+**Version:** v1.3 administrative alignment | **Issued:** 2026-07-18 | **Updated:** 2026-08-04
+**Status:** CURRENT SUPPORTING | **Source-of-truth level:** 7
+**Supersedes:** v1.2 as current supporting addendum. | **Superseded by:** None.
+**Change summary:** Adds current authority/status interpretation only; the source-level claim register and scientific evidence are preserved.
+
+**Current-use note:** `Action_Status_Event_ID` at C2-17 is the historical naming used by the addendum. The accepted Action-ID ADR controls `Action_Record_ID`; `Status_Event_ID` is proposed, not accepted. Round 3A-3B and the official 2026-08-04 synthesis control the latest novelty/search boundary.
 
 ## Scope
 
@@ -46,4 +51,4 @@ For all three: **Evidence is currently insufficient.** Do not assign detailed cl
 
 **ALLOWED CLAIM:** Within the reviewed evidence base, partial precedents exist for sensor/IFC linkage, inspection records, provenance, and CQ evaluation, but the complete locked chain has not been validated.  
 **PROHIBITED INFERENCE:** No study exists; sensor-to-BIM integration itself is novel; CoDEC provides complete referential integrity or action-status validation.  
-**EVIDENCE SUFFICIENCY:** Gate 2 is materially strengthened. Gate 3 remains open pending approved CQs, formal schema/constraints, invalid-data tests, and end-to-end laboratory demonstration.
+**EVIDENCE SUFFICIENCY:** Gate 2 is materially strengthened but remains `OPEN — LITERATURE BOUNDARY CLOSED, SPECIFICATION NOT YET FROZEN`. Gate 3 is `OPEN — NOT IMPLEMENTED, NOT VALIDATED, NOT OFFICIALLY PASSED`; execution remains `NOT OPEN` pending an approved/baselined G2 package.

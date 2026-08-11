@@ -1,6 +1,8 @@
 # TERMINOLOGY CONTROL
-**Version:** v1.1 lineage · **v2.1 addendum 2026-07-19** | **Date:** 2026-07-17 | **Canonical project path since:** 2026-07-18  
-**Content note:** Preserves the full terminology controls of `TERMINOLOGY_CONTROL_v1.1.md`; §5 below adds v2.1 terms (Charter v2.1 §13).
+**Version:** v2.2 | **Issued:** 2026-07-17 | **Updated:** 2026-08-04
+**Status:** CURRENT | **Source-of-truth level:** 4
+**Supersedes:** v1.1 lineage and v2.1 addendum as current terminology control. | **Superseded by:** None.
+**Change summary:** Adds identity/event/verification distinctions, corpus-bounded novelty language and G3 authorization wording; preserves the Limited-FEM controls.
 
 Applies to: all thesis chapters, papers, reports, slides, evidence files, and agent outputs from this date.
 
@@ -19,6 +21,10 @@ Applies to: all thesis chapters, papers, reports, slides, evidence files, and ag
 | practical sensor configuration | Alternative replacement |
 | confidence/evidence indicator (CEI) | CEI definition; never physical severity |
 | descriptive-diagnostic Digital Twin (management level) | DT maturity self-definition (C3) |
+| Workflow_Status | Current-state projection/attribute of Action_Record; never an identifier or history |
+| Status_Event | Candidate append-only action-lifecycle history entity; exact schema pending accepted ADR |
+| post-action verification | Operational verification of action outcome; not generic provenance verification |
+| guarded closure/reopen | Candidate lifecycle requirement; closure requires approved conditions and retained history |
 
 ## 2. Controlled or removed terms
 
@@ -39,6 +45,11 @@ Applies to: all thesis chapters, papers, reports, slides, evidence files, and ag
 | autonomous maintenance decision | REMOVE | "human-reviewed decision support" |
 | FEM_Node_ID (as chain link) | CONTROL | Optional metadata attribute only; never in the identifier chain |
 | RSAP/FEM (in RQ/WP/chapter/paper/gate names) | REMOVE from all structural names | FEM confined to C3 methods subsection + Limitations |
+| Action_Status (as identifier) | REMOVE | Use `Action_Record_ID`; status is a current projection |
+| completed (as verified closure) | REMOVE | Require approved post-action verification and closure event |
+| reverse lookup (as round-trip parity) | REMOVE | Distinguish lookup/navigation, paired query-answer parity and transformation round-trip |
+| website/viewer (as novelty) | REMOVE | Supporting implementation instrument only |
+| first / no study worldwide | REMOVE | Use corpus-bounded statements only |
 
 ## 3. Mandatory FEM qualifier
 
@@ -65,3 +76,13 @@ Before any submission or gate closure: run a keyword check for the Section 2 ter
 - Paper 1 metric/kết luận trước Gate 1: ghi **"Candidate claim pending Gate 1 closure."**
 - CEI thiếu bằng chứng cho chỉ số đơn: ghi **"Evidence is currently insufficient to define CEI as a universal scalar index."**
 - Tham chiếu pháp lý chưa xác minh: ghi **"Legal reference pending official-source verification."**
+
+## 6. v2.2 identity, event and novelty controls (2026-08-04)
+
+- Canonical identity context: `Sensor_ID → BIM_GUID / Asset_ID @ Model_Version_ID → Condition_Evidence_ID → Inspection_Record_ID → Action_Record_ID`.
+- Do not add `Component_ID` when `Asset_ID + BIM_GUID + Model_Version_ID` is sufficient. Database surrogate keys are technical implementation keys only.
+- `Recommendation != Action_Record`; `completed != verified closure`; defect severity `!= Action_Level`.
+- `Verification_Record` may be a separate entity or an `Inspection_Record` subtype; status is **GOVERNANCE_DECISION_REQUIRED** until ADR/expert review.
+- Established prior art must not be claimed independently as novelty: sensor-to-BIM, BIM-linked records, IFC GlobalId, BIM-CMMS, generic action information/workflow, CQ, provenance, SHACL/SPARQL/MVD/IDS/database validation, generic fixtures, direct/inverse navigation, generic human-in-the-loop, current status/completed flags, viewer/dashboard/website.
+- `CLOSE_SEARCH` means corpus-bounded structural closure, not universal absence and not G2 PASS.
+- G3 may be described as `OPEN — NOT IMPLEMENTED, NOT VALIDATED, NOT OFFICIALLY PASSED`; claimed execution remains `NOT OPEN` before an accepted G2 baseline.

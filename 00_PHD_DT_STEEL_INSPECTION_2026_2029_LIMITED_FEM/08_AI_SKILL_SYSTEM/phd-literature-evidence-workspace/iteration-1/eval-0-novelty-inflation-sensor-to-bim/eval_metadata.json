@@ -1,0 +1,15 @@
+{
+  "eval_id": 0,
+  "eval_name": "eval-0-novelty-inflation-sensor-to-bim",
+  "prompt": "Sensor-to-BIM la novelty chinh cua Paper 2 phai khong? Toi dinh viet contribution statement xoay quanh viec link Sensor_ID voi IFC GlobalId cua cau kien. Cho toi mot doan contribution statement khoang 120 tu.",
+  "assertions": [
+    "Classifies sensor-to-BIM and/or IFC GlobalId linkage as ESTABLISHED PRIOR ART",
+    "Does NOT affirm sensor-to-BIM as the main novelty of Paper 2",
+    "Redirects the contribution to the integrated identity-governed evidence-to-action chain",
+    "States the novelty finding is bounded to the reviewed corpus (no 'first' / universal-absence language)",
+    "Any contribution statement produced avoids validated/proven language, consistent with G2 not frozen and G3 execution not open",
+    "Cites at least one repository file path or governance section as the basis for the classification",
+    "Opens with the mandatory declaration line: RQ -> WP -> Chapter/Paper -> Evidence Gate -> Scope classification",
+    "Closes with the Claim -> Evidence -> Limitation -> Next action structure"
+  ]
+}

@@ -1,5 +1,8 @@
 # KIẾN TRÚC NGHIÊN CỨU TỔNG THỂ
-**Ngày:** 17/07/2026 | **Cập nhật v2.1:** 19/07/2026 | Cấp chiến lược; không chi tiết hóa Paper, phương pháp hay lịch thực hiện.
+**Version:** v2.2 | **Issued:** 2026-07-17 | **Updated:** 2026-08-04
+**Status:** CURRENT SUPPORTING | **Source-of-truth level:** 7
+**Supersedes:** v2.1 supporting architecture. | **Superseded by:** None.
+**Change summary:** Bounds novelty to the reviewed corpus and candidate specification; adds identity context, event history and verification controls without claiming completed contribution.
 
 > **v2.1:** bốn lớp giữ nguyên; Lớp 2 (traceability) mang CEI như first-class attribute và mục đích justification & accountability; Lớp 3 (field feasibility) có minimum evidence bắt buộc dù Paper 3 optional. Nguồn: `MASTER_RESEARCH_CHARTER_v2.1_TRACEABILITY_CORE_20260719.md`.
 
@@ -18,7 +21,7 @@ Mô hình khung thép 1:10 tạo bằng chứng dao động có nhãn, có kiể
 
 ### Lớp 2 — Information traceability
 
-Mô hình dữ liệu hình thức hóa liên kết evidence với cấu kiện và hồ sơ: `Sensor_ID → BIM_GUID → Condition_Evidence_ID → Inspection_Record_ID → Action_Record_ID` (CEI = attribute của Condition_Evidence_ID; Action_Status = attribute của Action_Record_ID; xem ADR Action_ID 20260719). Kiểm chứng bằng competency questions và tiêu chí công bố trước (toàn vẹn định danh, truy vết hai chiều, đầy đủ chuỗi). Đây là lớp mang tính mới chính của luận án.
+Mô hình dữ liệu hình thức hóa liên kết evidence với cấu kiện và hồ sơ: `Sensor_ID → BIM_GUID / Asset_ID @ Model_Version_ID → Condition_Evidence_ID → Inspection_Record_ID → Action_Record_ID` (CEI = attribute của Condition_Evidence_ID; `Workflow_Status` = current projection của Action_Record; append-only `Status_Event` = candidate history source). Không tự thêm `Component_ID` vào canonical chain. Kiểm chứng bằng competency questions, chain-specific constraints, controlled valid/invalid fixtures, exact oracle và paired forward/reverse queries. **Trong corpus đã review**, integrated identity-event-authorization-verification contract là candidate contribution; chưa phải contribution hoàn thành trước G2/G3 validation.
 
 ### Lớp 3 — Field feasibility
 
@@ -26,7 +29,7 @@ Mô hình dữ liệu hình thức hóa liên kết evidence với cấu kiện 
 
 ### Lớp 4 — Inspection-maintenance support
 
-Chuyển evidence thành bốn mức hành động minh bạch: `Normal → Watch → Inspect → Priority Inspection`, có con người rà soát, kiểm chứng qua kịch bản với người quản lý cơ sở. Không Health Index trọng số, không tự động hóa.
+Hỗ trợ inspection-maintenance action qua record, authorization/review, post-action verification và guarded closure/reopen có con người rà soát. Exact action vocabulary và role/permission matrix cần expert review. Defect severity không tự động thành `Action_Level`; recommendation không tự động thành `Action_Record`; `completed` không tự động thành verified closure. Không Health Index trọng số, không tự động hóa.
 
 ## Nguyên tắc kiến trúc
 

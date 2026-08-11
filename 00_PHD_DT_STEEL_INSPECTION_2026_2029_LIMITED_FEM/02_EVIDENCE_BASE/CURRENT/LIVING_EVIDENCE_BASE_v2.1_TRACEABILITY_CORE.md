@@ -1,13 +1,24 @@
 # LIVING EVIDENCE BASE — v2.1 TRACEABILITY-CORE
-**Version:** v2.1 | **Date:** 2026-07-19 | **Status:** CURRENT source of truth cho evidence base.
+**Version:** v2.2 administrative synthesis layer | **Issued:** 2026-07-19 | **Updated:** 2026-08-04
+**Status:** CURRENT SUPPORTING EVIDENCE REGISTER | **Source-of-truth level:** 6
+**Supersedes:** v2.1 as the maintained register. | **Superseded by:** None.
+**Change summary:** Preserves all inherited scientific evidence records and adds the 2026-08-04 authority/search/gate boundary. No citation, DOI, metric or deep-read finding is changed.
 **Kế thừa (không tạo lại):** `LIVING_EVIDENCE_BASE_v1.1_LIMITED_FEM.md` (33 canonical substantive/limited) + `01_LIVING_EVIDENCE_BASE_v1.2_LIMITED_FEM_20260718.md` (19 new deep reads) + `../ZOTERO_DEEP_READ/02_NEW_DEEP_READ_EVIDENCE_MATRIX_20260718.csv` (titles/DOIs). Không sửa citation/DOI/kết quả; không re-read PDF trong bản migration này.
 **Under:** `../../00_GOVERNANCE/MASTER_RESEARCH_CHARTER_v2.1_TRACEABILITY_CORE_20260719.md`.
+
+## 2026-08-04 current-use notice
+
+- Entry and current synthesis: `00_MASTER_INDEX_CURRENT_20260804.md` and `01_MASTER_G1_G2_G3_EVIDENCE_SYNTHESIS_20260804.md`.
+- Round 1-3B are immutable evidence and control the latest corpus-bounded novelty/search boundary.
+- `CLOSE_SEARCH` is corpus-bounded, not universal absence and not G2 PASS.
+- G1 = `OPEN — PARTIAL EVIDENCE`; G2 = `OPEN — LITERATURE BOUNDARY CLOSED, SPECIFICATION NOT YET FROZEN`; G3 = `OPEN — NOT IMPLEMENTED, NOT VALIDATED, NOT OFFICIALLY PASSED`, with execution `NOT OPEN` before G2 baseline.
+- Historical acquisition/full-text tasks in this register remain provenance or review items; they do not reopen broad structural search unless a new question could change the novelty boundary.
 
 ## Locked research chain (v2.1)
 ```text
 Vibration data → condition/state-change evidence (+ CEI) → BIM-linked component → inspection record → justified, accountable inspection action
 ```
-Identifier chain: `Sensor_ID → BIM_GUID → Condition_Evidence_ID → Inspection_Record_ID → Action_Record_ID` (CEI = attribute của Condition_Evidence_ID; Action_Status = attribute của Action_Record_ID).
+Identifier context: `Sensor_ID → BIM_GUID / Asset_ID @ Model_Version_ID → Condition_Evidence_ID → Inspection_Record_ID → Action_Record_ID` (CEI = attribute of Condition_Evidence_ID; Action_Status/Workflow_Status = current projection, not identity; candidate Status_Event history remains pending the proposed ADR).
 FEM: **nominal, uncalibrated, reference-only, not used for damage diagnosis.** Bốn lớp bằng chứng tách biệt: laboratory evidence / information traceability / field feasibility / management decision support — không mượn chéo.
 
 Định vị: RQ1/WP1/C4/Paper 1/G1 (lab, run-aware/LORO, sensor config, CEI) · RQ2/WP2/C5/Paper 2/G2–G3 (traceability-to-decision, CEI, BIM component, inspection record, justification & accountability — **QLXD core**) · RQ3/WP3/C6/G4–G5 (minimum field feasibility, Rapexco). **Current priority: G1.**

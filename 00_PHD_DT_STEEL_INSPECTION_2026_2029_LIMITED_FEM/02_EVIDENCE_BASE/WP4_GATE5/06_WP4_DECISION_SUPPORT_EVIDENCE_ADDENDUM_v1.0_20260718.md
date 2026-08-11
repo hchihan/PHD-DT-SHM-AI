@@ -1,6 +1,11 @@
 # WP4 / Decision Support / Gate 5 Evidence Addendum
-**Version:** v1.0 | **Date:** 2026-07-18  
+**Version:** v1.1 administrative alignment | **Issued:** 2026-07-18 | **Updated:** 2026-08-04
+**Status:** CURRENT SUPPORTING | **Source-of-truth level:** 7
+**Supersedes:** v1.0 as current supporting addendum. | **Superseded by:** None.
+**Change summary:** Adds current classification and Action-Status-Event interpretation; scientific source findings remain unchanged.
 **Control:** There is no RQ4.
+
+**Current-use note:** `Action_Status` below is historical/current-state terminology, not an identifier or event history. Recommendation is not automatically `Action_Record`; `completed` is not verified closure. Exact lifecycle vocabulary and verification criteria require expert review.
 
 ## Core Finding
 

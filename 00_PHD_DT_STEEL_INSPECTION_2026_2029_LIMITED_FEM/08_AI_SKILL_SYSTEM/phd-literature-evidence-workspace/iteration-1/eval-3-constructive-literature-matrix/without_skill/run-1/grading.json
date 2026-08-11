@@ -1,0 +1,53 @@
+{
+  "run_id": "eval-3-without_skill",
+  "expectations": [
+    {
+      "text": "Produces a usable literature matrix (not a refusal) with per-source rows",
+      "passed": true,
+      "evidence": "Three matrices (A identity/record layer, B lifecycle/accountability, C validation) each with 19 numbered per-source rows, e.g. '| 3 | Isailović et al. (2020) | DR | ● `IfcRelVoidsElement` tới host | ● `IfcSurfaceFeature(DAMAGE)` ... | ● `IfcTask` + `IfcTaskTime` + type | ○ không có action entity | ○ |'. Plus a 12-row screening ring table in §5."
+    },
+    {
+      "text": "Organises or groups the matrix by chain element rather than only by year",
+      "passed": true,
+      "evidence": "Columns are chain elements (A1 component identity, A4 Inspection_Record ID, A5 Action_Record ID, A6 Inspection→Action relation, B1 status, B2 Status_Event, B3 authorization, B4 Verification_Record, B5 closure/reopen, C1–C4 validation), and §7 proposes the Related Work outline 'Cấu trúc theo **mức mất dần bằng chứng**, không theo thời gian.' Year is not an organising axis."
+    },
+    {
+      "text": "Includes an explicit 'limitation for this thesis' style column or equivalent per-source limitation",
+      "passed": true,
+      "evidence": "No dedicated column, but each cell carries an explicit per-source limitation statement, e.g. Kim 2018: '◐ có Date/Area/Elements/Work contents/Labors/Work time — **không** ID/owner/approval'; Celik 2023 B2: '◐ tuple ... **không** prev/new state, không reason, không event ID'. §5 adds an explicit 'Vắng mặt theo screening' (what is absent) column for the 12 screening-level sources."
+    },
+    {
+      "text": "Cites sources with a repository path or locator rather than from unsourced memory",
+      "passed": true,
+      "evidence": "§0 maps each source cluster to its repository file, e.g. '`...\\02_EVIDENCE_BASE\\RQ2_GATES2_3\\G2_G3_ROUND2_INSPECTION_ACTION_MODEL_DEEP_READ.md` | Sacks, Xu, Wan, Isailović', plus `ROUND4_VERIFIED_EVIDENCE_RECORD_v1.1.md` and the screening report. §5 gives DOIs and Zotero keys (e.g. `10.3390/buildings14124032`, Zotero `3II2WKLN`). §8 item 4 notes page locators live in the Round reports rather than in this matrix."
+    },
+    {
+      "text": "Marks any source it could not verify as UNVERIFIED rather than asserting it",
+      "passed": true,
+      "evidence": "Legend defines '**?** | `Evidence is currently insufficient` — không đọc được full text, **không** kết luận là thiếu' and a `PW` (paywall/no attachment) status. Xu (2022) and Bellon (2025) rows are all `?` across Matrices A/B/C. §9 states explicitly: '**Không** nâng bất kỳ ô `?` nào thành `○`.'"
+    },
+    {
+      "text": "States plainly where evidence is currently insufficient / which cells are empty",
+      "passed": true,
+      "evidence": "§4 density table labels B2/B3/B4 '🟢🟢🟢 **TRỐNG**' and B5 '**TRỐNG TUYỆT ĐỐI**' with 0 ● counts; §6.1 'Hai lỗ đen trong ma trận: Bellon (2025) và Xu (2022) ... Không được nộp bài với một `?` nằm đúng ô mà mình tuyên bố là gap.' §6.2 additionally warns the emptiness may be an artefact of an AEC/BIM-bounded corpus."
+    },
+    {
+      "text": "Opens with the mandatory declaration line: RQ -> WP -> Chapter/Paper -> Evidence Gate -> Scope classification",
+      "passed": false,
+      "evidence": "The header carries only '**Phạm vi:** RQ2 → WP2 → Chương 5 → Paper 2 → Gate 2/3'. There is no scope classification (Core/Adjacent/Out-of-scope) terminating the chain, and it is presented as a metadata field rather than a declaration line. Partially met, therefore failed."
+    },
+    {
+      "text": "Closes with the Claim -> Evidence -> Limitation -> Next action structure",
+      "passed": false,
+      "evidence": "The document ends with §7 outline, §8 'Việc cần làm tiếp' (next actions only), §9 'Hai điều tôi cố ý không làm', and an AI note. No Claim → Evidence → Limitation → Next action block exists anywhere; the claim and limitation material is scattered across §4.1 and §6 rather than emitted as the closing structure."
+    }
+  ],
+  "passed_count": 6,
+  "total_count": 8,
+  "summary": {
+    "passed": 6,
+    "failed": 2,
+    "total": 8,
+    "pass_rate": 0.75
+  }
+}

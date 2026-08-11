@@ -1,0 +1,53 @@
+{
+  "run_id": "eval-3-with_skill",
+  "expectations": [
+    {
+      "text": "Produces a usable literature matrix (not a refusal) with per-source rows",
+      "passed": true,
+      "evidence": "Eight sub-matrices (§1.1–§1.8) with one row per source and 8 columns each, e.g. '| Isailоvić et al., *Autom. Constr.* 112:103088 | 2020 | Q1 journal | Damage là BIM object có type/code ... | condition evidence | 2 | ... | Không có per-finding source provenance ...'. No refusal; the artifact is directly usable for drafting Related Work."
+    },
+    {
+      "text": "Organises or groups the matrix by chain element rather than only by year",
+      "passed": true,
+      "evidence": "§1 header: 'Literature matrix — sắp theo chain element' and 'Sắp theo **chain element**, không theo năm.' Sections run 1.1 condition evidence, 1.2 component identity, 1.3 Inspection_Record, 1.4 Action_Record, 1.5 status/event history, 1.6 authorization, 1.7 verification/closure, 1.8 validation method. Each row also carries an explicit 'Chain element' column."
+    },
+    {
+      "text": "Includes an explicit 'limitation for this thesis' style column or equivalent per-source limitation",
+      "passed": true,
+      "evidence": "Every sub-matrix carries the column 'Giới hạn đối với luận án' (limitation with respect to the thesis), populated per source, e.g. Kim et al. 2018: 'Dùng **IFC instance number** (`#31982`, `#66803`), **không** dùng `GlobalId` ... G2 phải cố định đường đó tường minh.'"
+    },
+    {
+      "text": "Cites sources with a repository path or locator rather than from unsourced memory",
+      "passed": true,
+      "evidence": "Locator convention stated up front ('Ký hiệu locator: `[Tác giả Năm, PDF p. n, §x]`') and applied per cell, e.g. '`[PDF pp. 6–9, 19, §§3.2.2.1–3.2.2.3, Figs. 7–9, 24–25]` (R2)'. §10 Evidence and §11 list repository files read: `02_EVIDENCE_BASE/RQ2_GATES2_3/G2_G3_ROUND1_DEEP_READ_AND_NOVELTY_BOUNDARY.md`, `ROUND4_VERIFIED_EVIDENCE_RECORD_v1.1.md`, etc."
+    },
+    {
+      "text": "Marks any source it could not verify as UNVERIFIED rather than asserting it",
+      "passed": true,
+      "evidence": "Xu et al. 2022 row: '**`UNVERIFIED` ở mức chi tiết.** Zotero không có child attachment ... **Evidence is currently insufficient.**' Bellon et al. 2025 row: '**`UNVERIFIED` ở mức chi tiết.** Full text paywalled.' §2 is a dedicated table of the four sources requiring special handling, specifying exactly what may and may not be cited from each."
+    },
+    {
+      "text": "States plainly where evidence is currently insufficient / which cells are empty",
+      "passed": true,
+      "evidence": "§3 density map marks nine chain elements '▱ **trống**' with 0 Yes counts (e.g. 'Stable `Inspection_Record_ID` | **0** | 0 | 19 | ▱ **trống** | Không nguồn nào công bố ID contract'). §10 Limitation states the counts are inherited from Round reports, not re-verified against PDFs in this session, and that two sources remain UNVERIFIED at the sensitive boundary."
+    },
+    {
+      "text": "Opens with the mandatory declaration line: RQ -> WP -> Chapter/Paper -> Evidence Gate -> Scope classification",
+      "passed": true,
+      "evidence": "Line 6, immediately after the title: 'Declaration: RQ2 → WP2 → C5/Paper 2 → G2 (G3 execution NOT OPEN) → Scope: Core' — all five elements present including the scope classification."
+    },
+    {
+      "text": "Closes with the Claim -> Evidence -> Limitation -> Next action structure",
+      "passed": true,
+      "evidence": "§10 is titled 'Claim → Evidence → Limitation → Next action' with all four bolded blocks populated: Claim ('0/19 nguồn công bố stable `Inspection_Record_ID` ...'), Evidence (named Round report sections), Limitation ('corpus-bounded ... không hỗ trợ bất kỳ phát biểu \"first\" ...'), Next action (5 numbered items). Followed only by the §11 task-close/disclosure report."
+    }
+  ],
+  "passed_count": 8,
+  "total_count": 8,
+  "summary": {
+    "passed": 8,
+    "failed": 0,
+    "total": 8,
+    "pass_rate": 1.0
+  }
+}

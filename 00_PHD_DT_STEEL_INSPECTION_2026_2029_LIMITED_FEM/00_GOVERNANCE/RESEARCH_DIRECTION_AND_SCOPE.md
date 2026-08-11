@@ -1,5 +1,8 @@
 # ĐỊNH HƯỚNG VÀ PHẠM VI NGHIÊN CỨU
-**Ngày:** 17/07/2026 | **Cập nhật v2.1:** 19/07/2026 | Đọc sau `MASTER_RESEARCH_CHARTER_v2.1_TRACEABILITY_CORE_20260719.md`; file này giải thích "vì sao", không lặp lại Charter.
+**Version:** v2.2 | **Issued:** 2026-07-17 | **Updated:** 2026-08-04
+**Status:** CURRENT SUPPORTING | **Source-of-truth level:** 7
+**Supersedes:** v2.1 explanatory direction. | **Superseded by:** None.
+**Change summary:** Aligns the four-layer firewall, current gate states, identity/event boundary and corpus-bounded novelty; no accepted governance is changed.
 
 > **Cập nhật v2.1:** (1) CEI là first-class attribute của chuỗi (metadata, không scalar/Health Index); (2) mục đích cuối = justification & accountability của quyết định kiểm tra; (3) RQ2 câu gốc đã khóa (xem Charter v2.1 §3); (4) field feasibility — Paper 3 publication optional nhưng **minimum field evidence bắt buộc**.
 
@@ -21,16 +24,17 @@ Chủ công trình nhà công nghiệp khung thép hiện không có cách kiể
 | Công trình thực | Nơi kiểm chứng field feasibility: triển khai, baseline, kịch bản truy vết, hồ sơ kiểm tra | Nơi kiểm chứng chẩn đoán hay chuyển giao classifier |
 | FEM | Mô hình thiết kế tham chiếu danh nghĩa (nominal, không hiệu chuẩn): tham khảo vị trí cảm biến, minh họa cấu kiện, giả thuyết định tính | Trục nghiên cứu; nguồn chẩn đoán; căn cứ suy luận suy giảm kết cấu |
 
-## 4. Ranh giới ba loại bằng chứng
+## 4. Firewall bốn lớp bằng chứng
 
-1. **Bằng chứng thí nghiệm (laboratory evidence):** trạng thái liên kết có kiểm soát trên mô hình 1:10; chỉ chứng minh khả năng phân biệt trạng thái trong điều kiện kiểm soát.
-2. **Tính khả thi hiện trường (field feasibility):** khung triển khai được, dữ liệu về, truy vết chạy tại công trình thực; không chứng minh phát hiện hư hỏng thực. **Lưu ý v2.1:** Paper 3 (công bố) là optional/bonus, nhưng **minimum field feasibility evidence là bắt buộc đối với luận án** (field sensor register; Sensor_ID→BIM_GUID; data return & completeness; operational baseline; inspection-record workflow; 2–3 traceability scenarios). **Field preparation** (agreement, BIM/GUID audit, register/mapping/template) được phép làm sớm song song Paper 1–2; **field deployment** (lắp cảm biến, baseline dài hạn, validation) chỉ sau khi G4 mở (Charter §6.1).
-3. **Hỗ trợ quyết định (decision support):** logic bốn mức minh bạch, con người rà soát; không phải quyết định tự động và không thay thế đánh giá kỹ thuật.
+1. **Laboratory evidence:** trạng thái liên kết có kiểm soát trên mô hình 1:10; chỉ chứng minh khả năng phân biệt trạng thái trong điều kiện kiểm soát.
+2. **Information traceability:** định danh, record, provenance, event, CQ và constraint; không tự chứng minh chẩn đoán, field feasibility hoặc hiệu quả quyết định.
+3. **Field feasibility:** khung triển khai được, dữ liệu về, truy vết chạy tại công trình thực; không chứng minh phát hiện hư hỏng thực. Paper 3 publication optional/bonus, nhưng minimum field feasibility evidence bắt buộc. Field preparation được phép song song; field deployment chỉ khi G4 đủ điều kiện.
+4. **Management decision support:** action support có human review; không phải quyết định tự động và không thay thế đánh giá kỹ thuật. Recommendation không tự động là `Action_Record`, và trạng thái `completed` không tự động là verified closure.
 
-Ba loại này không được trộn lẫn trong bất kỳ tuyên bố nào. Mọi bất thường hiện trường dẫn đến *kiểm tra*, không dẫn đến *kết luận hư hỏng*.
+Bốn lớp này không được trộn lẫn trong bất kỳ tuyên bố nào. Mọi bất thường hiện trường dẫn đến *kiểm tra*, không dẫn đến *kết luận hư hỏng*.
 
 ## 5. Trong và ngoài phạm vi
 
-Trong phạm vi: dataset dao động lab có nhãn + run registry; mô hình dữ liệu truy vết + competency questions + tiêu chí đánh giá; ánh xạ Sensor_ID → BIM_GUID tại field; baseline vận hành; kịch bản truy vết field; hồ sơ kiểm tra và bốn mức hành động.
+Trong phạm vi: dataset dao động lab có nhãn + canonical run registry; mô hình dữ liệu truy vết + competency questions + tiêu chí đánh giá; `Asset_ID/BIM_GUID@Model_Version_ID`; `Condition_Evidence_ID`; `Inspection_Record_ID`; `Action_Record_ID`; candidate append-only `Status_Event`; baseline vận hành; field traceability scenarios; accountable human-reviewed action support.
 
 Ngoài phạm vi: danh mục tại Charter §7 (CFD, Smart City, Edge AI, RUL, predictive maintenance, chẩn đoán hiện trường, Health Index phức tạp, phần mềm thương mại, bảo trì tự động, hiệu chuẩn FEM, chuyển classifier lab→field). Mọi yêu cầu chạm vào danh mục này phải bị từ chối hoặc gắn nhãn Future Work.

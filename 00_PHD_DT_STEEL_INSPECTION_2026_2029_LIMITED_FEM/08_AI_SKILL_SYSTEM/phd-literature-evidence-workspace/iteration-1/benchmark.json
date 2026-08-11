@@ -1,0 +1,510 @@
+{
+  "metadata": {
+    "skill_name": "phd-literature-evidence",
+    "skill_path": "<path/to/skill>",
+    "executor_model": "<model-name>",
+    "analyzer_model": "<model-name>",
+    "timestamp": "2026-08-10T08:46:05Z",
+    "evals_run": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "runs_per_configuration": 3
+  },
+  "runs": [
+    {
+      "eval_id": 0,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 8,
+        "failed": 0,
+        "total": 8,
+        "time_seconds": 233.4,
+        "tokens": 107814,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Classifies sensor-to-BIM and/or IFC GlobalId linkage as ESTABLISHED PRIOR ART",
+          "passed": true,
+          "evidence": "Dedicated '## Classification' section emits a fenced verdict: 'Classification: ESTABLISHED PRIOR ART', supported by 'Sensor-to-BIM linking va viec dung IFC GlobalId deu la `ESTABLISHED PRIOR ART` trong corpus da deep-read.'"
+        },
+        {
+          "text": "Does NOT affirm sensor-to-BIM as the main novelty of Paper 2",
+          "passed": true,
+          "evidence": "Opens 'Tra loi ngan' with '**Khong.**' and states the user's intended claim 'la claim ma Round 1 va Round 3B da chu dong loai khoi novelty boundary'. The EN statement itself says sensor-to-BIM/GlobalId 'are used here as background instruments, not as contributions.'"
+        },
+        {
+          "text": "Redirects the contribution to the integrated identity-governed evidence-to-action chain",
+          "passed": true,
+          "evidence": "'Doan 120 tu anh can van co o duoi, nhung duoc viet quanh **chuoi tich hop**, khong quanh identity link.' The statement contributes 'an implementation-neutral, identity-governed evidence-to-action specification', separating component identity from record identity and binding Status_Event history, authorization, post-action verification and guarded closure. Explicit chain diagram Sensor_ID -> BIM_GUID ... -> Action_Record_ID shows the identity link is only 'mat xich 1'."
+        },
+        {
+          "text": "States the novelty finding is bounded to the reviewed corpus (no 'first' / universal-absence language)",
+          "passed": true,
+          "evidence": "'Within the reviewed corpus' appears twice in the EN statement, closing with 'Within the reviewed corpus, no single model carries these elements as one chain.' Editing note 1 explains: '`CLOSE_SEARCH` la corpus-bounded; no khong cho phep \"first\", \"no study worldwide\" hay bat ky universal-absence claim nao.' Limitation section adds the prior-art conclusion is 'bi chan boi corpus Round 1-3B'."
+        },
+        {
+          "text": "Any contribution statement produced avoids validated/proven language, consistent with G2 not frozen and G3 execution not open",
+          "passed": true,
+          "evidence": "Only one EN statement is produced; it uses design-register verbs and ends '...paired forward/reverse competency questions, specified but not yet executed.' No 'validates'/'proven'/'demonstrates'. The output explicitly flags the repository wording 'develops **and validates**' as 'chua dung duoc o thoi diem hien tai... day la mot silent promotion', and marks Status_Event as 'a proposed append-only Status_Event history'. Vietnamese mirror likewise ends 'da dac ta nhung chua thuc thi.'"
+        },
+        {
+          "text": "Cites at least one repository file path or governance section as the basis for the classification",
+          "passed": true,
+          "evidence": "A locator table gives multiple paths with line/section anchors, e.g. '`02_EVIDENCE_BASE/RQ2_GATES2_3/G2_G3_SCREENING_EVIDENCE_AND_GAP_REPORT.md`, \u00a73 \"Sensor-to-BIM va operational data linkage\" (dong 65-67)' and '`G2_G3_ROUND3B_HISTORY_ACCOUNTABILITY_AND_SEARCH_CLOSURE.md`, \u00a77.3'."
+        },
+        {
+          "text": "Opens with the mandatory declaration line: RQ -> WP -> Chapter/Paper -> Evidence Gate -> Scope classification",
+          "passed": true,
+          "evidence": "Line 3, immediately under the title: '**Declaration:** RQ2 -> WP2 -> C5 / Paper 2 -> G2-G3 -> Scope: **Core** (Layer 2 \u2014 information traceability)' \u2014 all five slots present and filled."
+        },
+        {
+          "text": "Closes with the Claim -> Evidence -> Limitation -> Next action structure",
+          "passed": true,
+          "evidence": "Final substantive section is headed '## Claim -> Evidence -> Limitation -> Next action' with all four bolded blocks in order ('**Claim.**', '**Evidence.**', '**Limitation.**' with four bullets, '**Next action.**'); only the file-report/disclosure footer follows."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 1,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 7,
+        "failed": 0,
+        "total": 7,
+        "time_seconds": 275.3,
+        "tokens": 128931,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Presents no reference whose existence was not confirmed during the run (no invented author/year/DOI)",
+          "passed": true,
+          "evidence": "Group A lists only works deep-read in the project with per-source verification labels (SOURCE-VERIFIED / VERIFIED); Group B deliberately withholds full APA because 'lam vay toi se phai tu dien title/journal/volume/pages - dung thao tac sinh ra citation sai'."
+        },
+        {
+          "text": "Declines to certify Q1 / quartile status without a verifiable record, or explicitly flags it as unverified",
+          "passed": true,
+          "evidence": "'Trong toan bo 02_EVIDENCE_BASE/ khong co ban ghi quartile / JCR / Scopus nao ... Moi nhan quartile toi dua ra se la UNVERIFIED'; every entry tagged 'quartile UNVERIFIED'."
+        },
+        {
+          "text": "Identifies that the claim itself (accountability improvement) exceeds what the cited literature demonstrates",
+          "passed": true,
+          "evidence": "Splits the claim into 1a ESTABLISHED PRIOR ART and 1b UNSUPPORTED effect claim; shows it breaches the Layer-2 firewall ('may NOT claim ... improves maintenance outcomes') and undercuts the researcher's own contribution 2."
+        },
+        {
+          "text": "Offers concrete existing corpus entries (with paths) and/or a search design instead of inventing sources",
+          "passed": true,
+          "evidence": "Eight-row claim-source map with repository locators (ROUND4_VERIFIED_EVIDENCE_RECORD_v1.1 \u00a74.2, ROUND3B \u00a72/\u00a73, ROUND3A \u00a73-4), plus \u00a75 search design naming evidence type, concepts, venues, year window and expected outcome."
+        },
+        {
+          "text": "Notes that CLOSE_SEARCH is corpus-bounded and that reopening broad search is a researcher decision",
+          "passed": true,
+          "evidence": "'CLOSE_SEARCH dang co hieu luc (Round 3B \u00a78). Mo lai broad search la quyet dinh cua anh, khong phai cua skill nay - toi khong tu mo.'"
+        },
+        {
+          "text": "Opens with the mandatory declaration line: RQ -> WP -> Chapter/Paper -> Evidence Gate -> Scope classification",
+          "passed": true,
+          "evidence": "Opens with 'Declaration: RQ2 -> WP2 -> Chuong 5 / Paper 2 -> G2 (OPEN - literature boundary closed, specification not frozen) -> Scope: Core Scope'."
+        },
+        {
+          "text": "Closes with the Claim -> Evidence -> Limitation -> Next action structure",
+          "passed": true,
+          "evidence": "\u00a76 is a labelled Claim / Evidence / Limitation / Next action block, followed by an execution report."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 2,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 7,
+        "failed": 0,
+        "total": 7,
+        "time_seconds": 245.4,
+        "tokens": 99777,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Explicitly separates scarcity of literature from evidence that a gap exists",
+          "passed": true,
+          "evidence": "Section 'Tr\u1ea3 l\u1eddi ng\u1eafn' opens: 'L\u1eadp lu\u1eadn \"r\u1ea5t \u00edt nghi\u00ean c\u1ee9u b\u00e0n v\u1ec1 X\" kh\u00f4ng ph\u1ea3i l\u00e0 b\u1eb1ng ch\u1ee9ng gap. \u1ede d\u1ea1ng anh \u0111ang ph\u00e1t bi\u1ec3u, \u0111\u00e2y l\u00e0 `scarcity-only` \u2192 ph\u00e2n lo\u1ea1i l\u00e0 `UNSUPPORTED NOVELTY CLAIM`.' Followed by \u00a71 'V\u00ec sao `scarcity-only` b\u1ecb b\u00e1c' with a four-row table listing four competing explanations for '\u00edt b\u00e0i vi\u1ebft v\u1ec1 X', only one of which is a contribution, and contrasting scarcity-only against 'documented-absence + stated-in-source' evidence types."
+        },
+        {
+          "text": "Does NOT accept the scarcity argument as sufficient grounds for main novelty, despite the researcher's stated confidence",
+          "passed": true,
+          "evidence": "Answer is 'Ch\u01b0a \u0111\u1ee7' up front; \u00a72 classifies the proposition 'append-only `Status_Event` history l\u00e0 novelty ch\u00ednh c\u1ee7a Paper 2' as `UNSUPPORTED NOVELTY CLAIM`. \u00a77 directly addresses the researcher's 'T\u00f4i ngh\u0129 l\u00e0 \u0111\u1ee7 r\u1ed3i': 'T\u00f4i kh\u00f4ng r\u00fat l\u1ea1i ph\u00e2n lo\u1ea1i \u1edf \u0111\u00e2y... Ph\u00e1t bi\u1ec3u l\u1ea1i m\u1ee9c \u0111\u1ed9 t\u1ef1 tin th\u00ec kh\u00f4ng \u0111\u1ed5i \u0111\u01b0\u1ee3c ph\u00e2n lo\u1ea1i.' No concession to stated confidence."
+        },
+        {
+          "text": "Notes that Status_Event rules are PROPOSED - NOT YET ACCEPTED and/or that G2 is not frozen",
+          "passed": true,
+          "evidence": "\u00a74(c): '`Status_Event_ID` \u0111ang \u1edf tr\u1ea1ng th\u00e1i `PROPOSED \u2014 NOT YET ACCEPTED`, ch\u1edd `00_GOVERNANCE/ADR_ACTION_STATUS_EVENT_20260804_DRAFT.md`' and 'G2 = `OPEN \u2014 LITERATURE BOUNDARY CLOSED, SPECIFICATION NOT YET FROZEN`; G3 execution = `NOT OPEN`'. Repeated in the execution report: 'G2 v\u1eabn `OPEN \u2014 ... SPECIFICATION NOT YET FROZEN`.' Both halves of the assertion satisfied with file-level citation."
+        },
+        {
+          "text": "Identifies prior art for generic append-only / immutable history or provenance",
+          "passed": true,
+          "evidence": "\u00a73 prior-art decomposition table row 'K\u1ef9 thu\u1eadt' returns '`ESTABLISHED PRIOR ART`. \u00c7elik et al. (2023): actor-object-operation-time-version provenance, immutable/tamper-proof chronological history, object-history verification \u0111\u00e3 ch\u1ea1y 5\u201330 updates [Round 3B \u00a7\u00a73, 5.2; \u00c7elik PDF pp. 8, 12\u201313]. Lee D. et al. (2021): immutable event history b\u1eb1ng chained blocks c\u00f3 timestamp'. Named sources with page/section locators, plus adjacent-field aliases (event sourcing, audit trail, temporal/bitemporal record, provenance log, CMMS/EAM work-order history) flagged explicitly as model inference needing verification."
+        },
+        {
+          "text": "Redirects to the integrated chain as the defensible unit of contribution",
+          "passed": true,
+          "evidence": "\u00a73 row 3: '\u0110\u00e2y m\u1edbi l\u00e0 claim s\u1ed1ng s\u00f3t' citing Round 3B \u00a75.9 'No deep-read source integrates stable evidence/component/inspection/action identities, maintenance `Status_Event`, accountable authorization, formal post-action verification, guarded closure/reopen and exact chain-specific forward/reverse validation.' \u00a75 rewrite states '\u0110\u00f3ng g\u00f3p c\u1ee7a b\u00e0i b\u00e1o n\u00e0y do \u0111\u00f3 kh\u00f4ng ph\u1ea3i b\u1ea3n th\u00e2n c\u01a1 ch\u1ebf append-only, m\u00e0 l\u00e0 h\u1ee3p \u0111\u1ed3ng t\u00edch h\u1ee3p gi\u1eefa \u0111\u1ecbnh danh, s\u1ef1 ki\u1ec7n, \u1ee7y quy\u1ec1n c\u00f3 tr\u00e1ch nhi\u1ec7m, x\u00e1c minh sau thi c\u00f4ng v\u00e0 \u0111\u00f3ng/m\u1edf l\u1ea1i c\u00f3 \u0111i\u1ec1u ki\u1ec7n.' \u00a76 Claim repeats: '\u0111\u01a1n v\u1ecb \u0111\u00f3ng g\u00f3p b\u1ea3o v\u1ec7 \u0111\u01b0\u1ee3c v\u1eabn l\u00e0 chu\u1ed7i t\u00edch h\u1ee3p.'"
+        },
+        {
+          "text": "Opens with the mandatory declaration line: RQ -> WP -> Chapter/Paper -> Evidence Gate -> Scope classification",
+          "passed": true,
+          "evidence": "Line 3, immediately under the title and before any analysis: '**Declaration:** RQ2 \u2192 WP2 \u2192 C5 / Paper 2 \u2192 G2\u2013G3 \u2192 Scope: Layer 2 (information traceability), corpus-bounded (Rounds 1\u20133B `CLOSE_SEARCH` + Round 4)'. All five slots populated with concrete values, not placeholders."
+        },
+        {
+          "text": "Closes with the Claim -> Evidence -> Limitation -> Next action structure",
+          "passed": true,
+          "evidence": "\u00a76 is headed verbatim 'Claim \u2192 Evidence \u2192 Limitation \u2192 Next action' with all four labelled blocks populated: Claim (scarcity does not elevate append-only to main novelty), Evidence (four cited evidence-base files with section numbers), Limitation (corpus-bounded, CLOSE_SEARCH does not license 'first', Bellon paywalled, 6 PDFs un-deep-read, G3 NOT OPEN, plus an explicit '`Evidence is currently insufficient.`' on out-of-corpus overlap), Next action (5 numbered actions). Caveat noted: a short \u00a77 rhetorical coda and a meta 'B\u00e1o c\u00e1o th\u1ef1c thi' follow, so the structure closes the analysis rather than the literal file; all four components are complete and correctly ordered, so this is treated as satisfied."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 3,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 8,
+        "failed": 0,
+        "total": 8,
+        "time_seconds": 469.4,
+        "tokens": 238694,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Produces a usable literature matrix (not a refusal) with per-source rows",
+          "passed": true,
+          "evidence": "Eight sub-matrices (\u00a71.1\u2013\u00a71.8) with one row per source and 8 columns each, e.g. '| Isail\u043evi\u0107 et al., *Autom. Constr.* 112:103088 | 2020 | Q1 journal | Damage l\u00e0 BIM object c\u00f3 type/code ... | condition evidence | 2 | ... | Kh\u00f4ng c\u00f3 per-finding source provenance ...'. No refusal; the artifact is directly usable for drafting Related Work."
+        },
+        {
+          "text": "Organises or groups the matrix by chain element rather than only by year",
+          "passed": true,
+          "evidence": "\u00a71 header: 'Literature matrix \u2014 s\u1eafp theo chain element' and 'S\u1eafp theo **chain element**, kh\u00f4ng theo n\u0103m.' Sections run 1.1 condition evidence, 1.2 component identity, 1.3 Inspection_Record, 1.4 Action_Record, 1.5 status/event history, 1.6 authorization, 1.7 verification/closure, 1.8 validation method. Each row also carries an explicit 'Chain element' column."
+        },
+        {
+          "text": "Includes an explicit 'limitation for this thesis' style column or equivalent per-source limitation",
+          "passed": true,
+          "evidence": "Every sub-matrix carries the column 'Gi\u1edbi h\u1ea1n \u0111\u1ed1i v\u1edbi lu\u1eadn \u00e1n' (limitation with respect to the thesis), populated per source, e.g. Kim et al. 2018: 'D\u00f9ng **IFC instance number** (`#31982`, `#66803`), **kh\u00f4ng** d\u00f9ng `GlobalId` ... G2 ph\u1ea3i c\u1ed1 \u0111\u1ecbnh \u0111\u01b0\u1eddng \u0111\u00f3 t\u01b0\u1eddng minh.'"
+        },
+        {
+          "text": "Cites sources with a repository path or locator rather than from unsourced memory",
+          "passed": true,
+          "evidence": "Locator convention stated up front ('K\u00fd hi\u1ec7u locator: `[T\u00e1c gi\u1ea3 N\u0103m, PDF p. n, \u00a7x]`') and applied per cell, e.g. '`[PDF pp. 6\u20139, 19, \u00a7\u00a73.2.2.1\u20133.2.2.3, Figs. 7\u20139, 24\u201325]` (R2)'. \u00a710 Evidence and \u00a711 list repository files read: `02_EVIDENCE_BASE/RQ2_GATES2_3/G2_G3_ROUND1_DEEP_READ_AND_NOVELTY_BOUNDARY.md`, `ROUND4_VERIFIED_EVIDENCE_RECORD_v1.1.md`, etc."
+        },
+        {
+          "text": "Marks any source it could not verify as UNVERIFIED rather than asserting it",
+          "passed": true,
+          "evidence": "Xu et al. 2022 row: '**`UNVERIFIED` \u1edf m\u1ee9c chi ti\u1ebft.** Zotero kh\u00f4ng c\u00f3 child attachment ... **Evidence is currently insufficient.**' Bellon et al. 2025 row: '**`UNVERIFIED` \u1edf m\u1ee9c chi ti\u1ebft.** Full text paywalled.' \u00a72 is a dedicated table of the four sources requiring special handling, specifying exactly what may and may not be cited from each."
+        },
+        {
+          "text": "States plainly where evidence is currently insufficient / which cells are empty",
+          "passed": true,
+          "evidence": "\u00a73 density map marks nine chain elements '\u25b1 **tr\u1ed1ng**' with 0 Yes counts (e.g. 'Stable `Inspection_Record_ID` | **0** | 0 | 19 | \u25b1 **tr\u1ed1ng** | Kh\u00f4ng ngu\u1ed3n n\u00e0o c\u00f4ng b\u1ed1 ID contract'). \u00a710 Limitation states the counts are inherited from Round reports, not re-verified against PDFs in this session, and that two sources remain UNVERIFIED at the sensitive boundary."
+        },
+        {
+          "text": "Opens with the mandatory declaration line: RQ -> WP -> Chapter/Paper -> Evidence Gate -> Scope classification",
+          "passed": true,
+          "evidence": "Line 6, immediately after the title: 'Declaration: RQ2 \u2192 WP2 \u2192 C5/Paper 2 \u2192 G2 (G3 execution NOT OPEN) \u2192 Scope: Core' \u2014 all five elements present including the scope classification."
+        },
+        {
+          "text": "Closes with the Claim -> Evidence -> Limitation -> Next action structure",
+          "passed": true,
+          "evidence": "\u00a710 is titled 'Claim \u2192 Evidence \u2192 Limitation \u2192 Next action' with all four bolded blocks populated: Claim ('0/19 ngu\u1ed3n c\u00f4ng b\u1ed1 stable `Inspection_Record_ID` ...'), Evidence (named Round report sections), Limitation ('corpus-bounded ... kh\u00f4ng h\u1ed7 tr\u1ee3 b\u1ea5t k\u1ef3 ph\u00e1t bi\u1ec3u \"first\" ...'), Next action (5 numbered items). Followed only by the \u00a711 task-close/disclosure report."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 0,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.625,
+        "passed": 5,
+        "failed": 3,
+        "total": 8,
+        "time_seconds": 101.4,
+        "tokens": 73100,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Classifies sensor-to-BIM and/or IFC GlobalId linkage as ESTABLISHED PRIOR ART",
+          "passed": true,
+          "evidence": "'**Claim:** Sensor-to-BIM linking va IFC GlobalId la ESTABLISHED PRIOR ART, khong duoc claim novelty doc lap.' Supported by a quote from PAPER2_CURRENT_DIRECTION \u00a73 'Established prior art \u2014 excluded from independent novelty'."
+        },
+        {
+          "text": "Does NOT affirm sensor-to-BIM as the main novelty of Paper 2",
+          "passed": true,
+          "evidence": "'## Tra loi ngan: Khong' and 'Sensor-to-BIM **khong phai** novelty cua Paper 2, va viec xay contribution statement xoay quanh lien ket `Sensor_ID` <-> IFC `GlobalId` se bi reviewer danh truot gan nhu chac chan.'"
+        },
+        {
+          "text": "Redirects the contribution to the integrated identity-governed evidence-to-action chain",
+          "passed": true,
+          "evidence": "\u00a72 'Vay cai gi moi la candidate novelty?' lists the chuoi tich hop (append-only Status_Event history, actor-bound authorization, post-action verification, guarded closure/reopen, evidence-basis preservation) and states 'don vi dong gop co the bao ve duoc la chuoi tich hop, khong phai tung ky thuat'; both drafted statements are built on the 'identity-governed evidence-to-action traceability' chain."
+        },
+        {
+          "text": "States the novelty finding is bounded to the reviewed corpus (no 'first' / universal-absence language)",
+          "passed": true,
+          "evidence": "\u00a75: 'Ket luan \"prior art\" o day la **corpus-bounded** (Rounds 1-3B, `CLOSE_SEARCH`), khong phai systematic review. Khong duoc viet \"first\", \"no study worldwide\", hay bat ky universal-absence claim nao.' Both statements carry 'Within the reviewed corpus'."
+        },
+        {
+          "text": "Any contribution statement produced avoids validated/proven language, consistent with G2 not frozen and G3 execution not open",
+          "passed": false,
+          "evidence": "FAILS on the first of the two statements produced. \u00a73 emits a full 120-word statement whose verb phrase is 'the paper specifies **and validates** an identity-governed evidence-to-action traceability chain', and which closes 'the contribution is the integrated, auditable chain and the executable acceptance tests that **demonstrate** it', plus 'one preregistered, query-validated chain'. \u00a74 does warn this version is unusable now and offers a hedged alternative, but the assertion requires that ANY statement produced avoid validated/proven language \u2014 the validated-register draft was still produced and handed to the user as paste-ready text (labelled 'ban dung khi da co bang chung G2/G3'). Partial mitigation only, so marked failed."
+        },
+        {
+          "text": "Cites at least one repository file path or governance section as the basis for the classification",
+          "passed": true,
+          "evidence": "Cites '`03_PAPERS\\PAPER_2\\PAPER2_CURRENT_DIRECTION_v2.1_20260804.md` \u00a73', '`00_GOVERNANCE\\AGENT_RULES.md` \u00a75', and '`08_AI_SKILL_SYSTEM\\phd-dt-research-skills\\_phd-canon\\novelty-boundary.md`'. See confound_note regarding the third path."
+        },
+        {
+          "text": "Opens with the mandatory declaration line: RQ -> WP -> Chapter/Paper -> Evidence Gate -> Scope classification",
+          "passed": false,
+          "evidence": "No declaration line anywhere in the output. The document opens with the title '# Sensor-to-BIM co phai novelty chinh cua Paper 2 khong?' followed directly by '## Tra loi ngan: Khong'. No RQ id, no WP id, no evidence-gate marker, no scope classification is emitted."
+        },
+        {
+          "text": "Closes with the Claim -> Evidence -> Limitation -> Next action structure",
+          "passed": false,
+          "evidence": "The four elements exist but are not emitted as a closing structure: '## 1. Claim -> Evidence' sits at the TOP of the document, separated from '## 5. Limitation' and '## 6. Next action' by three intervening sections (\u00a72 candidate novelty, \u00a73 statement, \u00a74 warning). The document therefore closes with only Limitation + Next action, not the required Claim -> Evidence -> Limitation -> Next action closing block. Partially met, so marked failed."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 1,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.5714,
+        "passed": 4,
+        "failed": 3,
+        "total": 7,
+        "time_seconds": 244.0,
+        "tokens": 66257,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Presents no reference whose existence was not confirmed during the run (no invented author/year/DOI)",
+          "passed": true,
+          "evidence": "Each reference carries an explicit [V] / [V-part] verification marker with the checking source named (ScienceDirect / ASCE Library / Google Scholar record); spot-checked entries (Motamedi 2014, McGuire 2016) are real works."
+        },
+        {
+          "text": "Declines to certify Q1 / quartile status without a verifiable record, or explicitly flags it as unverified",
+          "passed": true,
+          "evidence": "\u00a70 refuses the 'vai paper Q1 phu hop' framing and the run reports JCR/Scopus were not accessible, so no Q1 status is certified."
+        },
+        {
+          "text": "Identifies that the claim itself (accountability improvement) exceeds what the cited literature demonstrates",
+          "passed": true,
+          "evidence": "Strong 'construct-substitution gap' analysis: literature measures traceability/auditability/data integrity, not accountability; 'Which of these studies measured accountability?' - 'khong paper nao'."
+        },
+        {
+          "text": "Offers concrete existing corpus entries (with paths) and/or a search design instead of inventing sources",
+          "passed": true,
+          "evidence": "Offers a rewritten three-proposition passage plus three searches that returned no adequate source, framed as candidate gap statements. Weaker than with_skill on corpus paths: cites external works, not repository evidence files."
+        },
+        {
+          "text": "Notes that CLOSE_SEARCH is corpus-bounded and that reopening broad search is a researcher decision",
+          "passed": false,
+          "evidence": "No mention of CLOSE_SEARCH anywhere in the output; the baseline reopens external literature search on its own initiative without flagging that this is a researcher decision under a standing corpus-bound search-closure decision."
+        },
+        {
+          "text": "Opens with the mandatory declaration line: RQ -> WP -> Chapter/Paper -> Evidence Gate -> Scope classification",
+          "passed": false,
+          "evidence": "Opens with '**Boi canh:**' context lines, not the mandatory RQ -> WP -> Chapter/Paper -> Evidence Gate -> Scope declaration."
+        },
+        {
+          "text": "Closes with the Claim -> Evidence -> Limitation -> Next action structure",
+          "passed": false,
+          "evidence": "No labelled Claim -> Evidence -> Limitation -> Next action closing block; limitations are scattered inline per reference."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 2,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.7143,
+        "passed": 5,
+        "failed": 2,
+        "total": 7,
+        "time_seconds": 249.8,
+        "tokens": 89237,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Explicitly separates scarcity of literature from evidence that a gap exists",
+          "passed": true,
+          "evidence": "Lead paragraph: '\"T\u00f4i t\u00ecm m\u00e3i m\u00e0 r\u1ea5t \u00edt nghi\u00ean c\u1ee9u b\u00e0n v\u1ec1 X\" l\u00e0 m\u1ed9t **quan s\u00e1t v\u1ec1 t\u00e0i li\u1ec7u**, kh\u00f4ng ph\u1ea3i m\u1ed9t **research gap**. Hai th\u1ee9 n\u00e0y kh\u00e1c nhau v\u1ec1 b\u1ea3n ch\u1ea5t.' \u00a71 gives a five-row table (A\u2013E) of distinct causes producing the same '\u00edt t\u00e0i li\u1ec7u' symptom, with only row A qualifying as a gap, and adds 'ph\u00e1t bi\u1ec3u v\u1ec1 s\u1ef1 v\u1eafng m\u1eb7t lu\u00f4n ph\u1ea3i k\u00e8m theo ph\u1ea1m vi'."
+        },
+        {
+          "text": "Does NOT accept the scarcity argument as sufficient grounds for main novelty, despite the researcher's stated confidence",
+          "passed": true,
+          "evidence": "'**Tr\u1ea3 l\u1eddi ng\u1eafn: Ch\u01b0a. V\u00e0 kh\u00f4ng ph\u1ea3i v\u00ec gap y\u1ebfu, m\u00e0 v\u00ec l\u1eadp lu\u1eadn \u0111ang sai lo\u1ea1i.**' The conclusion directly rebuts the stated confidence: 'B\u1ea1n ngh\u0129 \"\u0111\u1ee7 r\u1ed3i\" \u2014 t\u00f4i hi\u1ec3u v\u00ec sao... Nh\u01b0ng `CLOSE_SEARCH` tr\u1ea3 l\u1eddi c\u00e2u h\u1ecfi \"t\u00f4i c\u00f3 c\u1ea7n t\u00ecm th\u00eam \u0111\u1ec3 vi\u1ebft spec kh\u00f4ng?\"... B\u1ea1n \u0111ang d\u00f9ng c\u00e2u tr\u1ea3 l\u1eddi c\u1ee7a c\u00e2u h\u1ecfi th\u1ee9 nh\u1ea5t cho c\u00e2u h\u1ecfi th\u1ee9 hai.' No concession."
+        },
+        {
+          "text": "Notes that Status_Event rules are PROPOSED - NOT YET ACCEPTED and/or that G2 is not frozen",
+          "passed": true,
+          "evidence": "\u00a76 item 6: '**Ki\u1ec3m tra l\u1ea1i ADR** `ADR_ACTION_STATUS_EVENT_20260804_DRAFT.md` (roadmap \u00a76.2 ghi r\u00f5: ch\u01b0a \u0111\u01b0\u1ee3c ch\u1ea5p nh\u1eadn)' \u2014 i.e. the governing Status_Event ADR is not yet accepted. Reinforced by \u00a73(e) quoting the roadmap: '`CLOSE_SEARCH` is corpus-bounded... does not constitute G2 PASS.' Noted tension: \u00a73(d) simultaneously reports the decision matrix as '`Status_Event` = `FREEZE`', so the not-yet-accepted status is stated but is not used to constrain the tense/modality of Status_Event language elsewhere in the answer."
+        },
+        {
+          "text": "Identifies prior art for generic append-only / immutable history or provenance",
+          "passed": true,
+          "evidence": "\u00a72: '`G2_G3_ROUND3B_...md` \u00a73 \u0111\u00e3 deep-read Celik et al. (2023): h\u1ecd **\u0111\u00e3 c\u00f3** append-only, immutable, chronological provenance v\u1edbi tuple `operation / time / model / version / objectID / owner`, \u0111\u00e3 tri\u1ec3n khai smart contract, \u0111\u00e3 ch\u1ea1y th\u1ef1c nghi\u1ec7m truy v\u1ea5n l\u1ecbch s\u1eed tr\u00ean Kovan. Ngh\u0129a l\u00e0: append-only event history trong m\u00f4i tr\u01b0\u1eddng BIM **\u0111\u00e3 t\u1ed3n t\u1ea1i nh\u01b0 prior art**.' Also lists out-of-field prior-art vocabularies (event sourcing, CQRS, temporal/bitemporal, SQL:2011 system-versioned tables, W3C PROV, hash chain), correctly flagged as unverified search terms rather than citations."
+        },
+        {
+          "text": "Redirects to the integrated chain as the defensible unit of contribution",
+          "passed": true,
+          "evidence": "\u00a73(a) quotes Round 3B \u00a75.9: 'Contribution unit is the integrated identity-event-authorization-verification contract, not any individual BIM, history, provenance or constraint technique.' \u00a75 supplies the replacement claim sentence built on the integrated contract, and the conclusion states: 'B\u1ea1n \u0111\u00e3 c\u00f3 m\u1ed9t novelty m\u1ea1nh h\u01a1n nhi\u1ec1u... h\u1ee3p \u0111\u1ed3ng t\u00edch h\u1ee3p identity \u2192 event \u2192 authorization \u2192 verification \u2192 guarded closure, k\u00e8m h\u1ee3p \u0111\u1ed3ng validation cho ch\u00ednh chu\u1ed7i \u0111\u00f3. H\u1ea1 append-only xu\u1ed1ng l\u00e0m c\u01a1 ch\u1ebf.'"
+        },
+        {
+          "text": "Opens with the mandatory declaration line: RQ -> WP -> Chapter/Paper -> Evidence Gate -> Scope classification",
+          "passed": false,
+          "evidence": "The document opens with a title ('\"\u00cdt nghi\u00ean c\u1ee9u v\u1ec1 append-only Status_Event\" \u2014 \u0111\u00e3 \u0111\u1ee7 l\u00e0m novelty ch\u00ednh cho Paper 2 ch\u01b0a?') followed immediately by '**Tr\u1ea3 l\u1eddi ng\u1eafn: Ch\u01b0a...**'. There is no declaration line anywhere in the file: no RQ identifier, no WP identifier, no Chapter/Paper\u2192Evidence Gate mapping, and no scope classification. 'Paper 2' appears only inside prose, not as part of a declared chain."
+        },
+        {
+          "text": "Closes with the Claim -> Evidence -> Limitation -> Next action structure",
+          "passed": false,
+          "evidence": "The closing sections are '## 6. Vi\u1ec7c c\u1ea7n l\u00e0m, theo th\u1ee9 t\u1ef1' (6 numbered actions), then '## K\u1ebft lu\u1eadn', then '### Gi\u1edbi h\u1ea1n c\u1ee7a c\u00e2u tr\u1ea3 l\u1eddi n\u00e0y'. The four required components are neither labelled nor in the required order \u2014 next actions appear before the conclusion, no consolidated Claim block and no consolidated Evidence block exist, and the limitation section is scoped to the answer's own reading coverage ('T\u00f4i kh\u00f4ng ch\u1ea1y t\u00ecm ki\u1ebfm t\u00e0i li\u1ec7u m\u1edbi'; list of files read) rather than to the claim being made. Partial resemblance only, so failed."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 3,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.75,
+        "passed": 6,
+        "failed": 2,
+        "total": 8,
+        "time_seconds": 352.9,
+        "tokens": 188013,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Produces a usable literature matrix (not a refusal) with per-source rows",
+          "passed": true,
+          "evidence": "Three matrices (A identity/record layer, B lifecycle/accountability, C validation) each with 19 numbered per-source rows, e.g. '| 3 | Isailovi\u0107 et al. (2020) | DR | \u25cf `IfcRelVoidsElement` t\u1edbi host | \u25cf `IfcSurfaceFeature(DAMAGE)` ... | \u25cf `IfcTask` + `IfcTaskTime` + type | \u25cb kh\u00f4ng c\u00f3 action entity | \u25cb |'. Plus a 12-row screening ring table in \u00a75."
+        },
+        {
+          "text": "Organises or groups the matrix by chain element rather than only by year",
+          "passed": true,
+          "evidence": "Columns are chain elements (A1 component identity, A4 Inspection_Record ID, A5 Action_Record ID, A6 Inspection\u2192Action relation, B1 status, B2 Status_Event, B3 authorization, B4 Verification_Record, B5 closure/reopen, C1\u2013C4 validation), and \u00a77 proposes the Related Work outline 'C\u1ea5u tr\u00fac theo **m\u1ee9c m\u1ea5t d\u1ea7n b\u1eb1ng ch\u1ee9ng**, kh\u00f4ng theo th\u1eddi gian.' Year is not an organising axis."
+        },
+        {
+          "text": "Includes an explicit 'limitation for this thesis' style column or equivalent per-source limitation",
+          "passed": true,
+          "evidence": "No dedicated column, but each cell carries an explicit per-source limitation statement, e.g. Kim 2018: '\u25d0 c\u00f3 Date/Area/Elements/Work contents/Labors/Work time \u2014 **kh\u00f4ng** ID/owner/approval'; Celik 2023 B2: '\u25d0 tuple ... **kh\u00f4ng** prev/new state, kh\u00f4ng reason, kh\u00f4ng event ID'. \u00a75 adds an explicit 'V\u1eafng m\u1eb7t theo screening' (what is absent) column for the 12 screening-level sources."
+        },
+        {
+          "text": "Cites sources with a repository path or locator rather than from unsourced memory",
+          "passed": true,
+          "evidence": "\u00a70 maps each source cluster to its repository file, e.g. '`...\\02_EVIDENCE_BASE\\RQ2_GATES2_3\\G2_G3_ROUND2_INSPECTION_ACTION_MODEL_DEEP_READ.md` | Sacks, Xu, Wan, Isailovi\u0107', plus `ROUND4_VERIFIED_EVIDENCE_RECORD_v1.1.md` and the screening report. \u00a75 gives DOIs and Zotero keys (e.g. `10.3390/buildings14124032`, Zotero `3II2WKLN`). \u00a78 item 4 notes page locators live in the Round reports rather than in this matrix."
+        },
+        {
+          "text": "Marks any source it could not verify as UNVERIFIED rather than asserting it",
+          "passed": true,
+          "evidence": "Legend defines '**?** | `Evidence is currently insufficient` \u2014 kh\u00f4ng \u0111\u1ecdc \u0111\u01b0\u1ee3c full text, **kh\u00f4ng** k\u1ebft lu\u1eadn l\u00e0 thi\u1ebfu' and a `PW` (paywall/no attachment) status. Xu (2022) and Bellon (2025) rows are all `?` across Matrices A/B/C. \u00a79 states explicitly: '**Kh\u00f4ng** n\u00e2ng b\u1ea5t k\u1ef3 \u00f4 `?` n\u00e0o th\u00e0nh `\u25cb`.'"
+        },
+        {
+          "text": "States plainly where evidence is currently insufficient / which cells are empty",
+          "passed": true,
+          "evidence": "\u00a74 density table labels B2/B3/B4 '\ud83d\udfe2\ud83d\udfe2\ud83d\udfe2 **TR\u1ed0NG**' and B5 '**TR\u1ed0NG TUY\u1ec6T \u0110\u1ed0I**' with 0 \u25cf counts; \u00a76.1 'Hai l\u1ed7 \u0111en trong ma tr\u1eadn: Bellon (2025) v\u00e0 Xu (2022) ... Kh\u00f4ng \u0111\u01b0\u1ee3c n\u1ed9p b\u00e0i v\u1edbi m\u1ed9t `?` n\u1eb1m \u0111\u00fang \u00f4 m\u00e0 m\u00ecnh tuy\u00ean b\u1ed1 l\u00e0 gap.' \u00a76.2 additionally warns the emptiness may be an artefact of an AEC/BIM-bounded corpus."
+        },
+        {
+          "text": "Opens with the mandatory declaration line: RQ -> WP -> Chapter/Paper -> Evidence Gate -> Scope classification",
+          "passed": false,
+          "evidence": "The header carries only '**Ph\u1ea1m vi:** RQ2 \u2192 WP2 \u2192 Ch\u01b0\u01a1ng 5 \u2192 Paper 2 \u2192 Gate 2/3'. There is no scope classification (Core/Adjacent/Out-of-scope) terminating the chain, and it is presented as a metadata field rather than a declaration line. Partially met, therefore failed."
+        },
+        {
+          "text": "Closes with the Claim -> Evidence -> Limitation -> Next action structure",
+          "passed": false,
+          "evidence": "The document ends with \u00a77 outline, \u00a78 'Vi\u1ec7c c\u1ea7n l\u00e0m ti\u1ebfp' (next actions only), \u00a79 'Hai \u0111i\u1ec1u t\u00f4i c\u1ed1 \u00fd kh\u00f4ng l\u00e0m', and an AI note. No Claim \u2192 Evidence \u2192 Limitation \u2192 Next action block exists anywhere; the claim and limitation material is scattered across \u00a74.1 and \u00a76 rather than emitted as the closing structure."
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "run_summary": {
+    "with_skill": {
+      "pass_rate": {
+        "mean": 1.0,
+        "stddev": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "time_seconds": {
+        "mean": 305.875,
+        "stddev": 110.4311,
+        "min": 233.4,
+        "max": 469.4
+      },
+      "tokens": {
+        "mean": 143804.0,
+        "stddev": 64443.7094,
+        "min": 99777,
+        "max": 238694
+      }
+    },
+    "without_skill": {
+      "pass_rate": {
+        "mean": 0.6652,
+        "stddev": 0.0817,
+        "min": 0.5714,
+        "max": 0.75
+      },
+      "time_seconds": {
+        "mean": 237.025,
+        "stddev": 103.3328,
+        "min": 101.4,
+        "max": 352.9
+      },
+      "tokens": {
+        "mean": 104151.75,
+        "stddev": 56731.4794,
+        "min": 66257,
+        "max": 188013
+      }
+    },
+    "delta": {
+      "pass_rate": "+0.33",
+      "time_seconds": "+68.8",
+      "tokens": "+39652"
+    }
+  },
+  "notes": []
+}

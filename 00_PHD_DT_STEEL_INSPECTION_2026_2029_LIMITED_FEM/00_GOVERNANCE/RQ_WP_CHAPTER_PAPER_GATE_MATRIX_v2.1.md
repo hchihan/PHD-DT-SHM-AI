@@ -1,5 +1,8 @@
 # RQ – WP – CHAPTER – PAPER – GATE MATRIX — v2.1
-**Version:** v2.1 | **Date:** 2026-07-19 | **Status:** CURRENT (dưới `MASTER_RESEARCH_CHARTER_v2.1_TRACEABILITY_CORE_20260719.md`)
+**Version:** v2.2 | **Issued:** 2026-07-19 | **Updated:** 2026-08-04
+**Status:** CURRENT | **Source-of-truth level:** 4
+**Supersedes:** v2.1 matrix. | **Superseded by:** None.
+**Change summary:** Aligns G2 identity-event-verification scope, gate states and the four-layer firewall without adding any RQ, WP, chapter, paper or gate.
 **Rule:** Không tạo thêm RQ/WP/chương/Paper/Gate. Không có thành phần FEM. Khi mâu thuẫn với file khác, Charter v2.1 và file này thắng.
 
 ---
@@ -9,7 +12,7 @@
 | RQ | Câu hỏi (rút gọn) | WP | Chapter | Paper | Evidence Gate(s) | Bằng chứng chủ đạo | Vai trò QLXD |
 |---|---|---|---|---|---|---|---|
 | **RQ1** | Lab evidence dưới run-aware/LORO; sensor config có chi phối kiến trúc? | WP1 | C4 | Paper 1 (Sensors, primary) | **G1** | Run registry, LORO, sensor-config effect, CEI by-product | Bằng chứng lab có định lượng độ tin cậy |
-| **RQ2** | Tổ chức evidence + CEI thành chuỗi truy vết để justify & truy trách nhiệm quyết định kiểm tra | WP2 | C5 | Paper 2 (AutCon / JBE / B&E) | **G2, G3, G6** | Identifier chain + CEI, SCQ/VCQ/RCQ, invalid-data test, legal mapping | **CORE — trụ cột nhận diện ngành QLXD** |
+| **RQ2** | Tổ chức evidence + CEI thành chuỗi truy vết để justify & truy trách nhiệm quyết định kiểm tra | WP2 | C5 | Paper 2 | **G2, G3, G6** | Identity-governed records, append-only event history, accountable review, verification, CQ/constraints/fixtures/oracle | **CORE — trụ cột nhận diện ngành QLXD** |
 | **RQ3** | Field feasibility tại Rapexco dưới limited field damage data | WP3 | C6 | Paper 3 (bonus, JCSHM / Q2–Q3) | **G4, G5** | Field sensor register, Sensor→BIM, baseline, traceability scenarios | Bằng chứng khả thi hiện trường |
 | — | Decision-support synthesis (4-level) | WP4 (gộp WP2/WP3) | C7 (opt., merge C6) | Paper 4 (opt., merge Paper 3) | **G5** | Transparent 4-level logic, expert review | Hỗ trợ quyết định minh bạch, human-reviewed |
 
@@ -73,7 +76,17 @@ Trước G1, mọi con số trên phải ghi **"Candidate claim pending Gate 1 c
 ## 6. Quy tắc bất biến
 
 1. FEM: nominal, uncalibrated, reference-only, not used for damage diagnosis — không RQ/WP/chương/Paper/Gate riêng.
-2. Chuỗi định danh: `Sensor_ID → BIM_GUID → Condition_Evidence_ID → Inspection_Record_ID → Action_Record_ID`. `Action_Status` là **thuộc tính** của `Action_Record_ID` (không phải mắt xích — ADR Action_ID 20260719). `FEM_Node_ID` chỉ optional metadata.
+2. Chuỗi định danh: `Sensor_ID → BIM_GUID / Asset_ID @ Model_Version_ID → Condition_Evidence_ID → Inspection_Record_ID → Action_Record_ID`. `Action_Status`/`Workflow_Status` là current projection, không phải identifier. `Status_Event` là candidate append-only history source, pending proposed ADR. Không tự thêm `Component_ID`; database surrogate key chỉ là technical implementation key. `FEM_Node_ID` chỉ optional metadata.
 3. CEI là first-class metadata attribute của `Condition_Evidence_ID`, không phải scalar/Health Index/severity.
 4. Legal mapping neo nghĩa vụ quản lý; không tạo ngưỡng kỹ thuật.
 5. Bốn lớp bằng chứng tách biệt; không "mượn" chéo.
+
+## 7. Current gate state (2026-08-04)
+
+| Gate | Status |
+|---|---|
+| G1 | `OPEN — PARTIAL EVIDENCE` |
+| G2 | `OPEN — LITERATURE BOUNDARY CLOSED, SPECIFICATION NOT YET FROZEN` |
+| G3 | `OPEN — NOT IMPLEMENTED, NOT VALIDATED, NOT OFFICIALLY PASSED`; execution `NOT OPEN` pending G2 baseline |
+| G4 | Readiness/preparation only; field-access confirmation required before deployment |
+| G5 | OPEN; expert-reviewed management decision-support evidence missing |

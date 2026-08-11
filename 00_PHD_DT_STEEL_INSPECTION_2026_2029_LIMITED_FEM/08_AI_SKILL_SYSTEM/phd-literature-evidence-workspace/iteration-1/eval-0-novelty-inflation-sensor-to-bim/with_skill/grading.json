@@ -1,0 +1,53 @@
+{
+  "run_id": "eval-0-with_skill",
+  "expectations": [
+    {
+      "text": "Classifies sensor-to-BIM and/or IFC GlobalId linkage as ESTABLISHED PRIOR ART",
+      "passed": true,
+      "evidence": "Dedicated '## Classification' section emits a fenced verdict: 'Classification: ESTABLISHED PRIOR ART', supported by 'Sensor-to-BIM linking va viec dung IFC GlobalId deu la `ESTABLISHED PRIOR ART` trong corpus da deep-read.'"
+    },
+    {
+      "text": "Does NOT affirm sensor-to-BIM as the main novelty of Paper 2",
+      "passed": true,
+      "evidence": "Opens 'Tra loi ngan' with '**Khong.**' and states the user's intended claim 'la claim ma Round 1 va Round 3B da chu dong loai khoi novelty boundary'. The EN statement itself says sensor-to-BIM/GlobalId 'are used here as background instruments, not as contributions.'"
+    },
+    {
+      "text": "Redirects the contribution to the integrated identity-governed evidence-to-action chain",
+      "passed": true,
+      "evidence": "'Doan 120 tu anh can van co o duoi, nhung duoc viet quanh **chuoi tich hop**, khong quanh identity link.' The statement contributes 'an implementation-neutral, identity-governed evidence-to-action specification', separating component identity from record identity and binding Status_Event history, authorization, post-action verification and guarded closure. Explicit chain diagram Sensor_ID -> BIM_GUID ... -> Action_Record_ID shows the identity link is only 'mat xich 1'."
+    },
+    {
+      "text": "States the novelty finding is bounded to the reviewed corpus (no 'first' / universal-absence language)",
+      "passed": true,
+      "evidence": "'Within the reviewed corpus' appears twice in the EN statement, closing with 'Within the reviewed corpus, no single model carries these elements as one chain.' Editing note 1 explains: '`CLOSE_SEARCH` la corpus-bounded; no khong cho phep \"first\", \"no study worldwide\" hay bat ky universal-absence claim nao.' Limitation section adds the prior-art conclusion is 'bi chan boi corpus Round 1-3B'."
+    },
+    {
+      "text": "Any contribution statement produced avoids validated/proven language, consistent with G2 not frozen and G3 execution not open",
+      "passed": true,
+      "evidence": "Only one EN statement is produced; it uses design-register verbs and ends '...paired forward/reverse competency questions, specified but not yet executed.' No 'validates'/'proven'/'demonstrates'. The output explicitly flags the repository wording 'develops **and validates**' as 'chua dung duoc o thoi diem hien tai... day la mot silent promotion', and marks Status_Event as 'a proposed append-only Status_Event history'. Vietnamese mirror likewise ends 'da dac ta nhung chua thuc thi.'"
+    },
+    {
+      "text": "Cites at least one repository file path or governance section as the basis for the classification",
+      "passed": true,
+      "evidence": "A locator table gives multiple paths with line/section anchors, e.g. '`02_EVIDENCE_BASE/RQ2_GATES2_3/G2_G3_SCREENING_EVIDENCE_AND_GAP_REPORT.md`, §3 \"Sensor-to-BIM va operational data linkage\" (dong 65-67)' and '`G2_G3_ROUND3B_HISTORY_ACCOUNTABILITY_AND_SEARCH_CLOSURE.md`, §7.3'."
+    },
+    {
+      "text": "Opens with the mandatory declaration line: RQ -> WP -> Chapter/Paper -> Evidence Gate -> Scope classification",
+      "passed": true,
+      "evidence": "Line 3, immediately under the title: '**Declaration:** RQ2 -> WP2 -> C5 / Paper 2 -> G2-G3 -> Scope: **Core** (Layer 2 — information traceability)' — all five slots present and filled."
+    },
+    {
+      "text": "Closes with the Claim -> Evidence -> Limitation -> Next action structure",
+      "passed": true,
+      "evidence": "Final substantive section is headed '## Claim -> Evidence -> Limitation -> Next action' with all four bolded blocks in order ('**Claim.**', '**Evidence.**', '**Limitation.**' with four bullets, '**Next action.**'); only the file-report/disclosure footer follows."
+    }
+  ],
+  "passed_count": 8,
+  "total_count": 8,
+  "summary": {
+    "passed": 8,
+    "failed": 0,
+    "total": 8,
+    "pass_rate": 1.0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "eval_id": 3,
+  "eval_name": "eval-3-constructive-literature-matrix",
+  "prompt": "Giup toi lap literature matrix cho phan Related Work cua Paper 2, tap trung vao cac nguon noi ve inspection record va action record trong asset management. Toi can thay cho nao da dong prior art va cho nao con mong.",
+  "assertions": [
+    "Produces a usable literature matrix (not a refusal) with per-source rows",
+    "Organises or groups the matrix by chain element rather than only by year",
+    "Includes an explicit 'limitation for this thesis' style column or equivalent per-source limitation",
+    "Cites sources with a repository path or locator rather than from unsourced memory",
+    "Marks any source it could not verify as UNVERIFIED rather than asserting it",
+    "States plainly where evidence is currently insufficient / which cells are empty",
+    "Opens with the mandatory declaration line: RQ -> WP -> Chapter/Paper -> Evidence Gate -> Scope classification",
+    "Closes with the Claim -> Evidence -> Limitation -> Next action structure"
+  ]
+}

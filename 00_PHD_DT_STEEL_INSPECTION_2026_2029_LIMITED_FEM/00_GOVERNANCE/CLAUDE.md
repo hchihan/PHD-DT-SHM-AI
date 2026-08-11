@@ -1,12 +1,15 @@
 # CLAUDE.md — CHỈ DẪN VẬN HÀNH CHO MỌI PHIÊN CLAUDE COWORK
-**Hiệu lực từ:** 17/07/2026 | **Cập nhật:** 19/07/2026 | **Kiến trúc:** Limited-FEM · Traceability-Core v2.1
+**Version:** v2.2 | **Hiệu lực từ:** 17/07/2026 | **Cập nhật:** 2026-08-04
+**Status:** CURRENT SUPPORTING AGENT INSTRUCTION | **Source-of-truth level:** 7
+**Supersedes:** v2.1 instruction. | **Superseded by:** None.
+**Change summary:** Aligns Evidence Base entry, four-layer firewall, identifier/event rules and current gate/search state.
 
 > Chi tiết quy tắc agent: `AGENT_RULES.md`. SOURCE OF TRUTH: `MASTER_RESEARCH_CHARTER_v2.1_TRACEABILITY_CORE_20260719.md`.
 
 ## Trước khi làm việc
 
 1. Luôn đọc `MASTER_RESEARCH_CHARTER_v2.1_TRACEABILITY_CORE_20260719.md` trước mọi nhiệm vụ; khi mâu thuẫn xem `SOURCE_OF_TRUTH_HIERARCHY_v2.1.md`.
-2. Nếu nhiệm vụ chạm evidence/gate/paper: đọc thêm `RQ_WP_CHAPTER_PAPER_GATE_MATRIX_v2.1.md`, `EVIDENCE_GATES_v2.1.md`, và `../01_CURRENT_CONTROL/MASTER_INDEX_CURRENT.md`.
+2. Nếu nhiệm vụ chạm evidence/gate/paper: đọc thêm `RQ_WP_CHAPTER_PAPER_GATE_MATRIX_v2.1.md`, `EVIDENCE_GATES_v2.1.md`, và `../02_EVIDENCE_BASE/CURRENT/00_MASTER_INDEX_CURRENT_20260804.md`.
 3. Khai báo đầu nhiệm vụ: `RQ → WP → Chapter/Paper → Evidence Gate → Scope classification (Core / Supporting / Future Work / Out of Scope)` + kế hoạch ngắn.
 
 ## Bốn điều chỉnh bắt buộc v2.1
@@ -17,12 +20,12 @@
 
 ## Quy tắc nội dung
 
-1. Mọi đề xuất phải bám chuỗi đã khóa: dữ liệu dao động → condition/state-change evidence (+CEI) → BIM-linked component → inspection record → justified, accountable inspection–maintenance action. Chuỗi định danh: Sensor_ID → BIM_GUID → Condition_Evidence_ID → Inspection_Record_ID → Action_Record_ID (Action_Status = thuộc tính của Action_Record_ID).
+1. Mọi đề xuất phải bám chuỗi đã khóa: dữ liệu dao động → condition/state-change evidence (+CEI) → BIM-linked component → inspection record → Action_Record → candidate Status_Event history → accountable verification-controlled inspection-maintenance support. Chuỗi định danh: Sensor_ID → BIM_GUID / Asset_ID @ Model_Version_ID → Condition_Evidence_ID → Inspection_Record_ID → Action_Record_ID. Action_Status/Workflow_Status là current projection; exact Status_Event_ID remains proposed.
 2. Ưu tiên định vị Quản lý xây dựng và quản lý tài sản trong mọi lập luận, tiêu đề, từ khóa.
 3. **Không tự mở rộng FEM.** FEM chỉ là mô hình thiết kế tham chiếu danh nghĩa; mọi lần nhắc FEM phải kèm "nominal, uncalibrated, reference-only, not used for damage diagnosis". Không đưa FEM_Node_ID thành mắt xích bắt buộc. Không đề xuất hiệu chuẩn, MAC, EMA, suy giảm độ cứng.
 4. **Không tự thêm** RUL, predictive maintenance, chẩn đoán hư hỏng hiện trường, Health Index trọng số, bảo trì tự động, CFD, Smart City, Edge AI, phần mềm thương mại.
 5. **Không bịa** tài liệu, DOI, Zotero key, kết quả, tiêu chuẩn, quartile, chỉ số hay metric. Thiếu bằng chứng thì ghi rõ "Evidence is currently insufficient."
-6. Phân biệt rõ và không trộn lẫn ba loại bằng chứng: laboratory evidence / field feasibility / decision support.
+6. Phân biệt rõ và không trộn lẫn bốn lớp: laboratory evidence / information traceability / field feasibility / management decision support.
 7. Thuật ngữ theo `TERMINOLOGY_CONTROL_CURRENT.md`. Ưu tiên: data-informed Digital Twin; condition evidence; state-change evidence; BIM-linked component traceability; field feasibility; inspection-maintenance support; reference-informed sensor placement; CEI = confidence/evidence indicator. Cấm trong kiến trúc lõi: calibrated FEM; physics-informed condition evidence; equivalent stiffness degradation; optimal sensor placement; damage severity; FEM-based diagnosis.
 
 ## Cảnh báo scope creep

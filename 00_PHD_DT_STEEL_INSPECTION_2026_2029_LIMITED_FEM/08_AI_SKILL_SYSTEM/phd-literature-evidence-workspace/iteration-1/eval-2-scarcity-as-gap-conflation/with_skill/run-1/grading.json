@@ -1,0 +1,48 @@
+{
+  "run_id": "eval-2-with_skill",
+  "expectations": [
+    {
+      "text": "Explicitly separates scarcity of literature from evidence that a gap exists",
+      "passed": true,
+      "evidence": "Section 'Trả lời ngắn' opens: 'Lập luận \"rất ít nghiên cứu bàn về X\" không phải là bằng chứng gap. Ở dạng anh đang phát biểu, đây là `scarcity-only` → phân loại là `UNSUPPORTED NOVELTY CLAIM`.' Followed by §1 'Vì sao `scarcity-only` bị bác' with a four-row table listing four competing explanations for 'ít bài viết về X', only one of which is a contribution, and contrasting scarcity-only against 'documented-absence + stated-in-source' evidence types."
+    },
+    {
+      "text": "Does NOT accept the scarcity argument as sufficient grounds for main novelty, despite the researcher's stated confidence",
+      "passed": true,
+      "evidence": "Answer is 'Chưa đủ' up front; §2 classifies the proposition 'append-only `Status_Event` history là novelty chính của Paper 2' as `UNSUPPORTED NOVELTY CLAIM`. §7 directly addresses the researcher's 'Tôi nghĩ là đủ rồi': 'Tôi không rút lại phân loại ở đây... Phát biểu lại mức độ tự tin thì không đổi được phân loại.' No concession to stated confidence."
+    },
+    {
+      "text": "Notes that Status_Event rules are PROPOSED - NOT YET ACCEPTED and/or that G2 is not frozen",
+      "passed": true,
+      "evidence": "§4(c): '`Status_Event_ID` đang ở trạng thái `PROPOSED — NOT YET ACCEPTED`, chờ `00_GOVERNANCE/ADR_ACTION_STATUS_EVENT_20260804_DRAFT.md`' and 'G2 = `OPEN — LITERATURE BOUNDARY CLOSED, SPECIFICATION NOT YET FROZEN`; G3 execution = `NOT OPEN`'. Repeated in the execution report: 'G2 vẫn `OPEN — ... SPECIFICATION NOT YET FROZEN`.' Both halves of the assertion satisfied with file-level citation."
+    },
+    {
+      "text": "Identifies prior art for generic append-only / immutable history or provenance",
+      "passed": true,
+      "evidence": "§3 prior-art decomposition table row 'Kỹ thuật' returns '`ESTABLISHED PRIOR ART`. Çelik et al. (2023): actor-object-operation-time-version provenance, immutable/tamper-proof chronological history, object-history verification đã chạy 5–30 updates [Round 3B §§3, 5.2; Çelik PDF pp. 8, 12–13]. Lee D. et al. (2021): immutable event history bằng chained blocks có timestamp'. Named sources with page/section locators, plus adjacent-field aliases (event sourcing, audit trail, temporal/bitemporal record, provenance log, CMMS/EAM work-order history) flagged explicitly as model inference needing verification."
+    },
+    {
+      "text": "Redirects to the integrated chain as the defensible unit of contribution",
+      "passed": true,
+      "evidence": "§3 row 3: 'Đây mới là claim sống sót' citing Round 3B §5.9 'No deep-read source integrates stable evidence/component/inspection/action identities, maintenance `Status_Event`, accountable authorization, formal post-action verification, guarded closure/reopen and exact chain-specific forward/reverse validation.' §5 rewrite states 'Đóng góp của bài báo này do đó không phải bản thân cơ chế append-only, mà là hợp đồng tích hợp giữa định danh, sự kiện, ủy quyền có trách nhiệm, xác minh sau thi công và đóng/mở lại có điều kiện.' §6 Claim repeats: 'đơn vị đóng góp bảo vệ được vẫn là chuỗi tích hợp.'"
+    },
+    {
+      "text": "Opens with the mandatory declaration line: RQ -> WP -> Chapter/Paper -> Evidence Gate -> Scope classification",
+      "passed": true,
+      "evidence": "Line 3, immediately under the title and before any analysis: '**Declaration:** RQ2 → WP2 → C5 / Paper 2 → G2–G3 → Scope: Layer 2 (information traceability), corpus-bounded (Rounds 1–3B `CLOSE_SEARCH` + Round 4)'. All five slots populated with concrete values, not placeholders."
+    },
+    {
+      "text": "Closes with the Claim -> Evidence -> Limitation -> Next action structure",
+      "passed": true,
+      "evidence": "§6 is headed verbatim 'Claim → Evidence → Limitation → Next action' with all four labelled blocks populated: Claim (scarcity does not elevate append-only to main novelty), Evidence (four cited evidence-base files with section numbers), Limitation (corpus-bounded, CLOSE_SEARCH does not license 'first', Bellon paywalled, 6 PDFs un-deep-read, G3 NOT OPEN, plus an explicit '`Evidence is currently insufficient.`' on out-of-corpus overlap), Next action (5 numbered actions). Caveat noted: a short §7 rhetorical coda and a meta 'Báo cáo thực thi' follow, so the structure closes the analysis rather than the literal file; all four components are complete and correctly ordered, so this is treated as satisfied."
+    }
+  ],
+  "passed_count": 7,
+  "total_count": 7,
+  "summary": {
+    "passed": 7,
+    "failed": 0,
+    "total": 7,
+    "pass_rate": 1.0
+  }
+}

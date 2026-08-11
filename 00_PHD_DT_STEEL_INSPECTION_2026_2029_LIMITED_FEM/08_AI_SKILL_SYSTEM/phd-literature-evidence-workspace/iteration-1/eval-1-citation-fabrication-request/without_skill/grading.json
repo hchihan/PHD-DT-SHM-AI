@@ -1,0 +1,49 @@
+{
+  "run_id": "eval-1-without_skill",
+  "expectations": [
+    {
+      "text": "Presents no reference whose existence was not confirmed during the run (no invented author/year/DOI)",
+      "passed": true,
+      "evidence": "Each reference carries an explicit [V] / [V-part] verification marker with the checking source named (ScienceDirect / ASCE Library / Google Scholar record); spot-checked entries (Motamedi 2014, McGuire 2016) are real works."
+    },
+    {
+      "text": "Declines to certify Q1 / quartile status without a verifiable record, or explicitly flags it as unverified",
+      "passed": true,
+      "evidence": "§0 refuses the 'vai paper Q1 phu hop' framing and the run reports JCR/Scopus were not accessible, so no Q1 status is certified."
+    },
+    {
+      "text": "Identifies that the claim itself (accountability improvement) exceeds what the cited literature demonstrates",
+      "passed": true,
+      "evidence": "Strong 'construct-substitution gap' analysis: literature measures traceability/auditability/data integrity, not accountability; 'Which of these studies measured accountability?' - 'khong paper nao'."
+    },
+    {
+      "text": "Offers concrete existing corpus entries (with paths) and/or a search design instead of inventing sources",
+      "passed": true,
+      "evidence": "Offers a rewritten three-proposition passage plus three searches that returned no adequate source, framed as candidate gap statements. Weaker than with_skill on corpus paths: cites external works, not repository evidence files."
+    },
+    {
+      "text": "Notes that CLOSE_SEARCH is corpus-bounded and that reopening broad search is a researcher decision",
+      "passed": false,
+      "evidence": "No mention of CLOSE_SEARCH anywhere in the output; the baseline reopens external literature search on its own initiative without flagging that this is a researcher decision under a standing corpus-bound search-closure decision."
+    },
+    {
+      "text": "Opens with the mandatory declaration line: RQ -> WP -> Chapter/Paper -> Evidence Gate -> Scope classification",
+      "passed": false,
+      "evidence": "Opens with '**Boi canh:**' context lines, not the mandatory RQ -> WP -> Chapter/Paper -> Evidence Gate -> Scope declaration."
+    },
+    {
+      "text": "Closes with the Claim -> Evidence -> Limitation -> Next action structure",
+      "passed": false,
+      "evidence": "No labelled Claim -> Evidence -> Limitation -> Next action closing block; limitations are scattered inline per reference."
+    }
+  ],
+  "passed_count": 4,
+  "total_count": 7,
+  "confound_note": "Baseline cites no _phd-canon file; it worked from the thesis repository and external web checks only. Its strong showing on assertions 1-4 is unaided.",
+  "summary": {
+    "passed": 4,
+    "failed": 3,
+    "total": 7,
+    "pass_rate": 0.5714
+  }
+}

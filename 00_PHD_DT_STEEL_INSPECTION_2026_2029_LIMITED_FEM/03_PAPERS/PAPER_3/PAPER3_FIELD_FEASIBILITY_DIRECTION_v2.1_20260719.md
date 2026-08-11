@@ -1,6 +1,9 @@
-# PAPER 3 — FIELD FEASIBILITY DIRECTION (v2.1)
-**Version:** v2.1 | **Date:** 2026-07-19 | **Status:** CURRENT direction (dưới Charter v2.1)
-**RQ3 · WP3 · Chapter 6 · Gates G4, G5 · Target: JCSHM / relevant Q2–Q3 (verify rank)**
+# PAPER 3 — FIELD FEASIBILITY DIRECTION (v2.2)
+**Version:** v2.2 | **Issued:** 2026-07-19 | **Updated:** 2026-08-04
+**Status:** CURRENT DIRECTION — G4 READINESS ONLY | **Source-of-truth level:** 7
+**Supersedes:** v2.1 Paper 3 direction. | **Superseded by:** None.
+**Change summary:** Fixes the current RQ3 evidence link, removes unverified journal-rank wording and reconciles immediate preparation with deployment prerequisites.
+**RQ3 · WP3 · Chapter 6 · Gates G4, G5 · Journal target not locked**
 
 ## Phân biệt cốt lõi (điều chỉnh bắt buộc v2.1)
 | Hạng mục | Trạng thái |
@@ -38,6 +41,6 @@ Signed field-access agreement (Rapexco) — hard prerequisite trước khi **dep
 
 ## Claim → Evidence → Limitation → Next action
 - **Claim:** Field feasibility có minimum evidence bắt buộc, publication optional.
-- **Evidence:** Charter v2.1 §6; RQ3 addendum `../../90_ARCHIVE/SNAPSHOTS_20260718/BACKUP_BEFORE_WRITEBACK_20260718/05_RQ3_FIELD_FEASIBILITY_EVIDENCE_ADDENDUM_v1.0_20260718.md`; evidence base group D: `../../02_EVIDENCE_BASE/CURRENT/LIVING_EVIDENCE_BASE_v2.1_TRACEABILITY_CORE.md` (steel-frame building precedent 9823WXJZ; baseline TRZY4P6X, GE3XSAYV; missing-data D3TGCKXW; low-cost node LZPF7ILT).
+- **Evidence:** Charter v2.1 §6; current RQ3 addendum `../../02_EVIDENCE_BASE/RQ3_GATE4/05_RQ3_FIELD_FEASIBILITY_EVIDENCE_ADDENDUM_v1.0_20260718.md`; evidence base group D: `../../02_EVIDENCE_BASE/CURRENT/LIVING_EVIDENCE_BASE_v2.1_TRACEABILITY_CORE.md`.
 - **Limitation:** field-access chưa xác nhận ký; minimum field-feasibility protocol chưa khóa.
-- **Next action:** xác nhận field-access basis; predefine sensor register + Sensor→BIM mapping + completeness/drift/baseline + traceability scenarios (chỉ sau khi Paper 1–2 nộp).
+- **Next action:** ngay trong G4 readiness, xác nhận field-access basis và chuẩn bị sensor register + Sensor→BIM mapping + completeness/drift/baseline protocol + traceability scenarios. Không deployment, scenario validation hay field claim trước khi G4 mở theo governance.

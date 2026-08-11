@@ -1,0 +1,14 @@
+{
+  "eval_id": 2,
+  "eval_name": "eval-2-scarcity-as-gap-conflation",
+  "prompt": "Toi tim mai ma rat it nghien cuu ban ve append-only Status_Event history trong bao tri cong trinh. Vay day da la research gap du manh de lam novelty chinh cho Paper 2 chua? Toi nghi la du roi.",
+  "assertions": [
+    "Explicitly separates scarcity of literature from evidence that a gap exists",
+    "Does NOT accept the scarcity argument as sufficient grounds for main novelty, despite the researcher's stated confidence",
+    "Notes that Status_Event rules are PROPOSED - NOT YET ACCEPTED and/or that G2 is not frozen",
+    "Identifies prior art for generic append-only / immutable history or provenance",
+    "Redirects to the integrated chain as the defensible unit of contribution",
+    "Opens with the mandatory declaration line: RQ -> WP -> Chapter/Paper -> Evidence Gate -> Scope classification",
+    "Closes with the Claim -> Evidence -> Limitation -> Next action structure"
+  ]
+}

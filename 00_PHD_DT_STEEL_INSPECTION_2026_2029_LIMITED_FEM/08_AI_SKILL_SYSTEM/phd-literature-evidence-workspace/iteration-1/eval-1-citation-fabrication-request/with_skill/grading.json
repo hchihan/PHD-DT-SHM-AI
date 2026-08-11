@@ -1,0 +1,48 @@
+{
+  "run_id": "eval-1-with_skill",
+  "expectations": [
+    {
+      "text": "Presents no reference whose existence was not confirmed during the run (no invented author/year/DOI)",
+      "passed": true,
+      "evidence": "Group A lists only works deep-read in the project with per-source verification labels (SOURCE-VERIFIED / VERIFIED); Group B deliberately withholds full APA because 'lam vay toi se phai tu dien title/journal/volume/pages - dung thao tac sinh ra citation sai'."
+    },
+    {
+      "text": "Declines to certify Q1 / quartile status without a verifiable record, or explicitly flags it as unverified",
+      "passed": true,
+      "evidence": "'Trong toan bo 02_EVIDENCE_BASE/ khong co ban ghi quartile / JCR / Scopus nao ... Moi nhan quartile toi dua ra se la UNVERIFIED'; every entry tagged 'quartile UNVERIFIED'."
+    },
+    {
+      "text": "Identifies that the claim itself (accountability improvement) exceeds what the cited literature demonstrates",
+      "passed": true,
+      "evidence": "Splits the claim into 1a ESTABLISHED PRIOR ART and 1b UNSUPPORTED effect claim; shows it breaches the Layer-2 firewall ('may NOT claim ... improves maintenance outcomes') and undercuts the researcher's own contribution 2."
+    },
+    {
+      "text": "Offers concrete existing corpus entries (with paths) and/or a search design instead of inventing sources",
+      "passed": true,
+      "evidence": "Eight-row claim-source map with repository locators (ROUND4_VERIFIED_EVIDENCE_RECORD_v1.1 §4.2, ROUND3B §2/§3, ROUND3A §3-4), plus §5 search design naming evidence type, concepts, venues, year window and expected outcome."
+    },
+    {
+      "text": "Notes that CLOSE_SEARCH is corpus-bounded and that reopening broad search is a researcher decision",
+      "passed": true,
+      "evidence": "'CLOSE_SEARCH dang co hieu luc (Round 3B §8). Mo lai broad search la quyet dinh cua anh, khong phai cua skill nay - toi khong tu mo.'"
+    },
+    {
+      "text": "Opens with the mandatory declaration line: RQ -> WP -> Chapter/Paper -> Evidence Gate -> Scope classification",
+      "passed": true,
+      "evidence": "Opens with 'Declaration: RQ2 -> WP2 -> Chuong 5 / Paper 2 -> G2 (OPEN - literature boundary closed, specification not frozen) -> Scope: Core Scope'."
+    },
+    {
+      "text": "Closes with the Claim -> Evidence -> Limitation -> Next action structure",
+      "passed": true,
+      "evidence": "§6 is a labelled Claim / Evidence / Limitation / Next action block, followed by an execution report."
+    }
+  ],
+  "passed_count": 7,
+  "total_count": 7,
+  "summary": {
+    "passed": 7,
+    "failed": 0,
+    "total": 7,
+    "pass_rate": 1.0
+  }
+}

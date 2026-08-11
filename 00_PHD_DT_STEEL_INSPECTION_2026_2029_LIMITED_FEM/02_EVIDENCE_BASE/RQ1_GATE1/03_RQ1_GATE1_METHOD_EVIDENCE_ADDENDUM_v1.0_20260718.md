@@ -1,5 +1,8 @@
 # RQ1 / WP1 / Paper 1 / Gate 1 Method Evidence Addendum
-**Version:** v1.0 | **Date:** 2026-07-18
+**Version:** v1.1 administrative alignment | **Issued:** 2026-07-18 | **Updated:** 2026-08-04
+**Status:** CURRENT SUPPORTING | **Source-of-truth level:** 7
+**Supersedes:** v1.0 as current supporting addendum. | **Superseded by:** None.
+**Change summary:** Adds current classification/status metadata only; scientific claims and source interpretations are unchanged.
 
 ## Scope
 

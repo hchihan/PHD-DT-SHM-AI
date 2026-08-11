@@ -1,5 +1,10 @@
 # EVIDENCE MIGRATION REPORT — v2.1
-**Date:** 2026-07-19 | Migrate evidence base sang `LIVING_EVIDENCE_BASE_v2.1_TRACEABILITY_CORE.md`. Kế thừa metadata/citation/DOI/reading status; không re-read PDF; không sửa/bịa citation/metric.
+**Version:** v2.1.1 | **Issued:** 2026-07-19 | **Updated:** 2026-08-04
+**Status:** CURRENT SUPPORTING PROVENANCE | **Source-of-truth level:** 7
+**Supersedes:** Initial v2.1 migration report. | **Superseded by:** None.
+**Change summary:** Adds current navigation and authority metadata only; original migration counts and scientific evidence statements are preserved.
+
+Current entry: `00_MASTER_INDEX_CURRENT_20260804.md`. Current synthesis: `01_MASTER_G1_G2_G3_EVIDENCE_SYNTHESIS_20260804.md`.
 
 | Nguồn/file cũ | Số record kế thừa | Số record đổi RQ | Số record demote | Số record cần full text | Ghi chú |
 |---|---|---|---|---|---|

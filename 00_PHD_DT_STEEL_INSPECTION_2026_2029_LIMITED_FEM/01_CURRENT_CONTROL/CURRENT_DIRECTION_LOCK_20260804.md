@@ -1,8 +1,11 @@
 # CURRENT DIRECTION LOCK 20260804
 
-**Effective date:** 2026-08-04
-**Status:** CURRENT AND BINDING FOR EXECUTION
+**Version:** v1.1 administrative alignment
+**Effective date / Updated:** 2026-08-04
+**Status:** CURRENT AND BINDING FOR EXECUTION | **Source-of-truth level:** 4
 **Authority:** Subordinate to the v2.1 Charter and approved governance set; controlling over lower-ranked working plans and paper notes.
+**Supersedes:** Initial 2026-08-04 issue. | **Superseded by:** None.
+**Change summary:** Aligns exact gate wording, model-version identity context and the proposed ADR boundary; no gate is closed and no proposed schema is accepted.
 
 ## 1. Locked Research Direction
 
@@ -18,24 +21,26 @@ Vibration data
 
 ```text
 Sensor_ID
--> BIM_GUID
+-> BIM_GUID / Asset_ID @ Model_Version_ID
 -> Condition_Evidence_ID
 -> Inspection_Record_ID
 -> Action_Record_ID
 ```
 
-`Action_Status` is an attribute or current-state projection of `Action_Record`. A change in state is represented by a `Status_Event` with accountable actor, timestamp, reason, and version context.
+`Action_Status`/`Workflow_Status` is an attribute or current-state projection of `Action_Record`. A change in state is represented by candidate append-only `Status_Event` history with accountable actor, timestamp, reason, and version context. Exact `Status_Event_ID`, lifecycle, authorization, verification and closure/reopen rules remain proposed in `../00_GOVERNANCE/ADR_ACTION_STATUS_EVENT_20260804_DRAFT.md`, not accepted. Recommendation is not automatically an action record, and `completed` is not verified closure.
 
 ## 2. Locked States
 
 | Item | State |
 |---|---|
-| G1 | `OPEN / NOT READY` |
-| G2 | `OPEN / SPECIFICATION DEVELOPMENT` |
-| G3 | `NOT OPEN` |
+| G1 | `OPEN — PARTIAL EVIDENCE` |
+| G2 | `OPEN — LITERATURE BOUNDARY CLOSED, SPECIFICATION NOT YET FROZEN` |
+| G3 | `OPEN — NOT IMPLEMENTED, NOT VALIDATED, NOT OFFICIALLY PASSED`; execution `NOT OPEN` |
 | Paper 2 | `DESIGN AND EVIDENCE DEVELOPMENT` |
 
 No existing aggregate result, schema draft, literature review, software prototype, or repository reset closes a gate.
+
+`CLOSE_SEARCH` is corpus-bounded. It is not universal absence, does not support a "first" claim, and does not constitute G2 PASS.
 
 ## 3. Paper 2 Lock
 
