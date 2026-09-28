@@ -1,0 +1,475 @@
+# CHƯƠNG 5. TỔNG HỢP KHOẢNG TRỐNG VÀ ĐỊNH HƯỚNG NGHIÊN CỨU
+
+## 5.1. Tổng hợp những nội dung đã được giải quyết
+
+### 5.1.1. Từ quản lý tài sản đến yêu cầu duy trì tính liên tục của thông tin
+
+Các chương trước cho thấy quản lý nhà công nghiệp khung thép trong giai đoạn vận hành không thiếu dữ liệu theo nghĩa tuyệt đối. Dữ liệu tồn tại ở nhiều lớp: tín hiệu cảm biến trong hệ thu nhận; hình học và thuộc tính cấu kiện trong mô hình thông tin công trình; hồ sơ kiểm tra trong biểu mẫu hoặc hệ quản lý bảo trì; lịch sử xử lý trong các hệ thống quản lý công việc.
+
+Chương 2 cho thấy quản lý tài sản trong giai đoạn vận hành đòi hỏi thông tin phải được tổ chức theo tài sản, có ngữ cảnh và duy trì được theo thời gian. ISO 19650-3:2020 cung cấp nền cho quản lý thông tin ở giai đoạn này, nhưng chuẩn hóa thông tin không tự động tạo ra chuỗi truy vết giữa dữ liệu kỹ thuật, cấu kiện, hồ sơ và hành động \[1\].
+
+Ở phía mô hình thông tin, IFC cung cấp nền trao đổi và định danh đối tượng, và các nghiên cứu đã nối dữ liệu vận hành với đối tượng IFC theo nhiều cách (mục 2.2.2 và mục 5.1.3). Luận án vì vậy không đặt khoảng trống ở việc “có BIM”, “có cảm biến” hay “đưa dữ liệu lên mô hình”.
+
+Điểm cần giải quyết nằm sâu hơn: **khi một kết quả kỹ thuật đã được xác lập chất lượng và phạm vi hiệu lực, các thuộc tính đó có được bảo toàn khi kết quả đi vào chuỗi thông tin quản lý hay không**.
+
+### 5.1.2. Dữ liệu dao động và các phương pháp đánh giá 
+
+Chương 3 cho thấy dữ liệu dao động, học máy và học sâu đã được dùng rộng trong theo dõi trạng thái kết cấu; riêng Jia và Li (2023) tổng hợp 337 công bố về học sâu trong lĩnh vực này \[13\].
+
+Các nguyên tắc phương pháp về đánh giá cũng không mới và bao phủ gần hết các rủi ro của một thí nghiệm dao động: phân biệt số quan sát tính toán với số đơn vị độc lập thực \[14\]; ảnh hưởng của cấp nguồn vật lý dùng để phân tách dữ liệu \[15\]; chia theo sự kiện vật lý trước rồi mới học các phép biến đổi từ phần huấn luyện \[52\]; rò rỉ còn tồn tại khi cùng một chi tiết vật lý xuất hiện ở cả hai phía phép chia \[20\]; suy giảm khả năng chuyển giao khi giữ lại một đợt thí nghiệm chưa thấy sau tháo – lắp lại \[19\].
+
+Kiểm soát rò rỉ dữ liệu, đánh giá theo nhóm, giữ lại đơn vị vật lý, giữ lại đợt thí nghiệm và kiểm định mức ngẫu nhiên vì vậy đều không phải kỹ thuật mới \[53\], \[54\]. Giá trị nghiên cứu nằm ở việc dùng chúng để xác định **một kết quả có thể được tin cậy trong phạm vi nào**, và đầu ra cần được quản lý như **bằng chứng trạng thái** gắn với nguồn gốc và điều kiện đánh giá.
+
+### 5.1.3. Liên kết cảm biến, BIM, hồ sơ kiểm tra và quản lý bảo trì 
+
+Chương 4 cho thấy lớp giữa của chuỗi nghiên cứu cũng đã có tiền lệ trực tiếp ở cả bốn mắt xích. Cảm biến hoặc dữ liệu cảm biến có thể được liên kết với ngữ cảnh cấu kiện \[2\], \[4\], \[5\]. Mã khiếm khuyết, vị trí cấu kiện, dữ liệu kiểm tra, bản ghi sửa chữa và trạng thái hoàn thành có thể được tổ chức trong cùng một hệ thống \[34\]. Định danh IFC có thể được duy trì khi tài sản từ BIM được đăng ký sang hệ quản lý bảo trì \[36\]. Các liên kết xuyên miền có thể được kiểm tra bằng ràng buộc ngữ nghĩa có thể thực thi \[21\]. Nguồn gốc dữ liệu và trách nhiệm giải trình cũng đã có nền phương pháp, từ việc ghi tác nhân, thời điểm và phiên bản trong trao đổi thông tin xây dựng \[16\] tới việc đưa chuyên gia vào quá trình tương tác và rà soát kết quả \[17\]. Lorvão Antunes và cộng sự (2024) nối dữ liệu quan trắc với cấu kiện kết cấu và định danh IFC trên ba dự án thí điểm đường cao tốc \[81\]. Seiß và cộng sự (2025) dùng trực tiếp định danh IFC để gắn hồ sơ kiểm tra với cấu kiện \[82\]. Kim và cộng sự (2018) và Wan và cộng sự (2019) gắn hồ sơ bảo trì, kiểm tra với cấu kiện trên dữ liệu thực \[6\], \[78\]. Oraskari, Senthilvel và Beetz (2021) dùng ràng buộc SHACL để phát hiện đối tượng mất đối ứng định danh \[83\]. Borkowski và cộng sự (2026) đề xuất một định danh bền vững cho cấu kiện qua các giai đoạn vòng đời \[33\].
+
+Các tiền lệ này bác bỏ mọi tuyên bố về tính mới dựa trên từng thành phần riêng lẻ. Luận án không xem các nội dung sau là đóng góp mới tự thân:
+
+- liên kết cảm biến với BIM;
+
+- sử dụng định danh IFC;
+
+- đưa hồ sơ kiểm tra hoặc sửa chữa vào hệ thống số;
+
+- điều hướng giữa BIM và hệ quản lý bảo trì;
+
+- ghi nguồn gốc dữ liệu;
+
+- sử dụng các quy tắc kiểm tra dữ liệu;
+
+- đưa con người vào quy trình rà soát;
+
+- dùng câu hỏi nghiệp vụ và phép kiểm tra đạt/không đạt khi đứng riêng;
+
+- duy trì định danh cấu kiện qua các giai đoạn vòng đời khi đứng riêng.
+
+Phần còn lại nằm ở **cách các thành phần đã tồn tại được nối thành một chuỗi trong đó chất lượng và phạm vi hiệu lực của bằng chứng được bảo toàn tới hồ sơ và trạng thái hành động**.
+
+### 5.1.4. Ranh giới giữa nội dung đã có và phần nghiên cứu còn lại
+
+<span id="TLTQ_Bang_5_1" class="anchor"></span>Bảng 5.1. Tổng hợp nội dung đã được xác lập và phần còn lại của nghiên cứu
+
+| **Nội dung** | **Đã được xác lập** | **Phần còn lại trong phạm vi luận án** |
+|:---|:---|:---|
+| Dữ liệu dao động cho theo dõi trạng thái | Có nền nghiên cứu rộng | Không phải khoảng trống |
+| Học máy và học sâu cho phân loại | Đã được áp dụng rộng | Không phải khoảng trống thuật toán |
+| Đơn vị độc lập, đánh giá theo nhóm, kiểm soát rò rỉ | Các nguyên tắc đã được xác lập | Kết hợp và báo cáo đồng thời phạm vi hiệu lực trên đúng bài toán dao động của khung thép liên kết bu lông |
+| Liên kết cảm biến với BIM/IFC | Có nhiều tiền lệ | Không phải khoảng trống |
+| BIM – hệ quản lý bảo trì – hồ sơ khiếm khuyết/sửa chữa | Đã có các trường hợp triển khai | Không phải khoảng trống |
+| Định danh và kiểm tra quan hệ | Đã có tiền lệ về lược đồ, đồ thị và ràng buộc | Duy trì tính liên tục của chuỗi cùng nguồn gốc và phạm vi hiệu lực của bằng chứng |
+| Nguồn gốc dữ liệu | Có mô hình và từ vựng nền | Gắn với bản ghi bằng chứng trạng thái và bảo toàn tới hồ sơ/hành động |
+| Con người trong quy trình | Có nhiều tiền lệ | Ghi được căn cứ, vai trò, lịch sử xử lý và trạng thái hành động trong cùng chuỗi |
+| Song sinh số trong vận hành tài sản | Có nhiều mô hình khái niệm và trường hợp tích hợp | Đánh giá mức năng lực thực tế của khung sau nghiên cứu trường hợp |
+| Biểu diễn quan trắc theo chuẩn mở | Đã có chuẩn SOSA và SSN | Gắn giao thức đánh giá và phạm vi hiệu lực vào bản ghi quan trắc |
+| Yêu cầu thông tin và kiểm tra tuân thủ | Đã có cơ chế Information Delivery Specification cùng công cụ | Kết hợp kiểm tra thuộc tính cấu kiện với kiểm tra quan hệ của chuỗi bằng chứng |
+| Chuyển giao tri thức giữa các kết cấu | Đã có khung theo quần thể cho nhóm đồng nhất và nhóm dị thể | Phát biểu mức tương đồng khi dùng kết quả mô hình thu nhỏ để nói về công trình thực |
+| Giá trị thông tin và kiểm tra theo rủi ro | Đã có khung quyết định Bayes cho kế hoạch kiểm tra | Neo mức ưu tiên kiểm tra vào căn cứ rà soát được; hiệu chỉnh ngưỡng bằng dữ liệu chi phí thuộc bước sau luận án |
+
+Cột thứ ba cho thấy ở mọi dòng, phần còn lại là một yêu cầu về *quan hệ* hoặc *sự bảo toàn thuộc tính*, không phải một thành phần công nghệ còn thiếu. Các khoảng trống của luận án nằm tại **các điểm nối giữa những thành phần đã có tiền lệ**.
+
+## 5.2. Ba khoảng trống nghiên cứu 
+
+### 5.2.1. Khoảng trống 1 – Xác lập chất lượng và phạm vi hiệu lực của bằng chứng trạng thái
+
+**Luận điểm.**
+
+Một kết quả phân loại từ dữ liệu dao động chỉ có thể trở thành bằng chứng dùng được khi đơn vị vật lý độc lập, rò rỉ dữ liệu và phạm vi chuyển giao được kiểm soát và báo cáo rõ.
+
+**Bằng chứng.**
+
+Các nguyên tắc về đơn vị độc lập, kiểm soát rò rỉ, đánh giá theo nhóm và kiểm tra khả năng chuyển giao đã được xác lập \[14\], \[15\], \[19\], \[20\], \[52\]–\[54\]; đóng góp riêng của từng nguồn được tóm tắt ở mục 5.1.2.
+
+**Giới hạn.**
+
+Khoảng trống này không nằm ở học sâu, kiểm soát rò rỉ, giữ lại đơn vị vật lý hay giữ lại đợt thí nghiệm, vì các thành phần đó đã có. Phần còn lại là sự kết hợp đồng thời các thành phần này trên đúng bài toán dao động của khung thép liên kết bu lông, cùng cách báo cáo kết quả như bằng chứng có phạm vi hiệu lực.
+
+**Khoảng trống còn lại.**
+
+Sau khi trừ các tiền lệ, phần còn lại không phải là một mô hình học máy mới hay một giao thức đánh giá mới. Kiểm soát rò rỉ dữ liệu, đánh giá theo nhóm, giữ lại một lần chạy và giữ lại một đợt thí nghiệm đều là phương pháp đã có. Phần còn lại gồm ba nội dung. Thứ nhất, chất lượng và độ ổn định của bằng chứng trạng thái phải được đo trên đúng bài toán dao động của khung thép liên kết bu lông, nơi số lần thử vật lý nhỏ hơn nhiều lần so với số cửa sổ tín hiệu. Thứ hai, hiệu năng trong cùng một đợt thí nghiệm phải được tách khỏi khả năng chuyển giao sang đợt chưa thấy sau khi liên kết được tháo và lắp lại, vì hai đại lượng này trả lời hai câu hỏi khác nhau và không được báo cáo gộp. Thứ ba, đầu ra phải được chuyển từ một con số hiệu năng thành một bản ghi bằng chứng mang nguồn gốc và phạm vi hiệu lực, tức là ghi lại đơn vị suy luận, cách chia dữ liệu, đợt lắp đặt, cấu hình cảm biến và phiên bản chuỗi xử lý đã tạo ra kết quả. Tiểu luận không báo cáo kết quả thực nghiệm nào; các phát biểu trên là yêu cầu kiểm chứng.
+
+**Phần luận án xử lý.**
+
+Nghiên cứu tập trung vào ba yêu cầu:
+
+> 1\. đánh giá ở cấp đơn vị vật lý độc lập, trong đó lần chạy là đơn vị quan trọng của thiết kế thí nghiệm;
+>
+> 2\. kiểm soát rò rỉ trên toàn chuỗi xử lý, trong đó mọi phép biến đổi có tham số học được chỉ được học từ phần huấn luyện;
+>
+> 3\. báo cáo phạm vi hiệu lực và khả năng chuyển giao giữa lần chạy, phiên đo hoặc đợt thí nghiệm thay vì chỉ báo cáo một điểm hiệu năng tổng hợp.
+
+### 5.2.2. Khoảng trống 2 – Bảo toàn chất lượng của bằng chứng trong truy vết cấp cấu kiện
+
+**Luận điểm.**
+
+Liên kết cảm biến với BIM, liên kết BIM với hệ quản lý bảo trì và gắn hồ sơ kiểm tra hoặc sửa chữa với cấu kiện đều đã có tiền lệ. Phần còn thiếu là bảo toàn các thuộc tính xác lập chất lượng của bằng chứng khi bằng chứng đi qua chuỗi tới cấu kiện và hồ sơ; tạo thêm một liên kết không giải quyết được điều đó.
+
+**Bằng chứng.**
+
+Sedigh và Müller (2025) liên kết dữ liệu chuỗi thời gian với IFC bằng định danh toàn cục \[5\]. Piras và cộng sự (2026) giữ định danh IFC khi đăng ký tài sản sang hệ quản lý bảo trì \[36\]. Li và cộng sự (2023) quản lý mã khiếm khuyết, vị trí cấu kiện, bản ghi sửa chữa và trạng thái hoàn thành \[34\]. Hagedorn, Pauwels và König (2023) kiểm tra các liên kết xuyên miền bằng ràng buộc có thể thực thi \[21\]. Các tiền lệ này đủ để bác bỏ tuyên bố rằng liên kết cảm biến, BIM, hồ sơ hoặc hệ quản lý bảo trì là mới. Borkowski và cộng sự đề xuất một lớp ontology bổ sung trên IFC để giữ định danh cấu kiện độc lập với giai đoạn vòng đời, kiểm chứng trên một nhà ở đơn lập với ba cấu kiện theo dõi qua ba giai đoạn và tám câu hỏi năng lực; trong phạm vi bài báo, mô hình không có bản ghi bằng chứng, không có hồ sơ kiểm tra gắn người chịu trách nhiệm và không có phép thử với liên kết sai \[33\]. Seiß và cộng sự hình thức hóa tri thức lập kế hoạch kiểm tra chất lượng bằng ontology OCQA theo phương pháp Linked Open Terms, đánh giá bằng một tập phương pháp đánh giá ontology; bài báo không thử một trường hợp dữ liệu sai nào \[82\].
+
+**Giới hạn.**
+
+Một định danh đúng hoặc một đường truy vấn chạy được không chứng minh rằng bằng chứng ở đầu chuỗi vẫn mang theo nguồn gốc, phiên bản chuỗi xử lý, giao thức đánh giá, độ bất định và phạm vi hiệu lực ở cuối chuỗi. Phạm vi hiệu lực cũng cần tách khỏi bối cảnh phiên bản mô hình: biết một định danh thuộc phiên bản mô hình nào chưa cho biết bằng chứng có được dùng cho đợt đo, cấu hình cảm biến hay giao thức đánh giá đang xét hay không.
+
+**Khoảng trống còn lại.**
+
+Phần còn lại phải được tách theo bốn mức quan hệ, vì các mức này thường bị gộp làm một. Mức thứ nhất là ánh xạ cảm biến với cấu kiện, cho biết nguồn đo nào gắn với cấu kiện nào. Mức thứ hai là gắn kết quả hoặc hồ sơ kiểm tra với cấu kiện, cho biết một bản ghi thuộc về cấu kiện nào. Mức thứ ba là truy vết bằng chứng mang theo nguồn gốc và phạm vi hiệu lực, cho biết bằng chứng được tạo ra trong điều kiện nào và được phép dùng cho phạm vi nào. Mức thứ tư là bảo toàn và kiểm chứng các thuộc tính đó khi bằng chứng chuyển sang hồ sơ kiểm tra và trạng thái hành động. Ba mức đầu đã có tiền lệ trong tập tài liệu đã rà soát. Mức thứ tư là phần luận án nhận làm đóng góp dự kiến. Một tiền lệ gần cần được ghi nhận đầy đủ: khung SHERPA dùng blockchain và hợp đồng thông minh để bảo đảm tính bất biến, xác thực dữ liệu và ghi nhận cảnh báo cho dữ liệu theo dõi trạng thái, thử nghiệm trên một cầu cạn tại Ý \[84\]. Khung này giải quyết tính toàn vẹn và khả năng kiểm toán của dòng dữ liệu, và chính nhóm tác giả phát biểu rằng nghiên cứu không nhằm diễn giải cấu trúc của dữ liệu. Phần chưa được giải quyết vì vậy không phải tính bất biến của bản ghi, mà là việc bản ghi có mang theo phạm vi hiệu lực của bằng chứng hay không, và các điều kiện sử dụng đó có được kiểm chứng khi bằng chứng đi tới cấu kiện, hồ sơ kiểm tra và trạng thái hành động hay không. Đóng góp dự kiến vì vậy thu hẹp còn bốn thành phần: mô hình dữ liệu hình thức cho thực thể, thuộc tính và quan hệ của chuỗi; quy tắc toàn vẹn viết dưới dạng ràng buộc thực thi được; bộ ca kiểm thử âm tính xác định trước; và các chỉ số đo khả năng kiểm chứng của chuỗi. Việc kết hợp nhiều công nghệ tự nó không được coi là tính mới.
+
+**Phần luận án xử lý.**
+
+Luận án xây dựng mô hình dữ liệu truy vết cấp cấu kiện, trong đó bản ghi bằng chứng lưu kết quả trạng thái cùng các thuộc tính cần để diễn giải chất lượng và phạm vi sử dụng. Chuỗi phải cho phép truy từ bằng chứng tới cấu kiện và hồ sơ, và truy ngược từ hồ sơ hoặc trạng thái hành động về căn cứ đã dùng. Tính toàn vẹn của chuỗi được đánh giá bằng câu hỏi nghiệp vụ và tiêu chí kiểm chứng xác định trước, không chỉ bằng một giao diện trình diễn. Dữ liệu thử gồm cả các trường hợp cố ý sai trên toàn chuỗi: bản ghi mồ côi, định danh trùng, gắn nhầm cấu kiện, liên kết đã lỗi thời, sai phiên bản mô hình, liên kết xung đột và bằng chứng nằm ngoài phạm vi hiệu lực.
+
+Ranh giới của đóng góp này cần được phát biểu rõ vì các thành phần nền đều đã có. Lớp quan trắc dùng lại từ vựng SOSA và SSN \[61\], \[62\]; lớp nguồn gốc dùng lại PROV và PAV; lớp yêu cầu thông tin dùng lại IDS \[73\]; lớp kiểm chứng quan hệ dùng lại ràng buộc ngữ nghĩa. Phần được đề xuất gồm bốn điểm. Thứ nhất, bản ghi bằng chứng trạng thái mang phạm vi hiệu lực như thuộc tính bắt buộc, gồm đơn vị suy luận, cách chia dữ liệu, đợt lắp đặt và cấu hình cảm biến đã tạo ra kết quả. Thứ hai, các thuộc tính này phải được bảo toàn qua chuỗi tới hồ sơ kiểm tra và trạng thái hành động, và điều kiện bảo toàn được viết thành ràng buộc thực thi được chứ không phải nguyên tắc mô tả. Thứ ba, chuỗi được kiểm chứng bằng một tập ca kiểm thử âm tính xác định trước cùng các chỉ số định lượng: tỷ lệ phát hiện quan hệ sai, tỷ lệ bản ghi đủ nguồn gốc, và thời gian truy ngược từ một trạng thái hành động về căn cứ. Thứ tư, đối tượng được giải trình là bản ghi kiểm tra tình trạng neo trên bằng chứng cảm biến, khác với chứng chỉ hiệu chuẩn trong đo lường, với quyết định công bố mô hình trong môi trường dữ liệu chung, và với định danh cấu kiện qua các giai đoạn vòng đời.
+
+### 5.2.3. Khoảng trống 3 – Từ bằng chứng có phạm vi hiệu lực đến trạng thái hành động có thể giải trình
+
+**Luận điểm.**
+
+Quy trình kiểm tra có con người tham gia, bản ghi sửa chữa, trạng thái hoàn thành và điều hướng giữa BIM với hệ quản lý bảo trì đều đã có tiền lệ. Phần còn thiếu nằm ở khả năng truy ngược trạng thái của một hành động về đúng căn cứ kỹ thuật, trong khi căn cứ đó mang theo phạm vi hiệu lực và lịch sử xử lý.
+
+**Bằng chứng.**
+
+Li và cộng sự (2023) lưu bản ghi sửa chữa và trạng thái hoàn thành \[34\]. Piras và cộng sự (2026) nối BIM với hệ quản lý bảo trì \[36\]. Wu và cộng sự (2026) đưa chuyên gia vào quá trình rà soát \[17\]. Çelik và cộng sự (2023) cung cấp tiền lệ ghi tác nhân, thời điểm và phiên bản trong nguồn gốc dữ liệu \[16\]. Wan và cộng sự (2019) mô tả bước người quản lý kiểm tra kết quả kiểm tra và sửa chữa; trong phạm vi các bảng thuộc tính được báo cáo trong bài, không có trường người rà soát hay trạng thái phê duyệt \[78\]. Kim và cộng sự (2018) ghi ngày thực hiện công việc; trong phạm vi lược đồ được báo cáo, không có trường người thực hiện \[6\]. Ciccarese và cộng sự (2013) đã phân biệt vai trò tác giả, người biên tập và các phiên bản kế tiếp của một tài nguyên số, song từ vựng này chưa được áp dụng cho hồ sơ kiểm tra gắn cấu kiện BIM trong tập tài liệu đã rà soát \[70\]. García và cộng sự (2026) hình thức hóa đầy đủ vai trò người thực hiện, người rà soát kỹ thuật, người phê duyệt hợp đồng, trạng thái và lịch sử thay thế cho quyết định công bố mô hình trong môi trường dữ liệu chung, kiểm chứng trên 22 tệp IFC thực từ hai dự án depot đường sắt; tuy nhiên đối tượng được giải trình là quyết định xuất bản mô hình BIM, không phải một bản ghi kiểm tra tình trạng công trình gắn với bằng chứng có nguồn gốc từ cảm biến \[44\].
+
+**Giới hạn.**
+
+Tổng quan tài liệu cho thấy chưa có đủ bằng chứng cho một chuỗi đồng thời bao gồm đầy đủ:
+
+- phạm vi hiệu lực của bằng chứng đầu vào;
+
+- vai trò hoặc người thực hiện rà soát;
+
+- trạng thái phê duyệt hoặc thẩm quyền;
+
+- lịch sử sự kiện có dấu thời gian;
+
+- xác minh sau hành động.
+
+**Bằng chứng hiện tại chưa đủ** để tuyên bố sự vắng mặt phổ quát của chuỗi này trong các nghiên cứu quốc tế. Khoảng trống chỉ được giữ trong phạm vi tập tài liệu đã rà soát. Sau khi García và cộng sự (2026) được xác nhận là nghiên cứu gần nhất và đầy đủ nhất cho một bản ghi giải trình có đủ vai trò, phần còn thiếu là giải trình cho một bản ghi kiểm tra neo trên bằng chứng trạng thái có nguồn gốc từ cảm biến, không phải cho việc công bố mô hình nói chung \[44\].
+
+**Khoảng trống còn lại.**
+
+Phần còn lại cần được phát biểu trên bốn khái niệm tách biệt. Truy vết thông tin là khả năng đi từ một mắt xích tới mắt xích kế tiếp và ngược lại. Khả năng giải trình và khả năng kiểm toán là khả năng nói rõ ai đã rà soát, dựa trên căn cứ nào, trong phạm vi hiệu lực nào, và lịch sử trạng thái đã đi qua những bước nào. Hiệu quả hỗ trợ quyết định là mức độ mà thông tin đó thực sự thay đổi chất lượng hoặc tốc độ quyết định của người quản lý. Tối ưu hóa quyết định là việc chọn phương án tốt nhất theo một hàm mục tiêu về chi phí và rủi ro. Luận án chỉ nhận phần thứ nhất và phần thứ hai làm đóng góp dự kiến. Hiệu quả hỗ trợ quyết định cần dữ liệu từ người sử dụng và hiện chưa có trong thiết kế đã khóa; bằng chứng hiện tại chưa đủ để phát biểu về nội dung này. Tối ưu hóa quyết định nằm ngoài phạm vi. Luận án không tuyên bố hệ thống ra quyết định tốt hơn chuyên gia, không tuyên bố giảm chi phí bảo trì và không tuyên bố tối ưu kế hoạch kiểm tra.
+
+**Phần luận án xử lý.**
+
+Trạng thái hành động là một phần của chuỗi thông tin, không phải đầu ra tự động của thuật toán. Bất thường hiện trường chỉ kích hoạt yêu cầu xem xét hoặc kiểm tra; người có trách nhiệm rà soát bằng chứng, xem phạm vi hiệu lực, quyết định bước kiểm tra phù hợp và ghi nhận trạng thái xử lý. Logic hỗ trợ hành động được giới hạn ở bốn mức (Bình thường → Theo dõi → Kiểm tra → Kiểm tra ưu tiên, Hình 5.3), phải gắn với bằng chứng và căn cứ truy ngược được, và không thay thế quyết định chuyên môn của người có trách nhiệm.
+
+### 5.2.4. Quan hệ giữa ba khoảng trống
+
+Ba khoảng trống tạo thành một chuỗi logic, trong đó mỗi khoảng trống chưa được xử lý sẽ làm mất giá trị của khoảng trống đứng trước. Nếu khoảng trống thứ nhất chưa được xử lý, hệ thống lưu được kết quả nhưng không biết kết quả đáng tin trong phạm vi nào. Nếu khoảng trống thứ hai chưa được xử lý, một bằng chứng có chất lượng vẫn có thể mất nguồn gốc hoặc phạm vi hiệu lực khi vào hệ thống thông tin. Nếu khoảng trống thứ ba chưa được xử lý, hồ sơ và hành động có thể được số hóa đầy đủ mà người quản lý vẫn không truy ngược được quyết định về căn cứ kỹ thuật đã dùng.
+
+Mục tiêu của luận án vì vậy là duy trì **tính liên tục của bằng chứng và khả năng giải trình** xuyên suốt chuỗi nghiên cứu (Hình 1.1), với bằng chứng trạng thái được xác lập rõ về chất lượng và phạm vi hiệu lực ngay từ mắt xích thứ hai, thay vì tối đa hóa hiệu năng của một mắt xích riêng lẻ. Đây là điểm nối giữa phần kỹ thuật của theo dõi trạng thái và bài toán quản lý thông tin tài sản trong ngành Quản lý xây dựng.
+
+## 5.3. Luận đề trung tâm và mục tiêu nghiên cứu
+
+### 5.3.1. Luận đề trung tâm
+
+Từ ba khoảng trống trên, luận đề trung tâm của luận án được phát biểu như sau:
+
+Một khung Song sinh số dựa trên dữ liệu, có khả năng tổ chức, liên kết và truy vết bằng chứng trạng thái từ dữ liệu dao động tới cấu kiện BIM và hồ sơ kiểm tra, có thể hỗ trợ việc lựa chọn và ghi nhận hành động kiểm tra – bảo trì theo cách minh bạch và có thể kiểm chứng trong điều kiện dữ liệu thực tế có nhãn còn hạn chế.
+
+Luận đề này gồm bốn mệnh đề cần được kiểm chứng riêng:
+
+> 1\. dữ liệu dao động có thể tạo ra bằng chứng trạng thái đáng tin trong phạm vi đã kiểm chứng;
+>
+> 2\. bằng chứng đó có thể được tổ chức và truy vết tới cấu kiện cùng hồ sơ;
+>
+> 3\. kiến trúc truy vết có thể được kiểm chứng trong bối cảnh công trình thực mà không cần giả định có sẵn nhãn hư hỏng;
+>
+> 4\. chuỗi thông tin có thể hỗ trợ hành động quản lý minh bạch mà không tự động thay thế người ra quyết định.
+
+Mỗi mệnh đề cần một loại bằng chứng khác nhau, và kết quả của một mệnh đề không được dùng để thay thế bằng chứng của mệnh đề khác.
+
+### 5.3.2. Mục tiêu tổng quát
+
+Mục tiêu tổng quát của luận án là:
+
+Phát triển và kiểm chứng một khung Song sinh số dựa trên dữ liệu phục vụ giám sát trạng thái và hỗ trợ kiểm tra – bảo trì nhà công nghiệp khung thép, trong đó bằng chứng trạng thái từ dữ liệu dao động được tổ chức, liên kết và truy vết tới cấu kiện BIM, hồ sơ kiểm tra và trạng thái hành động.
+
+Trọng tâm của mục tiêu nằm ở **quản lý thông tin và hỗ trợ quyết định kiểm tra – bảo trì**, không nằm ở phát triển một thuật toán trí tuệ nhân tạo mới hoặc một mô hình cơ học mới.
+
+### 5.3.3. Mục tiêu cụ thể
+
+**Mục tiêu 1.** Xác lập quy trình tạo và đánh giá bằng chứng trạng thái từ dữ liệu dao động phòng thí nghiệm trên cơ sở đơn vị vật lý độc lập, kiểm soát rò rỉ dữ liệu và báo cáo phạm vi hiệu lực của bằng chứng.
+
+**Mục tiêu 2.** Xây dựng và kiểm chứng mô hình dữ liệu truy vết cấp cấu kiện, liên kết nguồn đo, cấu kiện BIM, bản ghi bằng chứng và hồ sơ kiểm tra theo một chuỗi định danh có thể kiểm tra.
+
+**Mục tiêu 3.** Xác lập phương pháp đánh giá khả năng áp dụng của khung trong bối cảnh nhà công nghiệp khung thép thực, tập trung vào tính liên tục của định danh, bằng chứng, hồ sơ kiểm tra và trạng thái hành động.
+
+*Ghi chú về phạm vi: nội dung triển khai cụ thể và kết quả thực nghiệm của Mục tiêu 3 thuộc các chuyên đề nghiên cứu tiếp theo, không thuộc nội dung của Tiểu luận tổng quan.*
+
+**Mục tiêu 4.** Tổng hợp các lớp bằng chứng thành logic hỗ trợ hành động kiểm tra – bảo trì minh bạch, có người rà soát, có trạng thái và có khả năng truy ngược về căn cứ. Đây là mục tiêu tổng hợp và không tạo thêm một câu hỏi nghiên cứu độc lập.
+
+## 5.4. Câu hỏi nghiên cứu
+
+### 5.4.1. Câu hỏi nghiên cứu 1 – Bằng chứng phòng thí nghiệm
+
+**Dữ liệu dao động từ mô hình khung thép 1:10 và các cấu hình cảm biến khác nhau có thể tạo ra bằng chứng phân biệt các trạng thái liên kết có kiểm soát ở mức độ tin cậy nào dưới một giao thức đánh giá nhận biết cấu trúc lần chạy và kiểm soát rò rỉ dữ liệu?**
+
+Câu hỏi này không tìm mô hình “tốt nhất”. Trọng tâm là độ tin cậy của bằng chứng, đơn vị suy luận và phạm vi mà kết quả đã được kiểm chứng.
+
+### 5.4.2. Câu hỏi nghiên cứu 2 – Truy vết cấp cấu kiện
+
+**Bằng chứng trạng thái từ dữ liệu cảm biến có thể được tổ chức và liên kết với cấu kiện BIM và hồ sơ kiểm tra như thế nào để bảo đảm khả năng truy vết cấp cấu kiện?**
+
+Câu hỏi này tập trung vào cấu trúc dữ liệu, chuỗi định danh, nguồn gốc bằng chứng, tính đầy đủ của quan hệ và khả năng kiểm tra chuỗi bằng các câu hỏi nghiệp vụ xác định trước. Một giao diện trực quan chạy được không đủ để trả lời câu hỏi nếu quan hệ dữ liệu bên dưới không được kiểm chứng.
+
+### 5.4.3. Câu hỏi nghiên cứu 3 – Khả năng áp dụng trong bối cảnh công trình thực và hỗ trợ kiểm tra
+
+**Một khung Song sinh số dựa trên dữ liệu có thể hỗ trợ việc lựa chọn và ghi nhận hành động kiểm tra trong bối cảnh công trình thực như thế nào khi dữ liệu hư hỏng có nhãn còn hạn chế?**
+
+Câu hỏi này không giả định rằng bộ phân loại phòng thí nghiệm có thể chuyển trực tiếp sang công trình thực. Ở cấp Tiểu luận tổng quan, nội dung được xác lập là các yêu cầu cần kiểm chứng đối với sự liên tục của định danh, bối cảnh dữ liệu, quan hệ truy vết, hồ sơ kiểm tra và trạng thái hành động. Cách triển khai kỹ thuật, dữ liệu thực nghiệm và kết quả đánh giá thuộc các nghiên cứu chuyên đề tiếp theo. Mọi bất thường trong dữ liệu vận hành chỉ tạo căn cứ cho việc xem xét hoặc kiểm tra, không dẫn trực tiếp tới kết luận hư hỏng.
+
+### 5.4.4. Logic kế tiếp giữa ba câu hỏi
+
+**Câu hỏi 1: Bằng chứng có đáng tin trong phạm vi nào?\
+↓\
+Câu hỏi 2: Bằng chứng đó được tổ chức và truy vết như thế nào?\
+↓\
+Câu hỏi 3: Khung đó có thể áp dụng và hỗ trợ kiểm tra trong bối cảnh công trình thực ra sao?**
+
+Ba câu hỏi kế tiếp nhau nhưng không thay thế lẫn nhau.
+
+## 5.5. Ánh xạ câu hỏi nghiên cứu – gói công việc – bài báo – thiết kế kiểm chứng
+
+### 5.5.1. Ma trận kiến trúc nghiên cứu
+
+Trong chương này, RQ là câu hỏi nghiên cứu và WP là gói công việc. Phần kiểm chứng được trình bày như thiết kế phương pháp dự kiến nhằm cho thấy mỗi câu hỏi cần loại bằng chứng nào; Tiểu luận tổng quan không báo cáo trạng thái thực hiện hoặc kết quả của các bước kiểm chứng đó.
+
+<span id="TLTQ_Bang_5_2" class="anchor"></span>Bảng 5.2. Ánh xạ câu hỏi nghiên cứu, gói công việc, bài báo và thiết kế kiểm chứng
+
+| Câu hỏi | Gói công việc | Nội dung cốt lõi | Chương luận án dự kiến | Công bố dự kiến | Thiết kế kiểm chứng |
+|----|----|----|:--:|:--:|----|
+| RQ1 | WP1 – Bằng chứng dao động phòng thí nghiệm | Sổ đăng ký lần chạy; trạng thái có kiểm soát; cấu hình cảm biến; đánh giá theo lần chạy; kiểm soát rò rỉ; phạm vi hiệu lực | Chương 4 | Công bố 1 | Chất lượng bằng chứng phòng thí nghiệm |
+| RQ2 | WP2 – Truy vết BIM – cảm biến – kiểm tra | Mô hình dữ liệu; chuỗi định danh; câu hỏi nghiệp vụ; tiêu chí kiểm chứng; trình diễn đầu cuối | Chương 5 | Công bố 2 | Mô hình dữ liệu và tính toàn vẹn truy vết |
+| RQ3 | WP3 – Khả năng áp dụng trong bối cảnh thực tế và hỗ trợ kiểm tra | Yêu cầu duy trì bối cảnh dữ liệu; ánh xạ định danh; quan hệ bằng chứng – cấu kiện – hồ sơ; tiêu chí đánh giá khả năng áp dụng | Chương 6 | Công bố 3 | Khả năng áp dụng trong bối cảnh công trình thực |
+| Tổng hợp RQ2 – RQ3 | WP4 – Tổng hợp hỗ trợ quyết định | Logic Bình thường → Theo dõi → Kiểm tra → Kiểm tra ưu tiên; rà soát chuyên gia/người quản lý | Chương 7 | Phần tổng hợp của luận án | Rà soát logic hỗ trợ hành động, Evidence Gate 5 |
+
+*Ghi chú Bảng 5.2:* các số chương ở cột “Chương luận án dự kiến” là chương dự kiến **của luận án**, không phải chương của Tiểu luận tổng quan. Các bước kiểm chứng dưới đây chỉ xác lập nghĩa vụ khoa học của từng phần nghiên cứu. Chúng không phải mốc tiến độ, trạng thái hoàn thành phần mềm hay kết quả thực nghiệm được báo cáo trong Tiểu luận tổng quan.
+
+### 5.5.2. Nội dung các bước kiểm chứng dự kiến
+
+**Bước kiểm chứng 1 – Chất lượng và phạm vi hiệu lực của bằng chứng trạng thái.**
+
+Xác lập yêu cầu về đơn vị vật lý độc lập, kiểm soát rò rỉ dữ liệu, tính tái lập của chuỗi xử lý và cách báo cáo phạm vi hiệu lực; chi tiết thực nghiệm và kết quả được trình bày ở chuyên đề tương ứng.
+
+**Bước kiểm chứng 2 – Mô hình dữ liệu truy vết và câu hỏi nghiệp vụ.**
+
+Xác định trước các thực thể, thuộc tính, quan hệ, ràng buộc, nguồn gốc và các câu hỏi nghiệp vụ mà mô hình dữ liệu phải hỗ trợ.
+
+**Bước kiểm chứng 3 – Tính toàn vẹn của chuỗi truy vết.**
+
+Đặt yêu cầu kiểm tra khả năng truy theo hai chiều, bảo toàn nguồn gốc và phạm vi hiệu lực, đồng thời phát hiện các trường hợp quan hệ thiếu, sai hoặc không nhất quán bằng dữ liệu thử được xác định trước.
+
+**Bước kiểm chứng 4 – Khả năng áp dụng trong bối cảnh công trình thực.**
+
+Đặt yêu cầu đánh giá liệu chuỗi định danh, bối cảnh dữ liệu, bằng chứng và hồ sơ có thể được duy trì trong điều kiện vận hành thực tế hay không; Tiểu luận không mô tả cấu hình triển khai hoặc kết quả của bước này.
+
+**Bước kiểm chứng 5 – Khả năng hỗ trợ hành động có thể giải trình.**
+
+Đặt yêu cầu đánh giá logic hỗ trợ hành động qua các tình huống có người quản lý hoặc chuyên gia rà soát, trong đó căn cứ, vai trò và trạng thái xử lý phải có thể truy lại.
+
+## 5.6. Khung nghiên cứu bốn lớp và kiến trúc Song sinh số dựa trên dữ liệu
+
+### 5.6.1. Chuỗi nghiên cứu
+
+Chuỗi nghiên cứu được giữ cố định theo Hình 1.1, và mỗi mũi tên trong chuỗi mang một nghĩa vụ kiểm chứng riêng. Mũi tên thứ nhất yêu cầu bằng chứng không được sinh ra từ một quá trình rò rỉ dữ liệu hoặc từ cách đếm sai đơn vị độc lập. Mũi tên thứ hai yêu cầu bằng chứng được gắn đúng cấu kiện và giữ được nguồn gốc. Mũi tên thứ ba yêu cầu hồ sơ kiểm tra là một bản ghi truy vết được, chứ không chỉ là ghi chú gắn vào mô hình. Mũi tên cuối yêu cầu trạng thái hành động có căn cứ và lịch sử xử lý có thể truy lại.
+
+### 5.6.2. Chuỗi định danh
+
+Ghi chú: FEM_Node_ID chỉ là metadata tùy chọn, không nằm trong chuỗi định danh bắt buộc.
+
+![](../figures/Hinh_5_1_Chuoi_dinh_danh_cot_loi.png)
+<!-- GĐ0: hình gốc vẽ bằng shape trong .docx; ảnh cắt từ PDF do Word xuất ngày 28/09/2026 -->
+
+<span id="TLTQ_Hinh_5_1" class="anchor"></span>Hình 5.1. Chuỗi định danh cốt lõi
+
+Trong đó *Sensor_ID* là định danh nguồn đo; *BIM_GUID* là định danh cấu kiện trong mô hình thông tin; *Condition_Evidence_ID* là định danh bản ghi bằng chứng trạng thái; *Inspection_Record_ID* là định danh hồ sơ kiểm tra; và *Action_Status* là trạng thái xử lý của hành động kiểm tra hoặc bảo trì.
+
+Chuỗi không yêu cầu mọi dữ liệu nằm trong cùng một cơ sở dữ liệu; yêu cầu chính là các định danh và quan hệ đủ ổn định để truy theo chiều thuận và chiều ngược. *FEM_Node_ID*, nếu có, chỉ là siêu dữ liệu tùy chọn.
+
+*Trong chuỗi này, Action_Status là trạng thái hiện thời của một bản ghi hành động, không phải một định danh duy nhất. Để quản lý lịch sử xử lý và trách nhiệm, mô hình dữ liệu dùng thêm hai siêu dữ liệu phụ trợ: Action_ID định danh bản ghi hành động, và Status_Event_ID định danh từng sự kiện chuyển trạng thái, kèm thời điểm, người thực hiện hoặc vai trò, lý do chuyển và căn cứ đã dùng. Hai định danh này không làm thay đổi chuỗi lõi ở Hình 5.1; chúng nằm ở lớp dữ liệu bên dưới để trạng thái hiện thời luôn truy ngược được về lịch sử đã tạo ra nó.*
+
+Chuỗi định danh lõi được giữ nguyên. Phần được hình thức hóa nằm bên dưới chuỗi, gồm các thực thể và thuộc tính cần thiết để chuỗi đúng theo thời gian và ngữ cảnh: bản ghi ánh xạ cảm biến với cấu kiện có thời gian hiệu lực và phiên bản mô hình; bản ghi bối cảnh quan trắc gồm đợt đo, cấu hình cảm biến và điều kiện môi trường ghi nhận được; liên hệ giữa bằng chứng với cấu kiện kèm căn cứ và phạm vi hiệu lực; và lịch sử thay đổi của từng ánh xạ. Bộ dữ liệu thử phải bao gồm các trường hợp cảm biến được di chuyển, ánh xạ đã hết hiệu lực, cấu kiện bị gắn nhầm và bằng chứng được dùng ngoài phạm vi đã kiểm chứng. Một chuỗi truy vết chỉ được coi là đúng khi phát hiện được các trường hợp này, không phải khi truy vấn chạy thành công.
+
+Cần phân biệt hai loại đúng đắn ở đây. Loại thứ nhất là tính toàn vẹn của quan hệ dữ liệu: các quy tắc có thể kiểm tra được bản ghi có mồ côi hay không, định danh có trùng hay không, liên kết có hết hiệu lực hay không, phiên bản mô hình có khớp hay không và bằng chứng có được dùng ngoài phạm vi hiệu lực đã ghi hay không. Loại thứ hai là tính đúng đắn của ánh xạ cảm biến với cấu kiện ngoài thực tế, tức là cảm biến có thực sự được lắp ở cấu kiện đã khai báo hay không. Loại thứ hai không suy ra được từ dữ liệu của mô hình mà phải dựa trên hồ sơ lắp đặt, biên bản nghiệm thu và bảng đối chiếu định danh được xác nhận độc lập tại hiện trường. Vì vậy bộ quy tắc dữ liệu không được coi là phương tiện phát hiện mọi trường hợp gắn cảm biến sai ngoài thực tế. Quan hệ Sensor_ID → BIM_GUID chỉ là ánh xạ giữa nguồn đo và cấu kiện, không chứng minh nguồn vật lý của một bất thường. Action_ID và Status_Event_ID vẫn là siêu dữ liệu phụ trợ và chuỗi lõi không thay đổi.
+
+### 5.6.3. Bốn lớp bằng chứng
+
+![](../figures/Hinh_5_2_Kien_truc_kiem_chung_bon_lop.png)
+<!-- GĐ0: hình gốc vẽ bằng shape trong .docx; ảnh cắt từ PDF do Word xuất ngày 28/09/2026 -->
+
+<span id="TLTQ_Hinh_5_2" class="anchor"></span>Hình 5.2. Kiến trúc kiểm chứng bốn lớp
+
+**Lớp 1 – Bằng chứng phòng thí nghiệm.** Chứng minh khả năng phân biệt các trạng thái liên kết có kiểm soát trong phạm vi đã thí nghiệm dưới giao thức đánh giá phù hợp. Đầu ra là bản ghi bằng chứng trạng thái có nguồn gốc, cấu hình cảm biến, phiên bản chuỗi xử lý, độ bất định và phạm vi hiệu lực.
+
+**Lớp 2 – Truy vết thông tin.** Chứng minh chuỗi định danh, bản ghi và quan hệ có tính toàn vẹn và có thể kiểm tra. Lớp này phải cho phép trả lời các câu hỏi như: bằng chứng đến từ nguồn đo nào; liên quan tới cấu kiện nào; hồ sơ kiểm tra nào liên quan; trạng thái hành động hiện tại là gì; và từ hồ sơ có truy ngược được về căn cứ ban đầu hay không.
+
+**Lớp 3 – Khả năng áp dụng trong bối cảnh thực tế.** Lớp này đặt yêu cầu kiểm chứng rằng kiến trúc có thể duy trì mối liên hệ giữa dữ liệu vận hành, định danh cấu kiện, bằng chứng, hồ sơ kiểm tra và trạng thái hành động trong điều kiện sử dụng thực. Lớp này không chứng minh phát hiện hư hỏng thực và không tiếp nhận trực tiếp bộ phân loại hoặc ngưỡng định lượng từ mô hình 1:10.
+
+**Lớp 4 – Hỗ trợ quyết định quản lý.** Chứng minh quy trình có thể đưa một bằng chứng vào quá trình xem xét hành động theo cách minh bạch, có người rà soát và có trạng thái được ghi nhận. Lớp này không phải hệ thống ra quyết định tự động và không thay thế đánh giá kỹ thuật.
+
+### 5.6.4. Thang kiểm chứng
+
+<span id="TLTQ_Bang_5_3" class="anchor"></span>Bảng 5.3. Thang kiểm chứng của khung nghiên cứu
+
+| **Mức** | **Nội dung kiểm chứng** | **Điều không được suy ra** |
+|:--:|:---|:---|
+| V1 – Giá trị phòng thí nghiệm | Phân biệt trạng thái có kiểm soát dưới đánh giá theo đơn vị vật lý | Chẩn đoán hiện trường |
+| V2 – Giá trị truy vết | Chuỗi định danh và quan hệ trả lời đúng các câu hỏi nghiệp vụ | Độ chính xác kỹ thuật của mô hình phân loại |
+| V3 – Khả năng áp dụng trong bối cảnh thực tế | Duy trì được bối cảnh dữ liệu, định danh, quan hệ truy vết và hồ sơ trong điều kiện sử dụng thực | Phát hiện hư hỏng thực |
+| V4 – Giá trị hỗ trợ quyết định | Căn cứ và đề xuất được trình bày minh bạch, có người quản lý rà soát | Quyết định tự động hoặc tối ưu toàn cục |
+
+### 5.6.5. Luồng dữ liệu và luồng trách nhiệm
+
+Kiến trúc nghiên cứu gồm hai luồng song song. **Luồng dữ liệu** đi từ cảm biến tới bằng chứng, cấu kiện, hồ sơ và trạng thái hành động. **Luồng trách nhiệm** đi từ người hoặc hệ thống tạo dữ liệu, qua người kiểm tra chất lượng, người rà soát, người phê duyệt và người thực hiện hành động.
+
+Hai luồng gặp nhau tại bản ghi. Bản ghi bằng chứng cần lưu giá trị hoặc trạng thái cùng nguồn tạo ra, thời điểm, phiên bản xử lý và phạm vi hiệu lực; bản ghi hành động cần lưu việc đã hoàn thành hay chưa cùng căn cứ, người rà soát và lịch sử thay đổi trạng thái. Khả năng giải trình trong quản lý tài sản dựa trên chính các trường này.
+
+### 5.6.6. Định vị Song sinh số
+
+Luận án giữ mục tiêu **phát triển khung Song sinh số dựa trên dữ liệu**. Các nghiên cứu phân mức Song sinh số theo nhiều cách: theo chiều và mức tự động của luồng dữ liệu \[8\], theo các mức biểu diễn số trong môi trường xây dựng \[9\], hoặc theo mô hình trưởng thành đa chiều cho quản lý tài sản \[10\]. Các khung này là **tham chiếu đánh giá năng lực**, không phải căn cứ để gán trước một nhãn trưởng thành cho hệ thống.
+
+Hai nguyên tắc được giữ:
+
+> 1\. **Song sinh số là mục tiêu kiến trúc của nghiên cứu.**
+>
+> 2\. **Mức năng lực đạt được là một kết quả phải được đánh giá sau triển khai.**
+
+Việc đánh giá mức năng lực Song sinh số thuộc giai đoạn kiểm chứng sau Tiểu luận tổng quan. Khi đó, nghiên cứu cần xem xét những chức năng nào thực sự được hiện thực hóa, luồng dữ liệu nào được cập nhật, quan hệ nào truy vấn được, phản hồi từ hồ sơ và hành động được ghi nhận tới đâu, và con người tham gia ở mức nào. **Bằng chứng hiện tại chưa đủ** để kết luận trước rằng khung đã đạt một mức trưởng thành Song sinh số cụ thể. Nghiên cứu không đặt mục tiêu tự động tác động vật lý lên công trình, điều khiển thời gian thực, bảo trì tự động, dự báo tuổi thọ còn lại hoặc bảo trì dự báo chỉ để đạt mức phân loại cao hơn.
+
+## 5.7. Đóng góp dự kiến của luận án
+
+### 5.7.1. Đóng góp 1 – Bằng chứng trạng thái có chất lượng và phạm vi hiệu lực rõ
+
+Đóng góp dự kiến thứ nhất là quy trình tạo và đánh giá bằng chứng trạng thái ở cấp đơn vị vật lý cho bài toán trạng thái liên kết khung thép. Thuật toán phân loại, kiểm định hoán vị, đánh giá giữ lại từng lần chạy hay kiểm soát rò rỉ đều đã có tiền lệ khi đứng riêng; đóng góp dự kiến nằm ở việc kết hợp chúng thành một quy trình tái lập được, trong đó đầu ra trở thành bản ghi bằng chứng có nguồn gốc, độ bất định và phạm vi hiệu lực rõ.
+
+Nếu kết quả suy giảm giữa các đợt thí nghiệm, đó chưa phải thất bại; nó cho thấy phạm vi hiệu lực hẹp hơn và phải được ghi nhận đúng.
+
+Ánh xạ và điều kiện kiểm chứng. Đóng góp 1 thuộc RQ1, gói công việc WP1, Bài báo 1 và Evidence Gate 1. Kiến thức dự kiến tạo ra là một quy trình tạo và đánh giá bằng chứng trạng thái ở cấp đơn vị vật lý, tái lập được, cùng cách báo cáo phạm vi hiệu lực. Khác biệt so với nghiên cứu hiện có nằm ở chỗ các nghiên cứu tiền lệ trên khung thép liên kết bu lông thường không mô tả rõ đơn vị suy luận và cấp chia dữ liệu. Bằng chứng cần thiết gồm dữ liệu từ ít nhất ba đợt tháo lắp lại, kết quả đánh giá theo ba cách chia, và báo cáo chênh lệch giữa các cách chia đó. Giới hạn kết luận: kết quả chỉ chứng minh khả năng phân biệt trạng thái có kiểm soát trong phạm vi thí nghiệm, không chứng minh khả năng chẩn đoán hư hỏng tại công trình.
+
+### 5.7.2. Đóng góp 2 – Khung truy vết cấp cấu kiện bảo toàn chất lượng của bằng chứng
+
+Đóng góp dự kiến thứ hai là mô hình dữ liệu truy vết hình thức hóa chuỗi định danh ở Hình 5.1, xây trên các chuẩn đã có thay vì thay thế chúng: lớp quan trắc dùng SOSA và SSN, lớp nguồn gốc dùng PROV và PAV, lớp yêu cầu thông tin dùng Information Delivery Specification, lớp kiểm chứng quan hệ dùng ràng buộc ngữ nghĩa. Các chuẩn này được dùng ở mức cần thiết cho bài toán, ưu tiên tái sử dụng công cụ sẵn có. Phần được đề xuất gồm bốn điểm. Thứ nhất, phạm vi hiệu lực là thuộc tính bắt buộc của bản ghi bằng chứng, gồm đơn vị suy luận, cách chia dữ liệu, đợt lắp đặt và cấu hình cảm biến. Thứ hai, điều kiện bảo toàn các thuộc tính đó qua chuỗi tới hồ sơ kiểm tra và trạng thái hành động được viết thành ràng buộc thực thi được. Thứ ba, chuỗi được kiểm chứng bằng tập ca kiểm thử âm tính xác định trước cùng ba chỉ số: tỷ lệ phát hiện quan hệ sai, tỷ lệ bản ghi đủ nguồn gốc và thời gian truy ngược. Thứ tư, đối tượng được giải trình là bản ghi kiểm tra tình trạng neo trên bằng chứng cảm biến, khác với chứng chỉ hiệu chuẩn trong đo lường, với quyết định công bố mô hình trong môi trường dữ liệu chung, và với định danh cấu kiện qua các giai đoạn vòng đời.
+
+Cấu hình triển khai được chọn là một phương án duy nhất, giữ ở mức tối thiểu nhưng không giảm nghĩa vụ kiểm chứng khoa học. Phương án này gồm bốn thành phần. Thứ nhất, một mô hình dữ liệu cốt lõi với các thực thể nguồn đo, ánh xạ nguồn đo với cấu kiện, bối cảnh quan trắc, bằng chứng trạng thái, cấu kiện trong mô hình thông tin, hồ sơ kiểm tra và lịch sử hành động. Thứ hai, một cơ chế kiểm chứng chính cho các quan hệ của mô hình dữ liệu. Thứ ba, một bộ dữ liệu thử gồm các trường hợp hợp lệ và các trường hợp cố ý sai, thiếu, trùng, xung đột hoặc liên kết đã hết hiệu lực. Thứ tư, một bộ câu hỏi năng lực cùng tiêu chí chấp nhận được khóa trước khi kiểm chứng. IFC và IDS, SOSA và SSN, PROV và PAV, cùng ràng buộc ngữ nghĩa được tham chiếu hoặc tái sử dụng ở mức cần thiết cho phương án đã chọn; không phải mọi chuẩn trong số này đều được triển khai đầy đủ. Các nghĩa vụ khoa học giữ nguyên: nguồn gốc, phạm vi hiệu lực, phiên bản và thời gian hiệu lực, truy vết hai chiều, ca kiểm thử âm tính và quy tắc toàn vẹn. Công bố 2 không nhận nhiệm vụ xây dựng một mô hình dữ liệu (ontology) tổng quát, một nền tảng phần mềm mới hay một hệ thống Song sinh số hoàn chỉnh.
+
+Người quản lý phải kiểm lại được nguồn cảnh báo, điều kiện đánh giá, phạm vi hiệu lực, hồ sơ liên quan và trạng thái xử lý, chứ không chỉ nhìn thấy một cảnh báo trên mô hình.
+
+Ánh xạ và điều kiện kiểm chứng. Đóng góp 2 thuộc RQ2, gói công việc WP2, Bài báo 2 và Evidence Gate 2 đến 3. Kiến thức dự kiến tạo ra là mô hình dữ liệu hình thức cùng bộ quy tắc toàn vẹn cho chuỗi bằng chứng ở cấp cấu kiện, kèm bộ ca kiểm thử âm tính. Khác biệt so với nghiên cứu hiện có nằm ở phạm vi hiệu lực của bằng chứng như thuộc tính bắt buộc và ở yêu cầu bảo toàn thuộc tính đó qua chuỗi, thay vì ở việc tạo thêm liên kết hoặc bảo đảm tính bất biến của bản ghi. Bằng chứng cần thiết gồm mô hình dữ liệu triển khai được, tập câu hỏi nghiệp vụ, dữ liệu thử đúng và sai, cùng ba chỉ số: tỷ lệ phát hiện quan hệ sai, tỷ lệ bản ghi đủ nguồn gốc và thời gian truy ngược. Giới hạn kết luận: kết quả chỉ chứng minh tính toàn vẹn của chuỗi thông tin trong phạm vi dữ liệu thử, không chứng minh giá trị quản lý của hệ thống. Việc xây dựng phần mềm, kết nối Revit với IFC hay dựng giao diện Song sinh số không được tính là đóng góp khoa học.
+
+### 5.7.3. Đóng góp 3 – Cơ sở kiểm chứng khả năng áp dụng của chuỗi truy vết
+
+Đóng góp dự kiến thứ ba là xây dựng cơ sở kiểm chứng cho khả năng áp dụng của kiến trúc truy vết trong bối cảnh nhà công nghiệp khung thép thực. Trọng tâm không nằm ở một cấu hình thiết bị hay nền tảng phần mềm cụ thể, mà ở việc duy trì được quan hệ giữa nguồn dữ liệu, cấu kiện, bằng chứng, hồ sơ kiểm tra và trạng thái hành động trong bối cảnh vận hành.
+
+Ranh giới ở đây: phần có thể chuyển từ mô hình 1:10 sang bối cảnh thực tế là **nguyên tắc tổ chức và truy vết bằng chứng**, không phải bộ phân loại hay ngưỡng định lượng. Điều kiện môi trường, vận hành và lịch sử can thiệp phải được xem là bối cảnh của dữ liệu khi diễn giải tín hiệu; việc chúng ảnh hưởng như thế nào tới từng loại kết cấu cần được kiểm chứng trong nghiên cứu chuyên đề, không được suy ra từ Tiểu luận tổng quan.
+
+Ánh xạ và điều kiện kiểm chứng. Đóng góp 3 thuộc RQ3, gói công việc WP3, Bài báo 3 và Evidence Gate 4. Kiến thức dự kiến tạo ra là phương pháp đánh giá khả năng áp dụng của chuỗi truy vết trong bối cảnh vận hành thực, tập trung vào tính liên tục của định danh, bối cảnh dữ liệu, bằng chứng và hồ sơ. Bằng chứng cần thiết gồm dữ liệu từ công trình thực, nhật ký thay đổi cảm biến và mô hình, cùng kết quả kiểm tra chuỗi trong điều kiện đó. Giới hạn kết luận: kết quả chỉ nói về khả năng duy trì quan hệ thông tin, không nói về khả năng phát hiện hư hỏng thực và không suy ra từ kết quả phòng thí nghiệm.
+
+### 5.7.4. Đóng góp 4 – Logic hỗ trợ hành động minh bạch và có thể giải trình
+
+Đóng góp dự kiến thứ tư là logic hỗ trợ hành động bốn mức.
+
+Bất thường hiện trường dẫn tới kiểm tra, không dẫn trực tiếp tới kết luận hư hỏng.
+
+![](../figures/Hinh_5_3_Logic_ho_tro_hanh_dong.png)
+<!-- GĐ0: hình gốc vẽ bằng shape trong .docx; ảnh cắt từ PDF do Word xuất ngày 28/09/2026 -->
+
+<span id="TLTQ_Hinh_5_3" class="anchor"></span>Hình 5.3. Logic hỗ trợ hành động
+
+Logic này không phải chỉ số sức khỏe tổng hợp hay hệ thống bảo trì tự động. Mỗi mức gắn với bằng chứng, phạm vi hiệu lực, cấu kiện liên quan, hồ sơ kiểm tra, vai trò người rà soát, trạng thái hành động và lý do chuyển trạng thái. Giá trị của lớp này là làm rõ căn cứ của hành động và cho phép truy ngược quyết định về bằng chứng đã dùng.
+
+Ánh xạ và điều kiện kiểm chứng. Đóng góp 4 thuộc phần tổng hợp của RQ2 và RQ3, gói công việc WP4 và Evidence Gate 5. Kiến thức dự kiến tạo ra là một logic hỗ trợ hành động trong đó mỗi mức ưu tiên gắn với bằng chứng, phạm vi hiệu lực, vai trò người rà soát và lịch sử trạng thái. Bằng chứng cần thiết gồm các tình huống rà soát có người tham gia, trong đó căn cứ và trạng thái phải truy lại được. Giới hạn kết luận: kết quả chỉ chứng minh khả năng giải trình của chuỗi, không chứng minh hiệu quả của quyết định và không so sánh với phán đoán chuyên gia. Bằng chứng hiện tại chưa đủ để phát biểu về hiệu quả quyết định.
+
+### 5.7.5. Đóng góp ở cấp ngành Quản lý xây dựng
+
+Bốn đóng góp trên hợp lại thành một đóng góp ở cấp ngành:
+
+một cách tổ chức và kiểm chứng dòng thông tin từ bằng chứng kỹ thuật tới quy trình kiểm tra – bảo trì.
+
+Luận án sử dụng dữ liệu dao động, học máy, BIM và các công cụ số nhưng không định vị đóng góp chính ở kỹ thuật kết cấu hoặc khoa học máy tính. Đối tượng quản lý là **thông tin về trạng thái tài sản, hồ sơ kiểm tra và trạng thái hành động**, với mục tiêu tăng khả năng truy vết, giải trình và hỗ trợ quyết định. Đây là lý do trục nghiên cứu thuộc Quản lý xây dựng và quản lý tài sản.
+
+Đóng góp ở cấp ngành vì vậy được phát biểu ở dạng quản lý thông tin tài sản: tổ chức, bảo toàn và kiểm chứng dòng thông tin từ bằng chứng kỹ thuật tới hồ sơ và quy trình kiểm tra, sao cho mỗi hành động kiểm tra truy ngược được về căn cứ, phạm vi hiệu lực, người rà soát và lịch sử xử lý. Toàn bộ nội dung mục này là đóng góp dự kiến, chưa phải kết quả đã được kiểm chứng.
+
+## 5.8. Phạm vi, giới hạn và điều kiện diễn giải kết quả
+
+### 5.8.1. Phân lớp phạm vi
+
+<span id="TLTQ_Bang_5_4" class="anchor"></span>Bảng 5.4. Phạm vi của luận án
+
+| **Nhóm** | **Nội dung** |
+|:---|:---|
+| **Phạm vi cốt lõi** | Dữ liệu dao động → bằng chứng trạng thái; truy vết tới cấu kiện BIM; hồ sơ kiểm tra; trạng thái/hỗ trợ hành động; đánh giá khả năng áp dụng trong bối cảnh nhà công nghiệp khung thép |
+| **Phạm vi hỗ trợ** | Học máy và học sâu như công cụ tạo bằng chứng; BIM/IFC; nguồn gốc dữ liệu; con người trong vòng lặp; mô hình phần tử hữu hạn danh nghĩa để tham chiếu |
+| **Hướng phát triển sau luận án** | Kiểm chứng khung trên các loại kết cấu và tài sản công trình khác; hiệu chuẩn và cập nhật mô hình phần tử hữu hạn nếu có câu hỏi nghiên cứu phù hợp; đánh giá kinh tế quy mô lớn; các năng lực Song sinh số cao hơn khi có đủ dữ liệu và hạ tầng |
+| **Ngoài phạm vi hiện tại** | Chẩn đoán hư hỏng hiện trường khi chưa có kiểm tra xác nhận; dự báo tuổi thọ còn lại; bảo trì dự báo; suy luận suy giảm độ cứng; chỉ số sức khỏe phức tạp; tối ưu vị trí cảm biến; bảo trì tự động; trí tuệ nhân tạo tại biên; Thành phố thông minh; động lực học chất lưu tính toán; phát triển phần mềm thương mại |
+
+### 5.8.2. Ranh giới giữa bốn loại bằng chứng
+
+**Bằng chứng phòng thí nghiệm** chỉ chứng minh khả năng phân biệt các trạng thái có kiểm soát trong điều kiện đã kiểm chứng. Nó không chứng minh hư hỏng trong bối cảnh sử dụng thực.
+
+**Bằng chứng truy vết thông tin** chỉ chứng minh tính toàn vẹn và khả năng kiểm tra của chuỗi quan hệ. Nó không chứng minh độ chính xác của mô hình phân loại.
+
+**Bằng chứng về khả năng áp dụng trong bối cảnh thực tế** chỉ chứng minh kiến trúc có thể duy trì các quan hệ thông tin cần thiết trong điều kiện vận hành. Nó không chứng minh phát hiện hư hỏng thực.
+
+**Bằng chứng hỗ trợ quyết định** chỉ chứng minh quy trình có thể trình bày căn cứ minh bạch và được con người rà soát. Nó không chứng minh hành động là tối ưu hoặc tự động đúng trong mọi trường hợp.
+
+Quy tắc chung:
+
+Mọi bất thường trong dữ liệu vận hành dẫn tới xem xét và kiểm tra, không dẫn trực tiếp tới kết luận hư hỏng.
+
+### 5.8.3. Giới hạn của mô hình phần tử hữu hạn
+
+Mô hình phần tử hữu hạn chỉ được giữ như **mô hình danh nghĩa, chưa hiệu chuẩn, chỉ dùng để tham chiếu và không dùng cho chẩn đoán hư hỏng**. Mô hình có thể hỗ trợ minh họa vị trí cấu kiện hoặc tham khảo bố trí cảm biến nếu ghi rõ giới hạn, nhưng không được dùng để suy ra suy giảm độ cứng, suy ra lực siết bu lông, xác định mức độ hư hỏng, hiệu chuẩn bộ phân loại, hoặc chuyển kết luận định lượng từ mô hình 1:10 sang công trình thực. Mô hình phần tử hữu hạn không có câu hỏi nghiên cứu, gói công việc, chương, bài báo hoặc nghĩa vụ kiểm chứng độc lập.
+
+### 5.8.4. Giới hạn của tổng quan tài liệu
+
+Tiểu luận sử dụng **tổng quan tài liệu theo chủ đề có cấu trúc**, không tự nhận là tổng quan hệ thống toàn diện hoặc phân tích thư mục định lượng. Ba khoảng trống nghiên cứu trong tập tài liệu đã kiểm chứng; một số nguồn gần với lớp truy vết và hành động vẫn chưa đầy đủ và đang tiếp tục rà soát.
+
+Các phát biểu về khoảng trống vì vậy dùng ngôn ngữ có điều kiện và không được nâng thành tuyên bố thiếu vắng phổ quát. Mức bằng chứng hiện tại đủ để xác lập một hướng nghiên cứu hẹp, kiểm chứng được, nhưng không đủ để tuyên bố độc quyền về các thành phần kỹ thuật riêng lẻ.
+
+### 5.8.5. Giới hạn và điều kiện của định vị Song sinh số
+
+Ở thời điểm tổng quan, Tiểu luận không khẳng định hệ thống đã đạt một mức Song sinh số cụ thể, không giả định đồng bộ hai chiều tự động khi chưa được kiểm chứng và không tự gán năng lực tự quản lý. Việc xác định mức năng lực thực tế thuộc giai đoạn nghiên cứu chuyên đề sau tổng quan và phải dựa trên các chức năng thực sự được hiện thực hóa, không dựa trên tên gọi của kiến trúc.
+
+## 5.9. Định hướng nghiên cứu sau Tiểu luận tổng quan
+
+Từ kết quả tổng quan, ba khoảng trống nghiên cứu đã được thu hẹp đủ để hình thành một chương trình kiểm chứng tuần tự. Phần tiếp theo của luận án vì vậy cần tập trung vào việc kiểm chứng các yêu cầu đã xác lập cho từng lớp bằng chứng, thay vì tiếp tục mở rộng công nghệ hoặc đưa kết quả triển khai kỹ thuật vào Tiểu luận tổng quan.
+
+### 5.9.1. Định hướng 1 – Kiểm chứng chất lượng bằng chứng trạng thái
+
+Nghiên cứu chuyên đề thứ nhất cần kiểm chứng chất lượng và phạm vi hiệu lực của bằng chứng trạng thái theo các yêu cầu phương pháp đã tổng hợp ở Chương 3. Tiểu luận chỉ xác lập các yêu cầu này; dữ liệu, cấu hình phân tích, chỉ số và kết quả thuộc phần nghiên cứu thực nghiệm riêng.
+
+### 5.9.2. Định hướng 2 – Hình thức hóa mô hình dữ liệu và tiêu chí truy vết
+
+Nghiên cứu chuyên đề về truy vết cần xác định trước cấu trúc dữ liệu và tiêu chí đánh giá, trước khi lựa chọn cách hiện thực hóa bằng công cụ cụ thể. Các nội dung cốt lõi gồm thuộc tính tối thiểu của bản ghi bằng chứng, cấu trúc hồ sơ kiểm tra, lịch sử trạng thái hành động, chuỗi định danh, quy tắc toàn vẹn, nguồn gốc, phiên bản, câu hỏi nghiệp vụ và dữ liệu thử hợp lệ/không hợp lệ. Cách đặt này giúp đóng góp khoa học nằm ở mô hình và giao thức kiểm chứng, không phụ thuộc vào giao diện, nền tảng tự động hóa hay phần mềm cụ thể.
+
+### 5.9.3. Định hướng 3 – Kiểm chứng tính toàn vẹn của chuỗi truy vết
+
+Bước nghiên cứu tiếp theo cần kiểm chứng rằng một bản ghi bằng chứng có thể duy trì quan hệ với cấu kiện, hồ sơ và trạng thái hành động theo cả chiều thuận và chiều ngược, đồng thời phát hiện được các trường hợp dữ liệu hoặc quan hệ không hợp lệ. Tiểu luận chỉ xác lập nghĩa vụ kiểm chứng này; phương thức triển khai và kết quả thuộc chuyên đề truy vết.
+
+### 5.9.4. Định hướng 4 – Đánh giá khả năng áp dụng trong bối cảnh công trình thực
+
+Sau khi logic bằng chứng và truy vết được kiểm chứng ở các bước chuyên đề tương ứng, nghiên cứu có thể đánh giá khả năng áp dụng của khung trong bối cảnh vận hành thực. Ở cấp Tiểu luận tổng quan, yêu cầu cốt lõi chỉ là duy trì được bối cảnh dữ liệu, định danh, quan hệ truy vết, hồ sơ kiểm tra và phản hồi của quá trình quản lý; cấu hình triển khai và kết quả thực tế không được trình bày tại đây.
+
+Mục tiêu của bước này không phải tạo đủ trường hợp hư hỏng để kiểm tra bộ phân loại. Bất thường trong dữ liệu vận hành, nếu xuất hiện, chỉ được xem là căn cứ cho việc xem xét hoặc kiểm tra và không tự động trở thành nhãn hư hỏng.
+
+### 5.9.5. Định hướng 5 – Kiểm chứng logic hỗ trợ hành động
+
+Lớp hỗ trợ hành động cần được kiểm chứng qua các tình huống có người rà soát, trong đó nguồn bằng chứng, phạm vi hiệu lực, cấu kiện liên quan, hồ sơ kiểm tra, lịch sử xử lý, trạng thái hành động và lý do đề xuất phải có thể truy lại. Mục đích là đánh giá tính minh bạch và khả năng giải trình của khung, không chứng minh thuật toán quyết định chính xác hơn chuyên gia.
+
+## 5.10. Tổng hợp chương
+
+Tiểu luận cho thấy các thành phần kỹ thuật chính của bài toán đều đã có nền nghiên cứu: dữ liệu dao động và học máy cho theo dõi trạng thái; nguyên tắc về đơn vị vật lý, rò rỉ dữ liệu và đánh giá theo nhóm; liên kết cảm biến với BIM; IFC làm nền định danh; hồ sơ kiểm tra, khiếm khuyết và sửa chữa trong các hệ thống dựa trên BIM; nguồn gốc dữ liệu, kiểm chứng quan hệ và con người trong quy trình. Luận án vì vậy không xây dựng khoảng trống bằng cách tuyên bố thiếu một công nghệ thành phần.
+
+Ba khoảng trống còn lại đều nằm ở **điểm nối**: xác lập chất lượng và phạm vi hiệu lực của bằng chứng; bảo toàn các thuộc tính đó trong chuỗi truy vết cấp cấu kiện; và đưa căn cứ có phạm vi hiệu lực tới trạng thái hành động có thể giải trình. Cả ba được giữ ở mức **đều có thể bảo vệ được trong phạm vi tập tài liệu đã rà soát**.
+
+Trục nghiên cứu được khóa theo Hình 1.1, với chuỗi định danh ở Hình 5.1. Ba câu hỏi nghiên cứu ứng với ba lớp kiểm chứng chính: độ tin cậy của bằng chứng phòng thí nghiệm, khả năng truy vết cấp cấu kiện và khả năng áp dụng của khung trong bối cảnh công trình thực; Gói công việc 4 tổng hợp các yêu cầu này thành logic hành động minh bạch có con người rà soát.
+
+Tên và mục tiêu **Song sinh số dựa trên dữ liệu** tiếp tục là định vị kiến trúc của luận án; mức năng lực Song sinh số thực tế sẽ được đánh giá trong nghiên cứu trường hợp.
+
+Sau Tiểu luận, nghiên cứu cần chuyển từ xác lập khoảng trống sang kiểm chứng tuần tự các lớp đã định nghĩa: chất lượng bằng chứng, truy vết thông tin, khả năng áp dụng trong bối cảnh thực tế và hỗ trợ hành động. Trình tự này giúp luận án không vượt trước bằng chứng và giữ đúng định vị Quản lý xây dựng:
+
+Quản lý, liên kết và truy vết thông tin kỹ thuật để hỗ trợ kiểm tra – bảo trì một cách minh bạch và có thể kiểm chứng.
