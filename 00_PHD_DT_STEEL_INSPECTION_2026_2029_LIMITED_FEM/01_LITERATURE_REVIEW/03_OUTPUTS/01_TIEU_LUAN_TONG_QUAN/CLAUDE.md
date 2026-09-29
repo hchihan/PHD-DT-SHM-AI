@@ -75,7 +75,7 @@ Cuối cùng phải xuất **bản giải trình tiếp thu góp ý**: góp ý �
 ### 4.2 Văn phong
 - Tiếng Việt học thuật, trang trọng; thuật ngữ tiếng Anh để trong ngoặc ở lần đầu.
 - Tách rõ **bằng chứng** (tài liệu nói gì) và **diễn giải** (tác giả suy ra gì).
-- Mỗi đóng góp có một câu khẳng định tích cực; các giới hạn gom về mục 5.9.
+- Mỗi đóng góp có một câu khẳng định tích cực; các giới hạn gom về mục giới hạn (nhãn tạm 5.8, đánh số lại ở GĐ5).
   Không rải câu "không chứng minh…" trong thân bài.
 - Không dùng văn phong quảng bá, không phóng đại, không liệt kê kiểu gạch đầu dòng trong thân văn
   khi có thể viết thành đoạn.
@@ -155,7 +155,7 @@ figures/           # sơ đồ (Mermaid/SVG) cho schema, kịch bản, kiến tr
 
 ### 6.2 Việc tái cấu trúc (Giai đoạn 5)
 - Chuyển RQ và kiến trúc nghiên cứu từ Chương 1 sang Chương 5; xóa phần lặp.
-- Gom các câu giới hạn về 5.9, cắt khoảng một nửa.
+- Gom các câu giới hạn về mục giới hạn (nhãn tạm 5.8, đánh số lại ở GĐ5), cắt khoảng một nửa.
 - Chuỗi định danh chi tiết + thang V1–V4 → Phụ lục A; ràng buộc C1–C8 → Phụ lục B;
   ma trận RQ–WP–Paper–Gate → Phụ lục C.
 - 4.5.4: tách `priority_level` và `Action_Status`.
@@ -173,7 +173,7 @@ figures/           # sơ đồ (Mermaid/SVG) cho schema, kịch bản, kiến tr
   3.4 Độ tin cậy; 3.5 Nguồn gốc – phạm vi hiệu lực; 3.6 Cầu nối PTN – hiện trường [MỚI]; 3.7 Tổng hợp.
 - Ch.4: giữ; sửa 4.5.4.
 - Ch.5: 5.1 Tổng hợp; 5.2 Khoảng trống; 5.3 Luận đề; 5.4 RQ; 5.5 Schema đồ thị; 5.6 Công cụ AI [MỚI];
-  5.7 Kiểm chứng – chỉ số [MỚI]; 5.8 Đóng góp; 5.9 Phạm vi – giới hạn; 5.10 Lộ trình; 5.11 Tổng hợp.
+  5.7 Kiểm chứng – chỉ số [MỚI]; 5.8 Đóng góp; Phạm vi – giới hạn = mục giới hạn (nhãn tạm 5.8, đánh số lại ở GĐ5); 5.10 Lộ trình; 5.11 Tổng hợp.
 - Phụ lục A, B, C.
 
 ---
@@ -302,8 +302,7 @@ danh sách trên nếu NCS chưa duyệt (calibration/conformal, SHAP/Grad-CAM, 
 - **G6 – LLM:** không trích nguồn. Chỉ 1–2 câu mô tả LLM là công cụ hỗ trợ WP2, có kỹ sư xác nhận và
   báo cáo độ chính xác trích xuất.
 - **Mục giới hạn:** nhãn tạm là **5.8** (thay mục 5.8 hiện có; bản nháp ở
-  `revision/nhap_5_8_pham_vi_ap_dung.md`). Các chỗ ghi "5.9" trong tệp này (4.2, 6.2, 6.3) hiểu là mục
-  giới hạn; đánh số lại toàn Chương 5 ở GĐ5.
+  `revision/nhap_5_8_pham_vi_ap_dung.md`); đánh số lại toàn Chương 5 ở GĐ5.
 
 ---
 

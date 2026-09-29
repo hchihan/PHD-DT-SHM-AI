@@ -125,3 +125,11 @@ nhưng tệp không tồn tại trong `storage` (tải hỏng lúc nhập); NCS 
 | | Cortes & Vapnik 1995 (JVI2GUPC) | Có — bronze | https://link.springer.com/content/pdf/10.1023/A:1022627411411.pdf |
 | | Varma & Simon 2006 (D28DT7CE) | Có — gold | https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-7-91 |
 | | Vabalas và cs. 2019 (6JAQQCGE) | Có — gold | https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0224365&type=printable |
+
+### Cập nhật 29/09 (phiên viết 5.6A) – đính kèm PDF
+- Đã chuyển 4 bản ghi đính kèm rỗng (2U98RKJR, TWQJWB88, FZD5BAMT, VA37SNIK) vào Thùng rác Zotero.
+- Đã tải lại PDF truy cập mở của Varma & Simon 2006 (8 tr.) và Vabalas 2019 (20 tr.), nhưng **không
+  đính kèm được**: tài khoản Zotero đã đầy hạn mức lưu trữ 300 MB (lỗi 413). Hai bản ghi đính kèm hỏng
+  do lần tải lên này (2MNI6S6J, CF3IB3BK) cũng đã được chuyển vào Thùng rác.
+- Hai bài vẫn nằm trong danh sách thiếu PDF. Cần một trong các cách: nâng hạn mức Zotero Storage, dùng
+  WebDAV, hoặc đính kèm dạng tệp liên kết (linked file) trong Zotero desktop.

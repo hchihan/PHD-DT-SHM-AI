@@ -108,3 +108,9 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 ### Việc 4 – Quyết định viết 5.6A
 - CLAUDE.md mục 9: thêm "Quyết định viết 5.6A" (G1 đề xuất của luận án, kiểm chứng ở WP3; G3 chủ yếu từ dữ liệu cầu và máy bay; G4 không tìm thêm nguồn; G6 không trích nguồn; nhãn tạm mục giới hạn là 5.8).
 - Bảng tiến độ: ĐD0 đã duyệt; cập nhật dòng 5.6A.
+
+## Phiên 29/09/2026 (4) – viết mục 5.6A
+
+### Việc 0 – Dọn dẹp
+- Zotero: chuyển 4 bản ghi đính kèm rỗng của Varma & Simon và Vabalas vào Thùng rác. Tải lại PDF truy cập mở thành công nhưng tải lên Zotero bị từ chối vì đầy hạn mức 300 MB; hai bản ghi đính kèm hỏng phát sinh (2MNI6S6J, CF3IB3BK) cũng được chuyển vào Thùng rác. Ghi vào `bao_cao_nguon_5_6A.md`.
+- CLAUDE.md: thay "5.9" ở 4.2, 6.2, 6.3 bằng "mục giới hạn (nhãn tạm 5.8, đánh số lại ở GĐ5)"; xóa ghi chú "hiểu là…" ở mục 9.
