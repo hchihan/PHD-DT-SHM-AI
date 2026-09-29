@@ -42,3 +42,8 @@
 - Xóa mục lục, danh mục bảng, danh mục hình (326 dòng, toàn bộ là dòng liên kết neo và 3 dòng tiêu đề danh mục); sẽ tạo lại khi xuất Word ở GĐ6.
 - Kiểm tra: ghép 3 tệp mới với phần đã xóa trùng khớp từng ký tự với `00_dau.md`. Số câu theo từng phần: bìa 1, thuật ngữ 21, dẫn nhập 27 (tổng 49). 12 thẻ `<span id="TLTQ_...">` trong các chương giữ nguyên.
 - Đã xóa `00_dau.md`.
+
+### Việc 2 – CLAUDE.md mục 4.4 "Quy ước trích dẫn"
+- Thêm mục 4.4 (số cũ `\[n\]` giữ đến hết GĐ5; tài liệu mới dạng `\[@KHÓA_ZOTERO\]`; dòng mới trong `doi_chieu_danh_muc.csv` với `so_cu = "moi"`; đánh số lại theo IEEE ở GĐ6; không sửa tay số trích dẫn).
+- Cập nhật mục 5 (cấu trúc thư mục) theo tên tệp mới của phần đầu.
+- Đưa CLAUDE.md vào Git (trước đó chưa được theo dõi).
