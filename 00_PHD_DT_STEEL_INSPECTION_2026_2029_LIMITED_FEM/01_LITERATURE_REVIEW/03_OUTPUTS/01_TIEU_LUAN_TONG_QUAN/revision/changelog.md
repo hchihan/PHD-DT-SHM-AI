@@ -134,3 +134,16 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - `revision/nhap_khai_bao_AI_tao_sinh.md`: bản nháp khai báo AI tạo sinh (chưa chèn), kèm đề xuất NCS khai thêm việc AI soạn nháp một số mục.
 - `matrix/doi_chieu_danh_muc.csv`: thêm dòng `moi` cho Kiranyaz 2021 và Avci 2021 (trích lần đầu ở 5.6A).
 - Thống kê 5.6A: 1.599 từ (văn xuôi 1.347 + bảng 252; không tính ký hiệu trích dẫn); trích dẫn cũ 7 lần / 7 tài liệu ([14], [18], [45], [53], [56], [57], [59]); trích dẫn mới 20 lần / 15 tài liệu; câu dạng giới hạn ("không chứng minh / không phải / không thay thế / không đồng nghĩa / không đủ"): 0.
+
+## Phiên 29/09/2026 (5) – sửa mục 5.6A theo phản biện của NCS
+
+- (1) Câu siêu tham số: "được cố định trước hoặc chọn bên trong vòng huấn luyện của từng lần chia"; giữ hai trích dẫn.
+- (2) Văn xuôi 5.6A dùng tên tiếng Việt thay tên mã (bản ghi bằng chứng, trường giá trị / độ bất định / phạm vi hiệu lực / điều kiện áp dụng, bối cảnh quan trắc, bản ghi kiểm tra, bản ghi sử dụng bằng chứng, sự kiện chuyển trạng thái, phiên bản phương pháp); lần nhắc đầu có "(xem Mục 5.5)"; "ràng buộc C5" → "ràng buộc về sử dụng bằng chứng ngoài phạm vi hiệu lực, Phụ lục B"; "C1–C8" → "các ràng buộc ở Phụ lục B"; "đường cơ sở B0 (xem Mục 5.7)". Tên mã giữ trong Bảng 5.6A.
+- (3) Thêm \[57\], gắn với ý "dữ liệu đo phủ đủ các điều kiện vận hành và hư hỏng của một công trình hiếm khi có sẵn" (đúng theo tóm tắt [57] qua OpenAlex); giữ Wang & Cha cho ý điều kiện biên và vật liệu riêng (ghi chú đọc xác nhận, tr. 2, 20 bản thảo).
+- (4) "mức may rủi" → "mức ngẫu nhiên".
+- (5) Cross 2011: truy cập đóng, không có bản lưu trữ mở. Ghazimoghadam 2024: ScienceDirect chặn bằng CAPTCHA, không có bản lưu trữ mở. Chưa đọc được phần phương pháp; giữ hai câu ở mức tóm tắt; thêm `notes/KPWFC4PI.md`, `notes/G98ZWHKW.md` và cập nhật cột muc_da_doc.
+- (6) Hughes 2022: bản in MSSP truy cập đóng; các kho (arXiv, White Rose, Glasgow) chỉ có bản tiền in; chưa đối chiếu được số trang, ghi chú vào CSV và `notes/Z9RD5DMZ.md`.
+- (7) CLAUDE.md: mục 4.1 thêm quy ước lưu PDF trong `pdf/` (linked file); mục 6.1 thêm hai ghi chú (chuyển đoạn "bốn nhóm bằng chứng" sang 3.6; 5.5, 5.7, Phụ lục B định nghĩa đủ thuật ngữ 5.6A).
+- (8) Tạo `.gitignore` (`pdf/`, `*.pdf`); chuyển 4 PDF ưu tiên vào `pdf/`, đổi tên theo khóa Zotero; chép thêm PDF Varma & Simon, Vabalas vào `pdf/`.
+- (9) `nhap_khai_bao_AI_tao_sinh.md`: mục 4 đưa vào danh sách chính theo lời NCS; sửa câu "không dùng để tạo… trích dẫn" thành "mọi trích dẫn được đối chiếu với bản gốc và Crossref" để thống nhất với mục 4. Chưa chèn vào tiểu luận.
+- Thống kê sau sửa: 1.691 từ (văn xuôi 1.439 + bảng 252), vượt khung 1.600 do tên tiếng Việt dài hơn tên mã; trích dẫn cũ 8 lần / 7 tài liệu; mới 20 lần / 15 tài liệu; câu dạng giới hạn: 0.

@@ -71,6 +71,7 @@ Cuối cùng phải xuất **bản giải trình tiếp thu góp ý**: góp ý �
   dựa chủ yếu vào các bài này.
 - Không dùng [23] (UCLA Factor Building — nhà văn phòng) làm căn cứ cho luận điểm về nhà công nghiệp.
 - Khi không tìm được nguồn đủ tin cậy: ghi `[CẦN NGUỒN]` và báo NCS, không lấp bằng nhận định chung.
+- PDF lưu dạng tệp liên kết (linked file) trong thư mục `pdf/` của dự án (tên tệp bắt đầu bằng khóa Zotero); `pdf/` và `*.pdf` có trong `.gitignore`.
 
 ### 4.2 Văn phong
 - Tiếng Việt học thuật, trang trọng; thuật ngữ tiếng Anh để trong ngoặc ở lần đầu.
@@ -152,6 +153,10 @@ figures/           # sơ đồ (Mermaid/SVG) cho schema, kịch bản, kiến tr
 | 4.7 | 5.5 Mô hình dữ liệu dạng đồ thị | GĐ2 |
 | 4.8 | 5.7 Thiết kế kiểm chứng và chỉ số | 4.7 |
 | 4.9 | Dẫn nhập mở bằng kịch bản | Sau cùng |
+
+Ghi chú (NCS duyệt 29/09/2026):
+- Khi viết 3.6, chuyển đoạn "bốn nhóm bằng chứng" (5.6A.3, đoạn 1) sang 3.6 và rút gọn phần ở 5.6A còn 1–2 câu trỏ về.
+- Mục 5.5, 5.7 và Phụ lục B phải định nghĩa đủ các thuật ngữ mà 5.6A đã dùng (bản ghi bằng chứng, trường giá trị, trường độ bất định, trường phạm vi hiệu lực, trường điều kiện áp dụng, bối cảnh quan trắc, bản ghi kiểm tra, bản ghi sử dụng bằng chứng, sự kiện chuyển trạng thái, đường cơ sở B0, ràng buộc về sử dụng bằng chứng ngoài phạm vi hiệu lực).
 
 ### 6.2 Việc tái cấu trúc (Giai đoạn 5)
 - Chuyển RQ và kiến trúc nghiên cứu từ Chương 1 sang Chương 5; xóa phần lặp.
@@ -346,7 +351,7 @@ sáu tháng sau có sự cố, truy ngược được toàn bộ.
 | Hạng mục | Trạng thái | Ghi chú |
 |---|---|---|
 | Kế hoạch 7 giai đoạn | ✅ Đã duyệt | |
-| 4.1 Mục 5.6 Công cụ AI | 🟡 Bản nháp 5.6A chờ duyệt (29/09) | `tieuluan/05_chuong5.md` mục 5.6A, 1.599 từ, 1 bảng; nguồn: `revision/5_6A_luan_diem_nguon.csv` |
+| 4.1 Mục 5.6 Công cụ AI | 🟡 Bản sửa lần 1 chờ duyệt (29/09) | `tieuluan/05_chuong5.md` mục 5.6A, 1.691 từ, 1 bảng; nguồn: `revision/5_6A_luan_diem_nguon.csv`; còn thiếu toàn văn Cross 2011, Ghazimoghadam 2024, bản in Hughes 2022 |
 | 5.6A Chuẩn bị nguồn | ✅ Xong (29/09) | 13 tài liệu nhập vào TL-Key/Bổ sung (tag 5.6A); 5 dự phòng; PDF ưu tiên: Wang & Cha, Figueiredo, Hughes, Bull 2022 (revision/bao_cao_nguon_5_6A.md mục 6). Quyết định viết ở mục 9. Chưa viết 5.6A |
 | GĐ0 Chuẩn bị | ✅ ĐD0 đã duyệt (29/09) | Markdown + đối chiếu 84 tài liệu xong (28–29/09); tồn đọng: `revision/viec_ton_dong_GD0.md` |
 | Quy ước trích dẫn (4.4), viết về giới hạn (4.5) | ✅ Đã thêm (29/09) | Danh sách 80 câu giới hạn chờ NCS duyệt (GĐ5) |

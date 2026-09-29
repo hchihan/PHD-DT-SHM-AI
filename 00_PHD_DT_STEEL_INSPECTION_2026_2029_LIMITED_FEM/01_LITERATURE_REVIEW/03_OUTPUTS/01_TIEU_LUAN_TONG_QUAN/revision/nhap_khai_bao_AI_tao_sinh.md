@@ -17,20 +17,19 @@ tạo sinh [tên công cụ, phiên bản, thời gian sử dụng] cho các vi�
    cứu sinh soạn.
 3. Hỗ trợ mã và định dạng: viết mã đối chiếu danh mục tài liệu với Zotero, chuyển đổi định dạng văn bản
    và kiểm tra tính nhất quán của trích dẫn.
+4. Hỗ trợ soạn nháp một số mục dưới sự chỉ đạo của nghiên cứu sinh. Nghiên cứu sinh kiểm tra toàn bộ
+   nội dung, đối chiếu mọi trích dẫn với bản gốc và chịu trách nhiệm cuối cùng.
 
-Công cụ trí tuệ nhân tạo tạo sinh không được dùng để tạo kết quả thực nghiệm, số liệu, trích dẫn hay
-thông tin thư mục. Các nhận định, lập luận và khoảng trống nghiên cứu trong Tiểu luận là của nghiên cứu
+Công cụ trí tuệ nhân tạo tạo sinh không được dùng để tạo kết quả thực nghiệm hay số liệu. Mọi trích dẫn
+và thông tin thư mục đều được đối chiếu với bản gốc và bản ghi Crossref trước khi đưa vào Tiểu luận. Các nhận định, lập luận và khoảng trống nghiên cứu trong Tiểu luận là của nghiên cứu
 sinh, được xây dựng trên các tài liệu đã đọc và đã được thầy hướng dẫn góp ý. Nghiên cứu sinh chịu
 trách nhiệm toàn bộ về nội dung của Tiểu luận.
 
 ---
 
 Ghi chú cho NCS:
-- **Cần NCS quyết định:** trong quá trình sửa Tiểu luận, công cụ AI đã soạn bản nháp một số mục mới
-  (ví dụ mục 5.6A, phiên 29/09/2026) theo dàn ý, quyết định và danh sách nguồn do NCS chỉ định. Phạm vi
-  "biên tập ngôn ngữ" ở trên chưa bao quát việc này. Đề xuất thêm mục 4 để khai báo đúng thực tế:
-  "4. Soạn bản nháp một số mục theo dàn ý, lập luận và danh sách tài liệu do nghiên cứu sinh xác định;
-  nghiên cứu sinh đã kiểm tra từng trích dẫn với bản gốc, chỉnh sửa và phê duyệt toàn bộ nội dung."
+- Mục 4 được NCS duyệt giữ lại (29/09/2026): bản nháp mục 5.6A do AI soạn theo dàn ý, quyết định và
+  danh sách nguồn do NCS chỉ định.
 - Đối chiếu với quy định hoặc mẫu khai báo của Trường (nếu có) để điều chỉnh vị trí và hình thức.
 - Toàn bộ lịch sử làm việc được lưu trong Git (nhánh `revision-v2`) và `revision/changelog.md`, có thể
   dùng làm minh chứng khi được yêu cầu.

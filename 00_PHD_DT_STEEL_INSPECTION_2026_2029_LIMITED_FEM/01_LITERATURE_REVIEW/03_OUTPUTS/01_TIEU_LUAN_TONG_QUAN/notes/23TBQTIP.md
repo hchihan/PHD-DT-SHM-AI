@@ -4,7 +4,7 @@ Figueiredo E, Park G, Farrar CR, Worden K, Figueiras J. Machine learning algorit
 under operational and environmental variability. *Structural Health Monitoring* 10(6): 559–572.
 DOI 10.1177/1475921710388971.
 
-**Bản đã đọc:** bản in của tạp chí (tệp `figueiredo2010.pdf`, 15 tr.; trang tạp chí 559–572).
+**Bản đã đọc:** bản in của tạp chí (tệp `pdf/23TBQTIP_Figueiredo2011.pdf`, 15 tr.; trang tạp chí 559–572).
 
 | Cột | Nội dung |
 |---|---|

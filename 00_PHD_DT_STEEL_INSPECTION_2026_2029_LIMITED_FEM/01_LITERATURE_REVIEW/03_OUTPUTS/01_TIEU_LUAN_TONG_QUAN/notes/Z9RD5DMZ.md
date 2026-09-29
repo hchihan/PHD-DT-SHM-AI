@@ -4,7 +4,7 @@ Hughes AJ, Bull LA, Gardner P, Barthorpe RJ, Dervilis N, Worden K. On risk-based
 structural health monitoring. *Mechanical Systems and Signal Processing* 167: 108569.
 DOI 10.1016/j.ymssp.2021.108569.
 
-**Bản đã đọc:** bản tiền in arXiv 2105.05622v2 (16/11/2021, 30 tr.), "Preprint submitted to MSSP". Số trang
+**Bản đã đọc:** bản tiền in arXiv 2105.05622v2 (16/11/2021, 30 tr.), "Preprint submitted to MSSP" (tệp `pdf/Z9RD5DMZ_Hughes2022_arXiv-v2.pdf`). Kiểm tra 29/09/2026: bản in MSSP 167:108569 là truy cập đóng (OpenAlex), các kho lưu trữ (arXiv, White Rose, Glasgow) chỉ có bản tiền in; chưa đối chiếu được số trang bản in. Số trang
 dưới đây là số trang của bản tiền in; cần đối chiếu bản in trước khi dẫn trang.
 
 | Cột | Nội dung |

@@ -3,7 +3,7 @@
 Wang Z, Cha Y-J. Unsupervised deep learning approach using a deep auto-encoder with a one-class support
 vector machine to detect damage. *Structural Health Monitoring* 20(1): 406–425. DOI 10.1177/1475921720934051.
 
-**Bản đã đọc:** bản thảo tác giả (tệp `SHMpapermanuscript_2020_05_26.pdf`, 23 tr., có ghi DOI). Số trang
+**Bản đã đọc:** bản thảo tác giả (tệp `pdf/TDRPDWJE_WangCha2021_ban-thao-tac-gia.pdf`, 23 tr., có ghi DOI). Số trang
 dưới đây là số trang của bản thảo, không phải trang bản in.
 
 | Cột | Nội dung |

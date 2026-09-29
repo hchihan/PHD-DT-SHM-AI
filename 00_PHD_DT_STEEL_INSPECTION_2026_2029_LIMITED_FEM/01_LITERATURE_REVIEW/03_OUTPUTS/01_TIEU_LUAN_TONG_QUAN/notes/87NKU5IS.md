@@ -3,7 +3,7 @@
 Bull LA, Dervilis N, Worden K, Cross EJ, Rogers TJ. A sampling-based approach for information-theoretic
 inspection management. *Proc. R. Soc. A* 478: 20210790. DOI 10.1098/rspa.2021.0790.
 
-**Bản đã đọc:** bản in của tạp chí, truy cập mở CC BY 4.0 (tệp `rspa.2021.0790.pdf`, 21 tr.).
+**Bản đã đọc:** bản in của tạp chí, truy cập mở CC BY 4.0 (tệp `pdf/87NKU5IS_Bull2022.pdf`, 21 tr.).
 
 | Cột | Nội dung |
 |---|---|
