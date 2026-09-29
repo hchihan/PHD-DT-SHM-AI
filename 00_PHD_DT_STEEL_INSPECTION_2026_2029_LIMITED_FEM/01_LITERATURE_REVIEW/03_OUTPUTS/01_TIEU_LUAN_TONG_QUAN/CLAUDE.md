@@ -181,6 +181,9 @@ Ghi chú (NCS duyệt 29/09/2026):
   5.7 Kiểm chứng – chỉ số [MỚI]; 5.8 Đóng góp; Phạm vi – giới hạn = mục giới hạn (nhãn tạm 5.8, đánh số lại ở GĐ5); 5.10 Lộ trình; 5.11 Tổng hợp.
 - Phụ lục A, B, C.
 
+### 6.4 Lưu ý cho Giai đoạn 6
+- Trước khi chèn bản khai báo AI tạo sinh, rà cột `muc_da_doc` của mọi bảng luận điểm – nguồn; tài liệu chỉ đọc tóm tắt phải được đọc thêm, hoặc chỉ dùng cho nhận định ở mức tóm tắt, để câu "mọi trích dẫn đều được đối chiếu với bản gốc" là đúng.
+
 ---
 
 ## 7. Tài liệu key
@@ -351,7 +354,7 @@ sáu tháng sau có sự cố, truy ngược được toàn bộ.
 | Hạng mục | Trạng thái | Ghi chú |
 |---|---|---|
 | Kế hoạch 7 giai đoạn | ✅ Đã duyệt | |
-| 4.1 Mục 5.6 Công cụ AI | 🟡 Bản sửa lần 1 chờ duyệt (29/09) | `tieuluan/05_chuong5.md` mục 5.6A, 1.691 từ, 1 bảng; nguồn: `revision/5_6A_luan_diem_nguon.csv`; còn thiếu toàn văn Cross 2011, Ghazimoghadam 2024, bản in Hughes 2022 |
+| 4.1 Mục 5.6A Công cụ AI | ✅ Đã duyệt (chờ hoàn thiện 2 câu khi có PDF) (29/09) | `tieuluan/05_chuong5.md` mục 5.6A, 1.691 từ, 1 bảng; nguồn: `revision/5_6A_luan_diem_nguon.csv`; chờ PDF: xem `revision/viec_ton_dong_GD0.md` mục 5 |
 | 5.6A Chuẩn bị nguồn | ✅ Xong (29/09) | 13 tài liệu nhập vào TL-Key/Bổ sung (tag 5.6A); 5 dự phòng; PDF ưu tiên: Wang & Cha, Figueiredo, Hughes, Bull 2022 (revision/bao_cao_nguon_5_6A.md mục 6). Quyết định viết ở mục 9. Chưa viết 5.6A |
 | GĐ0 Chuẩn bị | ✅ ĐD0 đã duyệt (29/09) | Markdown + đối chiếu 84 tài liệu xong (28–29/09); tồn đọng: `revision/viec_ton_dong_GD0.md` |
 | Quy ước trích dẫn (4.4), viết về giới hạn (4.5) | ✅ Đã thêm (29/09) | Danh sách 80 câu giới hạn chờ NCS duyệt (GĐ5) |

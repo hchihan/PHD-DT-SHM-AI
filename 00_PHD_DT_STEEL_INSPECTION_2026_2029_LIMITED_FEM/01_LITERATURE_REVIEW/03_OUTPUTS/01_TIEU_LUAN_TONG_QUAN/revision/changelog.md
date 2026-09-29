@@ -147,3 +147,9 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - (8) Tạo `.gitignore` (`pdf/`, `*.pdf`); chuyển 4 PDF ưu tiên vào `pdf/`, đổi tên theo khóa Zotero; chép thêm PDF Varma & Simon, Vabalas vào `pdf/`.
 - (9) `nhap_khai_bao_AI_tao_sinh.md`: mục 4 đưa vào danh sách chính theo lời NCS; sửa câu "không dùng để tạo… trích dẫn" thành "mọi trích dẫn được đối chiếu với bản gốc và Crossref" để thống nhất với mục 4. Chưa chèn vào tiểu luận.
 - Thống kê sau sửa: 1.691 từ (văn xuôi 1.439 + bảng 252), vượt khung 1.600 do tên tiếng Việt dài hơn tên mã; trích dẫn cũ 8 lần / 7 tài liệu; mới 20 lần / 15 tài liệu; câu dạng giới hạn: 0.
+
+## Phiên 29/09/2026 (6) – chốt mục 5.6A
+
+- 5.6A.3: "Nhà xưởng ghi được … nên hướng thứ nhất được ưu tiên." → "Khi nhà xưởng ghi được nhiệt độ và trạng thái thiết bị trong bối cảnh quan trắc, hướng thứ nhất được ưu tiên." Giữ độ dài 1.691 từ (NCS duyệt).
+- CLAUDE.md: thêm mục 6.4 "Lưu ý cho Giai đoạn 6" (rà cột `muc_da_doc` trước khi chèn khai báo AI tạo sinh); bảng tiến độ: 4.1 Mục 5.6A = Đã duyệt (chờ hoàn thiện 2 câu khi có PDF).
+- `revision/viec_ton_dong_GD0.md`: thêm mục 5 "Chờ PDF" (Cross 2011 – KPWFC4PI, Ghazimoghadam 2024 – G98ZWHKW, bản in Hughes 2022 – Z9RD5DMZ).

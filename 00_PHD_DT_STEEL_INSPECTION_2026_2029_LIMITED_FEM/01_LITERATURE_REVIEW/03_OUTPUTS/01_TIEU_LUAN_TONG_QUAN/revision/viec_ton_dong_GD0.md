@@ -57,3 +57,13 @@ các điều được trích: 34, 37) rồi cập nhật cột `trang_thai_xuat_
 - [17] Wu và cs.: danh mục đã ghi 2026, khớp bản in; không cần sửa.
 - Tag K1, K2, K3, Đối tượng chưa được gắn (chờ quy định tài liệu nào mang tag).
 - Chỉ 3/84 bản ghi có citation key; cân nhắc cài Better BibTeX trước GĐ6.
+
+## 5. Chờ PDF (mục 5.6A, cập nhật 29/09/2026)
+
+| Tài liệu | Khóa Zotero | Tình trạng | Việc cần làm khi có tệp trong `pdf/` |
+|---|---|---|---|
+| Cross, Worden & Chen (2011), Proc. R. Soc. A 467: 2712–2732 | KPWFC4PI | Truy cập đóng; không có bản lưu trữ mở | Đọc phần phương pháp; chỉnh câu về đồng liên kết ở 5.6A.3; cập nhật `notes/KPWFC4PI.md` và cột `muc_da_doc` |
+| Ghazimoghadam & Hosseinzadeh (2024), Measurement 229: 114410 | G98ZWHKW | ScienceDirect chặn bằng CAPTCHA; không có bản lưu trữ mở | Đọc phần phương pháp; chỉnh câu về autoencoder và bu lông nới lỏng ở 5.6A.3; cập nhật `notes/G98ZWHKW.md` và cột `muc_da_doc` |
+| Hughes và cs. (2022), bản in MSSP 167: 108569 | Z9RD5DMZ | Đã có bản tiền in arXiv v2; bản in truy cập đóng | Đối chiếu bản in với bản tiền in; cập nhật số trang trong `revision/5_6A_luan_diem_nguon.csv` và `notes/Z9RD5DMZ.md` |
+
+Lưu tệp với tên bắt đầu bằng khóa Zotero (ví dụ `pdf/KPWFC4PI_Cross2011.pdf`) và liên kết vào Zotero dạng linked file.
