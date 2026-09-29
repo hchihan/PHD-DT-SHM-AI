@@ -114,3 +114,8 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 ### Việc 0 – Dọn dẹp
 - Zotero: chuyển 4 bản ghi đính kèm rỗng của Varma & Simon và Vabalas vào Thùng rác. Tải lại PDF truy cập mở thành công nhưng tải lên Zotero bị từ chối vì đầy hạn mức 300 MB; hai bản ghi đính kèm hỏng phát sinh (2MNI6S6J, CF3IB3BK) cũng được chuyển vào Thùng rác. Ghi vào `bao_cao_nguon_5_6A.md`.
 - CLAUDE.md: thay "5.9" ở 4.2, 6.2, 6.3 bằng "mục giới hạn (nhãn tạm 5.8, đánh số lại ở GĐ5)"; xóa ghi chú "hiểu là…" ở mục 9.
+
+### Việc 1 – Kiểm tra điều kiện: DỪNG
+- Kiểm tra trên đĩa (bản sao `zotero.sqlite` lúc 09:53 và thư mục `storage`): Wang & Cha 2021 (TDRPDWJE), Figueiredo 2011 (23TBQTIP), Hughes 2022 (Z9RD5DMZ), Bull 2022 (87NKU5IS) đều **không có tệp đính kèm**.
+- Theo yêu cầu, dừng phiên: chưa đọc, chưa ghi `notes/`, chưa viết 5.6A, chưa lập các sản phẩm của Việc 3.
+- Nguồn phụ đã có PDF sẵn cho lần sau: [18] Brake (VPFBB9SG), [45] Sohn (MANJDQEZ), [56] Da Silva (IW7JBB3E).
