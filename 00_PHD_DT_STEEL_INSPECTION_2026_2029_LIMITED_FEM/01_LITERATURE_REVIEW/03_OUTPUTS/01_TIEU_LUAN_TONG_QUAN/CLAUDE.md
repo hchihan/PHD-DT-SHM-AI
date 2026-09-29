@@ -98,6 +98,20 @@ Cuối cùng phải xuất **bản giải trình tiếp thu góp ý**: góp ý �
   `doi_chieu_danh_muc.csv`, và tạo lại danh mục từ Zotero.
 - Không bao giờ sửa tay số trích dẫn ở giữa các giai đoạn.
 
+### 4.5 Viết về giới hạn
+Góp ý của thầy hướng dẫn: mật độ câu giới hạn quá dày, nghe nặng nề. Phân loại mọi câu dạng
+"không chứng minh / không phải / không thay thế / không đồng nghĩa / không đủ":
+- **Loại A – phân định khái niệm cần thiết:** giữ ý, viết lại theo hướng khẳng định.
+  Mỗi chương tối đa 3–4 câu.
+- **Loại B – tự hạ đóng góp** ("không phải đóng góp mới", "không phải kỹ thuật mới"): chuyển thành
+  câu kế thừa có dẫn nguồn ("nghiên cứu kế thừa … từ [n]").
+- **Loại C – giới hạn kết luận:** xóa khỏi thân bài, thay bằng câu trỏ "Phạm vi diễn giải … được
+  trình bày ở Mục 5.8", và gom nội dung về mục giới hạn.
+- **Giọng văn:** dùng "được xác lập trong phạm vi", "hướng mở rộng", "được thực hiện qua kiểm tra
+  của kỹ sư"; tránh chuỗi phủ định liên tiếp.
+- Đây là việc của Giai đoạn 5. Danh sách câu và loại đề xuất nằm ở
+  `revision/danh_sach_cau_gioi_han.csv`; chỉ sửa câu sau khi NCS duyệt danh sách.
+
 ---
 
 ## 5. Cấu trúc thư mục
