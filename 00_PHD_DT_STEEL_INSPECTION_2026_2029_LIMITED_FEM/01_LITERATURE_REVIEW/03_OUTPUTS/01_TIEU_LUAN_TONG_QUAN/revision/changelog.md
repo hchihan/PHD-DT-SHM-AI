@@ -78,5 +78,9 @@
 - `revision/nguon_5_6A_ung_vien.csv`: 29 ứng viên; cả 29 được Crossref xác minh (tiêu đề, tác giả, năm, tạp chí, tập/trang, DOI). Không ứng viên nào bị loại vì không xác minh được.
 - Các gợi ý của NCS đều khớp Crossref: Pathirage 2018, Figueiredo 2011, Cross/Worden/Chen 2011, Bull 2018 và 2019, Wang/Yan/Oates 2017, Abdeljaber 2017.
 - Năm theo Crossref khác Consensus ở 5 bài (Wang & Cha, Shang, Maes, Hughes, Ismail Fawaz); CSV dùng năm Crossref.
-- Đề xuất: 16 nhận (13 cần nhập Zotero; 3 đã có: Kiranyaz, Avci; Pal [48] để dự phòng), 13 dự phòng. Đánh giá dựa trên tóm tắt, chưa đọc toàn văn.
+- Đề xuất: 16 nhận (14 cần nhập Zotero; 2 đã có: Kiranyaz, Avci), 13 dự phòng (trong đó Pal [48] đã có trong danh mục). Đánh giá dựa trên tóm tắt, chưa đọc toàn văn.
 - Không nhập Zotero, không sửa chương.
+
+### Việc 3 – Báo cáo nguồn 5.6A
+- `revision/bao_cao_nguon_5_6A.md`: bảng tổng hợp G1–G6; danh sách 14 tài liệu đề xuất nhập Zotero theo ưu tiên (tối đa 3/nhóm) cùng 4 tài liệu phương pháp của Việc 1; các nhóm chưa có nguồn đủ tin cậy cho một phần lập luận (G6 nhà công nghiệp, G1 nhà xưởng thép, G4 ResNet1D trong SHM, G3 công trình xây dựng).
+- Cập nhật bảng Trạng thái tiến độ trong CLAUDE.md. Dừng chờ NCS duyệt danh sách trước khi nhập Zotero.

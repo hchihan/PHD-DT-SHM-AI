@@ -331,6 +331,7 @@ sáu tháng sau có sự cố, truy ngược được toàn bộ.
 |---|---|---|
 | Kế hoạch 7 giai đoạn | ✅ Đã duyệt | |
 | 4.1 Mục 5.6 Công cụ AI | ⏳ Đang làm | Chạy song song GĐ0–2 |
+| 5.6A Chuẩn bị nguồn | 🟡 Chờ duyệt danh sách (29/09) | 29 ứng viên G1–G6 đã xác minh Crossref; đề xuất nhập 14 + 4 tài liệu phương pháp: revision/bao_cao_nguon_5_6A.md. Chưa nhập Zotero, chưa viết 5.6A |
 | GĐ0 Chuẩn bị | 🟡 Chờ ĐD0 | Markdown + đối chiếu 84 tài liệu xong (28–29/09); tồn đọng: `revision/viec_ton_dong_GD0.md` |
 | Quy ước trích dẫn (4.4), viết về giới hạn (4.5) | ✅ Đã thêm (29/09) | Danh sách 80 câu giới hạn chờ NCS duyệt (GĐ5) |
 | GĐ1 Bổ sung tài liệu | ⬜ | |
