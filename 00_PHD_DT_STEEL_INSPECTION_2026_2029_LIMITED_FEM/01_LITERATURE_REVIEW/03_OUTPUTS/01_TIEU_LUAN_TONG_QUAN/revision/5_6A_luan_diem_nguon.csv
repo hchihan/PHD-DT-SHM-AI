@@ -1,0 +1,28 @@
+luan_diem|trich_dan|vi_tri_trong_nguon|muc_da_doc
+RF là mô hình họ đặc trưng thủ công dùng ở WP1 (dẫn nguồn gốc phương pháp)|\[@5TQ4AZVX\] Breiman 2001|Toàn bài (nguồn gốc phương pháp)|tóm tắt (chỉ dùng để định danh phương pháp; chưa có PDF)
+SVM-RBF là mô hình họ đặc trưng thủ công dùng ở WP1 (dẫn nguồn gốc phương pháp)|\[@JVI2GUPC\] Cortes & Vapnik 1995|Toàn bài (nguồn gốc phương pháp)|tóm tắt (chỉ dùng để định danh phương pháp; chưa có PDF)
+1D-CNN gộp trích đặc trưng và phân loại vào một khối học trên tín hiệu gia tốc thô|\[@HPREAQAJ\] Abdeljaber 2017|Tóm tắt|tóm tắt (chưa có PDF)
+Ứng dụng 1D-CNN cho tín hiệu một chiều, trong đó có SHM, đã được tổng quan|\[@IU5KZQEA\] Kiranyaz 2021; \[@QUGY4928\] Avci 2021|Kiranyaz: Tóm tắt (tr. 1); Avci: Tóm tắt (tr. 1)|tóm tắt
+ResNet1D kế thừa khối dư|\[@69U5H3TZ\] He 2016|Tóm tắt (định nghĩa kiến trúc)|tóm tắt (chưa có PDF)
+Cấu trúc ResNet học trực tiếp từ chuỗi thời gian thô đạt kết quả cạnh tranh trong phân loại|\[@WXHN9TA2\] Wang, Yan & Oates 2017|Tóm tắt|tóm tắt (chưa có PDF; có bản arXiv 1611.06455)
+Chia theo nhóm, giữ lại cả lần chạy để cửa sổ của một bản ghi nằm trọn một phía|\[14\] Beleites 2013; \[53\] Kapoor & Narayanan 2023|Theo cách dùng đã có ở Mục 3.3.1–3.3.2 của tiểu luận|theo nội dung đã dùng ở Mục 3.3 ([53] chưa có PDF, cần đọc ở GĐ2)
+Kiểm định hoán vị cho biết hiệu năng có vượt mức may rủi|\[59\] Ojala & Garriga 2009|Theo cách dùng đã có ở Mục 3.3 của tiểu luận|theo nội dung đã dùng ở Mục 3.3
+Sai số kiểm định chéo của bộ phân loại đã tinh chỉnh bằng chính kiểm định đó bị lệch; cần đặt tinh chỉnh trong từng vòng|\[@D28DT7CE\] Varma & Simon 2006|Tóm tắt (tr. 1); Kết luận (tr. 7)|tóm tắt + kết luận
+Độ lệch lớn hơn khi cỡ mẫu nhỏ và khi chọn đặc trưng trên dữ liệu gộp|\[@6JAQQCGE\] Vabalas 2019|Tóm tắt (tr. 1); Kết luận (tr. 17)|tóm tắt + kết luận
+Nhãn hiện trường đến từ kiểm tra của chuyên gia, tốn kém|\[@87NKU5IS\] Bull 2022|Mục 1 (tr. 1–2); Bảng 1 (tr. 3)|toàn văn (mục 1–2)
+Thiếu nhãn, học không giám sát dừng ở bậc phát hiện bất thường (phân cấp Rytter)|\[@87NKU5IS\] Bull 2022|Mục 2 (tr. 3–4)|toàn văn (mục 2)
+Mỗi công trình có điều kiện biên và vật liệu riêng (lý do học có giám sát khó dùng)|\[@TDRPDWJE\] Wang & Cha 2021|Mục 1 (tr. 2) và Kết luận (tr. 20), bản thảo tác giả|toàn văn (mục 1)
+Quy trình lắp ráp quyết định độ lặp lại; độ bất định có thể lớn hơn độ dịch tần số do phi tuyến mối nối|\[18\] Brake 2019|Mục 9 Kết luận|tóm tắt + kết luận
+EOV che lấp thay đổi do hư hỏng; dữ liệu huấn luyện phải phủ dải điều kiện rộng|\[45\] Sohn 2007|Tóm tắt; Mục 4 (tr. 557)|tóm tắt + kết luận
+Bộ phân loại lực siết học trên một dầm thất bại khi áp trực tiếp sang dầm tương tự|\[56\] Da Silva 2024|Hình 8 (tr. 011102-7); tr. 011102-5 đến -7|tóm tắt + kết quả + kết luận
+Dòng nghiên cứu theo quần thể đặt câu hỏi khi nào tri thức được chuyển giữa các kết cấu|\[57\] Bull 2021|Theo cách dùng đã có ở Mục 3.3 của tiểu luận|theo nội dung đã dùng ở Mục 3 (chưa có PDF, cần đọc ở GĐ2)
+Autoencoder sâu huấn luyện chỉ bằng gia tốc trạng thái nguyên vẹn; sai lệch tái tạo làm đặc trưng|\[@TDRPDWJE\] Wang & Cha 2021|Mục 2, 2.1–2.2 (tr. 3–6), bản thảo tác giả|toàn văn (phương pháp)
+Kiểm chứng trên cầu thép thu nhỏ có bu lông bị nới lỏng tại nút|\[@TDRPDWJE\] Wang & Cha 2021|Mục 3.2, Bảng 2 (tr. 9–10), bản thảo tác giả|toàn văn
+Autoencoder học từ trạng thái chưa hư hỏng phát hiện bu lông liên kết nới lỏng trên kết cấu PTN|\[@G98ZWHKW\] Ghazimoghadam & Hosseinzadeh 2024|Tóm tắt|tóm tắt (chưa có PDF)
+Định vị và định lượng hư hỏng vẫn khó khi huấn luyện thiếu thông tin hư hỏng|\[@TDRPDWJE\] Wang & Cha 2021|Mục 5 Kết luận (tr. 21), bản thảo tác giả|toàn văn (kết luận)
+Hai hướng bù EOV: tham số hóa theo biến đo được, hoặc học trạng thái bình thường từ dữ liệu đáp ứng|\[@23TBQTIP\] Figueiredo 2011|Mục Chuẩn hóa dữ liệu (tr. 560–561)|toàn văn (giới thiệu, chuẩn hóa dữ liệu)
+Đồng liên kết tạo phần dư dừng đã loại xu hướng chung của các biến quan trắc|\[@KPWFC4PI\] Cross, Worden & Chen 2011|Tóm tắt|tóm tắt (chưa có PDF)
+Thuật toán có thể thất bại với điều kiện chưa có trong dữ liệu huấn luyện|\[@23TBQTIP\] Figueiredo 2011|Tóm tắt và kết luận (tr. 571)|toàn văn (kết luận)
+Mỗi lần hỏi nhãn là một lần kiểm tra; chỉ kiểm tra khi EVPI vượt chi phí kiểm tra; giả định kiểm tra hoàn hảo|\[@Z9RD5DMZ\] Hughes 2022|Tóm tắt (tr. 1); Mục 4.2–4.3 (tr. 7); Mục 7 (tr. 27), bản tiền in arXiv v2|toàn văn (mục 1–4, 7, 8)
+Bổ sung kiểm tra định kỳ bằng kiểm tra được truy vấn; trạng thái quá khứ không kiểm tra lại được|\[@87NKU5IS\] Bull 2022|Tóm tắt (tr. 1); Mục 2(a) (tr. 4)|toàn văn (mục 1–2)
+Học chủ động/bán giám sát chủ yếu phát triển trên dữ liệu cầu, máy bay thí nghiệm, ổ trục và bơm|\[@87NKU5IS\] Bull 2022|Mục 2 tổng quan (tr. 6)|toàn văn (mục 2)

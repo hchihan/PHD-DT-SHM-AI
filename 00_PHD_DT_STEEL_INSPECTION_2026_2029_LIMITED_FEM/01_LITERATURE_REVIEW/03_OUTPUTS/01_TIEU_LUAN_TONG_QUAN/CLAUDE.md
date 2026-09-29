@@ -346,8 +346,8 @@ sáu tháng sau có sự cố, truy ngược được toàn bộ.
 | Hạng mục | Trạng thái | Ghi chú |
 |---|---|---|
 | Kế hoạch 7 giai đoạn | ✅ Đã duyệt | |
-| 4.1 Mục 5.6 Công cụ AI | ⏳ Đang làm | Chạy song song GĐ0–2 |
-| 5.6A Chuẩn bị nguồn | 🟡 Đã nhập Zotero, chờ duyệt (29/09) | 13 tài liệu nhập vào TL-Key/Bổ sung (tag 5.6A); 5 dự phòng; PDF ưu tiên: Wang & Cha, Figueiredo, Hughes, Bull 2022 (revision/bao_cao_nguon_5_6A.md mục 6). Quyết định viết ở mục 9. Chưa viết 5.6A |
+| 4.1 Mục 5.6 Công cụ AI | 🟡 Bản nháp 5.6A chờ duyệt (29/09) | `tieuluan/05_chuong5.md` mục 5.6A, 1.599 từ, 1 bảng; nguồn: `revision/5_6A_luan_diem_nguon.csv` |
+| 5.6A Chuẩn bị nguồn | ✅ Xong (29/09) | 13 tài liệu nhập vào TL-Key/Bổ sung (tag 5.6A); 5 dự phòng; PDF ưu tiên: Wang & Cha, Figueiredo, Hughes, Bull 2022 (revision/bao_cao_nguon_5_6A.md mục 6). Quyết định viết ở mục 9. Chưa viết 5.6A |
 | GĐ0 Chuẩn bị | ✅ ĐD0 đã duyệt (29/09) | Markdown + đối chiếu 84 tài liệu xong (28–29/09); tồn đọng: `revision/viec_ton_dong_GD0.md` |
 | Quy ước trích dẫn (4.4), viết về giới hạn (4.5) | ✅ Đã thêm (29/09) | Danh sách 80 câu giới hạn chờ NCS duyệt (GĐ5) |
 | GĐ1 Bổ sung tài liệu | ⬜ | |

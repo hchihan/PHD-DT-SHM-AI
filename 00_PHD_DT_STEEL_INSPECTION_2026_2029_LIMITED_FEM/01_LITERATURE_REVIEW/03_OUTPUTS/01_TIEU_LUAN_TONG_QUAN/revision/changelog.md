@@ -124,3 +124,13 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - NCS đặt 4 PDF ưu tiên vào thư mục gốc TLTQ. Phiên bản: Figueiredo 2011 và Bull 2022 là bản in; Wang & Cha 2021 là bản thảo tác giả; Hughes 2022 là tiền in arXiv v2 (số trang ghi theo bản đã đọc).
 - Đọc giới thiệu, phương pháp, kết luận của 4 bài; đọc phần liên quan của [18] Brake, [45] Sohn, [56] Da Silva; tóm tắt/kết luận của Varma & Simon, Vabalas (PDF tải lại, chưa gắn Zotero), tóm tắt Kiranyaz, Avci.
 - Ghi chú theo khuôn 7.4: `notes/TDRPDWJE.md`, `23TBQTIP.md`, `Z9RD5DMZ.md`, `87NKU5IS.md` (đầy đủ); `VPFBB9SG.md`, `MANJDQEZ.md`, `IW7JBB3E.md` (đọc một phần).
+
+### Việc 2 – Viết mục 5.6A
+- Chèn `## 5.6A. Công cụ trí tuệ nhân tạo và vai trò trong chuỗi bằng chứng` vào `tieuluan/05_chuong5.md`, ngay trước 5.7 (chỉ thêm 44 dòng; không sửa mục khác). Năm tiểu mục 5.6A.1–5.6A.5 và Bảng 5.6A.
+- Trỏ về Mục 3.2.3, 3.3, 4.5.2 và mục giới hạn 5.8; không lặp nội dung các mục đó. Không có số liệu hay kết quả của Paper 1.
+
+### Việc 3 – Sản phẩm kiểm tra
+- `revision/5_6A_luan_diem_nguon.csv`: 27 luận điểm → trích dẫn → vị trí trong nguồn → mức đã đọc.
+- `revision/nhap_khai_bao_AI_tao_sinh.md`: bản nháp khai báo AI tạo sinh (chưa chèn), kèm đề xuất NCS khai thêm việc AI soạn nháp một số mục.
+- `matrix/doi_chieu_danh_muc.csv`: thêm dòng `moi` cho Kiranyaz 2021 và Avci 2021 (trích lần đầu ở 5.6A).
+- Thống kê 5.6A: 1.599 từ (văn xuôi 1.347 + bảng 252; không tính ký hiệu trích dẫn); trích dẫn cũ 7 lần / 7 tài liệu ([14], [18], [45], [53], [56], [57], [59]); trích dẫn mới 20 lần / 15 tài liệu; câu dạng giới hạn ("không chứng minh / không phải / không thay thế / không đồng nghĩa / không đủ"): 0.
