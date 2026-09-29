@@ -104,3 +104,7 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 
 ### Việc 3 – PDF
 - Thêm mục 6 vào `bao_cao_nguon_5_6A.md`: 13/13 tài liệu chưa có tệp PDF thực trong Zotero (Varma & Simon, Vabalas có 4 bản ghi đính kèm rỗng). Ưu tiên: Wang & Cha 2021 và Figueiredo 2011 (đóng, cần thư viện), Hughes 2022 (arXiv), Bull 2022 (hybrid OA). 8 bài có bản mở (OpenAlex/arXiv).
+
+### Việc 4 – Quyết định viết 5.6A
+- CLAUDE.md mục 9: thêm "Quyết định viết 5.6A" (G1 đề xuất của luận án, kiểm chứng ở WP3; G3 chủ yếu từ dữ liệu cầu và máy bay; G4 không tìm thêm nguồn; G6 không trích nguồn; nhãn tạm mục giới hạn là 5.8).
+- Bảng tiến độ: ĐD0 đã duyệt; cập nhật dòng 5.6A.

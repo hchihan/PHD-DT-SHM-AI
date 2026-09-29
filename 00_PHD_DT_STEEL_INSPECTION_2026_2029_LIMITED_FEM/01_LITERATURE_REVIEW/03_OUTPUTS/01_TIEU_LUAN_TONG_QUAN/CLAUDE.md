@@ -288,6 +288,23 @@ danh sách trên nếu NCS chưa duyệt (calibration/conformal, SHAP/Grad-CAM, 
 
 **Sản phẩm phiên:** `tieuluan/05_chuong5.md` (mục 5.6), danh sách trích dẫn mới, việc còn mở. Dừng chờ duyệt.
 
+**Quyết định viết 5.6A (NCS duyệt 29/09/2026):**
+- **Nguồn:** chỉ dùng tài liệu tag `5.6A` trong `TL-Key/Bổ sung` và các số cũ đã nêu ở trên; danh sách
+  dự phòng ở `revision/bao_cao_nguon_5_6A.md` mục 5 không được trích khi chưa nhập Zotero.
+- **G1 – Autoencoder:** việc áp dụng Autoencoder cho nhà xưởng được viết như **đề xuất của luận án**,
+  dựa trên các nghiên cứu huấn luyện chỉ với dữ liệu trạng thái bình thường (Wang & Cha 2021;
+  Ghazimoghadam & Hosseinzadeh 2024). Hiệu quả khi có cầu trục là nội dung kiểm chứng ở WP3, không
+  khẳng định trong tiểu luận.
+- **G3 – Học chủ động:** ghi nhận rằng hướng này chủ yếu được phát triển trên dữ liệu cầu và máy bay
+  (Hughes 2022; Bull 2022); áp dụng cho nhà công nghiệp là đề xuất của luận án.
+- **G4 – ResNet1D:** trích He 2016 + Wang/Yan/Oates 2017 + tổng quan Avci 2021/Kiranyaz 2021.
+  Không tìm thêm nguồn.
+- **G6 – LLM:** không trích nguồn. Chỉ 1–2 câu mô tả LLM là công cụ hỗ trợ WP2, có kỹ sư xác nhận và
+  báo cáo độ chính xác trích xuất.
+- **Mục giới hạn:** nhãn tạm là **5.8** (thay mục 5.8 hiện có; bản nháp ở
+  `revision/nhap_5_8_pham_vi_ap_dung.md`). Các chỗ ghi "5.9" trong tệp này (4.2, 6.2, 6.3) hiểu là mục
+  giới hạn; đánh số lại toàn Chương 5 ở GĐ5.
+
 ---
 
 ## 10. Bảng thuật ngữ (dùng nhất quán)
@@ -331,8 +348,8 @@ sáu tháng sau có sự cố, truy ngược được toàn bộ.
 |---|---|---|
 | Kế hoạch 7 giai đoạn | ✅ Đã duyệt | |
 | 4.1 Mục 5.6 Công cụ AI | ⏳ Đang làm | Chạy song song GĐ0–2 |
-| 5.6A Chuẩn bị nguồn | 🟡 Chờ duyệt danh sách (29/09) | 29 ứng viên G1–G6 đã xác minh Crossref; đề xuất nhập 14 + 4 tài liệu phương pháp: revision/bao_cao_nguon_5_6A.md. Chưa nhập Zotero, chưa viết 5.6A |
-| GĐ0 Chuẩn bị | 🟡 Chờ ĐD0 | Markdown + đối chiếu 84 tài liệu xong (28–29/09); tồn đọng: `revision/viec_ton_dong_GD0.md` |
+| 5.6A Chuẩn bị nguồn | 🟡 Đã nhập Zotero, chờ duyệt (29/09) | 13 tài liệu nhập vào TL-Key/Bổ sung (tag 5.6A); 5 dự phòng; PDF ưu tiên: Wang & Cha, Figueiredo, Hughes, Bull 2022 (revision/bao_cao_nguon_5_6A.md mục 6). Quyết định viết ở mục 9. Chưa viết 5.6A |
+| GĐ0 Chuẩn bị | ✅ ĐD0 đã duyệt (29/09) | Markdown + đối chiếu 84 tài liệu xong (28–29/09); tồn đọng: `revision/viec_ton_dong_GD0.md` |
 | Quy ước trích dẫn (4.4), viết về giới hạn (4.5) | ✅ Đã thêm (29/09) | Danh sách 80 câu giới hạn chờ NCS duyệt (GĐ5) |
 | GĐ1 Bổ sung tài liệu | ⬜ | |
 | GĐ2 Đọc sâu | ⬜ | |
