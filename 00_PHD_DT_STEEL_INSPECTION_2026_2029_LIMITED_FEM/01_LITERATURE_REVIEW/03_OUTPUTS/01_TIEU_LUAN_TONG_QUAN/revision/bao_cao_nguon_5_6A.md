@@ -88,3 +88,16 @@ Varma & Simon 2006 (thiên lệch chọn mô hình), Vabalas và cs. 2019 (đán
    *Đính chính 29/09 (phiên nhập):* `TL-Key` (PRGXUPFZ) và `TL-Key/Bổ sung` (TKVJVWDZ) đã tồn tại;
    ghi "chưa tạo" ở bản trước là sai. NCS đã chọn `TL-Key/Bổ sung`.
 3. Xác nhận cách viết cho G6 và phần chuyển sang nhà xưởng ở G1 (mục 3).
+
+## 5. Dự phòng (quyết định NCS 29/09 — KHÔNG nhập Zotero)
+
+Năm tài liệu dưới đây đã được Crossref xác minh (chi tiết trong `nguon_5_6A_ung_vien.csv`) nhưng
+NCS chuyển từ "nhận" sang dự phòng. Chỉ nhập Zotero khi điều kiện dùng xảy ra và NCS duyệt lại.
+
+| Tài liệu | DOI | Vai trò dự kiến | Điều kiện dùng |
+|---|---|---|---|
+| Bull và cs. (2018), *J. Sound Vib.* 437: 373–388 | 10.1016/j.jsv.2018.08.040 | Nguồn gốc của học chủ động trong SHM (G3) | Khi 5.6A hoặc 3.6 cần trích công trình khởi đầu, ngoài Hughes 2022 và Bull 2022 đã nhập |
+| Ismail Fawaz và cs. (2019), *DMKD* 33(4): 917–963 | 10.1007/s10618-019-00619-1 | So sánh thực nghiệm các kiến trúc học sâu cho chuỗi thời gian, trong đó có ResNet (G4) | Khi cần nguồn cho nhận định so sánh giữa các kiến trúc; theo quyết định G4, ResNet1D hiện chỉ trích He 2016, Wang/Yan/Oates 2017 và các tổng quan Avci/Kiranyaz |
+| Zhang và cs. (2023), *Eng. Struct.* 283: 115873 | 10.1016/j.engstruct.2023.115873 | Ví dụ CAE huấn luyện bằng dao động vận hành của một nhà đang khai thác (G1) | Khi 3.6 hoặc 5.6A cần ví dụ công trình nhà thực; phải ghi rõ phần kiểm tra hư hỏng dựa trên dữ liệu FEM |
+| Zhang C. và cs. (2024), *Dev. Built Environ.* 20: 100549 | 10.1016/j.dibe.2024.100549 | LLM trích xuất báo cáo kiểm tra (cầu) (G6) | Chỉ khi NCS đổi quyết định G6 (hiện: không trích nguồn cho LLM) |
+| Xu và cs. (2024), *Front. Comput. Sci.* 18(6): 186357 | 10.1007/s11704-024-40555-y | Tổng quan LLM cho trích xuất thông tin (G6) | Như trên; chỉ dùng kèm một nguồn ứng dụng trong xây dựng |
