@@ -101,3 +101,6 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 
 ### Việc 2 – Dự phòng
 - Thêm mục 5 "Dự phòng" vào `bao_cao_nguon_5_6A.md`: Bull 2018, Ismail Fawaz 2019, Zhang 2023, Zhang C. 2024, Xu 2024, kèm vai trò dự kiến và điều kiện dùng. Không nhập Zotero.
+
+### Việc 3 – PDF
+- Thêm mục 6 vào `bao_cao_nguon_5_6A.md`: 13/13 tài liệu chưa có tệp PDF thực trong Zotero (Varma & Simon, Vabalas có 4 bản ghi đính kèm rỗng). Ưu tiên: Wang & Cha 2021 và Figueiredo 2011 (đóng, cần thư viện), Hughes 2022 (arXiv), Bull 2022 (hybrid OA). 8 bài có bản mở (OpenAlex/arXiv).

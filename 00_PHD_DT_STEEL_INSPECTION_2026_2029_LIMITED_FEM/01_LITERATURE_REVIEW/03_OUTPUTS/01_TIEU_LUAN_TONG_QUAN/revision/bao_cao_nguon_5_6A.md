@@ -101,3 +101,27 @@ NCS chuyển từ "nhận" sang dự phòng. Chỉ nhập Zotero khi điều ki�
 | Zhang và cs. (2023), *Eng. Struct.* 283: 115873 | 10.1016/j.engstruct.2023.115873 | Ví dụ CAE huấn luyện bằng dao động vận hành của một nhà đang khai thác (G1) | Khi 3.6 hoặc 5.6A cần ví dụ công trình nhà thực; phải ghi rõ phần kiểm tra hư hỏng dựa trên dữ liệu FEM |
 | Zhang C. và cs. (2024), *Dev. Built Environ.* 20: 100549 | 10.1016/j.dibe.2024.100549 | LLM trích xuất báo cáo kiểm tra (cầu) (G6) | Chỉ khi NCS đổi quyết định G6 (hiện: không trích nguồn cho LLM) |
 | Xu và cs. (2024), *Front. Comput. Sci.* 18(6): 186357 | 10.1007/s11704-024-40555-y | Tổng quan LLM cho trích xuất thông tin (G6) | Như trên; chỉ dùng kèm một nguồn ứng dụng trong xây dựng |
+
+## 6. Tình trạng PDF của 13 tài liệu vừa nhập (29/09)
+
+Kiểm tra: tệp đính kèm trong Zotero (bản sao `zotero.sqlite` và thư mục `storage`), tình trạng
+truy cập mở theo OpenAlex, bản tiền in theo arXiv API. Không có tài liệu nào có tệp PDF thực sự
+trong Zotero. Varma & Simon (D28DT7CE) và Vabalas (6JAQQCGE) mỗi bài có hai bản ghi đính kèm PDF
+nhưng tệp không tồn tại trong `storage` (tải hỏng lúc nhập); NCS có thể xóa các bản ghi rỗng này
+(2U98RKJR, TWQJWB88, FZD5BAMT, VA37SNIK) khi gắn lại tệp.
+
+| Ưu tiên | Tài liệu (khóa) | Truy cập mở | Đường dẫn |
+|---|---|---|---|
+| **ƯU TIÊN** | Wang & Cha 2021 (TDRPDWJE) | Không (OpenAlex: closed; không thấy bản arXiv) | Qua thư viện/VPN: https://doi.org/10.1177/1475921720934051 |
+| **ƯU TIÊN** | Figueiredo và cs. 2011 (23TBQTIP) | Không (closed) | Qua thư viện/VPN: https://doi.org/10.1177/1475921710388971 |
+| **ƯU TIÊN** | Hughes và cs. 2022 (Z9RD5DMZ) | Có — bản tiền in arXiv (green) | https://arxiv.org/pdf/2105.05622 (cần đối chiếu với bản in MSSP khi trích) |
+| **ƯU TIÊN** | Bull và cs. 2022 (87NKU5IS) | Có — hybrid (OpenAlex), bài "© The Author(s)" | https://doi.org/10.1098/rspa.2021.0790 (máy chủ nhà xuất bản chặn tải tự động; tải qua trình duyệt) |
+| | Abdeljaber và cs. 2017 (HPREAQAJ) | Không (closed) | https://doi.org/10.1016/j.jsv.2016.10.043 |
+| | Cross, Worden & Chen 2011 (KPWFC4PI) | Không (closed) | https://doi.org/10.1098/rspa.2011.0023 |
+| | Ghazimoghadam & Hosseinzadeh 2024 (G98ZWHKW) | Có — bronze (đọc miễn phí trên trang nhà xuất bản) | https://doi.org/10.1016/j.measurement.2024.114410 |
+| | Wang, Yan & Oates 2017 (WXHN9TA2) | Bản kỷ yếu đóng; có bản tiền in arXiv | https://arxiv.org/pdf/1611.06455v4 |
+| | He và cs. 2016 (69U5H3TZ) | Có — green (kho lưu trữ) | https://repositorio.unal.edu.co/handle/unal/81443 |
+| | Breiman 2001 (5TQ4AZVX) | Có — green | https://www.ine.es/up/zEkXkJIZ |
+| | Cortes & Vapnik 1995 (JVI2GUPC) | Có — bronze | https://link.springer.com/content/pdf/10.1023/A:1022627411411.pdf |
+| | Varma & Simon 2006 (D28DT7CE) | Có — gold | https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-7-91 |
+| | Vabalas và cs. 2019 (6JAQQCGE) | Có — gold | https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0224365&type=printable |
