@@ -331,7 +331,8 @@ sáu tháng sau có sự cố, truy ngược được toàn bộ.
 |---|---|---|
 | Kế hoạch 7 giai đoạn | ✅ Đã duyệt | |
 | 4.1 Mục 5.6 Công cụ AI | ⏳ Đang làm | Chạy song song GĐ0–2 |
-| GĐ0 Chuẩn bị | ⬜ | |
+| GĐ0 Chuẩn bị | 🟡 Chờ ĐD0 | Markdown + đối chiếu 84 tài liệu xong (28–29/09); tồn đọng: `revision/viec_ton_dong_GD0.md` |
+| Quy ước trích dẫn (4.4), viết về giới hạn (4.5) | ✅ Đã thêm (29/09) | Danh sách 80 câu giới hạn chờ NCS duyệt (GĐ5) |
 | GĐ1 Bổ sung tài liệu | ⬜ | |
 | GĐ2 Đọc sâu | ⬜ | |
 | GĐ3 Khoảng trống | ⬜ | Cần gửi thầy |
