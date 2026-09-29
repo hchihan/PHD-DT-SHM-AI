@@ -84,5 +84,7 @@ Varma & Simon 2006 (thiên lệch chọn mô hình), Vabalas và cs. 2019 (đán
 
 1. Duyệt danh sách mục 2 (14 tài liệu G1–G6 và 4 tài liệu phương pháp từ Việc 1) trước khi
    nhập Zotero.
-2. Quyết định collection đích khi nhập: `TL-Key` (chưa tạo) hay một collection riêng cho 5.6A.
+2. Quyết định collection đích khi nhập: `TL-Key` hay một collection riêng cho 5.6A.
+   *Đính chính 29/09 (phiên nhập):* `TL-Key` (PRGXUPFZ) và `TL-Key/Bổ sung` (TKVJVWDZ) đã tồn tại;
+   ghi "chưa tạo" ở bản trước là sai. NCS đã chọn `TL-Key/Bổ sung`.
 3. Xác nhận cách viết cho G6 và phần chuyển sang nhà xưởng ở G1 (mục 3).

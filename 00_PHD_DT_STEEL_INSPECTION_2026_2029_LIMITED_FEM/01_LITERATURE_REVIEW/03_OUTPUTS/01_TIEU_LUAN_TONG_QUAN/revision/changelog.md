@@ -84,3 +84,17 @@
 ### Việc 3 – Báo cáo nguồn 5.6A
 - `revision/bao_cao_nguon_5_6A.md`: bảng tổng hợp G1–G6; danh sách 14 tài liệu đề xuất nhập Zotero theo ưu tiên (tối đa 3/nhóm) cùng 4 tài liệu phương pháp của Việc 1; các nhóm chưa có nguồn đủ tin cậy cho một phần lập luận (G6 nhà công nghiệp, G1 nhà xưởng thép, G4 ResNet1D trong SHM, G3 công trình xây dựng).
 - Cập nhật bảng Trạng thái tiến độ trong CLAUDE.md. Dừng chờ NCS duyệt danh sách trước khi nhập Zotero.
+
+## Phiên 29/09/2026 (3) – nhập tài liệu 5.6A đã duyệt vào Zotero
+
+NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
+
+### Kiểm tra collection
+- `TL-Key` (PRGXUPFZ) và `Bổ sung` (TKVJVWDZ, con của TL-Key) đã tồn tại; không tạo mới. Dòng "chưa tạo" trong `bao_cao_nguon_5_6A.md` là sai, đã ghi đính chính.
+
+### Việc 1 – Nhập 13 tài liệu
+- Kiểm tra trùng theo DOI và tiêu đề trên toàn thư viện: không bản nào có sẵn.
+- Nhập theo DOI vào TL-Key/Bổ sung: Wang & Cha 2021 (TDRPDWJE), Ghazimoghadam & Hosseinzadeh 2024 (G98ZWHKW), Figueiredo 2011 (23TBQTIP), Cross 2011 (KPWFC4PI), Hughes 2022 (Z9RD5DMZ), Bull 2022 (87NKU5IS), Abdeljaber 2017 (HPREAQAJ), He 2016 (69U5H3TZ, conferencePaper), Wang/Yan/Oates 2017 (WXHN9TA2, conferencePaper), Breiman 2001 (5TQ4AZVX), Cortes & Vapnik 1995 (JVI2GUPC), Varma & Simon 2006 (D28DT7CE), Vabalas 2019 (6JAQQCGE).
+- Tag: "5.6A" + nhóm G1–G5; bốn tài liệu phương pháp ngoài G1–G6 (Breiman, Cortes & Vapnik, Varma & Simon, Vabalas) mang tag "5.6A-phương pháp". Kiranyaz (IU5KZQEA) và Avci (QUGY4928) được gắn thêm "5.6A", "G5".
+- Đối chiếu Crossref sau khi nhập; đã sửa: năm bản in Wang & Cha (2020-07-08 → 2021-01) và Figueiredo (2010-11-26 → 2011-11), ngày trực tuyến ghi ở Extra; tên kỷ yếu cho He 2016 và Wang/Yan/Oates 2017 (trống → theo Crossref); số trang/mã bài Varma & Simon (91), Bull 2022 (20210790). Vabalas có thêm một biên tập viên trong trường người tạo — đúng dữ liệu nhập, không phải lỗi.
+- `matrix/doi_chieu_danh_muc.csv`: thêm 13 dòng `so_cu = moi`, `tier = bosung-5.6A`.
