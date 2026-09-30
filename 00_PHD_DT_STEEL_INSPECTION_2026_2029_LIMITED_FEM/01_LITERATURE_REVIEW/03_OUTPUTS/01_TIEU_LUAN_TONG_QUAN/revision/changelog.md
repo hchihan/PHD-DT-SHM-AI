@@ -212,3 +212,7 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - Tạo `revision/1_3A_nguon_hop_nhat.md`: kiểm kê các đoạn định nghĩa bằng chứng trạng thái và chuỗi định danh kèm đề xuất GĐ5; 4 điểm chờ NCS.
 - CLAUDE.md mục 12: thêm dòng 4.3.
 
+## Phiên 30/09/2026 (5) – sửa 1.3A, thêm quy tắc phản chứng
+- 1.3A: giữ ba thành phần; thêm câu nguồn gốc bao gồm nguồn thu, cấu hình cảm biến, phiên bản dữ liệu – chuỗi xử lý và giao thức đánh giá (trỏ 3.4.1); thêm đoạn ba nguồn của bằng chứng (mô hình trên dữ liệu cảm biến, quan sát của kỹ sư, kiểm tra không phá hủy) và câu về trọng tâm WP1; sửa Bảng 1.3A. Không sửa 1.4A và mục khác.
+- `1_3A_nguon_hop_nhat.md`: đề xuất GĐ5 cho 1.2.2, 3.1.3, 3.5 đổi thành viết lại như loại con "bằng chứng trạng thái từ dữ liệu dao động"; ghi hai điểm đã quyết.
+- CLAUDE.md mục 7.4 và `GD2_nhat_ky_khoang_trong.md`: thêm hai trường "Phản chứng đã kiểm", "Phát biểu đã thu hẹp" và điều kiện vào GĐ3. Áp cho UV-01 (CMMS, BCF 3.0; phát biểu thu hẹp đề xuất), UV-03 ([2] IFC Monitor, quan hệ gán trong IFC); UV-02, UV-04, UV-05 ghi "chưa kiểm".

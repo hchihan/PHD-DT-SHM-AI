@@ -234,6 +234,12 @@ Tiêu chí nhận: tạp chí có phản biện hoặc chuẩn chính thức; t�
 | Vị trí sử dụng | Mục trong tiểu luận v2 |
 | Mức đã đọc | Toàn văn / tóm tắt + phương pháp / chỉ tóm tắt |
 
+**Quy tắc phản chứng cho ứng viên khoảng trống** (`revision/GD2_nhat_ky_khoang_trong.md`; NCS duyệt 30/09/2026). Mỗi ứng viên có thêm hai trường:
+- **Phản chứng đã kiểm:** nguồn, chuẩn hoặc hệ thống có thể đã giải quyết vấn đề (ví dụ CMMS, BCF 3.0, IFC Monitor [2], ISO 19650); ghi kết quả đối chiếu kèm trang, hoặc "chưa kiểm".
+- **Phát biểu đã thu hẹp:** phát biểu sau khi trừ phần đã được giải quyết.
+
+Một ứng viên chỉ được đưa vào GĐ3 khi trường "Phản chứng đã kiểm" không còn mục nào ghi "chưa kiểm".
+
 ### 7.5 Cách viết cho luận điểm chưa có nguồn (NCS quyết định ở ĐD1, 30/09/2026)
 | Luận điểm | Cách viết |
 |---|---|
@@ -371,7 +377,7 @@ sáu tháng sau có sự cố, truy ngược được toàn bộ.
 |---|---|---|
 | Kế hoạch 7 giai đoạn | ✅ Đã duyệt | |
 | 4.1 Mục 5.6A Công cụ AI | ✅ Đã duyệt (chờ hoàn thiện 2 câu khi có PDF) (29/09) | `tieuluan/05_chuong5.md` mục 5.6A, 1.691 từ, 1 bảng; nguồn: `revision/5_6A_luan_diem_nguon.csv`; chờ PDF: xem `revision/viec_ton_dong_GD0.md` mục 5 |
-| 4.3 Mục 1.3A, 1.4A (Chương 1) | 🟡 Chờ duyệt (30/09) | `tieuluan/01_chuong1.md`, nhãn tạm đặt sau 1.2 hiện có; 1.3A 549 từ (gồm Bảng 1.3A), 1.4A 389 từ; nguồn hợp nhất: `revision/1_3A_nguon_hop_nhat.md` |
+| 4.3 Mục 1.3A, 1.4A (Chương 1) | 🟡 Chờ duyệt, đã sửa 1.3A theo góp ý (30/09) | `tieuluan/01_chuong1.md`, nhãn tạm đặt sau 1.2 hiện có; 1.3A ba thành phần, ba nguồn bằng chứng; 1.4A 389 từ; nguồn hợp nhất: `revision/1_3A_nguon_hop_nhat.md` |
 | 5.6A Chuẩn bị nguồn | ✅ Xong (29/09) | 13 tài liệu nhập vào TL-Key/Bổ sung (tag 5.6A); 5 dự phòng; PDF ưu tiên: Wang & Cha, Figueiredo, Hughes, Bull 2022 (revision/bao_cao_nguon_5_6A.md mục 6). Quyết định viết ở mục 9. Chưa viết 5.6A |
 | GĐ0 Chuẩn bị | ✅ ĐD0 đã duyệt (29/09) | Markdown + đối chiếu 84 tài liệu xong (28–29/09); tồn đọng: `revision/viec_ton_dong_GD0.md` |
 | Quy ước trích dẫn (4.4), viết về giới hạn (4.5) | ✅ Đã thêm (29/09) | Danh sách 80 câu giới hạn chờ NCS duyệt (GĐ5) |

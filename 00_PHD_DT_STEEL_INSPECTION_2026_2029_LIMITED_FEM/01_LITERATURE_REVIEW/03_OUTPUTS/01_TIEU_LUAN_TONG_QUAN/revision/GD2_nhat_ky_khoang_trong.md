@@ -10,6 +10,10 @@ Quy ước:
 - Căn cứ được đếm là **độc lập** khi thuộc các nhóm tác giả khác nhau và đã được đọc toàn văn hoặc đúng phần liên quan.
   Ngưỡng của Giai đoạn 3: mỗi khoảng trống cần từ 3 căn cứ, trong đó không thuộc nhóm 2025–2026 (CLAUDE.md 4.1).
 - Loại căn cứ: **TG** = tác giả tự nêu; **NCS** = nhận định của NCS từ việc bài không xử lý một ý; ghi rõ khi lẫn.
+- **Phản chứng đã kiểm** (quy tắc thêm ngày 30/09/2026, CLAUDE.md mục 7.4): nguồn, chuẩn hoặc hệ thống có thể đã giải quyết vấn đề
+  (ví dụ CMMS, BCF 3.0, IFC Monitor [2], ISO 19650); ghi kết quả đối chiếu kèm trang, hoặc "chưa kiểm".
+- **Phát biểu đã thu hẹp:** phát biểu sau khi trừ phần đã được giải quyết.
+- Một ứng viên chỉ được đưa vào GĐ3 khi trường "Phản chứng đã kiểm" không còn mục nào ghi "chưa kiểm".
 - Nguồn đã đọc toàn văn đến hết phiên T1-3: [8], [7], [3] (30/09/2026). Phiên T1-1 (ba tiền lệ [2], [35], [44]) **chưa
   thực hiện**; căn cứ từ ba bài đó sẽ được bổ sung khi có. Căn cứ đã dùng ở 5.6A (Bull 2022, Wang & Cha 2021, [57],
   Hughes 2022, Figueiredo 2011) chưa được đưa vào nhật ký; cần rà lại ở phiên Tier 2.
@@ -23,6 +27,8 @@ Quy ước:
 | UV-03 | Gắn dữ liệu cảm biến với đối tượng BIM chưa kèm thời hạn hiệu lực và lịch sử thay đổi ghép | K2 | 2 ([3], [7]) | 2020, 2020 | Chưa đủ; cần [2], [35] |
 | UV-04 | Thiếu phân loại mức tích hợp DM/DS/DT áp cho kiểm tra – bảo trì kết cấu công trình có con người ra quyết định | mới (định vị) | 2 ([8], [7]) | 2018, 2020 | Chỉ phục vụ định vị ở 2.3, không dự kiến thành khoảng trống |
 | UV-05 | Ở công trình đang vận hành thiếu dữ liệu có nhãn về bất thường; nhãn phụ thuộc đánh giá con người | mới (nhãn hiện trường; liên quan L2.3, 5.6A) | 1 ([3]) | 2020 | Căn cứ đã có ở 5.6A chưa nhập nhật ký |
+
+Tình trạng phản chứng (30/09/2026): cả năm ứng viên còn mục "chưa kiểm"; chưa ứng viên nào đủ điều kiện vào GĐ3.
 
 ## UV-01 — Chuỗi cảnh báo → hành động
 
@@ -39,6 +45,11 @@ Quy ước:
   chuyển tác vụ) + **NCS** (việc chuỗi không có trạng thái xử lý là suy từ phần bài không mô tả).
 - **Liên quan:** K3.
 - **Ghi chú:** đối tượng của [3] là bơm HVAC, của [7] là công trường thi công; không trực tiếp là kết cấu thép vận hành.
+- **Phản chứng đã kiểm:**
+  - Hệ quản lý bảo trì trên máy tính (CMMS), quản lý lệnh công việc có trạng thái: **chưa kiểm** trên nguồn chuyên về CMMS. Căn cứ gián tiếp đã có: [3] tr. 1 ghi CMMS lưu lệnh công việc hằng ngày, hồ sơ lịch sử, yêu cầu dịch vụ và thông tin bảo trì; [3] tr. 4 ghi CMMS lưu yêu cầu dịch vụ và lệnh công việc xử lý yêu cầu. Trạng thái hành động vì vậy nhiều khả năng đã được theo dõi ở CMMS.
+  - BCF 3.0 (`K5SGFIGW`), trạng thái vấn đề gắn cấu kiện: **chưa kiểm**. CẦN KIỂM ở phiên đọc tiếp theo (đã có trong Zotero): trường trạng thái, lịch sử thay đổi, người được giao, liên kết tới cấu kiện, và có trường nào trỏ về dữ liệu hoặc bằng chứng gốc hay không.
+  - ISO 19650-3 [1], [44], [35]: **chưa kiểm** (phiên T1-1).
+- **Phát biểu đã thu hẹp (đề xuất, chờ kết quả kiểm):** trạng thái hành động có thể được theo dõi trong CMMS/BCF, nhưng không nối ngược được về bằng chứng cảm biến cùng phạm vi hiệu lực của nó.
 
 ## UV-02 — Nguồn gốc, phiên bản phương pháp, phạm vi hiệu lực của đầu ra phát hiện
 
@@ -54,6 +65,8 @@ Quy ước:
 - **Loại căn cứ:** TG ([7] tr. 9, 11) + **NCS** (không có cơ chế ghi nguồn gốc/phạm vi là suy từ phần bài không xử lý).
 - **Liên quan:** K1.
 - **Ghi chú:** cần đối chiếu với [18], [45], Figueiredo 2011 (Tier 2) về phạm vi hiệu lực phụ thuộc điều kiện huấn luyện.
+- **Phản chứng đã kiểm:** **chưa kiểm**. Cần đối chiếu PROV-O [69], SOSA/SSN [61]–[62], [16] Çelik 2023 (nguồn gốc dữ liệu BIM) và công cụ quản lý phiên bản mô hình (MLflow/DVC).
+- **Phát biểu đã thu hẹp:** chưa có; chờ kết quả kiểm.
 
 ## UV-03 — Ghép cảm biến – cấu kiện có thời hạn
 
@@ -68,6 +81,12 @@ Quy ước:
 - **Liên quan:** K2.
 - **Ghi chú:** [3] là **tiền lệ** cho việc ghép; điểm còn thiếu là thời hạn và lịch sử. Cần đối chiếu [2] (IFC Monitor),
   [35] ở phiên T1-1 trước khi coi đây là khoảng trống.
+- **Phản chứng đã kiểm:**
+  - [3] Lu 2020: đã kiểm. Có bảng ghép GUID ↔ ID nguồn dữ liệu (tr. 6, 10); không có thời hạn hiệu lực hay lịch sử thay đổi ghép.
+  - [2] IFC Monitor (Theiler & Smarsly 2018): **chưa kiểm** (phiên T1-1). Câu hỏi: lược đồ có xử lý thời gian của quan hệ cảm biến – cấu kiện (lắp, dời, thay, hiệu chuẩn) không?
+  - Quan hệ gán và ánh xạ sẵn có trong IFC (IfcRelAssigns và các quan hệ liên quan, IfcOwnerHistory): **chưa kiểm**. Câu hỏi: các quan hệ này có mang thời hạn hiệu lực hoặc lịch sử phiên bản không?
+  - SOSA/SSN [61]–[62] (triển khai cảm biến trên nền tảng theo thời gian): **chưa kiểm**.
+- **Phát biểu đã thu hẹp:** chưa có; chờ kết quả kiểm [2] và IFC.
 
 ## UV-04 — Định vị mức tích hợp DM/DS/DT cho kiểm tra – bảo trì
 
@@ -80,6 +99,8 @@ Quy ước:
 - **Loại căn cứ:** TG ([8] tr. 1020) + **NCS** (việc chưa có phân loại cho kiểm tra – bảo trì kết cấu là suy từ phạm vi hai bài).
 - **Liên quan:** mới, chỉ phục vụ **định vị** (mục 2.3 và câu khai báo mức DS ở Dẫn nhập). **[NCS]** Không nên phát triển
   thành khoảng trống của luận án: đây là câu hỏi khái niệm, không phải điều luận án kiểm chứng.
+- **Phản chứng đã kiểm:** **chưa kiểm**. Cần đối chiếu [10] Chen 2021 (mô hình trưởng thành theo Gemini Principles) và Sepasgozar 2021 [9].
+- **Phát biểu đã thu hẹp:** chưa có; ứng viên chỉ dùng để định vị.
 
 ## UV-05 — Thiếu nhãn hư hỏng ở hiện trường
 
@@ -92,3 +113,5 @@ Quy ước:
 - **Liên quan:** mới (nhãn hiện trường, vòng lặp kiểm tra tạo nhãn). Trong GD1 đây là luận điểm L2.3 ("thiếu dữ liệu hư
   hỏng có nhãn ở hiện trường"), đã có nguồn ở 5.6A (Bull 2022, Wang & Cha 2021, [57]) mà chưa đưa vào nhật ký này.
 - **Ghi chú:** đối tượng của [3] là bơm HVAC; chỉ dùng như căn cứ cùng chiều.
+- **Phản chứng đã kiểm:** **chưa kiểm**. Cần đối chiếu học chủ động theo rủi ro (Hughes 2022 `Z9RD5DMZ`, Bull 2022 `87NKU5IS`) và SHM theo quần thể [57], là các hướng đã đề xuất cách lấy nhãn từ kiểm tra.
+- **Phát biểu đã thu hẹp:** chưa có; chờ kết quả kiểm.

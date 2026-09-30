@@ -81,18 +81,20 @@ Trong đó *Sensor_ID* xác định nguồn đo; *BIM_GUID* xác định cấu k
 
 Trong luận án này, bằng chứng trạng thái (condition evidence) là một nhận định về tình trạng của một cấu kiện, kèm nguồn tạo ra nhận định đó và phạm vi mà nhận định được phép sử dụng.
 
-Một ví dụ giả định giúp hình dung khái niệm. Cảm biến gia tốc gắn trên cột trục C3 của một nhà xưởng giả định ghi dao động khi cầu trục vận hành, và mô hình học máy gán cho một đoạn tín hiệu nhãn "lệch khỏi đường cơ sở vận hành". Nhãn này là kết quả phân loại. Nó trở thành bằng chứng trạng thái khi đi kèm ba thành phần. Thành phần thứ nhất là nguồn gốc (provenance): cảm biến nào đã đo, cấu hình lắp đặt nào, chuỗi xử lý và phiên bản mô hình nào đã tạo ra nhãn. Thành phần thứ hai là độ bất định: nhãn thay đổi ra sao khi phép đánh giá được lặp lại. Thành phần thứ ba là phạm vi hiệu lực (validity scope): nhận định đúng cho cột C3 trong các chế độ vận hành đã có mặt ở dữ liệu tham chiếu. Mọi giá trị và cấu hình trong ví dụ đều giả định.
+Nhận định đó có thể đến từ ba nguồn: mô hình chạy trên dữ liệu cảm biến, quan sát của kỹ sư khi kiểm tra, hoặc phép đo kiểm tra không phá hủy. Luận án tập trung vào bằng chứng từ dữ liệu dao động ở Gói công việc 1 (WP1), còn cấu trúc dữ liệu tiếp nhận cả ba loại (Mục 5.5).
+
+Một ví dụ giả định về bằng chứng từ dữ liệu cảm biến giúp hình dung khái niệm. Cảm biến gia tốc gắn trên cột trục C3 của một nhà xưởng giả định ghi dao động khi cầu trục vận hành, và mô hình học máy gán cho một đoạn tín hiệu nhãn "lệch khỏi đường cơ sở vận hành". Nhãn này là kết quả phân loại. Nó trở thành bằng chứng trạng thái khi đi kèm ba thành phần. Thành phần thứ nhất là nguồn gốc (provenance): nhãn được tạo ra từ dữ liệu nào và bằng cách nào. Nguồn gốc bao gồm nguồn thu, cấu hình cảm biến, phiên bản dữ liệu – chuỗi xử lý và giao thức đánh giá; chi tiết ở Mục 3.4.1. Thành phần thứ hai là độ bất định: nhãn thay đổi ra sao khi phép đánh giá được lặp lại. Thành phần thứ ba là phạm vi hiệu lực (validity scope): nhận định đúng cho cột C3 trong các chế độ vận hành đã có mặt ở dữ liệu tham chiếu. Mọi giá trị và cấu hình trong ví dụ đều giả định.
 
 Phạm vi hiệu lực được ghi rõ vì độ tin cậy của một kết quả phụ thuộc vào cách kết quả được đánh giá. Beleites và cộng sự (2013) phân biệt số quan sát tính toán với số đơn vị độc lập thực \[14\]. Wheat và cộng sự (2024) cho thấy hiệu năng đo được trên dữ liệu rung động thay đổi mạnh khi đổi cấp nguồn vật lý dùng để chia dữ liệu \[15\]. Phạm vi hiệu lực vì vậy ghi đơn vị suy luận và cách chia dữ liệu, cùng đợt lắp đặt, cấu hình cảm biến và điều kiện áp dụng (mục 3.4.2).
 
-Bảng 1.3A đặt ba khái niệm cạnh nhau. Chẩn đoán hư hỏng là kết luận của kỹ sư sau khi kiểm tra cấu kiện; bằng chứng trạng thái là căn cứ để kỹ sư quyết định có kiểm tra hay không.
+Bảng 1.3A đặt ba khái niệm cạnh nhau. Chẩn đoán hư hỏng là kết luận của kỹ sư sau khi kiểm tra cấu kiện; bằng chứng trạng thái là căn cứ mà kỹ sư dùng để quyết định kiểm tra và để đi tới kết luận đó.
 
 *Bảng 1.3A. Kết quả phân loại, bằng chứng trạng thái và chẩn đoán hư hỏng*
 
 | Khái niệm | Gồm những gì | Do ai hoặc cái gì tạo ra | Dùng để làm gì |
 |---|---|---|---|
-| Kết quả phân loại | Một giá trị cho một mẫu tín hiệu: nhãn, xác suất hoặc điểm số | Mô hình học máy | Là đầu vào để tạo bằng chứng trạng thái |
-| Bằng chứng trạng thái | Kết quả phân loại gắn với cấu kiện, nguồn gốc, độ bất định và phạm vi hiệu lực | Mô hình cùng chuỗi xử lý có phiên bản | Là căn cứ để kỹ sư quyết định kiểm tra, trong phạm vi hiệu lực đã ghi |
+| Kết quả phân loại | Một giá trị cho một mẫu tín hiệu: nhãn, xác suất hoặc điểm số | Mô hình học máy | Là đầu vào để tạo bằng chứng trạng thái từ dữ liệu cảm biến |
+| Bằng chứng trạng thái | Một nhận định về tình trạng cấu kiện (kết quả phân loại, ghi nhận quan sát hoặc số đo), gắn với cấu kiện, nguồn gốc, độ bất định và phạm vi hiệu lực | Mô hình trên dữ liệu cảm biến cùng chuỗi xử lý có phiên bản; kỹ sư quan sát khi kiểm tra; phép đo kiểm tra không phá hủy | Là căn cứ để kỹ sư quyết định kiểm tra và lập chẩn đoán, trong phạm vi hiệu lực đã ghi |
 | Chẩn đoán hư hỏng | Kết luận về có hư hỏng hay không, vị trí, nguyên nhân và mức độ | Kỹ sư, sau khi kiểm tra cấu kiện | Là căn cứ để quyết định sửa chữa hoặc bảo trì |
 
 Cấu trúc dữ liệu của bản ghi bằng chứng, gồm cả ba thành phần trên, được trình bày ở Mục 5.5.
