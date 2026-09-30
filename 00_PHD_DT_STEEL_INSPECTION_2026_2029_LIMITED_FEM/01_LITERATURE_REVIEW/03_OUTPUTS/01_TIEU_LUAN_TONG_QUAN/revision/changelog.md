@@ -204,3 +204,11 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - [7]: đề cập độ tin cậy dữ liệu nguồn (một đoạn, tr. 9) và xác nhận của người dùng (tr. 12); không đề cập nguồn gốc dữ liệu, truy vết, trách nhiệm.
 - Tạo `revision/GD2_nhat_ky_khoang_trong.md` (UV-01…UV-05); cập nhật `matrix/literature_matrix.csv` (3 dòng, mức đọc "toàn văn"); tag Zotero `Doc:toan_van` (3 bài), K1/K2/K3 cho [7] và [3].
 - Phiên T1-1 (ba tiền lệ) chưa chạy; ghi trong `GD2_ke_hoach_doc.md` mục 6.
+
+## Phiên 30/09/2026 (4) – GĐ4, bước 4.3: viết mục 1.3A và 1.4A
+- Chèn `## 1.3A. Khái niệm bằng chứng trạng thái` và `## 1.4A. Ba câu hỏi của người quản lý` vào `tieuluan/01_chuong1.md`, ngay sau mục 1.2 hiện có (mục 1.2 mới "Đối tượng" chưa viết); không sửa hay xóa đoạn cũ (diff chỉ thêm 28 dòng).
+- 1.3A: 549 từ gồm Bảng 1.3A (395 từ ngoài bảng); 2 trích dẫn [14], [15]. 1.4A: 389 từ; 2 trích dẫn [16], [17]. Cả bốn đã dùng đúng ý ở 1.2.2 và 1.2.4; không có tài liệu mới.
+- Ví dụ cột trục C3 và kịch bản 1.4A ghi rõ là giả định; không dùng số liệu, cấu hình hay kết quả của Paper 1.
+- Tạo `revision/1_3A_nguon_hop_nhat.md`: kiểm kê các đoạn định nghĩa bằng chứng trạng thái và chuỗi định danh kèm đề xuất GĐ5; 4 điểm chờ NCS.
+- CLAUDE.md mục 12: thêm dòng 4.3.
+

@@ -77,6 +77,34 @@ Tương ứng với chuỗi này là một chuỗi định danh kỹ thuật:
 
 Trong đó *Sensor_ID* xác định nguồn đo; *BIM_GUID* xác định cấu kiện trong mô hình thông tin; *Condition_Evidence_ID* xác định bản ghi bằng chứng trạng thái; *Inspection_Record_ID* xác định hồ sơ kiểm tra; *Action_Status* biểu diễn trạng thái xử lý của hành động kiểm tra hoặc bảo trì. Các mã này thống nhất với kiến trúc dữ liệu của luận án (mục 5.6.2).
 
+## 1.3A. Khái niệm bằng chứng trạng thái
+
+Trong luận án này, bằng chứng trạng thái (condition evidence) là một nhận định về tình trạng của một cấu kiện, kèm nguồn tạo ra nhận định đó và phạm vi mà nhận định được phép sử dụng.
+
+Một ví dụ giả định giúp hình dung khái niệm. Cảm biến gia tốc gắn trên cột trục C3 của một nhà xưởng giả định ghi dao động khi cầu trục vận hành, và mô hình học máy gán cho một đoạn tín hiệu nhãn "lệch khỏi đường cơ sở vận hành". Nhãn này là kết quả phân loại. Nó trở thành bằng chứng trạng thái khi đi kèm ba thành phần. Thành phần thứ nhất là nguồn gốc (provenance): cảm biến nào đã đo, cấu hình lắp đặt nào, chuỗi xử lý và phiên bản mô hình nào đã tạo ra nhãn. Thành phần thứ hai là độ bất định: nhãn thay đổi ra sao khi phép đánh giá được lặp lại. Thành phần thứ ba là phạm vi hiệu lực (validity scope): nhận định đúng cho cột C3 trong các chế độ vận hành đã có mặt ở dữ liệu tham chiếu. Mọi giá trị và cấu hình trong ví dụ đều giả định.
+
+Phạm vi hiệu lực được ghi rõ vì độ tin cậy của một kết quả phụ thuộc vào cách kết quả được đánh giá. Beleites và cộng sự (2013) phân biệt số quan sát tính toán với số đơn vị độc lập thực \[14\]. Wheat và cộng sự (2024) cho thấy hiệu năng đo được trên dữ liệu rung động thay đổi mạnh khi đổi cấp nguồn vật lý dùng để chia dữ liệu \[15\]. Phạm vi hiệu lực vì vậy ghi đơn vị suy luận và cách chia dữ liệu, cùng đợt lắp đặt, cấu hình cảm biến và điều kiện áp dụng (mục 3.4.2).
+
+Bảng 1.3A đặt ba khái niệm cạnh nhau. Chẩn đoán hư hỏng là kết luận của kỹ sư sau khi kiểm tra cấu kiện; bằng chứng trạng thái là căn cứ để kỹ sư quyết định có kiểm tra hay không.
+
+*Bảng 1.3A. Kết quả phân loại, bằng chứng trạng thái và chẩn đoán hư hỏng*
+
+| Khái niệm | Gồm những gì | Do ai hoặc cái gì tạo ra | Dùng để làm gì |
+|---|---|---|---|
+| Kết quả phân loại | Một giá trị cho một mẫu tín hiệu: nhãn, xác suất hoặc điểm số | Mô hình học máy | Là đầu vào để tạo bằng chứng trạng thái |
+| Bằng chứng trạng thái | Kết quả phân loại gắn với cấu kiện, nguồn gốc, độ bất định và phạm vi hiệu lực | Mô hình cùng chuỗi xử lý có phiên bản | Là căn cứ để kỹ sư quyết định kiểm tra, trong phạm vi hiệu lực đã ghi |
+| Chẩn đoán hư hỏng | Kết luận về có hư hỏng hay không, vị trí, nguyên nhân và mức độ | Kỹ sư, sau khi kiểm tra cấu kiện | Là căn cứ để quyết định sửa chữa hoặc bảo trì |
+
+Cấu trúc dữ liệu của bản ghi bằng chứng, gồm cả ba thành phần trên, được trình bày ở Mục 5.5.
+
+## 1.4A. Ba câu hỏi của người quản lý
+
+Một kịch bản giả định cho thấy người quản lý cần gì ở thông tin. Trong một ca sản xuất của nhà xưởng thép, hệ thống ghi nhận dao động của cột trục C3 lệch khỏi đường cơ sở vận hành. Hệ thống tạo một bằng chứng trạng thái gắn với cột C3, ghi cảm biến, phiên bản phương pháp, độ bất định và điều kiện áp dụng. Kỹ sư A nhận bằng chứng, kiểm tra tại hiện trường và xác nhận một bu lông liên kết ở cột C3 bị lỏng. Kết quả kiểm tra được ghi thành hồ sơ và liên kết với bằng chứng đã làm phát sinh kiểm tra. Trưởng phòng B, người có thẩm quyền, phê duyệt việc siết lại. Bu lông được siết, hành động được đóng. Sáu tháng sau, khu vực này xảy ra một sự cố. Người điều tra mở hành động, đọc được hồ sơ của kỹ sư A, bằng chứng đã dẫn tới hồ sơ đó và phạm vi mà bằng chứng được phép dùng, mà không phải hỏi lại từng người.
+
+Kịch bản đặt ra ba câu hỏi mà người quản lý cần trả lời được ở mọi thời điểm. Cái gì bất thường, ở đâu? Tin được đến mức nào? Ai đã xử lý, dựa vào đâu?
+
+Mỗi câu hỏi tương ứng với một phần của luận án. Câu hỏi thứ nhất cần liên kết giữa bằng chứng và cấu kiện, để bất thường được đặt vào đúng cột thay vì chỉ gắn với một cảm biến. Câu hỏi thứ hai cần nguồn gốc và phạm vi hiệu lực của bằng chứng, để mức tin cậy được đọc trong đúng điều kiện. Câu hỏi thứ ba cần hồ sơ kiểm tra, các sự kiện chuyển trạng thái của hành động và thẩm quyền của người thực hiện. Phần thứ ba đã có tiền lệ từng phần: Çelik và cộng sự (2023) ghi nguồn gốc dữ liệu, tác nhân, thời điểm và phiên bản trong trao đổi thông tin xây dựng \[16\], còn Wu và cộng sự (2026) xây dựng khung kiểm định công trình có chuyên gia tương tác và rà soát \[17\]. Mục 5.5 trình bày cấu trúc dữ liệu để trả lời ba câu hỏi này.
+
 ## 1.3. Sự cần thiết của nghiên cứu
 
 ### 1.3.1. Cần nâng chất lượng của kết quả phân loại thành chất lượng của bằng chứng
