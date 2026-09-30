@@ -21,9 +21,9 @@ Cột "Truy cập" lấy từ OpenAlex ngày 30/09/2026. Cột "PDF" kiểm trê
 
 | Phiên | TT | Tài liệu | Khóa | Cụm | Phục vụ | PDF | Ghi chú đọc |
 |---|---|---|---|---|---|---|---|
-| T1-1 | 1 | [2] Theiler & Smarsly (2018) | 2ILY9YZ3 | Truy vết thông tin | tiền lệ; `mapping/theiler2018.md` | có | chưa |
+| T1-1 | 1 | [2] Theiler & Smarsly (2018) | 2ILY9YZ3 | Truy vết thông tin | tiền lệ; `mapping/theiler2018.md` | có | toàn văn (T1-1, 30/09/2026) |
 | T1-1 | 2 | [35] Bellon và cs. (2025) | NUTL57KJ | Truy vết thông tin | tiền lệ; `mapping/bellon2025.md` | **THIẾU** | chưa |
-| T1-1 | 3 | [44] García và cs. (2026) | GNTQNBWM | Truy vết thông tin | tiền lệ; `mapping/garcia2026.md` | có | chưa |
+| T1-1 | 3 | [44] García và cs. (2026) | GNTQNBWM | Truy vết thông tin | tiền lệ; `mapping/garcia2026.md` | có | toàn văn (T1-1, 30/09/2026) |
 | T1-2 | 4 | [22] Hemker và cs. (2019) | B2JXAM9M | Giá trị quyết định | 2.1.1 | **THIẾU** | chưa |
 | T1-2 | 5 | [18] Brake và cs. (2019) | VPFBB9SG | SHM–bu lông–EOV | 3.6 | có | một phần (tóm tắt, kết luận) |
 | T1-2 | 6 | [19] Ramasso và cs. (2025) | RWHW6F9I | SHM–bu lông–EOV | 3.6 | có | chưa |
@@ -108,5 +108,5 @@ cần có trước khi viết các mục 2.1.1, 3.1, 3.2 ở Giai đoạn 4.
 ## 6. Tiến độ phiên
 
 - **T1-3 (30/09/2026): xong** — [8], [7], [3] đọc toàn văn; ghi chú `notes/DMIUEEFB.md`, `notes/5REDLQK8.md`, `notes/5QX5LTMZ.md`; nhật ký `revision/GD2_nhat_ky_khoang_trong.md` (5 ứng viên).
-- **T1-1: chưa thực hiện** (phiên bị ngắt; `mapping/` còn trống). Còn cần PDF của [35] Bellon.
+- **T1-1 (30/09/2026): xong 2/3** — [2], [44] đọc toàn văn; ghi chú `notes/2ILY9YZ3.md`, `notes/GNTQNBWM.md`; bảng ánh xạ `mapping/theiler2018.md`, `mapping/garcia2026.md`; kiểm phản chứng UV-01, UV-03. **[35] Bellon chờ PDF**; `mapping/bellon2025.md` chưa lập.
 - T1-2, T1-4: chưa.

@@ -159,6 +159,13 @@ Ghi chú (NCS duyệt 29/09/2026):
 - Khi viết 3.6, chuyển đoạn "bốn nhóm bằng chứng" (5.6A.3, đoạn 1) sang 3.6 và rút gọn phần ở 5.6A còn 1–2 câu trỏ về.
 - Mục 5.5, 5.7 và Phụ lục B phải định nghĩa đủ các thuật ngữ mà 5.6A đã dùng (bản ghi bằng chứng, trường giá trị, trường độ bất định, trường phạm vi hiệu lực, trường điều kiện áp dụng, bối cảnh quan trắc, bản ghi kiểm tra, bản ghi sử dụng bằng chứng, sự kiện chuyển trạng thái, đường cơ sở B0, ràng buộc về sử dụng bằng chứng ngoài phạm vi hiệu lực).
 
+Tiền lệ bắt buộc nêu (kết quả kiểm phản chứng GĐ2, 30/09/2026; chi tiết ở `revision/GD2_nhat_ky_khoang_trong.md`):
+- **BCF 3.0** là tiền lệ bắt buộc nêu ở 2.2 và 5.5 (trạng thái vấn đề, sự kiện chuyển trạng thái); phần mới của luận án là quan hệ giữa sự kiện chuyển trạng thái với bản ghi sử dụng bằng chứng.
+- **IFC4** (`IfcActionRequest`, `IfcProjectOrder` loại lệnh bảo trì, `IfcTask`, `IfcApproval`, `IfcPerformanceHistory`) là tiền lệ bắt buộc nêu ở 2.2 và 5.5 cho hành động có trạng thái, phê duyệt và dữ liệu đo theo thời gian; phần mới là lịch sử chuyển trạng thái và quan hệ định kiểu từ hành động về bằng chứng tình trạng.
+- **SSN `Deployment`** (cảm biến triển khai trên nền tảng) là tiền lệ bắt buộc nêu ở 4.x và 5.5 cho ánh xạ cảm biến – cấu kiện; cùng [2] IFC Monitor. Phần mới là khoảng hiệu lực bắt buộc và ràng buộc thời điểm quan trắc nằm trong khoảng đó (C3).
+- **[44] García 2026** là tiền lệ của khuôn "bước chuyển có bằng chứng và đúng thẩm quyền" (C6), áp cho gói thông tin bàn giao; nêu ở 4.5 và 5.5. Phần mới là áp khuôn đó cho hành động kiểm tra – bảo trì dựa trên bằng chứng tình trạng.
+- Đề xuất bổ sung schema từ `mapping/garcia2026.md` Phần D (tách nhiệm vụ, phiên bản bộ luật quyết định, mã băm) chờ NCS quyết định khi viết 5.5.
+
 ### 6.2 Việc tái cấu trúc (Giai đoạn 5)
 - Chuyển RQ và kiến trúc nghiên cứu từ Chương 1 sang Chương 5; xóa phần lặp.
 - Gom các câu giới hạn về mục giới hạn (nhãn tạm 5.8, đánh số lại ở GĐ5), cắt khoảng một nửa.
@@ -382,7 +389,7 @@ sáu tháng sau có sự cố, truy ngược được toàn bộ.
 | GĐ0 Chuẩn bị | ✅ ĐD0 đã duyệt (29/09) | Markdown + đối chiếu 84 tài liệu xong (28–29/09); tồn đọng: `revision/viec_ton_dong_GD0.md` |
 | Quy ước trích dẫn (4.4), viết về giới hạn (4.5) | ✅ Đã thêm (29/09) | Danh sách 80 câu giới hạn chờ NCS duyệt (GĐ5) |
 | GĐ1 Bổ sung tài liệu | ✅ Đã duyệt (ĐD1) (30/09) | Nhập 17 tài liệu mới, gắn 5 tài liệu có sẵn; danh sách key 30 (12 Tier 1, 18 Tier 2) ở mục 7.1–7.2; báo cáo: `revision/bao_cao_GD1.md` |
-| GĐ2 Đọc sâu | 🟡 Sẵn sàng – chờ PDF | Ma trận khung: `matrix/literature_matrix.csv` (30 dòng, 5 dòng điền sẵn cần NCS kiểm); kế hoạch 8 phiên và 10 PDF key còn thiếu: `revision/GD2_ke_hoach_doc.md` |
+| GĐ2 Đọc sâu | 🟡 Đang làm: 5/30 đã đọc toàn văn ([8], [7], [3], [2], [44]) (30/09) | Ma trận khung: `matrix/literature_matrix.csv` (30 dòng, 5 dòng điền sẵn cần NCS kiểm); kế hoạch 8 phiên và 10 PDF key còn thiếu: `revision/GD2_ke_hoach_doc.md` |
 | GĐ3 Khoảng trống | ⬜ | Cần gửi thầy |
 | GĐ4 Viết mục mới (4.2–4.9) | ⬜ | |
 | GĐ5 Tái cấu trúc | ⬜ | |

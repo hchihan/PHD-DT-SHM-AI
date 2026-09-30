@@ -14,7 +14,7 @@ Quy ước:
   (ví dụ CMMS, BCF 3.0, IFC Monitor [2], ISO 19650); ghi kết quả đối chiếu kèm trang, hoặc "chưa kiểm".
 - **Phát biểu đã thu hẹp:** phát biểu sau khi trừ phần đã được giải quyết.
 - Một ứng viên chỉ được đưa vào GĐ3 khi trường "Phản chứng đã kiểm" không còn mục nào ghi "chưa kiểm".
-- Nguồn đã đọc toàn văn đến hết phiên T1-3: [8], [7], [3] (30/09/2026). Đọc thêm để kiểm phản chứng (30/09/2026): BCF 3.0 (phần mô hình vấn đề và sự kiện) và [2] (thân bài; chưa lập ghi chú đọc sâu và bảng ánh xạ, thuộc phiên T1-1). Phiên T1-1 (ba tiền lệ [2], [35], [44]) **chưa
+- Nguồn đã đọc toàn văn đến hết phiên T1-3: [8], [7], [3] (30/09/2026). Phiên T1-1 (30/09/2026): [2], [44] đọc toàn văn; [35] chờ PDF. Tài liệu chính thức đã đọc để kiểm phản chứng: BCF 3.0 (BCF-XML, BCF-API), IFC4 ADD2 TC1 (các thực thể nêu ở UV-01, UV-03), COBie 2.4 (NBIMS-US V3 chương 4.2), SSN/SOSA (Khuyến nghị W3C 2017). ISO 19650-3 không truy cập được. Phiên T1-1 (ba tiền lệ [2], [35], [44]) **chưa
   thực hiện**; căn cứ từ ba bài đó sẽ được bổ sung khi có. Căn cứ đã dùng ở 5.6A (Bull 2022, Wang & Cha 2021, [57],
   Hughes 2022, Figueiredo 2011) chưa được đưa vào nhật ký; cần rà lại ở phiên Tier 2.
 
@@ -22,13 +22,13 @@ Quy ước:
 
 | Mã | Phát biểu | K | Số căn cứ độc lập hiện có | Năm các căn cứ | Ghi chú |
 |---|---|---|---|---|---|
-| UV-01 | Chuỗi từ cảnh báo đến hành động không được ghi thành trạng thái xử lý có truy vết trong các khung song sinh số cho công trình | K3 | 2 ([3], [7]) | 2020, 2020 | Chưa đủ; cần [35], [44], [16], [17] |
-| UV-02 | Đầu ra phát hiện bất thường trong khung song sinh cho công trình chưa được ghi cùng nguồn gốc xử lý, phiên bản phương pháp và phạm vi hiệu lực | K1 | 2 ([3], [7]) | 2020, 2020 | Chưa đủ; cần [18], [45], 23TBQTIP |
-| UV-03 | Gắn dữ liệu cảm biến với đối tượng BIM chưa kèm thời hạn hiệu lực và lịch sử thay đổi ghép | K2 | 3 ([3], [7], [2]) | 2020, 2020, 2018 | Đủ 3 căn cứ trước 2025; phản chứng còn chờ đặc tả IFC, SOSA/SSN; cần [35] |
+| UV-01 | Hành động và lần đổi trạng thái không nối ngược được về bằng chứng tình trạng cùng phạm vi hiệu lực (đã thu hẹp) | K3 | 3 ([3], [7], [44]); 2 trước 2025 | 2020, 2020, 2026 | Chưa đủ: thiếu 1 căn cứ trước 2025; còn chờ CMMS, ISO 19650-3 (không truy cập được), [35] |
+| UV-02 | Đầu ra phát hiện bất thường trong khung song sinh cho công trình chưa được ghi cùng nguồn gốc xử lý, phiên bản phương pháp và phạm vi hiệu lực | K1 | 2 ([3], [7]) | 2020, 2020 | Chưa đủ; phản chứng mới kiểm một phần ([44], SSN); cần [18], [45], 23TBQTIP |
+| UV-03 | Ánh xạ cảm biến – cấu kiện thiếu cách ghép được quy định về thời hạn hiệu lực và ràng buộc thời gian (đã thu hẹp) | K2 | 3 ([3], [7], [2]) | 2020, 2020, 2018 | **Đủ điều kiện hình thức vào GĐ3**; phần còn lại nhỏ, nên xem là yêu cầu của mô hình dữ liệu; cần [35] |
 | UV-04 | Thiếu phân loại mức tích hợp DM/DS/DT áp cho kiểm tra – bảo trì kết cấu công trình có con người ra quyết định | mới (định vị) | 2 ([8], [7]) | 2018, 2020 | Chỉ phục vụ định vị ở 2.3, không dự kiến thành khoảng trống |
 | UV-05 | Ở công trình đang vận hành thiếu dữ liệu có nhãn về bất thường; nhãn phụ thuộc đánh giá con người | mới (nhãn hiện trường; liên quan L2.3, 5.6A) | 1 ([3]) | 2020 | Căn cứ đã có ở 5.6A chưa nhập nhật ký |
 
-Tình trạng phản chứng (30/09/2026, sau khi kiểm BCF 3.0 và [2]): UV-01 còn chờ CMMS và ISO 19650; UV-03 còn chờ đặc tả IFC và SOSA/SSN; UV-02, UV-04, UV-05 chưa kiểm. Chưa ứng viên nào đủ điều kiện vào GĐ3.
+Tình trạng phản chứng (30/09/2026, sau phiên T1-1): UV-03 đã kiểm hết các phản chứng liệt kê ([2], [3], IFC4, SSN/SOSA). UV-01 đã kiểm BCF 3.0, IFC4, COBie 2.4, [44]; còn CMMS chưa kiểm, ISO 19650-3 không truy cập được, [35] chờ PDF. UV-02 kiểm một phần. UV-04, UV-05 chưa kiểm. Đủ điều kiện hình thức vào GĐ3 (ba căn cứ độc lập, không phụ thuộc 2025–2026, không còn "chưa kiểm"): chỉ UV-03.
 
 ## UV-01 — Chuỗi cảnh báo → hành động
 
@@ -57,8 +57,24 @@ Tình trạng phản chứng (30/09/2026, sau khi kiểm BCF 3.0 và [2]): UV-01
     - *Liên kết ra ngoài:* `ReferenceLink` (ví dụ tới hệ quản lý yêu cầu công việc), `DocumentReferences`, `BimSnippet`, `RelatedTopic` (BCF-XML, các mục cùng tên). Đây là liên kết tự do, không định kiểu.
     - **Kết quả đối chiếu:** BCF 3.0 **đã giải quyết** phần "trạng thái vấn đề gắn cấu kiện, ai tạo, khi nào, ai đổi trạng thái" của UV-01. Phần BCF **không có**: khái niệm bằng chứng và quan hệ định kiểu từ vấn đề về bằng chứng đã làm phát sinh nó; nguồn gốc, độ bất định, phạm vi hiệu lực; căn cứ của từng lần đổi trạng thái (sự kiện chỉ ghi loại và giá trị); máy trạng thái quy định bước chuyển hợp lệ; thẩm quyền theo vai trò chuyên môn. [NCS] Các điểm "không có" là nhận định từ việc đặc tả không nêu.
     - **Hệ quả với schema (NCS):** sự kiện chuyển trạng thái và danh sách trạng thái có tiền lệ trực tiếp ở BCF-API 3.0; mục 2.2 và 5.5 cần nêu BCF như tiền lệ, và phần mới của luận án thu về quan hệ giữa sự kiện với bản ghi sử dụng bằng chứng.
-  - ISO 19650-3 [1], [44], [35]: **chưa kiểm** (phiên T1-1).
-- **Phát biểu đã thu hẹp (sau khi kiểm BCF 3.0; còn chờ CMMS và ISO 19650):** trạng thái của vấn đề gắn cấu kiện, cùng lịch sử ai đổi trạng thái và khi nào, đã theo dõi được bằng BCF 3.0; phần chưa có là quan hệ định kiểu nối ngược từ hành động và từng lần đổi trạng thái về bằng chứng cảm biến cùng nguồn gốc và phạm vi hiệu lực của nó, và căn cứ kèm thẩm quyền chuyên môn của mỗi bước chuyển.
+  - ISO 19650-3 [1]: **không truy cập được** (30/09/2026). Lý do: toàn văn là tài liệu trả phí, không có trong Zotero hay thư mục dự án; bản xem trước trên nền tảng trực tuyến của ISO đòi chấp nhận điều khoản sử dụng trước khi mở, việc này cần NCS tự làm. Không suy đoán nội dung. Thông tin gián tiếp từ [44]: bộ ISO 19650 cho khung vai trò, trách nhiệm và trạng thái WIP–Shared–Published (tr. 3, 6) nhưng không quy định cổng kiểm tính toán được hay gói bằng chứng tối thiểu ở mức tệp (tr. 9, Bảng 2); chuyển từ ISO 19650-2 sang 19650-3 thường không liên tục (tr. 3, 23). Đây là nhận định của [44], chưa đối chiếu với chính tiêu chuẩn.
+  - IFC4 (tài liệu IFC4 ADD2 TC1 của buildingSMART, dẫn theo tên thực thể): **đã kiểm 30/09/2026**.
+    - `IfcActionRequest`: yêu cầu hành động, gồm cả báo hỏng cho bảo trì; có `Status` (nhãn tự do, ví dụ Hold, NoAction, Schedule, Urgent); lồng được các yêu cầu tiếp theo; gán người yêu cầu và người thực hiện; gắn phê duyệt qua `IfcRelAssociatesApproval`.
+    - `IfcProjectOrder` với loại `MAINTENANCEWORKORDER`: lệnh công việc bảo trì, có `Status` (ví dụ PLANNED, REQUESTED, APPROVED, ISSUED, STARTED, DELAYED, DONE). IFC4 không có thực thể tên IfcWorkOrder.
+    - `IfcTask`: có `Status` (ví dụ chưa bắt đầu, đã bắt đầu, hoàn thành); liên hệ với lệnh công việc qua `IfcRelAssignsToControl`. `IfcWorkPlan`: kế hoạch gồm các lịch và nhiệm vụ, cho cả quản lý vận hành.
+    - `IfcApproval`: trạng thái phê duyệt, thời điểm, người đề nghị và người phê duyệt; phê duyệt nhiều cấp có thứ tự.
+    - Quan hệ tới cấu kiện: qua quan hệ gán chung (`IfcRelAssignsToControl`, `IfcRelAssignsToProduct`); mục mô tả `IfcActionRequest` chỉ nêu gán tác nhân, không nêu gán cấu kiện.
+    - Lịch sử: `Status` chỉ là giá trị hiện tại; `IfcOwnerHistory` ghi rõ chỉ lưu lần sửa cuối. Không có lịch sử chuyển trạng thái.
+    - Dữ liệu quan trắc: `IfcPerformanceHistory` ghi dữ liệu đo theo thời gian từ hệ tự động hóa tòa nhà, gán cho sản phẩm, nhóm, quá trình (ví dụ sự kiện cảnh báo được nêu và xác nhận). `IfcRelAssignsToControl` loại trừ việc gán một điều khiển cho một điều khiển khác, và cả yêu cầu lẫn lịch sử hiệu năng đều là lớp con của `IfcControl`. [NCS] Vì vậy không có quan hệ định kiểu từ yêu cầu hay lệnh công việc về dữ liệu quan trắc làm căn cứ.
+    - **Kết quả:** IFC4 **đã giải quyết** phần "yêu cầu, lệnh bảo trì, nhiệm vụ có trạng thái, phê duyệt có người và thời điểm". **Không có**: lịch sử chuyển trạng thái, khái niệm bằng chứng tình trạng và phạm vi hiệu lực, quan hệ định kiểu từ hành động về căn cứ quan trắc.
+  - COBie 2.4 (NBIMS-US V3, chương 4.2; số trang theo tệp của NIBS): **đã kiểm 30/09/2026**.
+    - Bảng Job: công việc vận hành, bảo trì, kiểm tra gắn với **loại** thiết bị (`Job.TypeName`), không gắn cấu kiện cụ thể; `Job.Status` mặc định "Not Yet Started", "Started", "Completed"; `Job.Category` có "Inspection" (tr. 39–40, 113). Có `CreatedBy`, `CreatedOn` (tr. 228).
+    - Bảng Issue: vấn đề tham chiếu tới một hay hai dòng của bảng khác (nên gắn được cấu kiện); có loại, rủi ro, khả năng, tác động, người phụ trách, biện pháp giảm thiểu (tr. 44–45); **không có trường trạng thái**. Bảng Issue nằm ngoài phạm vi bắt buộc của trao đổi cho quản lý cơ sở vật chất (tr. 229).
+    - **Kết quả:** COBie có trạng thái công việc ở mức loại thiết bị và vấn đề gắn đối tượng; không có lịch sử, không có căn cứ quan trắc. Là định dạng bàn giao, không phải hồ sơ vận hành.
+  - [44] García 2026: **đã kiểm 30/09/2026** (đọc toàn văn). Bước chuyển trạng thái có gói bằng chứng, bản ghi quyết định, vai trò tách biệt và vòng NCR/BCF (tr. 3, 12, 19–25). Đây là **tiền lệ trực tiếp** của khuôn "bước chuyển có căn cứ và đúng thẩm quyền", áp cho tệp IFC bàn giao; không có bằng chứng tình trạng công trình.
+  - [35] Bellon 2025: **chưa kiểm** (chờ PDF).
+- **Phát biểu đã thu hẹp (sau khi kiểm BCF 3.0, IFC4, COBie 2.4, [44]; còn chờ CMMS, ISO 19650-3, [35]):** yêu cầu, lệnh bảo trì, vấn đề gắn cấu kiện, trạng thái, phê duyệt và lịch sử đổi trạng thái đều đã có chuẩn biểu diễn (IFC4, BCF 3.0, COBie), và khuôn "bước chuyển có bằng chứng và đúng thẩm quyền" đã được thử cho gói thông tin bàn giao [44]. Phần chưa thấy ở các nguồn đã kiểm là quan hệ định kiểu nối một hành động kiểm tra – bảo trì và từng lần đổi trạng thái của nó về bằng chứng tình trạng (từ cảm biến, quan sát hoặc kiểm tra không phá hủy) cùng nguồn gốc và phạm vi hiệu lực của bằng chứng đó.
+- **Căn cứ bổ sung (30/09/2026, T1-1):** [44] tr. 3–4, 23 (tác giả tự nêu khoảng đứt giữa bàn giao và quản lý trong vận hành), tr. 34 (gắn với quản lý vận hành là việc để lại). Tài liệu 2026, không tính vào ngưỡng ba căn cứ trước 2025.
 
 ## UV-02 — Nguồn gốc, phiên bản phương pháp, phạm vi hiệu lực của đầu ra phát hiện
 
@@ -74,7 +90,10 @@ Tình trạng phản chứng (30/09/2026, sau khi kiểm BCF 3.0 và [2]): UV-01
 - **Loại căn cứ:** TG ([7] tr. 9, 11) + **NCS** (không có cơ chế ghi nguồn gốc/phạm vi là suy từ phần bài không xử lý).
 - **Liên quan:** K1.
 - **Ghi chú:** cần đối chiếu với [18], [45], Figueiredo 2011 (Tier 2) về phạm vi hiệu lực phụ thuộc điều kiện huấn luyện.
-- **Phản chứng đã kiểm:** **chưa kiểm**. Cần đối chiếu PROV-O [69], SOSA/SSN [61]–[62], [16] Çelik 2023 (nguồn gốc dữ liệu BIM) và công cụ quản lý phiên bản mô hình (MLflow/DVC).
+- **Phản chứng đã kiểm:**
+  - [44] García 2026: đã kiểm. Có nguồn gốc của **tệp** bàn giao (phiên bản, tác giả, phần mềm xuất, mã băm; tr. 17–20) và đường cơ sở yêu cầu có phiên bản (tr. 25–27); không có nguồn gốc của kết quả phân tích dữ liệu đo.
+  - SSN/SOSA (Khuyến nghị W3C 19/10/2017): kiểm một phần. `sosa:Observation` có cảm biến tạo ra, thủ tục đã dùng, thời điểm hiện tượng và thời điểm kết quả (mục 4.3); phần căn chỉnh với PROV-O có sẵn (mục 6.5). Chưa kiểm cách ghi phiên bản thuật toán và phạm vi áp dụng.
+  - PROV-O [69], [16] Çelik 2023, công cụ quản lý phiên bản mô hình (MLflow/DVC): **chưa kiểm**.
 - **Phát biểu đã thu hẹp:** chưa có; chờ kết quả kiểm.
 
 ## UV-03 — Ghép cảm biến – cấu kiện có thời hạn
@@ -99,9 +118,15 @@ Tình trạng phản chứng (30/09/2026, sau khi kiểm BCF 3.0 và [2]): UV-01
     - Bài đặt mục tiêu hỗ trợ lập hồ sơ và theo dõi thay đổi của hệ quan trắc trong vòng đời vận hành (tr. 55) nhưng không trình bày cơ chế; ca kiểm chứng là một hệ mẫu trên khung nhôm bốn tầng trong phòng thí nghiệm, mô hình hóa tại một thời điểm (tr. 61–63).
     - Tác giả tự nêu: động lực học của hệ quan trắc chưa mô tả được đầy đủ bằng các cách mô hình hóa trên nền IFC hiện có, để cho công việc sau (tr. 64).
     - **Kết quả đối chiếu:** [2] giải quyết phần "biểu diễn quan hệ cảm biến – cấu kiện trong IFC"; **không** giải quyết thời hạn hiệu lực và lịch sử thay đổi ghép. Có một căn cứ tác giả tự nêu (tr. 64).
-  - Quan hệ gán và ánh xạ sẵn có trong IFC (IfcRelAssigns và các quan hệ liên quan, IfcOwnerHistory): **kiểm một phần, qua nguồn thứ cấp**. Theo [2] tr. 55, `IfcRoot` cho mỗi thực thể định danh toàn cục cùng thông tin quyền sở hữu và thay đổi; theo [3] tr. 5, `IfcOwnerHistory` không đủ cho lịch sử tài sản trong vận hành. **Chưa kiểm** trên chính đặc tả IFC (ISO 16739-1): thông tin thay đổi của một quan hệ có biểu diễn được khoảng hiệu lực không.
-  - SOSA/SSN [61]–[62] (triển khai cảm biến trên nền tảng theo thời gian): **chưa kiểm**.
-- **Phát biểu đã thu hẹp (sau khi kiểm [2]; còn chờ đặc tả IFC và SOSA/SSN):** quan hệ cảm biến – cấu kiện đã biểu diễn được trong IFC (IFC Monitor) và bằng bảng ghép GUID – ID; phần chưa có là thời hạn hiệu lực của quan hệ đó và lịch sử thay đổi khi cảm biến được lắp, dời, thay hoặc hiệu chuẩn lại.
+  - IFC4 (tài liệu IFC4 ADD2 TC1 của buildingSMART): **đã kiểm 30/09/2026**. `IfcOwnerHistory` ghi người và ứng dụng sở hữu, ngày tạo, và **chỉ lần sửa cuối** (mô tả thuộc tính `OwnerHistory` của `IfcRoot` ghi rõ chỉ lưu lần sửa cuối); không có khoảng hiệu lực. `IfcRelAssigns` và các lớp con là liên kết hai chiều giữa các đối tượng, không có thuộc tính thời gian. `IfcRelAssignsToProduct` gán đối tượng cho sản phẩm; các tên dùng được gợi ý là 'Context' và 'View'. **Kết quả:** IFC4 không biểu diễn khoảng hiệu lực hay lịch sử của quan hệ cảm biến – cấu kiện.
+  - SSN/SOSA [61]–[62] (Khuyến nghị W3C "Semantic Sensor Network Ontology", 19/10/2017, dẫn theo số mục): **đã kiểm 30/09/2026**.
+    - `ssn:Deployment` mô tả việc triển khai một hay nhiều hệ cho một mục đích, có thể trên một nền tảng; ví dụ của đặc tả là cảm biến nhiệt gắn trên tường (mục 4.9.2.6). Quan hệ: `ssn:deployedSystem`, `ssn:deployedOnPlatform`, `ssn:forProperty`; thêm `sosa:hosts`/`sosa:isHostedBy` giữa nền tảng và cảm biến.
+    - Thời gian triển khai: phần quy định của `ssn:Deployment` **không có thuộc tính thời gian**. Ví dụ B.11 (không quy định) gắn `prov:startedAtTime` vào một lần triển khai; các ví dụ khác dùng khoảng thời gian OWL-Time cho quan trắc. Vậy "cảm biến lắp trên cấu kiện X trong khoảng T" **biểu diễn được** bằng cách ghép SSN với PROV-O hoặc OWL-Time, nhưng đặc tả không chuẩn hóa cách ghép.
+    - Thời gian quan trắc: `sosa:phenomenonTime`, `sosa:resultTime` (mục 4.3.2).
+    - Ràng buộc: [NCS] đặc tả không có tiên đề hay luật nào kiểm thời điểm quan trắc nằm trong khoảng triển khai; đây là nhận định từ việc đặc tả không nêu.
+    - **Kết quả:** SSN **đã có** khái niệm tương ứng với ánh xạ cảm biến – cấu kiện có thời hạn (Deployment trên Platform), là tiền lệ trực tiếp. Phần chưa có: thuộc tính thời gian được quy định, và ràng buộc nhất quán thời gian.
+- **Phát biểu đã thu hẹp (sau khi kiểm [2], [3], IFC4, SSN/SOSA; mọi phản chứng đã liệt kê đều đã kiểm):** quan hệ cảm biến – cấu kiện đã biểu diễn được trong IFC (IFC Monitor, bảng ghép GUID – ID), và khái niệm triển khai cảm biến trên nền tảng đã có trong SSN, ghép được với thời gian của PROV-O hoặc OWL-Time. Phần chưa có là một cách ghép được quy định giữa hai phía (cấu kiện IFC làm nền tảng, khoảng hiệu lực bắt buộc, lịch sử lắp – dời – thay – hiệu chuẩn) cùng ràng buộc kiểm thời điểm quan trắc nằm trong khoảng hiệu lực của ánh xạ.
+- **[NCS] Đánh giá:** sau khi trừ tiền lệ, phần còn lại là một hồ sơ áp dụng (profile) và một ràng buộc, quy mô nhỏ. Nên coi UV-03 là một yêu cầu của mô hình dữ liệu (ràng buộc C3) hơn là một khoảng trống độc lập; [35] vẫn cần đọc trước khi chốt.
 
 ## UV-04 — Định vị mức tích hợp DM/DS/DT cho kiểm tra – bảo trì
 

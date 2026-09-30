@@ -222,3 +222,9 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - Đọc thân bài [2] Theiler & Smarsly 2018 (tr. 54–64): IFC Monitor biểu diễn quan hệ cảm biến – cấu kiện bằng quan hệ tĩnh, không có thời hạn hiệu lực; tác giả nêu động lực học của hệ quan trắc là việc để lại (tr. 64).
 - `GD2_nhat_ky_khoang_trong.md`: ghi kết quả vào "Phản chứng đã kiểm" của UV-01 và UV-03; cập nhật phát biểu thu hẹp; UV-03 có 3 căn cứ. Không sửa tiểu luận.
 - Chưa làm: ghi chú đọc sâu và bảng ánh xạ cho [2] (phiên T1-1); kiểm CMMS, ISO 19650, đặc tả IFC, SOSA/SSN.
+
+## Phiên 30/09/2026 (7) – GĐ2 phiên T1-1: đọc sâu [2], [44]; kiểm phản chứng UV-01, UV-03
+- Đọc toàn văn [2] Theiler & Smarsly 2018 và [44] García 2026; ghi chú trong `notes/`; bảng ánh xạ `mapping/theiler2018.md`, `mapping/garcia2026.md` (Phần A–E). [35] Bellon chờ PDF, không đọc.
+- Kiểm phản chứng bằng tài liệu chính thức: IFC4 ADD2 TC1 (IfcActionRequest, IfcProjectOrder, IfcTask, IfcWorkPlan, IfcApproval, IfcOwnerHistory, IfcRelAssigns, IfcPerformanceHistory), COBie 2.4 (NBIMS-US V3 chương 4.2, tệp tải từ nibs.org vào thư mục tạm), SSN/SOSA (Khuyến nghị W3C 19/10/2017). ISO 19650-3: không truy cập được (trả phí; bản xem trước đòi chấp nhận điều khoản).
+- Kết quả: UV-01 thu hẹp thêm (IFC4, COBie, BCF có trạng thái và phê duyệt; [44] có khuôn bước chuyển có bằng chứng và thẩm quyền); UV-03 thu hẹp (SSN Deployment là tiền lệ trực tiếp; IfcOwnerHistory chỉ giữ lần sửa cuối) và là ứng viên duy nhất đủ điều kiện hình thức vào GĐ3.
+- Cập nhật ma trận (2 dòng), nhật ký, CLAUDE.md mục 6.1 (tiền lệ bắt buộc nêu) và mục 12, `GD2_ke_hoach_doc.md`. Tag Zotero: Doc:toan_van cho [2], [44]; K2 cho [2]; K2, K3 cho [44]. Không sửa tiểu luận.
