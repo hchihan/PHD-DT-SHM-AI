@@ -216,3 +216,9 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - 1.3A: giữ ba thành phần; thêm câu nguồn gốc bao gồm nguồn thu, cấu hình cảm biến, phiên bản dữ liệu – chuỗi xử lý và giao thức đánh giá (trỏ 3.4.1); thêm đoạn ba nguồn của bằng chứng (mô hình trên dữ liệu cảm biến, quan sát của kỹ sư, kiểm tra không phá hủy) và câu về trọng tâm WP1; sửa Bảng 1.3A. Không sửa 1.4A và mục khác.
 - `1_3A_nguon_hop_nhat.md`: đề xuất GĐ5 cho 1.2.2, 3.1.3, 3.5 đổi thành viết lại như loại con "bằng chứng trạng thái từ dữ liệu dao động"; ghi hai điểm đã quyết.
 - CLAUDE.md mục 7.4 và `GD2_nhat_ky_khoang_trong.md`: thêm hai trường "Phản chứng đã kiểm", "Phát biểu đã thu hẹp" và điều kiện vào GĐ3. Áp cho UV-01 (CMMS, BCF 3.0; phát biểu thu hẹp đề xuất), UV-03 ([2] IFC Monitor, quan hệ gán trong IFC); UV-02, UV-04, UV-05 ghi "chưa kiểm".
+
+## Phiên 30/09/2026 (6) – kiểm phản chứng UV-01 (BCF 3.0) và UV-03 ([2])
+- Đọc tài liệu kỹ thuật BCF-XML 3.0 (mục Topic, Comment, Components) và BCF-API 3.0 (mục 1.2, 3.1.5, 3.9) trên kho buildingSMART, nhánh `release_3_0`. Kết quả: BCF có trạng thái, người tạo, thời điểm, bình luận, liên kết cấu kiện qua góc nhìn, lịch sử sự kiện đổi trạng thái (chỉ ở BCF-API) và quyền theo người dùng; không có khái niệm bằng chứng, nguồn gốc, phạm vi hiệu lực, căn cứ của bước chuyển.
+- Đọc thân bài [2] Theiler & Smarsly 2018 (tr. 54–64): IFC Monitor biểu diễn quan hệ cảm biến – cấu kiện bằng quan hệ tĩnh, không có thời hạn hiệu lực; tác giả nêu động lực học của hệ quan trắc là việc để lại (tr. 64).
+- `GD2_nhat_ky_khoang_trong.md`: ghi kết quả vào "Phản chứng đã kiểm" của UV-01 và UV-03; cập nhật phát biểu thu hẹp; UV-03 có 3 căn cứ. Không sửa tiểu luận.
+- Chưa làm: ghi chú đọc sâu và bảng ánh xạ cho [2] (phiên T1-1); kiểm CMMS, ISO 19650, đặc tả IFC, SOSA/SSN.
