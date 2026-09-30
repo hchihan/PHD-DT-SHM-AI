@@ -374,8 +374,8 @@ sáu tháng sau có sự cố, truy ngược được toàn bộ.
 | 5.6A Chuẩn bị nguồn | ✅ Xong (29/09) | 13 tài liệu nhập vào TL-Key/Bổ sung (tag 5.6A); 5 dự phòng; PDF ưu tiên: Wang & Cha, Figueiredo, Hughes, Bull 2022 (revision/bao_cao_nguon_5_6A.md mục 6). Quyết định viết ở mục 9. Chưa viết 5.6A |
 | GĐ0 Chuẩn bị | ✅ ĐD0 đã duyệt (29/09) | Markdown + đối chiếu 84 tài liệu xong (28–29/09); tồn đọng: `revision/viec_ton_dong_GD0.md` |
 | Quy ước trích dẫn (4.4), viết về giới hạn (4.5) | ✅ Đã thêm (29/09) | Danh sách 80 câu giới hạn chờ NCS duyệt (GĐ5) |
-| GĐ1 Bổ sung tài liệu | 🟡 Chờ duyệt (ĐD1) (30/09) | 17 luận điểm; đề xuất nhập 17 tài liệu (6 truy cập đóng); đề xuất danh sách key 30: `revision/bao_cao_GD1.md`. Chưa nhập Zotero |
-| GĐ2 Đọc sâu | ⬜ | |
+| GĐ1 Bổ sung tài liệu | ✅ Đã duyệt (ĐD1) (30/09) | Nhập 17 tài liệu mới, gắn 5 tài liệu có sẵn; danh sách key 30 (12 Tier 1, 18 Tier 2) ở mục 7.1–7.2; báo cáo: `revision/bao_cao_GD1.md` |
+| GĐ2 Đọc sâu | 🟡 Sẵn sàng – chờ PDF | Ma trận khung: `matrix/literature_matrix.csv` (30 dòng, 5 dòng điền sẵn cần NCS kiểm); kế hoạch 8 phiên và 10 PDF key còn thiếu: `revision/GD2_ke_hoach_doc.md` |
 | GĐ3 Khoảng trống | ⬜ | Cần gửi thầy |
 | GĐ4 Viết mục mới (4.2–4.9) | ⬜ | |
 | GĐ5 Tái cấu trúc | ⬜ | |

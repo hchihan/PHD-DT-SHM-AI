@@ -188,3 +188,11 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 ### Việc 2 – Chốt danh sách key trong CLAUDE.md
 - Mục 7.1–7.2: danh sách 30 tài liệu (12 Tier 1, 18 Tier 2), ghi ngày chốt ĐD1 30/09/2026; thêm Ju 2020 vào Tier 2, hạ [47] và [59] xuống nguồn trích thường.
 - Thêm mục 7.5 "Cách viết cho luận điểm chưa có nguồn"; thêm vào 4.1 quy tắc ba căn cứ không thuộc nhóm 2025–2026 cho mỗi khoảng trống.
+
+### Việc 3 – Chuẩn bị Giai đoạn 2
+- Tạo `matrix/literature_matrix.csv`: 30 dòng theo khuôn 7.4, thêm cột `thu_tu_doc`, `pdf`, `ghi_chu`; điền sẵn khóa, số cũ, Tier, cụm (đề xuất theo tiêu đề) và mức đã đọc.
+- Năm dòng điền sẵn từ `notes/` và đánh dấu "CẦN NCS KIỂM": [18], [45], [56] (đọc một phần), Figueiredo 2011, Hughes 2022.
+- Lập `revision/GD2_ke_hoach_doc.md`: 8 phiên (4 Tier 1, 4 Tier 2); 20 tài liệu key có PDF, 10 thiếu (tình trạng truy cập theo OpenAlex 30/09/2026); 8 PDF thiếu ngoài danh sách key.
+
+### Việc 4 – Tiến độ
+- CLAUDE.md mục 12: GĐ1 = Đã duyệt (ĐD1); GĐ2 = Sẵn sàng – chờ PDF.
