@@ -38,6 +38,13 @@ DOI lấy từ cột `doi` của `matrix/doi_chieu_danh_muc.csv` (tức danh m�
 | 3XFEVIGR | report | 20/09/2026 | TIEU_LUAN_TONG_QUAN_bo_sung_20260919; RQ3/WP3/Paper 3/Gate 4 | 0 | Không | Gộp vào FJJAV9T4 |
 | PQUX27P4 | attachment (độc lập) | 03/08/2026 | — | — | Không | Không phải bản ghi thư mục; chuyển thành tệp đính kèm của FJJAV9T4 hoặc để nguyên |
 
+### ISO 55000:2024 (2 bản)
+
+| Khóa | Trạng thái | Đề xuất |
+|---|---|---|
+| 8PB7EN2E | Trong `TL-Key/Bổ sung`, tag GD1, L4.2; có dòng trong danh mục | **Giữ (bản chính)** |
+| 2H6XA32D | Bản ghi tiêu đề "ISO 55000:2024", không có tác giả | Gộp vào 8PB7EN2E (làm tay trong Zotero desktop) |
+
 Lưu ý sau khi gộp: hai bản giữ lại đang có loại `journalArticle`, trong khi PROV-DM và PROV-O là
 khuyến nghị W3C. Nên đổi loại sang `report` (hoặc `document`) để danh mục IEEE ở GĐ6 hiển thị đúng.
 Việc gộp làm trong Zotero desktop (Duplicate Items → Merge), chọn bản chính như trên; sau đó

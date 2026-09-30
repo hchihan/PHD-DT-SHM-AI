@@ -172,3 +172,15 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 ### Việc 3–4 – Danh sách key và báo cáo
 - `revision/bao_cao_GD1.md`: bảng theo luận điểm; 17 tài liệu đề xuất nhập (6 truy cập đóng); 5 tài liệu "nhận" đã có trong Zotero; văn bản pháp quy cho L1.6 kèm khóa Zotero; đề xuất danh sách key 30 tài liệu (Tier 1 giữ 12; Tier 2 thêm Cawley 2018, Worden 2007, Figueiredo 2011, Hughes 2022; hạ [59] xuống nguồn trích thường).
 - CLAUDE.md: GĐ1 = Chờ duyệt (ĐD1).
+
+## Phiên 30/09/2026 (2) – nhập tài liệu GĐ1 và chốt Điểm duyệt 1
+
+### Việc 1 – Nhập Zotero
+- Collection đích: `TL-Key/Bổ sung` (TKVJVWDZ); Zotero không có `00_TLTQ/05_Bo_sung_GD1`.
+- Kiểm tra trùng toàn thư viện (DOI, tiêu đề): không bản nào có sẵn. Nhập 17 tài liệu (16 theo DOI, BCF 3.0 dạng report có tác giả tổ chức): Cawley 2018 (EBB69J4F), Phares 2004 (J7FAWJ8I), Graybeal 2002 (8IMKCTE5), Gong 2022 (WP5WUUF9), Junker 1969 (W6IUU4MF, conferencePaper), Ju 2020 (38FMATHE), Nooralishahi 2021 (2AZ7VZ5R), Di Sarno 2021 (X4KUWKT8), Iordachescu 2022 (X2UZWVJG), Bull 2021 JSV (3U3KGTHV), Gardner 2021 (GXVWFUSA), Worden 2007 (MCNRW6F5), Farrar & Worden (HQQJMZDW, book), Kapteyn 2021 (95RKP767), van Berlo & Krijnen 2014 (ARZ6WDZQ), Saleem & Qureshi 2018 (J358BJ7Z), BCF 3.0 (K5SGFIGW).
+- Không tự đính kèm PDF (Zotero đầy hạn mức 300 MB).
+- Sửa sau đối chiếu Crossref: năm bản in Gong (2021 → 2022) và Ju (2019 → 2020), ngày trực tuyến ghi ở Extra; Junker thêm tên tùng thư và số báo cáo; Farrar & Worden thêm phụ đề và ghi "CHỜ KIỂM NĂM" (Crossref 2012).
+- Năm tài liệu đã có (SKCFNXPU, QMVQCEL5, Z5JM78G6, ZCPMLA5V, 8PB7EN2E): thêm vào collection, gắn tag GD1 và mã luận điểm.
+- Tag: `GD1` + mã luận điểm cho 22 tài liệu; `TLTQ:Tier1` cho 12 tài liệu Tier 1, `TLTQ:Tier2` cho 18 tài liệu Tier 2 (gắn cho toàn bộ danh sách key để thống nhất, vì trước đó Tier chỉ được theo dõi bằng collection); [47], [59] gắn `TLTQ:trích thường`. Collection `TL-Key/Tier2`: thêm Ju, Cawley, Worden, Figueiredo, Hughes; bỏ [47], [59].
+- `matrix/doi_chieu_danh_muc.csv`: thêm 22 dòng `moi` (3 `key-T2`, 19 `bosung-GD1`); Figueiredo và Hughes đổi thành `key-T2`; [47], [59] đổi thành `trich-thuong`.
+- `viec_ton_dong_GD0.md`: ghi bản trùng ISO 55000:2024 (2H6XA32D) cần gộp thủ công.
