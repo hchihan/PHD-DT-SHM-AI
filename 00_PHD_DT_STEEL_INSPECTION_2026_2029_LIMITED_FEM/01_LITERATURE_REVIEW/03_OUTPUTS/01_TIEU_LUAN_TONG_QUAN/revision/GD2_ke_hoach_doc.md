@@ -27,9 +27,9 @@ Cột "Truy cập" lấy từ OpenAlex ngày 30/09/2026. Cột "PDF" kiểm trê
 | T1-2 | 4 | [22] Hemker và cs. (2019) | B2JXAM9M | Giá trị quyết định | 2.1.1 | **THIẾU** | chưa |
 | T1-2 | 5 | [18] Brake và cs. (2019) | VPFBB9SG | SHM–bu lông–EOV | 3.6 | có | một phần (tóm tắt, kết luận) |
 | T1-2 | 6 | [19] Ramasso và cs. (2025) | RWHW6F9I | SHM–bu lông–EOV | 3.6 | có | chưa |
-| T1-3 | 7 | [8] Kritzinger và cs. (2018) | DMIUEEFB | Song sinh số | 2.3 | có | chưa |
-| T1-3 | 8 | [7] Boje và cs. (2020) | 5REDLQK8 | Song sinh số | 2.3 | có | chưa |
-| T1-3 | 9 | [3] Lu và cs. (2020) | 5QX5LTMZ | Song sinh số | 2.3 | có | chưa |
+| T1-3 | 7 | [8] Kritzinger và cs. (2018) | DMIUEEFB | Song sinh số | 2.3 | có | toàn văn (T1-3, 30/09/2026) |
+| T1-3 | 8 | [7] Boje và cs. (2020) | 5REDLQK8 | Song sinh số | 2.3 | có | toàn văn (T1-3, 30/09/2026) |
+| T1-3 | 9 | [3] Lu và cs. (2020) | 5QX5LTMZ | Song sinh số | 2.3 | có | toàn văn (T1-3, 30/09/2026) |
 | T1-4 | 10 | [53] Kapoor & Narayanan (2023) | JQKJGUER | Độ tin cậy đánh giá | 3.4 | **THIẾU** | chưa |
 | T1-4 | 11 | [16] Çelik và cs. (2023) | EMTIHHX4 | Truy vết thông tin | 3.5 | có | chưa |
 | T1-4 | 12 | [17] Wu và cs. (2026) | F6XUPQKG | Truy vết thông tin | 3.5 | có | chưa |
@@ -104,3 +104,9 @@ cần có trước khi viết các mục 2.1.1, 3.1, 3.2 ở Giai đoạn 4.
 - Sau phiên cuối: ma trận 30 dòng đủ cột và ba bảng ánh xạ, trình Điểm duyệt 2 (NCS kiểm cột Giới hạn).
 - Năm dòng đã điền sẵn từ `notes/` ([18], [45], [56], Figueiredo, Hughes) mang dấu "CẦN NCS KIỂM"; ba dòng đầu
   mới đọc một phần và sẽ được đọc lại theo kế hoạch.
+
+## 6. Tiến độ phiên
+
+- **T1-3 (30/09/2026): xong** — [8], [7], [3] đọc toàn văn; ghi chú `notes/DMIUEEFB.md`, `notes/5REDLQK8.md`, `notes/5QX5LTMZ.md`; nhật ký `revision/GD2_nhat_ky_khoang_trong.md` (5 ứng viên).
+- **T1-1: chưa thực hiện** (phiên bị ngắt; `mapping/` còn trống). Còn cần PDF của [35] Bellon.
+- T1-2, T1-4: chưa.

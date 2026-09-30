@@ -196,3 +196,11 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 
 ### Việc 4 – Tiến độ
 - CLAUDE.md mục 12: GĐ1 = Đã duyệt (ĐD1); GĐ2 = Sẵn sàng – chờ PDF.
+
+## Phiên 30/09/2026 (3) – GĐ2 phiên T1-3: đọc sâu [8], [7], [3]
+- Đọc toàn văn Kritzinger 2018 (`DMIUEEFB`), Boje 2020 (`5REDLQK8`), Lu 2020 (`5QX5LTMZ`); ghi chú theo khuôn 7.4 kèm mục 1–8 trong `notes/`.
+- [8]: định nghĩa DM/DS/DT theo mức tích hợp dữ liệu (tr. 1017); theo định nghĩa, khung luận án ở mức bóng số (DS) [NCS, cần NCS quyết định cách khai báo]. Bài không chỉ ra bài cụ thể nào bị gọi sai tên.
+- [3]: chuỗi dừng ở cảnh báo và hỗ trợ quyết định của người quản lý FM; ca nghiên cứu là bơm HVAC, dữ liệu thật nhưng một bộ ghép nhân tạo, so sánh định tính với CUSUM.
+- [7]: đề cập độ tin cậy dữ liệu nguồn (một đoạn, tr. 9) và xác nhận của người dùng (tr. 12); không đề cập nguồn gốc dữ liệu, truy vết, trách nhiệm.
+- Tạo `revision/GD2_nhat_ky_khoang_trong.md` (UV-01…UV-05); cập nhật `matrix/literature_matrix.csv` (3 dòng, mức đọc "toàn văn"); tag Zotero `Doc:toan_van` (3 bài), K1/K2/K3 cho [7] và [3].
+- Phiên T1-1 (ba tiền lệ) chưa chạy; ghi trong `GD2_ke_hoach_doc.md` mục 6.
