@@ -71,6 +71,7 @@ Cuối cùng phải xuất **bản giải trình tiếp thu góp ý**: góp ý �
   dựa chủ yếu vào các bài này.
 - Không dùng [23] (UCLA Factor Building — nhà văn phòng) làm căn cứ cho luận điểm về nhà công nghiệp.
 - Khi không tìm được nguồn đủ tin cậy: ghi `[CẦN NGUỒN]` và báo NCS, không lấp bằng nhận định chung.
+- Mỗi khoảng trống ở GĐ3 cần ít nhất ba căn cứ không thuộc nhóm tài liệu 2025–2026.
 - PDF lưu dạng tệp liên kết (linked file) trong thư mục `pdf/` của dự án (tên tệp bắt đầu bằng khóa Zotero); `pdf/` và `*.pdf` có trong `.gitignore`.
 
 ### 4.2 Văn phong
@@ -188,17 +189,20 @@ Ghi chú (NCS duyệt 29/09/2026):
 
 ## 7. Tài liệu key
 
-### 7.1 Tier 1 — đọc sâu toàn văn (số hiệu theo danh mục bản gốc)
+### 7.1 Tier 1 — đọc sâu toàn văn (12 tài liệu; chốt ĐD1 ngày 30/09/2026)
 [8] Kritzinger 2018 · [7] Boje 2020 · [3] Lu, Xie, Parlikad & Schooling 2020 · [22] Hemker 2019 ·
 [18] Brake 2019 · [19] Ramasso · [53] Kapoor & Narayanan 2023 · [2] Theiler & Smarsly 2018 ·
 [35] Bellon 2025 · [44] García 2026 · [16] Çelik 2023 · [17] Wu 2026
 
-### 7.2 Tier 2 — đọc có trọng tâm
-[10] Chen 2021 · [29] Johannes 2021 · [45] Sohn 2007 · [57] Bull 2021 · [56] Da Silva ·
-[47] Zhang, Biswal & Wang 2020 · [48] Pal 2022 · [14] Beleites 2013 · [15] Wheat 2024 ·
-[59] Ojala & Garriga 2009 · [42] Ramonell 2023 · [21] Hagedorn 2023 · [82] Seiß 2025 ·
-[28] Kamariotis, Chatzi & Straub 2023 · [80] Bull 2025
-Chuẩn tra cứu: [1] ISO 19650-3 · [61]–[62] SOSA/SSN · [69] PROV-O
+### 7.2 Tier 2 — đọc có trọng tâm (18 tài liệu; chốt ĐD1 ngày 30/09/2026)
+Số cũ: [10] Chen 2021 · [29] Johannes 2021 · [45] Sohn 2007 · [57] Bull 2021 · [56] Da Silva 2024 ·
+[48] Pal 2022 · [14] Beleites 2013 · [15] Wheat 2024 · [42] Ramonell 2023 · [21] Hagedorn 2023 ·
+[82] Seiß 2025 · [28] Kamariotis, Chatzi & Straub 2023 · [80] Bull 2025
+Tài liệu mới (trích bằng khóa Zotero): Cawley 2018 `EBB69J4F` · Worden và cs. 2007 `MCNRW6F5` ·
+Ju và cs. 2020 `38FMATHE` · Figueiredo và cs. 2011 `23TBQTIP` · Hughes và cs. 2022 `Z9RD5DMZ`
+Hạ xuống nguồn trích thường (ĐD1): [47] Zhang, Biswal & Wang 2020 · [59] Ojala & Garriga 2009
+Chuẩn tra cứu: [1] ISO 19650-3 · [61]–[62] SOSA/SSN · [69] PROV-O · ISO 55000:2024 `8PB7EN2E` · BCF 3.0 `K5SGFIGW`
+Trong Zotero: collection `TL-Key/Tier1`, `TL-Key/Tier2`; tag `TLTQ:Tier1`, `TLTQ:Tier2`. Ma trận: `matrix/literature_matrix.csv`.
 
 ### 7.3 Cần tìm bổ sung (Consensus → xác minh → Zotero)
 | Nhóm | Truy vấn gợi ý | Phục vụ |
@@ -229,6 +233,18 @@ Tiêu chí nhận: tạp chí có phản biện hoặc chuẩn chính thức; t�
 | Tác động K1/K2/K3 | Thu hẹp / mở rộng / không liên quan, kèm lý do |
 | Vị trí sử dụng | Mục trong tiểu luận v2 |
 | Mức đã đọc | Toàn văn / tóm tắt + phương pháp / chỉ tóm tắt |
+
+### 7.5 Cách viết cho luận điểm chưa có nguồn (NCS quyết định ở ĐD1, 30/09/2026)
+| Luận điểm | Cách viết |
+|---|---|
+| L1.1 (Việt Nam) | Số liệu chính thức về quy mô khu công nghiệp (NCS tự tìm) + nhận định của NCS từ thực tế kiểm định, ghi rõ là nhận định, không kèm tỷ trọng |
+| L1.1 (quốc tế) | Saleem & Qureshi (2018) `J358BJ7Z` chỉ dùng cho nhận định chung "nhà thép tiền chế được dùng rộng rãi vì hiệu quả kinh tế"; không dùng làm căn cứ tỷ trọng |
+| L1.4 | Nhận định của NCS; kiểm ý "tránh gián đoạn" trong toàn văn Torres-Barriuso và cs. (2025) `QMVQCEL5` trước khi trích |
+| L1.5, L2.4, L3.1 | Trích đúng đối tượng của nguồn (kết cấu thép ngoài trời, cầu); việc áp sang nhà xưởng ghi là diễn giải |
+| L2.1 | Tách bằng chứng (Cawley 2018, Ostachowicz 2019: chi phí là rào cản) và diễn giải; nối diễn giải với chỉ số M3.4 (chi phí ghi nhận) |
+| Farrar & Worden `HQQJMZDW` | Ghi năm theo trang bản quyền của sách in; chưa xem được thì ghi chú "chờ kiểm năm" |
+
+Danh sách luận điểm và ứng viên: `revision/GD1_luan_diem_can_nguon.csv`, `revision/GD1_ung_vien.csv`.
 
 ---
 

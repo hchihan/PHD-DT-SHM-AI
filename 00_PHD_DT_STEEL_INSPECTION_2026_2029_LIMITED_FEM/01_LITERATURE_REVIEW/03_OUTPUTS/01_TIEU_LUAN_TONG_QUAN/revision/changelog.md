@@ -184,3 +184,7 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - Tag: `GD1` + mã luận điểm cho 22 tài liệu; `TLTQ:Tier1` cho 12 tài liệu Tier 1, `TLTQ:Tier2` cho 18 tài liệu Tier 2 (gắn cho toàn bộ danh sách key để thống nhất, vì trước đó Tier chỉ được theo dõi bằng collection); [47], [59] gắn `TLTQ:trích thường`. Collection `TL-Key/Tier2`: thêm Ju, Cawley, Worden, Figueiredo, Hughes; bỏ [47], [59].
 - `matrix/doi_chieu_danh_muc.csv`: thêm 22 dòng `moi` (3 `key-T2`, 19 `bosung-GD1`); Figueiredo và Hughes đổi thành `key-T2`; [47], [59] đổi thành `trich-thuong`.
 - `viec_ton_dong_GD0.md`: ghi bản trùng ISO 55000:2024 (2H6XA32D) cần gộp thủ công.
+
+### Việc 2 – Chốt danh sách key trong CLAUDE.md
+- Mục 7.1–7.2: danh sách 30 tài liệu (12 Tier 1, 18 Tier 2), ghi ngày chốt ĐD1 30/09/2026; thêm Ju 2020 vào Tier 2, hạ [47] và [59] xuống nguồn trích thường.
+- Thêm mục 7.5 "Cách viết cho luận điểm chưa có nguồn"; thêm vào 4.1 quy tắc ba căn cứ không thuộc nhóm 2025–2026 cho mỗi khoảng trống.
