@@ -358,7 +358,7 @@ sáu tháng sau có sự cố, truy ngược được toàn bộ.
 | 5.6A Chuẩn bị nguồn | ✅ Xong (29/09) | 13 tài liệu nhập vào TL-Key/Bổ sung (tag 5.6A); 5 dự phòng; PDF ưu tiên: Wang & Cha, Figueiredo, Hughes, Bull 2022 (revision/bao_cao_nguon_5_6A.md mục 6). Quyết định viết ở mục 9. Chưa viết 5.6A |
 | GĐ0 Chuẩn bị | ✅ ĐD0 đã duyệt (29/09) | Markdown + đối chiếu 84 tài liệu xong (28–29/09); tồn đọng: `revision/viec_ton_dong_GD0.md` |
 | Quy ước trích dẫn (4.4), viết về giới hạn (4.5) | ✅ Đã thêm (29/09) | Danh sách 80 câu giới hạn chờ NCS duyệt (GĐ5) |
-| GĐ1 Bổ sung tài liệu | ⬜ | |
+| GĐ1 Bổ sung tài liệu | 🟡 Chờ duyệt (ĐD1) (30/09) | 17 luận điểm; đề xuất nhập 17 tài liệu (6 truy cập đóng); đề xuất danh sách key 30: `revision/bao_cao_GD1.md`. Chưa nhập Zotero |
 | GĐ2 Đọc sâu | ⬜ | |
 | GĐ3 Khoảng trống | ⬜ | Cần gửi thầy |
 | GĐ4 Viết mục mới (4.2–4.9) | ⬜ | |

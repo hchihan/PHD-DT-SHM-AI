@@ -158,3 +158,17 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 
 ### Việc 0 – Dọn tệp tồn đọng
 - `viec_ton_dong_GD0.md`: xóa dòng về bản nháp 5.8 (đã lưu); tag K1/K2/K3/Đối tượng gắn ở GĐ2; ghi collection đích GĐ1 là `TL-Key/Bổ sung` (TKVJVWDZ) vì Zotero không có `00_TLTQ/05_Bo_sung_GD1`.
+
+### Việc 1 – Luận điểm cần căn cứ
+- `revision/GD1_luan_diem_can_nguon.csv`: 17 luận điểm (L1.1–L1.6, L2.1–L2.5, L3.1–L3.2, L4.1–L4.4); 14 cần tìm, 3 đã đủ nguồn (L1.6 văn bản pháp quy đã có trong Zotero; L2.3 và L2.5 đã có nguồn trong tiểu luận).
+
+### Việc 2 – Tìm và xác minh ứng viên
+- Consensus: 14 truy vấn. Tra trước thư viện Zotero (bản sao CSDL 29/09 15:03).
+- `revision/GD1_ung_vien.csv`: 45 tài liệu có DOI (Cawley 2018 dùng cho hai luận điểm), cả 45 được Crossref xác minh theo DOI; tình trạng truy cập lấy từ OpenAlex. Thêm 2 chuẩn/đặc tả xác minh trên trang chính thức (ISO 55000:2024 trên iso.org; BCF 3.0 trên kho GitHub chính thức của buildingSMART) và 3 văn bản pháp quy đã có trong Zotero.
+- Gợi ý của NCS đều khớp: Junker 1969 (SAE Technical Paper 690055), Phares và cs. 2004, Worden và cs. 2007, Kapteyn và cs. 2021, Farrar & Worden (Crossref ghi 2012, không phải 2013).
+- CHƯA CÓ NGUỒN: L1.1 phần Việt Nam; một phần của L1.4, L1.5, L2.1, L2.4, L3.1 (xem báo cáo mục 2).
+- Không nhập Zotero, không sửa tiểu luận.
+
+### Việc 3–4 – Danh sách key và báo cáo
+- `revision/bao_cao_GD1.md`: bảng theo luận điểm; 17 tài liệu đề xuất nhập (6 truy cập đóng); 5 tài liệu "nhận" đã có trong Zotero; văn bản pháp quy cho L1.6 kèm khóa Zotero; đề xuất danh sách key 30 tài liệu (Tier 1 giữ 12; Tier 2 thêm Cawley 2018, Worden 2007, Figueiredo 2011, Hughes 2022; hạ [59] xuống nguồn trích thường).
+- CLAUDE.md: GĐ1 = Chờ duyệt (ĐD1).
