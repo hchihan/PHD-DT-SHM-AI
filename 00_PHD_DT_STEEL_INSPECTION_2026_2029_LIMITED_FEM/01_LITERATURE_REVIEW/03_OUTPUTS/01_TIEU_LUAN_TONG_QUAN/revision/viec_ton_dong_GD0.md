@@ -51,11 +51,10 @@ các điều được trích: 34, 37) rồi cập nhật cột `trang_thai_xuat_
 
 ## 4. Việc khác
 
-- Bản nháp mục 5.8 chưa được lưu: nội dung dán trong yêu cầu ngày 29/09/2026 kết thúc ở dòng
-  "--- BẢN NHÁP MỤC 5.8 (dán vào đây) ---" và không có nội dung phía sau.
 - [80] T. Bull và cs.: sửa năm danh mục 2025 → 2026 theo bản in (khi đánh số lại ở GĐ6).
 - [17] Wu và cs.: danh mục đã ghi 2026, khớp bản in; không cần sửa.
-- Tag K1, K2, K3, Đối tượng chưa được gắn (chờ quy định tài liệu nào mang tag).
+- Tag K1, K2, K3, Đối tượng: gắn trong Giai đoạn 2, khi đọc sâu từng tài liệu.
+- Collection đích của GĐ1: `TL-Key/Bổ sung` (TKVJVWDZ). Kiểm tra 30/09/2026 trên bản sao CSDL Zotero (lưu 29/09 15:03): không có collection `00_TLTQ/05_Bo_sung_GD1`.
 - Chỉ 3/84 bản ghi có citation key; cân nhắc cài Better BibTeX trước GĐ6.
 
 ## 5. Chờ PDF (mục 5.6A, cập nhật 29/09/2026)
