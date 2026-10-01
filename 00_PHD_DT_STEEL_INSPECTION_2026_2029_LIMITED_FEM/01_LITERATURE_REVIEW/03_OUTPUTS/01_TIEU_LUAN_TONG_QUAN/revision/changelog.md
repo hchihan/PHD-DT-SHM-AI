@@ -370,3 +370,9 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 ## Phiên 01/10/2026 – GĐ5: đồng bộ Chương 1
 - `tieuluan/01_chuong1.md` (9.808 → 9.461 từ): 1.1.3 khai báo mức bóng số theo [8] thay câu "không gán trước mức"; 1.3.4 câu cuối khai báo bóng số, năng lực đánh giá sau triển khai; 1.7 đổi tên "Mục tiêu và câu hỏi nghiên cứu của luận án", rút từ 572 còn 217 từ, tóm tắt ba câu hỏi một câu mỗi câu và trỏ về 5.3–5.5 (bỏ phát biểu trùng 5.4 và mục 1.7.2–1.7.3); 1.8.1 thay ghi chú "siêu dữ liệu phụ trợ" bằng đồ thị sáu thực thể; 1.8.2 viết lại theo khai báo bóng số; 1.9 mô tả Chương 5 theo hai khoảng trống, ba mục tiêu.
 - Không thêm trích dẫn mới (dùng lại [8], [9], [10]). Rà Chương 2–4: không còn tham chiếu "ba khoảng trống", "siêu dữ liệu phụ trợ", Bài báo 3, học chủ động.
+
+## Phiên 01/10/2026 – Chuyển đoạn "bốn nhóm bằng chứng" sang Chương 3
+- `tieuluan/03_chuong3.md`: thêm mục nhãn tạm 3.6A "Cầu nối phòng thí nghiệm – hiện trường" trước 3.5 (Chương 3 chưa có 3.6; theo CLAUDE.md 6.0 mục này gộp vào 3.2 mới khi đánh số lại): một câu dẫn, đoạn "bốn nhóm bằng chứng" chuyển nguyên văn từ 5.6A.3, một câu kết trỏ về 5.6A.3.
+- `tieuluan/05_chuong5.md` 5.6A.3: đoạn đó thay bằng một câu tóm tắt trỏ về Mục 3.6A.
+- Trích dẫn không đổi (\[@87NKU5IS\], \[@TDRPDWJE\], [57], [18], [45], [56] chuyển theo đoạn).
+

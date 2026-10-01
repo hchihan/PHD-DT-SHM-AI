@@ -138,6 +138,16 @@ Cách tiếp cận này thay đổi cách đọc cả kết quả dương lẫn 
 
 Yêu cầu này nối trực tiếp với quản lý tài sản. Khi bằng chứng hỗ trợ một yêu cầu kiểm tra, người quản lý cần truy ngược được từ hành động về nguồn kỹ thuật đã tạo ra nó; nếu bằng chứng mất thông tin về phạm vi hiệu lực hoặc nguồn gốc khi chuyển sang BIM hay hồ sơ kiểm tra, giá trị quản lý của nó giảm mạnh. Hàm ý chính của Chương 3 vì vậy là: **bằng chứng trạng thái phải được quản lý như một đối tượng thông tin có nguồn gốc và phạm vi hiệu lực**.
 
+## 3.6A. Cầu nối phòng thí nghiệm – hiện trường
+
+<!-- Nhãn tạm (CLAUDE.md 6.0): khi đánh số lại ở GĐ5, nội dung mục này thành một tiểu mục của mục 3.2 mới "Hạn chế của quan trắc hiện tại với công trình công nghiệp". Đoạn thứ hai chuyển nguyên văn từ 5.6A.3 ngày 01/10/2026. -->
+
+Mục 3.3 và 3.4 xác lập điều kiện để kết quả phòng thí nghiệm trở thành bằng chứng có phạm vi hiệu lực. Mục này xét điều gì ngăn bằng chứng đó được dùng nguyên ở nhà xưởng.
+
+Bốn nhóm bằng chứng cho thấy bộ phân loại học ở phòng thí nghiệm khó chuyển nguyên sang nhà xưởng. Thứ nhất, nhãn hiện trường đến từ kiểm tra của chuyên gia nên hiếm và đắt; thiếu nhãn, học không giám sát dừng ở bậc phát hiện bất thường trong phân cấp của Rytter \[@87NKU5IS\]. Mỗi công trình còn có điều kiện biên và vật liệu riêng \[@TDRPDWJE\], và dữ liệu đo phủ đủ các điều kiện vận hành và hư hỏng của một công trình hiếm khi có sẵn \[57\]. Thứ hai, ở kết cấu có mối nối, quy trình lắp ráp quyết định độ lặp lại; thiếu kiểm soát lắp ráp, độ bất định đo được có thể lớn hơn độ dịch tần số do phi tuyến của mối nối \[18\]. Thứ ba, biến đổi môi trường – vận hành có thể che lấp thay đổi do hư hỏng, nên dữ liệu huấn luyện phải phủ dải điều kiện rộng \[45\]. Thứ tư, bộ phân loại lực siết học trên một dầm liên kết bu lông đã thất bại khi áp trực tiếp sang dầm tương tự \[56\]; dòng nghiên cứu theo quần thể đặt riêng câu hỏi khi nào tri thức được chuyển giữa các kết cấu \[57\].
+
+Phần chuyển được từ phòng thí nghiệm sang hiện trường vì vậy là nguyên tắc tổ chức bằng chứng và giao thức đánh giá; bộ phân loại và ngưỡng của mô hình 1:10 chỉ được dùng ở hiện trường sau khi kiểm tra phạm vi hiệu lực. Cách luận án đổi vai công cụ AI ở hiện trường dựa trên bốn nhóm bằng chứng này được trình bày ở Mục 5.6A.3.
+
 ## 3.5. Tổng hợp chương
 
 Dữ liệu dao động cùng các mô hình học máy và học sâu đã được sử dụng rộng để phân biệt trạng thái kết cấu và trạng thái liên kết bu lông trong điều kiện thí nghiệm. Việc áp dụng thêm một thuật toán phân loại mới vì vậy không phải trọng tâm khoa học của nghiên cứu này.

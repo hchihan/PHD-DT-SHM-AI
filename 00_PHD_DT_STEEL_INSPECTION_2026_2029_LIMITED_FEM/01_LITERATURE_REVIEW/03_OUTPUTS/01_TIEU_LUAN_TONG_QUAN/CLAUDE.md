@@ -210,7 +210,7 @@ figures/           # sơ đồ (Mermaid/SVG) cho schema, kịch bản, kiến tr
 | 4.9 | Dẫn nhập mở bằng kịch bản | Sau cùng |
 
 Ghi chú (NCS duyệt 29/09/2026):
-- Khi viết 3.6, chuyển đoạn "bốn nhóm bằng chứng" (5.6A.3, đoạn 1) sang 3.6 và rút gọn phần ở 5.6A còn 1–2 câu trỏ về.
+- Khi viết 3.6, chuyển đoạn "bốn nhóm bằng chứng" (5.6A.3, đoạn 1) sang 3.6 và rút gọn phần ở 5.6A còn 1–2 câu trỏ về. **Đã làm 01/10/2026:** đoạn chuyển sang mục nhãn tạm 3.6A (trước 3.5); 5.6A.3 còn một câu trỏ về.
 - Mục 5.5, 5.7 và Phụ lục B phải định nghĩa đủ các thuật ngữ mà 5.6A đã dùng (bản ghi bằng chứng, trường giá trị, trường độ bất định, trường phạm vi hiệu lực, trường điều kiện áp dụng, bối cảnh quan trắc, bản ghi kiểm tra, bản ghi sử dụng bằng chứng, sự kiện chuyển trạng thái, đường cơ sở B0, ràng buộc về sử dụng bằng chứng ngoài phạm vi hiệu lực).
 
 Tiền lệ bắt buộc nêu (kết quả kiểm phản chứng GĐ2, 30/09/2026; chi tiết ở `revision/GD2_nhat_ky_khoang_trong.md`):
@@ -471,7 +471,7 @@ sáu tháng sau có sự cố, truy ngược được toàn bộ.
 | Rút gọn phạm vi, khóa 3 mục tiêu | ✅ NCS duyệt (01/10) | Mục 2 (QĐ 5, 7, 9–11), 2A, 6.0, 8, 9, 11, 13 |
 | GĐ3 Khoảng trống | ✅ NCS duyệt bản GĐ3b (01/10): G-A (A1, A2), G-B; F-1 (B1), F-2 (phỏng vấn) duyệt; còn gửi thầy | `revision/GD3_khoang_trong_va_muc_tieu.md`: bảng kiểm, hai khoảng trống (G-A 7 nhóm căn cứ trước 2025, G-B 6), ba mục tiêu MT1–MT3, ma trận, văn bản đề xuất thay 5.2 và RQ (785 từ, chưa chèn `tieuluan/`); `[CẦN NGUỒN]`: IFC4 ADD2 TC1, Khuyến nghị W3C SSN |
 | GĐ4 Viết mục mới (4.2–4.9) | 🟡 5.2 đã chèn (01/10), chờ NCS duyệt | `tieuluan/05_chuong5.md` mục 5.2 thay ba khoảng trống cũ bằng G-A, G-B; 5.3.3 (bốn mục tiêu cũ), 5.4, 5.5, 5.7, 5.9 còn theo cấu trúc cũ, đồng bộ ở GĐ5 |
-| GĐ5 Tái cấu trúc | 🟡 Chương 5 đã đồng bộ toàn bộ theo MT1–MT3, B0/B1, schema rút gọn (5.2–5.7, 5.9, 5.10; 5.8.1 thêm hướng mở rộng) (01/10), chờ NCS duyệt | Chương 1 đồng bộ (01/10): 1.1.3, 1.3.4, 1.8.2 khai báo bóng số; 1.7 rút thành phần giới thiệu trỏ về 5.3–5.5; 1.8.1 đồ thị sáu thực thể; 1.9 hai khoảng trống. Còn: chuyển đoạn "bốn nhóm bằng chứng" 5.6A.3 sang 3.6; Phụ lục A, B; câu autoencoder chờ PDF Ghazimoghadam |
+| GĐ5 Tái cấu trúc | 🟡 Chương 5 đã đồng bộ toàn bộ theo MT1–MT3, B0/B1, schema rút gọn (5.2–5.7, 5.9, 5.10; 5.8.1 thêm hướng mở rộng) (01/10), chờ NCS duyệt | Chương 1 đồng bộ (01/10): 1.1.3, 1.3.4, 1.8.2 khai báo bóng số; 1.7 rút thành phần giới thiệu trỏ về 5.3–5.5; 1.8.1 đồ thị sáu thực thể; 1.9 hai khoảng trống. Còn: Phụ lục A, B; câu autoencoder chờ PDF Ghazimoghadam |
 | GĐ6 Nhất quán & xuất bản | ⬜ | |
 
 ---
