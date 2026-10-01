@@ -353,3 +353,9 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - `tieuluan/05_chuong5.md` mục 5.3–5.4 viết lại (1.075 → 1.603 từ, gồm một bảng): luận đề theo CLAUDE.md mục 1, ba mệnh đề gắn khoảng trống A, B; mục tiêu tổng quát khai báo mức bóng số theo [8]; ba mục tiêu cụ thể theo MT1–MT3 (Mục tiêu 4 cũ về logic hỗ trợ hành động gộp vào Mục tiêu 2); bảng mục tiêu – khoảng trống – câu hỏi – đối chứng – kết quả đo – sản phẩm; phụ thuộc giữa các mục tiêu; RQ1–RQ3 theo GĐ3b, RQ2 có B0 và B1; logic kế tiếp ba câu hỏi.
 - Trích dẫn dùng: [8], [35], [@K5SGFIGW] (đều có trong Zotero). Không dùng kết quả Paper 1.
 - Còn lệch: 5.5, 5.7, câu đầu 5.9, câu hỏi nghiên cứu ở Chương 1 (ghi ở CLAUDE.md mục 12).
+
+## Phiên 01/10/2026 – GĐ5: đồng bộ 5.5, 5.7, 5.9
+- 5.5 (734 → 783 từ): Bảng 5.2 ba dòng Mục tiêu – RQ – WP – công bố – thiết kế kiểm chứng (WP4 gộp vào dòng Mục tiêu 2; bỏ "Công bố 3", bỏ cột chương luận án); ghi chú B0, B1; bốn bước kiểm chứng theo MT1–MT3 (đánh giá hai cách; khóa trước khi đo gồm xác nhận bộ câu hỏi với người quản lý; so sánh B0, B1; vận hành trên nhà xưởng).
+- 5.7 (1.920 → 889 từ): ba đóng góp theo ba mục tiêu, mỗi đóng góp ghi loại (thực nghiệm – phương pháp; artefact thiết kế; kiểm chứng khả thi); Đóng góp 1 ghi kế thừa từ [19], [15]; Đóng góp 2 gồm năm ràng buộc, logic bốn mức và Hình 5.3, phần quy cho đóng góp là chênh lệch so với B1; bỏ chồng chuẩn SOSA/PROV/PAV/IDS/ràng buộc ngữ nghĩa, Evidence Gate, Đóng góp 4 riêng; câu giới hạn chuyển thành câu trỏ về Mục 5.8 (CLAUDE.md 4.5 loại C); 5.7.4 cấp ngành rút gọn.
+- 5.9 (630 → 331 từ): "hai khoảng trống"; ba định hướng theo ba mục tiêu, ghi việc làm song song với Mục tiêu 1 và việc Bài báo 2 không chờ quan trắc.
+- Trích dẫn dùng: [19], [15], [35], [@K5SGFIGW]. Không dùng kết quả Paper 1.
