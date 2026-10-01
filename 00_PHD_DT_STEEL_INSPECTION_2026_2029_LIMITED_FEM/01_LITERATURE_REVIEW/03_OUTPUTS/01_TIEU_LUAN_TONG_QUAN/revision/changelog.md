@@ -316,3 +316,7 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - Kiểm phản chứng bằng PDF có sẵn trong Zotero (agent; trích dẫn chính kiểm lại trên bản gốc): [9] Sepasgozar 2021 `XVLWEXVZ` — UV-04 không giải quyết, UV-04 nay đã kiểm hết, phát biểu thu hẹp cuối cùng; Eraliev 2022 `VVBGM9EN` — UV-08, UV-06 không giải quyết. Ghi chú `notes/XVLWEXVZ.md`, `notes/VVBGM9EN.md`.
 - Nhật ký: phát biểu thu hẹp đề xuất cho UV-06; ghi chú trỏ bảng tóm tắt về `DD2_ban_trinh.md` mục 3; sửa ghi chú UV-06 trong bảng tóm tắt.
 - Không sửa tiểu luận.
+
+## Phiên 01/10/2026 (14) – bàn giao
+- NCS quyết định: (1) cho phép tìm nguồn, xác minh, nhập Zotero và tải bản truy cập mở để đóng phản chứng còn mở; (2) cho GĐ3 bắt đầu ở mức nháp, ĐD2 thông qua có điều kiện ([80] đọc bổ sung khi có PDF; NCS kiểm cột Giới hạn sau). Ghi vào CLAUDE.md mục 12.
+- Tạo `revision/prompt_ban_giao.md`: tóm tắt quá trình, tình trạng ứng viên, hai quyết định, Nhiệm vụ 1 (đóng phản chứng N-20, N-21, N-23, N-24, N-25) và Nhiệm vụ 2 (GĐ3 nháp), cách làm đã dùng — để NCS tiếp tục ở tài khoản Claude khác.

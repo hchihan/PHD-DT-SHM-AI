@@ -410,8 +410,8 @@ sáu tháng sau có sự cố, truy ngược được toàn bộ.
 | GĐ0 Chuẩn bị | ✅ ĐD0 đã duyệt (29/09) | Markdown + đối chiếu 84 tài liệu xong (28–29/09); tồn đọng: `revision/viec_ton_dong_GD0.md` |
 | Quy ước trích dẫn (4.4), viết về giới hạn (4.5) | ✅ Đã thêm (29/09) | Danh sách 80 câu giới hạn chờ NCS duyệt (GĐ5) |
 | GĐ1 Bổ sung tài liệu | ✅ Đã duyệt (ĐD1) (30/09) | Nhập 17 tài liệu mới, gắn 5 tài liệu có sẵn; danh sách key 30 (12 Tier 1, 18 Tier 2) ở mục 7.1–7.2; báo cáo: `revision/bao_cao_GD1.md` |
-| GĐ2 Đọc sâu | 🟡 Đang làm: 29/30 đã đọc toàn văn (đủ Tier 1; Tier 2 T2-1 đến T2-4 xong; còn [80] Bull 2025 thiếu PDF) (01/10) | Ma trận khung: `matrix/literature_matrix.csv` (30 dòng, 5 dòng điền sẵn cần NCS kiểm); kế hoạch 8 phiên; còn thiếu PDF [80]; phân tích khoảng trống làm việc: `revision/GD2_phan_tich_khoang_trong_T1.md` |
-| GĐ3 Khoảng trống | ⬜ | Cần gửi thầy |
+| GĐ2 Đọc sâu | ✅ ĐD2 thông qua có điều kiện (01/10): 29/30 đọc toàn văn; [80] Bull 2025 đọc bổ sung khi có PDF; NCS kiểm cột Giới hạn sau (N-10) | Bản trình: `revision/DD2_ban_trinh.md`; việc chờ NCS: `revision/viec_cho_NCS.md`; nhật ký: `revision/GD2_nhat_ky_khoang_trong.md` |
+| GĐ3 Khoảng trống | 🟡 Đang làm – nháp (NCS cho bắt đầu 01/10) | Trước tiên đóng phản chứng còn mở (N-20, N-21, N-23, N-24, N-25; được phép tìm, xác minh, nhập Zotero, tải bản mở); chỉ chốt sau N-10 và ĐD3; cần gửi thầy. Prompt bàn giao: `revision/prompt_ban_giao.md` |
 | GĐ4 Viết mục mới (4.2–4.9) | ⬜ | |
 | GĐ5 Tái cấu trúc | ⬜ | |
 | GĐ6 Nhất quán & xuất bản | ⬜ | |
