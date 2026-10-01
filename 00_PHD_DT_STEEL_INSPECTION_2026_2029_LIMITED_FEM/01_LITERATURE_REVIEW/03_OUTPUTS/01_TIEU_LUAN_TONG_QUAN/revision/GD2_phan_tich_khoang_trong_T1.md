@@ -70,7 +70,7 @@ Cập nhật 01/10/2026: X-01 đến X-03 đã xử lý bằng việc đồng b�
 
 ## 6. Việc tiếp theo đề xuất
 
-1. Hoàn tất T1-1: đọc [35] Bellon (PDF đã có) và lập `mapping/bellon2025.md`; kiểm [35] như phản chứng cho UV-01, UV-03.
+1. ~~Hoàn tất T1-1: đọc [35] Bellon và lập `mapping/bellon2025.md`; kiểm [35] như phản chứng cho UV-01, UV-03.~~ Xong 01/10/2026: UV-01 thu hẹp thêm (chuỗi kiểm tra → hư hỏng → bảo trì đã có trong IFC 4.3 cho phát hiện bằng mắt); UV-03 không đổi. Mức bảo vệ làm việc của K3 vẫn NARROW_BUT_DEFENSIBLE, phạm vi hẹp hơn: phần mới thu về bằng chứng có phạm vi hiệu lực đi vào chuỗi đó và sự kiện chuyển trạng thái của hành động có căn cứ.
 2. Phiên Tier 2 ưu tiên theo khoảng trống: [48] Pal 2022, [56] Da Silva (đọc đủ), [57] Bull 2021 để kiểm vế (a) của K1 và
    UV-06; sau đó [45], Figueiredo (đọc đủ phần kết quả).
 3. Kiểm phản chứng còn treo: CMMS (UV-01), PROV-O và MLflow/DVC (UV-02), tài liệu học máy có người trong vòng (UV-07).

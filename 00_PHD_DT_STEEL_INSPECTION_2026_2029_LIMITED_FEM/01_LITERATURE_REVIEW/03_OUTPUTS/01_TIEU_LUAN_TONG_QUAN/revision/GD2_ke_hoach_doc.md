@@ -22,7 +22,7 @@ Cột "Truy cập" lấy từ OpenAlex ngày 30/09/2026. Cột "PDF" kiểm trê
 | Phiên | TT | Tài liệu | Khóa | Cụm | Phục vụ | PDF | Ghi chú đọc |
 |---|---|---|---|---|---|---|---|
 | T1-1 | 1 | [2] Theiler & Smarsly (2018) | 2ILY9YZ3 | Truy vết thông tin | tiền lệ; `mapping/theiler2018.md` | có | toàn văn (T1-1, 30/09/2026) |
-| T1-1 | 2 | [35] Bellon và cs. (2025) | NUTL57KJ | Truy vết thông tin | tiền lệ; `mapping/bellon2025.md` | có (kho Zotero, 01/10) | chưa |
+| T1-1 | 2 | [35] Bellon và cs. (2025) | NUTL57KJ | Truy vết thông tin | tiền lệ; `mapping/bellon2025.md` | có (kho Zotero, 01/10) | toàn văn (T1-1, 01/10/2026) |
 | T1-1 | 3 | [44] García và cs. (2026) | GNTQNBWM | Truy vết thông tin | tiền lệ; `mapping/garcia2026.md` | có | toàn văn (T1-1, 30/09/2026) |
 | T1-2 | 4 | [22] Hemker và cs. (2019) | B2JXAM9M | Giá trị quyết định | 2.1.1 | có (01/10) | toàn văn (T1-2, 01/10/2026) |
 | T1-2 | 5 | [18] Brake và cs. (2019) | VPFBB9SG | SHM–bu lông–EOV | 3.6 | có | toàn văn (T1-2, 01/10/2026) |
@@ -114,3 +114,4 @@ cần có trước khi viết các mục 2.1.1, 3.1, 3.2 ở Giai đoạn 4.
 - **T1-4 (01/10/2026): xong** — [53], [16] (bản in thử), [17] đọc toàn văn; áp khuôn của skill deep-read-phd-papers, phd-gap-miner, govern-phd-evidence; ghi chú `notes/JQKJGUER.md`, `notes/EMTIHHX4.md`, `notes/F6XUPQKG.md`; phân tích liên tài liệu và mức bảo vệ K1–K3: `revision/GD2_phan_tich_khoang_trong_T1.md`; nhật ký thêm UV-07.
 - **PDF (01/10/2026):** [35] Bellon đã có trong kho Zotero (19 tr.); T1-1 có thể hoàn tất. [80] Bull 2025 vẫn thiếu.
 - **Tier 1: 11/12 đã đọc toàn văn**; còn [35].
+- **T1-1 (01/10/2026): xong 3/3** — [35] Bellon đọc toàn văn; ghi chú `notes/NUTL57KJ.md`; bảng ánh xạ `mapping/bellon2025.md`; kiểm [35] như phản chứng cho UV-01 (thu hẹp thêm) và UV-03 (không đổi). **Tier 1: 12/12 đã đọc toàn văn.**

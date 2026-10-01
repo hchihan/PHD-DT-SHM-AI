@@ -245,3 +245,9 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 ## Phiên 01/10/2026 (3) – đồng bộ bốn skill PhD với CLAUDE.md
 - Theo yêu cầu NCS, đồng bộ deep-read-phd-papers, phd-gap-miner, govern-phd-evidence, phd-literature-scout với CLAUDE.md hiện hành: schema đồ thị có STATUS_EVENT và AGENT; K1–K3 là giả thuyết làm việc theo câu chữ tiểu luận mục 5.2; nơi ghi kết quả trong `revision/` và `notes/`; quy tắc phản chứng, ngưỡng ba căn cứ ngoài nhóm 2025–2026, tiền lệ bắt buộc; CLAUDE.md đứng đầu thứ tự nguồn với việc thuộc tiểu luận.
 - Bản đồng bộ, bản gốc và gói tải lên claude.ai ở `04_AI_SKILL_SYSTEM/08_CLAUDE_SKILLS/_DONG_BO_20261001/`; đã cài vào bộ nhớ skill trên máy. Không sửa nội dung tiểu luận.
+
+## Phiên 01/10/2026 (4) – hoàn tất đồng bộ skill; GĐ2 phiên T1-1: đọc sâu [35] Bellon
+- Skill: thay bản gốc deep-read-phd-papers và govern-phd-evidence trong `04_AI_SKILL_SYSTEM/08_CLAUDE_SKILLS/` bằng bản đồng bộ (bản cũ ở `_DONG_BO_20261001/_BAN_GOC_REPO_TRUOC_THAY/`); thêm `project-canon-tltq.md` vào `phd-dt-research-skills/_phd-canon/` và dòng ưu tiên CLAUDE.md của tiểu luận ở đầu bốn tệp canon và ba SKILL.md.
+- Đọc toàn văn [35] Bellon và cs. 2025 (19 tr., PDF trong kho Zotero); ghi chú `notes/NUTL57KJ.md`; bảng ánh xạ `mapping/bellon2025.md` (Phần A–E).
+- Nhật ký: UV-01 kiểm [35], thu hẹp thêm (chuỗi định kiểu kiểm tra → hư hỏng → cấu kiện → bảo trì → chi phí đã có bằng thực thể chuẩn IFC 4.3 cho phát hiện bằng mắt); còn CMMS chưa kiểm. UV-03 kiểm [35], không đổi.
+- Ma trận 1 dòng; kế hoạch đọc (Tier 1: 12/12); `GD2_phan_tich_khoang_trong_T1.md` mục 6; CLAUDE.md mục 6.1 (tiền lệ [35]) và mục 12. Tag Zotero: Doc:toan_van, K2, K3 cho [35]. Không sửa tiểu luận.
