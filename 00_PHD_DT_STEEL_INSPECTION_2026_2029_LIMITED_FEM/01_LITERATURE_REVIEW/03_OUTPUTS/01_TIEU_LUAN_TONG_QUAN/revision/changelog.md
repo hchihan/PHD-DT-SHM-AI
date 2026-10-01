@@ -258,3 +258,10 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - CLAUDE.md mục 8: quyết định thiết kế cho 5.5 (mở rộng trên nền IFC 4.3 của [35]; quan hệ bằng chứng – cấu kiện n:m ở tầng đồ thị, IFC là khung nhìn xuất; bản ghi bất biến với prov:wasRevisionOf / prov:wasInvalidatedBy); thêm ràng buộc C9. Mục 6.1: trình bày schema như mở rộng của [35] và BCF 3.0.
 - Nguồn CMMS cho UV-01: Chen và cs. 2018 `QZ7E3HDV`, Condotta & Scanagatta 2023 `QBTTSBTH` (DOI xác minh Crossref, nhập TL-Key/Bổ sung, tag GD2-phanchung, 2 dòng `moi` trong `doi_chieu_danh_muc.csv`). Chưa có PDF; mục CMMS vẫn "chưa kiểm".
 - [80] Bull 2025 (`5D5H5XGK`): không có tệp đính kèm trong Zotero, không có tệp trong `pdf/`; `Unconfirmed 845287.crdownload` là bản tải dở.
+
+## Phiên 01/10/2026 (6) – GĐ2 phiên T2-1: [45] Sohn, Figueiredo 2011, Ju 2020, Cawley 2018, Worden 2007
+- Bản Condotta 2023 trên air.iuav.it bị Cloudflare chặn bằng xác minh người dùng; không vượt qua; NCS cần tải tay.
+- Đọc toàn văn Worden 2007 `MCNRW6F5`, Cawley 2018 `EBB69J4F` (bản trực tuyến tr. 1–20), Ju 2020 `38FMATHE` (bản trực tuyến tr. 1–14); đọc bổ sung [45] Sohn 2007 (mục 1–3) và Figueiredo 2011 `23TBQTIP` (phần thuật toán, kết quả), nay là toàn văn; bỏ dấu "CẦN NCS KIỂM" ở hai dòng này.
+- `GD1_luan_diem_can_nguon.csv`: thêm cột `doan_dung_duoc` cho L2.1, L2.2, L2.3, L3.1, L4.1, ghi phần còn là diễn giải của NCS.
+- Nhật ký khoảng trống: nhập căn cứ 5.6A (Bull 2022, Hughes 2022, Wang & Cha 2021, Figueiredo 2011) vào UV-02 và UV-05; quy ước đếm nhóm tác giả Sheffield – Los Alamos là một; UV-05 kiểm phản chứng một phần (Hughes, Bull 2022) và có phát biểu thu hẹp đề xuất; tạo UV-08 (nhiễu vận hành nhà xưởng) với phản chứng Zotero + 3 truy vấn Consensus (7 ứng viên, DOI xác minh Crossref, chưa nhập Zotero).
+- Ma trận 5 dòng; tag Zotero Doc:toan_van và K tương ứng; kế hoạch đọc; CLAUDE.md mục 12. Không sửa tiểu luận.

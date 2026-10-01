@@ -15,22 +15,27 @@ Quy ước:
 - **Phát biểu đã thu hẹp:** phát biểu sau khi trừ phần đã được giải quyết.
 - Một ứng viên chỉ được đưa vào GĐ3 khi trường "Phản chứng đã kiểm" không còn mục nào ghi "chưa kiểm".
 - Nguồn đã đọc toàn văn đến hết phiên T1-3: [8], [7], [3] (30/09/2026). Phiên T1-2 (01/10/2026): [22], [18], [19] đọc toàn văn ([19] bản tiền in arXiv). Phiên T1-4 (01/10/2026): [53], [16] (bản in thử), [17] đọc toàn văn. Phiên T1-1 (30/09/2026): [2], [44] đọc toàn văn; [35] đọc toàn văn ngày 01/10/2026 (T1-1 hoàn tất). Tài liệu chính thức đã đọc để kiểm phản chứng: BCF 3.0 (BCF-XML, BCF-API), IFC4 ADD2 TC1 (các thực thể nêu ở UV-01, UV-03), COBie 2.4 (NBIMS-US V3 chương 4.2), SSN/SOSA (Khuyến nghị W3C 2017). ISO 19650-3 không truy cập được. Phiên T1-1 (ba tiền lệ [2], [35], [44]) đã
-  hoàn tất ngày 01/10/2026. Căn cứ đã dùng ở 5.6A (Bull 2022, Wang & Cha 2021, [57],
-  Hughes 2022, Figueiredo 2011) chưa được đưa vào nhật ký; cần rà lại ở phiên Tier 2.
+  hoàn tất ngày 01/10/2026. Phiên T2-1 (01/10/2026): Worden 2007 `MCNRW6F5`, Cawley 2018 `EBB69J4F`, Ju 2020 `38FMATHE`
+  đọc toàn văn; [45] Sohn 2007 và Figueiredo 2011 `23TBQTIP` đọc bổ sung, nay là toàn văn. Căn cứ đã dùng ở 5.6A (Bull 2022,
+  Hughes 2022, Wang & Cha 2021, Figueiredo 2011) đã đưa vào UV-02 và UV-05 ngày 01/10/2026, dựa trên `notes/`; [57] Bull 2021
+  chưa có ghi chú đọc nên chưa đưa vào.
+- **Quy ước đếm nhóm tác giả (thêm 01/10/2026):** Worden 2007, Figueiredo 2011, Bull 2022, Hughes 2022 cùng nhóm Sheffield –
+  Los Alamos (chung Worden, Farrar hoặc Bull); khi đếm căn cứ độc lập, các bài này tính là **một** nhóm.
 
 ## Bảng tóm tắt
 
 | Mã | Phát biểu | K | Số căn cứ độc lập hiện có | Năm các căn cứ | Ghi chú |
 |---|---|---|---|---|---|
 | UV-01 | Hành động và lần đổi trạng thái không nối ngược được về bằng chứng tình trạng cùng phạm vi hiệu lực (đã thu hẹp) | K3 | 4 ([3], [7], [22], [44]); 3 trước 2025 ([22] chỉ là căn cứ về nhu cầu) | 2020, 2020, 2019, 2026 | Đủ số căn cứ nếu NCS chấp nhận [22]; [35] đã kiểm (01/10, thu hẹp thêm); còn CMMS chưa kiểm, ISO 19650-3 không truy cập được |
-| UV-02 | Đầu ra phát hiện bất thường trong khung song sinh cho công trình chưa được ghi cùng nguồn gốc xử lý, phiên bản phương pháp và phạm vi hiệu lực | K1 | 4 ([3], [7], [53], [16]) | 2020, 2020, 2023, 2023 | Chưa đủ; phản chứng mới kiểm một phần ([44], SSN); cần [18], [45], 23TBQTIP |
+| UV-02 | Đầu ra phát hiện bất thường trong khung song sinh cho công trình chưa được ghi cùng nguồn gốc xử lý, phiên bản phương pháp và phạm vi hiệu lực | K1 | 4 ([3], [7], [53], [16]) | 2020, 2020, 2023, 2023 | Phản chứng kiểm một phần ([44], SSN, [16], [53]); còn PROV-O, MLflow/DVC, thẻ mô hình; T2-1 thêm căn cứ về **nội dung** phạm vi hiệu lực ([45], Figueiredo, Worden, Cawley, Wang & Cha), không tính vào phần "chưa được ghi" |
 | UV-03 | Ánh xạ cảm biến – cấu kiện thiếu cách ghép được quy định về thời hạn hiệu lực và ràng buộc thời gian (đã thu hẹp) | K2 | 3 ([3], [7], [2]) | 2020, 2020, 2018 | **Đủ điều kiện hình thức vào GĐ3**; phần còn lại nhỏ, nên xem là yêu cầu của mô hình dữ liệu; [35] đã kiểm (không có cảm biến, không đổi kết luận) |
 | UV-04 | Thiếu phân loại mức tích hợp DM/DS/DT áp cho kiểm tra – bảo trì kết cấu công trình có con người ra quyết định | mới (định vị) | 2 ([8], [7]) | 2018, 2020 | Chỉ phục vụ định vị ở 2.3, không dự kiến thành khoảng trống |
-| UV-05 | Ở công trình đang vận hành thiếu dữ liệu có nhãn về bất thường; nhãn phụ thuộc đánh giá con người | mới (nhãn hiện trường; liên quan L2.3, 5.6A) | 3 ([3], [19], [17]) | 2020, 2025, 2026 | Căn cứ đã có ở 5.6A chưa nhập nhật ký |
+| UV-05 | Ở công trình đang vận hành thiếu dữ liệu có nhãn về bất thường; nhãn phụ thuộc đánh giá con người | mới (nhãn hiện trường; liên quan L2.3, 5.6A) | 5 nhóm ([3], nhóm Sheffield – Los Alamos: Bull 2022 + Hughes 2022 + Worden 2007, Wang & Cha 2021, [19], [17]); 3 trước 2025 | 2020, 2007–2022, 2021, 2025, 2026 | Đã nhập căn cứ 5.6A (01/10); phản chứng kiểm một phần (Hughes, Bull 2022); còn [57] và SHM theo quần thể chưa kiểm |
 | UV-06 | Lần lắp ráp hoặc can thiệp bảo trì là ranh giới phạm vi hiệu lực của bằng chứng từ mối nối bu lông | K1 | 4 ([18], [53], [56], [19]); 3 trước 2025 | 2019, 2023, 2024, 2025 | Phản chứng chưa kiểm; [56] mới đọc một phần |
 | UV-07 | Xác nhận của chuyên gia đối với đầu ra AI là tín hiệu học, chưa là bản ghi trách nhiệm | K3 (+5.6A) | 4 ([3], [7], Hughes 2022, [17]); 3 trước 2025 | 2020, 2020, 2022, 2026 | Mới (T1-4); phản chứng kiểm một phần (IfcApproval, [44]) |
+| UV-08 | Ảnh hưởng của rung vận hành (cầu trục, máy móc) lên phát hiện suy giảm liên kết trong nhà xưởng khung thép chưa được nghiên cứu bằng dữ liệu hiện trường (đã thu hẹp) | mới (K1 – điều kiện áp dụng; L2.2) | 3 nhóm trước 2025 cho hiện tượng EOV chung ([45], nhóm Worden/Figueiredo, Cawley); cho riêng nhà xưởng: chỉ [NCS] + Ju 2020 (hiện tượng) | 2007, 2007–2011, 2018, 2020 | Mới (T2-1); phản chứng kiểm ở mức Zotero + 3 truy vấn Consensus (chỉ tóm tắt); Hu 2023, Eraliev 2022 chưa đọc toàn văn → chưa đủ điều kiện |
 
-Tình trạng phản chứng (30/09/2026, sau phiên T1-1): UV-03 đã kiểm hết các phản chứng liệt kê ([2], [3], IFC4, SSN/SOSA). UV-01 đã kiểm BCF 3.0, IFC4, COBie 2.4, [44]; còn CMMS chưa kiểm, ISO 19650-3 không truy cập được, [35] chờ PDF. UV-02 kiểm một phần. UV-04, UV-05 chưa kiểm. Đủ điều kiện hình thức vào GĐ3 (ba căn cứ độc lập, không phụ thuộc 2025–2026, không còn "chưa kiểm"): chỉ UV-03. Cập nhật 01/10/2026 (T1-4): thêm UV-07; UV-02 có 4 căn cứ trước 2025 nhưng còn PROV-O, MLflow/DVC, thẻ mô hình chưa kiểm; UV-06 có 3 căn cứ trước 2025 (một đọc chưa đủ). Vẫn chỉ UV-03 đủ điều kiện hình thức. Đánh giá mức bảo vệ của K1–K3 theo thang của skill phd-gap-miner: `revision/GD2_phan_tich_khoang_trong_T1.md`. Cập nhật 01/10/2026 (T1-1, [35] Bellon): UV-01 thu hẹp thêm vì chuỗi định kiểu lần kiểm tra → hư hỏng → cấu kiện → nhiệm vụ bảo trì → chi phí đã có bằng thực thể chuẩn IFC 4.3 cho phát hiện bằng mắt; UV-01 còn CMMS chưa kiểm. UV-03: [35] không có cảm biến, kết luận giữ nguyên. Cập nhật 01/10/2026 (T1-2): thêm UV-06 (chưa kiểm phản chứng); UV-01 có căn cứ thứ ba trước 2025 ([22], chờ NCS chấp nhận) nhưng vẫn còn mục "chưa kiểm".
+Tình trạng phản chứng (30/09/2026, sau phiên T1-1): UV-03 đã kiểm hết các phản chứng liệt kê ([2], [3], IFC4, SSN/SOSA). UV-01 đã kiểm BCF 3.0, IFC4, COBie 2.4, [44]; còn CMMS chưa kiểm, ISO 19650-3 không truy cập được, [35] chờ PDF. UV-02 kiểm một phần. UV-04, UV-05 chưa kiểm. Đủ điều kiện hình thức vào GĐ3 (ba căn cứ độc lập, không phụ thuộc 2025–2026, không còn "chưa kiểm"): chỉ UV-03. Cập nhật 01/10/2026 (T1-4): thêm UV-07; UV-02 có 4 căn cứ trước 2025 nhưng còn PROV-O, MLflow/DVC, thẻ mô hình chưa kiểm; UV-06 có 3 căn cứ trước 2025 (một đọc chưa đủ). Vẫn chỉ UV-03 đủ điều kiện hình thức. Đánh giá mức bảo vệ của K1–K3 theo thang của skill phd-gap-miner: `revision/GD2_phan_tich_khoang_trong_T1.md`. Cập nhật 01/10/2026 (T2-1): UV-02 và UV-05 nhập căn cứ 5.6A; UV-05 kiểm một phần (Hughes 2022, Bull 2022), còn [57] chưa kiểm; tạo UV-08 (nhiễu vận hành nhà xưởng), phản chứng mới kiểm ở mức tóm tắt. Ứng viên đủ điều kiện hình thức vào GĐ3 vẫn chỉ có UV-03. Cập nhật 01/10/2026 (T1-1, [35] Bellon): UV-01 thu hẹp thêm vì chuỗi định kiểu lần kiểm tra → hư hỏng → cấu kiện → nhiệm vụ bảo trì → chi phí đã có bằng thực thể chuẩn IFC 4.3 cho phát hiện bằng mắt; UV-01 còn CMMS chưa kiểm. UV-03: [35] không có cảm biến, kết luận giữ nguyên. Cập nhật 01/10/2026 (T1-2): thêm UV-06 (chưa kiểm phản chứng); UV-01 có căn cứ thứ ba trước 2025 ([22], chờ NCS chấp nhận) nhưng vẫn còn mục "chưa kiểm".
 
 ## UV-01 — Chuỗi cảnh báo → hành động
 
@@ -109,6 +114,12 @@ Tình trạng phản chứng (30/09/2026, sau phiên T1-1): UV-03 đã kiểm h�
   - Thẻ mô hình (model cards, Mitchell và cs. 2019, được [53] dẫn): **chưa kiểm**; tài liệu chưa có trong Zotero, không được trích khi chưa nhập.
   - PROV-O [69], công cụ quản lý phiên bản mô hình (MLflow/DVC): **chưa kiểm**.
 - **Phát biểu đã thu hẹp (đề xuất, chờ kiểm PROV-O, MLflow/DVC, thẻ mô hình):** nguồn gốc ở mức đối tượng hay tệp ([16], [44]) và lập luận về phạm vi ở mức mô hình ([53]) đã có tiền lệ; phần chưa thấy là một bản ghi cho **từng** kết quả sinh từ dữ liệu đo, mang cùng lúc nguồn gốc xử lý, phiên bản phương pháp và phạm vi hiệu lực, và đi theo kết quả đó khi nó được dùng về sau.
+- **Căn cứ bổ sung về nội dung phạm vi hiệu lực (01/10/2026, căn cứ 5.6A và T2-1):** các nguồn sau cho thấy đầu ra phát hiện chỉ có nghĩa trong điều kiện của dữ liệu tham chiếu, tức là phạm vi hiệu lực là **cần**; chúng **không** nói gì về việc ghi hay không ghi phạm vi, nên không tính vào số căn cứ của phát biểu "chưa được ghi".
+  - Figueiredo và cs. 2011 `23TBQTIP`, tr. 571 (không bảo đảm hiệu quả với điều kiện chưa có trong huấn luyện; TG); tr. 569–570 (ngưỡng và thuật toán là một điểm đánh đổi báo động giả – bỏ sót; TG).
+  - Sohn 2007 [45], tr. 553 (sai số AANN tăng với bất kỳ tín hiệu chưa ghi vào mạng, không riêng hư hỏng; TG), tr. 548 (chuẩn hóa là riêng từng công trình; TG), tr. 557 (dữ liệu huấn luyện phải phủ dải rộng điều kiện; TG).
+  - Worden và cs. 2007 `MCNRW6F5`, tr. 1642–1647 (mọi phát hiện là so sánh với đường cơ sở; đường cơ sở dịch chuyển gây báo sai; TG).
+  - Cawley 2018 `EBB69J4F`, tr. 13–15 (cần POD và tỉ lệ báo động giả kiểm chứng trong điều kiện vận hành; TG).
+  - Wang & Cha 2021 `TDRPDWJE`, bản thảo tác giả tr. 2, 20 (mỗi công trình có điều kiện biên và vật liệu riêng; TG), tr. 21 (định vị, định lượng khó khi huấn luyện thiếu thông tin hư hỏng; TG).
 - **Số căn cứ độc lập:** 4 ([3] 2020, [7] 2020, [53] 2023, [16] 2023); trước 2025: 4.
 
 ## UV-03 — Ghép cảm biến – cấu kiện có thời hạn
@@ -171,8 +182,18 @@ Tình trạng phản chứng (30/09/2026, sau phiên T1-1): UV-03 đã kiểm h�
 - **Căn cứ bổ sung (01/10/2026, T1-2):** Ramasso và cs. 2025 [19] (bản tiền in arXiv), tr. 15 (thêm dần nhãn của đợt kiểm tra để mô phỏng việc các đợt kiểm tra định kỳ cho phép gán nhãn dữ liệu đã thu; độ chính xác tăng theo lượng nhãn), tr. 14, 21 (nhãn đặt bằng cờ-lê lực có bất định; tác giả tự nêu). Loại: TG. Tài liệu nhóm 2025.
 - **Căn cứ bổ sung (01/10/2026, T1-4):** Wu và cs. 2026 [17], tr. 4 (gán nhãn tương tác và học chủ động để bù việc thiếu dữ liệu có nhãn, đưa tri thức chuyên gia vào xác nhận; TG), tr. 10 (LFW1: cải thiện mô hình khi phản hồi ít là giới hạn; TG). Tài liệu 2026; đối tượng là kiểm kê tái sử dụng.
 - **Ghi chú:** đối tượng của [3] là bơm HVAC; chỉ dùng như căn cứ cùng chiều.
-- **Phản chứng đã kiểm:** **chưa kiểm**. Cần đối chiếu học chủ động theo rủi ro (Hughes 2022 `Z9RD5DMZ`, Bull 2022 `87NKU5IS`) và SHM theo quần thể [57], là các hướng đã đề xuất cách lấy nhãn từ kiểm tra.
-- **Phát biểu đã thu hẹp:** chưa có; chờ kết quả kiểm.
+- **Căn cứ bổ sung (01/10/2026, căn cứ 5.6A, dựa trên `notes/`):**
+  - Bull và cs. 2022 `87NKU5IS`, tr. 3–4 (học không giám sát chỉ cho phát hiện điểm mới; định vị, phân loại, đánh giá cần nhãn; TG), tr. 1–2 (kiểm tra của chuyên gia tốn kém, dùng để gán nhãn; TG), tr. 4 (không thể kiểm tra lại trạng thái ở thời điểm đã qua; TG).
+  - Hughes và cs. 2022 `Z9RD5DMZ` (tiền in arXiv v2), tr. 1–2, 7 (hỏi nhãn = kiểm tra; nhãn do kỹ sư cung cấp; TG).
+  - Wang & Cha 2021 `TDRPDWJE` (bản thảo tác giả), tr. 2, 20 (khó thu đủ dữ liệu hư hỏng của công trình; TG).
+  - Worden và cs. 2007 `MCNRW6F5`, tr. 1647–1651 (tiên đề III: loại và mức độ hư hỏng cần học có giám sát; TG).
+  - [57] Bull 2021: **chưa có ghi chú đọc**; nội dung ở 5.6A lấy từ tóm tắt; không tính.
+- **Số căn cứ độc lập (quy ước nhóm tác giả):** [3] 2020; nhóm Sheffield – Los Alamos (Bull 2022, Hughes 2022, Worden 2007) tính một; Wang & Cha 2021; [19] 2025; [17] 2026. Trước 2025: 3.
+- **Phản chứng đã kiểm:**
+  - Hughes 2022 `Z9RD5DMZ` (học chủ động theo rủi ro): **đã kiểm 01/10/2026** theo ghi chú có sẵn (đọc mục 1–4, 6–8). Đã đề xuất cơ chế lấy nhãn bằng kiểm tra có chọn lọc theo giá trị thông tin cho quyết định (tr. 1, 7). Giới hạn tác giả tự nêu: biết trước số lớp, giả định kiểm tra cho thông tin hoàn hảo, quyết định nhị phân (tr. 27–28). Dữ liệu cầu Z24 với nhãn định sẵn.
+  - Bull 2022 `87NKU5IS` (quản lý kiểm tra theo lý thuyết thông tin): **đã kiểm 01/10/2026** theo ghi chú có sẵn (đọc mục 1, 2, 7, 8; lướt 3–6). Đề xuất truy vấn kiểm tra cho các phép đo giàu thông tin, thêm lớp mới khi kiểm tra phát hiện (tr. 1–2). Nhãn trong ví dụ hiện trường lấy theo quy ước nghiên cứu trước (tr. 15).
+  - [57] Bull 2021 và SHM theo quần thể (phần III): **chưa kiểm** (chưa có ghi chú đọc).
+- **Phát biểu đã thu hẹp (đề xuất, còn [57] chưa kiểm):** việc thiếu nhãn ở hiện trường và việc lấy nhãn bằng kiểm tra có chọn lọc đã được nêu và mô hình hóa (Bull 2022, Hughes 2022), trên dữ liệu cầu với nhãn giả định và giả định kiểm tra hoàn hảo. Phần chưa thấy: nhãn sinh từ kiểm tra thực ở công trình đang vận hành, mang độ bất định của kiểm tra, được ghi như một bản ghi gắn với phép đo đã kích hoạt kiểm tra và với cấu kiện. [NCS] Phần này gần với UV-07 và K3; khi chốt ở GĐ3 có thể gộp.
 
 ## UV-06 — Lần lắp ráp hoặc can thiệp bảo trì là ranh giới phạm vi hiệu lực của bằng chứng từ mối nối bu lông
 
@@ -185,6 +206,7 @@ Tình trạng phản chứng (30/09/2026, sau phiên T1-1): UV-03 đã kiểm h�
   - Hemker và cs. 2019 [22], tr. 191 (một thay đổi nhỏ ở dầm cầu trục làm đánh giá mỏi ban đầu mất giá trị; [NCS] tương tự về ý, khác loại bằng chứng). Không tính vào số căn cứ.
 - **Loại căn cứ:** TG về hiện tượng vật lý ([18], [19], [56]); [NCS] về việc chưa được ghi thành ranh giới phạm vi hiệu lực.
 - **Liên quan:** K1 (phạm vi hiệu lực: đợt lắp đặt, đơn vị suy luận). Gần với UV-02; tách riêng vì UV-02 nói về việc **ghi** nguồn gốc và phạm vi, còn UV-06 nói về **nội dung** của phạm vi (lần lắp ráp, can thiệp).
+- **Ghi chú T2-1 (01/10/2026):** Figueiredo 2011 `23TBQTIP` xếp giảm độ cứng cột vào nhóm "chưa hư hỏng" để mô phỏng biến động vận hành – môi trường, còn hư hỏng là phi tuyến va chạm (tr. 565, Bảng 1). [NCS] Một suy giảm liên kết chỉ làm giảm độ cứng (không va đập) vì vậy dễ bị coi là biến động bình thường; điều này củng cố việc phải ghi trạng thái lắp ráp và can thiệp vào phạm vi hiệu lực. Không tính là căn cứ.
 - **Số căn cứ độc lập:** 4 ([18] 2019, [53] 2023 (phương pháp chung), [56] 2024 đọc một phần, [19] 2025); trước 2025: 3, trong đó [56] chưa đọc đủ.
 - **Phản chứng đã kiểm:** **chưa kiểm**. Cần đối chiếu: SHM theo quần thể [57] Bull 2021 và phần III (Gardner 2021), thích nghi miền [56]; bù EOV và đồng liên kết (Cross 2011); phát hiện thay đổi đường cơ sở sau bảo trì trong các nghiên cứu theo dõi dài hạn.
 - **Phát biểu đã thu hẹp:** chưa có; chờ kết quả kiểm.
@@ -205,3 +227,33 @@ Tình trạng phản chứng (30/09/2026, sau phiên T1-1): UV-03 đã kiểm h�
   - [44] García 2026 (đã kiểm): ký xác nhận theo vai trò, tách nhiệm vụ, cho gói thông tin bàn giao (tr. 21–25).
   - Tài liệu về học máy có người trong vòng (human-in-the-loop) và về thẻ mô hình: **chưa kiểm**.
 - **Phát biểu đã thu hẹp:** chưa có; chờ kiểm. Dự kiến: biểu diễn phê duyệt đã có (IFC4, [44]); phần còn thiếu có thể chỉ là việc **áp** khuôn phê duyệt cho đầu ra AI và tách nó khỏi việc dùng làm nhãn.
+
+## UV-08 — Nhiễu vận hành nhà xưởng (cầu trục, máy móc) và phát hiện suy giảm liên kết
+
+- **Phát biểu dự kiến (NCS giao 01/10/2026):** ảnh hưởng của rung vận hành (cầu trục, máy móc) lên phát hiện suy giảm liên kết trong nhà xưởng khung thép chưa được nghiên cứu.
+- **Căn cứ (về hiện tượng chung, tác giả nói):**
+  - Sohn 2007 [45], tr. 541 (điều kiện vận hành gồm tải môi trường, tốc độ vận hành, tải khối lượng), tr. 543–544 (khác biệt do tải khối lượng vận hành lớn hơn nhiều khác biệt do hư hỏng ở tàu lượn), tr. 548 (chuẩn hóa là riêng từng công trình), tr. 557–558 (cần thử trên công trình thật; điều kiện vận hành bất thường gây hiệu ứng giống hư hỏng). TG.
+  - Worden và cs. 2007 `MCNRW6F5`, tr. 1652–1654 (tiên đề IVb). Figueiredo và cs. 2011 `23TBQTIP`, tr. 561–562, 571. TG; cùng nhóm tác giả, tính là một.
+  - Cawley 2018 `EBB69J4F`, tr. 4 (tần số dạng thấp nhạy khối lượng, điều kiện biên hơn hư hỏng cục bộ), tr. 9 (trừ đường cơ sở khó trong môi trường công nghiệp), tr. 14–15 (thiếu kiểm chứng trên kết cấu thật trong môi trường vận hành). TG.
+- **Căn cứ (về nguồn rung trong nhà máy):** Ju và cs. 2020 `38FMATHE`, tr. 7–11 (rung do cầu trục 15–35 Hz, phụ thuộc vận tốc, gia tốc, độ gồ ghề ray, vị trí). TG về hiện tượng; bài **không** bàn phát hiện hư hỏng (tr. 1–13). Đối tượng là nhà máy công nghệ cao, cầu trục chạy trên sàn.
+- **Loại căn cứ:** TG cho hiện tượng EOV chung; **[NCS]** cho việc áp sang nhà xưởng có cầu trục và cho nhận định "chưa được nghiên cứu".
+- **Liên quan:** K1 (điều kiện áp dụng, đường cơ sở vận hành, bối cảnh quan trắc gồm trạng thái cầu trục); L2.2 (mục 3.2); WP3 (bù EOV, Autoencoder).
+- **Số căn cứ độc lập:** cho hiện tượng EOV chung: 3 nhóm trước 2025 ([45] 2007; Worden 2007 + Figueiredo 2011; Cawley 2018). Cho riêng nhà xưởng có cầu trục: chưa có căn cứ của tác giả nào; chỉ có Ju 2020 (hiện tượng) và nhận định của NCS.
+- **Phản chứng đã kiểm (01/10/2026):**
+  - *Zotero* (tìm trong tiêu đề và tóm tắt: crane, industrial building, factory, factories, operational vibration, portal frame, industrial steel, warehouse, workshop, operational variab, environmental and operational): không có nghiên cứu SHM nào trên nhà công nghiệp có cầu trục. Có: Ju 2020 (và bản trùng `N4BZUNIL`); Hemker 2019 [22] (bảo trì nhà thép công nghiệp, không SHM); Eraliev và cs. 2022 `VVBGM9EN` (bu lông đế động cơ, xem dưới); các nguồn EOV chung ([45], `9RSPTNJE`, `ESQIRHVE` Keshmiry 2023, `KPWFC4PI` Cross 2011, `L56P7RAF`).
+  - *Consensus* (3 truy vấn: "crane-induced vibration structural health monitoring industrial building"; "operational variability damage detection factory steel structure"; "bolt loosening detection under operational vibration steel frame"). Ứng viên phản chứng, **chỉ đọc tóm tắt**, DOI đã xác minh qua Crossref; **chưa nhập Zotero**:
+
+    | Tác giả, năm | Nguồn | DOI | Nội dung theo tóm tắt (1 câu) | Liên quan |
+    |---|---|---|---|---|
+    | Hu và cs., 2023 | *Int. J. Struct. Stab. Dyn.* 24(19): 2450217 | 10.1142/s0219455424502171 | Nhận dạng hư hỏng dầm cầu trục dưới tải di động bằng biến đổi wavelet thực nghiệm và autoencoder thưa, kiểm chứng bằng thí nghiệm nứt dầm. | Gần nhất: phát hiện hư hỏng khi có tải cầu trục, nhưng là dầm cầu trục, vết nứt, thí nghiệm |
+    | Van Wittenberghe và cs., 2024 | *Procedia Struct. Integr.* 57: 95–103 | 10.1016/j.prostr.2024.03.012 | SHM cho chính cầu trục (12,5 t) bằng biến dạng kèm dữ liệu vận hành (vị trí xe con, tải móc) để tính mỏi và phát hiện bất thường. | Dùng dữ liệu vận hành làm bối cảnh; đối tượng là cầu trục, không phải nhà |
+    | Li và cs., 2022 | *J. Build. Eng.* 58: 105018 | 10.1016/j.jobe.2022.105018 | Đo hiện trường cho thấy cầu trục xưởng lân cận kích động ở 3,6 Hz trùng tần số riêng của nhà văn phòng, gây cộng hưởng. | Hiện tượng rung do cầu trục, tiện nghi; không phát hiện hư hỏng |
+    | He, 2019 | *Environ. Sci. Pollut. Res.* 26(36): 36515–36537 | 10.1007/s11356-019-06759-7 | Đo hiện trường rung và tiếng ồn do cầu trục dầm trong hai tòa nhà trên đề-pô, mức rung nhạy với vận tốc chạy hơn tải. | Hiện tượng; không phát hiện hư hỏng |
+    | Zolina, 2017 | *Vestnik MGSU* (12): 1352–1360 | 10.22227/1997-0935.2017.12.1352-1360 | Đánh giá ảnh hưởng tải cầu trục đến an toàn nhà công nghiệp bằng thí nghiệm tỉ lệ thật và phương pháp xác suất; dao động khi cầu trục chạy lệch lớn hơn khi xe con giảm tốc. | Nhà công nghiệp có cầu trục; đánh giá kết cấu, không phải SHM dữ liệu |
+    | Valdez và cs., 2024 | *Struct. Health Monit.* 24(5): 2941–2957 | 10.1177/14759217241268522 | Phát hiện lỏng bu lông ở chân đế dạng giàn của tua-bin gió trên mô hình thu nhỏ bằng PCA và khoảng cách Mahalanobis chỉ cần dữ liệu trạng thái lành. | Lỏng bu lông, học từ trạng thái lành; PTN, không có vận hành nhà xưởng |
+    | Kullaa, 2011 | *Mech. Syst. Signal Process.* 25(8): 2976–2989 | 10.1016/j.ymssp.2011.05.017 | Phân biệt ảnh hưởng môi trường – vận hành, lỗi cảm biến và hư hỏng, với giả định dữ liệu huấn luyện đã chứa các điều kiện môi trường – vận hành. | Phương pháp chung; nguồn cho UV-02/K1 |
+
+    Có sẵn trong Zotero, liên quan: Eraliev và cs. 2022 `VVBGM9EN` (*Sensors*, 10.3390/s22031210): theo tóm tắt, phát hiện lỏng bu lông đế động cơ ở ba tốc độ vận hành bằng học máy, cấp máy móc. Chưa đọc toàn văn.
+  - **Kết quả (ở mức tóm tắt):** không thấy nghiên cứu nào xử lý trực tiếp phát hiện suy giảm liên kết trong nhà khung thép có cầu trục bằng dữ liệu hiện trường. Gần nhất: Hu 2023 (hư hỏng dầm cầu trục dưới tải di động, thí nghiệm) và Eraliev 2022 (lỏng bu lông dưới nhiều tốc độ vận hành, máy). **Chưa kiểm toàn văn** Hu 2023 và Eraliev 2022; 3 truy vấn không phải tìm kiếm có hệ thống.
+- **Phát biểu đã thu hẹp (đề xuất):** việc biến đổi môi trường – vận hành che lấp hư hỏng đã được xác lập chung ([45], Worden 2007, Figueiredo 2011, Cawley 2018); rung do cầu trục đã được đo trong nhà máy và tòa nhà vì tiện nghi và rung vi mô (Ju 2020; He 2019, Li 2022, Zolina 2017 theo tóm tắt); phát hiện hư hỏng dưới tải cầu trục đã được thử cho chính dầm cầu trục trong thí nghiệm (Hu 2023, theo tóm tắt). Phần chưa thấy: phát hiện suy giảm **liên kết** của **khung nhà** công nghiệp khi trạng thái cầu trục và máy móc là một phần của đường cơ sở vận hành, bằng dữ liệu hiện trường.
+- **[NCS] Đánh giá tiềm năng thành K4:** thấp. Phần còn lại là khoảng trống **ứng dụng** ("chưa làm cho loại công trình này"), mà sự hiếm không đồng nghĩa với tính mới; căn cứ riêng cho nhà xưởng hiện chỉ là nhận định của NCS. Đề xuất giữ làm (i) luận điểm của 3.2 (L2.2) và (ii) yêu cầu nội dung của K1: bối cảnh quan trắc và điều kiện áp dụng phải ghi trạng thái cầu trục, máy móc; kiểm chứng ở WP3. NCS quyết định.

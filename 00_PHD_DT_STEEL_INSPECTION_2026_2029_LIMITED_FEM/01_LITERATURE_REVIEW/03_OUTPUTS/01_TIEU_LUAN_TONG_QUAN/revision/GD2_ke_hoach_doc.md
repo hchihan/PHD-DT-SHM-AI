@@ -38,11 +38,11 @@ Cột "Truy cập" lấy từ OpenAlex ngày 30/09/2026. Cột "PDF" kiểm trê
 
 | Phiên | TT | Tài liệu | Khóa | Cụm | Phục vụ | PDF | Ghi chú đọc |
 |---|---|---|---|---|---|---|---|
-| T2-1 | 13 | [45] Sohn (2007) | MANJDQEZ | SHM–bu lông–EOV | 3.2 | có | một phần (tóm tắt, mục 4) |
-| T2-1 | 14 | Figueiredo và cs. (2011) | 23TBQTIP | SHM–bu lông–EOV | 3.2 | có | có (chưa đọc phần so sánh kết quả) |
-| T2-1 | 15 | Ju và cs. (2020) | 38FMATHE | SHM–bu lông–EOV | 3.2, 2.1.1 | có (01/10) | chưa |
-| T2-1 | 16 | Cawley (2018) | EBB69J4F | SHM–bu lông–EOV | 3.2, 3.6 | có (01/10) | chưa |
-| T2-1 | 17 | Worden và cs. (2007) | MCNRW6F5 | SHM–bu lông–EOV | 3.1, 3.2 | có (01/10) | chưa |
+| T2-1 | 13 | [45] Sohn (2007) | MANJDQEZ | SHM–bu lông–EOV | 3.2 | có | toàn văn (T2-1, 01/10/2026) |
+| T2-1 | 14 | Figueiredo và cs. (2011) | 23TBQTIP | SHM–bu lông–EOV | 3.2 | có | toàn văn (T2-1, 01/10/2026) |
+| T2-1 | 15 | Ju và cs. (2020) | 38FMATHE | SHM–bu lông–EOV | 3.2, 2.1.1 | có (01/10) | toàn văn (T2-1, 01/10/2026) |
+| T2-1 | 16 | Cawley (2018) | EBB69J4F | SHM–bu lông–EOV | 3.2, 3.6 | có (01/10) | toàn văn (T2-1, 01/10/2026) |
+| T2-1 | 17 | Worden và cs. (2007) | MCNRW6F5 | SHM–bu lông–EOV | 3.1, 3.2 | có (01/10) | toàn văn (T2-1, 01/10/2026) |
 | T2-2 | 18 | [56] Da Silva và cs. (2024) | IW7JBB3E | SHM–bu lông–EOV | 3.6 | có | một phần |
 | T2-2 | 19 | [57] Bull và cs. (2021) | W7AEKRT8 | SHM–bu lông–EOV | 3.6 | có (01/10) | chưa |
 | T2-2 | 20 | [48] Pal và cs. (2022) | SL6IEB2E | SHM–bu lông–EOV | 3.6 | có | chưa |
@@ -115,3 +115,4 @@ cần có trước khi viết các mục 2.1.1, 3.1, 3.2 ở Giai đoạn 4.
 - **PDF (01/10/2026):** [35] Bellon đã có trong kho Zotero (19 tr.); T1-1 có thể hoàn tất. [80] Bull 2025 vẫn thiếu.
 - **Tier 1: 11/12 đã đọc toàn văn**; còn [35].
 - **T1-1 (01/10/2026): xong 3/3** — [35] Bellon đọc toàn văn; ghi chú `notes/NUTL57KJ.md`; bảng ánh xạ `mapping/bellon2025.md`; kiểm [35] như phản chứng cho UV-01 (thu hẹp thêm) và UV-03 (không đổi). **Tier 1: 12/12 đã đọc toàn văn.**
+- **T2-1 (01/10/2026): xong** — Worden 2007, Cawley 2018, Ju 2020 đọc toàn văn; [45] Sohn 2007, Figueiredo 2011 đọc bổ sung thành toàn văn. Ghi chú trong `notes/`; 5 dòng ma trận; cột `doan_dung_duoc` trong `GD1_luan_diem_can_nguon.csv`; nhật ký: nhập căn cứ 5.6A cho UV-02, UV-05; tạo UV-08. **Đã đọc toàn văn: 17/30.**
