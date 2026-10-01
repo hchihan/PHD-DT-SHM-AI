@@ -385,3 +385,6 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 ## Phiên 02/10/2026 – Duyệt trường bổ sung; cập nhật CLAUDE.md mục 8
 - NCS duyệt các trường bổ sung ở Phụ lục A, Bảng A.1. CLAUDE.md mục 8 cập nhật: `EVIDENCE` thêm BIM_GUID (n:m), Sensor_ID, khoảng thời gian đo trong obs_context, created_at; `INSPECTION_RECORD` thêm Inspection_Record_ID, BIM_GUID, inspector_role, inspected_at, finding, finding_uncertainty, quan hệ `EVIDENCE_USE` có used_at; `ACTION` thêm Action_ID, Inspection_Record_ID, ghi Action_Status suy ra từ sự kiện mới nhất; `STATUS_EVENT` thêm Status_Event_ID, Action_ID, evidence_ref trỏ `EVIDENCE_USE`. Không thêm thực thể, ràng buộc hay chỉ số. Mục 12 cập nhật.
 
+## Phiên 02/10/2026 – Bỏ Phụ lục C
+- NCS quyết định bỏ Phụ lục C (ma trận RQ–WP–Paper–Gate) vì Bảng 5.2 đã làm phần này; CLAUDE.md mục 6.2, 6.3, 12 cập nhật. Tiểu luận chuyển sang chờ gửi thầy; công việc chính chuyển sang Bài 1.
+
