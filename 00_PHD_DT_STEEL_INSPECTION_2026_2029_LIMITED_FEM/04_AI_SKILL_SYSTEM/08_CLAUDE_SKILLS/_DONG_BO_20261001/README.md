@@ -31,5 +31,12 @@ Không đổi: tường lửa FEM, bốn lớp bằng chứng, thang mức xác 
 
 Bản cài trên máy nằm trong bộ nhớ đệm do Claude Desktop đồng bộ từ claude.ai; lần đồng bộ sau có thể ghi đè. Để giữ lâu dài,
 tải bốn gói trong `_GOI_TAI_LEN_CLAUDE_AI/` lên claude.ai (cập nhật đúng skill cùng tên). Bản gốc trong
-`08_CLAUDE_SKILLS/deep-read-phd-papers/` và `08_CLAUDE_SKILLS/govern-phd-evidence/` chưa bị thay; NCS quyết định có thay bằng
-bản đồng bộ không.
+`08_CLAUDE_SKILLS/deep-read-phd-papers/` và `08_CLAUDE_SKILLS/govern-phd-evidence/` đã được thay bằng bản đồng bộ ngày 01/10/2026
+(bản cũ lưu ở `_BAN_GOC_REPO_TRUOC_THAY/`).
+
+## Bổ sung 01/10/2026: bộ `phd-dt-research-skills`
+
+`_phd-canon/project-canon-tltq.md` được thêm; `research-chain.md`, `novelty-boundary.md`, `gate-model.md`, `which-skill.md` và
+SKILL.md của `phd-literature-evidence`, `phd-research-state`, `phd-paper-reviewer` có dòng ưu tiên ở đầu: với việc thuộc tiểu luận,
+CLAUDE.md và canon tiểu luận thắng chuỗi tuyến tính, nhãn `Status_Event_ID PROPOSED` và danh sách "strong core candidates" cũ.
+Bản trước khi sửa: `_BAN_GOC_TRUOC_DONG_BO/phd-dt-research-skills/`. Bộ này chưa cài vào bộ nhớ skill trên máy.
