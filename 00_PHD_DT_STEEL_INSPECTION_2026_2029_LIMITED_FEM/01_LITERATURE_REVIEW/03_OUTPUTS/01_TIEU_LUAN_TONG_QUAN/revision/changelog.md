@@ -295,3 +295,11 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - Kế hoạch đọc; CLAUDE.md mục 12. Không sửa tiểu luận.
 - Xác minh DOI qua Crossref (01/10/2026): [80] Bull và cs. `5D5H5XGK` — 10.1177/14759217251316199, SHM 25(4): 2383–2402, trực tuyến 13/03/2025, khớp Zotero; Gardner và cs. 2021 `GXVWFUSA` — 10.1016/j.ymssp.2020.107142, MSSP 149: 107142, **đã có trong Zotero** (sửa nhật ký UV-05, UV-06); Papic & Cerovsek 2019 — 10.35490/ec3.2019.234, Proc. EC3 2019: 387–394, chưa nhập Zotero.
 - Nhập Papic & Cerovsek 2019 vào Zotero `EKAT6IMC` (TL-Key/Bổ sung; tag GD2-phanchung, UV-04); 1 dòng `moi` trong `doi_chieu_danh_muc.csv`.
+
+## Phiên 01/10/2026 (11) – GĐ2 phiên T2-4: [42] Ramonell, [21] Hagedorn, [82] Seiß
+- Đọc toàn văn cả ba (song song bằng agent; thư mục, trích dẫn và số liệu chính kiểm lại trên bản gốc). [82] là bản chính thức (Autom. Constr. 177: 106268).
+- Ghi chú `notes/DWT957YI.md`, `notes/II3UWN2C.md`, `notes/JTF8EM7Y.md` (thêm mục ánh xạ schema và đối chiếu C1–C9); ma trận dòng 28–30.
+- Nhật ký: UV-03 thêm [42] (giải quyết một phần, phạm vi hẹp) và [21] (tiền lệ kỹ thuật SHACL-SPARQL cho ràng buộc thời gian, R2 tr. 17–18), bổ sung phát biểu thu hẹp; UV-01, UV-02, UV-04, UV-07 thêm kết quả kiểm (không giải quyết).
+- Khuyến nghị (chờ NCS): nêu [82] ở 5.5 (nhắc ở 3.5) như ontology để căn chỉnh `INSPECTION_RECORD`/SOSA khi xuất RDF, không làm tiền lệ cho K3/C6; [21] làm tiền lệ kỹ thuật cho C1, C3/C9 ở 5.5 và Phụ lục B. Ghi chú [82] chỉ ra câu ở `05_chuong5.md` gọi đối tượng của [82] là "hồ sơ kiểm tra" — sửa ở GĐ5.
+- Kế hoạch đọc: 29/30; CLAUDE.md mục 12. Không sửa tiểu luận.
+- NCS duyệt cả ba đề xuất (01/10/2026): [82] và [21] ghi vào CLAUDE.md mục 6.1 (tiền lệ bắt buộc nêu); việc sửa câu về [82] ghi vào mục 6.2 (GĐ5).
