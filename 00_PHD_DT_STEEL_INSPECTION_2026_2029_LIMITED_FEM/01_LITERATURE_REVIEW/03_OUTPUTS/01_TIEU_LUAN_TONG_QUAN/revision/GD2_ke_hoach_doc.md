@@ -48,11 +48,11 @@ Cột "Truy cập" lấy từ OpenAlex ngày 30/09/2026. Cột "PDF" kiểm trê
 | T2-2 | 20 | [48] Pal và cs. (2022) | SL6IEB2E | SHM–bu lông–EOV | 3.3, 3.4, 3.6 | có | toàn văn (T2-2, 01/10/2026) |
 | T2-2 | 21 | Hughes và cs. (2022) | Z9RD5DMZ | Giá trị quyết định | 3.6 | có (bản tiền in arXiv v2) | toàn văn, bản tiền in (T2-2, 01/10/2026) |
 | T2-2 | 22 | [80] Bull và cs. (2025) | 5D5H5XGK | Giá trị quyết định | 2.3 | **THIẾU** | chưa |
-| T2-3 | 23 | [14] Beleites và cs. (2013) | L97BIAI3 | Độ tin cậy đánh giá | 3.4 | có | chưa |
-| T2-3 | 24 | [15] Wheat và cs. (2024) | RG9FMT8Y | Độ tin cậy đánh giá | 3.4 | có | chưa |
-| T2-3 | 25 | [28] Kamariotis và cs. (2023) | AESHHWVZ | Giá trị quyết định | 3.2 | có (01/10) | chưa |
-| T2-3 | 26 | [10] Chen và cs. (2021) | ESTEYBHA | Song sinh số | 2.3 | có | chưa |
-| T2-3 | 27 | [29] Johannes và cs. (2021) | YGZ32C8M | Giá trị quyết định | 2.1 | có | chưa |
+| T2-3 | 23 | [14] Beleites và cs. (2013) | L97BIAI3 | Độ tin cậy đánh giá | 3.4 | có | toàn văn (T2-3, 01/10/2026) |
+| T2-3 | 24 | [15] Wheat và cs. (2024) | RG9FMT8Y | Độ tin cậy đánh giá | 3.4 | có | toàn văn (T2-3, 01/10/2026) |
+| T2-3 | 25 | [28] Kamariotis và cs. (2023) | AESHHWVZ | Giá trị quyết định | 3.2 | có (01/10) | toàn văn (T2-3, 01/10/2026) |
+| T2-3 | 26 | [10] Chen và cs. (2021) | ESTEYBHA | Song sinh số | 2.3 | có | toàn văn (T2-3, 01/10/2026) |
+| T2-3 | 27 | [29] Johannes và cs. (2021) | YGZ32C8M | Giá trị quyết định | 2.1 | có | toàn văn (T2-3, 01/10/2026) |
 | T2-4 | 28 | [42] Ramonell và cs. (2023) | DWT957YI | Song sinh số | 2.3 | có (01/10) | chưa |
 | T2-4 | 29 | [21] Hagedorn và cs. (2023) | II3UWN2C | Truy vết thông tin | 3.5 | có | chưa |
 | T2-4 | 30 | [82] Seiß và cs. (2025) | JTF8EM7Y | Truy vết thông tin | 3.5 | có | chưa |
@@ -117,3 +117,4 @@ cần có trước khi viết các mục 2.1.1, 3.1, 3.2 ở Giai đoạn 4.
 - **T1-1 (01/10/2026): xong 3/3** — [35] Bellon đọc toàn văn; ghi chú `notes/NUTL57KJ.md`; bảng ánh xạ `mapping/bellon2025.md`; kiểm [35] như phản chứng cho UV-01 (thu hẹp thêm) và UV-03 (không đổi). **Tier 1: 12/12 đã đọc toàn văn.**
 - **T2-1 (01/10/2026): xong** — Worden 2007, Cawley 2018, Ju 2020 đọc toàn văn; [45] Sohn 2007, Figueiredo 2011 đọc bổ sung thành toàn văn. Ghi chú trong `notes/`; 5 dòng ma trận; cột `doan_dung_duoc` trong `GD1_luan_diem_can_nguon.csv`; nhật ký: nhập căn cứ 5.6A cho UV-02, UV-05; tạo UV-08. **Đã đọc toàn văn: 17/30.**
 - **T2-2 (01/10/2026): xong 4/5** — [56] Da Silva (đọc lại thành toàn văn), [57] Bull 2021, [48] Pal 2022 đọc toàn văn (đọc song song bằng agent; trích dẫn chính được kiểm lại trên bản gốc); Hughes 2022 đọc bổ sung phần 5. Ghi chú `notes/IW7JBB3E.md`, `notes/W7AEKRT8.md`, `notes/SL6IEB2E.md`, `notes/Z9RD5DMZ.md`; 4 dòng ma trận; nhật ký: UV-05 kiểm [57], [56]; UV-06 kiểm [57], [56], [48], sửa trang [56], thêm dữ liệu ngược chiều một phần từ [48]. **[80] Bull 2025 vẫn thiếu PDF.** **Đã đọc toàn văn: 21/30.**
+- **T2-3 (01/10/2026): xong 5/5** — [14] Beleites (bản thảo tác giả arXiv v3), [15] Wheat, [28] Kamariotis (bản tiền in arXiv v2), [10] Chen, [29] Johannes đọc toàn văn (song song bằng agent; trích dẫn chính được kiểm lại trên bản gốc). Ghi chú trong `notes/`; 5 dòng ma trận; nhật ký: phản chứng UV-01 ([29], [28]), UV-02 ([14], [15], [10]), UV-04 ([10] một phần, [29]; phát biểu thu hẹp đề xuất), UV-05 ([28] một phần), UV-06 ([14], [15]), UV-07 ([28]). **Đã đọc toàn văn: 26/30.**

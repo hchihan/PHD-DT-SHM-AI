@@ -286,3 +286,12 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - Nhật ký khoảng trống: UV-05 — [57], [56] đã kiểm phản chứng (một phần), phát biểu thu hẹp giữ nguyên; UV-06 — [57], [56], [48] đã kiểm (không giải quyết), sửa trang và mức căn cứ của [56] (gián tiếp: giữa các mẫu dầm, không giữa các lần lắp), thêm dữ liệu ngược chiều một phần từ [48] (ca siết lại UD-C xếp đúng 60/60).
 - Lưu ý số liệu không thống nhất trong bản gốc: [56] tỷ lệ dương tính giả 1,25 % / 0,3 %; [48] độ chính xác 95,80 % / 95,4 % — không dẫn các con số này.
 - CLAUDE.md mục 12. Không sửa tiểu luận.
+
+## Phiên 01/10/2026 (10) – GĐ2 phiên T2-3: [14] Beleites, [15] Wheat, [28] Kamariotis, [10] Chen, [29] Johannes
+- Đọc toàn văn cả năm tài liệu (song song bằng agent; thông tin thư mục, trích dẫn và số liệu chính được kiểm lại trên bản gốc). [14] là bản thảo tác giả (arXiv 1211.1323v3), [28] là bản tiền in (arXiv 2202.01859v2): trang dẫn theo bản đó.
+- Ghi chú `notes/L97BIAI3.md`, `notes/RG9FMT8Y.md`, `notes/AESHHWVZ.md`, `notes/ESTEYBHA.md`, `notes/YGZ32C8M.md`; ma trận dòng 23–27; [29] đổi cụm đề xuất sang Truy vết thông tin (CẦN NCS KIỂM).
+- Nhật ký khoảng trống: UV-04 có phản chứng một phần ([10]) và phát biểu thu hẹp đề xuất; UV-05 thêm [28] (một phần; có thể là căn cứ độc lập mới, CẦN NCS KIỂM); UV-01, UV-02, UV-06, UV-07 thêm kết quả kiểm (không giải quyết). Ứng viên phản chứng mới cho UV-04: Papic & Cerovsek 2019 (chưa có trong Zotero).
+- Ghi nhận chỗ không thống nhất trong nguồn: [14] (cỡ tập mô phỏng, 141/140 ca), [15] (32/33 bài; "ba cách chia"), [10] ("năm giai đoạn" / Bảng 5 sáu giai đoạn) — không dẫn các số này. `notes/RG9FMT8Y.md` mục đoạn dùng được lưu ý một câu ở `03_chuong3.md` về so sánh kiến trúc là diễn giải — xử lý ở GĐ5.
+- Kế hoạch đọc; CLAUDE.md mục 12. Không sửa tiểu luận.
+- Xác minh DOI qua Crossref (01/10/2026): [80] Bull và cs. `5D5H5XGK` — 10.1177/14759217251316199, SHM 25(4): 2383–2402, trực tuyến 13/03/2025, khớp Zotero; Gardner và cs. 2021 `GXVWFUSA` — 10.1016/j.ymssp.2020.107142, MSSP 149: 107142, **đã có trong Zotero** (sửa nhật ký UV-05, UV-06); Papic & Cerovsek 2019 — 10.35490/ec3.2019.234, Proc. EC3 2019: 387–394, chưa nhập Zotero.
+- Nhập Papic & Cerovsek 2019 vào Zotero `EKAT6IMC` (TL-Key/Bổ sung; tag GD2-phanchung, UV-04); 1 dòng `moi` trong `doi_chieu_danh_muc.csv`.
