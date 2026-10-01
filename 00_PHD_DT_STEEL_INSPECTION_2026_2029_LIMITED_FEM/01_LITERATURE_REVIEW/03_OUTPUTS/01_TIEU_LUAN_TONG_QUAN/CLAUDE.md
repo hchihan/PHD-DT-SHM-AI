@@ -471,7 +471,7 @@ sáu tháng sau có sự cố, truy ngược được toàn bộ.
 | Rút gọn phạm vi, khóa 3 mục tiêu | ✅ NCS duyệt (01/10) | Mục 2 (QĐ 5, 7, 9–11), 2A, 6.0, 8, 9, 11, 13 |
 | GĐ3 Khoảng trống | ✅ NCS duyệt bản GĐ3b (01/10): G-A (A1, A2), G-B; F-1 (B1), F-2 (phỏng vấn) duyệt; còn gửi thầy | `revision/GD3_khoang_trong_va_muc_tieu.md`: bảng kiểm, hai khoảng trống (G-A 7 nhóm căn cứ trước 2025, G-B 6), ba mục tiêu MT1–MT3, ma trận, văn bản đề xuất thay 5.2 và RQ (785 từ, chưa chèn `tieuluan/`); `[CẦN NGUỒN]`: IFC4 ADD2 TC1, Khuyến nghị W3C SSN |
 | GĐ4 Viết mục mới (4.2–4.9) | 🟡 5.2 đã chèn (01/10), chờ NCS duyệt | `tieuluan/05_chuong5.md` mục 5.2 thay ba khoảng trống cũ bằng G-A, G-B; 5.3.3 (bốn mục tiêu cũ), 5.4, 5.5, 5.7, 5.9 còn theo cấu trúc cũ, đồng bộ ở GĐ5 |
-| GĐ5 Tái cấu trúc | 🟡 Chương 5 đã đồng bộ toàn bộ theo MT1–MT3, B0/B1, schema rút gọn (5.2–5.7, 5.9, 5.10; 5.8.1 thêm hướng mở rộng) (01/10), chờ NCS duyệt | Còn: Chương 1 mục câu hỏi nghiên cứu (dòng 298–310, trùng 5.4); chuyển đoạn "bốn nhóm bằng chứng" 5.6A.3 sang 3.6; Phụ lục A, B; câu autoencoder chờ PDF Ghazimoghadam |
+| GĐ5 Tái cấu trúc | 🟡 Chương 5 đã đồng bộ toàn bộ theo MT1–MT3, B0/B1, schema rút gọn (5.2–5.7, 5.9, 5.10; 5.8.1 thêm hướng mở rộng) (01/10), chờ NCS duyệt | Chương 1 đồng bộ (01/10): 1.1.3, 1.3.4, 1.8.2 khai báo bóng số; 1.7 rút thành phần giới thiệu trỏ về 5.3–5.5; 1.8.1 đồ thị sáu thực thể; 1.9 hai khoảng trống. Còn: chuyển đoạn "bốn nhóm bằng chứng" 5.6A.3 sang 3.6; Phụ lục A, B; câu autoencoder chờ PDF Ghazimoghadam |
 | GĐ6 Nhất quán & xuất bản | ⬜ | |
 
 ---

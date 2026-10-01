@@ -366,3 +366,7 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - 5.8.1: dòng "Hướng phát triển sau luận án" thêm đánh giá hiệu năng phát hiện hư hỏng ở hiện trường, học chủ động, đồng liên kết.
 - 5.10 (393 → 319 từ): hai khoảng trống, ba mục tiêu – hai bài báo, khai báo bóng số.
 - Không thêm trích dẫn mới; dùng lại [8], [9], [10], \[@23TBQTIP\], \[@KPWFC4PI\], \[@Z9RD5DMZ\], \[@87NKU5IS\].
+
+## Phiên 01/10/2026 – GĐ5: đồng bộ Chương 1
+- `tieuluan/01_chuong1.md` (9.808 → 9.461 từ): 1.1.3 khai báo mức bóng số theo [8] thay câu "không gán trước mức"; 1.3.4 câu cuối khai báo bóng số, năng lực đánh giá sau triển khai; 1.7 đổi tên "Mục tiêu và câu hỏi nghiên cứu của luận án", rút từ 572 còn 217 từ, tóm tắt ba câu hỏi một câu mỗi câu và trỏ về 5.3–5.5 (bỏ phát biểu trùng 5.4 và mục 1.7.2–1.7.3); 1.8.1 thay ghi chú "siêu dữ liệu phụ trợ" bằng đồ thị sáu thực thể; 1.8.2 viết lại theo khai báo bóng số; 1.9 mô tả Chương 5 theo hai khoảng trống, ba mục tiêu.
+- Không thêm trích dẫn mới (dùng lại [8], [9], [10]). Rà Chương 2–4: không còn tham chiếu "ba khoảng trống", "siêu dữ liệu phụ trợ", Bài báo 3, học chủ động.

@@ -22,7 +22,7 @@ Khoảng cách giữa **có dữ liệu** và **có bằng chứng dùng đượ
 
 Khái niệm Song sinh số được dùng với nhiều mức năng lực khác nhau trong các nghiên cứu. Kritzinger và cộng sự (2018) phân biệt mô hình số, bóng số và song sinh số theo chiều và mức tự động của luồng dữ liệu giữa đối tượng vật lý với biểu diễn số \[8\]; Sepasgozar (2021) đưa sự phân biệt này vào môi trường xây dựng \[9\]; Chen và cộng sự (2021) tiếp cận Song sinh số trong quản lý tài sản bằng mô hình trưởng thành nhiều chiều \[10\]. Cả ba cách phân loại cùng cho thấy mức năng lực của một hệ thống phải được đánh giá trên các chức năng thực có, không suy ra từ tên gọi.
 
-Tiểu luận không coi “Song sinh số” là nhãn tự xác nhận chỉ vì BIM đã được nối với cảm biến, và cũng không gán trước cho hệ thống một mức thấp hay cao khi các chức năng chưa được triển khai và đánh giá. Trong luận án, **khung Song sinh số dựa trên dữ liệu** là mục tiêu kiến trúc: dữ liệu từ tài sản vật lý được tổ chức thành bằng chứng trạng thái có nguồn gốc và phạm vi hiệu lực; bằng chứng được liên kết với cấu kiện trong BIM và hồ sơ kiểm tra; trạng thái hành động kiểm tra – bảo trì được ghi trở lại hệ thống thông tin và trở thành bối cảnh cho các lần đánh giá sau. Mô hình phần tử hữu hạn không phải điều kiện để định nghĩa khung; nếu được sử dụng, đó chỉ là **mô hình danh nghĩa, chưa hiệu chuẩn, dùng để tham chiếu và không dùng cho chẩn đoán hư hỏng**. Dự báo tuổi thọ còn lại, bảo trì dự báo, suy luận suy giảm độ cứng và tự động tác động lên tài sản không thuộc mục tiêu hiện tại.
+Việc nối BIM với cảm biến tự nó chưa đủ để gọi một hệ thống là song sinh số. Luận án dùng phân loại của \[8\] để khai báo mức tích hợp: dữ liệu đi tự động từ công trình vào mô hình số, còn mọi tác động trở lại công trình đi qua quyết định của con người, nên hệ thống ở mức bóng số (digital shadow); tên đề tài giữ cụm "song sinh số dựa trên dữ liệu" theo hướng kiến trúc, kèm khai báo này (mục 5.6.6). Trong kiến trúc đó, dữ liệu từ tài sản vật lý được tổ chức thành bằng chứng trạng thái có nguồn gốc và phạm vi hiệu lực; bằng chứng được liên kết với cấu kiện trong BIM và hồ sơ kiểm tra; trạng thái hành động kiểm tra – bảo trì được ghi trở lại hệ thống thông tin và trở thành bối cảnh cho các lần đánh giá sau. Mô hình phần tử hữu hạn không phải điều kiện để định nghĩa khung; nếu được sử dụng, đó chỉ là **mô hình danh nghĩa, chưa hiệu chuẩn, dùng để tham chiếu và không dùng cho chẩn đoán hư hỏng**. Dự báo tuổi thọ còn lại, bảo trì dự báo, suy luận suy giảm độ cứng và tự động tác động lên tài sản không thuộc mục tiêu hiện tại.
 
 ### 1.1.4. Bối cảnh quản lý bảo trì và mô hình thông tin công trình tại Việt Nam
 
@@ -131,7 +131,7 @@ Phần có thể chuyển từ phòng thí nghiệm sang bối cảnh thực t�
 
 Song sinh số chỉ có ý nghĩa với luận án khi nó giúp duy trì liên hệ giữa tài sản vật lý, thông tin số và lịch sử quản lý. Các khung phân loại và mô hình trưởng thành yêu cầu năng lực của một hệ thống số được xác định rõ, không suy ra từ tên gọi \[8\]–\[10\]. Yêu cầu về dữ liệu động và ngữ nghĩa \[7\], khả năng nối dữ liệu thời gian với IFC \[5\] và vai trò của con người khi rà soát kết quả số mà Wu và cộng sự cũng đã được đặt ra \[17\].
 
-Luận án kế thừa các tiền lệ này và tập trung vào một câu hỏi quản lý: **một bằng chứng trạng thái có thể được duy trì xuyên suốt tới hồ sơ kiểm tra và trạng thái hành động theo cách có thể truy lại và giải trình hay không**. Mức năng lực Song sinh số đạt được sẽ được đánh giá sau khi kiến trúc được triển khai trong nghiên cứu trường hợp (mục 5.6.6).
+Luận án kế thừa các tiền lệ này và tập trung vào một câu hỏi quản lý: **một bằng chứng trạng thái có thể được duy trì xuyên suốt tới hồ sơ kiểm tra và trạng thái hành động theo cách có thể truy lại và giải trình hay không**. Hệ thống được thiết kế ở mức bóng số theo \[8\]; năng lực đạt được được đánh giá sau khi triển khai trên nhà xưởng (mục 5.6.6).
 
 ## 1.4. Mục tiêu của Tiểu luận tổng quan
 
@@ -289,39 +289,11 @@ Các phát biểu về khoảng trống nghiên cứu được giới hạn tron
 
 Nhật ký tìm kiếm có ngày thực hiện, chuỗi truy vấn nguyên văn và số bản ghi ở từng bước sàng lọc chưa được lưu đầy đủ; vì vậy tiểu luận không báo cáo sơ đồ dòng chảy tài liệu theo mẫu PRISMA. Danh mục tài liệu tham khảo phản ánh các nguồn được trích dẫn trong tiểu luận, không phải số nghiên cứu đã đi qua từng bước sàng lọc.
 
-## 1.7. Câu hỏi nghiên cứu và logic nghiên cứu
+## 1.7. Mục tiêu và câu hỏi nghiên cứu của luận án
 
-### 1.7.1. Câu hỏi nghiên cứu
+Từ hai khoảng trống tổng hợp ở mục 5.2, luận án có ba mục tiêu, mỗi mục tiêu ứng với một câu hỏi nghiên cứu; phát biểu đầy đủ ở mục 5.3–5.4 và ma trận mục tiêu – câu hỏi – gói công việc – bài báo ở mục 5.5. Câu hỏi 1 đo mức chênh lệch giữa đánh giá giữ lại cả lần chạy và đánh giá cùng lần chạy cho phân loại trạng thái liên kết bu lông trên khung thép 1:10, và khai báo phạm vi hiệu lực của từng kết quả. Câu hỏi 2 đánh giá một mô hình thông tin mở rộng IFC 4.3 và BCF 3.0 bằng tầng bằng chứng và tầng trách nhiệm, so với hồ sơ kiểm định hiện hành và với mô hình chỉ dùng chuẩn sẵn có. Câu hỏi 3 kiểm khả năng vận hành của chuỗi bằng chứng – hành động trên một nhà xưởng khung thép thật có BIM.
 
-Trên cơ sở vấn đề quản lý trung tâm và kết quả tổng hợp tài liệu, luận án sử dụng ba câu hỏi nghiên cứu.
-
-**Câu hỏi nghiên cứu 1.**
-
-Dữ liệu dao động từ mô hình khung thép 1:10 với các cấu hình cảm biến khác nhau tạo ra bằng chứng phân biệt các trạng thái liên kết có kiểm soát ở mức độ tin cậy nào? Phát biểu đầy đủ, gồm điều kiện về giao thức đánh giá và kiểm soát rò rỉ dữ liệu, được trình bày ở mục 5.4.1.
-
-Trọng tâm là đơn vị độc lập, kiểm soát rò rỉ và phạm vi hiệu lực của kết quả.
-
-**Câu hỏi nghiên cứu 2.**
-
-Bằng chứng trạng thái từ dữ liệu cảm biến được tổ chức và liên kết với cấu kiện BIM cùng hồ sơ kiểm tra như thế nào để bảo đảm truy vết cấp cấu kiện? Phát biểu đầy đủ ở mục 5.4.2.
-
-Trọng tâm là mô hình dữ liệu, chuỗi định danh, nguồn gốc bằng chứng và cách kiểm tra chuỗi bằng câu hỏi nghiệp vụ xác định trước.
-
-**Câu hỏi nghiên cứu 3.**
-
-Khung Song sinh số dựa trên dữ liệu hỗ trợ việc lựa chọn và ghi nhận hành động kiểm tra tại công trình thực như thế nào khi dữ liệu hư hỏng có nhãn còn hạn chế? Phát biểu đầy đủ ở mục 5.4.3.
-
-Trọng tâm là khả năng áp dụng của khung và việc duy trì liên hệ giữa dữ liệu vận hành, định danh cấu kiện, bằng chứng, hồ sơ kiểm tra và trạng thái hành động. Câu hỏi không đặt vấn đề chuyển bộ phân loại phòng thí nghiệm sang công trình thực.
-
-### 1.7.2. Logic kế tiếp giữa ba câu hỏi
-
-Ba câu hỏi tạo thành một chuỗi kế tiếp: từ độ tin cậy của bằng chứng kỹ thuật, sang cách bằng chứng được tổ chức và truy vết, rồi tới cách khung thông tin vận hành và hỗ trợ kiểm tra tại công trình thực. Sơ đồ logic đầy đủ được trình bày ở **Chương 5, mục 5.4.4**.
-
-Mỗi câu hỏi cần một loại bằng chứng riêng, và kết quả câu trước không thay thế câu sau: kết quả tốt của Câu hỏi 1 không chứng minh Câu hỏi 2; một mô hình dữ liệu đúng ở Câu hỏi 2 không chứng minh khả thi hiện trường; khả thi hiện trường không chứng minh một hành động là tối ưu. Cảm biến, xử lý tín hiệu, học máy và BIM được dùng để tạo và tổ chức thông tin phục vụ quản lý, không trở thành mục tiêu nghiên cứu tách rời.
-
-### 1.7.3. Quan hệ với các gói công việc và thiết kế kiểm chứng
-
-Chương 1 chỉ giới thiệu quan hệ giữa câu hỏi nghiên cứu, gói công việc và thiết kế kiểm chứng ở mức tổng quát. Câu hỏi 1 thuộc gói công việc về bằng chứng phòng thí nghiệm, Câu hỏi 2 thuộc gói công việc về truy vết thông tin, Câu hỏi 3 thuộc gói công việc về khả năng áp dụng trong bối cảnh thực tế; lớp hỗ trợ hành động tổng hợp các yêu cầu của truy vết và quản lý. Ma trận đầy đủ được trình bày ở **Chương 5**, mục 5.5.
+Mỗi câu hỏi cần một loại bằng chứng riêng, và kết quả của câu trước không dùng thay cho câu sau. Cảm biến, xử lý tín hiệu, học máy và BIM là công cụ tạo và tổ chức thông tin phục vụ quản lý.
 
 ## 1.8. Kiến trúc nghiên cứu tổng thể
 
@@ -331,21 +303,19 @@ Kiến trúc nghiên cứu gồm bốn lớp, tương ứng với bốn loại b
 
 Chuỗi định danh lõi là *Sensor_ID → BIM_GUID → Condition_Evidence_ID → Inspection_Record_ID → Action_Status*. *FEM_Node_ID*, nếu được dùng, chỉ là siêu dữ liệu tùy chọn của mô hình tham chiếu danh nghĩa và không nằm trong chuỗi bắt buộc.
 
-*Action_Status trong chuỗi là trạng thái của bản ghi hành động. Định danh bản ghi hành động và định danh sự kiện chuyển trạng thái được trình bày như siêu dữ liệu phụ trợ ở mục 5.6.2.*
+*Chuỗi này là cách trình bày cho người đọc. Mô hình dữ liệu của luận án là một đồ thị sáu thực thể, trong đó sự kiện chuyển trạng thái là thực thể bắt buộc và trạng thái xử lý hiện thời được suy ra từ chuỗi sự kiện (mục 5.6.2).*
 
 Nội dung đầy đủ của bốn lớp, nghĩa vụ kiểm chứng của từng mắt xích, thang kiểm chứng và quan hệ giữa luồng dữ liệu với luồng trách nhiệm được trình bày ở Chương 5, mục 5.6.
 
-### 1.8.2. Định vị Song sinh số trong kiến trúc
+### 1.8.2. Định vị bóng số trong kiến trúc
 
-Khung nghiên cứu hướng tới duy trì mối liên hệ có cập nhật giữa tài sản vật lý, biểu diễn số, bằng chứng trạng thái, hồ sơ kiểm tra và trạng thái hành động. Các cách phân loại của Kritzinger và cộng sự (2018), Sepasgozar (2021) và Chen và cộng sự (2021) được dùng làm **khung tham chiếu để đánh giá năng lực**, không để gán trước mức trưởng thành \[8\]–\[10\].
-
-Chương 1 vì vậy không kết luận hệ thống là bóng số hay song sinh số “đầy đủ”, cũng không bổ sung chức năng ngoài phạm vi chỉ để đạt nhãn trưởng thành cao hơn. Nếu nghiên cứu trường hợp chỉ đáp ứng một phần các tiêu chí tham chiếu, kết quả đó được báo cáo như giới hạn của hệ thống thực tế. Hai nguyên tắc định vị được trình bày ở mục 5.6.6.
+Khung nghiên cứu duy trì mối liên hệ có cập nhật giữa tài sản vật lý, biểu diễn số, bằng chứng trạng thái, hồ sơ kiểm tra và trạng thái hành động. Theo phân loại của Kritzinger và cộng sự (2018), hệ thống ở mức bóng số \[8\]; các khung của Sepasgozar (2021) và Chen và cộng sự (2021) được dùng để đánh giá năng lực đạt được sau triển khai \[9\], \[10\]. Chức năng nằm ngoài phạm vi luận án không được bổ sung chỉ để đạt mức phân loại cao hơn (mục 5.6.6).
 
 ## 1.9. Cấu trúc của Tiểu luận tổng quan
 
 Tiểu luận gồm năm chương, đi từ nền quản lý tới bằng chứng kỹ thuật, truy vết thông tin và định hướng nghiên cứu.
 
-**Chương 1 – Giới thiệu và phương pháp tổng quan** trình bày bối cảnh, vấn đề quản lý trung tâm, sự cần thiết, mục tiêu, phạm vi, phương pháp tổng quan, câu hỏi nghiên cứu và kiến trúc tổng thể ở mức giới thiệu.
+**Chương 1 – Giới thiệu và phương pháp tổng quan** trình bày bối cảnh, vấn đề quản lý trung tâm, sự cần thiết, mục tiêu, phạm vi, phương pháp tổng quan, mục tiêu và câu hỏi nghiên cứu của luận án và kiến trúc tổng thể ở mức giới thiệu.
 
 **Chương 2 – Tổng quan về quản lý tài sản và Song sinh số trong giai đoạn vận hành** xây dựng nền lý luận về quản lý tài sản, thông tin vận hành, BIM/IFC, định danh cấu kiện, Song sinh số, khả năng liên thông, nguồn gốc dữ liệu và con người trong vòng lặp; chương giải thích vì sao BIM/IFC mới là điều kiện nền, chưa tự tạo ra khả năng truy vết.
 
@@ -353,6 +323,6 @@ Tiểu luận gồm năm chương, đi từ nền quản lý tới bằng chứn
 
 **Chương 4 – Tổng quan về truy vết bằng chứng và hỗ trợ kiểm tra – bảo trì** tổng quan các nghiên cứu về tích hợp cảm biến – BIM, hồ sơ kiểm tra và sửa chữa, định danh, nguồn gốc dữ liệu, kiểm chứng quan hệ, khả năng áp dụng trong bối cảnh thực tế, con người trong vòng lặp và trạng thái hành động**.**
 
-**Chương 5 – Tổng hợp khoảng trống và định hướng nghiên cứu** tổng hợp những nội dung đã được giải quyết, phản biện và phát biểu chính thức ba khoảng trống còn lại, rồi trình bày luận đề trung tâm, mục tiêu, câu hỏi nghiên cứu, ma trận gói công việc – bài báo – thiết kế kiểm chứng, kiến trúc Song sinh số dựa trên dữ liệu, đóng góp dự kiến, phạm vi và định hướng nghiên cứu tiếp theo.
+**Chương 5 – Tổng hợp khoảng trống và định hướng nghiên cứu** tổng hợp những nội dung đã được giải quyết, phát biểu hai khoảng trống còn lại, rồi trình bày luận đề trung tâm, ba mục tiêu và ba câu hỏi nghiên cứu, ma trận mục tiêu – gói công việc – bài báo – thiết kế kiểm chứng, kiến trúc bóng số dựa trên dữ liệu, công cụ trí tuệ nhân tạo, đóng góp dự kiến, phạm vi và định hướng nghiên cứu tiếp theo.
 
 Chương 2 bắt đầu từ lớp ngoài cùng của chuỗi: bối cảnh quản lý tài sản đặt ra yêu cầu gì đối với thông tin vận hành, và BIM/IFC cùng Song sinh số đáp ứng được tới đâu.
