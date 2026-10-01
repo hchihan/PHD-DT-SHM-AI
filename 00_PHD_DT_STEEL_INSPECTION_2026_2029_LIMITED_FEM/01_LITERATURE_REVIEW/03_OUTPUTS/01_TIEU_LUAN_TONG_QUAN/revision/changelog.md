@@ -309,3 +309,10 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - Papic 2019: đọc toàn văn, `notes/EKAT6IMC.md`; UV-04 giải quyết một phần (dbEMM có trục mức đồng bộ dữ liệu, tr. 392; đo năng lực tổ chức, chưa kiểm chứng, tr. 393); cập nhật phát biểu thu hẹp UV-04 (còn [9]).
 - Gardner 2021: đọc toàn văn (agent; số liệu chính kiểm lại trên bản gốc), `notes/GXVWFUSA.md`; UV-05 một phần phát biểu gốc, phát biểu thu hẹp giữ nguyên, mọi phản chứng đã liệt kê đã kiểm; UV-06 không giải quyết.
 - Hai PDF chưa liên kết vào Zotero (NCS làm trong Zotero desktop, linked file).
+
+## Phiên 01/10/2026 (13) – gom việc chờ NCS; bản trình ĐD2; kiểm phản chứng [9], Eraliev 2022
+- Theo yêu cầu NCS (tiếp tục làm, việc cần kiểm lưu lại): tạo `revision/viec_cho_NCS.md` (N-01 – N-40, theo nhóm A–E, cột "Chặn" và "Nơi cập nhật").
+- Tạo `revision/DD2_ban_trinh.md`: sản phẩm GĐ2, phân bố ma trận, thứ tự kiểm cột Giới hạn, bảng tình trạng UV-01 – UV-08, đề xuất phát biểu thu hẹp UV-06, năm quyết định NCS cần đưa ra. Trình có điều kiện (29/30; [80] chờ PDF).
+- Kiểm phản chứng bằng PDF có sẵn trong Zotero (agent; trích dẫn chính kiểm lại trên bản gốc): [9] Sepasgozar 2021 `XVLWEXVZ` — UV-04 không giải quyết, UV-04 nay đã kiểm hết, phát biểu thu hẹp cuối cùng; Eraliev 2022 `VVBGM9EN` — UV-08, UV-06 không giải quyết. Ghi chú `notes/XVLWEXVZ.md`, `notes/VVBGM9EN.md`.
+- Nhật ký: phát biểu thu hẹp đề xuất cho UV-06; ghi chú trỏ bảng tóm tắt về `DD2_ban_trinh.md` mục 3; sửa ghi chú UV-06 trong bảng tóm tắt.
+- Không sửa tiểu luận.
