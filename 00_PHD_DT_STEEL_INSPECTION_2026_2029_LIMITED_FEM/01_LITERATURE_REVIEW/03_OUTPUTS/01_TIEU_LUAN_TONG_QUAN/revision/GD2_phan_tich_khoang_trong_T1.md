@@ -66,6 +66,8 @@ ba khoảng trống quanh một trục chung thay vì ba trục rời.
 | X-03 | Câu chữ "Gap 2" của skill (chuỗi định danh từ bằng chứng tới cấu kiện và hồ sơ) khác K2 trong bản tiểu luận ("bảo toàn chất lượng bằng chứng trong truy vết cấp cấu kiện") | Bản tiểu luận mục 5.2 | Dùng câu chữ của tiểu luận; khoảng trống chốt ở ĐD3 |
 | X-04 | Skill yêu cầu đọc trạng thái Gate từ `CURRENT_STATUS_AND_NEXT_DIRECTION.md`; tệp không được đọc trong phiên | — | Ghi "Evidence is currently insufficient." ở mọi ô trạng thái Gate |
 
+Cập nhật 01/10/2026: X-01 đến X-03 đã xử lý bằng việc đồng bộ bốn skill PhD với CLAUDE.md (xem `04_AI_SKILL_SYSTEM/08_CLAUDE_SKILLS/_DONG_BO_20261001/README.md`); X-04 vẫn còn (trạng thái Gate cần nguồn hiện hành).
+
 ## 6. Việc tiếp theo đề xuất
 
 1. Hoàn tất T1-1: đọc [35] Bellon (PDF đã có) và lập `mapping/bellon2025.md`; kiểm [35] như phản chứng cho UV-01, UV-03.

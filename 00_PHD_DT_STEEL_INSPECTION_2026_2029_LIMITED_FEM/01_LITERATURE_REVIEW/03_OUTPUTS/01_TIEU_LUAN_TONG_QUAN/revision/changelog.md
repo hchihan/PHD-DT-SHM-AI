@@ -241,3 +241,7 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - Nhật ký: UV-02 thêm căn cứ [53], [16] và phản chứng đã kiểm ([16], [53]); UV-05 thêm [17]; UV-06 thêm [53]; tạo UV-07 (xác nhận của chuyên gia đối với đầu ra AI là tín hiệu học, chưa là bản ghi trách nhiệm).
 - Tạo `revision/GD2_phan_tich_khoang_trong_T1.md`: tổng hợp liên tài liệu 11 tài liệu Tier 1 đã đọc và bốn chuẩn đã kiểm; mức bảo vệ làm việc của K1–K3; rà cơ hội mở rộng; ghi xung đột giữa skill và CLAUDE.md.
 - [35] Bellon đã có PDF trong Zotero; [80] còn thiếu. Ma trận 3 dòng; kế hoạch; CLAUDE.md mục 12. Không sửa tiểu luận.
+
+## Phiên 01/10/2026 (3) – đồng bộ bốn skill PhD với CLAUDE.md
+- Theo yêu cầu NCS, đồng bộ deep-read-phd-papers, phd-gap-miner, govern-phd-evidence, phd-literature-scout với CLAUDE.md hiện hành: schema đồ thị có STATUS_EVENT và AGENT; K1–K3 là giả thuyết làm việc theo câu chữ tiểu luận mục 5.2; nơi ghi kết quả trong `revision/` và `notes/`; quy tắc phản chứng, ngưỡng ba căn cứ ngoài nhóm 2025–2026, tiền lệ bắt buộc; CLAUDE.md đứng đầu thứ tự nguồn với việc thuộc tiểu luận.
+- Bản đồng bộ, bản gốc và gói tải lên claude.ai ở `04_AI_SKILL_SYSTEM/08_CLAUDE_SKILLS/_DONG_BO_20261001/`; đã cài vào bộ nhớ skill trên máy. Không sửa nội dung tiểu luận.
