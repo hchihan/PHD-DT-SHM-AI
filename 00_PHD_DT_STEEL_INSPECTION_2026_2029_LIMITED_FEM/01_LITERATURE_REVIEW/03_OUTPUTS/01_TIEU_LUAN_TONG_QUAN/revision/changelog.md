@@ -441,3 +441,7 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - NCS duyệt `revision/danh_sach_cau_gioi_han_v2.csv`.
 - Áp 35 chỉnh sửa vào `00_thuatngu.md`, `01_chuong1.md`, `02_chuong2.md`, `03_chuong3.md`, `04_chuong4.md`, `05_chuong5.md` theo cột `cau_de_xuat`, với ba điều chỉnh khi áp: dòng 4 (1.1.3) giữ cụm định danh FEM "danh nghĩa, chưa hiệu chuẩn, dùng để tham chiếu, không dùng cho chẩn đoán hư hỏng" và trỏ Mục 5.8.3; dòng 26 (3.3.2) kế thừa "từ các nghiên cứu này" thay vì thêm [53], [14] (đoạn đó dẫn [55]); bốn ô bảng 5.1 ghi "Kế thừa tiền lệ (thuật toán)" cho khớp tiêu đề cột "Phần còn lại trong phạm vi luận án", câu dưới bảng sửa thành "ở các dòng không kế thừa nguyên tiền lệ".
 - Quét lại: còn 17 câu theo năm cụm từ của CLAUDE.md 4.5, đúng bằng nhóm "giữ" trong v2 (6 câu A phân định, 3 câu thuật lại nguồn, 5 câu ở mục 5.8, 3 câu quét nhầm). Không thêm trích dẫn mới.
+
+## Phiên 02/10/2026 – Rà 6 tài liệu về cầu
+- NCS duyệt bản sửa câu giới hạn (c00db99).
+- Lập `revision/GD5_ra_soat_tai_lieu_cau.md`: đối chiếu [63]–[66], [77], [78] với câu trích (tóm tắt OpenAlex, PDF Zotero theo từ khóa). Đề xuất giữ [64], [66], [78]; loại [63], [65], [77] (trùng vai trò hoặc chỉ khớp một phần). Chưa sửa `tieuluan/`.
