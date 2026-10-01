@@ -198,30 +198,24 @@ Chạy cùng danh sách lỗi, cùng bộ câu hỏi và cùng tập bằng ch�
 
 Lắp cảm biến với bản ghi lắp đặt và khoảng hiệu lực của ánh xạ; lập đường cơ sở vận hành trong 3–6 tháng; chạy kịch bản một bất thường dẫn tới bằng chứng gắn cột, kiểm tra của kỹ sư, phê duyệt, hành động, xác minh sau sửa chữa và truy ngược; đối chiếu ánh xạ với thực địa.
 
-## 5.6. Khung nghiên cứu bốn lớp và kiến trúc Song sinh số dựa trên dữ liệu
+## 5.6. Khung nghiên cứu bốn lớp và kiến trúc bóng số dựa trên dữ liệu
 
 ### 5.6.1. Chuỗi nghiên cứu
 
-Chuỗi nghiên cứu được giữ cố định theo Hình 1.1, và mỗi mũi tên trong chuỗi mang một nghĩa vụ kiểm chứng riêng. Mũi tên thứ nhất yêu cầu bằng chứng không được sinh ra từ một quá trình rò rỉ dữ liệu hoặc từ cách đếm sai đơn vị độc lập. Mũi tên thứ hai yêu cầu bằng chứng được gắn đúng cấu kiện và giữ được nguồn gốc. Mũi tên thứ ba yêu cầu hồ sơ kiểm tra là một bản ghi truy vết được, chứ không chỉ là ghi chú gắn vào mô hình. Mũi tên cuối yêu cầu trạng thái hành động có căn cứ và lịch sử xử lý có thể truy lại.
+Chuỗi nghiên cứu được giữ cố định theo Hình 1.1, và mỗi mũi tên trong chuỗi mang một nghĩa vụ kiểm chứng riêng. Mũi tên thứ nhất yêu cầu bằng chứng được tạo theo đơn vị độc lập, tách khỏi rò rỉ dữ liệu. Mũi tên thứ hai yêu cầu bằng chứng được gắn đúng cấu kiện và giữ được nguồn gốc. Mũi tên thứ ba yêu cầu hồ sơ kiểm tra là một bản ghi truy vết được. Mũi tên cuối yêu cầu mỗi lần đổi trạng thái hành động có căn cứ, vai trò người thực hiện và lịch sử truy lại được.
 
-### 5.6.2. Chuỗi định danh
-
-Ghi chú: FEM_Node_ID chỉ là metadata tùy chọn, không nằm trong chuỗi định danh bắt buộc.
+### 5.6.2. Chuỗi định danh và mô hình dữ liệu dạng đồ thị
 
 ![](../figures/Hinh_5_1_Chuoi_dinh_danh_cot_loi.png)
 <!-- GĐ0: hình gốc vẽ bằng shape trong .docx; ảnh cắt từ PDF do Word xuất ngày 28/09/2026 -->
 
 <span id="TLTQ_Hinh_5_1" class="anchor"></span>Hình 5.1. Chuỗi định danh cốt lõi
 
-Trong đó *Sensor_ID* là định danh nguồn đo; *BIM_GUID* là định danh cấu kiện trong mô hình thông tin; *Condition_Evidence_ID* là định danh bản ghi bằng chứng trạng thái; *Inspection_Record_ID* là định danh hồ sơ kiểm tra; và *Action_Status* là trạng thái xử lý của hành động kiểm tra hoặc bảo trì.
+Trong đó *Sensor_ID* là định danh nguồn đo; *BIM_GUID* là định danh cấu kiện trong mô hình thông tin; *Condition_Evidence_ID* là định danh bản ghi bằng chứng trạng thái; *Inspection_Record_ID* là định danh hồ sơ kiểm tra; *Action_Status* là trạng thái xử lý hiện thời của hành động kiểm tra hoặc bảo trì.
 
-Chuỗi không yêu cầu mọi dữ liệu nằm trong cùng một cơ sở dữ liệu; yêu cầu chính là các định danh và quan hệ đủ ổn định để truy theo chiều thuận và chiều ngược. *FEM_Node_ID*, nếu có, chỉ là siêu dữ liệu tùy chọn.
+Hình 5.1 là cách trình bày chuỗi cho người đọc. Mô hình dữ liệu của luận án là một đồ thị gồm sáu thực thể: cấu kiện, cảm biến cùng ánh xạ cảm biến – cấu kiện có khoảng hiệu lực, bằng chứng, hồ sơ kiểm tra, hành động và sự kiện chuyển trạng thái (Mục 5.7.2). Quan hệ giữa bằng chứng và cấu kiện là nhiều – nhiều; một hồ sơ kiểm tra dùng bằng chứng qua một quan hệ ghi bằng chứng đó có nằm trong phạm vi hiệu lực hay không. Sự kiện chuyển trạng thái là thực thể bắt buộc: trạng thái xử lý hiện thời được suy ra từ chuỗi sự kiện, mỗi sự kiện ghi thời điểm, vai trò người thực hiện, lý do và bằng chứng đã dùng. Bản ghi bằng chứng không bị sửa đè; một bản ghi mới thay bản cũ bằng một quan hệ trỏ về bản cũ. Chi tiết định danh và thuộc tính được trình bày ở Phụ lục A. *FEM_Node_ID*, nếu có, là siêu dữ liệu tùy chọn.
 
-*Trong chuỗi này, Action_Status là trạng thái hiện thời của một bản ghi hành động, không phải một định danh duy nhất. Để quản lý lịch sử xử lý và trách nhiệm, mô hình dữ liệu dùng thêm hai siêu dữ liệu phụ trợ: Action_ID định danh bản ghi hành động, và Status_Event_ID định danh từng sự kiện chuyển trạng thái, kèm thời điểm, người thực hiện hoặc vai trò, lý do chuyển và căn cứ đã dùng. Hai định danh này không làm thay đổi chuỗi lõi ở Hình 5.1; chúng nằm ở lớp dữ liệu bên dưới để trạng thái hiện thời luôn truy ngược được về lịch sử đã tạo ra nó.*
-
-Chuỗi định danh lõi được giữ nguyên. Phần được hình thức hóa nằm bên dưới chuỗi, gồm các thực thể và thuộc tính cần thiết để chuỗi đúng theo thời gian và ngữ cảnh: bản ghi ánh xạ cảm biến với cấu kiện có thời gian hiệu lực và phiên bản mô hình; bản ghi bối cảnh quan trắc gồm đợt đo, cấu hình cảm biến và điều kiện môi trường ghi nhận được; liên hệ giữa bằng chứng với cấu kiện kèm căn cứ và phạm vi hiệu lực; và lịch sử thay đổi của từng ánh xạ. Bộ dữ liệu thử phải bao gồm các trường hợp cảm biến được di chuyển, ánh xạ đã hết hiệu lực, cấu kiện bị gắn nhầm và bằng chứng được dùng ngoài phạm vi đã kiểm chứng. Một chuỗi truy vết chỉ được coi là đúng khi phát hiện được các trường hợp này, không phải khi truy vấn chạy thành công.
-
-Cần phân biệt hai loại đúng đắn ở đây. Loại thứ nhất là tính toàn vẹn của quan hệ dữ liệu: các quy tắc có thể kiểm tra được bản ghi có mồ côi hay không, định danh có trùng hay không, liên kết có hết hiệu lực hay không, phiên bản mô hình có khớp hay không và bằng chứng có được dùng ngoài phạm vi hiệu lực đã ghi hay không. Loại thứ hai là tính đúng đắn của ánh xạ cảm biến với cấu kiện ngoài thực tế, tức là cảm biến có thực sự được lắp ở cấu kiện đã khai báo hay không. Loại thứ hai không suy ra được từ dữ liệu của mô hình mà phải dựa trên hồ sơ lắp đặt, biên bản nghiệm thu và bảng đối chiếu định danh được xác nhận độc lập tại hiện trường. Vì vậy bộ quy tắc dữ liệu không được coi là phương tiện phát hiện mọi trường hợp gắn cảm biến sai ngoài thực tế. Quan hệ Sensor_ID → BIM_GUID chỉ là ánh xạ giữa nguồn đo và cấu kiện, không chứng minh nguồn vật lý của một bất thường. Action_ID và Status_Event_ID vẫn là siêu dữ liệu phụ trợ và chuỗi lõi không thay đổi.
+Cần phân biệt hai loại đúng đắn. Loại thứ nhất là tính toàn vẹn của dữ liệu: bộ ràng buộc kiểm được bản ghi mồ côi, ánh xạ đã hết hiệu lực tại thời điểm đo, bằng chứng dùng ngoài phạm vi mà không có lý do, và bước chuyển trạng thái không có căn cứ. Loại thứ hai là tính đúng của ánh xạ cảm biến – cấu kiện ngoài thực tế, tức là cảm biến có thực sự được lắp ở cấu kiện đã khai báo. Loại thứ hai dựa trên hồ sơ lắp đặt và đối chiếu tại hiện trường (Mục tiêu 3), vì dữ liệu của mô hình không chứa thông tin này. Quan hệ Sensor_ID → BIM_GUID ghi nguồn đo gắn với cấu kiện nào; nguồn vật lý của một bất thường được xác định qua kiểm tra của kỹ sư.
 
 ### 5.6.3. Bốn lớp bằng chứng
 
@@ -230,48 +224,44 @@ Cần phân biệt hai loại đúng đắn ở đây. Loại thứ nhất là t
 
 <span id="TLTQ_Hinh_5_2" class="anchor"></span>Hình 5.2. Kiến trúc kiểm chứng bốn lớp
 
-**Lớp 1 – Bằng chứng phòng thí nghiệm.** Chứng minh khả năng phân biệt các trạng thái liên kết có kiểm soát trong phạm vi đã thí nghiệm dưới giao thức đánh giá phù hợp. Đầu ra là bản ghi bằng chứng trạng thái có nguồn gốc, cấu hình cảm biến, phiên bản chuỗi xử lý, độ bất định và phạm vi hiệu lực.
+Bốn lớp là bốn loại bằng chứng; mỗi lớp chỉ khẳng định điều nó kiểm chứng được và không mượn bằng chứng của lớp khác.
 
-**Lớp 2 – Truy vết thông tin.** Chứng minh chuỗi định danh, bản ghi và quan hệ có tính toàn vẹn và có thể kiểm tra. Lớp này phải cho phép trả lời các câu hỏi như: bằng chứng đến từ nguồn đo nào; liên quan tới cấu kiện nào; hồ sơ kiểm tra nào liên quan; trạng thái hành động hiện tại là gì; và từ hồ sơ có truy ngược được về căn cứ ban đầu hay không.
+**Lớp 1 – Bằng chứng phòng thí nghiệm (Mục tiêu 1).** Phân biệt các trạng thái liên kết có kiểm soát trong phạm vi đã thí nghiệm, dưới đánh giá theo đơn vị độc lập. Đầu ra là bản ghi bằng chứng có nguồn gốc, cấu hình cảm biến, phiên bản phương pháp, độ bất định và phạm vi hiệu lực.
 
-**Lớp 3 – Khả năng áp dụng trong bối cảnh thực tế.** Lớp này đặt yêu cầu kiểm chứng rằng kiến trúc có thể duy trì mối liên hệ giữa dữ liệu vận hành, định danh cấu kiện, bằng chứng, hồ sơ kiểm tra và trạng thái hành động trong điều kiện sử dụng thực. Lớp này không chứng minh phát hiện hư hỏng thực và không tiếp nhận trực tiếp bộ phân loại hoặc ngưỡng định lượng từ mô hình 1:10.
+**Lớp 2 – Truy vết thông tin (Mục tiêu 2).** Chuỗi định danh, bản ghi và quan hệ có tính toàn vẹn, kiểm được bằng năm ràng buộc và bằng bộ lỗi chèn mù; trả lời được ba câu hỏi của người quản lý: cái gì bất thường, ở đâu; tin được đến mức nào; ai đã xử lý, dựa vào đâu.
 
-**Lớp 4 – Hỗ trợ quyết định quản lý.** Chứng minh quy trình có thể đưa một bằng chứng vào quá trình xem xét hành động theo cách minh bạch, có người rà soát và có trạng thái được ghi nhận. Lớp này không phải hệ thống ra quyết định tự động và không thay thế đánh giá kỹ thuật.
+**Lớp 3 – Khả năng áp dụng trong bối cảnh thực tế (Mục tiêu 3).** Chuỗi giữ được quan hệ giữa dữ liệu vận hành, cấu kiện, bằng chứng, hồ sơ kiểm tra và trạng thái hành động trên một nhà xưởng đang khai thác. Bộ phân loại và ngưỡng của mô hình 1:10 chỉ được dùng ở lớp này sau khi kiểm tra phạm vi hiệu lực.
+
+**Lớp 4 – Hỗ trợ quyết định quản lý (Mục tiêu 2 và 3).** Một bằng chứng đi vào quá trình xem xét hành động theo logic bốn mức bằng luật minh bạch, có người rà soát và có sự kiện chuyển trạng thái được ghi; quyết định thuộc kỹ sư và người quản lý có thẩm quyền.
 
 ### 5.6.4. Thang kiểm chứng
 
 <span id="TLTQ_Bang_5_3" class="anchor"></span>Bảng 5.3. Thang kiểm chứng của khung nghiên cứu
 
-| **Mức** | **Nội dung kiểm chứng** | **Điều không được suy ra** |
-|:--:|:---|:---|
-| V1 – Giá trị phòng thí nghiệm | Phân biệt trạng thái có kiểm soát dưới đánh giá theo đơn vị vật lý | Chẩn đoán hiện trường |
-| V2 – Giá trị truy vết | Chuỗi định danh và quan hệ trả lời đúng các câu hỏi nghiệp vụ | Độ chính xác kỹ thuật của mô hình phân loại |
-| V3 – Khả năng áp dụng trong bối cảnh thực tế | Duy trì được bối cảnh dữ liệu, định danh, quan hệ truy vết và hồ sơ trong điều kiện sử dụng thực | Phát hiện hư hỏng thực |
-| V4 – Giá trị hỗ trợ quyết định | Căn cứ và đề xuất được trình bày minh bạch, có người quản lý rà soát | Quyết định tự động hoặc tối ưu toàn cục |
+| **Mức** | **Mục tiêu** | **Nội dung kiểm chứng** | **Điều không được suy ra** |
+|:--:|:--:|:---|:---|
+| V1 – Giá trị phòng thí nghiệm | 1 | Phân biệt trạng thái có kiểm soát dưới đánh giá theo đơn vị độc lập; mức chênh lệch so với đánh giá cùng lần chạy | Chẩn đoán hiện trường |
+| V2 – Giá trị truy vết | 2 | Tỉ lệ phát hiện lỗi chèn mù so với B0 và B1; trả lời bộ câu hỏi truy ngược | Độ chính xác kỹ thuật của mô hình phân loại |
+| V3 – Khả năng áp dụng trong bối cảnh thực tế | 3 | Dữ liệu về đủ, ánh xạ đúng, truy ngược được kịch bản đầu cuối, chi phí ghi nhận | Phát hiện hư hỏng thực |
+| V4 – Giá trị hỗ trợ quyết định | 2, 3 | Mỗi mức ưu tiên và mỗi sự kiện chuyển trạng thái truy được về luật, bằng chứng và người rà soát | Quyết định tự động hoặc hiệu quả của quyết định |
 
 ### 5.6.5. Luồng dữ liệu và luồng trách nhiệm
 
-Kiến trúc nghiên cứu gồm hai luồng song song. **Luồng dữ liệu** đi từ cảm biến tới bằng chứng, cấu kiện, hồ sơ và trạng thái hành động. **Luồng trách nhiệm** đi từ người hoặc hệ thống tạo dữ liệu, qua người kiểm tra chất lượng, người rà soát, người phê duyệt và người thực hiện hành động.
+Kiến trúc nghiên cứu gồm hai luồng song song. **Luồng dữ liệu** đi từ cảm biến tới bằng chứng, cấu kiện, hồ sơ và trạng thái hành động. **Luồng trách nhiệm** đi từ người hoặc hệ thống tạo dữ liệu, qua người kiểm tra, người phê duyệt và người thực hiện hành động, tới người xác minh sau sửa chữa.
 
-Hai luồng gặp nhau tại bản ghi. Bản ghi bằng chứng cần lưu giá trị hoặc trạng thái cùng nguồn tạo ra, thời điểm, phiên bản xử lý và phạm vi hiệu lực; bản ghi hành động cần lưu việc đã hoàn thành hay chưa cùng căn cứ, người rà soát và lịch sử thay đổi trạng thái. Khả năng giải trình trong quản lý tài sản dựa trên chính các trường này.
+Hai luồng gặp nhau tại bản ghi. Bản ghi bằng chứng lưu giá trị cùng nguồn tạo ra, thời điểm, phiên bản phương pháp, độ bất định và phạm vi hiệu lực; sự kiện chuyển trạng thái lưu trạng thái trước và sau, thời điểm, vai trò người thực hiện, lý do và bằng chứng đã dùng. Khả năng giải trình trong quản lý tài sản dựa trên chính các trường này.
 
-### 5.6.6. Định vị Song sinh số
+### 5.6.6. Định vị bóng số
 
-Luận án giữ mục tiêu **phát triển khung Song sinh số dựa trên dữ liệu**. Các nghiên cứu phân mức Song sinh số theo nhiều cách: theo chiều và mức tự động của luồng dữ liệu \[8\], theo các mức biểu diễn số trong môi trường xây dựng \[9\], hoặc theo mô hình trưởng thành đa chiều cho quản lý tài sản \[10\]. Các khung này là **tham chiếu đánh giá năng lực**, không phải căn cứ để gán trước một nhãn trưởng thành cho hệ thống.
+Các nghiên cứu phân mức song sinh số theo nhiều cách: theo chiều và mức tự động của luồng dữ liệu \[8\], theo các mức biểu diễn số trong môi trường xây dựng \[9\], hoặc theo mô hình trưởng thành đa chiều cho quản lý tài sản \[10\]. Luận án dùng phân loại của \[8\] để khai báo mức tích hợp: dữ liệu đi tự động từ công trình vào mô hình số, còn mọi tác động trở lại công trình đi qua quyết định của con người, nên hệ thống ở mức bóng số (digital shadow). Tên đề tài giữ cụm "song sinh số dựa trên dữ liệu" theo hướng kiến trúc, kèm khai báo này.
 
-Hai nguyên tắc được giữ:
-
-> 1\. **Song sinh số là mục tiêu kiến trúc của nghiên cứu.**
->
-> 2\. **Mức năng lực đạt được là một kết quả phải được đánh giá sau triển khai.**
-
-Việc đánh giá mức năng lực Song sinh số thuộc giai đoạn kiểm chứng sau Tiểu luận tổng quan. Khi đó, nghiên cứu cần xem xét những chức năng nào thực sự được hiện thực hóa, luồng dữ liệu nào được cập nhật, quan hệ nào truy vấn được, phản hồi từ hồ sơ và hành động được ghi nhận tới đâu, và con người tham gia ở mức nào. **Bằng chứng hiện tại chưa đủ** để kết luận trước rằng khung đã đạt một mức trưởng thành Song sinh số cụ thể. Nghiên cứu không đặt mục tiêu tự động tác động vật lý lên công trình, điều khiển thời gian thực, bảo trì tự động, dự báo tuổi thọ còn lại hoặc bảo trì dự báo chỉ để đạt mức phân loại cao hơn.
+Các thang trưởng thành của \[9\], \[10\] là tham chiếu để đánh giá năng lực đạt được sau triển khai trên nhà xưởng (Mục tiêu 3). Điều khiển tự động lên công trình, bảo trì dự đoán và dự báo tuổi thọ còn lại nằm ngoài phạm vi luận án (Mục 5.8).
 
 ## 5.6A. Công cụ trí tuệ nhân tạo và vai trò trong chuỗi bằng chứng
 
 ### 5.6A.1. Nguyên tắc: AI tạo bằng chứng, con người quyết định
 
-Trong kiểm tra – bảo trì kết cấu thép, mỗi quyết định kiểm tra, siết lại hay thay thế cấu kiện phải truy ngược được tới người có thẩm quyền và căn cứ người đó đã dùng. Vì vậy, trong luận án, công cụ trí tuệ nhân tạo (AI) tạo bằng chứng, còn quyết định thuộc về kỹ sư và người quản lý có thẩm quyền. Mỗi đầu ra của mô hình được ghi thành một bản ghi bằng chứng (xem Mục 5.5) mang phiên bản phương pháp, trường độ bất định và trường phạm vi hiệu lực; chẩn đoán hư hỏng là kết luận của kỹ sư sau kiểm tra. Trên nền Mục 3.2.3, mục này xác định công cụ cho từng gói công việc và trường dữ liệu nhận đầu ra.
+Trong kiểm tra – bảo trì kết cấu thép, mỗi quyết định kiểm tra, siết lại hay thay thế cấu kiện phải truy ngược được tới người có thẩm quyền và căn cứ người đó đã dùng. Vì vậy, trong luận án, công cụ trí tuệ nhân tạo (AI) tạo bằng chứng, còn quyết định thuộc về kỹ sư và người quản lý có thẩm quyền. Mỗi đầu ra của mô hình được ghi thành một bản ghi bằng chứng (Mục 5.7.2) mang phiên bản phương pháp, trường độ bất định và trường phạm vi hiệu lực; chẩn đoán hư hỏng là kết luận của kỹ sư sau kiểm tra. Trên nền Mục 3.2.3, mục này xác định công cụ cho từng gói công việc và trường dữ liệu nhận đầu ra.
 
 ### 5.6A.2. Phòng thí nghiệm (WP1): phân biệt trạng thái liên kết có kiểm soát
 
@@ -279,7 +269,7 @@ Trong kiểm tra – bảo trì kết cấu thép, mỗi quyết định kiểm 
 
 Giao thức đánh giá kế thừa Mục 3.3. Dữ liệu được chia theo nhóm, giữ lại cả lần chạy, để các cửa sổ của một bản ghi nằm trọn ở một phía của phép chia \[14\], \[53\]; điểm được chấm theo bản ghi, là đơn vị vật lý của phép đo; kiểm định hoán vị cho biết hiệu năng có vượt mức ngẫu nhiên hay không \[59\]. Siêu tham số được cố định trước hoặc chọn bên trong vòng huấn luyện của từng lần chia, vì sai số kiểm định chéo của một bộ phân loại đã tinh chỉnh bằng chính phép kiểm định đó bị lệch lạc quan \[@D28DT7CE\]; độ lệch lớn hơn khi cỡ mẫu nhỏ và khi chọn đặc trưng trên dữ liệu gộp \[@6JAQQCGE\]. Kết quả được báo cáo kèm biến thiên theo seed và theo fold.
 
-Cấp nhóm, đơn vị chấm điểm và đợt lắp đặt ghi vào trường phạm vi hiệu lực (cách chia dữ liệu, đơn vị suy luận, đợt lắp đặt); biến thiên theo seed, fold và kết quả kiểm định hoán vị ghi vào trường độ bất định; nhãn hoặc xác suất lớp ghi vào trường giá trị. Kết quả thực nghiệm của WP1 thuộc chuyên đề tiếp theo.
+Cấp nhóm, đơn vị chấm điểm và đợt lắp đặt ghi vào trường phạm vi hiệu lực của bản ghi bằng chứng (cách chia dữ liệu, đơn vị suy luận, đợt lắp đặt); biến thiên theo seed, fold và kết quả kiểm định hoán vị ghi vào trường độ bất định; nhãn hoặc xác suất lớp ghi vào trường giá trị; mã phiên bản của chuỗi xử lý (git commit) ghi vào trường phiên bản phương pháp. Kết quả thực nghiệm của WP1 thuộc chuyên đề tiếp theo.
 
 ### 5.6A.3. Hiện trường (WP3): từ phân loại sang phát hiện bất thường
 
@@ -287,13 +277,13 @@ Bốn nhóm bằng chứng cho thấy bộ phân loại học ở phòng thí ng
 
 Từ đó, luận án đề xuất đổi vai AI ở WP3: mô hình học đường cơ sở vận hành của chính công trình (Mục 4.5.2) và báo độ lệch so với đường cơ sở. Công cụ chính là bộ tự mã hóa (autoencoder). Wang và Cha (2021) huấn luyện autoencoder sâu chỉ bằng gia tốc đo ở trạng thái nguyên vẹn, lấy sai lệch tái tạo làm đặc trưng, và kiểm chứng trên cầu thép thu nhỏ có bu lông bị nới lỏng tại nút \[@TDRPDWJE\]. Ghazimoghadam và Hosseinzadeh (2024) cũng học từ trạng thái chưa hư hỏng và phát hiện bu lông liên kết bị nới lỏng trên kết cấu phòng thí nghiệm \[@G98ZWHKW\]. Luận án đề xuất áp dụng nguyên tắc này cho nhà công nghiệp khung thép; hiệu quả khi có cầu trục và máy móc vận hành là nội dung kiểm chứng của WP3. Sai số tái tạo được ghi thành bản ghi bằng chứng loại cảm biến với nghĩa là tín hiệu đề nghị kiểm tra. Vì định vị và định lượng hư hỏng vẫn khó khi dữ liệu huấn luyện thiếu thông tin hư hỏng \[@TDRPDWJE\], tình trạng cấu kiện được xác định qua kiểm tra của kỹ sư.
 
-Để giảm báo động giả, luận án đề xuất bù ảnh hưởng môi trường – vận hành (EOV) theo hai hướng Figueiredo và cộng sự (2011) phân biệt: tham số hóa đặc trưng theo các biến vận hành – môi trường đo được, hoặc học trạng thái bình thường trực tiếp từ dữ liệu đáp ứng \[@23TBQTIP\]. Khi nhà xưởng ghi được nhiệt độ và trạng thái thiết bị trong bối cảnh quan trắc, hướng thứ nhất được ưu tiên. Với nguồn biến động chưa đo được, phân tích đồng liên kết (cointegration) tạo phần dư dừng đã loại xu hướng chung của các biến quan trắc mà không cần đo điều kiện môi trường – vận hành, với điều kiện tập huấn luyện lấy từ trạng thái bình thường và chứa cả những sự kiện vận hành bình thường gây thay đổi lớn trong đáp ứng \[@KPWFC4PI\]. Các thuật toán này có thể thất bại với điều kiện chưa có trong dữ liệu huấn luyện \[@23TBQTIP\], nên dải điều kiện của đường cơ sở được ghi vào trường điều kiện áp dụng, và bằng chứng sinh ngoài dải đó phải kèm lý do khi sử dụng (ràng buộc về sử dụng bằng chứng ngoài phạm vi hiệu lực, Phụ lục B).
+Để giảm báo động giả, luận án đề xuất bù ảnh hưởng môi trường – vận hành (EOV) theo hướng thứ nhất trong hai hướng Figueiredo và cộng sự (2011) phân biệt: tham số hóa đặc trưng theo các biến đo được, thay vì học trạng thái bình thường trực tiếp từ dữ liệu đáp ứng \[@23TBQTIP\]. Ở nhà xưởng, hai biến được ghi vào bối cảnh quan trắc của mỗi bằng chứng là nhiệt độ và trạng thái cầu trục (chạy hoặc dừng); phần bù là hồi quy theo hai biến này. Phân tích đồng liên kết (cointegration) tạo phần dư dừng đã loại xu hướng chung mà không cần đo điều kiện môi trường – vận hành \[@KPWFC4PI\]; luận án giữ phương pháp này làm hướng mở rộng khi xuất hiện nguồn biến động chưa đo được. Các thuật toán bù có thể thất bại với điều kiện chưa có trong dữ liệu huấn luyện \[@23TBQTIP\], nên dải điều kiện của đường cơ sở được ghi vào trường điều kiện áp dụng, và bằng chứng sinh ngoài dải đó phải kèm lý do khi sử dụng (ràng buộc về sử dụng bằng chứng ngoài phạm vi hiệu lực, Phụ lục B).
 
-Học chủ động (active learning) là cơ chế luận án đề xuất cho vòng lặp kiểm tra tạo nhãn. Hughes và cộng sự (2022) coi mỗi lần hỏi nhãn là một lần kiểm tra kết cấu, chỉ thực hiện khi giá trị kỳ vọng của thông tin với quyết định bảo trì vượt chi phí kiểm tra, với giả định kiểm tra cho thông tin hoàn hảo \[@Z9RD5DMZ\]. Bull và cộng sự (2022) bổ sung kiểm tra định kỳ bằng kiểm tra được truy vấn khi phép đo giàu thông tin, và lưu ý trạng thái ở thời điểm đã qua không kiểm tra lại được \[@87NKU5IS\]. Hướng này chủ yếu phát triển trên dữ liệu cầu, máy bay thí nghiệm, ổ trục và bơm \[@87NKU5IS\]. Trong luận án, kết quả kiểm tra được ghi thành bản ghi kiểm tra có người thực hiện và thời điểm, làm nhãn hiện trường của cấu kiện.
+Nhãn hiện trường của luận án sinh từ vòng lặp kiểm tra tạo nhãn: một bằng chứng cảm biến vượt ngưỡng đề nghị kiểm tra theo logic bốn mức, kỹ sư kiểm tra cấu kiện, và kết quả được ghi thành bản ghi kiểm tra có người thực hiện, thời điểm và độ bất định của kiểm tra, làm nhãn hiện trường gắn với cấu kiện và với bằng chứng đã kích hoạt lần kiểm tra. Hughes và cộng sự (2022) coi mỗi lần hỏi nhãn là một lần kiểm tra kết cấu, với giả định kiểm tra cho thông tin hoàn hảo \[@Z9RD5DMZ\]; Bull và cộng sự (2022) lưu ý trạng thái ở thời điểm đã qua không kiểm tra lại được \[@87NKU5IS\], nên kết quả kiểm tra phải được ghi đúng lúc. Việc chọn lần kiểm tra theo giá trị kỳ vọng của thông tin (học chủ động), như hai nghiên cứu này đề xuất trên dữ liệu cầu, là hướng mở rộng của luận án (Mục 5.8).
 
 ### 5.6A.4. Hồ sơ và hỗ trợ hành động (WP2, WP4)
 
-Ở WP2, mô hình ngôn ngữ lớn (LLM) hỗ trợ trích xuất loại lỗi và thông tin kiểm tra từ hồ sơ cũ để lập đường cơ sở B0 (xem Mục 5.7); kỹ sư xác nhận mọi kết quả trích xuất, và độ chính xác trích xuất được báo cáo. Ở WP4, logic bốn mức ưu tiên được viết bằng luật minh bạch, nên mỗi sự kiện chuyển trạng thái truy ngược được tới luật đã áp dụng, bản ghi sử dụng bằng chứng và bằng chứng đã dùng.
+Ở WP2, đường cơ sở B0 được lập bằng cách mã hóa tay 20–30 hồ sơ kiểm định cũ theo quy tắc đã khóa trước khi đo (Mục 5.5); bước này không dùng công cụ AI. Ở WP4, logic bốn mức ưu tiên được viết bằng luật minh bạch, nên mỗi sự kiện chuyển trạng thái truy ngược được tới luật đã áp dụng, quan hệ sử dụng bằng chứng và bằng chứng đã dùng.
 
 ### 5.6A.5. Tổng hợp công cụ theo gói công việc
 
@@ -301,15 +291,14 @@ Học chủ động (active learning) là cơ chế luận án đề xuất cho 
 
 | **Gói** | **Công cụ** | **Vai trò** | **Đầu ra** | **Trường dữ liệu tương ứng** |
 |:--:|:---|:---|:---|:---|
-| WP1 | RF, SVM-RBF; 1D-CNN, ResNet1D | Phân biệt trạng thái liên kết có kiểm soát | Nhãn hoặc xác suất lớp theo bản ghi | `EVIDENCE.value` |
-| WP1 | Đánh giá theo nhóm, chấm điểm theo bản ghi, kiểm định hoán vị, biến thiên theo seed và fold | Căn cứ khai báo | Cấp chia, đơn vị suy luận, đợt lắp đặt; biến thiên | `VALIDITY_SCOPE`, `uncertainty` |
-| WP3 | Autoencoder học đường cơ sở vận hành | Phát hiện độ lệch so với đường cơ sở | Sai số tái tạo; đề nghị kiểm tra | `EVIDENCE` loại cảm biến |
-| WP3 | Bù EOV (hồi quy; đồng liên kết) | Giảm báo động giả do cầu trục, máy móc, nhiệt | Đặc trưng đã bù; dải điều kiện đường cơ sở | `OBS_CONTEXT`, `applicable_conditions` |
-| WP3 | Học chủ động | Chọn bất thường cần kiểm tra | Nhãn hiện trường sau kiểm tra | `INSPECTION_RECORD`, `EVIDENCE_USE` |
-| WP2 | LLM trích xuất hồ sơ cũ, kỹ sư xác nhận | Phân loại lỗi; đường cơ sở B0 | Bản ghi lỗi đã xác nhận; độ chính xác trích xuất | `INSPECTION_RECORD` (B0) |
-| WP4 | Logic bốn mức bằng luật minh bạch | Đề xuất mức ưu tiên | Mức ưu tiên kèm luật đã áp dụng | `ACTION.priority_level`, `STATUS_EVENT` |
+| WP1 | RF, SVM-RBF; 1D-CNN, ResNet1D | Phân biệt trạng thái liên kết có kiểm soát | Nhãn hoặc xác suất lớp theo bản ghi | Giá trị của bản ghi bằng chứng |
+| WP1 | Đánh giá theo nhóm, chấm điểm theo bản ghi, kiểm định hoán vị, biến thiên theo seed và fold | Căn cứ khai báo | Cấp chia, đơn vị suy luận, đợt lắp đặt; biến thiên | Phạm vi hiệu lực, độ bất định của bản ghi bằng chứng |
+| WP3 | Autoencoder học đường cơ sở vận hành | Phát hiện độ lệch so với đường cơ sở | Sai số tái tạo; đề nghị kiểm tra | Bản ghi bằng chứng loại cảm biến |
+| WP3 | Bù EOV bằng hồi quy theo nhiệt độ và trạng thái cầu trục | Giảm báo động giả do cầu trục, máy móc, nhiệt | Đặc trưng đã bù; dải điều kiện đường cơ sở | Bối cảnh quan trắc, điều kiện áp dụng |
+| WP2 | Không dùng AI; mã hóa tay hồ sơ cũ | Phân loại lỗi; đường cơ sở B0 | Bản ghi lỗi đã mã hóa | Hồ sơ kiểm tra (B0) |
+| WP4 | Logic bốn mức bằng luật minh bạch | Đề xuất mức ưu tiên | Mức ưu tiên kèm luật đã áp dụng | Mức ưu tiên của hành động; sự kiện chuyển trạng thái |
 
-Công cụ hỗ trợ ngoài AI gồm Python, scikit-learn, PyTorch; MLflow, DVC để cấp phiên bản phương pháp; IfcOpenShell, ifctester để đọc IFC và kiểm tra thuộc tính bắt buộc; rdflib, pySHACL để lưu đồ thị bằng chứng và kiểm tra các ràng buộc ở Phụ lục B. Việc sử dụng AI tạo sinh khi thực hiện Tiểu luận được khai báo ở phần đầu; phạm vi diễn giải của các công cụ trên được trình bày ở Mục 5.8.
+Công cụ hỗ trợ ngoài AI gồm Python, scikit-learn, PyTorch; git để cấp mã phiên bản phương pháp; IfcOpenShell để đọc và ghi IFC; SQLite để lưu bản ghi; một công cụ viết bằng Python để kiểm năm ràng buộc ở Phụ lục B. Việc sử dụng AI tạo sinh khi thực hiện Tiểu luận được khai báo ở phần đầu; phạm vi diễn giải của các công cụ trên được trình bày ở Mục 5.8.
 
 ## 5.7. Đóng góp dự kiến của luận án
 
@@ -352,7 +341,7 @@ Ba đóng góp trên hợp lại thành một cách tổ chức và kiểm chứ
 |:---|:---|
 | **Phạm vi cốt lõi** | Dữ liệu dao động → bằng chứng trạng thái; truy vết tới cấu kiện BIM; hồ sơ kiểm tra; trạng thái/hỗ trợ hành động; đánh giá khả năng áp dụng trong bối cảnh nhà công nghiệp khung thép |
 | **Phạm vi hỗ trợ** | Học máy và học sâu như công cụ tạo bằng chứng; BIM/IFC; nguồn gốc dữ liệu; con người trong vòng lặp; mô hình phần tử hữu hạn danh nghĩa để tham chiếu |
-| **Hướng phát triển sau luận án** | Kiểm chứng khung trên các loại kết cấu và tài sản công trình khác; hiệu chuẩn và cập nhật mô hình phần tử hữu hạn nếu có câu hỏi nghiên cứu phù hợp; đánh giá kinh tế quy mô lớn; các năng lực Song sinh số cao hơn khi có đủ dữ liệu và hạ tầng |
+| **Hướng phát triển sau luận án** | Kiểm chứng khung trên các loại kết cấu và tài sản công trình khác; hiệu chuẩn và cập nhật mô hình phần tử hữu hạn nếu có câu hỏi nghiên cứu phù hợp; đánh giá kinh tế quy mô lớn; các năng lực Song sinh số cao hơn khi có đủ dữ liệu và hạ tầng; đánh giá hiệu năng phát hiện hư hỏng ở hiện trường; chọn lần kiểm tra theo giá trị kỳ vọng của thông tin (học chủ động); bù EOV bằng đồng liên kết khi có nguồn biến động chưa đo được |
 | **Ngoài phạm vi hiện tại** | Chẩn đoán hư hỏng hiện trường khi chưa có kiểm tra xác nhận; dự báo tuổi thọ còn lại; bảo trì dự báo; suy luận suy giảm độ cứng; chỉ số sức khỏe phức tạp; tối ưu vị trí cảm biến; bảo trì tự động; trí tuệ nhân tạo tại biên; Thành phố thông minh; động lực học chất lưu tính toán; phát triển phần mềm thương mại |
 
 ### 5.8.2. Ranh giới giữa bốn loại bằng chứng
@@ -401,14 +390,12 @@ Khảo sát nhà xưởng, chọn vị trí cảm biến, thu hồ sơ B0 và tr
 
 ## 5.10. Tổng hợp chương
 
-Tiểu luận cho thấy các thành phần kỹ thuật chính của bài toán đều đã có nền nghiên cứu: dữ liệu dao động và học máy cho theo dõi trạng thái; nguyên tắc về đơn vị vật lý, rò rỉ dữ liệu và đánh giá theo nhóm; liên kết cảm biến với BIM; IFC làm nền định danh; hồ sơ kiểm tra, khiếm khuyết và sửa chữa trong các hệ thống dựa trên BIM; nguồn gốc dữ liệu, kiểm chứng quan hệ và con người trong quy trình. Luận án vì vậy không xây dựng khoảng trống bằng cách tuyên bố thiếu một công nghệ thành phần.
+Tiểu luận cho thấy các thành phần kỹ thuật chính của bài toán đều đã có nền nghiên cứu: dữ liệu dao động và học máy cho theo dõi trạng thái; nguyên tắc về đơn vị độc lập, rò rỉ dữ liệu và đánh giá theo nhóm; liên kết cảm biến với BIM; IFC 4.3 và BCF 3.0 cho chuỗi kiểm tra – cấu kiện – hành động; nguồn gốc dữ liệu và con người trong quy trình. Khoảng trống của luận án vì vậy được xác lập ở điểm nối giữa các thành phần đó.
 
-Ba khoảng trống còn lại đều nằm ở **điểm nối**: xác lập chất lượng và phạm vi hiệu lực của bằng chứng; bảo toàn các thuộc tính đó trong chuỗi truy vết cấp cấu kiện; và đưa căn cứ có phạm vi hiệu lực tới trạng thái hành động có thể giải trình. Cả ba được giữ ở mức **đều có thể bảo vệ được trong phạm vi tập tài liệu đã rà soát**.
+Hai khoảng trống còn lại sau khi đối chiếu tiền lệ là: bằng chứng trạng thái có phạm vi hiệu lực, gồm vế đánh giá và vế khai báo (khoảng trống A); và từ bằng chứng đến hành động có trách nhiệm (khoảng trống B). Cả hai được phát biểu trong phạm vi tập tài liệu đã rà soát.
 
-Trục nghiên cứu được khóa theo Hình 1.1, với chuỗi định danh ở Hình 5.1. Ba câu hỏi nghiên cứu ứng với ba lớp kiểm chứng chính: độ tin cậy của bằng chứng phòng thí nghiệm, khả năng truy vết cấp cấu kiện và khả năng áp dụng của khung trong bối cảnh công trình thực; Gói công việc 4 tổng hợp các yêu cầu này thành logic hành động minh bạch có con người rà soát.
+Ba mục tiêu ứng với ba câu hỏi nghiên cứu và hai bài báo: Mục tiêu 1 đo mức lạc quan của đánh giá cùng lần chạy và khai báo phạm vi hiệu lực trên khung thép 1:10 (Bài báo 1); Mục tiêu 2 xây dựng mô hình thông tin mở rộng IFC 4.3 và BCF 3.0, đánh giá so với hồ sơ hiện hành và với mô hình chỉ dùng chuẩn sẵn có (Bài báo 2); Mục tiêu 3 kiểm chứng khả thi của chuỗi trên một nhà xưởng thật có BIM. Hệ thống được khai báo ở mức bóng số theo \[8\].
 
-Tên và mục tiêu **Song sinh số dựa trên dữ liệu** tiếp tục là định vị kiến trúc của luận án; mức năng lực Song sinh số thực tế sẽ được đánh giá trong nghiên cứu trường hợp.
-
-Sau Tiểu luận, nghiên cứu cần chuyển từ xác lập khoảng trống sang kiểm chứng tuần tự các lớp đã định nghĩa: chất lượng bằng chứng, truy vết thông tin, khả năng áp dụng trong bối cảnh thực tế và hỗ trợ hành động. Trình tự này giúp luận án không vượt trước bằng chứng và giữ đúng định vị Quản lý xây dựng:
+Sau Tiểu luận, nghiên cứu chuyển từ xác lập khoảng trống sang kiểm chứng theo trình tự ba mục tiêu, giữ định vị Quản lý xây dựng:
 
 Quản lý, liên kết và truy vết thông tin kỹ thuật để hỗ trợ kiểm tra – bảo trì một cách minh bạch và có thể kiểm chứng.

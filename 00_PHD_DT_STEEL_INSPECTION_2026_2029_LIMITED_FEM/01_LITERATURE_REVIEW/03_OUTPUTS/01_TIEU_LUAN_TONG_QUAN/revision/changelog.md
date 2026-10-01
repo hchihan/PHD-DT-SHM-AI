@@ -359,3 +359,10 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - 5.7 (1.920 → 889 từ): ba đóng góp theo ba mục tiêu, mỗi đóng góp ghi loại (thực nghiệm – phương pháp; artefact thiết kế; kiểm chứng khả thi); Đóng góp 1 ghi kế thừa từ [19], [15]; Đóng góp 2 gồm năm ràng buộc, logic bốn mức và Hình 5.3, phần quy cho đóng góp là chênh lệch so với B1; bỏ chồng chuẩn SOSA/PROV/PAV/IDS/ràng buộc ngữ nghĩa, Evidence Gate, Đóng góp 4 riêng; câu giới hạn chuyển thành câu trỏ về Mục 5.8 (CLAUDE.md 4.5 loại C); 5.7.4 cấp ngành rút gọn.
 - 5.9 (630 → 331 từ): "hai khoảng trống"; ba định hướng theo ba mục tiêu, ghi việc làm song song với Mục tiêu 1 và việc Bài báo 2 không chờ quan trắc.
 - Trích dẫn dùng: [19], [15], [35], [@K5SGFIGW]. Không dùng kết quả Paper 1.
+
+## Phiên 01/10/2026 – GĐ5: đồng bộ 5.6, 5.6A, 5.10
+- 5.6 (1.680 → 1.377 từ): tên mục đổi "bóng số"; 5.6.2 Hình 5.1 là cách trình bày, mô hình dữ liệu là đồ thị sáu thực thể, sự kiện chuyển trạng thái là thực thể bắt buộc (thay câu "Status_Event_ID là siêu dữ liệu phụ trợ"), bản ghi không sửa đè, chi tiết ở Phụ lục A; giữ ý phân biệt toàn vẹn dữ liệu và đúng đắn ánh xạ thực tế; 5.6.3 bốn lớp gắn mục tiêu; Bảng 5.3 thêm cột mục tiêu, V2 theo lỗi chèn mù với B0, B1; 5.6.6 khai báo mức bóng số theo [8], [9], [10] là tham chiếu đánh giá sau triển khai.
+- 5.6A: bù EOV theo hồi quy nhiệt độ và trạng thái cầu trục, đồng liên kết thành hướng mở rộng; đoạn học chủ động thay bằng vòng lặp kiểm tra tạo nhãn (Hughes 2022, Bull 2022 giữ làm căn cứ; học chủ động thành hướng mở rộng); 5.6A.4 bỏ LLM, B0 mã hóa tay; Bảng 5.6A bỏ dòng học chủ động, sửa dòng WP2, EOV, tên trường theo schema rút gọn; công cụ: git, IfcOpenShell, SQLite, công cụ kiểm ràng buộc bằng Python (bỏ MLflow, DVC, ifctester, rdflib, pySHACL); tham chiếu "Mục 5.5" của bản ghi bằng chứng đổi thành "Mục 5.7.2".
+- 5.8.1: dòng "Hướng phát triển sau luận án" thêm đánh giá hiệu năng phát hiện hư hỏng ở hiện trường, học chủ động, đồng liên kết.
+- 5.10 (393 → 319 từ): hai khoảng trống, ba mục tiêu – hai bài báo, khai báo bóng số.
+- Không thêm trích dẫn mới; dùng lại [8], [9], [10], \[@23TBQTIP\], \[@KPWFC4PI\], \[@Z9RD5DMZ\], \[@87NKU5IS\].
