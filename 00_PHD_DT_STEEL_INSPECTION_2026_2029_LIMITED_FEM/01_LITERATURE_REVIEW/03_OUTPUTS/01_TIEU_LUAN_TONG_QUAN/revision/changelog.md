@@ -449,3 +449,12 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 ## Phiên 02/10/2026 – Sửa 3 câu theo rà soát tài liệu về cầu
 - NCS duyệt đề xuất ở `revision/GD5_ra_soat_tai_lieu_cau.md`: giữ [64], [66], [78]; loại [63], [65], [77].
 - `tieuluan/04_chuong4.md`: 4.3.1 câu 2 bỏ [63], viết lại "Một hướng gắn thông tin tình trạng hoặc khiếm khuyết vào đối tượng mô hình, chẳng hạn mô hình hóa khiếm khuyết cùng quan hệ của chúng với cấu kiện và hành động bảo trì [64]"; 4.3.1 đoạn 2 bỏ vế [65], "ba cách" thành "hai cách"; 4.5.3 bỏ vế [77]. [63], [65], [77] không còn được trích trong thân bài; danh mục tạo lại ở GĐ6.
+
+## Phiên 02/10/2026 – Đánh số lại mục (GĐ5)
+- Đổi nhãn tạm và đánh số lại theo thứ tự thực:
+  - Ch.1: chuyển 1.3A, 1.4A lên trước "Vấn đề nghiên cứu"; 1.2A→1.2, 1.3A→1.3, 1.4A→1.4, 1.2→1.5, 1.3→1.6; gộp 1.4 + 1.5 thành 1.7 "Mục tiêu và phạm vi của Tiểu luận tổng quan" (1.7.1–1.7.5); 1.6→1.8; gộp 1.7 + 1.8 thành 1.9 "Mục tiêu, câu hỏi nghiên cứu và kiến trúc của luận án" (1.9.1–1.9.3); 1.9→1.10.
+  - Ch.2: 2.2.2A→2.2.3, 2.2.3→2.2.4. Ch.3: 3.2A→3.2 (3.2.1–3.2.5), 3.2–3.5→3.3–3.6. Ch.5: 5.6A→5.7, 5.7→5.8, 5.8→5.9, 5.9→5.10, 5.10→5.11.
+  - Bảng 1.1A→1.1; Bảng 5.6A→5.4, Bảng 5.4→5.5 (cả mã neo).
+- Cập nhật tham chiếu chéo "mục …" trong toàn văn theo bảng ánh xạ (49 chỗ), trừ số mục của đặc tả BCF-API và Khuyến nghị W3C. Rà nghĩa từng tham chiếu, sửa thêm: 4 chỗ trỏ cấu trúc dữ liệu từ 5.5 sang 5.6.2 (Ch.1 ×3, Ch.2); 2 chỗ "Mục 5.7.2"/bản ghi bằng chứng sang 5.6.2; 5.2.1 trỏ điều kiện cầu trục sang 3.2.3; 4.5.4 "mục 2.2.2A" sang 2.2.3; tiêu đề Phụ lục A.3 "Mục 5.6 và 5.7". Xóa chú thích ẩn "Nhãn tạm".
+- Rút trùng 1.1.1/1.2 (câu đầu đoạn 3 của 1.1.1 trỏ 1.2.2); 2.5 thêm câu về 2.2.3 và khai báo bóng số [8]; 3.6 thêm đoạn tóm tắt 3.2.
+- CLAUDE.md: 4.2, 4.5, 6.2 đổi "nhãn tạm 5.8" thành Mục 5.9; 6.3 thêm ghi chú cấu trúc sau đánh số lại; mục 12 cập nhật.

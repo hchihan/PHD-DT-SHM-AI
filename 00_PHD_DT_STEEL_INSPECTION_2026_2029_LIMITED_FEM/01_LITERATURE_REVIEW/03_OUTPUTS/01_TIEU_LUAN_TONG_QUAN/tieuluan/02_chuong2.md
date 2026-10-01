@@ -49,11 +49,11 @@ Giá trị của định danh vượt ra ngoài việc tìm đúng cấu kiện 
 
 Lớp liên kết này đã có nền kỹ thuật tương đối rõ, thể hiện qua ba cách tiếp cận bổ sung cho nhau: mở rộng chính lược đồ IFC để mô hình hóa các thành phần của hệ theo dõi trạng thái cùng quan hệ của chúng với cấu kiện chịu lực \[2\]; ánh xạ định danh giữa BIM và thiết bị cảm biến để hỗ trợ tích hợp dữ liệu \[4\]; và dùng *GlobalId* làm khóa nối cơ sở dữ liệu IFC với dữ liệu chuỗi thời gian nhằm truy xuất theo đối tượng \[5\].
 
-### 2.2.2A. Chuẩn biểu diễn vấn đề, yêu cầu và hành động bảo trì
+### 2.2.3. Chuẩn biểu diễn vấn đề, yêu cầu và hành động bảo trì
 
-<!-- Nhãn tạm 2.2.2A; đánh số lại ở GĐ5. Tiền lệ bắt buộc nêu theo CLAUDE.md 6.1 (BCF 3.0, IFC4, [35]); nội dung theo revision/GD2_nhat_ky_khoang_trong.md (kiểm 30/09/2026) và mapping/bellon2025.md. -->
+<!-- Tiền lệ bắt buộc nêu theo CLAUDE.md 6.1 (BCF 3.0, IFC4, [35]); nội dung theo revision/GD2_nhat_ky_khoang_trong.md (kiểm 30/09/2026) và mapping/bellon2025.md. -->
 
-Ngoài định danh cấu kiện, các chuẩn openBIM đã có cách biểu diễn cho vấn đề, yêu cầu và hành động bảo trì. Ba tiền lệ dưới đây là nền mà mô hình thông tin của luận án mở rộng (mục 5.5).
+Ngoài định danh cấu kiện, các chuẩn openBIM đã có cách biểu diễn cho vấn đề, yêu cầu và hành động bảo trì. Ba tiền lệ dưới đây là nền mà mô hình thông tin của luận án mở rộng (mục 5.6.2).
 
 Thứ nhất, IFC4 có nhóm thực thể điều khiển cho quản lý vận hành. `IfcActionRequest` biểu diễn yêu cầu hành động, kể cả báo hỏng cho bảo trì, có trường trạng thái và gán được người yêu cầu, người thực hiện; `IfcProjectOrder` loại lệnh công việc bảo trì và `IfcTask` cũng mang trạng thái; `IfcApproval` ghi trạng thái phê duyệt, thời điểm, người đề nghị và người phê duyệt, kể cả phê duyệt nhiều cấp; `IfcPerformanceHistory` ghi dữ liệu đo theo thời gian từ hệ tự động hóa tòa nhà và gán được cho sản phẩm \[CẦN NGUỒN: IFC4 ADD2 TC1\]. Trường trạng thái lưu giá trị hiện tại, còn `IfcOwnerHistory` lưu lần sửa cuối của đối tượng.
 
@@ -63,7 +63,7 @@ Thứ ba, BIM Collaboration Format (BCF) 3.0 của buildingSMART biểu diễn v
 
 Ba tiền lệ cho thấy trạng thái, phê duyệt, lịch sử đổi trạng thái và liên kết vấn đề với cấu kiện đã có chuẩn biểu diễn. Phần mà luận án bổ sung nằm ở chỗ nối các cấu trúc đó với bằng chứng tình trạng: quan hệ định kiểu từ yêu cầu hay hành động về bằng chứng đã làm phát sinh nó, nguồn gốc và phạm vi hiệu lực của bằng chứng, và căn cứ cùng vai trò chuyên môn của từng lần đổi trạng thái. Theo nhận định của nghiên cứu sinh, trong IFC4 cả yêu cầu hành động lẫn lịch sử đo đều là lớp con của `IfcControl`, và quan hệ gán điều khiển cho điều khiển bị loại trừ, nên chưa có quan hệ định kiểu từ yêu cầu về dữ liệu quan trắc làm căn cứ. Hai khoảng trống tương ứng được phát biểu ở mục 5.2.
 
-### 2.2.3. Giới hạn của định danh và mô hình thông tin
+### 2.2.4. Giới hạn của định danh và mô hình thông tin
 
 Định danh đúng vẫn chưa đồng nghĩa với truy vết đầy đủ, vì ba lý do.
 
@@ -131,15 +131,15 @@ Cuối cùng, Song sinh số nên được đánh giá bằng năng lực đã t
 
 Vòng phản hồi mà nghiên cứu hướng tới trước hết là **vòng phản hồi thông tin trong quản lý tài sản**: dữ liệu từ công trình cập nhật lớp bằng chứng; kết quả kiểm tra và trạng thái hành động được ghi trở lại hồ sơ số; các bản ghi đó trở thành bối cảnh cho lần đánh giá tiếp theo. Mức độ vòng phản hồi này đáp ứng các tiêu chí Song sinh số sẽ được kiểm chứng ở nghiên cứu trường hợp.
 
-Mô hình phần tử hữu hạn không bắt buộc cho định vị này; trong phạm vi nghiên cứu, nó chỉ là **mô hình danh nghĩa, chưa hiệu chuẩn, dùng để tham chiếu và không dùng cho chẩn đoán hư hỏng** (mục 5.8.3).
+Mô hình phần tử hữu hạn không bắt buộc cho định vị này; trong phạm vi nghiên cứu, nó chỉ là **mô hình danh nghĩa, chưa hiệu chuẩn, dùng để tham chiếu và không dùng cho chẩn đoán hư hỏng** (mục 5.9.3).
 
 ## 2.5. Tổng hợp chương
 
 Chương 2 cho thấy quản lý nhà công nghiệp khung thép trong giai đoạn vận hành là bài toán quản lý thông tin theo thời gian. Chủ sở hữu cần biết dữ liệu thuộc cấu kiện nào, được tạo trong hoàn cảnh nào, gắn với hồ sơ nào và đã dẫn tới hành động gì. Sự phân tán giữa hệ cảm biến, BIM và hồ sơ bảo trì làm suy giảm khả năng truy vết và giải trình của quá trình ra quyết định.
 
-BIM và IFC là nền cho định danh cấu kiện và trao đổi thông tin nhưng không tự tạo ra chuỗi truy vết vận hành. Nhiều nghiên cứu đã liên kết cảm biến, dữ liệu vận hành và hồ sơ quản lý với đối tượng BIM, nên tích hợp cảm biến – BIM không còn là điểm mới; giá trị quản lý nằm ở việc duy trì quan hệ và lịch sử của các bản ghi khi thông tin đi qua nhiều hệ thống và nhiều thời điểm.
+BIM và IFC là nền cho định danh cấu kiện và trao đổi thông tin nhưng không tự tạo ra chuỗi truy vết vận hành. Nhiều nghiên cứu đã liên kết cảm biến, dữ liệu vận hành và hồ sơ quản lý với đối tượng BIM, nên tích hợp cảm biến – BIM không còn là điểm mới; giá trị quản lý nằm ở việc duy trì quan hệ và lịch sử của các bản ghi khi thông tin đi qua nhiều hệ thống và nhiều thời điểm. IFC4, BCF 3.0 và chuỗi IFC 4.3 của \[35\] đã biểu diễn được trạng thái, phê duyệt và lịch sử của vấn đề, yêu cầu và hành động bảo trì (mục 2.2.3); phần luận án bổ sung là quan hệ từ các cấu trúc đó về bằng chứng có phạm vi hiệu lực.
 
-Các nghiên cứu về Song sinh số mở rộng vấn đề từ mô hình thông tin tĩnh sang kiến trúc có dữ liệu động, liên thông, nguồn gốc dữ liệu và vòng phản hồi, đồng thời cho thấy năng lực của nó phải được đánh giá trên triển khai cụ thể. Tiểu luận giữ Song sinh số dựa trên dữ liệu làm mục tiêu kiến trúc; mức năng lực đạt được sẽ được kiểm chứng trong nghiên cứu trường hợp.
+Các nghiên cứu về Song sinh số mở rộng vấn đề từ mô hình thông tin tĩnh sang kiến trúc có dữ liệu động, liên thông, nguồn gốc dữ liệu và vòng phản hồi, đồng thời cho thấy năng lực của nó phải được đánh giá trên triển khai cụ thể. Tiểu luận giữ song sinh số dựa trên dữ liệu làm mục tiêu kiến trúc, khai báo ở mức bóng số theo \[8\]; mức năng lực đạt được sẽ được kiểm chứng trong nghiên cứu trường hợp.
 
 Kết luận của chương là để dữ liệu kỹ thuật tham gia được vào kiểm tra – bảo trì, cần chuyển từ **dữ liệu** sang **bằng chứng có bối cảnh**, từ **định danh cấu kiện** sang **quan hệ truy vết**, và từ **cảnh báo** sang **hồ sơ và hành động có căn cứ**.
 

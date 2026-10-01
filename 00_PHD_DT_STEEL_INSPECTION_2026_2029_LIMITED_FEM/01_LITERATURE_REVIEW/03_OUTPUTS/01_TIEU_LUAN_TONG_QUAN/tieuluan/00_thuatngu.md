@@ -7,7 +7,7 @@
 | BIM | Building Information Modeling | Mô hình thông tin công trình. Trong luận án dùng làm lớp ngữ cảnh cấu kiện |
 | IFC | Industry Foundation Classes | Lược đồ dữ liệu mở của buildingSMART cho trao đổi mô hình công trình giữa các phần mềm khác nhau. Là nền định danh cấu kiện của luận án |
 | GUID | Globally Unique Identifier | Mã định danh duy nhất toàn cục gán cho từng đối tượng |
-| GlobalId | GlobalId trong IFC | Thuộc tính định danh của đối tượng IFC, dạng chuỗi 22 ký tự. Mã này có thể đổi khi mô hình được xuất lại, nên tính bền vững của nó là vấn đề nghiên cứu ở Mục 2.2.3 |
+| GlobalId | GlobalId trong IFC | Thuộc tính định danh của đối tượng IFC, dạng chuỗi 22 ký tự. Mã này có thể đổi khi mô hình được xuất lại, nên tính bền vững của nó là vấn đề nghiên cứu ở Mục 2.2.4 |
 | IDS | Information Delivery Specification | Chuẩn của buildingSMART mô tả yêu cầu thông tin dưới dạng máy đọc được, và kiểm tra tự động xem mô hình có đáp ứng hay không. Đang thay thế mvdXML |
 | mvdXML | Model View Definition XML | Cơ chế cũ định nghĩa tập con của IFC cho một mục đích sử dụng. Đang được IDS thay thế |
 | ICDD | Information Container for Linked Document Delivery | Container theo ISO 21597 để đóng gói và liên kết tài liệu đa miền |
@@ -43,7 +43,7 @@
 |:---|:---|:---|
 | LORO | Leave-One-Run-Out | Giao thức đánh giá giữ lại toàn bộ dữ liệu của một lần chạy làm tập kiểm tra. Trả lời câu hỏi kết quả có khái quát sang lần chạy mới trong cùng bối cảnh hay không |
 | LOCO | Leave-One-Campaign-Out | Giữ lại trọn một đợt thí nghiệm, thường là sau khi tháo lắp lại. Khắt khe hơn LORO, trả lời câu hỏi kết quả có sống sót qua một lần lắp đặt mới hay không |
-| FEM | Finite Element Method | Phương pháp phần tử hữu hạn. Trong luận án chỉ giữ ở vai trò mô hình danh nghĩa chưa hiệu chuẩn, theo giới hạn ở Mục 5.8.3 |
+| FEM | Finite Element Method | Phương pháp phần tử hữu hạn. Trong luận án chỉ giữ ở vai trò mô hình danh nghĩa chưa hiệu chuẩn, theo giới hạn ở Mục 5.9.3 |
 | VoI | Value of Information | Giá trị của thông tin, lượng hóa lợi ích của việc thu thêm dữ liệu quan trắc trước khi ra quyết định |
 | RBI | Risk-Based Inspection | Kế hoạch kiểm tra theo rủi ro, chọn thời điểm và nội dung kiểm tra theo mức rủi ro và giá trị thông tin |
 

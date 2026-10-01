@@ -46,7 +46,7 @@ Hình 5.1 trình bày chuỗi định danh *Sensor_ID → BIM_GUID → Condition
 
 Quan hệ có thuộc tính giữa bản ghi kiểm tra và bằng chứng là **bản ghi sử dụng bằng chứng** (`EVIDENCE_USE`), gồm `Inspection_Record_ID`, `Condition_Evidence_ID`, `used_at`, `within_scope` (bằng chứng có nằm trong phạm vi hiệu lực tại thời điểm dùng hay không) và `justification` (lý do khi dùng ngoài phạm vi).
 
-### A.3. Định nghĩa thuật ngữ dùng ở Mục 5.6A và 5.7
+### A.3. Định nghĩa thuật ngữ dùng ở Mục 5.6 và 5.7
 
 **Bản ghi bằng chứng.** Một bản ghi `EVIDENCE`: nhận định về tình trạng của một hoặc nhiều cấu kiện, kèm nguồn tạo ra nó và phạm vi nó được phép dùng. Bản ghi không bị sửa đè; khi cần sửa, một bản ghi mới được tạo với `revision_of` trỏ về bản cũ.
 

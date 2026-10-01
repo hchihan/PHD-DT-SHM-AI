@@ -120,7 +120,7 @@ Cuối cùng phải xuất **bản giải trình tiếp thu góp ý**: góp ý �
 ### 4.2 Văn phong
 - Tiếng Việt học thuật, trang trọng; thuật ngữ tiếng Anh để trong ngoặc ở lần đầu.
 - Tách rõ **bằng chứng** (tài liệu nói gì) và **diễn giải** (tác giả suy ra gì).
-- Mỗi đóng góp có một câu khẳng định tích cực; các giới hạn gom về mục giới hạn (nhãn tạm 5.8, đánh số lại ở GĐ5).
+- Mỗi đóng góp có một câu khẳng định tích cực; các giới hạn gom về mục giới hạn (Mục 5.9 sau khi đánh số lại 02/10/2026).
   Không rải câu "không chứng minh…" trong thân bài.
 - Không dùng văn phong quảng bá, không phóng đại, không liệt kê kiểu gạch đầu dòng trong thân văn
   khi có thể viết thành đoạn.
@@ -154,7 +154,7 @@ Góp ý của thầy hướng dẫn: mật độ câu giới hạn quá dày, ng
 - **Loại B – tự hạ đóng góp** ("không phải đóng góp mới", "không phải kỹ thuật mới"): chuyển thành
   câu kế thừa có dẫn nguồn ("nghiên cứu kế thừa … từ [n]").
 - **Loại C – giới hạn kết luận:** xóa khỏi thân bài, thay bằng câu trỏ "Phạm vi diễn giải … được
-  trình bày ở Mục 5.8", và gom nội dung về mục giới hạn.
+  trình bày ở Mục 5.9", và gom nội dung về mục giới hạn.
 - **Giọng văn:** dùng "được xác lập trong phạm vi", "hướng mở rộng", "được thực hiện qua kiểm tra
   của kỹ sư"; tránh chuỗi phủ định liên tiếp.
 - Đây là việc của Giai đoạn 5. Danh sách câu và loại đề xuất nằm ở
@@ -226,7 +226,7 @@ Tiền lệ bắt buộc nêu (kết quả kiểm phản chứng GĐ2, 30/09/202
 
 ### 6.2 Việc tái cấu trúc (Giai đoạn 5)
 - Chuyển RQ và kiến trúc nghiên cứu từ Chương 1 sang Chương 5; xóa phần lặp.
-- Gom các câu giới hạn về mục giới hạn (nhãn tạm 5.8, đánh số lại ở GĐ5), cắt khoảng một nửa.
+- Gom các câu giới hạn về mục giới hạn (Mục 5.9), cắt khoảng một nửa. **Đã làm 02/10/2026** (danh sách v2).
 - Chuỗi định danh chi tiết + thang V1–V4 → Phụ lục A; 5 ràng buộc (mục 8) → Phụ lục B;
   ma trận RQ–WP–Paper–Gate: **bỏ Phụ lục C** (NCS quyết định 02/10/2026; Bảng 5.2 ở Chương 5 đã làm phần này).
 - 4.5.4: tách `priority_level` và `Action_Status`.
@@ -249,6 +249,13 @@ Tiền lệ bắt buộc nêu (kết quả kiểm phản chứng GĐ2, 30/09/202
 - Ch.5: 5.1 Tổng hợp; 5.2 Khoảng trống; 5.3 Luận đề; 5.4 RQ; 5.5 Schema đồ thị; 5.6 Công cụ AI [MỚI];
   5.7 Kiểm chứng – chỉ số [MỚI]; 5.8 Đóng góp; Phạm vi – giới hạn = mục giới hạn (nhãn tạm 5.8, đánh số lại ở GĐ5); 5.10 Lộ trình; 5.11 Tổng hợp.
 - Phụ lục A, B (Phụ lục C bỏ, 02/10/2026).
+- **Đã đánh số lại 02/10/2026** (cấu trúc thực tế, khác 6.3 ở chỗ giữ một số mục cũ):
+  Ch.1: 1.1 Bối cảnh; 1.2 Đối tượng (cũ 1.2A); 1.3 Bằng chứng trạng thái (cũ 1.3A); 1.4 Ba câu hỏi (cũ 1.4A); 1.5 Vấn đề (cũ 1.2);
+  1.6 Sự cần thiết (cũ 1.3); 1.7 Mục tiêu và phạm vi TLTQ (gộp cũ 1.4, 1.5); 1.8 Phương pháp (cũ 1.6); 1.9 Mục tiêu, RQ và kiến
+  trúc luận án (gộp cũ 1.7, 1.8); 1.10 Cấu trúc (cũ 1.9). Ch.2: 2.2.3 Chuẩn biểu diễn vấn đề – hành động (cũ 2.2.2A), 2.2.4 (cũ
+  2.2.3). Ch.3: 3.2 Hạn chế quan trắc (cũ 3.2A, gồm 3.2.4 cầu nối PTN – hiện trường), 3.3–3.6 (cũ 3.2–3.5). Ch.5: 5.7 Công cụ AI
+  (cũ 5.6A), 5.8 Đóng góp, 5.9 Phạm vi – giới hạn, 5.10 Định hướng, 5.11 Tổng hợp. Schema ở 5.6.2; kiểm chứng và chỉ số ở 5.5.2.
+  Bảng 1.1 (cũ 1.1A), Bảng 5.4 (cũ 5.6A), Bảng 5.5 (cũ 5.4). Các nhãn cũ ở mục 6.1, 9, 12 là ghi chép lịch sử.
 
 ### 6.4 Lưu ý cho Giai đoạn 6
 - Trước khi chèn bản khai báo AI tạo sinh, rà cột `muc_da_doc` của mọi bảng luận điểm – nguồn; tài liệu chỉ đọc tóm tắt phải được đọc thêm, hoặc chỉ dùng cho nhận định ở mức tóm tắt, để câu "mọi trích dẫn đều được đối chiếu với bản gốc" là đúng.
@@ -473,7 +480,7 @@ sáu tháng sau có sự cố, truy ngược được toàn bộ.
 | Rút gọn phạm vi, khóa 3 mục tiêu | ✅ NCS duyệt (01/10) | Mục 2 (QĐ 5, 7, 9–11), 2A, 6.0, 8, 9, 11, 13 |
 | GĐ3 Khoảng trống | ✅ NCS duyệt bản GĐ3b (01/10): G-A (A1, A2), G-B; F-1 (B1), F-2 (phỏng vấn) duyệt; còn gửi thầy | `revision/GD3_khoang_trong_va_muc_tieu.md`: bảng kiểm, hai khoảng trống (G-A 7 nhóm căn cứ trước 2025, G-B 6), ba mục tiêu MT1–MT3, ma trận, văn bản đề xuất thay 5.2 và RQ (785 từ, chưa chèn `tieuluan/`); `[CẦN NGUỒN]`: IFC4 ADD2 TC1, Khuyến nghị W3C SSN |
 | GĐ4 Viết mục mới (4.2–4.9) | ✅ Xong (02/10): 5.2, 1.2A, 3.2A, Dẫn nhập NCS duyệt | `tieuluan/01_chuong1.md` 1.2A (`revision/1_2A_luan_diem_nguon.csv`); `tieuluan/03_chuong3.md` 3.2A (gộp 3.6A; `revision/3_2A_luan_diem_nguon.csv`); `tieuluan/00_dannhap.md` mở bằng kịch bản cột C3 |
-| GĐ5 Tái cấu trúc | 🟡 Đã duyệt (02/10): đồng bộ Chương 5, Chương 1, Phụ lục A, B; Mục tiêu 1 ba mức đánh giá; Chương 2 (ISO 55000:2024, 2.2.2A); Chương 4 (4.2.1 SSN Deployment, 4.5.3, 4.5.4 + [44]). Xóa câu dẫn [80] ở 4.5.5; 1.4.1 khai báo bóng số (đã duyệt 02/10). Câu giới hạn: danh sách v2 duyệt và sửa toàn văn (02/10; 52 → 17 câu còn dạng phủ định, đều thuộc nhóm giữ), chờ NCS duyệt bản sửa | Còn: 6 tài liệu cầu ([77], [78] ở 4.5.3), [61], [62] ở 4.2.1 (chuyển sang Khuyến nghị W3C khi nhập Zotero), đánh số lại mục (rút trùng 1.1.1/1.2A, 3.1.1/3.2A.3; 2.4, 2.5, 3.5 nhắc mục mới); câu autoencoder chờ PDF Ghazimoghadam; toàn văn ISO 55000:2024 chưa tiếp cận |
+| GĐ5 Tái cấu trúc | 🟡 Đã duyệt (02/10): đồng bộ Ch.1, 2, 4, 5, Phụ lục A, B; MT1 ba mức; câu giới hạn v2; 6 tài liệu cầu (giữ [64], [66], [78]). Đánh số lại toàn bộ mục, bảng, tham chiếu chéo; rút trùng 1.1.1/1.2; 2.5, 3.6 nhắc mục mới (02/10), chờ NCS duyệt | Còn ngoài GĐ5: [61], [62] ở 4.2.1 (chuyển sang Khuyến nghị W3C khi nhập Zotero); câu autoencoder chờ PDF Ghazimoghadam; toàn văn ISO 55000:2024; giọng 5.9.2 (tùy chọn) |
 | GĐ6 Nhất quán & xuất bản | ⬜ | |
 
 ---
