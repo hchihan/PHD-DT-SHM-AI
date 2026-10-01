@@ -255,7 +255,7 @@ Một ứng viên chỉ được đưa vào GĐ3 khi trường "Phản chứng �
 ### 7.5 Cách viết cho luận điểm chưa có nguồn (NCS quyết định ở ĐD1, 30/09/2026)
 | Luận điểm | Cách viết |
 |---|---|
-| L1.1 (Việt Nam) | Số liệu chính thức về quy mô khu công nghiệp (NCS tự tìm) + nhận định của NCS từ thực tế kiểm định, ghi rõ là nhận định, không kèm tỷ trọng |
+| L1.1 (Việt Nam) | Số liệu chính thức về quy mô khu công nghiệp + nhận định của NCS từ thực tế kiểm định, ghi rõ là nhận định, không kèm tỷ trọng. **Mốc đã chốt (01/10/2026):** 478 KCN thành lập, 324 hoạt động, khoảng 11/2025, số liệu Cục ĐTNN (Bộ Tài chính) qua `XM5ZUP99`; chi tiết `revision/L1_1_so_lieu_KCN_da_kiem.md` |
 | L1.1 (quốc tế) | Saleem & Qureshi (2018) `J358BJ7Z` chỉ dùng cho nhận định chung "nhà thép tiền chế được dùng rộng rãi vì hiệu quả kinh tế"; không dùng làm căn cứ tỷ trọng |
 | L1.4 | Nhận định của NCS; kiểm ý "tránh gián đoạn" trong toàn văn Torres-Barriuso và cs. (2025) `QMVQCEL5` trước khi trích |
 | L1.5, L2.4, L3.1 | Trích đúng đối tượng của nguồn (kết cấu thép ngoài trời, cầu); việc áp sang nhà xưởng ghi là diễn giải |
@@ -401,7 +401,7 @@ sáu tháng sau có sự cố, truy ngược được toàn bộ.
 | Hạng mục | Trạng thái | Ghi chú |
 |---|---|---|
 | Kế hoạch 7 giai đoạn | ✅ Đã duyệt | |
-| 4.1 Mục 5.6A Công cụ AI | ✅ Đã duyệt (chờ hoàn thiện 2 câu khi có PDF) (29/09) | `tieuluan/05_chuong5.md` mục 5.6A, 1.691 từ, 1 bảng; nguồn: `revision/5_6A_luan_diem_nguon.csv`; chờ PDF: xem `revision/viec_ton_dong_GD0.md` mục 5 |
+| 4.1 Mục 5.6A Công cụ AI | ✅ Đã duyệt; câu đồng liên kết hoàn thiện theo toàn văn Cross 2011 (01/10); còn câu autoencoder chờ PDF Ghazimoghadam | `tieuluan/05_chuong5.md` mục 5.6A, 1.691 từ, 1 bảng; nguồn: `revision/5_6A_luan_diem_nguon.csv`; chờ PDF: xem `revision/viec_ton_dong_GD0.md` mục 5 |
 | 4.3 Mục 1.3A, 1.4A (Chương 1) | 🟡 Chờ duyệt, đã sửa 1.3A theo góp ý (30/09) | `tieuluan/01_chuong1.md`, nhãn tạm đặt sau 1.2 hiện có; 1.3A ba thành phần, ba nguồn bằng chứng; 1.4A 389 từ; nguồn hợp nhất: `revision/1_3A_nguon_hop_nhat.md` |
 | 5.6A Chuẩn bị nguồn | ✅ Xong (29/09) | 13 tài liệu nhập vào TL-Key/Bổ sung (tag 5.6A); 5 dự phòng; PDF ưu tiên: Wang & Cha, Figueiredo, Hughes, Bull 2022 (revision/bao_cao_nguon_5_6A.md mục 6). Quyết định viết ở mục 9. Chưa viết 5.6A |
 | GĐ0 Chuẩn bị | ✅ ĐD0 đã duyệt (29/09) | Markdown + đối chiếu 84 tài liệu xong (28–29/09); tồn đọng: `revision/viec_ton_dong_GD0.md` |

@@ -90,14 +90,14 @@ Torres-Barriuso và cs. 2025 (QMVQCEL5), Ostachowicz và cs. 2019 (Z5JM78G6), To
 
 | Văn bản | Khóa Zotero | PDF | Ghi chú |
 |---|---|---|---|
-| Nghị định số 207/2026/NĐ-CP | R5P8K8CG | có | Số [11] trong danh mục; đã trích ở 1.1. Trạng thái xác minh: NCS tự đối chiếu văn bản gốc (viec_ton_dong_GD0 mục 3) |
+| Nghị định số 207/2026/NĐ-CP | R5P8K8CG | có | Số [11] trong danh mục; đã trích ở 1.1. Còn hiệu lực (NCS kiểm 01/10/2026) |
 | Thông tư số 32/2026/TT-BXD | HNY4EZVB | có | Chưa trích trong tiểu luận |
-| TCVN 9381:2012 Hướng dẫn đánh giá mức độ nguy hiểm của kết cấu nhà | NDR2XMRJ | có | Chưa trích trong tiểu luận |
+| TCVN 9381:2012 Hướng dẫn đánh giá mức độ nguy hiểm của kết cấu nhà | NDR2XMRJ | có | Chưa trích trong tiểu luận; còn hiệu lực (NCS kiểm 01/10/2026) |
 | ISO 55000:2024 | 8PB7EN2E | không | Ấn bản 2, 07/2024, thay ISO 55000:2014 (iso.org, xem 30/09/2026) |
 | ISO 9223:2012 (phân loại ăn mòn khí quyển) | T7BI4AMW | không | Dùng kèm L1.3 nếu cần |
 
 Ba văn bản Việt Nam không có DOI; tôi không xác minh lại nội dung trên cơ sở dữ liệu văn bản pháp luật
-trong phiên này. Phiên bản hiện hành của TCVN 9381 cần NCS kiểm lại trước khi trích.
+trong phiên này. Cập nhật 01/10/2026: NCS xác nhận Nghị định 207/2026/NĐ-CP và TCVN 9381:2012 còn hiệu lực.
 
 ## 5. Đề xuất danh sách tài liệu key cuối cùng (30 tài liệu)
 

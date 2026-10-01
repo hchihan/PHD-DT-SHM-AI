@@ -209,6 +209,7 @@ Tình trạng phản chứng (30/09/2026, sau phiên T1-1): UV-03 đã kiểm h�
 - **Ghi chú T2-1 (01/10/2026):** Figueiredo 2011 `23TBQTIP` xếp giảm độ cứng cột vào nhóm "chưa hư hỏng" để mô phỏng biến động vận hành – môi trường, còn hư hỏng là phi tuyến va chạm (tr. 565, Bảng 1). [NCS] Một suy giảm liên kết chỉ làm giảm độ cứng (không va đập) vì vậy dễ bị coi là biến động bình thường; điều này củng cố việc phải ghi trạng thái lắp ráp và can thiệp vào phạm vi hiệu lực. Không tính là căn cứ.
 - **Số căn cứ độc lập:** 4 ([18] 2019, [53] 2023 (phương pháp chung), [56] 2024 đọc một phần, [19] 2025); trước 2025: 3, trong đó [56] chưa đọc đủ.
 - **Phản chứng đã kiểm:** **chưa kiểm**. Cần đối chiếu: SHM theo quần thể [57] Bull 2021 và phần III (Gardner 2021), thích nghi miền [56]; bù EOV và đồng liên kết (Cross 2011); phát hiện thay đổi đường cơ sở sau bảo trì trong các nghiên cứu theo dõi dài hạn.
+  - *Cross 2011 `KPWFC4PI` — đã kiểm 01/10/2026 (toàn văn):* không giải quyết. Bài chỉ yêu cầu tập huấn luyện là trạng thái bình thường (tr. 2728), không bàn lần lắp ráp hay can thiệp. Theo tr. 2715, mọi sự kiện đổi quan hệ giữa các biến đều làm phần dư mất tính dừng; [NCS] một lần siết lại cũng có thể làm vậy, nên sau can thiệp phải ghi sự kiện và lập lại tập huấn luyện — củng cố UV-06, không tính là căn cứ. Các mục còn lại vẫn **chưa kiểm**.
 - **Phát biểu đã thu hẹp:** chưa có; chờ kết quả kiểm.
 
 ## UV-07 — Xác nhận của chuyên gia đối với đầu ra AI được dùng làm tín hiệu học, chưa được ghi như bản ghi trách nhiệm

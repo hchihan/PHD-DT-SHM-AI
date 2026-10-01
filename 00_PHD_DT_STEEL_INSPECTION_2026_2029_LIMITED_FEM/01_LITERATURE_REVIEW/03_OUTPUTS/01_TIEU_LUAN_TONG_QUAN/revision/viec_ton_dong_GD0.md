@@ -56,6 +56,13 @@ Văn bản pháp luật, không có DOI, nên không xác minh được qua Cros
 Công báo hoặc cơ sở dữ liệu văn bản pháp luật quốc gia (số hiệu, ngày ban hành, ngày hiệu lực,
 các điều được trích: 34, 37) rồi cập nhật cột `trang_thai_xuat_ban` trong `doi_chieu_danh_muc.csv`.
 
+**Cập nhật 01/10/2026:** NCS xác nhận Nghị định 207/2026/NĐ-CP và TCVN 9381:2012 (NDR2XMRJ) còn hiệu lực;
+Nghị định 207/2026 và Thông tư 32/2026/TT-BXD (HNY4EZVB) có hiệu lực từ 01/7/2026 (đã ghi Extra của cả hai bản ghi).
+Đã ghi vào trường Extra của R5P8K8CG và NDR2XMRJ trong Zotero; cột `trang_thai_xuat_ban` của [11] đổi thành
+"còn hiệu lực (NCS kiểm 01/10/2026)". Còn mở: (a) bản ghi R5P8K8CG chưa có ngày ban hành (trường Date trống);
+(b) đối chiếu nội dung Điều 34, 37 với đoạn trích ở 1.1. Đã đóng: (c) tên TCVN 9381 — NCS xác nhận tên chính thức là
+"mức độ nguy hiểm", khớp bản ghi Zotero; tên tệp PDF đính kèm ("mức độ hư hỏng") không ảnh hưởng trích dẫn.
+
 ## 4. Việc khác
 
 - [80] T. Bull và cs.: sửa năm danh mục 2025 → 2026 theo bản in (khi đánh số lại ở GĐ6).
@@ -68,8 +75,22 @@ các điều được trích: 34, 37) rồi cập nhật cột `trang_thai_xuat_
 
 | Tài liệu | Khóa Zotero | Tình trạng | Việc cần làm khi có tệp trong `pdf/` |
 |---|---|---|---|
-| Cross, Worden & Chen (2011), Proc. R. Soc. A 467: 2712–2732 | KPWFC4PI | Truy cập đóng; không có bản lưu trữ mở | Đọc phần phương pháp; chỉnh câu về đồng liên kết ở 5.6A.3; cập nhật `notes/KPWFC4PI.md` và cột `muc_da_doc` |
-| Ghazimoghadam & Hosseinzadeh (2024), Measurement 229: 114410 | G98ZWHKW | ScienceDirect chặn bằng CAPTCHA; không có bản lưu trữ mở | Đọc phần phương pháp; chỉnh câu về autoencoder và bu lông nới lỏng ở 5.6A.3; cập nhật `notes/G98ZWHKW.md` và cột `muc_da_doc` |
+| Cross, Worden & Chen (2011), Proc. R. Soc. A 467: 2712–2732 | KPWFC4PI | **Xong 01/10/2026**: đọc toàn văn; câu 5.6A.3 đã hoàn thiện; `notes/KPWFC4PI.md`, cột `muc_da_doc` đã cập nhật | Đọc phần phương pháp; chỉnh câu về đồng liên kết ở 5.6A.3; cập nhật `notes/KPWFC4PI.md` và cột `muc_da_doc` |
+| Ghazimoghadam & Hosseinzadeh (2024), Measurement 229: 114410 | G98ZWHKW | ScienceDirect chặn bằng CAPTCHA; không có bản lưu trữ mở; NCS cũng không tải được (01/10/2026) | Đọc phần phương pháp; chỉnh câu về autoencoder và bu lông nới lỏng ở 5.6A.3; cập nhật `notes/G98ZWHKW.md` và cột `muc_da_doc` |
 | Hughes và cs. (2022), bản in MSSP 167: 108569 | Z9RD5DMZ | Đã có bản tiền in arXiv v2; bản in truy cập đóng | Đối chiếu bản in với bản tiền in; cập nhật số trang trong `revision/5_6A_luan_diem_nguon.csv` và `notes/Z9RD5DMZ.md` |
 
 Lưu tệp với tên bắt đầu bằng khóa Zotero (ví dụ `pdf/KPWFC4PI_Cross2011.pdf`) và liên kết vào Zotero dạng linked file.
+
+### 5.1 Đợt tải PDF 01/10/2026 (tài liệu GĐ1–GĐ2)
+
+| Tài liệu | Khóa | Kết quả | Phục vụ |
+|---|---|---|---|
+| Graybeal và cs. (2002), J. Nondestruct. Eval. 21(3) | 8IMKCTE5 | Có: `pdf/8IMKCTE5_Graybeal2002.pdf` (17 tr., khớp tiêu đề, tác giả) | L2.4 |
+| Phares và cs. (2004), J. Bridge Eng. 9(4) | J7FAWJ8I | Có: `pdf/J7FAWJ8I_Phares2004.pdf` (11 tr., khớp tiêu đề, tác giả) | L2.4 |
+| Cross, Worden & Chen (2011) | KPWFC4PI | Có (xem bảng trên) | 5.6A.3, UV-08 |
+| Condotta & Scanagatta (2023), J. Build. Eng. | QBTTSBTH | NCS không tải được | Phản chứng CMMS, UV-01 (vẫn "chưa kiểm") |
+| Junker (1969), SAE 690055 | W6IUU4MF | NCS không tải được | L1.2 |
+| Iordachescu và cs. (2022), Eng. Fail. Anal. 137 | X2UZWVJG | NCS không tải được | L1.5 |
+| Ghazimoghadam & Hosseinzadeh (2024) | G98ZWHKW | NCS không tải được | 5.6A.3 |
+
+Ba PDF mới chưa liên kết vào Zotero (NCS làm trong Zotero desktop: Add Attachment → Attach Link to File).

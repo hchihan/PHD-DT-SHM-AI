@@ -265,3 +265,17 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - `GD1_luan_diem_can_nguon.csv`: thêm cột `doan_dung_duoc` cho L2.1, L2.2, L2.3, L3.1, L4.1, ghi phần còn là diễn giải của NCS.
 - Nhật ký khoảng trống: nhập căn cứ 5.6A (Bull 2022, Hughes 2022, Wang & Cha 2021, Figueiredo 2011) vào UV-02 và UV-05; quy ước đếm nhóm tác giả Sheffield – Los Alamos là một; UV-05 kiểm phản chứng một phần (Hughes, Bull 2022) và có phát biểu thu hẹp đề xuất; tạo UV-08 (nhiễu vận hành nhà xưởng) với phản chứng Zotero + 3 truy vấn Consensus (7 ứng viên, DOI xác minh Crossref, chưa nhập Zotero).
 - Ma trận 5 dòng; tag Zotero Doc:toan_van và K tương ứng; kế hoạch đọc; CLAUDE.md mục 12. Không sửa tiểu luận.
+
+## Phiên 01/10/2026 (7) – hiệu lực Nghị định 207/2026 và TCVN 9381:2012
+- NCS xác nhận cả hai văn bản còn hiệu lực. Zotero: ghi trường Extra của R5P8K8CG, NDR2XMRJ.
+- `matrix/doi_chieu_danh_muc.csv` dòng [11]: `trang_thai_xuat_ban` "không xác minh được" → "còn hiệu lực (NCS kiểm 01/10/2026)".
+- `revision/viec_ton_dong_GD0.md` mục 3, `revision/bao_cao_GD1.md` mục 4, `revision/GD1_ung_vien.csv` (L1.6): ghi kết quả. Còn mở: ngày ban hành trong bản ghi Zotero, đối chiếu Điều 34, 37, tên chính thức TCVN 9381.
+- Bổ sung (cùng phiên): NCS xác nhận Nghị định 207/2026 và Thông tư 32/2026/TT-BXD (HNY4EZVB) có hiệu lực từ 01/7/2026 (ghi Extra cả hai bản ghi, cột trạng thái dòng [11]); tên TCVN 9381 là "mức độ nguy hiểm", khớp Zotero.
+- Đợt tải PDF: có Cross 2011, Graybeal 2002, Phares 2004 trong `pdf/` (kiểm trang đầu khớp DOI/tiêu đề); NCS không tải được Condotta 2023, Junker 1969, Iordachescu 2022, Ghazimoghadam 2024. Ghi ở `viec_ton_dong_GD0.md` mục 5, 5.1.
+
+## Phiên 01/10/2026 (8) – đọc Cross 2011, Graybeal 2002, Phares 2004; kiểm số liệu KCN cho L1.1
+- Cross, Worden & Chen 2011 `KPWFC4PI`: đọc toàn văn (PDF NCS cung cấp); viết lại `notes/KPWFC4PI.md`. 5.6A.3: hoàn thiện câu đồng liên kết (thêm "không cần đo điều kiện môi trường – vận hành", yêu cầu tập huấn luyện, tr. 2728). `5_6A_luan_diem_nguon.csv`: vị trí trang, `muc_da_doc` = toàn văn. Nhật ký khoảng trống UV-06: Cross 2011 đã kiểm phản chứng, không giải quyết.
+- Graybeal 2002 `8IMKCTE5`, Phares 2004 `J7FAWJ8I`: đọc toàn văn; tạo `notes/8IMKCTE5.md`, `notes/J7FAWJ8I.md`; điền `doan_dung_duoc` cho L2.4 (hai bài cùng một nghiên cứu FHWA, tính là một căn cứ).
+- L1.1: kiểm nguyên văn bảng Perplexity của NCS (subagent mở từng trang). Nhập Zotero (TL-Key/Bổ sung; tag GD1, L1.1, nguon-chinh-thuc-VN): `EC43U223` (447 KCN cuối 2024), `XM5ZUP99` (478 KCN ~11/2025), `TAA8G76D` (lấp đầy 75 % năm 2025). 3 dòng `moi` trong `doi_chieu_danh_muc.csv`; `doan_dung_duoc` cho L1.1; tổng hợp ở `revision/L1_1_so_lieu_KCN_da_kiem.md`. Không dùng số MPI 7/2024 (trang lỗi), số JLL, bài VnEconomy (thứ cấp).
+- Không sửa tiểu luận ngoài một câu ở 5.6A.3.
+- NCS duyệt (01/10/2026): mốc L1.1 = 478/324 (~11/2025, `XM5ZUP99`); câu 5.6A.3 đã sửa. CLAUDE.md mục 7.5 (L1.1) và mục 12 (4.1) cập nhật.
