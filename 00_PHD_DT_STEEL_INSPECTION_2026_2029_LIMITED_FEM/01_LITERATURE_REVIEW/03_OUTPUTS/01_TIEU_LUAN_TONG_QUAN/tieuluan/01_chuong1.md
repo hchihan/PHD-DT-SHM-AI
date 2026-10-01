@@ -22,11 +22,11 @@ Khoảng cách giữa **có dữ liệu** và **có bằng chứng dùng đượ
 
 Khái niệm Song sinh số được dùng với nhiều mức năng lực khác nhau trong các nghiên cứu. Kritzinger và cộng sự (2018) phân biệt mô hình số, bóng số và song sinh số theo chiều và mức tự động của luồng dữ liệu giữa đối tượng vật lý với biểu diễn số \[8\]; Sepasgozar (2021) đưa sự phân biệt này vào môi trường xây dựng \[9\]; Chen và cộng sự (2021) tiếp cận Song sinh số trong quản lý tài sản bằng mô hình trưởng thành nhiều chiều \[10\]. Cả ba cách phân loại cùng cho thấy mức năng lực của một hệ thống phải được đánh giá trên các chức năng thực có, không suy ra từ tên gọi.
 
-Việc nối BIM với cảm biến tự nó chưa đủ để gọi một hệ thống là song sinh số. Luận án dùng phân loại của \[8\] để khai báo mức tích hợp: dữ liệu đi tự động từ công trình vào mô hình số, còn mọi tác động trở lại công trình đi qua quyết định của con người, nên hệ thống ở mức bóng số (digital shadow); tên đề tài giữ cụm "song sinh số dựa trên dữ liệu" theo hướng kiến trúc, kèm khai báo này (mục 5.6.6). Trong kiến trúc đó, dữ liệu từ tài sản vật lý được tổ chức thành bằng chứng trạng thái có nguồn gốc và phạm vi hiệu lực; bằng chứng được liên kết với cấu kiện trong BIM và hồ sơ kiểm tra; trạng thái hành động kiểm tra – bảo trì được ghi trở lại hệ thống thông tin và trở thành bối cảnh cho các lần đánh giá sau. Mô hình phần tử hữu hạn không phải điều kiện để định nghĩa khung; nếu được sử dụng, đó chỉ là **mô hình danh nghĩa, chưa hiệu chuẩn, dùng để tham chiếu và không dùng cho chẩn đoán hư hỏng**. Dự báo tuổi thọ còn lại, bảo trì dự báo, suy luận suy giảm độ cứng và tự động tác động lên tài sản không thuộc mục tiêu hiện tại.
+Việc nối BIM với cảm biến tự nó chưa đủ để gọi một hệ thống là song sinh số. Luận án dùng phân loại của \[8\] để khai báo mức tích hợp: dữ liệu đi tự động từ công trình vào mô hình số, còn mọi tác động trở lại công trình đi qua quyết định của con người, nên hệ thống ở mức bóng số (digital shadow); tên đề tài giữ cụm "song sinh số dựa trên dữ liệu" theo hướng kiến trúc, kèm khai báo này (mục 5.6.6). Trong kiến trúc đó, dữ liệu từ tài sản vật lý được tổ chức thành bằng chứng trạng thái có nguồn gốc và phạm vi hiệu lực; bằng chứng được liên kết với cấu kiện trong BIM và hồ sơ kiểm tra; trạng thái hành động kiểm tra – bảo trì được ghi trở lại hệ thống thông tin và trở thành bối cảnh cho các lần đánh giá sau. Nếu được sử dụng, mô hình phần tử hữu hạn là **mô hình danh nghĩa, chưa hiệu chuẩn, dùng để tham chiếu, không dùng cho chẩn đoán hư hỏng** (Mục 5.8.3). Dự báo tuổi thọ còn lại, bảo trì dự báo, suy luận suy giảm độ cứng và tự động tác động lên tài sản không thuộc mục tiêu hiện tại.
 
 ### 1.1.4. Bối cảnh quản lý bảo trì và mô hình thông tin công trình tại Việt Nam
 
-Tại Việt Nam, bảo trì công trình xây dựng hiện được quy định chi tiết tại Nghị định số 207/2026/NĐ-CP ngày 15/6/2026 của Chính phủ, có hiệu lực từ ngày 01/7/2026 và thay thế Nghị định số 06/2021/NĐ-CP \[11\]. Nghị định xác định quy trình bảo trì là tài liệu quy định trình tự, nội dung và chỉ dẫn thực hiện các công việc bảo trì. Nội dung chính của quy trình bảo trì gồm, cùng các nội dung khác, quy định đối tượng, phương pháp và tần suất kiểm tra công trình, và quy định về hồ sơ bảo trì cùng việc cập nhật thông tin vào hồ sơ này (Điều 34). Quan trắc phục vụ bảo trì được yêu cầu trong các trường hợp cụ thể: công trình có dấu hiệu lún, nghiêng, nứt hoặc bất thường khác có khả năng gây sập đổ; theo yêu cầu của chủ đầu tư, chủ sở hữu hoặc chủ quản lý sử dụng; và công trình thuộc danh mục phải quan trắc theo quy định chuyên ngành (Điều 37). Đây không phải yêu cầu chung cho mọi công trình.
+Tại Việt Nam, bảo trì công trình xây dựng hiện được quy định chi tiết tại Nghị định số 207/2026/NĐ-CP ngày 15/6/2026 của Chính phủ, có hiệu lực từ ngày 01/7/2026 và thay thế Nghị định số 06/2021/NĐ-CP \[11\]. Nghị định xác định quy trình bảo trì là tài liệu quy định trình tự, nội dung và chỉ dẫn thực hiện các công việc bảo trì. Nội dung chính của quy trình bảo trì gồm, cùng các nội dung khác, quy định đối tượng, phương pháp và tần suất kiểm tra công trình, và quy định về hồ sơ bảo trì cùng việc cập nhật thông tin vào hồ sơ này (Điều 34). Quan trắc phục vụ bảo trì được yêu cầu trong các trường hợp cụ thể: công trình có dấu hiệu lún, nghiêng, nứt hoặc bất thường khác có khả năng gây sập đổ; theo yêu cầu của chủ đầu tư, chủ sở hữu hoặc chủ quản lý sử dụng; và công trình thuộc danh mục phải quan trắc theo quy định chuyên ngành (Điều 37). Quan trắc vì vậy là yêu cầu theo từng trường hợp.
 
 Về mô hình thông tin công trình, Quyết định số 258/QĐ-TTg ngày 17/3/2023 phê duyệt lộ trình áp dụng BIM, trong đó BIM là bắt buộc từ năm 2023 với công trình cấp I và cấp đặc biệt, và từ năm 2025 với công trình cấp II trở lên, thuộc các dự án đầu tư xây dựng mới sử dụng vốn đầu tư công, vốn nhà nước ngoài đầu tư công và đầu tư theo phương thức đối tác công tư \[12\]. Quyết định cũng yêu cầu chủ đầu tư các dự án áp dụng BIM theo lộ trình tổ chức cập nhật mô hình để phục vụ quản lý, vận hành và bảo trì công trình (Điều 1, khoản 3, điểm g).
 
@@ -70,7 +70,7 @@ Thông tin giám sát, kiểm tra và bảo trì có thể tồn tại đồng t
 
 Với người quản lý, một cảnh báo chỉ có giá trị khi trả lời được chuỗi câu hỏi: cảnh báo xuất phát từ cảm biến nào, cảm biến đó phục vụ cấu kiện nào, dữ liệu được thu trong điều kiện nào, kết quả được tạo bằng phiên bản xử lý và giao thức đánh giá nào, bằng chứng có hiệu lực tới đâu, cấu kiện đã được kiểm tra chưa, hồ sơ nào liên quan, ai đã rà soát và hành động hiện đang ở trạng thái nào. Nếu phải tra thủ công qua nhiều hệ thống mới trả lời được, khả năng giải trình và kiểm lại quyết định sẽ bị hạn chế.
 
-Bài toán của luận án vì thế không phải tìm mô hình học máy có điểm số cao nhất. Mô hình học máy và học sâu là công cụ tạo bằng chứng kỹ thuật. Câu hỏi khoa học là làm thế nào để bằng chứng đó được **xác lập chất lượng**, được **giới hạn phạm vi sử dụng**, được **liên kết đúng đối tượng** và được **duy trì trong chuỗi thông tin quản lý**.
+Bài toán của luận án vì thế là xác định kết quả học máy dùng được trong phạm vi nào. Mô hình học máy và học sâu là công cụ tạo bằng chứng kỹ thuật. Câu hỏi khoa học là làm thế nào để bằng chứng đó được **xác lập chất lượng**, được **giới hạn phạm vi sử dụng**, được **liên kết đúng đối tượng** và được **duy trì trong chuỗi thông tin quản lý**.
 
 ### 1.2.2. Từ kết quả phân loại đến bằng chứng trạng thái
 
@@ -86,9 +86,9 @@ Những nguyên tắc này không mới; giá trị của chúng là làm rõ **
 
 ### 1.2.4. Từ bằng chứng đến hỗ trợ hành động có thể giải trình
 
-Hệ thống quản lý tài sản không dừng ở việc hiển thị trạng thái cấu kiện. Sau một dấu hiệu bất thường, người quản lý phải quyết định có kiểm tra hay không, ai chịu trách nhiệm, kết quả kiểm tra thay đổi nhận định ban đầu thế nào và hành động tiếp theo được ghi nhận ra sao. Từng phần của quá trình này đã có tiền lệ. Çelik và cộng sự (2023) ghi nguồn gốc dữ liệu, tác nhân, thời điểm và phiên bản trong trao đổi thông tin xây dựng \[16\]; Wu và cộng sự (2026) phát triển khung kiểm định công trình có chuyên gia tương tác và rà soát \[17\]; các tiền lệ về bản ghi sửa chữa, trạng thái hoàn thành và điều hướng giữa BIM với hệ quản lý bảo trì được trình bày ở mục 4.3 và mục 4.5. Con người trong quy trình, bản ghi sửa chữa hay trạng thái hoàn thành vì vậy đều không phải khoảng trống riêng.
+Hệ thống quản lý tài sản không dừng ở việc hiển thị trạng thái cấu kiện. Sau một dấu hiệu bất thường, người quản lý phải quyết định có kiểm tra hay không, ai chịu trách nhiệm, kết quả kiểm tra thay đổi nhận định ban đầu thế nào và hành động tiếp theo được ghi nhận ra sao. Từng phần của quá trình này đã có tiền lệ. Çelik và cộng sự (2023) ghi nguồn gốc dữ liệu, tác nhân, thời điểm và phiên bản trong trao đổi thông tin xây dựng \[16\]; Wu và cộng sự (2026) phát triển khung kiểm định công trình có chuyên gia tương tác và rà soát \[17\]; các tiền lệ về bản ghi sửa chữa, trạng thái hoàn thành và điều hướng giữa BIM với hệ quản lý bảo trì được trình bày ở mục 4.3 và mục 4.5. Luận án kế thừa các thành phần này (con người trong quy trình, bản ghi sửa chữa, trạng thái hoàn thành) từ các tiền lệ nêu trên.
 
-Phần còn lại nằm ở khả năng giải trình của **điểm nối từ bằng chứng tới hành động**. Khi một hành động được đề xuất hoặc chuyển trạng thái, người quản lý cần truy ngược được tới căn cứ kỹ thuật đã dùng và biết căn cứ đó có hiệu lực trong phạm vi nào; lịch sử rà soát, vai trò, thời điểm và kết quả xử lý cũng phải tái dựng được. Ở giai đoạn tổng quan, **bằng chứng chưa đủ để khẳng định sự vắng mặt phổ quát** của một chuỗi như vậy trong các nghiên cứu quốc tế. Luận án chỉ giữ phát biểu trong phạm vi tập tài liệu đã rà soát và coi đây là một điểm nối cần kiểm chứng, không phải một tuyên bố “lần đầu tiên”.
+Phần còn lại nằm ở khả năng giải trình của **điểm nối từ bằng chứng tới hành động**. Khi một hành động được đề xuất hoặc chuyển trạng thái, người quản lý cần truy ngược được tới căn cứ kỹ thuật đã dùng và biết căn cứ đó có hiệu lực trong phạm vi nào; lịch sử rà soát, vai trò, thời điểm và kết quả xử lý cũng phải tái dựng được. Ở giai đoạn tổng quan, **bằng chứng chưa đủ để khẳng định sự vắng mặt phổ quát** của một chuỗi như vậy trong các nghiên cứu quốc tế. Phạm vi của phát biểu này được trình bày ở Mục 5.8.4.
 
 ### 1.2.5. Chuỗi nghiên cứu
 
@@ -181,7 +181,7 @@ Tiểu luận thực hiện năm mục tiêu cụ thể:
 
 5\. Tạo cơ sở để Chương 5 tổng hợp khoảng trống, xác lập các câu hỏi nghiên cứu, kiến trúc nghiên cứu và thiết kế kiểm chứng của luận án.
 
-Tiểu luận không nhằm trình bày kết quả cuối cùng của thí nghiệm, không sử dụng kết quả sơ bộ để chứng minh trước câu trả lời cho câu hỏi nghiên cứu và không thay thế các bài báo chuyên đề của luận án.
+Tiểu luận trình bày thiết kế và công cụ của thực nghiệm; kết quả thực nghiệm được báo cáo trong các bài báo chuyên đề của luận án.
 
 ## 1.5. Đối tượng và phạm vi tổng quan
 
@@ -189,7 +189,7 @@ Tiểu luận không nhằm trình bày kết quả cuối cùng của thí nghi
 
 Đối tượng tổng quan gồm các nghiên cứu và tài liệu chuẩn thuộc bốn nhóm gắn với chuỗi nghiên cứu: (1) quản lý tài sản, quản lý thông tin giai đoạn vận hành và Song sinh số trong môi trường xây dựng; (2) theo dõi trạng thái bằng dữ liệu dao động, cách tổ chức và đánh giá bằng chứng trạng thái; (3) BIM, IFC, định danh cấu kiện và liên kết dữ liệu cảm biến với mô hình thông tin; (4) hồ sơ kiểm tra – bảo trì, nguồn gốc dữ liệu, kiểm chứng quan hệ, khả năng truy vết và hỗ trợ hành động có con người rà soát.
 
-Đối tượng ứng dụng trọng tâm của luận án là nhà công nghiệp khung thép. Mô hình khung thép 1:10 và bối cảnh công trình thực được xác định như **hai môi trường kiểm chứng dự kiến**, không phải kết quả được trình bày trong Tiểu luận tổng quan. Các nguyên tắc về quản trị bằng chứng, định danh và truy vết được xây dựng ở mức khái niệm có thể xem xét chuyển dụng cho các loại kết cấu và tài sản công trình khác; tuy nhiên, mọi tuyên bố tổng quát hóa ngoài đối tượng nhà công nghiệp khung thép cần được kiểm chứng riêng và không thuộc phạm vi kết luận của Tiểu luận này.
+Đối tượng ứng dụng trọng tâm của luận án là nhà công nghiệp khung thép. Mô hình khung thép 1:10 và bối cảnh công trình thực được xác định là hai môi trường kiểm chứng dự kiến của luận án. Các nguyên tắc về quản trị bằng chứng, định danh và truy vết được xây dựng ở mức khái niệm có thể xem xét chuyển dụng cho các loại kết cấu và tài sản công trình khác; tuy nhiên, mọi tuyên bố tổng quát hóa ngoài đối tượng nhà công nghiệp khung thép cần được kiểm chứng riêng và không thuộc phạm vi kết luận của Tiểu luận này.
 
 ### 1.5.2. Phạm vi của Tiểu luận tổng quan
 
@@ -211,7 +211,7 @@ Bất thường trong dữ liệu vận hành dẫn tới xem xét và kiểm tr
 
 ### 1.6.1. Cách tiếp cận
 
-Tiểu luận sử dụng **tổng quan tài liệu theo chủ đề có cấu trúc**, không tự nhận là tổng quan hệ thống toàn diện hay phân tích thư mục định lượng. Vấn đề nghiên cứu đi qua nhiều miền kiến thức: quản lý tài sản, BIM/IFC, Song sinh số, theo dõi trạng thái bằng dao động, học máy, nguồn gốc dữ liệu, quản lý hồ sơ kiểm tra và hỗ trợ hành động. Mục tiêu vì thế là xác định các tiền lệ và giới hạn ảnh hưởng trực tiếp tới chuỗi nghiên cứu, không phải đếm toàn bộ công bố của từng miền.
+Tiểu luận sử dụng **tổng quan tài liệu theo chủ đề có cấu trúc**, không tự nhận là tổng quan hệ thống toàn diện hay phân tích thư mục định lượng. Vấn đề nghiên cứu đi qua nhiều miền kiến thức: quản lý tài sản, BIM/IFC, Song sinh số, theo dõi trạng thái bằng dao động, học máy, nguồn gốc dữ liệu, quản lý hồ sơ kiểm tra và hỗ trợ hành động. Mục tiêu vì thế là xác định các tiền lệ và giới hạn ảnh hưởng trực tiếp tới chuỗi nghiên cứu.
 
 Quá trình tổng hợp tuân theo ba nguyên tắc. Thứ nhất, tài liệu được tổ chức theo mắt xích của chuỗi nghiên cứu thay vì theo tên công nghệ. Thứ hai, các nghiên cứu trọng yếu được đọc và tổng hợp theo cấu trúc luận điểm, bằng chứng, giới hạn và hàm ý nghiên cứu. Thứ ba, mọi phát biểu về khoảng trống phải được kiểm tra bằng nguồn phản biện hoặc tiền lệ gần nhất trước khi được giữ lại. Nguồn tài liệu, chiến lược khảo sát, quy trình sàng lọc, tiêu chí lựa chọn và cách đánh giá chất lượng bằng chứng được trình bày ở mục 1.6.5.
 
@@ -285,7 +285,7 @@ Bước 5 – Tổng hợp và tổ chức bằng chứng. Các tài liệu phù
 
 Tiêu chí lựa chọn ưu tiên các công trình có nội dung liên quan trực tiếp đến ít nhất một mắt xích của chuỗi nghiên cứu, trình bày rõ phương pháp và cung cấp bằng chứng có thể đánh giá được. Các tiêu chuẩn và tài liệu chính thức của tổ chức chuyên ngành được sử dụng để xác lập cơ sở khái niệm, yêu cầu thông tin và nguyên tắc kỹ thuật liên quan.
 
-Những tài liệu không đủ thông tin để đánh giá phương pháp hoặc kết quả không được sử dụng làm căn cứ chính để xác lập tính mới hay chứng minh khoảng trống nghiên cứu.
+Chỉ những tài liệu đủ thông tin để đánh giá phương pháp và kết quả được dùng làm căn cứ chính để xác lập tính mới hay khoảng trống nghiên cứu.
 
 **d) Đánh giá chất lượng và tổng hợp bằng chứng nghiên cứu**
 
@@ -315,7 +315,7 @@ Do phạm vi nghiên cứu liên quan đến nhiều lĩnh vực và sử dụng
 
 Các phát biểu về khoảng trống nghiên cứu được giới hạn trong phạm vi tập tài liệu đã khảo sát và đối chiếu. Khi xuất hiện nghiên cứu có kết quả tương đương hoặc trực tiếp giải quyết vấn đề đã xác định, phát biểu về khoảng trống cần được xem xét và điều chỉnh phù hợp.
 
-Nhật ký tìm kiếm có ngày thực hiện, chuỗi truy vấn nguyên văn và số bản ghi ở từng bước sàng lọc chưa được lưu đầy đủ; vì vậy tiểu luận không báo cáo sơ đồ dòng chảy tài liệu theo mẫu PRISMA. Danh mục tài liệu tham khảo phản ánh các nguồn được trích dẫn trong tiểu luận, không phải số nghiên cứu đã đi qua từng bước sàng lọc.
+Nhật ký tìm kiếm có ngày thực hiện, chuỗi truy vấn nguyên văn và số bản ghi ở từng bước sàng lọc chưa được lưu đầy đủ; vì vậy tiểu luận không báo cáo sơ đồ dòng chảy tài liệu theo mẫu PRISMA. Danh mục tài liệu tham khảo gồm các nguồn được trích dẫn trong tiểu luận.
 
 ## 1.7. Mục tiêu và câu hỏi nghiên cứu của luận án
 

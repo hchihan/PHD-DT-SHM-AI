@@ -20,7 +20,7 @@ Bảng 3.1 đối chiếu một số nghiên cứu đại diện theo ba tiêu c
 |:---|:---|:---|:---|:---|:---|
 | Zhang và cộng sự (2020) \[47\] | Khung thép, liên kết bu lông | Bản ghi từ gia tốc kế | Không mô tả rõ phép chia theo đơn vị vật lý | Một cảm biến | Cho thấy tiền lệ về đối tượng nghiên cứu |
 | Pal và cộng sự (2022) \[48\] | Khung thép phẳng một tầng, liên kết dầm – cột | Lần kích thích vật lý | Chia theo lần thử | Sáu cảm biến biến dạng | Cho thấy tầm quan trọng của mô tả rõ cấu trúc chia dữ liệu |
-| Biswal và cộng sự (2022) \[49\] | Khung thép cổng một nhịp | Lần kích thích vật lý | Không xây dựng quy trình huấn luyện – kiểm tra hoàn chỉnh | Sáu gia tốc kế | Tiền lệ về trạng thái liên kết, không phải giao thức đánh giá |
+| Biswal và cộng sự (2022) \[49\] | Khung thép cổng một nhịp | Lần kích thích vật lý | Không xây dựng quy trình huấn luyện – kiểm tra hoàn chỉnh | Sáu gia tốc kế | Tiền lệ về trạng thái liên kết |
 | Parziale và cộng sự (2024) \[50\] | Khung thép quy mô lớn | Lần thu tín hiệu | Tạo cửa sổ trước rồi chia ngẫu nhiên các ảnh đầu vào | Cấu hình cảm biến cố định | Minh họa rủi ro khi cửa sổ từ cùng nguồn vật lý xuất hiện ở hai phía phép chia |
 | Dadoulis và Manolis (2026) \[51\] | Dầm thép chịu khối lượng di động | Một lượt chuyển động | Huấn luyện trên mô phỏng, kiểm tra trên dữ liệu thí nghiệm | Ba nút gia tốc | Cho thấy cách đánh giá đóng góp cảm biến |
 | Beleites và cộng sự (2013) \[14\] | Dữ liệu quang phổ ngoài lĩnh vực xây dựng | Người hiến/mẻ nuôi cấy | So sánh chia theo quan sát với chia theo nhóm nguồn | Không áp dụng | Cung cấp nguyên tắc về đơn vị độc lập |
@@ -90,15 +90,15 @@ Cấu hình cảm biến là một phần của điều kiện tạo bằng ch�
 
 Chuỗi xử lý dữ liệu dao động thường gồm cắt đoạn tín hiệu, lọc, chuẩn hóa, biến đổi miền tần số hoặc thời gian – tần số, rút đặc trưng hoặc tạo đầu vào trực tiếp cho mô hình học sâu. Hai khâu đặc biệt nhạy với kết quả đánh giá.
 
-Khâu thứ nhất là phân đoạn tín hiệu. Khi một bản ghi được chia thành nhiều cửa sổ, các cửa sổ đó không phải quan sát độc lập nếu cùng xuất phát từ một lần thu vật lý; với cửa sổ chồng lấn, mức phụ thuộc còn lớn hơn vì chúng chia sẻ trực tiếp nhiều mẫu tín hiệu. Cửa sổ vì vậy là đơn vị tính toán, không mặc nhiên là đơn vị suy luận thống kê.
+Khâu thứ nhất là phân đoạn tín hiệu. Khi một bản ghi được chia thành nhiều cửa sổ, các cửa sổ cùng xuất phát từ một lần thu vật lý thuộc cùng một đơn vị độc lập (mục 3.3.1); với cửa sổ chồng lấn, mức phụ thuộc còn lớn hơn vì chúng chia sẻ trực tiếp nhiều mẫu tín hiệu. Cửa sổ vì vậy là đơn vị tính toán, không mặc nhiên là đơn vị suy luận thống kê.
 
 Khâu thứ hai là thứ tự giữa phép chia tập và các phép biến đổi có tham số học được. Nếu trung bình, độ lệch chuẩn, phép giảm chiều hoặc các tham số khác được ước lượng trên toàn bộ dữ liệu trước khi chia, thông tin của tập kiểm tra đã đi vào quá trình xây dựng mô hình. Amin và cộng sự (2026) cung cấp tiền lệ cho cách làm ngược lại: chia theo sự kiện vật lý trước, sau đó chỉ học các phép biến đổi từ phần huấn luyện \[52\]. Nguyên tắc rút ra: **chia dữ liệu theo đơn vị vật lý trước khi thực hiện các phép biến đổi có thể học từ dữ liệu**, và ước lượng mọi tham số tiền xử lý chỉ từ tập huấn luyện trong từng lượt đánh giá.
 
 ### 3.2.3. Học máy và học sâu như công cụ tạo bằng chứng
 
-Các mô hình được sử dụng trong theo dõi trạng thái dao động trải rộng từ hồi quy logistic, máy véc-tơ hỗ trợ, rừng ngẫu nhiên tới mạng nơ-ron tích chập và nhiều kiến trúc học sâu khác. Trong nghiên cứu này, chúng được xem là **công cụ tạo bằng chứng**, không phải mục tiêu đóng góp thuật toán.
+Các mô hình được sử dụng trong theo dõi trạng thái dao động trải rộng từ hồi quy logistic, máy véc-tơ hỗ trợ, rừng ngẫu nhiên tới mạng nơ-ron tích chập và nhiều kiến trúc học sâu khác. Trong nghiên cứu này, chúng là **công cụ tạo bằng chứng**, kế thừa từ các nghiên cứu ở mục 3.1.2.
 
-Hiệu năng của mô hình chỉ có ý nghĩa khi giao thức đánh giá đủ chặt. Wheat và cộng sự (2024) cho thấy chỉ cần đổi cấp phân tách dữ liệu là hiệu năng đo được trên cùng một bài toán rung động đã thay đổi mạnh; so sánh kiến trúc mô hình dưới một giao thức chưa kiểm soát đơn vị độc lập hoặc rò rỉ dữ liệu có thể cho kết luận không ổn định \[15\]. Câu hỏi phù hợp là “bằng chứng do mô hình tạo ra đáng tin trong phạm vi nào?”, chứ không phải “mô hình nào đạt điểm cao nhất?”. Trọng tâm vì thế dịch từ tối ưu thuật toán sang thiết kế thí nghiệm, giao thức đánh giá và phạm vi diễn giải.
+Hiệu năng của mô hình chỉ có ý nghĩa khi giao thức đánh giá đủ chặt. Wheat và cộng sự (2024) cho thấy chỉ cần đổi cấp phân tách dữ liệu là hiệu năng đo được trên cùng một bài toán rung động đã thay đổi mạnh; so sánh kiến trúc mô hình dưới một giao thức chưa kiểm soát đơn vị độc lập hoặc rò rỉ dữ liệu có thể cho kết luận không ổn định \[15\]. Câu hỏi phù hợp là bằng chứng do mô hình tạo ra đáng tin trong phạm vi nào. Trọng tâm vì thế dịch từ tối ưu thuật toán sang thiết kế thí nghiệm, giao thức đánh giá và phạm vi diễn giải.
 
 ## 3.3. Độ tin cậy của bằng chứng trạng thái
 
@@ -120,7 +120,7 @@ Cửa sổ tín hiệu nằm ở cấp thấp nhất và không phải đơn v�
 
 Biện pháp tổng quát là **đánh giá theo nhóm** (grouped evaluation): toàn bộ dữ liệu phát sinh từ cùng một nguồn vật lý phải nằm trọn ở một phía của phép chia. Cấp nhóm được chọn theo câu hỏi nghiên cứu, không theo mức chặt chẽ hình thức: nếu câu hỏi chỉ yêu cầu khái quát sang lần chạy mới trong cùng đợt, nhóm ở cấp lần chạy là phù hợp; nếu câu hỏi yêu cầu chuyển sang đợt thí nghiệm mới, phải giữ lại toàn bộ đợt \[54\].
 
-Rò rỉ dữ liệu đã được nhận diện rộng trong học máy nói chung và trong bảo trì theo tình trạng \[55\]. Kiểm soát rò rỉ vì vậy là điều kiện để kết quả có giá trị, không phải đóng góp mới.
+Rò rỉ dữ liệu đã được nhận diện rộng trong học máy nói chung và trong bảo trì theo tình trạng \[55\]. Luận án kế thừa yêu cầu kiểm soát rò rỉ từ các nghiên cứu này như điều kiện để kết quả có giá trị.
 
 ### 3.3.3. Đánh giá giữ lại một lần chạy và giữ lại một đợt thí nghiệm
 
@@ -136,7 +136,7 @@ Hai giao thức trả lời hai câu hỏi tách biệt: LORO cho biết bằng 
 
 Ngoài LORO và LOCO, bốn cơ chế bổ trợ giúp mô tả độ ổn định của bằng chứng. Lặp lại với nhiều hạt giống ngẫu nhiên tách được biến thiên do khởi tạo hoặc huấn luyện mô hình khỏi biến thiên do dữ liệu. Báo cáo độ bất định ở cấp đơn vị độc lập cho biết kết quả trung bình có ổn định qua các lần chạy hoặc các nhóm vật lý hay không. Kiểm định hoán vị tạo phân phối ngẫu nhiên thực nghiệm để đánh giá liệu hiệu năng quan sát được có vượt mức có thể xuất hiện do may rủi hay không \[59\], với lưu ý rằng trên dữ liệu có cấu trúc nhóm, phép hoán vị phải bảo toàn cấu trúc đơn vị độc lập. Cuối cùng, mức ngẫu nhiên thực nghiệm trở nên đặc biệt cần thiết khi số đơn vị kiểm tra nhỏ, vì mức ngẫu nhiên lý thuyết có thể không đủ để diễn giải hiệu năng trong các tập mẫu nhỏ \[60\].
 
-Các thủ tục này là công cụ kiểm chứng, không phải khoảng trống nghiên cứu riêng; chúng giúp báo cáo bằng chứng kèm mức ổn định và mức chắc chắn phù hợp.
+Các thủ tục này là công cụ kiểm chứng, kế thừa từ \[59\], \[60\]; chúng giúp báo cáo bằng chứng kèm mức ổn định và mức chắc chắn phù hợp.
 
 ## 3.4. Nguồn gốc và phạm vi hiệu lực của bằng chứng trạng thái
 
@@ -166,7 +166,7 @@ Danh mục này là hàm ý phương pháp rút ra từ các nghiên cứu đã 
 
 **Phạm vi hiệu lực** mô tả nơi một bằng chứng đã được kiểm chứng là có giá trị: một kết quả có thể chỉ được xác lập trong cùng đợt thí nghiệm, hoặc có thể giữ được khi chuyển sang đợt khác. Phạm vi này không thể suy đoán từ một chỉ số hiệu năng tổng hợp mà phải gắn với giao thức đánh giá đã sử dụng.
 
-Cách tiếp cận này thay đổi cách đọc cả kết quả dương lẫn kết quả âm. Kết quả tốt trong cùng đợt là bằng chứng có giá trị trong phạm vi đó, không mặc nhiên có giá trị ở hiện trường; kết quả chuyển giao kém giữa các đợt là thông tin về giới hạn của bằng chứng, không phải lý do loại bỏ kết quả trong cùng đợt. Ở công trình thực, phạm vi hiệu lực còn phụ thuộc điều kiện vận hành, môi trường và lịch sử can thiệp, nên dữ liệu hiện trường cần kèm bối cảnh về thời điểm thu, trạng thái vận hành, điều kiện môi trường và các thay đổi bảo trì liên quan.
+Cách tiếp cận này thay đổi cách đọc cả kết quả dương lẫn kết quả âm. Kết quả tốt trong cùng đợt là bằng chứng có giá trị trong phạm vi đó, không mặc nhiên có giá trị ở hiện trường; kết quả chuyển giao giữa các đợt cho biết phạm vi hiệu lực của bằng chứng; kết quả trong cùng đợt vẫn được giữ trong phạm vi của nó. Ở công trình thực, phạm vi hiệu lực còn phụ thuộc điều kiện vận hành, môi trường và lịch sử can thiệp, nên dữ liệu hiện trường cần kèm bối cảnh về thời điểm thu, trạng thái vận hành, điều kiện môi trường và các thay đổi bảo trì liên quan.
 
 ### 3.4.3. Nguồn gốc dữ liệu và khả năng kiểm lại
 
@@ -176,11 +176,11 @@ Yêu cầu này nối trực tiếp với quản lý tài sản. Khi bằng ch�
 
 ## 3.5. Tổng hợp chương
 
-Dữ liệu dao động cùng các mô hình học máy và học sâu đã được sử dụng rộng để phân biệt trạng thái kết cấu và trạng thái liên kết bu lông trong điều kiện thí nghiệm. Việc áp dụng thêm một thuật toán phân loại mới vì vậy không phải trọng tâm khoa học của nghiên cứu này.
+Dữ liệu dao động cùng các mô hình học máy và học sâu đã được sử dụng rộng để phân biệt trạng thái kết cấu và trạng thái liên kết bu lông trong điều kiện thí nghiệm. 
 
-Trọng tâm nằm ở chất lượng của giao thức đánh giá, do bốn đặc điểm của dữ liệu dao động quy định: cấu trúc dữ liệu phân cấp; cửa sổ tín hiệu không phải đơn vị độc lập; tiền xử lý có thể gây rò rỉ nếu làm trước khi chia; khả năng khái quát phụ thuộc vào cấp vật lý được giữ lại. Các tiền lệ ở mục 3.3 đủ để xây dựng một giao thức đánh giá chặt chẽ trên nền bốn đặc điểm đó.
+Trọng tâm nằm ở chất lượng của giao thức đánh giá, do bốn đặc điểm của dữ liệu dao động quy định: cấu trúc dữ liệu phân cấp; cửa sổ tín hiệu thuộc về đơn vị vật lý tạo ra nó; tiền xử lý có thể gây rò rỉ nếu làm trước khi chia; khả năng khái quát phụ thuộc vào cấp vật lý được giữ lại. Các tiền lệ ở mục 3.3 đủ để xây dựng một giao thức đánh giá chặt chẽ trên nền bốn đặc điểm đó.
 
-Từ góc nhìn của luận án, một kết quả phân loại chỉ trở thành **bằng chứng trạng thái** khi được gắn với nguồn thu, cấu hình cảm biến, phiên bản chuỗi xử lý, giao thức đánh giá, độ bất định và phạm vi hiệu lực. Bằng chứng đó không phải chẩn đoán hư hỏng và không tự động chuyển giao từ mô hình 1:10 sang công trình thực.
+Từ góc nhìn của luận án, một kết quả phân loại chỉ trở thành **bằng chứng trạng thái** khi được gắn với nguồn thu, cấu hình cảm biến, phiên bản chuỗi xử lý, giao thức đánh giá, độ bất định và phạm vi hiệu lực. Phạm vi diễn giải của bằng chứng được trình bày ở Mục 5.8.
 
 Chương 3 vì vậy đặt nền phương pháp cho Câu hỏi nghiên cứu 1 và Gói công việc 1: điều kiện để dữ liệu dao động tạo ra bằng chứng kiểm lại được và có phạm vi diễn giải rõ.
 

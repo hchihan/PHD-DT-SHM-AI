@@ -436,3 +436,8 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 ## Phiên 02/10/2026 – Rà lại danh sách câu giới hạn
 - NCS duyệt phiên Chương 4, [80], 1.4.1.
 - Quét lại toàn văn theo năm cụm từ của CLAUDE.md 4.5, đối chiếu với danh sách 80 câu (29/09): 35 câu đã mất do các phiên đồng bộ, 46 câu còn, 6 câu mới. Lập `revision/danh_sach_cau_gioi_han_v2.csv` (52 dòng, đề xuất loại, cách xử lý và câu viết lại) và báo cáo `revision/GD5_ra_soat_cau_gioi_han.md`. Chưa sửa `tieuluan/`; chờ NCS duyệt danh sách v2.
+
+## Phiên 02/10/2026 – Sửa toàn văn theo danh sách câu giới hạn v2
+- NCS duyệt `revision/danh_sach_cau_gioi_han_v2.csv`.
+- Áp 35 chỉnh sửa vào `00_thuatngu.md`, `01_chuong1.md`, `02_chuong2.md`, `03_chuong3.md`, `04_chuong4.md`, `05_chuong5.md` theo cột `cau_de_xuat`, với ba điều chỉnh khi áp: dòng 4 (1.1.3) giữ cụm định danh FEM "danh nghĩa, chưa hiệu chuẩn, dùng để tham chiếu, không dùng cho chẩn đoán hư hỏng" và trỏ Mục 5.8.3; dòng 26 (3.3.2) kế thừa "từ các nghiên cứu này" thay vì thêm [53], [14] (đoạn đó dẫn [55]); bốn ô bảng 5.1 ghi "Kế thừa tiền lệ (thuật toán)" cho khớp tiêu đề cột "Phần còn lại trong phạm vi luận án", câu dưới bảng sửa thành "ở các dòng không kế thừa nguyên tiền lệ".
+- Quét lại: còn 17 câu theo năm cụm từ của CLAUDE.md 4.5, đúng bằng nhóm "giữ" trong v2 (6 câu A phân định, 3 câu thuật lại nguồn, 5 câu ở mục 5.8, 3 câu quét nhầm). Không thêm trích dẫn mới.

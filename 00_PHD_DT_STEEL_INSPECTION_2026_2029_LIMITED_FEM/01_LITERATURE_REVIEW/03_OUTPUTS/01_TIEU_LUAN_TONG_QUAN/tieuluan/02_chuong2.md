@@ -6,7 +6,7 @@
 
 Nhà công nghiệp khung thép được thiết kế và nghiệm thu tại một thời điểm nhưng được khai thác lâu dài dưới điều kiện vận hành và môi trường thay đổi. Trong suốt thời gian đó, chủ sở hữu hoặc đơn vị quản lý phải trả lời lặp lại một tập câu hỏi: cấu kiện nào cần kiểm tra, khi nào, bằng chứng nào làm phát sinh nhu cầu kiểm tra, ai thực hiện, kết quả ghi ở đâu và hành động tiếp theo đang ở trạng thái nào.
 
-ISO 19650-3:2020 coi quản lý thông tin trong giai đoạn vận hành là một phần riêng của vòng đời tài sản, với trọng tâm là duy trì thông tin cần cho khai thác và quản lý \[1\]. Theo cách nhìn này, mô hình số, hồ sơ kiểm tra, dữ liệu vận hành và lịch sử bảo trì là thành phần của một hệ thống thông tin tài sản chứ không phải những tệp độc lập.
+ISO 19650-3:2020 coi quản lý thông tin trong giai đoạn vận hành là một phần riêng của vòng đời tài sản, với trọng tâm là duy trì thông tin cần cho khai thác và quản lý \[1\]. Theo cách nhìn này, mô hình số, hồ sơ kiểm tra, dữ liệu vận hành và lịch sử bảo trì là thành phần của một hệ thống thông tin tài sản.
 
 Ở cấp tổ chức, bộ tiêu chuẩn ISO 55000 cung cấp thuật ngữ, tổng quan và nguyên tắc của quản lý tài sản; ấn bản hiện hành là ISO 55000:2024, thay ấn bản năm 2014 \[@8PB7EN2E\]. Tiểu luận dùng ISO 55000:2024 làm khung tham chiếu cho quản lý tài sản và ISO 19650-3:2020 làm khung cho quản lý thông tin trong giai đoạn vận hành; nhà xưởng khung thép được xét như một tài sản mà quyết định kiểm tra – bảo trì cần dựa trên thông tin về tình trạng của nó.
 <!-- ISO 55000:2024 chưa tiếp cận toàn văn (trang iso.org bị Cloudflare chặn khi kiểm 02/10/2026); chỉ dẫn ở mức tên, phạm vi và ấn bản. Cần NCS cung cấp toàn văn nếu muốn trích nội dung điều khoản. -->
@@ -91,7 +91,7 @@ Kritzinger và cộng sự (2018) đề xuất phân biệt ba mức dựa trên
 | Bóng số | Dữ liệu từ tài sản vật lý cập nhật tự động sang mô hình số | Quan trắc và theo dõi trạng thái |
 | Song sinh số | Có cơ chế phản hồi và tương tác hai chiều ở mức hệ thống | Hỗ trợ vận hành thích ứng, điều khiển hoặc vòng phản hồi quản lý tùy phạm vi |
 
-Phân loại theo luồng dữ liệu không phải cách duy nhất. Chen và cộng sự (2021) phát triển mô hình trưởng thành Song sinh số nhiều chiều cho quản lý tài sản, cho thấy một dự án có thể mạnh ở một số năng lực và yếu ở năng lực khác, điều mà thang đo một chiều không biểu diễn được \[10\]. Davila Delgado và cộng sự (2021) lưu ý rằng các mô hình Song sinh số phát triển trong sản xuất không chuyển nguyên trạng sang xây dựng mà phải điều chỉnh theo đặc thù vòng đời, dữ liệu và quá trình quản lý tài sản \[37\].
+Ngoài phân loại theo luồng dữ liệu, năng lực song sinh số còn được đánh giá theo nhiều chiều. Chen và cộng sự (2021) phát triển mô hình trưởng thành Song sinh số nhiều chiều cho quản lý tài sản, cho thấy một dự án có thể mạnh ở một số năng lực và yếu ở năng lực khác, điều mà thang đo một chiều không biểu diễn được \[10\]. Davila Delgado và cộng sự (2021) lưu ý rằng các mô hình Song sinh số phát triển trong sản xuất không chuyển nguyên trạng sang xây dựng mà phải điều chỉnh theo đặc thù vòng đời, dữ liệu và quá trình quản lý tài sản \[37\].
 
 Vì vậy, thay vì coi Song sinh số là nhãn nhị phân “có hoặc không”, Tiểu luận xem nó như một kiến trúc gồm nhiều năng lực kiểm chứng được riêng: kết nối với tài sản vật lý, cập nhật dữ liệu, liên thông hệ thống, duy trì ngữ cảnh, phản hồi thông tin và hỗ trợ quyết định. Mức năng lực phải được đánh giá trên trường hợp triển khai cụ thể.
 

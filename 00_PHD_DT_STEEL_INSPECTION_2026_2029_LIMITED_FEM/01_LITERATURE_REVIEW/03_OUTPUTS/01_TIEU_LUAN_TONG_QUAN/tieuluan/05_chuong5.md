@@ -18,7 +18,7 @@ Chương 3 cho thấy dữ liệu dao động, học máy và học sâu đã đ
 
 Các nguyên tắc phương pháp về đánh giá cũng không mới và bao phủ gần hết các rủi ro của một thí nghiệm dao động: phân biệt số quan sát tính toán với số đơn vị độc lập thực \[14\]; ảnh hưởng của cấp nguồn vật lý dùng để phân tách dữ liệu \[15\]; chia theo sự kiện vật lý trước rồi mới học các phép biến đổi từ phần huấn luyện \[52\]; rò rỉ còn tồn tại khi cùng một chi tiết vật lý xuất hiện ở cả hai phía phép chia \[20\]; suy giảm khả năng chuyển giao khi giữ lại một đợt thí nghiệm chưa thấy sau tháo – lắp lại \[19\].
 
-Kiểm soát rò rỉ dữ liệu, đánh giá theo nhóm, giữ lại đơn vị vật lý, giữ lại đợt thí nghiệm và kiểm định mức ngẫu nhiên vì vậy đều không phải kỹ thuật mới \[53\], \[54\]. Giá trị nghiên cứu nằm ở việc dùng chúng để xác định **một kết quả có thể được tin cậy trong phạm vi nào**, và đầu ra cần được quản lý như **bằng chứng trạng thái** gắn với nguồn gốc và điều kiện đánh giá.
+Luận án kế thừa kiểm soát rò rỉ dữ liệu, đánh giá theo nhóm, giữ lại đơn vị vật lý, giữ lại đợt thí nghiệm và kiểm định mức ngẫu nhiên từ \[53\], \[54\]. Giá trị nghiên cứu nằm ở việc dùng chúng để xác định **một kết quả có thể được tin cậy trong phạm vi nào**, và đầu ra cần được quản lý như **bằng chứng trạng thái** gắn với nguồn gốc và điều kiện đánh giá.
 
 ### 5.1.3. Liên kết cảm biến, BIM, hồ sơ kiểm tra và quản lý bảo trì 
 
@@ -52,11 +52,11 @@ Phần còn lại nằm ở **cách các thành phần đã tồn tại được
 
 | **Nội dung** | **Đã được xác lập** | **Phần còn lại trong phạm vi luận án** |
 |:---|:---|:---|
-| Dữ liệu dao động cho theo dõi trạng thái | Có nền nghiên cứu rộng | Không phải khoảng trống |
-| Học máy và học sâu cho phân loại | Đã được áp dụng rộng | Không phải khoảng trống thuật toán |
+| Dữ liệu dao động cho theo dõi trạng thái | Có nền nghiên cứu rộng | Kế thừa tiền lệ |
+| Học máy và học sâu cho phân loại | Đã được áp dụng rộng | Kế thừa tiền lệ thuật toán |
 | Đơn vị độc lập, đánh giá theo nhóm, kiểm soát rò rỉ | Các nguyên tắc đã được xác lập | Kết hợp và báo cáo đồng thời phạm vi hiệu lực trên đúng bài toán dao động của khung thép liên kết bu lông |
-| Liên kết cảm biến với BIM/IFC | Có nhiều tiền lệ | Không phải khoảng trống |
-| BIM – hệ quản lý bảo trì – hồ sơ khiếm khuyết/sửa chữa | Đã có các trường hợp triển khai | Không phải khoảng trống |
+| Liên kết cảm biến với BIM/IFC | Có nhiều tiền lệ | Kế thừa tiền lệ |
+| BIM – hệ quản lý bảo trì – hồ sơ khiếm khuyết/sửa chữa | Đã có các trường hợp triển khai | Kế thừa tiền lệ |
 | Định danh và kiểm tra quan hệ | Đã có tiền lệ về lược đồ, đồ thị và ràng buộc | Duy trì tính liên tục của chuỗi cùng nguồn gốc và phạm vi hiệu lực của bằng chứng |
 | Nguồn gốc dữ liệu | Có mô hình và từ vựng nền | Gắn với bản ghi bằng chứng trạng thái và bảo toàn tới hồ sơ/hành động |
 | Con người trong quy trình | Có nhiều tiền lệ | Ghi được căn cứ, vai trò, lịch sử xử lý và trạng thái hành động trong cùng chuỗi |
@@ -66,7 +66,7 @@ Phần còn lại nằm ở **cách các thành phần đã tồn tại được
 | Chuyển giao tri thức giữa các kết cấu | Đã có khung theo quần thể cho nhóm đồng nhất và nhóm dị thể | Phát biểu mức tương đồng khi dùng kết quả mô hình thu nhỏ để nói về công trình thực |
 | Giá trị thông tin và kiểm tra theo rủi ro | Đã có khung quyết định Bayes cho kế hoạch kiểm tra | Neo mức ưu tiên kiểm tra vào căn cứ rà soát được; hiệu chỉnh ngưỡng bằng dữ liệu chi phí thuộc bước sau luận án |
 
-Cột thứ ba cho thấy ở mọi dòng, phần còn lại là một yêu cầu về *quan hệ* hoặc *sự bảo toàn thuộc tính*, không phải một thành phần công nghệ còn thiếu. Các khoảng trống của luận án nằm tại **các điểm nối giữa những thành phần đã có tiền lệ**.
+Cột thứ ba cho thấy, ở các dòng không kế thừa nguyên tiền lệ, phần còn lại là một yêu cầu về quan hệ hoặc sự bảo toàn thuộc tính. Các khoảng trống của luận án nằm tại **các điểm nối giữa những thành phần đã có tiền lệ**.
 
 ## 5.2. Hai khoảng trống nghiên cứu
 

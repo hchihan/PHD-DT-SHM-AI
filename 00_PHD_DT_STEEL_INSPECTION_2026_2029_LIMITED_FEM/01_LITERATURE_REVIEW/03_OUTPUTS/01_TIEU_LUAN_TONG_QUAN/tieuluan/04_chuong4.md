@@ -6,7 +6,7 @@
 
 Chương 2 cho thấy BIM và IFC cung cấp nền định danh và ngữ cảnh tài sản nhưng không tự tạo ra chuỗi thông tin vận hành. Chương 3 cho thấy một kết quả phân loại từ dữ liệu dao động chỉ là bằng chứng trạng thái khi đi kèm nguồn gốc, điều kiện tạo lập và phạm vi hiệu lực đã kiểm chứng. Từ hai tiền đề đó, Chương 4 xét câu hỏi ở lớp thông tin: bằng chứng kỹ thuật được liên kết với cấu kiện, hồ sơ kiểm tra và trạng thái hành động theo cách nào để người quản lý truy xuất và kiểm lại được căn cứ của một quyết định.
 
-Trong các nghiên cứu, “liên kết”, “tích hợp”, “trực quan hóa” và “truy vết” đôi khi được dùng gần nhau nhưng không chứng minh cùng một mức năng lực. Để tránh phóng đại ý nghĩa của các triển khai đã có, chương này phân biệt bốn mức (Bảng 4.1).
+Trong các nghiên cứu, liên kết, tích hợp, trực quan hóa và truy vết đôi khi được dùng gần nhau nhưng ứng với các mức năng lực khác nhau. Để tránh phóng đại ý nghĩa của các triển khai đã có, chương này phân biệt bốn mức (Bảng 4.1).
 
 <span id="TLTQ_Bang_4_1" class="anchor"></span>Bảng 4.1. Phân biệt các mức liên kết thông tin trong quản lý tài sản
 
@@ -43,7 +43,7 @@ Cả hai hướng cho thấy dữ liệu thời gian thực hoặc dữ liệu l
 
 Dù cảm biến có thể được gắn với cấu kiện, **quan hệ cảm biến – cấu kiện** và **quan hệ bằng chứng – cấu kiện** không phải một. Quan hệ thứ nhất mô tả nguồn đo cùng vị trí hoặc đối tượng mà cảm biến phục vụ, và có thể thay đổi khi cảm biến được tháo, thay thế hoặc tái bố trí. Quan hệ thứ hai gắn với một bản ghi được tạo tại một thời điểm từ một tập dữ liệu cụ thể; sau khi được tạo, bằng chứng phải giữ được liên hệ với nguồn dữ liệu và cấu kiện liên quan kể cả khi cấu hình cảm biến sau đó thay đổi.
 
-Quan hệ Sensor_ID → BIM_GUID vì vậy chỉ biểu diễn ánh xạ giữa nguồn đo và cấu kiện liên quan. Quan hệ này không chứng minh rằng một bất thường trong tín hiệu phát sinh từ chính cấu kiện đó: một cảm biến có thể chịu ảnh hưởng của nhiều cấu kiện lân cận, của điều kiện môi trường, hoặc của thay đổi trong điều kiện vận hành; cảm biến cũng có thể được di chuyển, thay thế hoặc hiệu chuẩn lại trong quá trình khai thác. Mô hình truy vết vì vậy phải phân biệt bốn nội dung: ánh xạ cảm biến với cấu kiện; bối cảnh của phép đo hoặc quan trắc; liên hệ giữa bằng chứng trạng thái với cấu kiện; và căn cứ cùng phạm vi hiệu lực của chính liên hệ đó. Mỗi ánh xạ còn phải có thời gian hiệu lực, phiên bản mô hình tương ứng và lịch sử thay đổi vị trí cảm biến, để một bằng chứng cũ không bị đọc theo một ánh xạ mới. Luận án không suy ra vị trí hư hỏng từ vị trí cảm biến và không dùng mô hình phần tử hữu hạn để chứng minh nguyên nhân hư hỏng.
+Quan hệ Sensor_ID → BIM_GUID vì vậy chỉ biểu diễn ánh xạ giữa nguồn đo và cấu kiện liên quan. Quan hệ này cho biết nguồn đo phục vụ cấu kiện nào; một bất thường trong tín hiệu có thể đến từ cấu kiện lân cận, điều kiện môi trường hoặc thay đổi vận hành; cảm biến cũng có thể được di chuyển, thay thế hoặc hiệu chuẩn lại trong quá trình khai thác. Mô hình truy vết vì vậy phải phân biệt bốn nội dung: ánh xạ cảm biến với cấu kiện; bối cảnh của phép đo hoặc quan trắc; liên hệ giữa bằng chứng trạng thái với cấu kiện; và căn cứ cùng phạm vi hiệu lực của chính liên hệ đó. Mỗi ánh xạ còn phải có thời gian hiệu lực, phiên bản mô hình tương ứng và lịch sử thay đổi vị trí cảm biến, để một bằng chứng cũ không bị đọc theo một ánh xạ mới. Luận án không suy ra vị trí hư hỏng từ vị trí cảm biến và không dùng mô hình phần tử hữu hạn để chứng minh nguyên nhân hư hỏng.
 
 Với dữ liệu dao động, một cấu kiện có thể có nhiều lần đo, nhiều cấu hình cảm biến và nhiều phiên bản xử lý. Nếu hệ thống chỉ lưu quan hệ “cảm biến này thuộc cấu kiện này”, người quản lý không biết một kết quả cụ thể được tạo từ lần đo nào hay bằng quy trình nào. Lớp quản lý bằng chứng vì vậy cần một bản ghi trung gian có định danh và nguồn gốc riêng.
 
@@ -89,7 +89,7 @@ Các nghiên cứu về kiểm tra – bảo trì đã chứng minh ba năng l�
 >
 > 3\. định danh có thể được duy trì khi thông tin đi giữa BIM và hệ quản lý bảo trì.
 
-Ba năng lực này là nền cần thiết nhưng chưa đáp ứng yêu cầu về nguồn gốc và khả năng kiểm lại. Để trở thành mắt xích của chuỗi bằng chứng, hồ sơ kiểm tra cần quan hệ tường minh với căn cứ đã làm phát sinh hoạt động kiểm tra và với trạng thái xử lý sau đó. Việc cần làm là tổ chức các bản ghi thành quan hệ truy vấn được theo thời gian, không phải thêm một trường dữ liệu vào BIM.
+Ba năng lực này là nền cần thiết nhưng chưa đáp ứng yêu cầu về nguồn gốc và khả năng kiểm lại. Để trở thành mắt xích của chuỗi bằng chứng, hồ sơ kiểm tra cần quan hệ tường minh với căn cứ đã làm phát sinh hoạt động kiểm tra và với trạng thái xử lý sau đó. Việc cần làm là tổ chức các bản ghi thành quan hệ truy vấn được theo thời gian.
 
 ## 4.4. Định danh, nguồn gốc dữ liệu và kiểm chứng quan hệ
 
@@ -97,7 +97,7 @@ Ba năng lực này là nền cần thiết nhưng chưa đáp ứng yêu cầu 
 
 Nguồn gốc dữ liệu (provenance) mô tả một bản ghi được tạo từ đâu, qua quá trình nào và bởi tác nhân nào. Các mô hình chuẩn như PROV-DM và PROV-O đã cung cấp từ vựng tổng quát cho thực thể, hoạt động, tác nhân và các quan hệ sinh ra, sử dụng hoặc phái sinh \[68\], \[69\], còn PAV bổ sung các khái niệm về tác giả, người đóng góp, phiên bản và dấu thời gian \[70\].
 
-Trong xây dựng, nguồn gốc dữ liệu đã được dùng để tăng khả năng giải trình của trao đổi thông tin: ghi lại nguồn và lịch sử của dữ liệu BIM \[16\], kết hợp Song sinh số với blockchain để hỗ trợ chia sẻ thông tin có trách nhiệm giải trình \[71\], hoặc đặt nguồn gốc dữ liệu trong bối cảnh dữ liệu Song sinh số cho quản lý tài sản \[43\]. **Nguồn gốc dữ liệu không phải khái niệm mới**; với kiểm tra – bảo trì, giá trị của nó nằm ở việc áp dụng vào bản ghi vận hành: bằng chứng nào tạo ra yêu cầu kiểm tra, hồ sơ nào sinh ra sau kiểm tra và hành động nào được ghi nhận sau đó.
+Trong xây dựng, nguồn gốc dữ liệu đã được dùng để tăng khả năng giải trình của trao đổi thông tin: ghi lại nguồn và lịch sử của dữ liệu BIM \[16\], kết hợp Song sinh số với blockchain để hỗ trợ chia sẻ thông tin có trách nhiệm giải trình \[71\], hoặc đặt nguồn gốc dữ liệu trong bối cảnh dữ liệu Song sinh số cho quản lý tài sản \[43\]. Luận án kế thừa khái niệm nguồn gốc dữ liệu từ các nghiên cứu trên; với kiểm tra – bảo trì, giá trị của nó nằm ở việc áp dụng vào bản ghi vận hành: bằng chứng nào tạo ra yêu cầu kiểm tra, hồ sơ nào sinh ra sau kiểm tra và hành động nào được ghi nhận sau đó.
 
 Trong đo lường, White (2025) ánh xạ lược đồ chứng chỉ hiệu chuẩn số sang PROV: phòng hiệu chuẩn là prov:Organization, kỹ thuật viên và người phê duyệt là prov:Person phân biệt bằng prov:role, hiệu chuẩn và phê duyệt là hai activity riêng có thời điểm bắt đầu, thời điểm kết thúc và vị trí thực hiện. Cách làm này cho thấy từ vựng nguồn gốc đủ để ghi lại vai trò và trình tự phê duyệt của một chuỗi bằng chứng đo, với mục đích để bên kiểm toán xác minh quy trình \[72\].
 
@@ -135,7 +135,7 @@ Những nghiên cứu này chứng minh **khả thi triển khai**, chưa chứn
 
 Khi không đủ nhãn hư hỏng, đường cơ sở vận hành trở thành công cụ chính: dữ liệu mô tả trạng thái vận hành bình thường và giúp theo dõi các thay đổi cần xem xét, thay vì yêu cầu hệ thống nhận diện một lớp hư hỏng cụ thể.
 
-Đường cơ sở không tách được khỏi bối cảnh. Nhiệt độ, độ ẩm, chế độ tải, thay đổi thiết bị và lịch sử bảo trì đều có thể làm thay đổi tín hiệu. Các biến này phải được ghi như bối cảnh của dữ liệu và không được mặc nhiên diễn giải thành hư hỏng. Với nhà công nghiệp khung thép, ý nghĩa quản lý của đường cơ sở là tạo tham chiếu để nhận biết biến đổi cần rà soát và hỗ trợ tổ chức thông tin cho quy trình kiểm tra, không phải xác lập ngưỡng chẩn đoán vật lý phổ quát.
+Đường cơ sở không tách được khỏi bối cảnh. Nhiệt độ, độ ẩm, chế độ tải, thay đổi thiết bị và lịch sử bảo trì đều có thể làm thay đổi tín hiệu. Các biến này phải được ghi như bối cảnh của dữ liệu và không được mặc nhiên diễn giải thành hư hỏng. Với nhà công nghiệp khung thép, ý nghĩa quản lý của đường cơ sở là tạo tham chiếu để nhận biết biến đổi cần rà soát và hỗ trợ tổ chức thông tin cho quy trình kiểm tra.
 
 ### 4.5.3. Con người trong vòng lặp
 
@@ -187,6 +187,6 @@ Chương 4 không tự xác lập danh sách khoảng trống riêng; chương c
 
 - liên kết cảm biến, BIM và hồ sơ đã có tiền lệ, nên giá trị nghiên cứu nằm ở tính liên tục và khả năng kiểm chứng của quan hệ chứ không ở bản thân việc tích hợp;
 
-- hỗ trợ hành động cần duy trì căn cứ và lịch sử rà soát, nhưng không đồng nghĩa với tự động hóa quyết định.
+- hỗ trợ hành động duy trì căn cứ và lịch sử rà soát; quyết định thuộc người có trách nhiệm.
 
 Đến đây, ba chương nền đã hoàn tất. Việc còn lại là một phép trừ: đặt những gì các nghiên cứu đã giải quyết cạnh nhau, xác định phần thực sự còn lại sau khi trừ các tiền lệ, và kiểm tra phần còn lại có đủ để bảo vệ được hay không. Đó là nội dung của Chương 5.

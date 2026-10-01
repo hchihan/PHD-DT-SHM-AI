@@ -4,7 +4,7 @@
 
 | **Viết tắt** | **Dạng đầy đủ** | **Giải thích** |
 |:---|:---|:---|
-| BIM | Building Information Modeling | Mô hình thông tin công trình. Trong luận án dùng như lớp ngữ cảnh cấu kiện, không phải công cụ dựng hình |
+| BIM | Building Information Modeling | Mô hình thông tin công trình. Trong luận án dùng làm lớp ngữ cảnh cấu kiện |
 | IFC | Industry Foundation Classes | Lược đồ dữ liệu mở của buildingSMART cho trao đổi mô hình công trình giữa các phần mềm khác nhau. Là nền định danh cấu kiện của luận án |
 | GUID | Globally Unique Identifier | Mã định danh duy nhất toàn cục gán cho từng đối tượng |
 | GlobalId | GlobalId trong IFC | Thuộc tính định danh của đối tượng IFC, dạng chuỗi 22 ký tự. Mã này có thể đổi khi mô hình được xuất lại, nên tính bền vững của nó là vấn đề nghiên cứu ở Mục 2.2.3 |
