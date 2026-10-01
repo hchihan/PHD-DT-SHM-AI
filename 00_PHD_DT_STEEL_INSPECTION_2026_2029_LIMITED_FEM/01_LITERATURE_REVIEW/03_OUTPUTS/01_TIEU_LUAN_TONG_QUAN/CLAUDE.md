@@ -32,7 +32,7 @@
    Tiểu luận chỉ được mô tả *thiết kế và công cụ* của thực nghiệm, không mô tả *kết quả*.
 3. **Mục Công cụ AI (5.6) làm trước**, chạy song song với Giai đoạn 0–2.
 4. **Công cụ AI ở WP1 theo đúng Paper 1:** Random Forest, SVM-RBF, 1D-CNN, ResNet1D;
-   đánh giá theo nhóm (giữ lại cả lần chạy), chấm điểm theo bản ghi, kiểm định hoán vị,
+   đánh giá theo nhóm ở hai mức (giữ lại cả lần chạy – LORO; giữ lại cả đợt – LOCO; NCS duyệt 01/10/2026), chấm điểm theo bản ghi, kiểm định hoán vị,
    báo cáo biến thiên theo seed và theo fold.
 5. **Công cụ AI ở hiện trường (WP3): Autoencoder** phát hiện bất thường so với đường cơ sở
    vận hành, kèm bù EOV ở mức tối thiểu: hồi quy theo nhiệt độ và cờ cầu trục chạy/dừng. Kết quả kiểm tra của kỹ sư
@@ -59,8 +59,8 @@
     MT2 so với cả B0 và B1 (định nghĩa ở mục 8); M2 là chỉ số chính. Phỏng vấn có cấu trúc 3–5 người quản lý kiểm tra – bảo
     trì phía chủ đầu tư (khoảng 30 phút/người, có đồng thuận), gộp vào đợt khảo sát nhà xưởng, trước khi khóa bộ câu hỏi truy
     ngược; chỉ để xác nhận bộ câu hỏi và nêu nhu cầu cho G-B, không thay M1–M4. Cần thầy hướng dẫn duyệt hoạt động phỏng vấn.
-13. **G-A gồm hai vế** (NCS duyệt 01/10/2026): **A1 – đánh giá** (mức chênh lệch giữa đánh giá giữ lại cả lần chạy và cùng
-    lần chạy chưa được báo cáo cho phân loại dựa trên dao động của liên kết bu lông trong khung thép; [19], [15] là tiền lệ gần
+13. **G-A gồm hai vế** (NCS duyệt 01/10/2026): **A1 – đánh giá** (mức chênh lệch giữa đánh giá cùng lần chạy và hai mức đánh giá theo đơn vị
+    độc lập, giữ lại lần chạy (LORO) và giữ lại đợt (LOCO) theo mục 3.3.3 ([18], [19], [56]), chưa được báo cáo cho phân loại dựa trên dao động của liên kết bu lông trong khung thép; [19], [15] là tiền lệ gần
     nhất, bắt buộc nêu trong Bài 1) và **A2 – khai báo** (phạm vi hiệu lực, độ bất định là trường bắt buộc của từng bằng chứng,
     kiểm tại lần sử dụng).
 
@@ -70,7 +70,7 @@
 
 | | Mục tiêu | Có sẵn | Sản phẩm | Khoảng trống | Kết quả đo (đủ để kết luận) |
 |---|---|---|---|---|---|
-| **MT1** | Xác lập quy trình tạo **bằng chứng trạng thái liên kết bu lông có phạm vi hiệu lực** từ dữ liệu dao động trên khung thép thu nhỏ 1:10 trong phòng thí nghiệm, với bốn mô hình (RF, SVM-RBF, 1D-CNN, ResNet1D) dưới đánh giá theo nhóm giữ lại cả lần chạy, kiểm định hoán vị, báo cáo biến thiên theo seed và fold | Dữ liệu ba đợt thí nghiệm, kết quả Paper 1 (Gate 1) | **Bài 1** (Q2/Q3, SHM – đo lường) | G-A | Hiệu năng theo đơn vị đánh giá độc lập, chênh lệch so với đánh giá cùng lần chạy, khai báo phạm vi hiệu lực của kết quả |
+| **MT1** | Xác lập quy trình tạo **bằng chứng trạng thái liên kết bu lông có phạm vi hiệu lực** từ dữ liệu dao động trên khung thép thu nhỏ 1:10 trong phòng thí nghiệm, với bốn mô hình (RF, SVM-RBF, 1D-CNN, ResNet1D) dưới đánh giá theo nhóm ở hai mức (giữ lại lần chạy, giữ lại đợt), kiểm định hoán vị, báo cáo biến thiên theo seed và fold | Dữ liệu ba đợt thí nghiệm, kết quả Paper 1 (Gate 1) | **Bài 1** (Q2/Q3, SHM – đo lường) | G-A | Hiệu năng ở hai mức đơn vị độc lập (lần chạy, đợt), chênh lệch của mỗi mức so với đánh giá cùng lần chạy, khai báo phạm vi hiệu lực của kết quả |
 | **MT2** | Xây dựng **mô hình thông tin truy vết bằng chứng → hành động** cho kiểm tra – bảo trì kết cấu thép, mở rộng IFC 4.3 ([35]) và BCF 3.0 bằng tầng bằng chứng và tầng trách nhiệm (6 thực thể, 5 ràng buộc kiểm tự động, logic hỗ trợ hành động bốn mức bằng luật) | Schema đồ thị, C1–C9, mapping với [2], [35], [44] | **Bài 2** (Q2, tin học xây dựng) | G-B (+G-A) | M2 (chính, theo nhóm lỗi) và M1, M3, M4 ở mục 8, so với B0 (hồ sơ kiểm định hiện hành) và B1 (IFC 4.3 theo [35] + BCF 3.0, chưa có hai tầng mới), trên cùng BIM nhà xưởng thật và dữ liệu MT1 |
 | **MT3** | **Triển khai và kiểm chứng khả thi** trên một nhà xưởng khung thép thật có BIM: lắp hệ cảm biến, lập đường cơ sở vận hành, sinh bằng chứng cảm biến bằng Autoencoder (bù nhiệt độ, cờ cầu trục), chạy kịch bản kiểm tra – xử lý – truy ngược đầu cuối (kịch bản cột C3) | Công trình có BIM; NCS bảo đảm lắp cảm biến | Chương luận án; phần hiện trường của Bài 2 nếu kịp, hoặc bài hội nghị (không bắt buộc) | G-A, G-B (áp dụng) | Dữ liệu về đủ, ánh xạ cảm biến – cấu kiện đúng, kịch bản C3 truy ngược được, chi phí ghi nhận |
 
@@ -379,7 +379,7 @@ ghi mọi lựa chọn khi dựng); danh sách lỗi chèn mù và người chè
 | Gói | Công cụ AI | Vai trò → trường schema |
 |---|---|---|
 | WP1 Phòng thí nghiệm | RF, SVM-RBF (đặc trưng thủ công miền thời gian – tần số); 1D-CNN, ResNet1D (tín hiệu chuẩn hóa) | Phân biệt trạng thái liên kết có kiểm soát → `value` |
-| | Đánh giá theo nhóm (giữ lại cả lần chạy), chấm điểm theo bản ghi, kiểm định hoán vị, báo cáo biến thiên theo seed và fold | Căn cứ khai báo → `VALIDITY_SCOPE`, `uncertainty` |
+| | Đánh giá theo nhóm (giữ lại cả lần chạy; giữ lại cả đợt), chấm điểm theo bản ghi, kiểm định hoán vị, báo cáo biến thiên theo seed và fold | Căn cứ khai báo → `VALIDITY_SCOPE`, `uncertainty` |
 | WP3 Hiện trường | **Autoencoder** học đường cơ sở vận hành; sai số tái tạo làm chỉ báo bất thường | Tín hiệu đề nghị kiểm tra, không phải chẩn đoán → `EVIDENCE` loại cảm biến |
 | | Bù EOV (hồi quy theo nhiệt độ, trạng thái vận hành) | Giảm báo động giả do cầu trục, máy móc, nhiệt |
 | WP2 Schema | Không dùng AI; mã hóa tay 20–30 hồ sơ kiểm định cũ | Phân loại lỗi, đường cơ sở B0 |
@@ -482,7 +482,7 @@ sáu tháng sau có sự cố, truy ngược được toàn bộ.
 
 | Bài | Mục tiêu | Nội dung cốt lõi | Điều kiện nộp |
 |---|---|---|---|
-| Bài 1 | MT1 | Đánh giá theo nhóm cho thấy mức lạc quan của đánh giá cùng lần chạy; kết quả phải kèm phạm vi hiệu lực | Gate 1 đóng; nộp ngay sau khi tiểu luận chốt |
+| Bài 1 | MT1 | Đánh giá theo nhóm ở hai mức (lần chạy, đợt) cho thấy mức lạc quan của đánh giá cùng lần chạy; kết quả phải kèm phạm vi hiệu lực | Gate 1 đóng; nộp ngay sau khi tiểu luận chốt |
 | Bài 2 | MT2 (+MT3) | Schema rút gọn mở rộng IFC 4.3/BCF; 4 chỉ số so với B0 trên BIM nhà xưởng thật và dữ liệu MT1 | Schema + script + B0 xong; không chờ quan trắc dài hạn |
 
 Lộ trình gợi ý: tháng 0–1 chốt tiểu luận, nộp Bài 1 · tháng 1–3 schema, script, lắp cảm biến, mã hóa B0 · tháng 3–7

@@ -388,3 +388,9 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 ## Phiên 02/10/2026 – Bỏ Phụ lục C
 - NCS quyết định bỏ Phụ lục C (ma trận RQ–WP–Paper–Gate) vì Bảng 5.2 đã làm phần này; CLAUDE.md mục 6.2, 6.3, 12 cập nhật. Tiểu luận chuyển sang chờ gửi thầy; công việc chính chuyển sang Bài 1.
 
+
+## Phiên 02/10/2026 – Mục tiêu 1 theo ba mức đánh giá
+- Rà mục tiêu tiểu luận: không có số liệu, kết quả Paper 1 trong `tieuluan/`. Phát hiện lệch nội bộ: mục 3.3.3 và bảng thuật ngữ xác lập hai giao thức LORO, LOCO, còn Mục tiêu 1, RQ1 và các chỗ liên quan chỉ so "giữ lại cả lần chạy" với "cùng lần chạy".
+- NCS duyệt: Mục tiêu 1 đánh giá ba mức, cùng lần chạy (mốc đo mức lạc quan; [14], [15], [53]), giữ lại một lần chạy (LORO), giữ lại một đợt (LOCO; [18], [19], [56]). Căn cứ chỉ lấy từ Chương 3, không từ Paper 1.
+- Sửa `05_chuong5.md` (5.3 lời dẫn, Mục tiêu 1, Bảng 5.1, RQ1, Bảng 5.2, Bước 1, Bảng V1, 5.6A giao thức, 5.7.1, 5.10), `01_chuong1.md` (1.7), CLAUDE.md (QĐ 4, QĐ 13 vế A1, mục 2A, mục 9, mục 13).
+- Không thêm trích dẫn mới; [18], [19], [56] đã dùng ở Chương 3.

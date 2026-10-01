@@ -78,7 +78,7 @@ Một kết quả rút từ dữ liệu dao động của kết cấu có liên 
 
 Các điều kiện đó cần thiết vì hiệu lực sau can thiệp không đoán trước được: có trường hợp mất \[18\], \[@2ZJSENQU\], có trường hợp một lần siết lại vẫn được phân loại đúng \[48\], nên chỉ kiểm được khi bằng chứng được dùng. Mô hình học từ trạng thái bình thường cũng không bảo đảm với điều kiện vận hành chưa có trong huấn luyện \[@23TBQTIP\], \[45\]. Với nhà xưởng có cầu trục, điều kiện vận hành thuộc phạm vi này (Mục 3.2).
 
-Nghiên cứu này kiểm hai điều: mức chênh lệch giữa đánh giá giữ lại cả lần chạy và đánh giá cùng lần chạy trên khung thép thu nhỏ (Mục tiêu 1), và khả năng kiểm bằng máy việc dùng bằng chứng ngoài phạm vi (Mục tiêu 2). Sau nghiên cứu, người quản lý có một con số về mức lạc quan của cách đánh giá thường gặp, và một bản ghi bằng chứng mang phạm vi để trả lời câu hỏi "tin được đến mức nào?".
+Nghiên cứu này kiểm hai điều: mức chênh lệch giữa đánh giá cùng lần chạy và hai mức đánh giá theo đơn vị độc lập, giữ lại lần chạy và giữ lại đợt thí nghiệm, trên khung thép thu nhỏ (Mục tiêu 1), và khả năng kiểm bằng máy việc dùng bằng chứng ngoài phạm vi (Mục tiêu 2). Sau nghiên cứu, người quản lý có một con số về mức lạc quan của cách đánh giá thường gặp, và một bản ghi bằng chứng mang phạm vi để trả lời câu hỏi "tin được đến mức nào?".
 
 ### 5.2.2. Khoảng trống B – Từ bằng chứng đến hành động có trách nhiệm
 
@@ -120,7 +120,7 @@ Theo phân loại mức tích hợp của \[8\], hệ thống của luận án �
 
 ### 5.3.3. Mục tiêu cụ thể
 
-**Mục tiêu 1 – Bằng chứng trạng thái có phạm vi hiệu lực (phòng thí nghiệm).** Định lượng hiệu năng của bốn mô hình, gồm rừng ngẫu nhiên (Random Forest, RF), máy vectơ hỗ trợ với nhân RBF (SVM-RBF), mạng tích chập một chiều (1D-CNN) và mạng phần dư một chiều (ResNet1D), trong việc phân biệt các trạng thái liên kết bu lông có kiểm soát trên mô hình khung thép tỉ lệ 1:10 khi đánh giá theo đơn vị độc lập; đo mức chênh lệch so với đánh giá cùng lần chạy; và khai báo phạm vi hiệu lực cho từng kết quả dưới dạng bản ghi bằng chứng.
+**Mục tiêu 1 – Bằng chứng trạng thái có phạm vi hiệu lực (phòng thí nghiệm).** Định lượng hiệu năng của bốn mô hình, gồm rừng ngẫu nhiên (Random Forest, RF), máy vectơ hỗ trợ với nhân RBF (SVM-RBF), mạng tích chập một chiều (1D-CNN) và mạng phần dư một chiều (ResNet1D), trong việc phân biệt các trạng thái liên kết bu lông có kiểm soát trên mô hình khung thép tỉ lệ 1:10 khi đánh giá theo đơn vị độc lập ở hai mức, giữ lại một lần chạy (LORO) và giữ lại một đợt thí nghiệm (LOCO); đo mức chênh lệch của mỗi mức so với đánh giá cùng lần chạy; và khai báo phạm vi hiệu lực cho từng kết quả dưới dạng bản ghi bằng chứng.
 
 **Mục tiêu 2 – Mô hình thông tin truy vết bằng chứng – hành động.** Xây dựng mô hình thông tin mở rộng mô hình IFC 4.3 của \[35\] và BCF 3.0 \[@K5SGFIGW\] bằng hai tầng: tầng bằng chứng (nguồn gốc, độ bất định, phạm vi hiệu lực) và tầng trách nhiệm (sự kiện chuyển trạng thái có căn cứ và vai trò người thực hiện, xác minh sau sửa chữa). Mô hình gồm sáu thực thể, năm ràng buộc kiểm bằng máy và logic hỗ trợ hành động bốn mức bằng luật minh bạch. Mô hình được đánh giá trên BIM của một nhà xưởng thật, so với hồ sơ kiểm định theo thực hành hiện hành (B0) và với mô hình chỉ dùng IFC 4.3 theo \[35\] và BCF 3.0 (B1), lấy tỉ lệ phát hiện lỗi chèn mù làm chỉ số chính.
 
@@ -128,7 +128,7 @@ Theo phân loại mức tích hợp của \[8\], hệ thống của luận án �
 
 | Mục tiêu | Khoảng trống | Câu hỏi | Đối chứng | Kết quả đo | Sản phẩm |
 |---|---|---|---|---|---|
-| 1 | A (đánh giá, khai báo) | 1 | Đánh giá cùng lần chạy | Hiệu năng theo đơn vị độc lập kèm biến thiên theo seed, fold và kiểm định hoán vị; mức chênh lệch; phạm vi hiệu lực của từng kết quả | Bài báo 1 |
+| 1 | A (đánh giá, khai báo) | 1 | Đánh giá cùng lần chạy | Hiệu năng ở hai mức đơn vị độc lập (lần chạy, đợt) kèm biến thiên theo seed, fold và kiểm định hoán vị; mức chênh lệch; phạm vi hiệu lực của từng kết quả | Bài báo 1 |
 | 2 | B (và A) | 2 | B0, B1 | Tỉ lệ phát hiện lỗi chèn mù theo nhóm lỗi (chỉ số chính); đủ thuộc tính bắt buộc; thời gian truy ngược; chi phí ghi nhận | Bài báo 2 |
 | 3 | A, B (áp dụng) | 3 | Không | Tỉ lệ dữ liệu về đủ; ánh xạ cảm biến – cấu kiện đúng; truy ngược kịch bản đầu cuối; chi phí ghi nhận | Chương luận án; phần hiện trường của Bài báo 2 |
 
@@ -138,7 +138,7 @@ Mục tiêu 1 cấp cho Mục tiêu 2 một tập bằng chứng có phạm vi h
 
 ### 5.4.1. Câu hỏi nghiên cứu 1 – Bằng chứng phòng thí nghiệm
 
-**Khi giữ lại cả lần chạy trong đánh giá, bốn mô hình RF, SVM-RBF, 1D-CNN và ResNet1D phân biệt các trạng thái liên kết bu lông có kiểm soát trên khung thép 1:10 ở mức nào, chênh lệch bao nhiêu so với đánh giá cùng lần chạy, và mỗi kết quả được dùng trong phạm vi nào?**
+**Khi đánh giá theo đơn vị độc lập ở hai mức, giữ lại một lần chạy và giữ lại một đợt thí nghiệm, bốn mô hình RF, SVM-RBF, 1D-CNN và ResNet1D phân biệt các trạng thái liên kết bu lông có kiểm soát trên khung thép 1:10 ở mức nào, chênh lệch bao nhiêu so với đánh giá cùng lần chạy, và mỗi kết quả được dùng trong phạm vi nào?**
 
 Câu hỏi đo độ tin cậy của bằng chứng theo đơn vị suy luận và phạm vi đã kiểm chứng. Kết quả so sánh các mô hình được báo cáo trong phạm vi đó; thứ hạng giữa các mô hình là kết quả phụ.
 
@@ -174,7 +174,7 @@ Trong chương này, RQ là câu hỏi nghiên cứu và WP là gói công việ
 
 | Mục tiêu | Câu hỏi | Gói công việc | Nội dung cốt lõi | Công bố dự kiến | Thiết kế kiểm chứng |
 |:--:|:--:|----|----|:--:|----|
-| 1 | RQ1 | WP1 – Bằng chứng dao động phòng thí nghiệm | Dữ liệu ba đợt thí nghiệm trên khung thép 1:10; bốn mô hình; đánh giá giữ lại cả lần chạy so với đánh giá cùng lần chạy; kiểm định hoán vị; khai báo phạm vi hiệu lực cho từng kết quả | Bài báo 1 | Mức chênh lệch giữa hai cách đánh giá và phạm vi hiệu lực của kết quả |
+| 1 | RQ1 | WP1 – Bằng chứng dao động phòng thí nghiệm | Dữ liệu ba đợt thí nghiệm trên khung thép 1:10; bốn mô hình; đánh giá ba mức: cùng lần chạy, giữ lại lần chạy (LORO), giữ lại đợt (LOCO); kiểm định hoán vị; khai báo phạm vi hiệu lực cho từng kết quả | Bài báo 1 | Mức chênh lệch giữa ba mức đánh giá và phạm vi hiệu lực của kết quả |
 | 2 | RQ2 | WP2 – Mô hình thông tin bằng chứng – hành động; WP4 – logic hỗ trợ hành động bốn mức | Sáu thực thể, năm ràng buộc kiểm bằng máy, logic bốn mức bằng luật; mở rộng IFC 4.3 của \[35\] và BCF 3.0 \[@K5SGFIGW\] | Bài báo 2 | So sánh với B0 và B1 trên cùng BIM nhà xưởng; tỉ lệ phát hiện lỗi chèn mù theo nhóm lỗi là chỉ số chính |
 | 3 | RQ3 | WP3 – Triển khai trên nhà xưởng thật | 6–10 cảm biến ở liên kết đại diện; đường cơ sở vận hành; Autoencoder có bù nhiệt độ và trạng thái cầu trục; kịch bản kiểm tra – xử lý – truy ngược đầu cuối | Phần hiện trường của Bài báo 2 hoặc chương luận án | Dữ liệu về đủ, ánh xạ cảm biến – cấu kiện đúng, truy ngược kịch bản, chi phí ghi nhận |
 
@@ -184,7 +184,7 @@ Trong chương này, RQ là câu hỏi nghiên cứu và WP là gói công việ
 
 **Bước kiểm chứng 1 – Mức chênh lệch giữa các cách đánh giá và phạm vi hiệu lực (Mục tiêu 1).**
 
-Xác định đơn vị độc lập (lần chạy, đợt) trên dữ liệu ba đợt; đánh giá bốn mô hình theo hai cách, giữ lại cả lần chạy và cùng lần chạy; báo cáo biến thiên theo seed và fold cùng kiểm định hoán vị; ghi mỗi kết quả thành bản ghi bằng chứng có phiên bản phương pháp, độ bất định và phạm vi hiệu lực.
+Xác định đơn vị độc lập (lần chạy, đợt) trên dữ liệu ba đợt; đánh giá bốn mô hình theo ba mức, cùng lần chạy, giữ lại một lần chạy (LORO) và giữ lại một đợt (LOCO); báo cáo biến thiên theo seed và fold cùng kiểm định hoán vị; ghi mỗi kết quả thành bản ghi bằng chứng có phiên bản phương pháp, độ bất định và phạm vi hiệu lực.
 
 **Bước kiểm chứng 2 – Khóa trước khi đo (Mục tiêu 2).**
 
@@ -240,7 +240,7 @@ Bốn lớp là bốn loại bằng chứng; mỗi lớp chỉ khẳng định �
 
 | **Mức** | **Mục tiêu** | **Nội dung kiểm chứng** | **Điều không được suy ra** |
 |:--:|:--:|:---|:---|
-| V1 – Giá trị phòng thí nghiệm | 1 | Phân biệt trạng thái có kiểm soát dưới đánh giá theo đơn vị độc lập; mức chênh lệch so với đánh giá cùng lần chạy | Chẩn đoán hiện trường |
+| V1 – Giá trị phòng thí nghiệm | 1 | Phân biệt trạng thái có kiểm soát dưới đánh giá theo đơn vị độc lập (lần chạy, đợt); mức chênh lệch so với đánh giá cùng lần chạy | Chẩn đoán hiện trường |
 | V2 – Giá trị truy vết | 2 | Tỉ lệ phát hiện lỗi chèn mù so với B0 và B1; trả lời bộ câu hỏi truy ngược | Độ chính xác kỹ thuật của mô hình phân loại |
 | V3 – Khả năng áp dụng trong bối cảnh thực tế | 3 | Dữ liệu về đủ, ánh xạ đúng, truy ngược được kịch bản đầu cuối, chi phí ghi nhận | Phát hiện hư hỏng thực |
 | V4 – Giá trị hỗ trợ quyết định | 2, 3 | Mỗi mức ưu tiên và mỗi sự kiện chuyển trạng thái truy được về luật, bằng chứng và người rà soát | Quyết định tự động hoặc hiệu quả của quyết định |
@@ -267,7 +267,7 @@ Trong kiểm tra – bảo trì kết cấu thép, mỗi quyết định kiểm 
 
 Ở WP1, trạng thái liên kết được tạo có kiểm soát trên mô hình khung thép, nên bài toán là phân loại có giám sát. Họ mô hình thứ nhất học trên đặc trưng thủ công miền thời gian – tần số: rừng ngẫu nhiên (Random Forest, RF) \[@5TQ4AZVX\] và máy véc-tơ hỗ trợ với nhân hàm cơ sở bán kính (SVM-RBF) \[@JVI2GUPC\]. Họ thứ hai học trực tiếp trên tín hiệu đã chuẩn hóa. Mạng nơ-ron tích chập một chiều (1D-CNN) gộp trích đặc trưng và phân loại vào một khối học trên tín hiệu gia tốc thô \[@HPREAQAJ\], và đã được tổng quan cho tín hiệu một chiều, trong đó có theo dõi trạng thái kết cấu \[@IU5KZQEA\], \[@QUGY4928\]. Mạng dư một chiều (ResNet1D) kế thừa khối dư (residual block) của He và cộng sự (2016) \[@69U5H3TZ\]; Wang, Yan và Oates (2017) cho thấy cấu trúc ResNet học trực tiếp từ chuỗi thời gian thô đạt kết quả cạnh tranh trong phân loại \[@WXHN9TA2\]. Hai họ được dùng song song để đối chiếu xem kết luận có phụ thuộc cách biểu diễn tín hiệu hay không.
 
-Giao thức đánh giá kế thừa Mục 3.3. Dữ liệu được chia theo nhóm, giữ lại cả lần chạy, để các cửa sổ của một bản ghi nằm trọn ở một phía của phép chia \[14\], \[53\]; điểm được chấm theo bản ghi, là đơn vị vật lý của phép đo; kiểm định hoán vị cho biết hiệu năng có vượt mức ngẫu nhiên hay không \[59\]. Siêu tham số được cố định trước hoặc chọn bên trong vòng huấn luyện của từng lần chia, vì sai số kiểm định chéo của một bộ phân loại đã tinh chỉnh bằng chính phép kiểm định đó bị lệch lạc quan \[@D28DT7CE\]; độ lệch lớn hơn khi cỡ mẫu nhỏ và khi chọn đặc trưng trên dữ liệu gộp \[@6JAQQCGE\]. Kết quả được báo cáo kèm biến thiên theo seed và theo fold.
+Giao thức đánh giá kế thừa Mục 3.3. Dữ liệu được chia theo nhóm ở hai mức, giữ lại cả lần chạy (LORO) và giữ lại cả đợt thí nghiệm (LOCO), để các cửa sổ của một bản ghi nằm trọn ở một phía của phép chia \[14\], \[53\]; mức đợt phản ánh biến thiên do tháo – lắp lại và trạng thái tiếp xúc \[18\], \[19\], \[56\]; đánh giá cùng lần chạy chỉ dùng làm mốc để đo mức lạc quan; điểm được chấm theo bản ghi, là đơn vị vật lý của phép đo; kiểm định hoán vị cho biết hiệu năng có vượt mức ngẫu nhiên hay không \[59\]. Siêu tham số được cố định trước hoặc chọn bên trong vòng huấn luyện của từng lần chia, vì sai số kiểm định chéo của một bộ phân loại đã tinh chỉnh bằng chính phép kiểm định đó bị lệch lạc quan \[@D28DT7CE\]; độ lệch lớn hơn khi cỡ mẫu nhỏ và khi chọn đặc trưng trên dữ liệu gộp \[@6JAQQCGE\]. Kết quả được báo cáo kèm biến thiên theo seed và theo fold.
 
 Cấp nhóm, đơn vị chấm điểm và đợt lắp đặt ghi vào trường phạm vi hiệu lực của bản ghi bằng chứng (cách chia dữ liệu, đơn vị suy luận, đợt lắp đặt); biến thiên theo seed, fold và kết quả kiểm định hoán vị ghi vào trường độ bất định; nhãn hoặc xác suất lớp ghi vào trường giá trị; mã phiên bản của chuỗi xử lý (git commit) ghi vào trường phiên bản phương pháp. Kết quả thực nghiệm của WP1 thuộc chuyên đề tiếp theo.
 
@@ -304,9 +304,9 @@ Công cụ hỗ trợ ngoài AI gồm Python, scikit-learn, PyTorch; git để c
 
 ### 5.7.1. Đóng góp 1 – Mức lạc quan của đánh giá cùng lần chạy và bằng chứng có phạm vi hiệu lực (thực nghiệm – phương pháp)
 
-Đóng góp dự kiến thứ nhất là số đo mức chênh lệch giữa đánh giá giữ lại cả lần chạy và đánh giá cùng lần chạy cho phân loại trạng thái liên kết bu lông từ dữ liệu dao động trên khung thép, cùng một cách ghi mỗi kết quả thành bản ghi bằng chứng có nguồn gốc, độ bất định và phạm vi hiệu lực. Nghiên cứu kế thừa cách so sánh hai thiết kế đánh giá từ \[19\], làm cho phát xạ âm trên dầm nhôm, và từ \[15\], làm cho ổ trục; phần riêng của luận án là tín hiệu dao động trên khung thép nhiều liên kết, bốn họ mô hình và khai báo phạm vi cho từng kết quả.
+Đóng góp dự kiến thứ nhất là số đo mức chênh lệch giữa đánh giá cùng lần chạy và hai mức đánh giá theo đơn vị độc lập, giữ lại lần chạy và giữ lại đợt thí nghiệm, cho phân loại trạng thái liên kết bu lông từ dữ liệu dao động trên khung thép, cùng một cách ghi mỗi kết quả thành bản ghi bằng chứng có nguồn gốc, độ bất định và phạm vi hiệu lực. Nghiên cứu kế thừa cách so sánh hai thiết kế đánh giá từ \[19\], làm cho phát xạ âm trên dầm nhôm, và từ \[15\], làm cho ổ trục; phần riêng của luận án là tín hiệu dao động trên khung thép nhiều liên kết, bốn họ mô hình và khai báo phạm vi cho từng kết quả.
 
-Nếu hiệu năng giảm khi giữ lại cả lần chạy, mức giảm đó là kết quả cần báo cáo: nó cho biết phạm vi hiệu lực hẹp đến đâu. Đóng góp này thuộc RQ1, WP1 và Bài báo 1. Phạm vi diễn giải được trình bày ở Mục 5.8.
+Nếu hiệu năng giảm khi giữ lại cả lần chạy hoặc cả đợt, mức giảm ở mỗi mức là kết quả cần báo cáo: nó cho biết phạm vi hiệu lực hẹp đến đâu. Đóng góp này thuộc RQ1, WP1 và Bài báo 1. Phạm vi diễn giải được trình bày ở Mục 5.8.
 
 ### 5.7.2. Đóng góp 2 – Mô hình thông tin bằng chứng – hành động được đánh giá với hai đối chứng (artefact thiết kế)
 
@@ -394,7 +394,7 @@ Tiểu luận cho thấy các thành phần kỹ thuật chính của bài toán
 
 Hai khoảng trống còn lại sau khi đối chiếu tiền lệ là: bằng chứng trạng thái có phạm vi hiệu lực, gồm vế đánh giá và vế khai báo (khoảng trống A); và từ bằng chứng đến hành động có trách nhiệm (khoảng trống B). Cả hai được phát biểu trong phạm vi tập tài liệu đã rà soát.
 
-Ba mục tiêu ứng với ba câu hỏi nghiên cứu và hai bài báo: Mục tiêu 1 đo mức lạc quan của đánh giá cùng lần chạy và khai báo phạm vi hiệu lực trên khung thép 1:10 (Bài báo 1); Mục tiêu 2 xây dựng mô hình thông tin mở rộng IFC 4.3 và BCF 3.0, đánh giá so với hồ sơ hiện hành và với mô hình chỉ dùng chuẩn sẵn có (Bài báo 2); Mục tiêu 3 kiểm chứng khả thi của chuỗi trên một nhà xưởng thật có BIM. Hệ thống được khai báo ở mức bóng số theo \[8\].
+Ba mục tiêu ứng với ba câu hỏi nghiên cứu và hai bài báo: Mục tiêu 1 đo mức lạc quan của đánh giá cùng lần chạy so với đánh giá giữ lại lần chạy và giữ lại đợt, và khai báo phạm vi hiệu lực trên khung thép 1:10 (Bài báo 1); Mục tiêu 2 xây dựng mô hình thông tin mở rộng IFC 4.3 và BCF 3.0, đánh giá so với hồ sơ hiện hành và với mô hình chỉ dùng chuẩn sẵn có (Bài báo 2); Mục tiêu 3 kiểm chứng khả thi của chuỗi trên một nhà xưởng thật có BIM. Hệ thống được khai báo ở mức bóng số theo \[8\].
 
 Sau Tiểu luận, nghiên cứu chuyển từ xác lập khoảng trống sang kiểm chứng theo trình tự ba mục tiêu, giữ định vị Quản lý xây dựng:
 

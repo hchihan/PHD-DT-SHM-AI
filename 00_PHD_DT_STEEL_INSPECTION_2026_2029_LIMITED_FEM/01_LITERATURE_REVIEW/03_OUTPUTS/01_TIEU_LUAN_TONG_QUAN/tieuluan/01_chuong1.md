@@ -291,7 +291,7 @@ Nhật ký tìm kiếm có ngày thực hiện, chuỗi truy vấn nguyên văn 
 
 ## 1.7. Mục tiêu và câu hỏi nghiên cứu của luận án
 
-Từ hai khoảng trống tổng hợp ở mục 5.2, luận án có ba mục tiêu, mỗi mục tiêu ứng với một câu hỏi nghiên cứu; phát biểu đầy đủ ở mục 5.3–5.4 và ma trận mục tiêu – câu hỏi – gói công việc – bài báo ở mục 5.5. Câu hỏi 1 đo mức chênh lệch giữa đánh giá giữ lại cả lần chạy và đánh giá cùng lần chạy cho phân loại trạng thái liên kết bu lông trên khung thép 1:10, và khai báo phạm vi hiệu lực của từng kết quả. Câu hỏi 2 đánh giá một mô hình thông tin mở rộng IFC 4.3 và BCF 3.0 bằng tầng bằng chứng và tầng trách nhiệm, so với hồ sơ kiểm định hiện hành và với mô hình chỉ dùng chuẩn sẵn có. Câu hỏi 3 kiểm khả năng vận hành của chuỗi bằng chứng – hành động trên một nhà xưởng khung thép thật có BIM.
+Từ hai khoảng trống tổng hợp ở mục 5.2, luận án có ba mục tiêu, mỗi mục tiêu ứng với một câu hỏi nghiên cứu; phát biểu đầy đủ ở mục 5.3–5.4 và ma trận mục tiêu – câu hỏi – gói công việc – bài báo ở mục 5.5. Câu hỏi 1 đo mức chênh lệch giữa đánh giá cùng lần chạy và hai mức đánh giá theo đơn vị độc lập, giữ lại lần chạy và giữ lại đợt thí nghiệm, cho phân loại trạng thái liên kết bu lông trên khung thép 1:10, và khai báo phạm vi hiệu lực của từng kết quả. Câu hỏi 2 đánh giá một mô hình thông tin mở rộng IFC 4.3 và BCF 3.0 bằng tầng bằng chứng và tầng trách nhiệm, so với hồ sơ kiểm định hiện hành và với mô hình chỉ dùng chuẩn sẵn có. Câu hỏi 3 kiểm khả năng vận hành của chuỗi bằng chứng – hành động trên một nhà xưởng khung thép thật có BIM.
 
 Mỗi câu hỏi cần một loại bằng chứng riêng, và kết quả của câu trước không dùng thay cho câu sau. Cảm biến, xử lý tín hiệu, học máy và BIM là công cụ tạo và tổ chức thông tin phục vụ quản lý.
 
