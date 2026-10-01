@@ -157,7 +157,7 @@ Trong quản lý tài sản, hệ thống số có thể hỗ trợ lựa chọn
 
 Giá trị của hệ thống nằm ở việc làm cho quyết định **minh bạch, có căn cứ và có thể truy ngược**, trong khi người ra quyết định vẫn là con người. Cách tiếp cận này phù hợp với quản lý tài sản khi dữ liệu hư hỏng hiện trường hạn chế.
 
-Trong lý thuyết quyết định, giá trị của thông tin quan trắc được lượng hóa bằng phân tích Bayes tiền hậu nghiệm, và kế hoạch kiểm tra theo rủi ro dùng chính lượng này để chọn thời điểm và nội dung kiểm tra \[79\]. Hướng gần đây đưa nhiều biểu diễn Song sinh số cạnh tranh vào cùng một bài toán quyết định thay vì giả định một biểu diễn đúng duy nhất \[80\]. Luận án không giải bài toán tối ưu kế hoạch kiểm tra và không lượng hóa chi phí vòng đời. Khung giá trị thông tin được nêu ở đây như căn cứ lý thuyết cho lớp hỗ trợ hành động: mức ưu tiên kiểm tra là một đề xuất có căn cứ để người có trách nhiệm rà soát, và việc hiệu chỉnh ngưỡng chuyển mức bằng dữ liệu chi phí cùng rủi ro thuộc bước phát triển sau luận án.
+Trong lý thuyết quyết định, giá trị của thông tin quan trắc được lượng hóa bằng phân tích Bayes tiền hậu nghiệm, và kế hoạch kiểm tra theo rủi ro dùng chính lượng này để chọn thời điểm và nội dung kiểm tra \[79\]. Luận án không giải bài toán tối ưu kế hoạch kiểm tra và không lượng hóa chi phí vòng đời. Khung giá trị thông tin được nêu ở đây như căn cứ lý thuyết cho lớp hỗ trợ hành động: mức ưu tiên kiểm tra là một đề xuất có căn cứ để người có trách nhiệm rà soát, và việc hiệu chỉnh ngưỡng chuyển mức bằng dữ liệu chi phí cùng rủi ro thuộc bước phát triển sau luận án.
 
 ## 4.6. Tổng hợp các dòng nghiên cứu và hàm ý cho Tiểu luận
 

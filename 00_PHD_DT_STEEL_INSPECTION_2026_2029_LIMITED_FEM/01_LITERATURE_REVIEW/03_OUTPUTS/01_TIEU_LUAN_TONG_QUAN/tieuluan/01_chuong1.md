@@ -165,7 +165,7 @@ Luận án kế thừa các tiền lệ này và tập trung vào một câu h�
 
 ### 1.4.1. Mục tiêu tổng quát
 
-Mục tiêu của Tiểu luận tổng quan là hệ thống hóa và tổng hợp có chọn lọc cơ sở lý luận cùng bằng chứng nghiên cứu liên quan để xác lập nền khoa học cho việc phát triển **khung Song sinh số dựa trên dữ liệu phục vụ giám sát trạng thái và hỗ trợ kiểm tra – bảo trì nhà công nghiệp khung thép**. Trọng tâm của Tiểu luận là tính liên tục của chuỗi thông tin từ dữ liệu dao động tới bằng chứng trạng thái, cấu kiện trong mô hình thông tin, hồ sơ kiểm tra và trạng thái hành động.
+Mục tiêu của Tiểu luận tổng quan là hệ thống hóa và tổng hợp có chọn lọc cơ sở lý luận cùng bằng chứng nghiên cứu liên quan để xác lập nền khoa học cho việc phát triển **khung song sinh số dựa trên dữ liệu phục vụ giám sát trạng thái và hỗ trợ kiểm tra – bảo trì nhà công nghiệp khung thép**, được khai báo ở mức bóng số theo phân loại của \[8\] (mục 1.1.3). Trọng tâm của Tiểu luận là tính liên tục của chuỗi thông tin từ dữ liệu dao động tới bằng chứng trạng thái, cấu kiện trong mô hình thông tin, hồ sơ kiểm tra và trạng thái hành động.
 
 ### 1.4.2. Mục tiêu cụ thể
 

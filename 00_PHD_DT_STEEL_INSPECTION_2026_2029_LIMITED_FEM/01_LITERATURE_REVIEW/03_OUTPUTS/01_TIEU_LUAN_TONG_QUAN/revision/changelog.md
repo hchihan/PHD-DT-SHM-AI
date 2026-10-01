@@ -426,3 +426,9 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
   - 4.5.4 viết lại, đổi tên "Mức ưu tiên, trạng thái xử lý và lịch sử chuyển trạng thái" (496 từ): tách `priority_level` và `Action_Status`; ví dụ trạng thái của `IfcActionRequest` trộn hai trục (nhận định của NCS); tiền lệ BCF-API 3.0 và [44] (tr. 3, 19–25); kế thừa khuôn bước chuyển có bằng chứng và đúng thẩm quyền; trỏ Bảng A.3, C6, C9.
 - Trích dẫn: \[@K5SGFIGW\] (đã có), [44] lần đầu trong Chương 4; thêm một `[CẦN NGUỒN: Khuyến nghị W3C SSN]` và một `[CẦN NGUỒN: IFC4 ADD2 TC1]`.
 - Phát hiện, chưa sửa: 4.5.5 trích [80] (đã bỏ khỏi danh sách key, chưa đọc); 4.2.1 trích [61], [62] cho nội dung SOSA (chưa đọc hai bài, nội dung đã kiểm qua Khuyến nghị W3C).
+
+## Phiên 02/10/2026 – Duyệt Chương 4; xóa câu dẫn [80]; 1.4.1 khai báo bóng số
+- NCS duyệt Chương 4. CLAUDE.md mục 12 cập nhật.
+- `tieuluan/04_chuong4.md` 4.5.5: xóa câu "Hướng gần đây đưa nhiều biểu diễn Song sinh số cạnh tranh vào cùng một bài toán quyết định ... \[80\]" ([80] Bull 2025 đã bỏ ở GĐ2, chưa đọc). [80] không còn được trích trong thân bài; mục [80] trong `99_tailieu.md` giữ đến GĐ6 (tạo lại danh mục từ trích dẫn thực có).
+- `tieuluan/01_chuong1.md` 1.4.1: cụm "khung song sinh số dựa trên dữ liệu ..." kèm "được khai báo ở mức bóng số theo phân loại của \[8\] (mục 1.1.3)"; viết thường "song sinh số" theo cách viết ở Dẫn nhập, 1.1.3.
+- Trích dẫn: chỉ [8] (đã có).
