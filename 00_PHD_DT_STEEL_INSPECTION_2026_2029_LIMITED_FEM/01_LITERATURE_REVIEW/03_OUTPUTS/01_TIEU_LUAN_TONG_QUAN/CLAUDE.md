@@ -12,8 +12,10 @@
   kỹ thuật số dựa trên dữ liệu trong giám sát trạng thái và hỗ trợ kiểm tra – bảo trì
   công trình công nghiệp khung thép". Ngành Quản lý xây dựng.
 - **Bản gốc:** `HO_CHI_HAN_TIEU_LUAN_TONG_QUAN_23092026_HOANTHIEN.docx` (84 tài liệu tham khảo).
-- **Mục tiêu luận án:** một mô hình thông tin / schema truy vết bằng chứng – trách nhiệm
-  cho kiểm tra – bảo trì kết cấu thép, được kiểm chứng trên công trình thật với chỉ số rõ ràng.
+- **Mục tiêu luận án:** ba mục tiêu đã khóa ở mục 2A (MT1 phòng thí nghiệm → Bài 1; MT2 mô hình thông tin → Bài 2;
+  MT3 nhà xưởng thật có BIM và cảm biến → chương luận án, bổ sung cho Bài 2).
+- **Định hướng hoàn thành (NCS quyết định 01/10/2026):** tốt nghiệp sớm với **2 bài Q2/Q3**. Phạm vi rút gọn; mọi việc
+  không phục vụ trực tiếp một trong hai bài thì hoãn hoặc đưa vào "hướng phát triển".
 - **Luận điểm trung tâm:** Với nhà xưởng thép, dữ liệu quan trắc không thể là kết luận hư hỏng,
   nhưng có thể trở thành căn cứ kiểm tra đáng tin và giải trình được nếu mỗi bằng chứng mang
   theo nguồn gốc, phạm vi hiệu lực và lịch sử xử lý đến tận hành động.
@@ -33,14 +35,44 @@
    đánh giá theo nhóm (giữ lại cả lần chạy), chấm điểm theo bản ghi, kiểm định hoán vị,
    báo cáo biến thiên theo seed và theo fold.
 5. **Công cụ AI ở hiện trường (WP3): Autoencoder** phát hiện bất thường so với đường cơ sở
-   vận hành, kèm bù ảnh hưởng môi trường – vận hành (EOV) và vòng lặp kiểm tra tạo nhãn.
+   vận hành, kèm bù EOV ở mức tối thiểu: hồi quy theo nhiệt độ và cờ cầu trục chạy/dừng. Kết quả kiểm tra của kỹ sư
+   được ghi làm nhãn hiện trường; **không** làm học chủ động (rút gọn 01/10/2026).
 6. **Nguyên tắc AI:** "AI tạo bằng chứng, con người quyết định". Mọi đầu ra AI trở thành
    một bản ghi `EVIDENCE` có `method_version`, `uncertainty`, `VALIDITY_SCOPE`.
-7. **Schema dạng đồ thị**, không phải chuỗi tuyến tính (xem mục 8).
+7. **Schema dạng đồ thị**, không phải chuỗi tuyến tính; bản rút gọn 6 thực thể, 5 ràng buộc (xem mục 8).
 8. **Tách hai trục:** `priority_level` (Bình thường → Theo dõi → Kiểm tra → Kiểm tra ưu tiên)
    và `Action_Status` (mở → đang xử lý → hoàn thành → đã xác minh).
-9. **Khoảng trống chỉ được chốt sau khi đọc sâu 20–30 tài liệu key** (yêu cầu của thầy hướng dẫn).
-   K1–K3 hiện tại là giả thuyết làm việc, chờ Điểm duyệt 3.
+9. **Khoảng trống: chốt hai khoảng trống** (NCS quyết định 01/10/2026, sau khi đã đọc sâu 29/30 tài liệu key):
+   - **G-A — Bằng chứng trạng thái có phạm vi hiệu lực** (gộp K1; UV-02, UV-06; UV-08 làm yêu cầu nội dung): kết quả từ
+     dữ liệu dao động chưa được ghi thành bằng chứng mang nguồn gốc, phương pháp và phạm vi hiệu lực (đơn vị đánh giá,
+     lần lắp ráp – can thiệp, điều kiện vận hành) để kiểm được khi nào còn dùng được.
+   - **G-B — Từ bằng chứng đến hành động có trách nhiệm** (gộp K3; UV-01, UV-05, UV-07): chuỗi kiểm tra – cấu kiện –
+     hành động đã có chuẩn biểu diễn ([35], IFC4, BCF 3.0), nhưng bằng chứng có phạm vi hiệu lực chưa đi vào chuỗi đó và
+     mỗi lần đổi trạng thái chưa được ghi thành sự kiện có căn cứ, thẩm quyền, xác minh sau sửa chữa.
+   - K2 (UV-03) hạ thành **yêu cầu của schema** (ràng buộc C3), không là khoảng trống riêng. UV-04 chỉ dùng định vị (2.3).
+   - ĐD3 chỉ còn: NCS duyệt câu chữ hai khoảng trống và gửi thầy. Các mục phản chứng còn mở (N-20 – N-25) ghi
+     "đối chiếu ở mức tóm tắt / qua nguồn thứ cấp", không tìm thêm.
+10. **Ba mục tiêu luận án đã khóa** (mục 2A). Không thêm mục tiêu, WP hay bài báo mới.
+11. **Không mở rộng tổng quan:** không đọc thêm, không tìm thêm phản chứng hay tiền lệ, trừ khi thầy hướng dẫn hoặc phản
+    biện tạp chí yêu cầu bằng văn bản.
+
+---
+
+## 2A. Ba mục tiêu luận án (KHÓA 01/10/2026 — yêu cầu tối thiểu của trường)
+
+| | Mục tiêu | Có sẵn | Sản phẩm | Khoảng trống | Kết quả đo (đủ để kết luận) |
+|---|---|---|---|---|---|
+| **MT1** | Xác lập quy trình tạo **bằng chứng trạng thái liên kết bu lông có phạm vi hiệu lực** từ dữ liệu dao động trên khung thép thu nhỏ 1:10 trong phòng thí nghiệm, với bốn mô hình (RF, SVM-RBF, 1D-CNN, ResNet1D) dưới đánh giá theo nhóm giữ lại cả lần chạy, kiểm định hoán vị, báo cáo biến thiên theo seed và fold | Dữ liệu ba đợt thí nghiệm, kết quả Paper 1 (Gate 1) | **Bài 1** (Q2/Q3, SHM – đo lường) | G-A | Hiệu năng theo đơn vị đánh giá độc lập, chênh lệch so với đánh giá cùng lần chạy, khai báo phạm vi hiệu lực của kết quả |
+| **MT2** | Xây dựng **mô hình thông tin truy vết bằng chứng → hành động** cho kiểm tra – bảo trì kết cấu thép, mở rộng IFC 4.3 ([35]) và BCF 3.0 bằng tầng bằng chứng và tầng trách nhiệm (6 thực thể, 5 ràng buộc kiểm tự động, logic hỗ trợ hành động bốn mức bằng luật) | Schema đồ thị, C1–C9, mapping với [2], [35], [44] | **Bài 2** (Q2, tin học xây dựng) | G-B (+G-A) | 4 chỉ số ở mục 8 so với B0 (hồ sơ kiểm định cũ), trên BIM nhà xưởng thật và dữ liệu MT1 |
+| **MT3** | **Triển khai và kiểm chứng khả thi** trên một nhà xưởng khung thép thật có BIM: lắp hệ cảm biến, lập đường cơ sở vận hành, sinh bằng chứng cảm biến bằng Autoencoder (bù nhiệt độ, cờ cầu trục), chạy kịch bản kiểm tra – xử lý – truy ngược đầu cuối (kịch bản cột C3) | Công trình có BIM; NCS bảo đảm lắp cảm biến | Chương luận án; phần hiện trường của Bài 2 nếu kịp, hoặc bài hội nghị (không bắt buộc) | G-A, G-B (áp dụng) | Dữ liệu về đủ, ánh xạ cảm biến – cấu kiện đúng, kịch bản C3 truy ngược được, chi phí ghi nhận |
+
+Quy tắc phạm vi:
+- **Bài 2 không chờ quan trắc dài hạn:** kiểm chứng bằng BIM nhà xưởng thật + hồ sơ kiểm định cũ (B0) + dữ liệu MT1
+  (bằng chứng có phạm vi đã biết, dùng để chèn ca dùng ngoài phạm vi). Dữ liệu hiện trường MT3 có sớm thì thêm một mục minh họa.
+- **MT3 chỉ tuyên bố khả thi và truy vết**, không tuyên bố hiệu năng phát hiện hư hỏng ở hiện trường. Quan trắc 3–6 tháng,
+  khoảng 6–10 cảm biến ở các liên kết đại diện, 1–2 đợt kiểm tra thật.
+- Mức tích hợp khai báo theo Kritzinger [8]: bóng số (DS); tên đề tài giữ "song sinh số dựa trên dữ liệu" kèm khai báo này ở Chương 1.
+- RQ của tiểu luận được viết lại 1:1 theo MT1–MT3 ở GĐ5 (RQ1 ↔ MT1, RQ2 ↔ MT2, RQ3 ↔ MT3).
 
 ---
 
@@ -144,6 +176,14 @@ figures/           # sơ đồ (Mermaid/SVG) cho schema, kịch bản, kiến tr
 | 5 | Tái cấu trúc, cắt gọn (mục 6.2) | Bản toàn văn v2 | ĐD5 |
 | 6 | Kiểm tra nhất quán, khai báo AI tạo sinh, xuất Word theo mẫu trường, bản giải trình | Tiểu luận v2 + giải trình | ĐD6 |
 
+### 6.0 Phạm vi rút gọn cho tiểu luận (NCS duyệt 01/10/2026)
+- **GĐ2 đóng** với 29/30 tài liệu; [80] bỏ. Không mở thêm phiên đọc.
+- **GĐ3 rút gọn:** viết bảng hai khoảng trống G-A, G-B → căn cứ → vì sao quan trọng (≤ 2 trang), NCS duyệt, gửi thầy.
+- **GĐ4 chỉ viết các mục cần cho ba mục tiêu**, mỗi mục ≤ 1.500 từ: 1.2 Đối tượng; 3.2 Hạn chế quan trắc nhà công nghiệp
+  (gộp nội dung 3.6 cầu nối PTN – hiện trường thành một tiểu mục); 5.2 Khoảng trống; 5.5 Mô hình dữ liệu (bản rút gọn);
+  5.7 Kiểm chứng (1 trang, 4 chỉ số); Dẫn nhập ngắn. 1.3A, 1.4A, 5.6A đã có, chỉ sửa theo rút gọn.
+- **Mỗi phiên làm trọn một mục**; không tách nhỏ thêm.
+
 ### 6.1 Thứ tự viết mục mới (Giai đoạn 4)
 
 | # | Mục | Phụ thuộc |
@@ -170,19 +210,21 @@ Tiền lệ bắt buộc nêu (kết quả kiểm phản chứng GĐ2, 30/09/202
 - **[35] Bellon 2025** là tiền lệ của chuỗi định kiểu lần kiểm tra → hư hỏng → cấu kiện → nhiệm vụ bảo trì → chi phí bằng thực thể chuẩn IFC 4.3 (`IfcRelAssignsToProduct`, `IfcRelAdheresToElement`, `IfcRelAssignsToProcess`), cho phát hiện bằng mắt; nêu ở 2.2 và 5.5. Phần mới là bằng chứng có nguồn gốc và phạm vi hiệu lực (gồm cảm biến, NDT) đi vào chuỗi đó và sự kiện chuyển trạng thái của hành động có căn cứ (kết quả T1-1, 01/10/2026).
 - Đề xuất bổ sung schema từ `mapping/garcia2026.md` Phần D (tách nhiệm vụ, phiên bản bộ luật quyết định, mã băm) chờ NCS quyết định khi viết 5.5. Hai điểm của `mapping/bellon2025.md` Phần D (bản số EVIDENCE–COMPONENT khi xuất IFC, bản ghi mới thay bản ghi cũ) đã được NCS quyết định ngày 01/10/2026, ghi ở mục 8 "Quyết định thiết kế cho 5.5".
 - **Khi viết 5.5:** trình bày schema như phần mở rộng của mô hình IFC 4.3 của [35] và của BCF 3.0, không như một mô hình mới độc lập.
-- **[82] Seiß 2025** (NCS duyệt 01/10/2026): nêu ở 5.5 (nhắc ở 3.5) như ontology để căn chỉnh `INSPECTION_RECORD` với SOSA khi xuất RDF (OCQA: lần kiểm tra – cấu kiện – quy chuẩn, giá trị yêu cầu – thực đo); **không** dùng làm tiền lệ cho K3/C6 (không có hành động, phê duyệt, sự kiện chuyển trạng thái; phạm vi thi công).
-- **[21] Hagedorn 2023** (NCS duyệt 01/10/2026): tiền lệ kỹ thuật cho kiểm SHACL ở 5.5 và Phụ lục B — C1 (R1, `sh:minCount`) và C3/C9 (R2, ràng buộc thời gian bằng SHACL-SPARQL với `prov:startedAtTime`/`endedAtTime`, tr. 17–18).
+- **[82] Seiß 2025** (NCS duyệt 01/10/2026; điều chỉnh theo rút gọn): nêu ở 3.5 như ontology liên quan cho lần kiểm tra – cấu kiện – quy chuẩn; luận án không xuất RDF nên không căn chỉnh; **không** dùng làm tiền lệ cho G-B (không có hành động, phê duyệt, sự kiện chuyển trạng thái; phạm vi thi công).
+- **[21] Hagedorn 2023** (NCS duyệt 01/10/2026; điều chỉnh theo rút gọn): tiền lệ khái niệm cho kiểm ràng buộc tự động — C1 (R1) và C3/C9 (R2, ràng buộc thời gian, tr. 17–18); luận án kiểm bằng script Python thay cho SHACL.
 
 ### 6.2 Việc tái cấu trúc (Giai đoạn 5)
 - Chuyển RQ và kiến trúc nghiên cứu từ Chương 1 sang Chương 5; xóa phần lặp.
 - Gom các câu giới hạn về mục giới hạn (nhãn tạm 5.8, đánh số lại ở GĐ5), cắt khoảng một nửa.
-- Chuỗi định danh chi tiết + thang V1–V4 → Phụ lục A; ràng buộc C1–C8 → Phụ lục B;
+- Chuỗi định danh chi tiết + thang V1–V4 → Phụ lục A; 5 ràng buộc (mục 8) → Phụ lục B;
   ma trận RQ–WP–Paper–Gate → Phụ lục C.
 - 4.5.4: tách `priority_level` và `Action_Status`.
 - Bổ sung ISO 55000 (2.1) và BCF (2.2).
 - Rà các tài liệu ngoài danh sách key, đặc biệt 6 tài liệu về cầu ([63]–[66], [77], [78]):
   giữ nếu còn làm căn cứ, loại nếu không.
 - Khai báo sử dụng AI tạo sinh ở phần đầu.
+- Rút gọn 5.6A theo mục 9 (bỏ học chủ động, LLM, MLflow/DVC; WP2 mã hóa tay hồ sơ cũ làm B0); viết lại RQ theo MT1–MT3;
+  thay K1–K3 bằng G-A, G-B trong toàn văn.
 - Sửa câu ở `05_chuong5.md` gọi đối tượng của [82] là "hồ sơ kiểm tra": thực chất là lần kiểm tra theo kế hoạch trong thi công (NCS duyệt 01/10/2026; xem `notes/JTF8EM7Y.md`).
 
 ### 6.3 Cấu trúc đích của tiểu luận v2
@@ -219,7 +261,7 @@ Hạ xuống nguồn trích thường (ĐD1): [47] Zhang, Biswal & Wang 2020 · 
 Chuẩn tra cứu: [1] ISO 19650-3 · [61]–[62] SOSA/SSN · [69] PROV-O · ISO 55000:2024 `8PB7EN2E` · BCF 3.0 `K5SGFIGW`
 Trong Zotero: collection `TL-Key/Tier1`, `TL-Key/Tier2`; tag `TLTQ:Tier1`, `TLTQ:Tier2`. Ma trận: `matrix/literature_matrix.csv`.
 
-### 7.3 Cần tìm bổ sung (Consensus → xác minh → Zotero)
+### 7.3 Cần tìm bổ sung (Consensus → xác minh → Zotero) — **ĐÃ ĐÓNG 01/10/2026, không tìm thêm** (mục 2, quyết định 11)
 | Nhóm | Truy vấn gợi ý | Phục vụ |
 |---|---|---|
 | Kinh điển SHM | Farrar Worden structural health monitoring machine learning; fundamental axioms structural health monitoring | 3.1 |
@@ -269,46 +311,41 @@ Danh sách luận điểm và ứng viên: `revision/GD1_luan_diem_can_nguon.csv
 
 ---
 
-## 8. Schema (tham chiếu khi viết 5.5, 5.7, Phụ lục)
+## 8. Schema rút gọn (tham chiếu khi viết 5.5, 5.7, Bài 2) — NCS duyệt 01/10/2026
 
-**Thực thể:** `COMPONENT` (BIM_GUID, model_version) · `MODEL_VERSION` · `SENSOR` (Sensor_ID) ·
-`SENSOR_MAPPING` (valid_from, valid_to, install_record_ref) · `OBS_CONTEXT` (campaign, sensor_config) ·
-`EVIDENCE` (Condition_Evidence_ID, evidence_type = cảm biến | quan sát | NDT, value, uncertainty,
-method_version) · `VALIDITY_SCOPE` (inference_unit, data_split, install_batch, applicable_conditions) ·
-`EVIDENCE_USE` (within_scope, justification) · `INSPECTION_RECORD` · `ACTION`
-(priority_level, Action_Status) · `STATUS_EVENT` (from_to, reason, timestamp) · `AGENT` (role, authority).
+Bản đầy đủ 12 thực thể, C1–C9, 12 chỉ số trước đây xem lịch sử git (commit trước 01/10/2026 tối); không dùng nữa.
 
-**Quan hệ chính:** SENSOR–COMPONENT qua SENSOR_MAPPING có thời hạn; EVIDENCE n:m COMPONENT;
-EVIDENCE 1:1 VALIDITY_SCOPE (bắt buộc); INSPECTION_RECORD dùng EVIDENCE qua EVIDENCE_USE;
-INSPECTION_RECORD → ACTION → STATUS_EVENT; STATUS_EVENT dựa trên EVIDENCE_USE; AGENT thực hiện/chuyển trạng thái.
+**Định vị:** mở rộng trên nền IFC 4.3 của [35] (`IfcRelAssignsToProduct` lần kiểm tra → bằng chứng,
+`IfcRelAdheresToElement` bằng chứng → cấu kiện, `IfcRelAssignsToProcess` bằng chứng → hành động) và BCF 3.0 (trạng thái,
+sự kiện), bổ sung **tầng bằng chứng** và **tầng trách nhiệm**. Không dựng mô hình song song.
 
-**Ánh xạ chuẩn:** SOSA/SSN (cảm biến, quan trắc) · PROV-O (derivedFrom, generatedBy, Agent) ·
-IFC (cấu kiện) · IDS (thuộc tính bắt buộc) · SHACL (ràng buộc).
+**6 thực thể:**
+| Thực thể | Trường chính (thuộc tính đã gộp) |
+|---|---|
+| `COMPONENT` | BIM_GUID, model_version |
+| `SENSOR` + `SENSOR_MAPPING` | Sensor_ID; valid_from, valid_to, install_record_ref |
+| `EVIDENCE` | Condition_Evidence_ID, evidence_type (cảm biến / quan sát / NDT), value, uncertainty, method_version (git commit), scope: inference_unit, data_split, install_batch, applicable_conditions; obs_context (đợt đo, cấu hình cảm biến, nhiệt độ, cờ cầu trục); revision_of (bản ghi không sửa đè) |
+| `INSPECTION_RECORD` | người kiểm tra, thời điểm, kết quả; dùng EVIDENCE qua quan hệ có trường within_scope, justification |
+| `ACTION` | priority_level (4 mức), Action_Status (mở → đang xử lý → hoàn thành → đã xác minh) |
+| `STATUS_EVENT` | from_to, timestamp, actor_role, evidence_ref, reason |
 
-**Ràng buộc C1–C8:** C1 không mồ côi · C2 ID duy nhất · C3 thời điểm quan trắc nằm trong hiệu lực
-ánh xạ · C4 khớp phiên bản mô hình · C5 dùng ngoài phạm vi phải có lý do · C6 bước chuyển có căn cứ
-và đúng thẩm quyền · C7 bước chuyển hợp lệ theo máy trạng thái · C8 bằng chứng cảm biến bắt buộc có
-OBS_CONTEXT và method_version · **C9** mọi sự kiện chuyển trạng thái phải trỏ tới phiên bản bằng chứng còn hiệu lực
-tại thời điểm chuyển (thêm 01/10/2026).
+Quan hệ: EVIDENCE n:m COMPONENT ở tầng dữ liệu; khi xuất IFC tách mỗi cặp thành một `IfcRelAdheresToElement`.
 
-**Quyết định thiết kế cho 5.5 (NCS quyết định 01/10/2026):**
-- **Định vị:** schema là phần mở rộng trên nền mô hình IFC 4.3 của [35] (`IfcRelAssignsToProduct` lần kiểm tra → bằng
-  chứng, `IfcRelAdheresToElement` bằng chứng → cấu kiện, `IfcRelAssignsToProcess` bằng chứng → hành động), bổ sung hai
-  tầng: **tầng bằng chứng** (nguồn gốc, độ bất định, phạm vi hiệu lực; loại cảm biến / quan sát / NDT) và **tầng trách
-  nhiệm** (sự kiện chuyển trạng thái có căn cứ và thẩm quyền; xác minh sau sửa chữa). Không dựng mô hình song song.
-- **Quan hệ bằng chứng – cấu kiện:** n:m ở tầng đồ thị (dữ liệu gốc). IFC là khung nhìn xuất ra: mỗi cặp bằng chứng –
-  cấu kiện thành một quan hệ riêng (một `IfcRelAdheresToElement` mỗi cấu kiện), mọi quan hệ cùng trỏ về một
-  `Condition_Evidence_ID`.
-- **Bất biến của bản ghi:** bản ghi bằng chứng không bị sửa đè; thay thế bằng bản ghi mới có quan hệ
-  `prov:wasRevisionOf` hoặc `prov:wasInvalidatedBy` trỏ về bản cũ (thay cho quy ước ghi đè trạng thái
-  ACTIVE/OUTDATED của [35]). Ràng buộc đi kèm: C9.
+**5 ràng buộc** (kiểm bằng script Python): **C1** không mồ côi · **C3** thời điểm đo nằm trong hiệu lực ánh xạ
+cảm biến – cấu kiện · **C5** dùng bằng chứng ngoài phạm vi phải có lý do · **C6** bước chuyển có căn cứ và đúng vai trò ·
+**C9** sự kiện trỏ tới phiên bản bằng chứng còn hiệu lực tại thời điểm chuyển.
 
-**Chỉ số (5.7):** đường cơ sở B0 = thực hành hiện hành; B1 = schema cắt giảm (chỉ liên kết định danh).
-RQ2: M2.1 độ nhạy phát hiện lỗi theo loại · M2.2 báo động giả · M2.3 đủ thuộc tính bắt buộc ·
-M2.4 phát hiện dùng ngoài phạm vi · M2.5 độ phủ câu hỏi năng lực · M2.6 thời gian/số bước truy ngược.
-RQ3: M3.1 liên tục định danh sau sự kiện thay đổi · M3.2 độ đầy đủ theo thời gian · M3.3 độ đúng
-ánh xạ thực tế · M3.4 chi phí ghi nhận · M3.5 bài kiểm toán giải trình · M3.6 tính tổng quát.
-Nguyên tắc: khóa câu hỏi năng lực, ngưỡng và phân loại lỗi TRƯỚC khi kiểm chứng; ca lỗi do người thứ ba chèn mù.
+**Công cụ (một bộ duy nhất):** Python, IfcOpenShell, SQLite hoặc JSON, script kiểm ràng buộc; scikit-learn/PyTorch cho
+MT1, MT3. Không dùng RDF/SHACL/ontology; ánh xạ khái niệm sang SOSA/SSN, PROV-O chỉ trình bày bằng một bảng trong Bài 2.
+
+**4 chỉ số (so với B0 = hồ sơ kiểm định cũ, mã hóa tay 20–30 hồ sơ):**
+| Chỉ số | Đo |
+|---|---|
+| M1 Đủ thuộc tính bắt buộc | tỉ lệ bản ghi đầy đủ |
+| M2 Phát hiện lỗi chèn mù | khoảng 30 lỗi do người thứ ba chèn (gồm dùng ngoài phạm vi, sai thời hạn ánh xạ, chuyển trạng thái không căn cứ); tỉ lệ script bắt được |
+| M3 Truy ngược | thời gian hoặc số bước trả lời ba câu hỏi của người quản lý |
+| M4 Chi phí ghi nhận | số phút mỗi bản ghi |
+Khóa danh sách lỗi và câu hỏi trước khi chạy. Bỏ B1 và chỉ số tính tổng quát (một công trình, ghi ở phần giới hạn).
 
 ---
 
@@ -325,15 +362,14 @@ Nguyên tắc: khóa câu hỏi năng lực, ngưỡng và phân loại lỗi TR
 | | Đánh giá theo nhóm (giữ lại cả lần chạy), chấm điểm theo bản ghi, kiểm định hoán vị, báo cáo biến thiên theo seed và fold | Căn cứ khai báo → `VALIDITY_SCOPE`, `uncertainty` |
 | WP3 Hiện trường | **Autoencoder** học đường cơ sở vận hành; sai số tái tạo làm chỉ báo bất thường | Tín hiệu đề nghị kiểm tra, không phải chẩn đoán → `EVIDENCE` loại cảm biến |
 | | Bù EOV (hồi quy theo nhiệt độ, trạng thái vận hành) | Giảm báo động giả do cầu trục, máy móc, nhiệt |
-| | Học chủ động | Ưu tiên bất thường cần kiểm tra → vòng lặp kiểm tra tạo nhãn |
-| WP2 Schema | LLM trích xuất hồ sơ kiểm tra cũ, kỹ sư xác nhận | Phân loại lỗi, đường cơ sở B0; báo cáo độ chính xác trích xuất |
+| WP2 Schema | Không dùng AI; mã hóa tay 20–30 hồ sơ kiểm định cũ | Phân loại lỗi, đường cơ sở B0 |
 | WP4 Hỗ trợ hành động | Không dùng AI hộp đen; logic bốn mức bằng luật minh bạch | Mọi `STATUS_EVENT` truy ngược được |
 
 3. Giải thích vì sao đổi vai AI từ **phân loại (PTN)** sang **phát hiện bất thường (hiện trường)**:
    hiện trường không có nhãn hư hỏng, điều kiện khác PTN. Lập luận bằng TÀI LIỆU
    (ví dụ [18], [45], [57], [56] và tài liệu Autoencoder tìm bổ sung), **không bằng kết quả Paper 1**.
-4. Nêu công cụ hỗ trợ không phải AI: Python, scikit-learn, PyTorch; MLflow/DVC (cấp `method_version`);
-   IfcOpenShell, ifctester; rdflib, pySHACL.
+4. Nêu công cụ hỗ trợ không phải AI: Python, scikit-learn, PyTorch; git commit làm `method_version`;
+   IfcOpenShell; SQLite (rút gọn 01/10/2026: bỏ MLflow/DVC, ifctester, rdflib, pySHACL).
 5. Đoạn ngắn về khai báo sử dụng AI tạo sinh (chi tiết đặt ở phần đầu tiểu luận).
 
 **Cấm trong mục này:** số liệu, bảng hoặc nhận định về hiệu năng từ Paper 1; tên mô hình ngoài
@@ -396,6 +432,9 @@ sáu tháng sau có sự cố, truy ngược được toàn bộ.
 - Không sửa nhiều chương trong một phiên; không sửa tệp .docx gốc.
 - Không gọi hệ thống là "song sinh số" mà không khai báo mức tích hợp (DM/DS/DT).
 - Không mở rộng phạm vi sang bảo trì dự đoán, tuổi thọ còn lại hay tối ưu chi phí.
+- Không thêm mục tiêu, WP, bài báo, thực thể schema, ràng buộc hay chỉ số ngoài mục 2A và 8.
+- Không đọc thêm tài liệu hay tìm thêm phản chứng cho tiểu luận (trừ yêu cầu bằng văn bản của thầy hoặc phản biện).
+- Không làm việc "meta" (đồng bộ skill, quản trị nhiều tầng) khi chưa xong hai bài báo.
 
 ---
 
@@ -411,7 +450,21 @@ sáu tháng sau có sự cố, truy ngược được toàn bộ.
 | Quy ước trích dẫn (4.4), viết về giới hạn (4.5) | ✅ Đã thêm (29/09) | Danh sách 80 câu giới hạn chờ NCS duyệt (GĐ5) |
 | GĐ1 Bổ sung tài liệu | ✅ Đã duyệt (ĐD1) (30/09) | Nhập 17 tài liệu mới, gắn 5 tài liệu có sẵn; danh sách key 30 (12 Tier 1, 18 Tier 2) ở mục 7.1–7.2; báo cáo: `revision/bao_cao_GD1.md` |
 | GĐ2 Đọc sâu | ✅ ĐD2 thông qua có điều kiện (01/10): 29/30 đọc toàn văn; [80] Bull 2025 đọc bổ sung khi có PDF; NCS kiểm cột Giới hạn sau (N-10) | Bản trình: `revision/DD2_ban_trinh.md`; việc chờ NCS: `revision/viec_cho_NCS.md`; nhật ký: `revision/GD2_nhat_ky_khoang_trong.md` |
-| GĐ3 Khoảng trống | 🟡 Đang làm – nháp (NCS cho bắt đầu 01/10) | Trước tiên đóng phản chứng còn mở (N-20, N-21, N-23, N-24, N-25; được phép tìm, xác minh, nhập Zotero, tải bản mở); chỉ chốt sau N-10 và ĐD3; cần gửi thầy. Prompt bàn giao: `revision/prompt_ban_giao.md` |
+| Rút gọn phạm vi, khóa 3 mục tiêu | ✅ NCS duyệt (01/10) | Mục 2 (QĐ 5, 7, 9–11), 2A, 6.0, 8, 9, 11, 13 |
+| GĐ3 Khoảng trống | 🟡 Rút gọn: chỉ duyệt câu chữ G-A, G-B và gửi thầy (01/10) | Trước tiên đóng phản chứng còn mở (N-20, N-21, N-23, N-24, N-25; được phép tìm, xác minh, nhập Zotero, tải bản mở); chỉ chốt sau N-10 và ĐD3; cần gửi thầy. Prompt bàn giao: `revision/prompt_ban_giao.md` |
 | GĐ4 Viết mục mới (4.2–4.9) | ⬜ | |
 | GĐ5 Tái cấu trúc | ⬜ | |
 | GĐ6 Nhất quán & xuất bản | ⬜ | |
+
+---
+
+## 13. Kế hoạch bài báo và lộ trình (NCS duyệt 01/10/2026)
+
+| Bài | Mục tiêu | Nội dung cốt lõi | Điều kiện nộp |
+|---|---|---|---|
+| Bài 1 | MT1 | Đánh giá theo nhóm cho thấy mức lạc quan của đánh giá cùng lần chạy; kết quả phải kèm phạm vi hiệu lực | Gate 1 đóng; nộp ngay sau khi tiểu luận chốt |
+| Bài 2 | MT2 (+MT3) | Schema rút gọn mở rộng IFC 4.3/BCF; 4 chỉ số so với B0 trên BIM nhà xưởng thật và dữ liệu MT1 | Schema + script + B0 xong; không chờ quan trắc dài hạn |
+
+Lộ trình gợi ý: tháng 0–1 chốt tiểu luận, nộp Bài 1 · tháng 1–3 schema, script, lắp cảm biến, mã hóa B0 · tháng 3–7
+quan trắc, kịch bản C3, đo chỉ số · tháng 7–9 nộp Bài 2, ghép luận án 5 chương theo ba mục tiêu.
+Chọn tạp chí: kiểm xếp hạng SJR hiện hành khi nộp.

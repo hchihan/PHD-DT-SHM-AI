@@ -320,3 +320,17 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 ## Phiên 01/10/2026 (14) – bàn giao
 - NCS quyết định: (1) cho phép tìm nguồn, xác minh, nhập Zotero và tải bản truy cập mở để đóng phản chứng còn mở; (2) cho GĐ3 bắt đầu ở mức nháp, ĐD2 thông qua có điều kiện ([80] đọc bổ sung khi có PDF; NCS kiểm cột Giới hạn sau). Ghi vào CLAUDE.md mục 12.
 - Tạo `revision/prompt_ban_giao.md`: tóm tắt quá trình, tình trạng ứng viên, hai quyết định, Nhiệm vụ 1 (đóng phản chứng N-20, N-21, N-23, N-24, N-25) và Nhiệm vụ 2 (GĐ3 nháp), cách làm đã dùng — để NCS tiếp tục ở tài khoản Claude khác.
+
+## Phiên 01/10/2026 (15) – Nhiệm vụ 1 của prompt bàn giao: đóng phản chứng N-20, N-21, N-23, N-24, N-25
+- Xác minh DOI qua Crossref, nhập Zotero (TL-Key/Bổ sung, tag `GD2-phanchung` + `UV-0x`), thêm 4 dòng `moi` vào `doi_chieu_danh_muc.csv`: Mitchell và cs. 2019 `82WQNDHU` (thẻ mô hình); Mosqueira-Rey và cs. 2023 `73MBWFVJ` (tổng quan HITL-ML); Maes và cs. 2022 `2ZJSENQU` (cầu thép KW51 theo dõi dài hạn, gia cường liên kết bu lông giữa chừng); Hu và cs. 2023 `BBAUS2Z8` (truy cập đóng, chỉ tóm tắt).
+- Tải bản mở: `pdf/82WQNDHU_Mitchell2019_arXiv.pdf`, `pdf/73MBWFVJ_MosqueiraRey2023.pdf` (trang đầu khớp DOI). Maes 2022: kho Lirias không truy cập được bằng curl; đọc bản postprint qua trình duyệt tích hợp (trích văn bản bằng pdf.js), PDF chưa lưu (N-41).
+- Đọc chuẩn và tài liệu chính thức: PROV-O (mục 3.1, 3.3, định nghĩa mục 4), SSN mục 4.8 và 5.1 (System Capabilities: `ssn-system:Condition`), MLflow Model Registry, DVC (`dvc.lock`); câu trích kiểm nguyên văn bằng curl.
+- Ghi chú mới: `notes/82WQNDHU.md`, `notes/73MBWFVJ.md`, `notes/2ZJSENQU.md`, `notes/BBAUS2Z8.md`, `notes/lebo2013provo.md` (PROV-O [69] kèm MLflow/DVC).
+- Kết quả kiểm: UV-02 đã kiểm hết (bốn nguồn đều giải quyết một phần; phát biểu thu hẹp còn phần ràng buộc và gắn kết phạm vi hiệu lực vào từng bằng chứng và lần sử dụng); UV-06 đã kiểm hết (Maes 2022 không giải quyết, căn cứ hiện trường cùng chiều; cập nhật phát biểu thu hẹp); UV-07 đã kiểm hết (Mosqueira-Rey không giải quyết, cùng chiều; PROV-O một phần về hình thức; phát biểu thu hẹp mới, củng cố gộp UV-05 + UV-07); UV-08 kiểm Hu 2023 ở mức tóm tắt (không giải quyết); UV-03 ghi nhận thêm ví dụ hiện trường (cấu hình cảm biến đổi giữa chừng).
+- N-20 (CMMS, UV-01) **chưa đóng**: Chen 2018 truy cập đóng; Condotta 2023 bị Cloudflare; ứng viên mới Hosamo 2022 (CC BY) bị chặn tải ở cả ba kho — chưa nhập. UV-01 vào GĐ3 ở trạng thái tạm; NCS chọn chấp nhận [29] làm đối chiếu thay thế hoặc tải tay.
+- Cập nhật `GD2_nhat_ky_khoang_trong.md`, `DD2_ban_trinh.md` mục 3–4, `viec_cho_NCS.md` (N-21, N-23, N-24, N-25 xong; N-02, N-03, N-04, N-12, N-20 cập nhật; thêm N-41). Không sửa tiểu luận.
+
+## Phiên 01/10/2026 – Rút gọn phạm vi, khóa ba mục tiêu luận án (NCS quyết định)
+- Định hướng: tốt nghiệp sớm với 2 bài Q2/Q3; không mở rộng tổng quan.
+- CLAUDE.md: mục 2A (MT1 phòng thí nghiệm → Bài 1; MT2 mô hình thông tin → Bài 2; MT3 nhà xưởng thật có BIM và cảm biến → chương luận án); chốt hai khoảng trống G-A, G-B (K2 hạ thành yêu cầu schema, ràng buộc C3); GĐ2 đóng 29/30, [80] bỏ; GĐ3 chỉ duyệt câu chữ và gửi thầy; mục 7.3 đóng.
+- Schema rút gọn còn 6 thực thể, 5 ràng buộc (C1, C3, C5, C6, C9), 4 chỉ số so với B0; một bộ công cụ (Python, IfcOpenShell, SQLite/JSON); bỏ RDF/SHACL, MLflow/DVC, học chủ động, LLM. Mục 13: kế hoạch hai bài báo và lộ trình; Bài 2 không chờ quan trắc dài hạn.
