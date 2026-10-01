@@ -458,3 +458,6 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - Cập nhật tham chiếu chéo "mục …" trong toàn văn theo bảng ánh xạ (49 chỗ), trừ số mục của đặc tả BCF-API và Khuyến nghị W3C. Rà nghĩa từng tham chiếu, sửa thêm: 4 chỗ trỏ cấu trúc dữ liệu từ 5.5 sang 5.6.2 (Ch.1 ×3, Ch.2); 2 chỗ "Mục 5.7.2"/bản ghi bằng chứng sang 5.6.2; 5.2.1 trỏ điều kiện cầu trục sang 3.2.3; 4.5.4 "mục 2.2.2A" sang 2.2.3; tiêu đề Phụ lục A.3 "Mục 5.6 và 5.7". Xóa chú thích ẩn "Nhãn tạm".
 - Rút trùng 1.1.1/1.2 (câu đầu đoạn 3 của 1.1.1 trỏ 1.2.2); 2.5 thêm câu về 2.2.3 và khai báo bóng số [8]; 3.6 thêm đoạn tóm tắt 3.2.
 - CLAUDE.md: 4.2, 4.5, 6.2 đổi "nhãn tạm 5.8" thành Mục 5.9; 6.3 thêm ghi chú cấu trúc sau đánh số lại; mục 12 cập nhật.
+
+## Phiên 02/10/2026 – Danh sách tài liệu thiếu toàn văn
+- Lập `revision/thieu_toan_van.md`: đối chiếu 112 tài liệu đang trích với PDF trong Zotero và `pdf/`; 25 tài liệu cần bổ sung (7 ưu tiên cao, 14 bài báo khác, 4 chuẩn/văn bản) và 2 nguồn `[CẦN NGUỒN]` chưa có trong Zotero.
