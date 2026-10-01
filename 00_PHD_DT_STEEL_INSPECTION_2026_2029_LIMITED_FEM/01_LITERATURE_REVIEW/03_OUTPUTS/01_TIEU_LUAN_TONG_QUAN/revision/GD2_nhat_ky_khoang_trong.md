@@ -14,7 +14,7 @@ Quy ước:
   (ví dụ CMMS, BCF 3.0, IFC Monitor [2], ISO 19650); ghi kết quả đối chiếu kèm trang, hoặc "chưa kiểm".
 - **Phát biểu đã thu hẹp:** phát biểu sau khi trừ phần đã được giải quyết.
 - Một ứng viên chỉ được đưa vào GĐ3 khi trường "Phản chứng đã kiểm" không còn mục nào ghi "chưa kiểm".
-- Nguồn đã đọc toàn văn đến hết phiên T1-3: [8], [7], [3] (30/09/2026). Phiên T1-1 (30/09/2026): [2], [44] đọc toàn văn; [35] chờ PDF. Tài liệu chính thức đã đọc để kiểm phản chứng: BCF 3.0 (BCF-XML, BCF-API), IFC4 ADD2 TC1 (các thực thể nêu ở UV-01, UV-03), COBie 2.4 (NBIMS-US V3 chương 4.2), SSN/SOSA (Khuyến nghị W3C 2017). ISO 19650-3 không truy cập được. Phiên T1-1 (ba tiền lệ [2], [35], [44]) **chưa
+- Nguồn đã đọc toàn văn đến hết phiên T1-3: [8], [7], [3] (30/09/2026). Phiên T1-2 (01/10/2026): [22], [18], [19] đọc toàn văn ([19] bản tiền in arXiv). Phiên T1-1 (30/09/2026): [2], [44] đọc toàn văn; [35] chờ PDF. Tài liệu chính thức đã đọc để kiểm phản chứng: BCF 3.0 (BCF-XML, BCF-API), IFC4 ADD2 TC1 (các thực thể nêu ở UV-01, UV-03), COBie 2.4 (NBIMS-US V3 chương 4.2), SSN/SOSA (Khuyến nghị W3C 2017). ISO 19650-3 không truy cập được. Phiên T1-1 (ba tiền lệ [2], [35], [44]) **chưa
   thực hiện**; căn cứ từ ba bài đó sẽ được bổ sung khi có. Căn cứ đã dùng ở 5.6A (Bull 2022, Wang & Cha 2021, [57],
   Hughes 2022, Figueiredo 2011) chưa được đưa vào nhật ký; cần rà lại ở phiên Tier 2.
 
@@ -22,13 +22,14 @@ Quy ước:
 
 | Mã | Phát biểu | K | Số căn cứ độc lập hiện có | Năm các căn cứ | Ghi chú |
 |---|---|---|---|---|---|
-| UV-01 | Hành động và lần đổi trạng thái không nối ngược được về bằng chứng tình trạng cùng phạm vi hiệu lực (đã thu hẹp) | K3 | 3 ([3], [7], [44]); 2 trước 2025 | 2020, 2020, 2026 | Chưa đủ: thiếu 1 căn cứ trước 2025; còn chờ CMMS, ISO 19650-3 (không truy cập được), [35] |
+| UV-01 | Hành động và lần đổi trạng thái không nối ngược được về bằng chứng tình trạng cùng phạm vi hiệu lực (đã thu hẹp) | K3 | 4 ([3], [7], [22], [44]); 3 trước 2025 ([22] chỉ là căn cứ về nhu cầu) | 2020, 2020, 2019, 2026 | Đủ số căn cứ nếu NCS chấp nhận [22]; còn chờ CMMS, ISO 19650-3 (không truy cập được), [35] |
 | UV-02 | Đầu ra phát hiện bất thường trong khung song sinh cho công trình chưa được ghi cùng nguồn gốc xử lý, phiên bản phương pháp và phạm vi hiệu lực | K1 | 2 ([3], [7]) | 2020, 2020 | Chưa đủ; phản chứng mới kiểm một phần ([44], SSN); cần [18], [45], 23TBQTIP |
 | UV-03 | Ánh xạ cảm biến – cấu kiện thiếu cách ghép được quy định về thời hạn hiệu lực và ràng buộc thời gian (đã thu hẹp) | K2 | 3 ([3], [7], [2]) | 2020, 2020, 2018 | **Đủ điều kiện hình thức vào GĐ3**; phần còn lại nhỏ, nên xem là yêu cầu của mô hình dữ liệu; cần [35] |
 | UV-04 | Thiếu phân loại mức tích hợp DM/DS/DT áp cho kiểm tra – bảo trì kết cấu công trình có con người ra quyết định | mới (định vị) | 2 ([8], [7]) | 2018, 2020 | Chỉ phục vụ định vị ở 2.3, không dự kiến thành khoảng trống |
-| UV-05 | Ở công trình đang vận hành thiếu dữ liệu có nhãn về bất thường; nhãn phụ thuộc đánh giá con người | mới (nhãn hiện trường; liên quan L2.3, 5.6A) | 1 ([3]) | 2020 | Căn cứ đã có ở 5.6A chưa nhập nhật ký |
+| UV-05 | Ở công trình đang vận hành thiếu dữ liệu có nhãn về bất thường; nhãn phụ thuộc đánh giá con người | mới (nhãn hiện trường; liên quan L2.3, 5.6A) | 2 ([3], [19]) | 2020, 2025 | Căn cứ đã có ở 5.6A chưa nhập nhật ký |
+| UV-06 | Lần lắp ráp hoặc can thiệp bảo trì là ranh giới phạm vi hiệu lực của bằng chứng từ mối nối bu lông | K1 | 3 ([18], [56], [19]); 2 trước 2025 | 2019, 2024, 2025 | Mới (T1-2); phản chứng chưa kiểm; [56] mới đọc một phần |
 
-Tình trạng phản chứng (30/09/2026, sau phiên T1-1): UV-03 đã kiểm hết các phản chứng liệt kê ([2], [3], IFC4, SSN/SOSA). UV-01 đã kiểm BCF 3.0, IFC4, COBie 2.4, [44]; còn CMMS chưa kiểm, ISO 19650-3 không truy cập được, [35] chờ PDF. UV-02 kiểm một phần. UV-04, UV-05 chưa kiểm. Đủ điều kiện hình thức vào GĐ3 (ba căn cứ độc lập, không phụ thuộc 2025–2026, không còn "chưa kiểm"): chỉ UV-03.
+Tình trạng phản chứng (30/09/2026, sau phiên T1-1): UV-03 đã kiểm hết các phản chứng liệt kê ([2], [3], IFC4, SSN/SOSA). UV-01 đã kiểm BCF 3.0, IFC4, COBie 2.4, [44]; còn CMMS chưa kiểm, ISO 19650-3 không truy cập được, [35] chờ PDF. UV-02 kiểm một phần. UV-04, UV-05 chưa kiểm. Đủ điều kiện hình thức vào GĐ3 (ba căn cứ độc lập, không phụ thuộc 2025–2026, không còn "chưa kiểm"): chỉ UV-03. Cập nhật 01/10/2026 (T1-2): thêm UV-06 (chưa kiểm phản chứng); UV-01 có căn cứ thứ ba trước 2025 ([22], chờ NCS chấp nhận) nhưng vẫn còn mục "chưa kiểm".
 
 ## UV-01 — Chuỗi cảnh báo → hành động
 
@@ -74,6 +75,7 @@ Tình trạng phản chứng (30/09/2026, sau phiên T1-1): UV-03 đã kiểm h�
   - [44] García 2026: **đã kiểm 30/09/2026** (đọc toàn văn). Bước chuyển trạng thái có gói bằng chứng, bản ghi quyết định, vai trò tách biệt và vòng NCR/BCF (tr. 3, 12, 19–25). Đây là **tiền lệ trực tiếp** của khuôn "bước chuyển có căn cứ và đúng thẩm quyền", áp cho tệp IFC bàn giao; không có bằng chứng tình trạng công trình.
   - [35] Bellon 2025: **chưa kiểm** (chờ PDF).
 - **Phát biểu đã thu hẹp (sau khi kiểm BCF 3.0, IFC4, COBie 2.4, [44]; còn chờ CMMS, ISO 19650-3, [35]):** yêu cầu, lệnh bảo trì, vấn đề gắn cấu kiện, trạng thái, phê duyệt và lịch sử đổi trạng thái đều đã có chuẩn biểu diễn (IFC4, BCF 3.0, COBie), và khuôn "bước chuyển có bằng chứng và đúng thẩm quyền" đã được thử cho gói thông tin bàn giao [44]. Phần chưa thấy ở các nguồn đã kiểm là quan hệ định kiểu nối một hành động kiểm tra – bảo trì và từng lần đổi trạng thái của nó về bằng chứng tình trạng (từ cảm biến, quan sát hoặc kiểm tra không phá hủy) cùng nguồn gốc và phạm vi hiệu lực của bằng chứng đó.
+- **Căn cứ bổ sung (01/10/2026, T1-2):** Hemker và cs. 2019 [22], tr. 192 (tác giả tự nêu nhu cầu hồ sơ hư hỏng đầy đủ, cập nhật liên tục để khắc phục đúng thứ tự ưu tiên và theo dõi giai đoạn, tiến độ khắc phục; không có mô hình), tr. 189 (lưu đồ kiểm tra – khắc phục và ba cấp kiểm tra theo trình độ). Đây là căn cứ về **nhu cầu** từ thực hành nhà công nghiệp thép, không phải căn cứ rằng các hệ hiện có không đáp ứng; tính là căn cứ độc lập thứ ba trước 2025 với mức "TG, gián tiếp". CẦN NCS KIỂM cách tính này.
 - **Căn cứ bổ sung (30/09/2026, T1-1):** [44] tr. 3–4, 23 (tác giả tự nêu khoảng đứt giữa bàn giao và quản lý trong vận hành), tr. 34 (gắn với quản lý vận hành là việc để lại). Tài liệu 2026, không tính vào ngưỡng ba căn cứ trước 2025.
 
 ## UV-02 — Nguồn gốc, phiên bản phương pháp, phạm vi hiệu lực của đầu ra phát hiện
@@ -152,6 +154,21 @@ Tình trạng phản chứng (30/09/2026, sau phiên T1-1): UV-03 đã kiểm h�
 - **Loại căn cứ:** TG.
 - **Liên quan:** mới (nhãn hiện trường, vòng lặp kiểm tra tạo nhãn). Trong GD1 đây là luận điểm L2.3 ("thiếu dữ liệu hư
   hỏng có nhãn ở hiện trường"), đã có nguồn ở 5.6A (Bull 2022, Wang & Cha 2021, [57]) mà chưa đưa vào nhật ký này.
+- **Căn cứ bổ sung (01/10/2026, T1-2):** Ramasso và cs. 2025 [19] (bản tiền in arXiv), tr. 15 (thêm dần nhãn của đợt kiểm tra để mô phỏng việc các đợt kiểm tra định kỳ cho phép gán nhãn dữ liệu đã thu; độ chính xác tăng theo lượng nhãn), tr. 14, 21 (nhãn đặt bằng cờ-lê lực có bất định; tác giả tự nêu). Loại: TG. Tài liệu nhóm 2025.
 - **Ghi chú:** đối tượng của [3] là bơm HVAC; chỉ dùng như căn cứ cùng chiều.
 - **Phản chứng đã kiểm:** **chưa kiểm**. Cần đối chiếu học chủ động theo rủi ro (Hughes 2022 `Z9RD5DMZ`, Bull 2022 `87NKU5IS`) và SHM theo quần thể [57], là các hướng đã đề xuất cách lấy nhãn từ kiểm tra.
+- **Phát biểu đã thu hẹp:** chưa có; chờ kết quả kiểm.
+
+## UV-06 — Lần lắp ráp hoặc can thiệp bảo trì là ranh giới phạm vi hiệu lực của bằng chứng từ mối nối bu lông
+
+- **Phát biểu:** Với kết cấu có mối nối bu lông, kết quả rút ra từ dữ liệu dao động hoặc phát xạ âm phụ thuộc lần lắp ráp (bề mặt tiếp xúc, thứ tự siết, mài mòn tích lũy); sau một lần tháo – lắp hay siết lại, bằng chứng và dữ liệu tham chiếu trước đó không còn đương nhiên dùng được, nhưng các nghiên cứu không biến điều này thành ranh giới được ghi của phạm vi hiệu lực.
+- **Căn cứ:**
+  - Brake và cs. 2019 [18], tr. 283 (sau mỗi lần lắp lại khi bảo trì, phần lớn dữ liệu đáp ứng đã thu mất tác dụng cho theo dõi trạng thái; TG), tr. 292 (kết quả phụ thuộc quy trình lắp ráp; TG), tr. 293 (mài mòn làm tần số giảm vĩnh viễn; TG), tr. 302–303 (tính chất mối nối phụ thuộc kết cấu xung quanh; TG).
+  - Ramasso và cs. 2025 [19] (tiền in), tr. 4–5, 20 (mỗi đợt sau tháo – lắp là một hệ mới; TG), tr. 2, 12–14 (đánh giá cùng đợt cho kết quả lạc quan; độ chính xác giảm mạnh khi kiểm tra trên đợt chưa thấy; TG).
+  - Da Silva và cs. 2024 [56], tr. 011102-7 (bộ phân loại học trên một dầm bu lông áp trực tiếp sang dầm khác thì thất bại; TG). **Ghi chú đọc một phần**; cần đọc lại ở phiên Tier 2 trước khi tính chắc.
+  - Hemker và cs. 2019 [22], tr. 191 (một thay đổi nhỏ ở dầm cầu trục làm đánh giá mỏi ban đầu mất giá trị; [NCS] tương tự về ý, khác loại bằng chứng). Không tính vào số căn cứ.
+- **Loại căn cứ:** TG về hiện tượng vật lý ([18], [19], [56]); [NCS] về việc chưa được ghi thành ranh giới phạm vi hiệu lực.
+- **Liên quan:** K1 (phạm vi hiệu lực: đợt lắp đặt, đơn vị suy luận). Gần với UV-02; tách riêng vì UV-02 nói về việc **ghi** nguồn gốc và phạm vi, còn UV-06 nói về **nội dung** của phạm vi (lần lắp ráp, can thiệp).
+- **Số căn cứ độc lập:** 3 ([18] 2019, [56] 2024 đọc một phần, [19] 2025); trước 2025: 2.
+- **Phản chứng đã kiểm:** **chưa kiểm**. Cần đối chiếu: SHM theo quần thể [57] Bull 2021 và phần III (Gardner 2021), thích nghi miền [56]; bù EOV và đồng liên kết (Cross 2011); phát hiện thay đổi đường cơ sở sau bảo trì trong các nghiên cứu theo dõi dài hạn.
 - **Phát biểu đã thu hẹp:** chưa có; chờ kết quả kiểm.

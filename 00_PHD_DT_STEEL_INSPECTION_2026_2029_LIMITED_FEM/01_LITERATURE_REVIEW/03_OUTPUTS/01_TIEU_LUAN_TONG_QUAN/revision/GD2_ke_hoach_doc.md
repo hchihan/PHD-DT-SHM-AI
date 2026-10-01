@@ -24,13 +24,13 @@ Cột "Truy cập" lấy từ OpenAlex ngày 30/09/2026. Cột "PDF" kiểm trê
 | T1-1 | 1 | [2] Theiler & Smarsly (2018) | 2ILY9YZ3 | Truy vết thông tin | tiền lệ; `mapping/theiler2018.md` | có | toàn văn (T1-1, 30/09/2026) |
 | T1-1 | 2 | [35] Bellon và cs. (2025) | NUTL57KJ | Truy vết thông tin | tiền lệ; `mapping/bellon2025.md` | **THIẾU** | chưa |
 | T1-1 | 3 | [44] García và cs. (2026) | GNTQNBWM | Truy vết thông tin | tiền lệ; `mapping/garcia2026.md` | có | toàn văn (T1-1, 30/09/2026) |
-| T1-2 | 4 | [22] Hemker và cs. (2019) | B2JXAM9M | Giá trị quyết định | 2.1.1 | **THIẾU** | chưa |
-| T1-2 | 5 | [18] Brake và cs. (2019) | VPFBB9SG | SHM–bu lông–EOV | 3.6 | có | một phần (tóm tắt, kết luận) |
-| T1-2 | 6 | [19] Ramasso và cs. (2025) | RWHW6F9I | SHM–bu lông–EOV | 3.6 | có | chưa |
+| T1-2 | 4 | [22] Hemker và cs. (2019) | B2JXAM9M | Giá trị quyết định | 2.1.1 | có (01/10) | toàn văn (T1-2, 01/10/2026) |
+| T1-2 | 5 | [18] Brake và cs. (2019) | VPFBB9SG | SHM–bu lông–EOV | 3.6 | có | toàn văn (T1-2, 01/10/2026) |
+| T1-2 | 6 | [19] Ramasso và cs. (2025) | RWHW6F9I | SHM–bu lông–EOV | 3.6 | có | toàn văn, tiền in arXiv (T1-2, 01/10/2026) |
 | T1-3 | 7 | [8] Kritzinger và cs. (2018) | DMIUEEFB | Song sinh số | 2.3 | có | toàn văn (T1-3, 30/09/2026) |
 | T1-3 | 8 | [7] Boje và cs. (2020) | 5REDLQK8 | Song sinh số | 2.3 | có | toàn văn (T1-3, 30/09/2026) |
 | T1-3 | 9 | [3] Lu và cs. (2020) | 5QX5LTMZ | Song sinh số | 2.3 | có | toàn văn (T1-3, 30/09/2026) |
-| T1-4 | 10 | [53] Kapoor & Narayanan (2023) | JQKJGUER | Độ tin cậy đánh giá | 3.4 | **THIẾU** | chưa |
+| T1-4 | 10 | [53] Kapoor & Narayanan (2023) | JQKJGUER | Độ tin cậy đánh giá | 3.4 | có (01/10) | chưa |
 | T1-4 | 11 | [16] Çelik và cs. (2023) | EMTIHHX4 | Truy vết thông tin | 3.5 | có | chưa |
 | T1-4 | 12 | [17] Wu và cs. (2026) | F6XUPQKG | Truy vết thông tin | 3.5 | có | chưa |
 
@@ -40,20 +40,20 @@ Cột "Truy cập" lấy từ OpenAlex ngày 30/09/2026. Cột "PDF" kiểm trê
 |---|---|---|---|---|---|---|---|
 | T2-1 | 13 | [45] Sohn (2007) | MANJDQEZ | SHM–bu lông–EOV | 3.2 | có | một phần (tóm tắt, mục 4) |
 | T2-1 | 14 | Figueiredo và cs. (2011) | 23TBQTIP | SHM–bu lông–EOV | 3.2 | có | có (chưa đọc phần so sánh kết quả) |
-| T2-1 | 15 | Ju và cs. (2020) | 38FMATHE | SHM–bu lông–EOV | 3.2, 2.1.1 | **THIẾU** | chưa |
-| T2-1 | 16 | Cawley (2018) | EBB69J4F | SHM–bu lông–EOV | 3.2, 3.6 | **THIẾU** | chưa |
-| T2-1 | 17 | Worden và cs. (2007) | MCNRW6F5 | SHM–bu lông–EOV | 3.1, 3.2 | **THIẾU** | chưa |
+| T2-1 | 15 | Ju và cs. (2020) | 38FMATHE | SHM–bu lông–EOV | 3.2, 2.1.1 | có (01/10) | chưa |
+| T2-1 | 16 | Cawley (2018) | EBB69J4F | SHM–bu lông–EOV | 3.2, 3.6 | có (01/10) | chưa |
+| T2-1 | 17 | Worden và cs. (2007) | MCNRW6F5 | SHM–bu lông–EOV | 3.1, 3.2 | có (01/10) | chưa |
 | T2-2 | 18 | [56] Da Silva và cs. (2024) | IW7JBB3E | SHM–bu lông–EOV | 3.6 | có | một phần |
-| T2-2 | 19 | [57] Bull và cs. (2021) | W7AEKRT8 | SHM–bu lông–EOV | 3.6 | **THIẾU** | chưa |
+| T2-2 | 19 | [57] Bull và cs. (2021) | W7AEKRT8 | SHM–bu lông–EOV | 3.6 | có (01/10) | chưa |
 | T2-2 | 20 | [48] Pal và cs. (2022) | SL6IEB2E | SHM–bu lông–EOV | 3.6 | có | chưa |
 | T2-2 | 21 | Hughes và cs. (2022) | Z9RD5DMZ | Giá trị quyết định | 3.6 | có (bản tiền in arXiv v2) | có |
 | T2-2 | 22 | [80] Bull và cs. (2025) | 5D5H5XGK | Giá trị quyết định | 2.3 | **THIẾU** | chưa |
 | T2-3 | 23 | [14] Beleites và cs. (2013) | L97BIAI3 | Độ tin cậy đánh giá | 3.4 | có | chưa |
 | T2-3 | 24 | [15] Wheat và cs. (2024) | RG9FMT8Y | Độ tin cậy đánh giá | 3.4 | có | chưa |
-| T2-3 | 25 | [28] Kamariotis và cs. (2023) | AESHHWVZ | Giá trị quyết định | 3.2 | **THIẾU** | chưa |
+| T2-3 | 25 | [28] Kamariotis và cs. (2023) | AESHHWVZ | Giá trị quyết định | 3.2 | có (01/10) | chưa |
 | T2-3 | 26 | [10] Chen và cs. (2021) | ESTEYBHA | Song sinh số | 2.3 | có | chưa |
 | T2-3 | 27 | [29] Johannes và cs. (2021) | YGZ32C8M | Giá trị quyết định | 2.1 | có | chưa |
-| T2-4 | 28 | [42] Ramonell và cs. (2023) | DWT957YI | Song sinh số | 2.3 | **THIẾU** | chưa |
+| T2-4 | 28 | [42] Ramonell và cs. (2023) | DWT957YI | Song sinh số | 2.3 | có (01/10) | chưa |
 | T2-4 | 29 | [21] Hagedorn và cs. (2023) | II3UWN2C | Truy vết thông tin | 3.5 | có | chưa |
 | T2-4 | 30 | [82] Seiß và cs. (2025) | JTF8EM7Y | Truy vết thông tin | 3.5 | có | chưa |
 
@@ -109,4 +109,6 @@ cần có trước khi viết các mục 2.1.1, 3.1, 3.2 ở Giai đoạn 4.
 
 - **T1-3 (30/09/2026): xong** — [8], [7], [3] đọc toàn văn; ghi chú `notes/DMIUEEFB.md`, `notes/5REDLQK8.md`, `notes/5QX5LTMZ.md`; nhật ký `revision/GD2_nhat_ky_khoang_trong.md` (5 ứng viên).
 - **T1-1 (30/09/2026): xong 2/3** — [2], [44] đọc toàn văn; ghi chú `notes/2ILY9YZ3.md`, `notes/GNTQNBWM.md`; bảng ánh xạ `mapping/theiler2018.md`, `mapping/garcia2026.md`; kiểm phản chứng UV-01, UV-03. **[35] Bellon chờ PDF**; `mapping/bellon2025.md` chưa lập.
-- T1-2, T1-4: chưa.
+- **T1-2 (01/10/2026): xong** — [22], [18], [19] đọc toàn văn ([19] bản tiền in arXiv v1); ghi chú `notes/B2JXAM9M.md`, `notes/VPFBB9SG.md` (thay bản đọc một phần), `notes/RWHW6F9I.md`; nhật ký thêm UV-06.
+- **PDF (01/10/2026):** NCS tải 8 tệp, đã đổi tên theo khóa Zotero trong `pdf/`. Còn thiếu: [35] Bellon (`NUTL57KJ`) và [80] Bull 2025 (`5D5H5XGK`). Tệp `pdf/Unconfirmed 845287.crdownload` là bản tải dở (0 trang, không có định danh), có thể là một trong hai bài này; cần tải lại.
+- T1-4: chưa ([53], [16], [17] đều đã có PDF).

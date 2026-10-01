@@ -228,3 +228,9 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - Kiểm phản chứng bằng tài liệu chính thức: IFC4 ADD2 TC1 (IfcActionRequest, IfcProjectOrder, IfcTask, IfcWorkPlan, IfcApproval, IfcOwnerHistory, IfcRelAssigns, IfcPerformanceHistory), COBie 2.4 (NBIMS-US V3 chương 4.2, tệp tải từ nibs.org vào thư mục tạm), SSN/SOSA (Khuyến nghị W3C 19/10/2017). ISO 19650-3: không truy cập được (trả phí; bản xem trước đòi chấp nhận điều khoản).
 - Kết quả: UV-01 thu hẹp thêm (IFC4, COBie, BCF có trạng thái và phê duyệt; [44] có khuôn bước chuyển có bằng chứng và thẩm quyền); UV-03 thu hẹp (SSN Deployment là tiền lệ trực tiếp; IfcOwnerHistory chỉ giữ lần sửa cuối) và là ứng viên duy nhất đủ điều kiện hình thức vào GĐ3.
 - Cập nhật ma trận (2 dòng), nhật ký, CLAUDE.md mục 6.1 (tiền lệ bắt buộc nêu) và mục 12, `GD2_ke_hoach_doc.md`. Tag Zotero: Doc:toan_van cho [2], [44]; K2 cho [2]; K2, K3 cho [44]. Không sửa tiểu luận.
+
+## Phiên 01/10/2026 – GĐ2 phiên T1-2: đọc sâu [22], [18], [19]
+- NCS tải 8 PDF key; đổi tên theo khóa Zotero trong `pdf/` (AESHHWVZ, JQKJGUER, DWT957YI, W7AEKRT8, EBB69J4F, B2JXAM9M, 38FMATHE, MCNRW6F5). Còn thiếu [35] Bellon và [80] Bull 2025; `pdf/Unconfirmed 845287.crdownload` là bản tải dở. Phiên T1-1 vì vậy vẫn chưa xong phần [35].
+- Đọc toàn văn [22] Hemker 2019, [18] Brake 2019 (thay ghi chú đọc một phần), [19] Ramasso 2025 (bản tiền in arXiv v1; số trang theo bản tiền in).
+- Nhật ký: UV-01 thêm căn cứ [22] (nhu cầu hồ sơ khắc phục, chờ NCS chấp nhận cách tính); UV-05 thêm [19]; tạo UV-06 (lần lắp ráp hoặc can thiệp bảo trì là ranh giới phạm vi hiệu lực; K1).
+- Ma trận: 3 dòng; cột `pdf` cập nhật cho 8 tài liệu. Kế hoạch đọc, CLAUDE.md mục 12. Tag Zotero: Doc:toan_van và K tương ứng. Không sửa tiểu luận.
