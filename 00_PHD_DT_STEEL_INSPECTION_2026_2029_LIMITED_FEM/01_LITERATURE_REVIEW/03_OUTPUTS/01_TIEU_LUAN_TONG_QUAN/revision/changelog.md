@@ -405,3 +405,8 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - NCS duyệt mục 1.2A. CLAUDE.md mục 12 và ghi chú 6.1 cập nhật.
 - Viết `tieuluan/03_chuong3.md` mục 3.2A (nhãn tạm, đặt sau 3.1; 1.496 từ): 3.2A.1 kiểm tra trực quan (FHWA, cầu); 3.2A.2 chi phí, mật độ cảm biến; 3.2A.3 biến đổi vận hành – môi trường trong nhà xưởng; 3.2A.4 cầu nối phòng thí nghiệm – hiện trường (gộp nguyên văn mục 3.6A, thêm đoạn mở từ Cawley 2018, Sohn 2007); 3.2A.5 hàm ý. Xóa mục 3.6A; `05_chuong5.md` 5.6A.3 trỏ về 3.2A.4. Đáp ứng góp ý G2, G3.
 - Trích dẫn mới trong Chương 3: \[@8IMKCTE5\], \[@J7FAWJ8I\], \[@EBB69J4F\], \[@MCNRW6F5\], \[@23TBQTIP\], \[@38FMATHE\]; dùng lại [45], [18], [56], [57], \[@87NKU5IS\], \[@TDRPDWJE\]. Các khóa đã có dòng trong `matrix/doi_chieu_danh_muc.csv`. Bảng luận điểm – nguồn: `revision/3_2A_luan_diem_nguon.csv`.
+
+## Phiên 02/10/2026 – Duyệt 3.2A; viết lại Dẫn nhập mở bằng kịch bản
+- NCS duyệt mục 3.2A. CLAUDE.md mục 12 cập nhật.
+- Viết lại `tieuluan/00_dannhap.md` (970 → 1.045 từ), đáp ứng góp ý G5: mở bằng kịch bản cột C3 ở dạng thông tin rời rạc (cảnh báo, biên bản giấy, ảnh, đồng ý qua điện thoại; sáu tháng sau không truy ngược được), dẫn tới ba câu hỏi của người quản lý; định nghĩa bằng chứng trạng thái và phân biệt với kết quả phân loại, chẩn đoán; đối tượng (trỏ 1.2A); hai khoảng trống G-A, G-B (trỏ 5.2); ba mục tiêu (trỏ 5.3) và lời giải kịch bản ở 1.4A; khai báo bóng số theo [8]. Bỏ chuỗi tuyến tính năm mắt xích và cụm "khung Song sinh số" chưa khai báo mức.
+- Trích dẫn: chỉ [8] (đã có). Không trích mới.
