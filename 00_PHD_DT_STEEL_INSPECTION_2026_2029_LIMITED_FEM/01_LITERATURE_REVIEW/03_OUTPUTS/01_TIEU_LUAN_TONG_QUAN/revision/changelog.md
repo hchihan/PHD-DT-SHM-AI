@@ -303,3 +303,9 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - Khuyến nghị (chờ NCS): nêu [82] ở 5.5 (nhắc ở 3.5) như ontology để căn chỉnh `INSPECTION_RECORD`/SOSA khi xuất RDF, không làm tiền lệ cho K3/C6; [21] làm tiền lệ kỹ thuật cho C1, C3/C9 ở 5.5 và Phụ lục B. Ghi chú [82] chỉ ra câu ở `05_chuong5.md` gọi đối tượng của [82] là "hồ sơ kiểm tra" — sửa ở GĐ5.
 - Kế hoạch đọc: 29/30; CLAUDE.md mục 12. Không sửa tiểu luận.
 - NCS duyệt cả ba đề xuất (01/10/2026): [82] và [21] ghi vào CLAUDE.md mục 6.1 (tiền lệ bắt buộc nêu); việc sửa câu về [82] ghi vào mục 6.2 (GĐ5).
+
+## Phiên 01/10/2026 (12) – kiểm phản chứng: Papic & Cerovsek 2019, Gardner 2021
+- NCS cho phép tải PDF truy cập mở: `pdf/EKAT6IMC_Papic2019.pdf` (ec-3.org, 8 tr., tr. 387–394), `pdf/GXVWFUSA_Gardner2021.pdf` (White Rose, bản chính thức CC BY, 30 tr. kể cả bìa). Trang đầu khớp DOI.
+- Papic 2019: đọc toàn văn, `notes/EKAT6IMC.md`; UV-04 giải quyết một phần (dbEMM có trục mức đồng bộ dữ liệu, tr. 392; đo năng lực tổ chức, chưa kiểm chứng, tr. 393); cập nhật phát biểu thu hẹp UV-04 (còn [9]).
+- Gardner 2021: đọc toàn văn (agent; số liệu chính kiểm lại trên bản gốc), `notes/GXVWFUSA.md`; UV-05 một phần phát biểu gốc, phát biểu thu hẹp giữ nguyên, mọi phản chứng đã liệt kê đã kiểm; UV-06 không giải quyết.
+- Hai PDF chưa liên kết vào Zotero (NCS làm trong Zotero desktop, linked file).
