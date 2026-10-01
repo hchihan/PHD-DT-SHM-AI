@@ -279,3 +279,10 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - L1.1: kiểm nguyên văn bảng Perplexity của NCS (subagent mở từng trang). Nhập Zotero (TL-Key/Bổ sung; tag GD1, L1.1, nguon-chinh-thuc-VN): `EC43U223` (447 KCN cuối 2024), `XM5ZUP99` (478 KCN ~11/2025), `TAA8G76D` (lấp đầy 75 % năm 2025). 3 dòng `moi` trong `doi_chieu_danh_muc.csv`; `doan_dung_duoc` cho L1.1; tổng hợp ở `revision/L1_1_so_lieu_KCN_da_kiem.md`. Không dùng số MPI 7/2024 (trang lỗi), số JLL, bài VnEconomy (thứ cấp).
 - Không sửa tiểu luận ngoài một câu ở 5.6A.3.
 - NCS duyệt (01/10/2026): mốc L1.1 = 478/324 (~11/2025, `XM5ZUP99`); câu 5.6A.3 đã sửa. CLAUDE.md mục 7.5 (L1.1) và mục 12 (4.1) cập nhật.
+
+## Phiên 01/10/2026 (9) – GĐ2 phiên T2-2: [56] Da Silva, [57] Bull 2021, [48] Pal 2022, Hughes 2022
+- Đọc toàn văn [57] `W7AEKRT8`, [48] `SL6IEB2E`; đọc lại [56] `IW7JBB3E` thành toàn văn; Hughes 2022 `Z9RD5DMZ` đọc bổ sung phần 5 (ví dụ số). Ba bài đầu đọc song song bằng agent; các trích dẫn chính được kiểm lại trên bản gốc.
+- Ma trận: điền đủ 4 dòng (18–21). Kế hoạch đọc: T2-2 xong 4/5, [80] thiếu PDF; 21/30.
+- Nhật ký khoảng trống: UV-05 — [57], [56] đã kiểm phản chứng (một phần), phát biểu thu hẹp giữ nguyên; UV-06 — [57], [56], [48] đã kiểm (không giải quyết), sửa trang và mức căn cứ của [56] (gián tiếp: giữa các mẫu dầm, không giữa các lần lắp), thêm dữ liệu ngược chiều một phần từ [48] (ca siết lại UD-C xếp đúng 60/60).
+- Lưu ý số liệu không thống nhất trong bản gốc: [56] tỷ lệ dương tính giả 1,25 % / 0,3 %; [48] độ chính xác 95,80 % / 95,4 % — không dẫn các con số này.
+- CLAUDE.md mục 12. Không sửa tiểu luận.
