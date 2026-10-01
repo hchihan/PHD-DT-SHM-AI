@@ -449,9 +449,9 @@ sáu tháng sau có sự cố, truy ngược được toàn bộ.
 | GĐ0 Chuẩn bị | ✅ ĐD0 đã duyệt (29/09) | Markdown + đối chiếu 84 tài liệu xong (28–29/09); tồn đọng: `revision/viec_ton_dong_GD0.md` |
 | Quy ước trích dẫn (4.4), viết về giới hạn (4.5) | ✅ Đã thêm (29/09) | Danh sách 80 câu giới hạn chờ NCS duyệt (GĐ5) |
 | GĐ1 Bổ sung tài liệu | ✅ Đã duyệt (ĐD1) (30/09) | Nhập 17 tài liệu mới, gắn 5 tài liệu có sẵn; danh sách key 30 (12 Tier 1, 18 Tier 2) ở mục 7.1–7.2; báo cáo: `revision/bao_cao_GD1.md` |
-| GĐ2 Đọc sâu | ✅ ĐD2 thông qua có điều kiện (01/10): 29/30 đọc toàn văn; [80] Bull 2025 đọc bổ sung khi có PDF; NCS kiểm cột Giới hạn sau (N-10) | Bản trình: `revision/DD2_ban_trinh.md`; việc chờ NCS: `revision/viec_cho_NCS.md`; nhật ký: `revision/GD2_nhat_ky_khoang_trong.md` |
+| GĐ2 Đọc sâu | ✅ Đóng (01/10): 29/30 đọc toàn văn ([80] bỏ); 5 nhóm phản chứng N-20, N-21, N-23, N-24, N-25 đã xử lý (N-20 qua nguồn thứ cấp [29], N-25 mức tóm tắt); N-12d, e tính Maes 2022, Mosqueira-Rey 2023 là căn cứ cùng chiều | Bản trình: `revision/DD2_ban_trinh.md`; việc chờ NCS: `revision/viec_cho_NCS.md`; nhật ký: `revision/GD2_nhat_ky_khoang_trong.md` |
 | Rút gọn phạm vi, khóa 3 mục tiêu | ✅ NCS duyệt (01/10) | Mục 2 (QĐ 5, 7, 9–11), 2A, 6.0, 8, 9, 11, 13 |
-| GĐ3 Khoảng trống | 🟡 Rút gọn: chỉ duyệt câu chữ G-A, G-B và gửi thầy (01/10) | Trước tiên đóng phản chứng còn mở (N-20, N-21, N-23, N-24, N-25; được phép tìm, xác minh, nhập Zotero, tải bản mở); chỉ chốt sau N-10 và ĐD3; cần gửi thầy. Prompt bàn giao: `revision/prompt_ban_giao.md` |
+| GĐ3 Khoảng trống | 🟡 Bản nháp xong (01/10), chờ NCS duyệt câu chữ G-A, G-B và gửi thầy | `revision/GD3_khoang_trong_va_muc_tieu.md`: bảng kiểm, hai khoảng trống (G-A 7 nhóm căn cứ trước 2025, G-B 6), ba mục tiêu MT1–MT3, ma trận, văn bản đề xuất thay 5.2 và RQ (785 từ, chưa chèn `tieuluan/`); `[CẦN NGUỒN]`: IFC4 ADD2 TC1, Khuyến nghị W3C SSN |
 | GĐ4 Viết mục mới (4.2–4.9) | ⬜ | |
 | GĐ5 Tái cấu trúc | ⬜ | |
 | GĐ6 Nhất quán & xuất bản | ⬜ | |

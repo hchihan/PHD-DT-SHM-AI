@@ -334,3 +334,10 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - Định hướng: tốt nghiệp sớm với 2 bài Q2/Q3; không mở rộng tổng quan.
 - CLAUDE.md: mục 2A (MT1 phòng thí nghiệm → Bài 1; MT2 mô hình thông tin → Bài 2; MT3 nhà xưởng thật có BIM và cảm biến → chương luận án); chốt hai khoảng trống G-A, G-B (K2 hạ thành yêu cầu schema, ràng buộc C3); GĐ2 đóng 29/30, [80] bỏ; GĐ3 chỉ duyệt câu chữ và gửi thầy; mục 7.3 đóng.
 - Schema rút gọn còn 6 thực thể, 5 ràng buộc (C1, C3, C5, C6, C9), 4 chỉ số so với B0; một bộ công cụ (Python, IfcOpenShell, SQLite/JSON); bỏ RDF/SHACL, MLflow/DVC, học chủ động, LLM. Mục 13: kế hoạch hai bài báo và lộ trình; Bài 2 không chờ quan trắc dài hạn.
+
+## Phiên 01/10/2026 (16) – GĐ3 nháp: hai khoảng trống G-A, G-B và ba mục tiêu MT1–MT3
+- Bước 0: commit phần việc còn treo của phiên 15 (`70c5aaf`, 9 tệp).
+- Ghi quyết định NCS: N-20 chọn (a) — CMMS đối chiếu qua [29] tr. 7, 11 và mô tả của [35] tr. 3 (Chen 2018, Condotta 2023 chưa đọc bản gốc), UV-01 vào GĐ3 chính thức; N-12d, e tính Maes 2022, Mosqueira-Rey 2023 là căn cứ độc lập cùng chiều; N-41, N-04 hoãn đến GĐ6. Cập nhật `viec_cho_NCS.md`, `DD2_ban_trinh.md` mục 3, nhật ký UV.
+- Tạo `revision/GD3_khoang_trong_va_muc_tieu.md`: bảng kiểm theo ứng viên và theo khoảng trống (G-A: 7 nhóm căn cứ trước 2025; G-B: 6; G-B đạt có điều kiện vì CMMS và ISO 19650-3 ở mức nguồn thứ cấp); Phần A hai khoảng trống; Phần B ba mục tiêu theo CLAUDE.md 2A; Phần C ma trận; Phần D văn bản đề xuất thay 5.2 và RQ (785 từ). Ghi nhận: [56] và [19] chung tác giả Teloli, đếm là một nhóm.
+- Hai tiền lệ chưa có bản ghi Zotero để trích ở Phần D: IFC4 ADD2 TC1, Khuyến nghị W3C SSN (đánh dấu `[CẦN NGUỒN]`). Không đọc thêm tài liệu, không sửa `tieuluan/`.
+- CLAUDE.md mục 12: GĐ2 đóng; GĐ3 bản nháp xong, chờ NCS duyệt và gửi thầy.
