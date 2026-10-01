@@ -59,9 +59,9 @@ Các nghiên cứu này tạo một nền tương đối rõ: **BIM/IFC có th�
 
 ### 4.3.1. Từ biểu diễn khiếm khuyết đến hồ sơ kiểm tra có cấu trúc
 
-Nhiều nghiên cứu dùng BIM để biểu diễn dữ liệu kiểm tra, khiếm khuyết và bảo trì, và hướng này đã thay đổi theo thời gian. Các nghiên cứu ban đầu gắn thông tin tình trạng hoặc khiếm khuyết vào đối tượng mô hình, qua làm giàu mô hình bằng thông tin hư hỏng và dữ liệu kiểm tra \[63\] hoặc mô hình hóa khiếm khuyết cùng quan hệ của chúng với cấu kiện \[64\]. BIM khi đó là một lớp ngữ cảnh: dữ liệu kiểm tra được tổ chức theo vị trí và cấu kiện thay vì nằm trong báo cáo rời.
+Nhiều nghiên cứu dùng BIM để biểu diễn dữ liệu kiểm tra, khiếm khuyết và bảo trì, và hướng này đã thay đổi theo thời gian. Một hướng gắn thông tin tình trạng hoặc khiếm khuyết vào đối tượng mô hình, chẳng hạn mô hình hóa khiếm khuyết cùng quan hệ của chúng với cấu kiện và hành động bảo trì \[64\]. BIM khi đó là một lớp ngữ cảnh: dữ liệu kiểm tra được tổ chức theo vị trí và cấu kiện thay vì nằm trong báo cáo rời.
 
-Một thuộc tính khiếm khuyết gắn vào cấu kiện tuy vậy vẫn khác với một **hồ sơ kiểm tra** có định danh, ngày tạo, người thực hiện, kết quả, trạng thái và lịch sử riêng. Các hệ thống phát triển sau đó tiến gần hơn tới logic hồ sơ theo ba cách bổ sung nhau: liên kết dữ liệu công việc quản lý vận hành với đối tượng IFC \[6\], tổ chức lịch sử kiểm tra và bảo trì trong khung BrIM \[65\], và xây dựng hệ thống bảo trì cầu xuất phát từ yêu cầu của các bên sử dụng \[66\]. Điểm chung là dữ liệu kiểm tra có thể được tổ chức thành cấu trúc phục vụ vận hành, không chỉ để trực quan hóa trên mô hình.
+Một thuộc tính khiếm khuyết gắn vào cấu kiện tuy vậy vẫn khác với một **hồ sơ kiểm tra** có định danh, ngày tạo, người thực hiện, kết quả, trạng thái và lịch sử riêng. Các hệ thống phát triển sau đó tiến gần hơn tới logic hồ sơ theo hai cách bổ sung nhau: liên kết dữ liệu công việc quản lý vận hành với đối tượng IFC \[6\], và xây dựng hệ thống bảo trì cầu xuất phát từ yêu cầu của các bên sử dụng \[66\]. Điểm chung là dữ liệu kiểm tra có thể được tổ chức thành cấu trúc phục vụ vận hành, không chỉ để trực quan hóa trên mô hình.
 
 Lin và cộng sự (2025) cập nhật hình học cấu kiện trong tệp IFC từ dữ liệu quét laser cho một khung thép gồm 218 cấu kiện, đưa sai lệch khoảng cách trung bình từ 17,50 mm xuống 4,00 mm. Nghiên cứu này cho thấy thông tin hiện trường ghi ngược được vào mô hình ở cấp cấu kiện. Nội dung được ghi là tọa độ trục, không phải hồ sơ kiểm tra có người chịu trách nhiệm, trạng thái xử lý và phạm vi hiệu lực của bằng chứng \[67\].
 
@@ -139,7 +139,7 @@ Khi không đủ nhãn hư hỏng, đường cơ sở vận hành trở thành c
 
 ### 4.5.3. Con người trong vòng lặp
 
-Các quy trình kiểm tra và bảo trì đã có nhiều tiền lệ đưa con người vào các bước rà soát, xác nhận hoặc phê duyệt: kiểm soát chất lượng và xác nhận trong quy trình kiểm tra cầu \[77\], người quản lý tham gia rà soát và kiểm tra kết quả sửa chữa \[78\], và quản trị con người cùng quan hệ giữa tài sản, tình trạng và công việc như thành phần của quản lý bảo trì thông minh \[29\]. Wu, El-Assady và De Wolf (2026) tiếp cận theo hướng tương tác, với một khung kết hợp thu thập dữ liệu, dự đoán, tương tác, trực quan hóa và rà soát chuyên gia \[17\].
+Các quy trình kiểm tra và bảo trì đã có nhiều tiền lệ đưa con người vào các bước rà soát, xác nhận hoặc phê duyệt: người quản lý tham gia rà soát và kiểm tra kết quả sửa chữa \[78\], và quản trị con người cùng quan hệ giữa tài sản, tình trạng và công việc như thành phần của quản lý bảo trì thông minh \[29\]. Wu, El-Assady và De Wolf (2026) tiếp cận theo hướng tương tác, với một khung kết hợp thu thập dữ liệu, dự đoán, tương tác, trực quan hóa và rà soát chuyên gia \[17\].
 
 Luận án kế thừa việc đưa con người vào quy trình kiểm tra – bảo trì từ các nghiên cứu trên. Với khả năng giải trình, điều cần xét thêm là **vai trò của con người có được ghi lại trong dữ liệu hay không**: hệ thống quản lý cần biết ai đã rà soát, khi nào, kết quả rà soát là gì và trạng thái sau rà soát thay đổi ra sao.
 

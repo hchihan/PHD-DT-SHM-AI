@@ -445,3 +445,7 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 ## Phiên 02/10/2026 – Rà 6 tài liệu về cầu
 - NCS duyệt bản sửa câu giới hạn (c00db99).
 - Lập `revision/GD5_ra_soat_tai_lieu_cau.md`: đối chiếu [63]–[66], [77], [78] với câu trích (tóm tắt OpenAlex, PDF Zotero theo từ khóa). Đề xuất giữ [64], [66], [78]; loại [63], [65], [77] (trùng vai trò hoặc chỉ khớp một phần). Chưa sửa `tieuluan/`.
+
+## Phiên 02/10/2026 – Sửa 3 câu theo rà soát tài liệu về cầu
+- NCS duyệt đề xuất ở `revision/GD5_ra_soat_tai_lieu_cau.md`: giữ [64], [66], [78]; loại [63], [65], [77].
+- `tieuluan/04_chuong4.md`: 4.3.1 câu 2 bỏ [63], viết lại "Một hướng gắn thông tin tình trạng hoặc khiếm khuyết vào đối tượng mô hình, chẳng hạn mô hình hóa khiếm khuyết cùng quan hệ của chúng với cấu kiện và hành động bảo trì [64]"; 4.3.1 đoạn 2 bỏ vế [65], "ba cách" thành "hai cách"; 4.5.3 bỏ vế [77]. [63], [65], [77] không còn được trích trong thân bài; danh mục tạo lại ở GĐ6.
