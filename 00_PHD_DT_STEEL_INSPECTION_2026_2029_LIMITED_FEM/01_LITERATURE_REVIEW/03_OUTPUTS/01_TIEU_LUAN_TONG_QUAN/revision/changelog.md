@@ -432,3 +432,7 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - `tieuluan/04_chuong4.md` 4.5.5: xóa câu "Hướng gần đây đưa nhiều biểu diễn Song sinh số cạnh tranh vào cùng một bài toán quyết định ... \[80\]" ([80] Bull 2025 đã bỏ ở GĐ2, chưa đọc). [80] không còn được trích trong thân bài; mục [80] trong `99_tailieu.md` giữ đến GĐ6 (tạo lại danh mục từ trích dẫn thực có).
 - `tieuluan/01_chuong1.md` 1.4.1: cụm "khung song sinh số dựa trên dữ liệu ..." kèm "được khai báo ở mức bóng số theo phân loại của \[8\] (mục 1.1.3)"; viết thường "song sinh số" theo cách viết ở Dẫn nhập, 1.1.3.
 - Trích dẫn: chỉ [8] (đã có).
+
+## Phiên 02/10/2026 – Rà lại danh sách câu giới hạn
+- NCS duyệt phiên Chương 4, [80], 1.4.1.
+- Quét lại toàn văn theo năm cụm từ của CLAUDE.md 4.5, đối chiếu với danh sách 80 câu (29/09): 35 câu đã mất do các phiên đồng bộ, 46 câu còn, 6 câu mới. Lập `revision/danh_sach_cau_gioi_han_v2.csv` (52 dòng, đề xuất loại, cách xử lý và câu viết lại) và báo cáo `revision/GD5_ra_soat_cau_gioi_han.md`. Chưa sửa `tieuluan/`; chờ NCS duyệt danh sách v2.
