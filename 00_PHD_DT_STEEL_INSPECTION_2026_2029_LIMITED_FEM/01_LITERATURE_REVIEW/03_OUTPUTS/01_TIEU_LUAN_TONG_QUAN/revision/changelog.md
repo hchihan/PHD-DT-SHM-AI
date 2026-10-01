@@ -394,3 +394,9 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - NCS duyệt: Mục tiêu 1 đánh giá ba mức, cùng lần chạy (mốc đo mức lạc quan; [14], [15], [53]), giữ lại một lần chạy (LORO), giữ lại một đợt (LOCO; [18], [19], [56]). Căn cứ chỉ lấy từ Chương 3, không từ Paper 1.
 - Sửa `05_chuong5.md` (5.3 lời dẫn, Mục tiêu 1, Bảng 5.1, RQ1, Bảng 5.2, Bước 1, Bảng V1, 5.6A giao thức, 5.7.1, 5.10), `01_chuong1.md` (1.7), CLAUDE.md (QĐ 4, QĐ 13 vế A1, mục 2A, mục 9, mục 13).
 - Không thêm trích dẫn mới; [18], [19], [56] đã dùng ở Chương 3.
+
+## Phiên 02/10/2026 – Duyệt các phiên GĐ5; viết mục 1.2A Đối tượng
+- NCS duyệt: đồng bộ Chương 5, Chương 1, Phụ lục A–B, Mục tiêu 1 ba mức đánh giá. CLAUDE.md mục 12 cập nhật.
+- Viết `tieuluan/01_chuong1.md` mục 1.2A (nhãn tạm, đặt trước 1.2 Vấn đề nghiên cứu; 1.132 từ): 1.2A.1 quy mô, vai trò; 1.2A.2 liên kết bu lông (nới lỏng, ăn mòn, lắp ráp); 1.2A.3 điều kiện vận hành, khó khăn kiểm tra; 1.2A.4 phạm vi đối tượng (mô hình 1:10, nhà xưởng thật có BIM). Đáp ứng góp ý G1.
+- Trích dẫn mới trong tiểu luận: \[@XM5ZUP99\], \[@J358BJ7Z\], \[@QMVQCEL5\], \[@WP5WUUF9\], \[@SKCFNXPU\], \[@IJGQYI7W\], \[@38FMATHE\], \[@2AZ7VZ5R\]; dùng lại [18]. Thêm dòng Daniel 2023 vào `matrix/doi_chieu_danh_muc.csv`. Bảng luận điểm – nguồn: `revision/1_2A_luan_diem_nguon.csv` (Saleem, Gong, Nooralishahi chỉ đọc tóm tắt).
+- Không dùng Iordachescu 2022 (không truy cập được tóm tắt hay toàn văn).

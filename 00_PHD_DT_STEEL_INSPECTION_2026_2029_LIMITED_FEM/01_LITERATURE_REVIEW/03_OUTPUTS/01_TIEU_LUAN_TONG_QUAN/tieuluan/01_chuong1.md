@@ -32,6 +32,34 @@ Về mô hình thông tin công trình, Quyết định số 258/QĐ-TTg ngày 1
 
 Hai văn bản trên cho thấy hồ sơ bảo trì, thông tin kiểm tra và mô hình thông tin công trình đều là đối tượng quản lý đã có cơ sở pháp lý tại Việt Nam. Tiểu luận dùng chúng để đặt bài toán quản lý thông tin của luận án vào bối cảnh trong nước, không dùng để suy ra ngưỡng kỹ thuật và không coi Song sinh số là yêu cầu pháp lý; cả hai văn bản đều không quy định về Song sinh số.
 
+## 1.2A. Đối tượng nghiên cứu: nhà công nghiệp khung thép liên kết bu lông
+
+<!-- Nhãn tạm 1.2A; đánh số lại thành 1.2 ở GĐ5 (cấu trúc đích CLAUDE.md 6.3). Nguồn: revision/1_2A_luan_diem_nguon.csv -->
+
+### 1.2A.1. Quy mô và vai trò của nhà xưởng khung thép
+
+Quy mô của các khu công nghiệp cho thấy khối lượng nhà xưởng cần được quản lý vận hành ở Việt Nam. Theo số liệu của Cục Đầu tư nước ngoài (Bộ Tài chính), đến khoảng tháng 11/2025 cả nước có 478 khu công nghiệp đã thành lập, trong đó 324 khu đã đi vào hoạt động với khoảng 68 nghìn ha đất công nghiệp \[@XM5ZUP99\]. Từ thực tế kiểm định, nghiên cứu sinh nhận thấy nhà khung thép liên kết bu lông là loại hình phổ biến trong các khu này; đây là nhận định của nghiên cứu sinh, chưa có thống kê chính thức về tỷ trọng. Ở phạm vi quốc tế, Saleem và Qureshi (2018) cho thấy nhà thép tiền chế dùng tiết diện được tạo hình theo nội lực, nhờ đó nhẹ hơn và kinh tế hơn khung thép dùng tiết diện cán nóng không đổi \[@J358BJ7Z\]. Hiệu quả kinh tế này giải thích vì sao loại hình được dùng rộng rãi; tiểu luận không dùng nguồn này làm căn cứ về tỷ trọng.
+
+Với chủ đầu tư, nhà xưởng là tài sản phục vụ sản xuất. Torres-Barriuso và cộng sự (2025) nêu rằng bảo trì nhà công nghiệp cần thiết để công trình làm việc đúng chức năng và tránh gián đoạn cùng thiệt hại kinh tế, và bảo trì phòng ngừa có cấu trúc góp phần duy trì sản xuất liên tục \[@QMVQCEL5\] (tr. 1, 3). Giá trị của thông tin trạng thái vì vậy được đo bằng khả năng giúp người quản lý chọn đúng cấu kiện cần kiểm tra và đúng thời điểm can thiệp, để công trình an toàn mà sản xuất ít bị gián đoạn nhất.
+
+### 1.2A.2. Liên kết bu lông là đối tượng theo dõi trực tiếp
+
+Trong khung nhà xưởng, nội lực giữa cột, kèo và các cấu kiện phụ được truyền qua liên kết bu lông, nên tình trạng của liên kết quyết định trực tiếp khả năng làm việc của khung. Tài liệu đã tổng quan chỉ ra ba nhóm yếu tố làm tình trạng này thay đổi trong vận hành.
+
+Nhóm thứ nhất là nới lỏng. Gong và cộng sự (2022) định nghĩa nới lỏng là sự mất lực siết, xếp nới lỏng vào các dạng hư hỏng chủ yếu của mối ghép ren, ảnh hưởng tới tính toàn vẹn và độ tin cậy của sản phẩm, và cho biết nới lỏng dưới dao động ngang là chủ đề được nghiên cứu rộng rãi \[@WP5WUUF9\]. Nhóm thứ hai là ăn mòn. Việt Nam nằm trong vùng nhiệt đới ẩm; Lien và cộng sự (2007), qua mười năm thử phơi mẫu tại 6–8 trạm, ghi nhận thời gian ẩm ướt rất dài trên cả nước, tốc độ ăn mòn thép các-bon ở cấp C3 tại hầu hết các trạm, và ăn mòn thép mạ kẽm phụ thuộc chủ yếu vào nồng độ ion clorua, cao nhất ở vùng ven biển \[@SKCFNXPU\] (tr. 552, 557). Với bu lông mạ kẽm, Daniel và cộng sự (2023) nêu rằng khả năng bảo vệ của lớp kẽm suy giảm theo thời gian, làm lộ thép nền và rút ngắn tuổi thọ chi tiết ghép, đặc biệt trong môi trường công nghiệp và biển \[@IJGQYI7W\] (tr. 5177). Nhóm thứ ba là chính quá trình lắp ráp: Brake và cộng sự (2019) cho thấy trên mẫu thí nghiệm có mối nối bu lông, quy trình lắp ráp làm đặc trưng động lực thay đổi giữa các lần lắp nếu không được kiểm soát \[18\].
+
+Từ ba nhóm bằng chứng trên, tiểu luận rút ra một diễn giải cho nhà xưởng: trạng thái của liên kết bu lông thay đổi theo thời gian, theo điều kiện môi trường và theo mỗi lần can thiệp, nên một nhận định về liên kết chỉ có giá trị khi kèm theo thời điểm, điều kiện và lần lắp ráp mà nó được tạo ra. Đây là lý do khái niệm bằng chứng trạng thái có phạm vi hiệu lực (mục 1.3A) được đặt vào trung tâm của luận án.
+
+### 1.2A.3. Điều kiện vận hành và khó khăn kiểm tra
+
+Nhà xưởng khác nhà dân dụng ở chỗ công trình chịu tác động của chính hoạt động sản xuất. Thiết bị nâng và máy móc tạo ra rung động vận hành; Ju và cộng sự (2020), khảo sát một nhà máy công nghệ cao, cho thấy rung do cầu trục di chuyển tập trung trong một dải tần nhất định và phụ thuộc vận tốc, gia tốc của cầu trục và độ gồ ghề của ray \[@38FMATHE\]. Nghiên cứu này xét rung ảnh hưởng thiết bị nhạy rung trên sàn; việc rung vận hành cùng loại xuất hiện trong dữ liệu quan trắc khung nhà xưởng là diễn giải của tiểu luận và được xét tiếp ở Chương 3.
+
+Kiểm tra liên kết trong nhà xưởng cũng tốn kém. Torres-Barriuso và cộng sự (2025) mô tả việc kiểm tra kết cấu nhà công nghiệp là quá trình cần nhiều nhân công, phải tiếp cận vùng cao, hẹp hoặc nguy hiểm, cần thiết bị phụ trợ, biện pháp an toàn quy mô lớn, có khi phải dừng sản xuất, và các yếu tố này làm tăng chi phí kiểm tra \[@QMVQCEL5\] (tr. 3, 5). Nooralishahi và cộng sự (2021) nêu các thách thức tương tự cho cơ sở công nghiệp: quy mô lớn, khó tiếp cận và rủi ro sức khỏe cho người kiểm tra \[@2AZ7VZ5R\]. Từ đó, giá trị quản lý của dữ liệu quan trắc ở nhà xưởng nằm ở chỗ giúp khoanh vùng cấu kiện cần kiểm tra trước; kết luận về tình trạng vẫn được xác lập qua kiểm tra của kỹ sư.
+
+### 1.2A.4. Phạm vi đối tượng trong luận án
+
+Luận án xét nhà công nghiệp khung thép một tầng có liên kết bu lông ở giai đoạn vận hành, với hai đối tượng cụ thể. Đối tượng thứ nhất là mô hình khung thép tỉ lệ 1:10 trong phòng thí nghiệm, nơi trạng thái liên kết được tạo có kiểm soát để xác lập quy trình tạo bằng chứng (Mục tiêu 1). Đối tượng thứ hai là một nhà xưởng khung thép thật đã có mô hình BIM, nơi chuỗi bằng chứng – kiểm tra – hành động được triển khai và kiểm chứng khả thi (Mục tiêu 3). Khi tiểu luận dùng tài liệu về cầu, kết cấu ngoài trời hay nhà máy công nghệ cao, phần bằng chứng được trích đúng đối tượng của nguồn, còn việc áp sang nhà xưởng được ghi rõ là diễn giải; phạm vi diễn giải được trình bày ở Mục 5.8.
+
 ## 1.2. Vấn đề nghiên cứu
 
 ### 1.2.1. Vấn đề quản lý trung tâm
