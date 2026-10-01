@@ -251,3 +251,10 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - Đọc toàn văn [35] Bellon và cs. 2025 (19 tr., PDF trong kho Zotero); ghi chú `notes/NUTL57KJ.md`; bảng ánh xạ `mapping/bellon2025.md` (Phần A–E).
 - Nhật ký: UV-01 kiểm [35], thu hẹp thêm (chuỗi định kiểu kiểm tra → hư hỏng → cấu kiện → bảo trì → chi phí đã có bằng thực thể chuẩn IFC 4.3 cho phát hiện bằng mắt); còn CMMS chưa kiểm. UV-03 kiểm [35], không đổi.
 - Ma trận 1 dòng; kế hoạch đọc (Tier 1: 12/12); `GD2_phan_tich_khoang_trong_T1.md` mục 6; CLAUDE.md mục 6.1 (tiền lệ [35]) và mục 12. Tag Zotero: Doc:toan_van, K2, K3 cho [35]. Không sửa tiểu luận.
+
+## Phiên 01/10/2026 (5) – quy tắc git, tệp bị xóa, quyết định thiết kế 5.5, nguồn phản chứng CMMS
+- CLAUDE.md mục 4.3: quy tắc git (chỉ add đúng tệp của phiên; kiểm `git status`, `git diff --cached --stat` trước commit; vùng stage có tệp ngoài phiên thì dừng và báo).
+- `revision/git_tep_bi_xoa.md`: 330 tệp đang ở trạng thái đã xóa, gom 55 nhóm; 180 có bản cùng nội dung ở nơi khác, 71 chỉ cùng tên, 79 không thấy bản thay thế; đề xuất theo nhóm; ghi chú về việc repo nằm trong Google Drive. Không khôi phục, không commit lệnh xóa.
+- CLAUDE.md mục 8: quyết định thiết kế cho 5.5 (mở rộng trên nền IFC 4.3 của [35]; quan hệ bằng chứng – cấu kiện n:m ở tầng đồ thị, IFC là khung nhìn xuất; bản ghi bất biến với prov:wasRevisionOf / prov:wasInvalidatedBy); thêm ràng buộc C9. Mục 6.1: trình bày schema như mở rộng của [35] và BCF 3.0.
+- Nguồn CMMS cho UV-01: Chen và cs. 2018 `QZ7E3HDV`, Condotta & Scanagatta 2023 `QBTTSBTH` (DOI xác minh Crossref, nhập TL-Key/Bổ sung, tag GD2-phanchung, 2 dòng `moi` trong `doi_chieu_danh_muc.csv`). Chưa có PDF; mục CMMS vẫn "chưa kiểm".
+- [80] Bull 2025 (`5D5H5XGK`): không có tệp đính kèm trong Zotero, không có tệp trong `pdf/`; `Unconfirmed 845287.crdownload` là bản tải dở.

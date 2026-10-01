@@ -90,6 +90,9 @@ Cuối cùng phải xuất **bản giải trình tiếp thu góp ý**: góp ý �
   (3) danh sách trích dẫn mới dùng, (4) việc còn mở. Sau đó **dừng lại chờ NCS duyệt**.
 - Không tự chuyển sang giai đoạn tiếp theo khi chưa qua điểm duyệt.
 - Cập nhật `revision/changelog.md` và bảng Trạng thái tiến độ (mục 12) sau mỗi phiên được duyệt.
+- **Git:** chỉ `git add` đúng đường dẫn tệp của phiên; không dùng `git add -A`, `git add .` hay `commit -a`.
+  Trước mỗi commit chạy `git status` và `git diff --cached --stat`; nếu vùng stage có tệp ngoài phiên thì dừng và
+  báo NCS (quy tắc thêm 01/10/2026 sau sự cố commit cuốn theo tệp đã xóa; xem `revision/git_tep_bi_xoa.md`).
 
 ### 4.4 Quy ước trích dẫn
 - Trích dẫn hiện có giữ dạng số cũ `\[n\]` (n = `so_cu` trong `matrix/doi_chieu_danh_muc.csv`)
@@ -165,7 +168,8 @@ Tiền lệ bắt buộc nêu (kết quả kiểm phản chứng GĐ2, 30/09/202
 - **SSN `Deployment`** (cảm biến triển khai trên nền tảng) là tiền lệ bắt buộc nêu ở 4.x và 5.5 cho ánh xạ cảm biến – cấu kiện; cùng [2] IFC Monitor. Phần mới là khoảng hiệu lực bắt buộc và ràng buộc thời điểm quan trắc nằm trong khoảng đó (C3).
 - **[44] García 2026** là tiền lệ của khuôn "bước chuyển có bằng chứng và đúng thẩm quyền" (C6), áp cho gói thông tin bàn giao; nêu ở 4.5 và 5.5. Phần mới là áp khuôn đó cho hành động kiểm tra – bảo trì dựa trên bằng chứng tình trạng.
 - **[35] Bellon 2025** là tiền lệ của chuỗi định kiểu lần kiểm tra → hư hỏng → cấu kiện → nhiệm vụ bảo trì → chi phí bằng thực thể chuẩn IFC 4.3 (`IfcRelAssignsToProduct`, `IfcRelAdheresToElement`, `IfcRelAssignsToProcess`), cho phát hiện bằng mắt; nêu ở 2.2 và 5.5. Phần mới là bằng chứng có nguồn gốc và phạm vi hiệu lực (gồm cảm biến, NDT) đi vào chuỗi đó và sự kiện chuyển trạng thái của hành động có căn cứ (kết quả T1-1, 01/10/2026).
-- Đề xuất bổ sung schema từ `mapping/garcia2026.md` Phần D (tách nhiệm vụ, phiên bản bộ luật quyết định, mã băm) và `mapping/bellon2025.md` Phần D (bản số EVIDENCE–COMPONENT khi xuất IFC, quan hệ bản ghi mới thay bản ghi cũ) chờ NCS quyết định khi viết 5.5.
+- Đề xuất bổ sung schema từ `mapping/garcia2026.md` Phần D (tách nhiệm vụ, phiên bản bộ luật quyết định, mã băm) chờ NCS quyết định khi viết 5.5. Hai điểm của `mapping/bellon2025.md` Phần D (bản số EVIDENCE–COMPONENT khi xuất IFC, bản ghi mới thay bản ghi cũ) đã được NCS quyết định ngày 01/10/2026, ghi ở mục 8 "Quyết định thiết kế cho 5.5".
+- **Khi viết 5.5:** trình bày schema như phần mở rộng của mô hình IFC 4.3 của [35] và của BCF 3.0, không như một mô hình mới độc lập.
 
 ### 6.2 Việc tái cấu trúc (Giai đoạn 5)
 - Chuyển RQ và kiến trúc nghiên cứu từ Chương 1 sang Chương 5; xóa phần lặp.
@@ -281,7 +285,20 @@ IFC (cấu kiện) · IDS (thuộc tính bắt buộc) · SHACL (ràng buộc).
 **Ràng buộc C1–C8:** C1 không mồ côi · C2 ID duy nhất · C3 thời điểm quan trắc nằm trong hiệu lực
 ánh xạ · C4 khớp phiên bản mô hình · C5 dùng ngoài phạm vi phải có lý do · C6 bước chuyển có căn cứ
 và đúng thẩm quyền · C7 bước chuyển hợp lệ theo máy trạng thái · C8 bằng chứng cảm biến bắt buộc có
-OBS_CONTEXT và method_version.
+OBS_CONTEXT và method_version · **C9** mọi sự kiện chuyển trạng thái phải trỏ tới phiên bản bằng chứng còn hiệu lực
+tại thời điểm chuyển (thêm 01/10/2026).
+
+**Quyết định thiết kế cho 5.5 (NCS quyết định 01/10/2026):**
+- **Định vị:** schema là phần mở rộng trên nền mô hình IFC 4.3 của [35] (`IfcRelAssignsToProduct` lần kiểm tra → bằng
+  chứng, `IfcRelAdheresToElement` bằng chứng → cấu kiện, `IfcRelAssignsToProcess` bằng chứng → hành động), bổ sung hai
+  tầng: **tầng bằng chứng** (nguồn gốc, độ bất định, phạm vi hiệu lực; loại cảm biến / quan sát / NDT) và **tầng trách
+  nhiệm** (sự kiện chuyển trạng thái có căn cứ và thẩm quyền; xác minh sau sửa chữa). Không dựng mô hình song song.
+- **Quan hệ bằng chứng – cấu kiện:** n:m ở tầng đồ thị (dữ liệu gốc). IFC là khung nhìn xuất ra: mỗi cặp bằng chứng –
+  cấu kiện thành một quan hệ riêng (một `IfcRelAdheresToElement` mỗi cấu kiện), mọi quan hệ cùng trỏ về một
+  `Condition_Evidence_ID`.
+- **Bất biến của bản ghi:** bản ghi bằng chứng không bị sửa đè; thay thế bằng bản ghi mới có quan hệ
+  `prov:wasRevisionOf` hoặc `prov:wasInvalidatedBy` trỏ về bản cũ (thay cho quy ước ghi đè trạng thái
+  ACTIVE/OUTDATED của [35]). Ràng buộc đi kèm: C9.
 
 **Chỉ số (5.7):** đường cơ sở B0 = thực hành hiện hành; B1 = schema cắt giảm (chỉ liên kết định danh).
 RQ2: M2.1 độ nhạy phát hiện lỗi theo loại · M2.2 báo động giả · M2.3 đủ thuộc tính bắt buộc ·
