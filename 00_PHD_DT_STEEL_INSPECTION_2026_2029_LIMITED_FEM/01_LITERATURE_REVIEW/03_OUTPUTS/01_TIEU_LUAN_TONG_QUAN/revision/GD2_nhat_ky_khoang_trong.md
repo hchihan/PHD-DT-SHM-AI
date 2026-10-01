@@ -14,7 +14,7 @@ Quy ước:
   (ví dụ CMMS, BCF 3.0, IFC Monitor [2], ISO 19650); ghi kết quả đối chiếu kèm trang, hoặc "chưa kiểm".
 - **Phát biểu đã thu hẹp:** phát biểu sau khi trừ phần đã được giải quyết.
 - Một ứng viên chỉ được đưa vào GĐ3 khi trường "Phản chứng đã kiểm" không còn mục nào ghi "chưa kiểm".
-- Nguồn đã đọc toàn văn đến hết phiên T1-3: [8], [7], [3] (30/09/2026). Phiên T1-2 (01/10/2026): [22], [18], [19] đọc toàn văn ([19] bản tiền in arXiv). Phiên T1-1 (30/09/2026): [2], [44] đọc toàn văn; [35] chờ PDF. Tài liệu chính thức đã đọc để kiểm phản chứng: BCF 3.0 (BCF-XML, BCF-API), IFC4 ADD2 TC1 (các thực thể nêu ở UV-01, UV-03), COBie 2.4 (NBIMS-US V3 chương 4.2), SSN/SOSA (Khuyến nghị W3C 2017). ISO 19650-3 không truy cập được. Phiên T1-1 (ba tiền lệ [2], [35], [44]) **chưa
+- Nguồn đã đọc toàn văn đến hết phiên T1-3: [8], [7], [3] (30/09/2026). Phiên T1-2 (01/10/2026): [22], [18], [19] đọc toàn văn ([19] bản tiền in arXiv). Phiên T1-4 (01/10/2026): [53], [16] (bản in thử), [17] đọc toàn văn. Phiên T1-1 (30/09/2026): [2], [44] đọc toàn văn; [35] chờ PDF. Tài liệu chính thức đã đọc để kiểm phản chứng: BCF 3.0 (BCF-XML, BCF-API), IFC4 ADD2 TC1 (các thực thể nêu ở UV-01, UV-03), COBie 2.4 (NBIMS-US V3 chương 4.2), SSN/SOSA (Khuyến nghị W3C 2017). ISO 19650-3 không truy cập được. Phiên T1-1 (ba tiền lệ [2], [35], [44]) **chưa
   thực hiện**; căn cứ từ ba bài đó sẽ được bổ sung khi có. Căn cứ đã dùng ở 5.6A (Bull 2022, Wang & Cha 2021, [57],
   Hughes 2022, Figueiredo 2011) chưa được đưa vào nhật ký; cần rà lại ở phiên Tier 2.
 
@@ -23,13 +23,14 @@ Quy ước:
 | Mã | Phát biểu | K | Số căn cứ độc lập hiện có | Năm các căn cứ | Ghi chú |
 |---|---|---|---|---|---|
 | UV-01 | Hành động và lần đổi trạng thái không nối ngược được về bằng chứng tình trạng cùng phạm vi hiệu lực (đã thu hẹp) | K3 | 4 ([3], [7], [22], [44]); 3 trước 2025 ([22] chỉ là căn cứ về nhu cầu) | 2020, 2020, 2019, 2026 | Đủ số căn cứ nếu NCS chấp nhận [22]; còn chờ CMMS, ISO 19650-3 (không truy cập được), [35] |
-| UV-02 | Đầu ra phát hiện bất thường trong khung song sinh cho công trình chưa được ghi cùng nguồn gốc xử lý, phiên bản phương pháp và phạm vi hiệu lực | K1 | 2 ([3], [7]) | 2020, 2020 | Chưa đủ; phản chứng mới kiểm một phần ([44], SSN); cần [18], [45], 23TBQTIP |
+| UV-02 | Đầu ra phát hiện bất thường trong khung song sinh cho công trình chưa được ghi cùng nguồn gốc xử lý, phiên bản phương pháp và phạm vi hiệu lực | K1 | 4 ([3], [7], [53], [16]) | 2020, 2020, 2023, 2023 | Chưa đủ; phản chứng mới kiểm một phần ([44], SSN); cần [18], [45], 23TBQTIP |
 | UV-03 | Ánh xạ cảm biến – cấu kiện thiếu cách ghép được quy định về thời hạn hiệu lực và ràng buộc thời gian (đã thu hẹp) | K2 | 3 ([3], [7], [2]) | 2020, 2020, 2018 | **Đủ điều kiện hình thức vào GĐ3**; phần còn lại nhỏ, nên xem là yêu cầu của mô hình dữ liệu; cần [35] |
 | UV-04 | Thiếu phân loại mức tích hợp DM/DS/DT áp cho kiểm tra – bảo trì kết cấu công trình có con người ra quyết định | mới (định vị) | 2 ([8], [7]) | 2018, 2020 | Chỉ phục vụ định vị ở 2.3, không dự kiến thành khoảng trống |
-| UV-05 | Ở công trình đang vận hành thiếu dữ liệu có nhãn về bất thường; nhãn phụ thuộc đánh giá con người | mới (nhãn hiện trường; liên quan L2.3, 5.6A) | 2 ([3], [19]) | 2020, 2025 | Căn cứ đã có ở 5.6A chưa nhập nhật ký |
-| UV-06 | Lần lắp ráp hoặc can thiệp bảo trì là ranh giới phạm vi hiệu lực của bằng chứng từ mối nối bu lông | K1 | 3 ([18], [56], [19]); 2 trước 2025 | 2019, 2024, 2025 | Mới (T1-2); phản chứng chưa kiểm; [56] mới đọc một phần |
+| UV-05 | Ở công trình đang vận hành thiếu dữ liệu có nhãn về bất thường; nhãn phụ thuộc đánh giá con người | mới (nhãn hiện trường; liên quan L2.3, 5.6A) | 3 ([3], [19], [17]) | 2020, 2025, 2026 | Căn cứ đã có ở 5.6A chưa nhập nhật ký |
+| UV-06 | Lần lắp ráp hoặc can thiệp bảo trì là ranh giới phạm vi hiệu lực của bằng chứng từ mối nối bu lông | K1 | 4 ([18], [53], [56], [19]); 3 trước 2025 | 2019, 2023, 2024, 2025 | Phản chứng chưa kiểm; [56] mới đọc một phần |
+| UV-07 | Xác nhận của chuyên gia đối với đầu ra AI là tín hiệu học, chưa là bản ghi trách nhiệm | K3 (+5.6A) | 4 ([3], [7], Hughes 2022, [17]); 3 trước 2025 | 2020, 2020, 2022, 2026 | Mới (T1-4); phản chứng kiểm một phần (IfcApproval, [44]) |
 
-Tình trạng phản chứng (30/09/2026, sau phiên T1-1): UV-03 đã kiểm hết các phản chứng liệt kê ([2], [3], IFC4, SSN/SOSA). UV-01 đã kiểm BCF 3.0, IFC4, COBie 2.4, [44]; còn CMMS chưa kiểm, ISO 19650-3 không truy cập được, [35] chờ PDF. UV-02 kiểm một phần. UV-04, UV-05 chưa kiểm. Đủ điều kiện hình thức vào GĐ3 (ba căn cứ độc lập, không phụ thuộc 2025–2026, không còn "chưa kiểm"): chỉ UV-03. Cập nhật 01/10/2026 (T1-2): thêm UV-06 (chưa kiểm phản chứng); UV-01 có căn cứ thứ ba trước 2025 ([22], chờ NCS chấp nhận) nhưng vẫn còn mục "chưa kiểm".
+Tình trạng phản chứng (30/09/2026, sau phiên T1-1): UV-03 đã kiểm hết các phản chứng liệt kê ([2], [3], IFC4, SSN/SOSA). UV-01 đã kiểm BCF 3.0, IFC4, COBie 2.4, [44]; còn CMMS chưa kiểm, ISO 19650-3 không truy cập được, [35] chờ PDF. UV-02 kiểm một phần. UV-04, UV-05 chưa kiểm. Đủ điều kiện hình thức vào GĐ3 (ba căn cứ độc lập, không phụ thuộc 2025–2026, không còn "chưa kiểm"): chỉ UV-03. Cập nhật 01/10/2026 (T1-4): thêm UV-07; UV-02 có 4 căn cứ trước 2025 nhưng còn PROV-O, MLflow/DVC, thẻ mô hình chưa kiểm; UV-06 có 3 căn cứ trước 2025 (một đọc chưa đủ). Vẫn chỉ UV-03 đủ điều kiện hình thức. Đánh giá mức bảo vệ của K1–K3 theo thang của skill phd-gap-miner: `revision/GD2_phan_tich_khoang_trong_T1.md`. Cập nhật 01/10/2026 (T1-2): thêm UV-06 (chưa kiểm phản chứng); UV-01 có căn cứ thứ ba trước 2025 ([22], chờ NCS chấp nhận) nhưng vẫn còn mục "chưa kiểm".
 
 ## UV-01 — Chuỗi cảnh báo → hành động
 
@@ -89,14 +90,19 @@ Tình trạng phản chứng (30/09/2026, sau phiên T1-1): UV-03 đã kiểm h�
   - [7], tr. 9 (độ tin cậy dữ liệu nguồn là mối quan ngại; cần phân biệt dữ liệu cảm biến thật và mô phỏng; tính hợp lệ
     của dự đoán cần kiểm chứng), tr. 11 (kiểm chứng tính đúng và đủ của dữ liệu còn khó). Tìm trong văn bản: không có
     provenance, traceability, accountability, audit.
-- **Loại căn cứ:** TG ([7] tr. 9, 11) + **NCS** (không có cơ chế ghi nguồn gốc/phạm vi là suy từ phần bài không xử lý).
+- **Căn cứ bổ sung (01/10/2026, T1-4):** Kapoor & Narayanan 2023 [53], tr. 3, 5 (chuẩn báo cáo học máy hiện có, kể cả checklist và thẻ mô hình, không xử lý rò rỉ; người nghiên cứu phải lập luận tường minh về tách tập, đặc trưng và phân bố áp dụng; TG). Çelik và cs. 2023 [16], tr. PDF 14 (tích hợp với thiết bị IoT là việc sau; nguồn gốc mới áp cho dữ liệu thiết kế BIM; TG).
+- **Loại căn cứ:** TG ([7] tr. 9, 11; [53] tr. 3, 5; [16] tr. 14) + **NCS** (không có cơ chế ghi nguồn gốc/phạm vi là suy từ phần bài không xử lý).
 - **Liên quan:** K1.
 - **Ghi chú:** cần đối chiếu với [18], [45], Figueiredo 2011 (Tier 2) về phạm vi hiệu lực phụ thuộc điều kiện huấn luyện.
 - **Phản chứng đã kiểm:**
   - [44] García 2026: đã kiểm. Có nguồn gốc của **tệp** bàn giao (phiên bản, tác giả, phần mềm xuất, mã băm; tr. 17–20) và đường cơ sở yêu cầu có phiên bản (tr. 25–27); không có nguồn gốc của kết quả phân tích dữ liệu đo.
   - SSN/SOSA (Khuyến nghị W3C 19/10/2017): kiểm một phần. `sosa:Observation` có cảm biến tạo ra, thủ tục đã dùng, thời điểm hiện tượng và thời điểm kết quả (mục 4.3); phần căn chỉnh với PROV-O có sẵn (mục 6.5). Chưa kiểm cách ghi phiên bản thuật toán và phạm vi áp dụng.
-  - PROV-O [69], [16] Çelik 2023, công cụ quản lý phiên bản mô hình (MLflow/DVC): **chưa kiểm**.
-- **Phát biểu đã thu hẹp:** chưa có; chờ kết quả kiểm.
+  - [16] Çelik 2023: **đã kiểm 01/10/2026** (toàn văn, bản in thử). Có bản ghi nguồn gốc ở mức đối tượng IFC: thao tác, thời điểm, mô hình, phiên bản, định danh đối tượng, chủ sở hữu; hợp đồng kiểm tra ai tạo/sửa đối tượng nào, khi nào, phiên bản nào (tr. PDF 8, 11–12). Không có phạm vi hiệu lực; không áp cho dữ liệu đo.
+  - [53] Kapoor & Narayanan 2023: **đã kiểm 01/10/2026**. Phiếu thông tin mô hình (21 câu hỏi) ghi lập luận về tách tập, đặc trưng hợp lệ, phân bố áp dụng (tr. 5–6), có phiên bản; ở mức mô hình trong một bài báo, không gắn từng kết quả được dùng về sau. Phụ lục chứa mẫu phiếu chưa đọc.
+  - Thẻ mô hình (model cards, Mitchell và cs. 2019, được [53] dẫn): **chưa kiểm**; tài liệu chưa có trong Zotero, không được trích khi chưa nhập.
+  - PROV-O [69], công cụ quản lý phiên bản mô hình (MLflow/DVC): **chưa kiểm**.
+- **Phát biểu đã thu hẹp (đề xuất, chờ kiểm PROV-O, MLflow/DVC, thẻ mô hình):** nguồn gốc ở mức đối tượng hay tệp ([16], [44]) và lập luận về phạm vi ở mức mô hình ([53]) đã có tiền lệ; phần chưa thấy là một bản ghi cho **từng** kết quả sinh từ dữ liệu đo, mang cùng lúc nguồn gốc xử lý, phiên bản phương pháp và phạm vi hiệu lực, và đi theo kết quả đó khi nó được dùng về sau.
+- **Số căn cứ độc lập:** 4 ([3] 2020, [7] 2020, [53] 2023, [16] 2023); trước 2025: 4.
 
 ## UV-03 — Ghép cảm biến – cấu kiện có thời hạn
 
@@ -155,6 +161,7 @@ Tình trạng phản chứng (30/09/2026, sau phiên T1-1): UV-03 đã kiểm h�
 - **Liên quan:** mới (nhãn hiện trường, vòng lặp kiểm tra tạo nhãn). Trong GD1 đây là luận điểm L2.3 ("thiếu dữ liệu hư
   hỏng có nhãn ở hiện trường"), đã có nguồn ở 5.6A (Bull 2022, Wang & Cha 2021, [57]) mà chưa đưa vào nhật ký này.
 - **Căn cứ bổ sung (01/10/2026, T1-2):** Ramasso và cs. 2025 [19] (bản tiền in arXiv), tr. 15 (thêm dần nhãn của đợt kiểm tra để mô phỏng việc các đợt kiểm tra định kỳ cho phép gán nhãn dữ liệu đã thu; độ chính xác tăng theo lượng nhãn), tr. 14, 21 (nhãn đặt bằng cờ-lê lực có bất định; tác giả tự nêu). Loại: TG. Tài liệu nhóm 2025.
+- **Căn cứ bổ sung (01/10/2026, T1-4):** Wu và cs. 2026 [17], tr. 4 (gán nhãn tương tác và học chủ động để bù việc thiếu dữ liệu có nhãn, đưa tri thức chuyên gia vào xác nhận; TG), tr. 10 (LFW1: cải thiện mô hình khi phản hồi ít là giới hạn; TG). Tài liệu 2026; đối tượng là kiểm kê tái sử dụng.
 - **Ghi chú:** đối tượng của [3] là bơm HVAC; chỉ dùng như căn cứ cùng chiều.
 - **Phản chứng đã kiểm:** **chưa kiểm**. Cần đối chiếu học chủ động theo rủi ro (Hughes 2022 `Z9RD5DMZ`, Bull 2022 `87NKU5IS`) và SHM theo quần thể [57], là các hướng đã đề xuất cách lấy nhãn từ kiểm tra.
 - **Phát biểu đã thu hẹp:** chưa có; chờ kết quả kiểm.
@@ -166,9 +173,27 @@ Tình trạng phản chứng (30/09/2026, sau phiên T1-1): UV-03 đã kiểm h�
   - Brake và cs. 2019 [18], tr. 283 (sau mỗi lần lắp lại khi bảo trì, phần lớn dữ liệu đáp ứng đã thu mất tác dụng cho theo dõi trạng thái; TG), tr. 292 (kết quả phụ thuộc quy trình lắp ráp; TG), tr. 293 (mài mòn làm tần số giảm vĩnh viễn; TG), tr. 302–303 (tính chất mối nối phụ thuộc kết cấu xung quanh; TG).
   - Ramasso và cs. 2025 [19] (tiền in), tr. 4–5, 20 (mỗi đợt sau tháo – lắp là một hệ mới; TG), tr. 2, 12–14 (đánh giá cùng đợt cho kết quả lạc quan; độ chính xác giảm mạnh khi kiểm tra trên đợt chưa thấy; TG).
   - Da Silva và cs. 2024 [56], tr. 011102-7 (bộ phân loại học trên một dầm bu lông áp trực tiếp sang dầm khác thì thất bại; TG). **Ghi chú đọc một phần**; cần đọc lại ở phiên Tier 2 trước khi tính chắc.
+  - Kapoor & Narayanan 2023 [53], tr. 4–5 (L3.2: đơn vị chung giữa tập huấn luyện và kiểm tra là rò rỉ, trừ khi khẳng định hướng tới phân bố có cùng cấu trúc phụ thuộc; L3.3: kiểm tra phải lấy từ phân bố mà khẳng định hướng tới; TG, căn cứ phương pháp chung, không riêng mối nối bu lông).
   - Hemker và cs. 2019 [22], tr. 191 (một thay đổi nhỏ ở dầm cầu trục làm đánh giá mỏi ban đầu mất giá trị; [NCS] tương tự về ý, khác loại bằng chứng). Không tính vào số căn cứ.
 - **Loại căn cứ:** TG về hiện tượng vật lý ([18], [19], [56]); [NCS] về việc chưa được ghi thành ranh giới phạm vi hiệu lực.
 - **Liên quan:** K1 (phạm vi hiệu lực: đợt lắp đặt, đơn vị suy luận). Gần với UV-02; tách riêng vì UV-02 nói về việc **ghi** nguồn gốc và phạm vi, còn UV-06 nói về **nội dung** của phạm vi (lần lắp ráp, can thiệp).
-- **Số căn cứ độc lập:** 3 ([18] 2019, [56] 2024 đọc một phần, [19] 2025); trước 2025: 2.
+- **Số căn cứ độc lập:** 4 ([18] 2019, [53] 2023 (phương pháp chung), [56] 2024 đọc một phần, [19] 2025); trước 2025: 3, trong đó [56] chưa đọc đủ.
 - **Phản chứng đã kiểm:** **chưa kiểm**. Cần đối chiếu: SHM theo quần thể [57] Bull 2021 và phần III (Gardner 2021), thích nghi miền [56]; bù EOV và đồng liên kết (Cross 2011); phát hiện thay đổi đường cơ sở sau bảo trì trong các nghiên cứu theo dõi dài hạn.
 - **Phát biểu đã thu hẹp:** chưa có; chờ kết quả kiểm.
+
+## UV-07 — Xác nhận của chuyên gia đối với đầu ra AI được dùng làm tín hiệu học, chưa được ghi như bản ghi trách nhiệm
+
+- **Phát biểu:** Trong các khung người – AI đã đọc, chuyên gia xác nhận hay sửa đầu ra của mô hình, nhưng lần xác nhận đó được dùng làm nhãn hoặc phản hồi để học lại, hoặc chỉ là một bước quy trình; chưa thấy nó được ghi như một bản ghi có vai trò, thẩm quyền, thời điểm và căn cứ, gắn với đầu ra đã được xác nhận.
+- **Căn cứ:**
+  - Wu và cs. 2026 [17], tr. 6–7 (điểm rà soát cuối trước khi dùng cho bước sau; phản hồi của người tinh chỉnh mô hình), tr. 9 (cơ sở dữ liệu giữ dự đoán ban đầu và đã sửa); không có ghi vai trò, thẩm quyền ([NCS]).
+  - Boje và cs. 2020 [7], tr. 12 (thế hệ 2 cần người dùng xác nhận và cho phép; không nêu cách ghi; TG + [NCS]).
+  - Hughes và cs. 2022 `Z9RD5DMZ` (tiền in arXiv v2), tr. 2, 7 (hỏi nhãn được ánh xạ thành việc kiểm tra; nhãn là thông tin do kỹ sư cung cấp), tr. 27–28 (giả định kiểm tra cho thông tin hoàn hảo trong khi kiểm tra có thể có sai sót của con người; TG).
+  - Lu và cs. 2020 [3], tr. 4, 13 (người quản lý FM là người quyết định, quy trình DT không có bước ghi quyết định; [NCS]).
+- **Loại căn cứ:** TG ([7] tr. 12; Hughes tr. 27–28) + **NCS** (việc không ghi thành bản ghi trách nhiệm là suy từ phần bài không mô tả).
+- **Liên quan:** K3, và nguyên tắc "AI tạo bằng chứng, con người quyết định" của 5.6A. Gần UV-01 (chuỗi hành động); tách riêng vì UV-07 nói về **lần xác nhận đầu ra AI**, còn UV-01 nói về **hành động bảo trì và trạng thái của nó**. NCS có thể gộp khi chốt ở GĐ3.
+- **Số căn cứ độc lập:** 4 ([3] 2020, [7] 2020, Hughes 2022, [17] 2026); trước 2025: 3.
+- **Phản chứng đã kiểm:**
+  - IFC4 `IfcApproval` (đã kiểm ở UV-01, 30/09/2026): có trạng thái phê duyệt, thời điểm, người đề nghị và người phê duyệt, gắn được vào mọi đối tượng IFC. [NCS] Về hình thức đã biểu diễn được "ai phê duyệt cái gì, khi nào"; chưa thấy nó được áp cho đầu ra của mô hình học máy.
+  - [44] García 2026 (đã kiểm): ký xác nhận theo vai trò, tách nhiệm vụ, cho gói thông tin bàn giao (tr. 21–25).
+  - Tài liệu về học máy có người trong vòng (human-in-the-loop) và về thẻ mô hình: **chưa kiểm**.
+- **Phát biểu đã thu hẹp:** chưa có; chờ kiểm. Dự kiến: biểu diễn phê duyệt đã có (IFC4, [44]); phần còn thiếu có thể chỉ là việc **áp** khuôn phê duyệt cho đầu ra AI và tách nó khỏi việc dùng làm nhãn.

@@ -234,3 +234,10 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - Đọc toàn văn [22] Hemker 2019, [18] Brake 2019 (thay ghi chú đọc một phần), [19] Ramasso 2025 (bản tiền in arXiv v1; số trang theo bản tiền in).
 - Nhật ký: UV-01 thêm căn cứ [22] (nhu cầu hồ sơ khắc phục, chờ NCS chấp nhận cách tính); UV-05 thêm [19]; tạo UV-06 (lần lắp ráp hoặc can thiệp bảo trì là ranh giới phạm vi hiệu lực; K1).
 - Ma trận: 3 dòng; cột `pdf` cập nhật cho 8 tài liệu. Kế hoạch đọc, CLAUDE.md mục 12. Tag Zotero: Doc:toan_van và K tương ứng. Không sửa tiểu luận.
+
+## Phiên 01/10/2026 (2) – GĐ2 phiên T1-4: đọc sâu [53], [16], [17]; phân tích khoảng trống bằng các skill PhD
+- Nạp và áp khuôn của skill deep-read-phd-papers (QA nguồn, định tuyến, bảng giới hạn có nhãn AUTHOR-STATED/READER-INFERRED, sàng lọc ý tưởng tám tiêu chí, Claim → Evidence → Limitation → Next action, bài học năm phút), phd-gap-miner (bảng gap-impact, thang mức bảo vệ, rà cơ hội mở rộng) và govern-phd-evidence (khối định tuyến RQ → WP → Chương → Paper → Gate → Scope → Evidence type). Không chấm theo "khoảng trống đã khóa" của skill; K1–K3 vẫn là giả thuyết làm việc. Không ghi vào tệp kiểm toán bên ngoài dự án; mọi kết quả ghi trong `revision/`.
+- Đọc toàn văn [53] Kapoor & Narayanan 2023, [16] Çelik 2023 (bản in thử, dẫn trang PDF), [17] Wu 2026.
+- Nhật ký: UV-02 thêm căn cứ [53], [16] và phản chứng đã kiểm ([16], [53]); UV-05 thêm [17]; UV-06 thêm [53]; tạo UV-07 (xác nhận của chuyên gia đối với đầu ra AI là tín hiệu học, chưa là bản ghi trách nhiệm).
+- Tạo `revision/GD2_phan_tich_khoang_trong_T1.md`: tổng hợp liên tài liệu 11 tài liệu Tier 1 đã đọc và bốn chuẩn đã kiểm; mức bảo vệ làm việc của K1–K3; rà cơ hội mở rộng; ghi xung đột giữa skill và CLAUDE.md.
+- [35] Bellon đã có PDF trong Zotero; [80] còn thiếu. Ma trận 3 dòng; kế hoạch; CLAUDE.md mục 12. Không sửa tiểu luận.
