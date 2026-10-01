@@ -376,3 +376,8 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - `tieuluan/05_chuong5.md` 5.6A.3: đoạn đó thay bằng một câu tóm tắt trỏ về Mục 3.6A.
 - Trích dẫn không đổi (\[@87NKU5IS\], \[@TDRPDWJE\], [57], [18], [45], [56] chuyển theo đoạn).
 
+## Phiên 01–02/10/2026 – Viết Phụ lục A và B
+- Tạo `tieuluan/phuluc.md` (2.439 từ). Phụ lục A: cách đọc; Bảng A.1 sáu thực thể – định danh – thuộc tính – bắt buộc; bản ghi sử dụng bằng chứng là quan hệ có thuộc tính; A.3 định nghĩa 11 thuật ngữ theo ghi chú CLAUDE.md 6.1; Bảng A.3 bước chuyển trạng thái được phép kèm vai trò, căn cứ (dùng cho C6); Bảng A.4 ánh xạ khái niệm sang IFC 4.3, BCF 3.0, SOSA/SSN, PROV-O. Phụ lục B: Bảng B.1 phát biểu C1, C3, C5, C6, C9 (cách tính `within_scope` cho C5); Bảng B.2 nhóm lỗi chèn mù ↔ ràng buộc ↔ trường có ở B0, B1 theo thiết kế; B.3 tiền lệ ([21] tr. 17–18, [44]) và giới hạn.
+- Trường bổ sung so với CLAUDE.md mục 8, chờ NCS duyệt: `EVIDENCE.created_at`, khoảng thời gian đo trong `obs_context`, `INSPECTION_RECORD.inspector_role/inspected_at/finding/finding_uncertainty`, `ACTION.Inspection_Record_ID`, `EVIDENCE_USE.used_at`.
+- Trích dẫn dùng: [2], [21], [35], [44], [69], \[@K5SGFIGW\]; ba chỗ `[CẦN NGUỒN: Khuyến nghị W3C SSN]` ([61], [62] chưa đọc nên không dẫn).
+- Phiên bị gián đoạn vì Google Drive for Desktop mất ổ H:; bản nháp soạn ở thư mục tạm, chép vào dự án sau khi đối chiếu trang [21], [2] trong `notes/`.
