@@ -335,10 +335,12 @@ sự kiện), bổ sung **tầng bằng chứng** và **tầng trách nhiệm**.
 |---|---|
 | `COMPONENT` | BIM_GUID, model_version |
 | `SENSOR` + `SENSOR_MAPPING` | Sensor_ID; valid_from, valid_to, install_record_ref |
-| `EVIDENCE` | Condition_Evidence_ID, evidence_type (cảm biến / quan sát / NDT), value, uncertainty, method_version (git commit), scope: inference_unit, data_split, install_batch, applicable_conditions; obs_context (đợt đo, cấu hình cảm biến, nhiệt độ, cờ cầu trục); revision_of (bản ghi không sửa đè) |
-| `INSPECTION_RECORD` | người kiểm tra, thời điểm, kết quả; dùng EVIDENCE qua quan hệ có trường within_scope, justification |
-| `ACTION` | priority_level (4 mức), Action_Status (mở → đang xử lý → hoàn thành → đã xác minh) |
-| `STATUS_EVENT` | from_to, timestamp, actor_role, evidence_ref, reason |
+| `EVIDENCE` | Condition_Evidence_ID, evidence_type (cảm biến / quan sát / NDT), BIM_GUID (n:m), Sensor_ID (loại cảm biến), value, uncertainty, method_version (git commit), scope: inference_unit, data_split, install_batch, applicable_conditions; obs_context (đợt đo, **khoảng thời gian đo**, cấu hình cảm biến, nhiệt độ, cờ cầu trục); **created_at**; revision_of (bản ghi không sửa đè) |
+| `INSPECTION_RECORD` | Inspection_Record_ID, BIM_GUID, **inspector_role, inspected_at, finding, finding_uncertainty**; dùng EVIDENCE qua quan hệ `EVIDENCE_USE` có trường **used_at**, within_scope, justification |
+| `ACTION` | Action_ID, **Inspection_Record_ID**, priority_level (4 mức), Action_Status (mở → đang xử lý → hoàn thành → đã xác minh; suy ra từ STATUS_EVENT mới nhất) |
+| `STATUS_EVENT` | Status_Event_ID, Action_ID, from_to, timestamp, actor_role, evidence_ref (trỏ `EVIDENCE_USE`), reason |
+
+Trường in đậm thêm theo Phụ lục A, NCS duyệt 02/10/2026 (cần cho C3, C5, C9 và vòng lặp kiểm tra tạo nhãn). Danh mục đầy đủ, cột bắt buộc, bước chuyển trạng thái được phép (Bảng A.3, dùng cho C6) và cách tính `within_scope` (Bảng B.1): `tieuluan/phuluc.md`.
 
 Quan hệ: EVIDENCE n:m COMPONENT ở tầng dữ liệu; khi xuất IFC tách mỗi cặp thành một `IfcRelAdheresToElement`.
 
@@ -471,7 +473,7 @@ sáu tháng sau có sự cố, truy ngược được toàn bộ.
 | Rút gọn phạm vi, khóa 3 mục tiêu | ✅ NCS duyệt (01/10) | Mục 2 (QĐ 5, 7, 9–11), 2A, 6.0, 8, 9, 11, 13 |
 | GĐ3 Khoảng trống | ✅ NCS duyệt bản GĐ3b (01/10): G-A (A1, A2), G-B; F-1 (B1), F-2 (phỏng vấn) duyệt; còn gửi thầy | `revision/GD3_khoang_trong_va_muc_tieu.md`: bảng kiểm, hai khoảng trống (G-A 7 nhóm căn cứ trước 2025, G-B 6), ba mục tiêu MT1–MT3, ma trận, văn bản đề xuất thay 5.2 và RQ (785 từ, chưa chèn `tieuluan/`); `[CẦN NGUỒN]`: IFC4 ADD2 TC1, Khuyến nghị W3C SSN |
 | GĐ4 Viết mục mới (4.2–4.9) | 🟡 5.2 đã chèn (01/10), chờ NCS duyệt | `tieuluan/05_chuong5.md` mục 5.2 thay ba khoảng trống cũ bằng G-A, G-B; 5.3.3 (bốn mục tiêu cũ), 5.4, 5.5, 5.7, 5.9 còn theo cấu trúc cũ, đồng bộ ở GĐ5 |
-| GĐ5 Tái cấu trúc | 🟡 Chương 5 đã đồng bộ toàn bộ theo MT1–MT3, B0/B1, schema rút gọn (5.2–5.7, 5.9, 5.10; 5.8.1 thêm hướng mở rộng) (01/10), chờ NCS duyệt | Chương 1 đồng bộ (01/10): 1.1.3, 1.3.4, 1.8.2 khai báo bóng số; 1.7 rút thành phần giới thiệu trỏ về 5.3–5.5; 1.8.1 đồ thị sáu thực thể; 1.9 hai khoảng trống. Phụ lục A, B đã viết (`tieuluan/phuluc.md`, 01/10), chờ NCS duyệt các trường bổ sung ở Bảng A.1 và vai trò ở Bảng A.3. Còn: câu autoencoder chờ PDF Ghazimoghadam; Phụ lục C chưa viết |
+| GĐ5 Tái cấu trúc | 🟡 Chương 5 đã đồng bộ toàn bộ theo MT1–MT3, B0/B1, schema rút gọn (5.2–5.7, 5.9, 5.10; 5.8.1 thêm hướng mở rộng) (01/10), chờ NCS duyệt | Chương 1 đồng bộ (01/10): 1.1.3, 1.3.4, 1.8.2 khai báo bóng số; 1.7 rút thành phần giới thiệu trỏ về 5.3–5.5; 1.8.1 đồ thị sáu thực thể; 1.9 hai khoảng trống. Phụ lục A, B đã viết (`tieuluan/phuluc.md`, 01/10); trường bổ sung ở Bảng A.1 đã duyệt và ghi vào mục 8 (02/10); vai trò ở Bảng A.3 khóa cùng đặc tả Bài 2. Còn: câu autoencoder chờ PDF Ghazimoghadam; Phụ lục C chưa viết |
 | GĐ6 Nhất quán & xuất bản | ⬜ | |
 
 ---

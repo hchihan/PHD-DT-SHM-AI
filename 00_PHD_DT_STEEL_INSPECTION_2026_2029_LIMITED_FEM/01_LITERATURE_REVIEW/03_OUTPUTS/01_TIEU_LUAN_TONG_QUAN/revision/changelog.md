@@ -381,3 +381,7 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - Trường bổ sung so với CLAUDE.md mục 8, chờ NCS duyệt: `EVIDENCE.created_at`, khoảng thời gian đo trong `obs_context`, `INSPECTION_RECORD.inspector_role/inspected_at/finding/finding_uncertainty`, `ACTION.Inspection_Record_ID`, `EVIDENCE_USE.used_at`.
 - Trích dẫn dùng: [2], [21], [35], [44], [69], \[@K5SGFIGW\]; ba chỗ `[CẦN NGUỒN: Khuyến nghị W3C SSN]` ([61], [62] chưa đọc nên không dẫn).
 - Phiên bị gián đoạn vì Google Drive for Desktop mất ổ H:; bản nháp soạn ở thư mục tạm, chép vào dự án sau khi đối chiếu trang [21], [2] trong `notes/`.
+
+## Phiên 02/10/2026 – Duyệt trường bổ sung; cập nhật CLAUDE.md mục 8
+- NCS duyệt các trường bổ sung ở Phụ lục A, Bảng A.1. CLAUDE.md mục 8 cập nhật: `EVIDENCE` thêm BIM_GUID (n:m), Sensor_ID, khoảng thời gian đo trong obs_context, created_at; `INSPECTION_RECORD` thêm Inspection_Record_ID, BIM_GUID, inspector_role, inspected_at, finding, finding_uncertainty, quan hệ `EVIDENCE_USE` có used_at; `ACTION` thêm Action_ID, Inspection_Record_ID, ghi Action_Status suy ra từ sự kiện mới nhất; `STATUS_EVENT` thêm Status_Event_ID, Action_ID, evidence_ref trỏ `EVIDENCE_USE`. Không thêm thực thể, ràng buộc hay chỉ số. Mục 12 cập nhật.
+
