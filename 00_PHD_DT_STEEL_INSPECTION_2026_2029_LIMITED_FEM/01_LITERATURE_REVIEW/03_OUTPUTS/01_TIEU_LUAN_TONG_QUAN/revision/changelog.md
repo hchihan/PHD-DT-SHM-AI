@@ -348,3 +348,8 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - `tieuluan/05_chuong5.md`: thay mục 5.2 "Ba khoảng trống" (2.848 từ) bằng "Hai khoảng trống" (1.040 từ, văn bản Phần D của GĐ3b, câu G-B có thêm đối chứng chuẩn sẵn có); sửa câu đầu 5.3.1 "ba" → "hai". Bản cũ xem lịch sử git.
 - `matrix/doi_chieu_danh_muc.csv`: thêm dòng `moi` cho Eraliev 2022 `VVBGM9EN` (DOI xác minh Crossref).
 - Trích dẫn trong 5.2 mới: \[18\], \[@2ZJSENQU\], \[14\], \[15\], \[53\], \[19\], \[48\], \[@VVBGM9EN\], \[69\], \[@82WQNDHU\], \[@23TBQTIP\], \[45\], \[35\], \[@K5SGFIGW\], \[44\], \[3\], \[7\], \[@73MBWFVJ\], \[@Z9RD5DMZ\], \[@EBB69J4F\], \[22\]; hai `[CẦN NGUỒN]` (IFC4 ADD2 TC1; Khuyến nghị W3C SSN mục 5.1).
+
+## Phiên 01/10/2026 – GĐ5: đồng bộ 5.3–5.4 theo ba mục tiêu
+- `tieuluan/05_chuong5.md` mục 5.3–5.4 viết lại (1.075 → 1.603 từ, gồm một bảng): luận đề theo CLAUDE.md mục 1, ba mệnh đề gắn khoảng trống A, B; mục tiêu tổng quát khai báo mức bóng số theo [8]; ba mục tiêu cụ thể theo MT1–MT3 (Mục tiêu 4 cũ về logic hỗ trợ hành động gộp vào Mục tiêu 2); bảng mục tiêu – khoảng trống – câu hỏi – đối chứng – kết quả đo – sản phẩm; phụ thuộc giữa các mục tiêu; RQ1–RQ3 theo GĐ3b, RQ2 có B0 và B1; logic kế tiếp ba câu hỏi.
+- Trích dẫn dùng: [8], [35], [@K5SGFIGW] (đều có trong Zotero). Không dùng kết quả Paper 1.
+- Còn lệch: 5.5, 5.7, câu đầu 5.9, câu hỏi nghiên cứu ở Chương 1 (ghi ở CLAUDE.md mục 12).

@@ -100,69 +100,69 @@ Hai khoảng trống nối với nhau qua bản ghi sử dụng bằng chứng: 
 
 Từ hai khoảng trống trên, luận đề trung tâm của luận án được phát biểu như sau:
 
-Một khung Song sinh số dựa trên dữ liệu, có khả năng tổ chức, liên kết và truy vết bằng chứng trạng thái từ dữ liệu dao động tới cấu kiện BIM và hồ sơ kiểm tra, có thể hỗ trợ việc lựa chọn và ghi nhận hành động kiểm tra – bảo trì theo cách minh bạch và có thể kiểm chứng trong điều kiện dữ liệu thực tế có nhãn còn hạn chế.
+Với nhà công nghiệp khung thép liên kết bu lông, kết quả rút từ dữ liệu dao động là căn cứ đề nghị kiểm tra, còn kết luận hư hỏng do kỹ sư đưa ra sau kiểm tra. Kết quả đó trở thành căn cứ đáng tin và giải trình được khi mỗi bằng chứng trạng thái mang theo nguồn gốc, độ bất định và phạm vi hiệu lực, được kiểm tại lần sử dụng, và được nối qua hồ sơ kiểm tra tới lịch sử trạng thái của hành động kiểm tra – bảo trì.
 
-Luận đề này gồm bốn mệnh đề cần được kiểm chứng riêng:
+Luận đề gồm ba mệnh đề, mỗi mệnh đề cần một loại bằng chứng riêng:
 
-> 1\. dữ liệu dao động có thể tạo ra bằng chứng trạng thái đáng tin trong phạm vi đã kiểm chứng;
+> 1\. đánh giá theo đơn vị độc lập cho biết bằng chứng từ dữ liệu dao động đáng tin trong phạm vi nào (Khoảng trống A);
 >
-> 2\. bằng chứng đó có thể được tổ chức và truy vết tới cấu kiện cùng hồ sơ;
+> 2\. một mô hình thông tin bắt buộc phạm vi hiệu lực và ghi từng lần đổi trạng thái của hành động thành sự kiện có căn cứ phát hiện được các lỗi mà hồ sơ hiện hành và các chuẩn sẵn có không phát hiện (Khoảng trống A, B);
 >
-> 3\. kiến trúc truy vết có thể được kiểm chứng trong bối cảnh công trình thực mà không cần giả định có sẵn nhãn hư hỏng;
->
-> 4\. chuỗi thông tin có thể hỗ trợ hành động quản lý minh bạch mà không tự động thay thế người ra quyết định.
+> 3\. chuỗi bằng chứng – hành động đó vận hành được trên một nhà xưởng đang khai thác với chi phí ghi nhận đo được (Khoảng trống A, B, áp dụng).
 
-Mỗi mệnh đề cần một loại bằng chứng khác nhau, và kết quả của một mệnh đề không được dùng để thay thế bằng chứng của mệnh đề khác.
+Kết quả của một mệnh đề không dùng để thay bằng chứng của mệnh đề khác: số liệu phòng thí nghiệm của mệnh đề 1 không được dùng làm kết luận về hiện trường ở mệnh đề 3.
 
 ### 5.3.2. Mục tiêu tổng quát
 
-Mục tiêu tổng quát của luận án là:
+Mục tiêu tổng quát của luận án là phát triển và kiểm chứng một mô hình thông tin truy vết bằng chứng – trách nhiệm cho kiểm tra – bảo trì nhà công nghiệp khung thép, trong đó bằng chứng trạng thái từ dữ liệu dao động mang nguồn gốc, độ bất định và phạm vi hiệu lực, được gắn với cấu kiện BIM, hồ sơ kiểm tra và lịch sử trạng thái hành động.
 
-Phát triển và kiểm chứng một khung Song sinh số dựa trên dữ liệu phục vụ giám sát trạng thái và hỗ trợ kiểm tra – bảo trì nhà công nghiệp khung thép, trong đó bằng chứng trạng thái từ dữ liệu dao động được tổ chức, liên kết và truy vết tới cấu kiện BIM, hồ sơ kiểm tra và trạng thái hành động.
-
-Trọng tâm của mục tiêu nằm ở **quản lý thông tin và hỗ trợ quyết định kiểm tra – bảo trì**, không nằm ở phát triển một thuật toán trí tuệ nhân tạo mới hoặc một mô hình cơ học mới.
+Theo phân loại mức tích hợp của \[8\], hệ thống của luận án ở mức bóng số (digital shadow): dữ liệu đi tự động từ công trình vào mô hình số, còn mọi tác động trở lại công trình đi qua quyết định của con người. Trọng tâm của mục tiêu là quản lý thông tin và giải trình quyết định kiểm tra – bảo trì; các mô hình học máy là công cụ tạo bằng chứng (Mục 5.6A).
 
 ### 5.3.3. Mục tiêu cụ thể
 
-**Mục tiêu 1.** Xác lập quy trình tạo và đánh giá bằng chứng trạng thái từ dữ liệu dao động phòng thí nghiệm trên cơ sở đơn vị vật lý độc lập, kiểm soát rò rỉ dữ liệu và báo cáo phạm vi hiệu lực của bằng chứng.
+**Mục tiêu 1 – Bằng chứng trạng thái có phạm vi hiệu lực (phòng thí nghiệm).** Định lượng hiệu năng của bốn mô hình, gồm rừng ngẫu nhiên (Random Forest, RF), máy vectơ hỗ trợ với nhân RBF (SVM-RBF), mạng tích chập một chiều (1D-CNN) và mạng phần dư một chiều (ResNet1D), trong việc phân biệt các trạng thái liên kết bu lông có kiểm soát trên mô hình khung thép tỉ lệ 1:10 khi đánh giá theo đơn vị độc lập; đo mức chênh lệch so với đánh giá cùng lần chạy; và khai báo phạm vi hiệu lực cho từng kết quả dưới dạng bản ghi bằng chứng.
 
-**Mục tiêu 2.** Xây dựng và kiểm chứng mô hình dữ liệu truy vết cấp cấu kiện, liên kết nguồn đo, cấu kiện BIM, bản ghi bằng chứng và hồ sơ kiểm tra theo một chuỗi định danh có thể kiểm tra.
+**Mục tiêu 2 – Mô hình thông tin truy vết bằng chứng – hành động.** Xây dựng mô hình thông tin mở rộng mô hình IFC 4.3 của \[35\] và BCF 3.0 \[@K5SGFIGW\] bằng hai tầng: tầng bằng chứng (nguồn gốc, độ bất định, phạm vi hiệu lực) và tầng trách nhiệm (sự kiện chuyển trạng thái có căn cứ và vai trò người thực hiện, xác minh sau sửa chữa). Mô hình gồm sáu thực thể, năm ràng buộc kiểm bằng máy và logic hỗ trợ hành động bốn mức bằng luật minh bạch. Mô hình được đánh giá trên BIM của một nhà xưởng thật, so với hồ sơ kiểm định theo thực hành hiện hành (B0) và với mô hình chỉ dùng IFC 4.3 theo \[35\] và BCF 3.0 (B1), lấy tỉ lệ phát hiện lỗi chèn mù làm chỉ số chính.
 
-**Mục tiêu 3.** Xác lập phương pháp đánh giá khả năng áp dụng của khung trong bối cảnh nhà công nghiệp khung thép thực, tập trung vào tính liên tục của định danh, bằng chứng, hồ sơ kiểm tra và trạng thái hành động.
+**Mục tiêu 3 – Kiểm chứng khả thi trên nhà xưởng thật.** Triển khai chuỗi bằng chứng – hành động của Mục tiêu 2 trên một nhà xưởng khung thép đang khai thác có BIM: lắp 6–10 cảm biến ở các liên kết đại diện, lập đường cơ sở vận hành, sinh bằng chứng cảm biến bằng Autoencoder có bù nhiệt độ và trạng thái cầu trục, và chạy một kịch bản kiểm tra – xử lý – truy ngược đầu cuối. Mục tiêu này kiểm khả năng vận hành và truy vết của chuỗi; hiệu năng phát hiện hư hỏng ở hiện trường thuộc hướng mở rộng (Mục 5.8).
 
-*Ghi chú về phạm vi: nội dung triển khai cụ thể và kết quả thực nghiệm của Mục tiêu 3 thuộc các chuyên đề nghiên cứu tiếp theo, không thuộc nội dung của Tiểu luận tổng quan.*
+| Mục tiêu | Khoảng trống | Câu hỏi | Đối chứng | Kết quả đo | Sản phẩm |
+|---|---|---|---|---|---|
+| 1 | A (đánh giá, khai báo) | 1 | Đánh giá cùng lần chạy | Hiệu năng theo đơn vị độc lập kèm biến thiên theo seed, fold và kiểm định hoán vị; mức chênh lệch; phạm vi hiệu lực của từng kết quả | Bài báo 1 |
+| 2 | B (và A) | 2 | B0, B1 | Tỉ lệ phát hiện lỗi chèn mù theo nhóm lỗi (chỉ số chính); đủ thuộc tính bắt buộc; thời gian truy ngược; chi phí ghi nhận | Bài báo 2 |
+| 3 | A, B (áp dụng) | 3 | Không | Tỉ lệ dữ liệu về đủ; ánh xạ cảm biến – cấu kiện đúng; truy ngược kịch bản đầu cuối; chi phí ghi nhận | Chương luận án; phần hiện trường của Bài báo 2 |
 
-**Mục tiêu 4.** Tổng hợp các lớp bằng chứng thành logic hỗ trợ hành động kiểm tra – bảo trì minh bạch, có người rà soát, có trạng thái và có khả năng truy ngược về căn cứ. Đây là mục tiêu tổng hợp và không tạo thêm một câu hỏi nghiên cứu độc lập.
+Mục tiêu 1 cấp cho Mục tiêu 2 một tập bằng chứng có phạm vi hiệu lực đã biết, dùng để chèn các ca dùng bằng chứng ngoài phạm vi. Mục tiêu 2 cấp mô hình thông tin và công cụ kiểm ràng buộc cho Mục tiêu 3. Đánh giá của Mục tiêu 2 không phụ thuộc thời gian quan trắc của Mục tiêu 3. Tiểu luận tổng quan xác lập căn cứ và thiết kế của ba mục tiêu; dữ liệu và kết quả thuộc các chuyên đề và bài báo tiếp theo.
 
 ## 5.4. Câu hỏi nghiên cứu
 
 ### 5.4.1. Câu hỏi nghiên cứu 1 – Bằng chứng phòng thí nghiệm
 
-**Dữ liệu dao động từ mô hình khung thép 1:10 và các cấu hình cảm biến khác nhau có thể tạo ra bằng chứng phân biệt các trạng thái liên kết có kiểm soát ở mức độ tin cậy nào dưới một giao thức đánh giá nhận biết cấu trúc lần chạy và kiểm soát rò rỉ dữ liệu?**
+**Khi giữ lại cả lần chạy trong đánh giá, bốn mô hình RF, SVM-RBF, 1D-CNN và ResNet1D phân biệt các trạng thái liên kết bu lông có kiểm soát trên khung thép 1:10 ở mức nào, chênh lệch bao nhiêu so với đánh giá cùng lần chạy, và mỗi kết quả được dùng trong phạm vi nào?**
 
-Câu hỏi này không tìm mô hình “tốt nhất”. Trọng tâm là độ tin cậy của bằng chứng, đơn vị suy luận và phạm vi mà kết quả đã được kiểm chứng.
+Câu hỏi đo độ tin cậy của bằng chứng theo đơn vị suy luận và phạm vi đã kiểm chứng. Kết quả so sánh các mô hình được báo cáo trong phạm vi đó; thứ hạng giữa các mô hình là kết quả phụ.
 
-### 5.4.2. Câu hỏi nghiên cứu 2 – Truy vết cấp cấu kiện
+### 5.4.2. Câu hỏi nghiên cứu 2 – Mô hình thông tin bằng chứng – hành động
 
-**Bằng chứng trạng thái từ dữ liệu cảm biến có thể được tổ chức và liên kết với cấu kiện BIM và hồ sơ kiểm tra như thế nào để bảo đảm khả năng truy vết cấp cấu kiện?**
+**Trên cùng BIM nhà xưởng, so với hồ sơ kiểm định theo thực hành hiện hành (B0) và với mô hình IFC 4.3 theo \[35\] cùng BCF 3.0 chưa có tầng bằng chứng và tầng trách nhiệm (B1), mô hình đề xuất phát hiện được tỉ lệ nào của các lỗi chèn mù theo từng nhóm lỗi, và mức đủ thuộc tính bắt buộc, khả năng truy ngược, chi phí ghi nhận thay đổi ra sao?**
 
-Câu hỏi này tập trung vào cấu trúc dữ liệu, chuỗi định danh, nguồn gốc bằng chứng, tính đầy đủ của quan hệ và khả năng kiểm tra chuỗi bằng các câu hỏi nghiệp vụ xác định trước. Một giao diện trực quan chạy được không đủ để trả lời câu hỏi nếu quan hệ dữ liệu bên dưới không được kiểm chứng.
+Hai nhóm lỗi trọng tâm là dùng bằng chứng ngoài phạm vi hiệu lực và đổi trạng thái hành động không có căn cứ. Phần chênh lệch quy cho đóng góp của luận án là chênh lệch so với B1. Chênh lệch so với B0 mô tả khoảng cách với thực hành kiểm định hiện hành ở Việt Nam và được diễn giải trong bối cảnh đó. Danh sách lỗi, người chèn lỗi, bộ câu hỏi truy ngược và cách tính chỉ số được khóa trước khi đo.
 
-### 5.4.3. Câu hỏi nghiên cứu 3 – Khả năng áp dụng trong bối cảnh công trình thực và hỗ trợ kiểm tra
+### 5.4.3. Câu hỏi nghiên cứu 3 – Khả năng áp dụng trên nhà xưởng thật
 
-**Một khung Song sinh số dựa trên dữ liệu có thể hỗ trợ việc lựa chọn và ghi nhận hành động kiểm tra trong bối cảnh công trình thực như thế nào khi dữ liệu hư hỏng có nhãn còn hạn chế?**
+**Trên một nhà xưởng khung thép thật có BIM, chuỗi bằng chứng – hành động có thu đủ dữ liệu, giữ đúng ánh xạ cảm biến – cấu kiện và truy ngược được một kịch bản kiểm tra – xử lý đầu cuối không, với chi phí ghi nhận bao nhiêu?**
 
-Câu hỏi này không giả định rằng bộ phân loại phòng thí nghiệm có thể chuyển trực tiếp sang công trình thực. Ở cấp Tiểu luận tổng quan, nội dung được xác lập là các yêu cầu cần kiểm chứng đối với sự liên tục của định danh, bối cảnh dữ liệu, quan hệ truy vết, hồ sơ kiểm tra và trạng thái hành động. Cách triển khai kỹ thuật, dữ liệu thực nghiệm và kết quả đánh giá thuộc các nghiên cứu chuyên đề tiếp theo. Mọi bất thường trong dữ liệu vận hành chỉ tạo căn cứ cho việc xem xét hoặc kiểm tra, không dẫn trực tiếp tới kết luận hư hỏng.
+Câu hỏi kiểm khả năng vận hành của chuỗi trong điều kiện có cầu trục, nhiệt độ thay đổi và nhãn hư hỏng hạn chế. Mỗi bất thường trong dữ liệu vận hành tạo một bằng chứng đề nghị kiểm tra; kết quả kiểm tra của kỹ sư được ghi làm nhãn hiện trường và bản ghi kiểm tra.
 
 ### 5.4.4. Logic kế tiếp giữa ba câu hỏi
 
-**Câu hỏi 1: Bằng chứng có đáng tin trong phạm vi nào?\
+**Câu hỏi 1: Bằng chứng đáng tin trong phạm vi nào?\
 ↓\
-Câu hỏi 2: Bằng chứng đó được tổ chức và truy vết như thế nào?\
+Câu hỏi 2: Bằng chứng đó được ghi, kiểm và nối tới hành động như thế nào, và mô hình thông tin phát hiện được lỗi nào?\
 ↓\
-Câu hỏi 3: Khung đó có thể áp dụng và hỗ trợ kiểm tra trong bối cảnh công trình thực ra sao?**
+Câu hỏi 3: Chuỗi đó vận hành được trên nhà xưởng thật với chi phí bao nhiêu?**
 
-Ba câu hỏi kế tiếp nhau nhưng không thay thế lẫn nhau.
+Câu hỏi 1 cấp bằng chứng có phạm vi đã biết cho câu hỏi 2; câu hỏi 2 cấp mô hình thông tin cho câu hỏi 3.
 
 ## 5.5. Ánh xạ câu hỏi nghiên cứu – gói công việc – bài báo – thiết kế kiểm chứng
 

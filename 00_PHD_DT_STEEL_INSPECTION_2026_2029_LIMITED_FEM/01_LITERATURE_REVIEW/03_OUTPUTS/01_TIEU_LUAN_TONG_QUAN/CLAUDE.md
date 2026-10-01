@@ -471,7 +471,7 @@ sáu tháng sau có sự cố, truy ngược được toàn bộ.
 | Rút gọn phạm vi, khóa 3 mục tiêu | ✅ NCS duyệt (01/10) | Mục 2 (QĐ 5, 7, 9–11), 2A, 6.0, 8, 9, 11, 13 |
 | GĐ3 Khoảng trống | ✅ NCS duyệt bản GĐ3b (01/10): G-A (A1, A2), G-B; F-1 (B1), F-2 (phỏng vấn) duyệt; còn gửi thầy | `revision/GD3_khoang_trong_va_muc_tieu.md`: bảng kiểm, hai khoảng trống (G-A 7 nhóm căn cứ trước 2025, G-B 6), ba mục tiêu MT1–MT3, ma trận, văn bản đề xuất thay 5.2 và RQ (785 từ, chưa chèn `tieuluan/`); `[CẦN NGUỒN]`: IFC4 ADD2 TC1, Khuyến nghị W3C SSN |
 | GĐ4 Viết mục mới (4.2–4.9) | 🟡 5.2 đã chèn (01/10), chờ NCS duyệt | `tieuluan/05_chuong5.md` mục 5.2 thay ba khoảng trống cũ bằng G-A, G-B; 5.3.3 (bốn mục tiêu cũ), 5.4, 5.5, 5.7, 5.9 còn theo cấu trúc cũ, đồng bộ ở GĐ5 |
-| GĐ5 Tái cấu trúc | ⬜ | |
+| GĐ5 Tái cấu trúc | 🟡 Đang làm: 5.3–5.4 đã đồng bộ theo MT1–MT3, RQ2 có B1 (01/10), chờ NCS duyệt | Còn lệch cấu trúc cũ: 5.5 (ma trận RQ–WP–Bài báo), 5.7 (bốn đóng góp, Bài báo 3), câu đầu 5.9 ("ba khoảng trống"), Chương 1 mục câu hỏi nghiên cứu (tr. dòng 298–310) |
 | GĐ6 Nhất quán & xuất bản | ⬜ | |
 
 ---
