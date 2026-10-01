@@ -48,16 +48,18 @@ không thuộc nhóm 2025–2026.
 
 | Mã | Giả thuyết | Căn cứ độc lập (trước 2025) | Phản chứng | Vào GĐ3? | Phần còn lại sau thu hẹp (rút gọn) |
 |---|---|---|---|---|---|
-| UV-01 | K3 | 4 (3) | Còn **CMMS** chưa kiểm (N-20) | Chưa | Bằng chứng có nguồn gốc và phạm vi hiệu lực đi vào chuỗi kiểm tra – cấu kiện – hành động; mỗi lần đổi trạng thái là sự kiện có căn cứ và thẩm quyền |
-| UV-02 | K1 | 4 (4) | Còn thẻ mô hình, PROV-O, MLflow/DVC (N-21) | Chưa | Bản ghi cho **từng** kết quả sinh từ dữ liệu đo, mang cùng lúc nguồn gốc xử lý, phiên bản phương pháp, phạm vi hiệu lực |
+| UV-01 | K3 | 4 (3) | Còn **CMMS** chưa kiểm (N-20: Chen 2018 đóng; Condotta 2023, Hosamo 2022 bị kho chặn tải — 01/10, phiên 15) | **Tạm** (vào GĐ3 nháp, chưa chốt) | Bằng chứng có nguồn gốc và phạm vi hiệu lực đi vào chuỗi kiểm tra – cấu kiện – hành động; mỗi lần đổi trạng thái là sự kiện có căn cứ và thẩm quyền |
+| UV-02 | K1 | 4 (4) | **Đã kiểm hết** (phiên 15): thẻ mô hình Mitchell 2019, PROV-O, MLflow/DVC, SSN System Capabilities — đều một phần | **Đủ điều kiện** | Nguồn gốc và phiên bản phương pháp cho từng kết quả đã biểu diễn được (PROV-O, SOSA) và cấp được (MLflow, DVC); phạm vi sử dụng đã khai ở mức mô hình (thẻ mô hình, [53]) và điều kiện áp dụng ở mức cảm biến (SSN). Còn: phạm vi hiệu lực và độ bất định là thành phần **bắt buộc, kiểm được bằng máy**, gắn vào từng bằng chứng và được kiểm **tại lần sử dụng** (C5) |
 | UV-03 | K2 | 3 (3) | Đã kiểm hết | **Đủ điều kiện** | Khoảng hiệu lực bắt buộc trên quan hệ cảm biến – cấu kiện, lịch sử, ràng buộc C3. [NCS] Nên coi là yêu cầu mô hình dữ liệu hơn là khoảng trống độc lập |
 | UV-04 | định vị | 2 | **Đã kiểm hết** ([10], Papic 2019 một phần; [9], [29], [42] không) | Không dự kiến (chỉ định vị) | Chưa nguồn nào áp ba mức DM/DS/DT của [8] cho kiểm tra – bảo trì kết cấu có kỹ sư quyết định; luận án khai báo mức theo [8] |
 | UV-05 | mới (nhãn hiện trường) | 5 nhóm (3); +[28]? (N-12) | **Đã kiểm hết** (01/10/2026) | **Đủ điều kiện** | Nhãn sinh từ kiểm tra thực ở công trình vận hành, mang độ bất định của kiểm tra, ghi như bản ghi gắn phép đo đã kích hoạt và cấu kiện. [NCS] Gần UV-07, K3 — có thể gộp |
-| UV-06 | K1 | 4 (3), [56] gián tiếp; 1 dữ liệu ngược chiều một phần ([48]) | Còn theo dõi dài hạn sau bảo trì (N-23) | Chưa | Xem đề xuất phát biểu thu hẹp ở mục 4 |
-| UV-07 | K3 (+5.6A) | 4 (3) | Còn human-in-the-loop, thẻ mô hình (N-24) | Chưa | Dự kiến: áp khuôn phê duyệt (IFC4, [44]) cho đầu ra AI và tách khỏi việc dùng làm nhãn |
-| UV-08 | mới (L2.2) | 3 nhóm cho EOV chung; 0 cho nhà xưởng | Còn toàn văn Hu 2023 (N-25); Eraliev 2022 đã kiểm, không giải quyết | [NCS] Đề xuất không thành K4 | Giữ làm luận điểm 3.2 và yêu cầu nội dung của K1 (trạng thái cầu trục, máy móc trong bối cảnh quan trắc) |
+| UV-06 | K1 | 4 (3), [56] gián tiếp; +Maes 2022 hiện trường nếu NCS chấp nhận → 5 (4); 1 dữ liệu ngược chiều một phần ([48]) | **Đã kiểm hết** (phiên 15): Maes 2022 (cầu thép KW51, gia cường liên kết bu lông giữa thời gian theo dõi) — không giải quyết, căn cứ hiện trường cùng chiều | **Đủ điều kiện** | Mục 4 (đã cập nhật): mốc can thiệp hiện chỉ được biết từ hồ sơ bên ngoài và dùng bằng tay; còn: ghi lần lắp ráp/can thiệp như thành phần bắt buộc của phạm vi hiệu lực, gắn sự kiện có thời điểm, kiểm được bằng máy |
+| UV-07 | K3 (+5.6A) | 4 (3); +Mosqueira-Rey 2023 nếu NCS chấp nhận → 5 (4) | **Đã kiểm hết** (phiên 15): Mosqueira-Rey 2023 (không giải quyết, cùng chiều), thẻ mô hình (không), PROV-O (một phần về hình thức) | **Đủ điều kiện** | Áp khuôn trách nhiệm – phê duyệt (PROV-O, IFC4, [44]) cho từng đầu ra AI; một lần xác nhận ghi đồng thời là bản ghi trách nhiệm và nhãn hiện trường có độ bất định, tách bạch. Vế nhãn trùng UV-05 → nên gộp |
+| UV-08 | mới (L2.2) | 3 nhóm cho EOV chung; 0 cho nhà xưởng | Hu 2023 nhập Zotero, truy cập đóng, kiểm ở mức tóm tắt: không giải quyết (phiên 15); Eraliev 2022 đã kiểm, không giải quyết | [NCS] Đề xuất không thành K4 | Giữ làm luận điểm 3.2 và yêu cầu nội dung của K1 (trạng thái cầu trục, máy móc trong bối cảnh quan trắc) |
 
-**Đọc nhanh:** hiện có hai ứng viên đủ điều kiện hình thức (UV-03, UV-05); UV-04 đã kiểm hết nhưng chỉ dùng để định vị. Bốn ứng viên chính còn lại (UV-01, UV-02, UV-06,
+**Đọc nhanh (cập nhật 01/10/2026, phiên 15):** năm ứng viên đủ điều kiện hình thức (UV-02, UV-03, UV-05, UV-06, UV-07); UV-04 chỉ định vị; UV-08 đề xuất giữ làm luận điểm 3.2. Chỉ UV-01 còn một mục "chưa kiểm" (CMMS, N-20) và vào GĐ3 ở trạng thái **tạm**. Bốn nguồn mới chờ NCS quyết định có tính là căn cứ (N-12d, N-12e).
+
+*Bản trước:* hiện có hai ứng viên đủ điều kiện hình thức (UV-03, UV-05); UV-04 đã kiểm hết nhưng chỉ dùng để định vị. Bốn ứng viên chính còn lại (UV-01, UV-02, UV-06,
 UV-07) mỗi ứng viên còn một nhóm phản chứng; cả bốn đều đã đủ số căn cứ trước 2025. Việc còn thiếu chủ yếu là tìm và đọc
 1–2 nguồn cho mỗi nhóm (N-20, N-21, N-23, N-24).
 
@@ -70,6 +72,13 @@ giữa các kết cấu ([56], Gardner 2021), hoặc đưa thay đổi do vận 
 ghi lần lắp ráp và lần can thiệp như một thành phần bắt buộc của phạm vi hiệu lực, để kiểm được một bằng chứng có còn dùng được
 sau can thiệp hay không." Có một dữ liệu ngược chiều một phần: ca siết lại của [48] vẫn được phân loại đúng (tr. 9–10), nên
 phát biểu nói "phải ghi để kiểm được", không nói "luôn làm mất hiệu lực".
+
+**Cập nhật 01/10/2026 (phiên 15, sau khi kiểm Maes và cs. 2022 — cầu thép KW51):** thêm vào phần "đã biết": trên công trình thép
+thật theo dõi dài hạn, một lần can thiệp lên liên kết bu lông làm mô hình trạng thái ban đầu mất tính đại diện (postprint tr. 6, 20);
+thêm vào "các hướng xử lý hiện có": dùng mốc can thiệp biết từ hồ sơ thi công để tách dữ liệu bằng tay (tr. 6–7). Phần chưa thấy
+đổi thành: "ghi lần lắp ráp và lần can thiệp như một thành phần **bắt buộc** của phạm vi hiệu lực, gắn với sự kiện có thời điểm
+trong cùng mô hình dữ liệu, để kiểm được **bằng máy** một bằng chứng có còn dùng được sau can thiệp hay không". Bản đầy đủ ở nhật ký
+UV-06.
 
 ## 5. Quyết định NCS cần đưa ra tại ĐD2
 
