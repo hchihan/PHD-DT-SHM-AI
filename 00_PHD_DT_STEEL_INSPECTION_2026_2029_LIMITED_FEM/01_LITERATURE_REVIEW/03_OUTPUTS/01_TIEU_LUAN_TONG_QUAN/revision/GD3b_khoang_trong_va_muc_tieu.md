@@ -217,7 +217,7 @@ Trang dẫn của điều kiện này lấy theo mục của đặc tả, không
 | Khoảng trống | Mục tiêu | RQ | Bài báo | Chương | Đối chứng | Chỉ số / kết quả đo | Loại đóng góp |
 |---|---|---|---|---|---|---|---|
 | G-A (A1, A2) | MT1 | RQ1 | Bài 1 | MT1 | Đánh giá cùng lần chạy | Hiệu năng theo đơn vị độc lập; chênh lệch; khai báo phạm vi | Thực nghiệm – phương pháp |
-| G-B (+ G-A, A2) | MT2 | RQ2 | Bài 2 | MT2 | B0 (B1 chờ F-1) | **M2 theo nhóm lỗi (chính)**; M1 (mô tả), M3, M4 | Artefact thiết kế được đánh giá |
+| G-B (+ G-A, A2) | MT2 | RQ2 | Bài 2 | MT2 | B0, B1 (F-1 đã duyệt) | **M2 theo nhóm lỗi (chính)**; M1 (mô tả), M3, M4 | Artefact thiết kế được đánh giá |
 | G-A, G-B (áp dụng) | MT3 | RQ3 | Bài 2 (phần hiện trường, nếu kịp) | MT3 | — | Dữ liệu về đủ; ánh xạ đúng (C3); M3 kịch bản C3; M4 | Kiểm chứng khả thi và truy vết |
 
 ## Phần D. Văn bản đề xuất thay mục 5.2 và 5.4 (chờ NCS duyệt, chưa chèn vào `tieuluan/`)
@@ -307,7 +307,7 @@ cấu kiện và truy ngược được một kịch bản kiểm tra – xử l
 
 ## Phần F. Việc mở cho NCS
 
-**F-1. Thêm đối chứng B1 (D4, mâu thuẫn với CLAUDE.md mục 8 và 11).**
+**F-1. Thêm đối chứng B1 (D4, mâu thuẫn với CLAUDE.md mục 8 và 11).** **→ NCS DUYỆT 01/10/2026; CLAUDE.md mục 2 (QĐ 12), 2A, 8 đã sửa. Văn bản RQ2, tiêu chí, rủi ro dưới đây thay cho bản ở MT2.**
 - **Đề xuất của cố vấn: duyệt.** Lý do:
   - Không có B1 thì chênh lệch so với B0 gộp cả phần [35] và BCF đã làm được, khó quy cho luận án. Phản biện Bài 2 nhiều khả năng
     hỏi đúng điểm này.
@@ -324,7 +324,7 @@ cấu kiện và truy ngược được một kịch bản kiểm tra – xử l
   - *Rủi ro thêm:* B1 bị dựng yếu một cách vô ý. *Giảm:* đặc tả B1 bám sát [35] (tr. 4–7) và BCF 3.0, khóa trước khi đo, ghi
     mọi lựa chọn khi dựng B1.
 
-**F-2. Phỏng vấn có cấu trúc 3–5 người quản lý kiểm tra – bảo trì phía chủ đầu tư (D6), chờ NCS và thầy duyệt.**
+**F-2. Phỏng vấn có cấu trúc 3–5 người quản lý kiểm tra – bảo trì phía chủ đầu tư (D6).** **→ NCS DUYỆT 01/10/2026 (CLAUDE.md QĐ 12); còn chờ thầy duyệt.**
 - Mục đích: xác nhận bộ câu hỏi truy ngược trước khi khóa M3, và nêu nhu cầu cho G-B.
 - Cần đồng thuận của người tham gia; không thay thế M1–M4.
 - **Đề xuất của cố vấn: làm ở mức tối thiểu**, khoảng 30 phút mỗi người, gộp vào đợt khảo sát nhà xưởng. Lý do: chi phí nhỏ,
@@ -351,7 +351,7 @@ trái QĐ 11.
 - [x] Không có khoảng trống mới ngoài G-A (A1, A2) và G-B.
 - [x] Mọi trang dẫn mới có trong `notes/`. Ngoại lệ đã ghi: sự kiện BCF dẫn theo mục đặc tả ở nhật ký UV-01.
 - [x] Mỗi điều kiện có câu giải thích có căn cứ. "Kiểm được bằng máy" chỉ có căn cứ [NCS], đã chuyển sang MT2 (Phần E dòng 4).
-- [ ] RQ2 nêu cả B0 và B1: **chưa**, vì mâu thuẫn CLAUDE.md, chờ F-1. M2 là chỉ số chính và giới hạn của M1 so với B0 đã ghi.
+- [x] RQ2 nêu cả B0 và B1: đạt sau khi NCS duyệt F-1 (01/10/2026); bản RQ2 có hiệu lực là bản ở F-1. M2 là chỉ số chính và giới hạn của M1 so với B0 đã ghi.
 - [x] Bối cảnh Việt Nam của B0 nêu là đóng góp bối cảnh – thực tiễn, không khái quát hóa.
 - [x] Không có từ "đầu tiên", "chưa từng", "lấp đầy khoảng trống", "đóng góp lý thuyết".
 - [x] Không tự đặt mốc ngày; không dẫn văn bản pháp quy theo trí nhớ.

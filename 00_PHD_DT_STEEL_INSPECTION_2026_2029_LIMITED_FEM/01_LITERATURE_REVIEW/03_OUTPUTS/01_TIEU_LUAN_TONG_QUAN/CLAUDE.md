@@ -55,6 +55,14 @@
 10. **Ba mục tiêu luận án đã khóa** (mục 2A). Không thêm mục tiêu, WP hay bài báo mới.
 11. **Không mở rộng tổng quan:** không đọc thêm, không tìm thêm phản chứng hay tiền lệ, trừ khi thầy hướng dẫn hoặc phản
     biện tạp chí yêu cầu bằng văn bản.
+12. **Đối chứng B1 và phỏng vấn (NCS duyệt F-1, F-2 của `revision/GD3b_khoang_trong_va_muc_tieu.md`, 01/10/2026):**
+    MT2 so với cả B0 và B1 (định nghĩa ở mục 8); M2 là chỉ số chính. Phỏng vấn có cấu trúc 3–5 người quản lý kiểm tra – bảo
+    trì phía chủ đầu tư (khoảng 30 phút/người, có đồng thuận), gộp vào đợt khảo sát nhà xưởng, trước khi khóa bộ câu hỏi truy
+    ngược; chỉ để xác nhận bộ câu hỏi và nêu nhu cầu cho G-B, không thay M1–M4. Cần thầy hướng dẫn duyệt hoạt động phỏng vấn.
+13. **G-A gồm hai vế** (NCS duyệt 01/10/2026): **A1 – đánh giá** (mức chênh lệch giữa đánh giá giữ lại cả lần chạy và cùng
+    lần chạy chưa được báo cáo cho phân loại dựa trên dao động của liên kết bu lông trong khung thép; [19], [15] là tiền lệ gần
+    nhất, bắt buộc nêu trong Bài 1) và **A2 – khai báo** (phạm vi hiệu lực, độ bất định là trường bắt buộc của từng bằng chứng,
+    kiểm tại lần sử dụng).
 
 ---
 
@@ -63,11 +71,14 @@
 | | Mục tiêu | Có sẵn | Sản phẩm | Khoảng trống | Kết quả đo (đủ để kết luận) |
 |---|---|---|---|---|---|
 | **MT1** | Xác lập quy trình tạo **bằng chứng trạng thái liên kết bu lông có phạm vi hiệu lực** từ dữ liệu dao động trên khung thép thu nhỏ 1:10 trong phòng thí nghiệm, với bốn mô hình (RF, SVM-RBF, 1D-CNN, ResNet1D) dưới đánh giá theo nhóm giữ lại cả lần chạy, kiểm định hoán vị, báo cáo biến thiên theo seed và fold | Dữ liệu ba đợt thí nghiệm, kết quả Paper 1 (Gate 1) | **Bài 1** (Q2/Q3, SHM – đo lường) | G-A | Hiệu năng theo đơn vị đánh giá độc lập, chênh lệch so với đánh giá cùng lần chạy, khai báo phạm vi hiệu lực của kết quả |
-| **MT2** | Xây dựng **mô hình thông tin truy vết bằng chứng → hành động** cho kiểm tra – bảo trì kết cấu thép, mở rộng IFC 4.3 ([35]) và BCF 3.0 bằng tầng bằng chứng và tầng trách nhiệm (6 thực thể, 5 ràng buộc kiểm tự động, logic hỗ trợ hành động bốn mức bằng luật) | Schema đồ thị, C1–C9, mapping với [2], [35], [44] | **Bài 2** (Q2, tin học xây dựng) | G-B (+G-A) | 4 chỉ số ở mục 8 so với B0 (hồ sơ kiểm định cũ), trên BIM nhà xưởng thật và dữ liệu MT1 |
+| **MT2** | Xây dựng **mô hình thông tin truy vết bằng chứng → hành động** cho kiểm tra – bảo trì kết cấu thép, mở rộng IFC 4.3 ([35]) và BCF 3.0 bằng tầng bằng chứng và tầng trách nhiệm (6 thực thể, 5 ràng buộc kiểm tự động, logic hỗ trợ hành động bốn mức bằng luật) | Schema đồ thị, C1–C9, mapping với [2], [35], [44] | **Bài 2** (Q2, tin học xây dựng) | G-B (+G-A) | M2 (chính, theo nhóm lỗi) và M1, M3, M4 ở mục 8, so với B0 (hồ sơ kiểm định hiện hành) và B1 (IFC 4.3 theo [35] + BCF 3.0, chưa có hai tầng mới), trên cùng BIM nhà xưởng thật và dữ liệu MT1 |
 | **MT3** | **Triển khai và kiểm chứng khả thi** trên một nhà xưởng khung thép thật có BIM: lắp hệ cảm biến, lập đường cơ sở vận hành, sinh bằng chứng cảm biến bằng Autoencoder (bù nhiệt độ, cờ cầu trục), chạy kịch bản kiểm tra – xử lý – truy ngược đầu cuối (kịch bản cột C3) | Công trình có BIM; NCS bảo đảm lắp cảm biến | Chương luận án; phần hiện trường của Bài 2 nếu kịp, hoặc bài hội nghị (không bắt buộc) | G-A, G-B (áp dụng) | Dữ liệu về đủ, ánh xạ cảm biến – cấu kiện đúng, kịch bản C3 truy ngược được, chi phí ghi nhận |
 
 Quy tắc phạm vi:
-- **Bài 2 không chờ quan trắc dài hạn:** kiểm chứng bằng BIM nhà xưởng thật + hồ sơ kiểm định cũ (B0) + dữ liệu MT1
+- **Phần quy cho đóng góp của MT2** là chênh lệch mô hình đề xuất so với **B1**; chênh lệch so với **B0** là đóng góp bối cảnh –
+  thực tiễn cho thực hành kiểm định ở Việt Nam, không khái quát sang nơi khác.
+- **Song song với MT1:** khảo sát nhà xưởng, chọn vị trí cảm biến, lấy hồ sơ B0, phỏng vấn (QĐ 12).
+- **Bài 2 không chờ quan trắc dài hạn:** kiểm chứng bằng BIM nhà xưởng thật + hồ sơ kiểm định cũ (B0) + B1 + dữ liệu MT1
   (bằng chứng có phạm vi đã biết, dùng để chèn ca dùng ngoài phạm vi). Dữ liệu hiện trường MT3 có sớm thì thêm một mục minh họa.
 - **MT3 chỉ tuyên bố khả thi và truy vết**, không tuyên bố hiệu năng phát hiện hư hỏng ở hiện trường. Quan trắc 3–6 tháng,
   khoảng 6–10 cảm biến ở các liên kết đại diện, 1–2 đợt kiểm tra thật.
@@ -338,14 +349,21 @@ cảm biến – cấu kiện · **C5** dùng bằng chứng ngoài phạm vi ph
 **Công cụ (một bộ duy nhất):** Python, IfcOpenShell, SQLite hoặc JSON, script kiểm ràng buộc; scikit-learn/PyTorch cho
 MT1, MT3. Không dùng RDF/SHACL/ontology; ánh xạ khái niệm sang SOSA/SSN, PROV-O chỉ trình bày bằng một bảng trong Bài 2.
 
-**4 chỉ số (so với B0 = hồ sơ kiểm định cũ, mã hóa tay 20–30 hồ sơ):**
+**Đối chứng:** **B0** = hồ sơ kiểm định theo thực hành hiện hành ở Việt Nam, mã hóa tay 20–30 hồ sơ. **B1** = mô hình IFC 4.3
+theo [35] + BCF 3.0, **chưa có** tầng bằng chứng và tầng trách nhiệm, dựng trên **cùng** BIM nhà xưởng, cùng script (tắt các
+ràng buộc C5, C6, C9 và các trường mới). B0, B1 và mô hình đề xuất dùng cùng danh sách lỗi chèn mù, cùng bộ câu hỏi truy ngược,
+cùng tập bằng chứng MT1.
+
+**4 chỉ số:**
 | Chỉ số | Đo |
 |---|---|
-| M1 Đủ thuộc tính bắt buộc | tỉ lệ bản ghi đầy đủ |
-| M2 Phát hiện lỗi chèn mù | khoảng 30 lỗi do người thứ ba chèn (gồm dùng ngoài phạm vi, sai thời hạn ánh xạ, chuyển trạng thái không căn cứ); tỉ lệ script bắt được |
+| M1 Đủ thuộc tính bắt buộc | tỉ lệ bản ghi đầy đủ; chỉ mô tả — chênh lệch so với B0 hiển nhiên do schema bắt buộc trường, so sánh có ý nghĩa là với B1 |
+| **M2 Phát hiện lỗi chèn mù (chỉ số chính)** | khoảng 30 lỗi do người thứ ba chèn; báo cáo theo từng nhóm lỗi, trọng tâm "dùng bằng chứng ngoài phạm vi" (C5, C9) và "đổi trạng thái không căn cứ" (C6); tỉ lệ bắt được ở B0, B1, mô hình đề xuất |
 | M3 Truy ngược | thời gian hoặc số bước trả lời ba câu hỏi của người quản lý |
 | M4 Chi phí ghi nhận | số phút mỗi bản ghi |
-Khóa danh sách lỗi và câu hỏi trước khi chạy. Bỏ B1 và chỉ số tính tổng quát (một công trình, ghi ở phần giới hạn).
+**Khóa trước khi đo** (lưu trong repo, có commit trước lần đo đầu): quy tắc mã hóa B0; đặc tả B1 (bám sát [35] tr. 4–7 và BCF 3.0,
+ghi mọi lựa chọn khi dựng); danh sách lỗi chèn mù và người chèn; bộ câu hỏi truy ngược (sau phỏng vấn); cách tính M1–M4. Nơi lưu
+đề xuất `03_PAPERS/PAPER_2/khoa_truoc_khi_do/` (NCS xác nhận). Bỏ chỉ số tính tổng quát (một công trình, ghi ở phần giới hạn).
 
 ---
 
@@ -451,8 +469,8 @@ sáu tháng sau có sự cố, truy ngược được toàn bộ.
 | GĐ1 Bổ sung tài liệu | ✅ Đã duyệt (ĐD1) (30/09) | Nhập 17 tài liệu mới, gắn 5 tài liệu có sẵn; danh sách key 30 (12 Tier 1, 18 Tier 2) ở mục 7.1–7.2; báo cáo: `revision/bao_cao_GD1.md` |
 | GĐ2 Đọc sâu | ✅ Đóng (01/10): 29/30 đọc toàn văn ([80] bỏ); 5 nhóm phản chứng N-20, N-21, N-23, N-24, N-25 đã xử lý (N-20 qua nguồn thứ cấp [29], N-25 mức tóm tắt); N-12d, e tính Maes 2022, Mosqueira-Rey 2023 là căn cứ cùng chiều | Bản trình: `revision/DD2_ban_trinh.md`; việc chờ NCS: `revision/viec_cho_NCS.md`; nhật ký: `revision/GD2_nhat_ky_khoang_trong.md` |
 | Rút gọn phạm vi, khóa 3 mục tiêu | ✅ NCS duyệt (01/10) | Mục 2 (QĐ 5, 7, 9–11), 2A, 6.0, 8, 9, 11, 13 |
-| GĐ3 Khoảng trống | 🟡 Bản nháp xong (01/10), chờ NCS duyệt câu chữ G-A, G-B và gửi thầy | `revision/GD3_khoang_trong_va_muc_tieu.md`: bảng kiểm, hai khoảng trống (G-A 7 nhóm căn cứ trước 2025, G-B 6), ba mục tiêu MT1–MT3, ma trận, văn bản đề xuất thay 5.2 và RQ (785 từ, chưa chèn `tieuluan/`); `[CẦN NGUỒN]`: IFC4 ADD2 TC1, Khuyến nghị W3C SSN |
-| GĐ4 Viết mục mới (4.2–4.9) | ⬜ | |
+| GĐ3 Khoảng trống | ✅ NCS duyệt bản GĐ3b (01/10): G-A (A1, A2), G-B; F-1 (B1), F-2 (phỏng vấn) duyệt; còn gửi thầy | `revision/GD3_khoang_trong_va_muc_tieu.md`: bảng kiểm, hai khoảng trống (G-A 7 nhóm căn cứ trước 2025, G-B 6), ba mục tiêu MT1–MT3, ma trận, văn bản đề xuất thay 5.2 và RQ (785 từ, chưa chèn `tieuluan/`); `[CẦN NGUỒN]`: IFC4 ADD2 TC1, Khuyến nghị W3C SSN |
+| GĐ4 Viết mục mới (4.2–4.9) | 🟡 5.2 đã chèn (01/10), chờ NCS duyệt | `tieuluan/05_chuong5.md` mục 5.2 thay ba khoảng trống cũ bằng G-A, G-B; 5.3.3 (bốn mục tiêu cũ), 5.4, 5.5, 5.7, 5.9 còn theo cấu trúc cũ, đồng bộ ở GĐ5 |
 | GĐ5 Tái cấu trúc | ⬜ | |
 | GĐ6 Nhất quán & xuất bản | ⬜ | |
 

@@ -341,3 +341,10 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - Tạo `revision/GD3_khoang_trong_va_muc_tieu.md`: bảng kiểm theo ứng viên và theo khoảng trống (G-A: 7 nhóm căn cứ trước 2025; G-B: 6; G-B đạt có điều kiện vì CMMS và ISO 19650-3 ở mức nguồn thứ cấp); Phần A hai khoảng trống; Phần B ba mục tiêu theo CLAUDE.md 2A; Phần C ma trận; Phần D văn bản đề xuất thay 5.2 và RQ (785 từ). Ghi nhận: [56] và [19] chung tác giả Teloli, đếm là một nhóm.
 - Hai tiền lệ chưa có bản ghi Zotero để trích ở Phần D: IFC4 ADD2 TC1, Khuyến nghị W3C SSN (đánh dấu `[CẦN NGUỒN]`). Không đọc thêm tài liệu, không sửa `tieuluan/`.
 - CLAUDE.md mục 12: GĐ2 đóng; GĐ3 bản nháp xong, chờ NCS duyệt và gửi thầy.
+
+## Phiên 01/10/2026 – Duyệt F-1, F-2; cập nhật CLAUDE.md; chèn 5.2
+- NCS duyệt F-1 (đối chứng B1) và F-2 (phỏng vấn 3–5 người quản lý phía chủ đầu tư, còn chờ thầy) của `revision/GD3b_khoang_trong_va_muc_tieu.md`.
+- CLAUDE.md: QĐ 12 (B1, phỏng vấn), QĐ 13 (G-A gồm A1 đánh giá, A2 khai báo); mục 2A (MT2 so với B0 và B1; phần quy cho đóng góp là chênh lệch so với B1; việc làm song song với MT1); mục 8 (định nghĩa B0, B1; M2 chỉ số chính; giới hạn M1; danh sách khóa trước khi đo); mục 12.
+- `tieuluan/05_chuong5.md`: thay mục 5.2 "Ba khoảng trống" (2.848 từ) bằng "Hai khoảng trống" (1.040 từ, văn bản Phần D của GĐ3b, câu G-B có thêm đối chứng chuẩn sẵn có); sửa câu đầu 5.3.1 "ba" → "hai". Bản cũ xem lịch sử git.
+- `matrix/doi_chieu_danh_muc.csv`: thêm dòng `moi` cho Eraliev 2022 `VVBGM9EN` (DOI xác minh Crossref).
+- Trích dẫn trong 5.2 mới: \[18\], \[@2ZJSENQU\], \[14\], \[15\], \[53\], \[19\], \[48\], \[@VVBGM9EN\], \[69\], \[@82WQNDHU\], \[@23TBQTIP\], \[45\], \[35\], \[@K5SGFIGW\], \[44\], \[3\], \[7\], \[@73MBWFVJ\], \[@Z9RD5DMZ\], \[@EBB69J4F\], \[22\]; hai `[CẦN NGUỒN]` (IFC4 ADD2 TC1; Khuyến nghị W3C SSN mục 5.1).
