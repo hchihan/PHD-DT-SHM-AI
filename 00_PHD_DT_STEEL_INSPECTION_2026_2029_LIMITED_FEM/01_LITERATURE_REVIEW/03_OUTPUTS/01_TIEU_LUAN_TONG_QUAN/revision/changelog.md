@@ -400,3 +400,8 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - Viết `tieuluan/01_chuong1.md` mục 1.2A (nhãn tạm, đặt trước 1.2 Vấn đề nghiên cứu; 1.132 từ): 1.2A.1 quy mô, vai trò; 1.2A.2 liên kết bu lông (nới lỏng, ăn mòn, lắp ráp); 1.2A.3 điều kiện vận hành, khó khăn kiểm tra; 1.2A.4 phạm vi đối tượng (mô hình 1:10, nhà xưởng thật có BIM). Đáp ứng góp ý G1.
 - Trích dẫn mới trong tiểu luận: \[@XM5ZUP99\], \[@J358BJ7Z\], \[@QMVQCEL5\], \[@WP5WUUF9\], \[@SKCFNXPU\], \[@IJGQYI7W\], \[@38FMATHE\], \[@2AZ7VZ5R\]; dùng lại [18]. Thêm dòng Daniel 2023 vào `matrix/doi_chieu_danh_muc.csv`. Bảng luận điểm – nguồn: `revision/1_2A_luan_diem_nguon.csv` (Saleem, Gong, Nooralishahi chỉ đọc tóm tắt).
 - Không dùng Iordachescu 2022 (không truy cập được tóm tắt hay toàn văn).
+
+## Phiên 02/10/2026 – Duyệt 1.2A; viết mục 3.2A Hạn chế quan trắc
+- NCS duyệt mục 1.2A. CLAUDE.md mục 12 và ghi chú 6.1 cập nhật.
+- Viết `tieuluan/03_chuong3.md` mục 3.2A (nhãn tạm, đặt sau 3.1; 1.496 từ): 3.2A.1 kiểm tra trực quan (FHWA, cầu); 3.2A.2 chi phí, mật độ cảm biến; 3.2A.3 biến đổi vận hành – môi trường trong nhà xưởng; 3.2A.4 cầu nối phòng thí nghiệm – hiện trường (gộp nguyên văn mục 3.6A, thêm đoạn mở từ Cawley 2018, Sohn 2007); 3.2A.5 hàm ý. Xóa mục 3.6A; `05_chuong5.md` 5.6A.3 trỏ về 3.2A.4. Đáp ứng góp ý G2, G3.
+- Trích dẫn mới trong Chương 3: \[@8IMKCTE5\], \[@J7FAWJ8I\], \[@EBB69J4F\], \[@MCNRW6F5\], \[@23TBQTIP\], \[@38FMATHE\]; dùng lại [45], [18], [56], [57], \[@87NKU5IS\], \[@TDRPDWJE\]. Các khóa đã có dòng trong `matrix/doi_chieu_danh_muc.csv`. Bảng luận điểm – nguồn: `revision/3_2A_luan_diem_nguon.csv`.

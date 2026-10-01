@@ -42,6 +42,42 @@ Từ đó, ba nguyên tắc được giữ nhất quán cho luận án:
 >
 > 3\. mô hình phân loại phòng thí nghiệm không được chuyển trực tiếp sang công trình thực để chẩn đoán khi chưa có bằng chứng xác nhận.
 
+## 3.2A. Hạn chế của quan trắc hiện tại với công trình công nghiệp
+
+<!-- Nhãn tạm 3.2A; đánh số lại thành 3.2 ở GĐ5 (cấu trúc đích CLAUDE.md 6.3). Tiểu mục 3.2A.4 gộp nội dung mục nhãn tạm 3.6A cũ (CLAUDE.md 6.0). Nguồn: revision/3_2A_luan_diem_nguon.csv -->
+
+Ở nhà xưởng khung thép, thông tin về tình trạng liên kết hiện đến từ hai đường: kiểm tra trực quan định kỳ của kỹ sư và quan trắc bằng cảm biến. Mục này tổng hợp giới hạn của từng đường khi áp cho công trình công nghiệp, rồi xét điều kiện để bằng chứng tạo ra trong phòng thí nghiệm được dùng ở hiện trường. Nhiều nguồn dưới đây nghiên cứu cầu hoặc kết cấu ngoài trời; phần bằng chứng được trích đúng đối tượng của nguồn, còn việc áp sang nhà xưởng được ghi là diễn giải.
+
+### 3.2A.1. Kiểm tra trực quan: kết quả phụ thuộc người kiểm tra
+
+Kiểm tra trực quan là phương pháp chủ đạo trong thực hành kiểm tra công trình. Nghiên cứu của Cục Đường bộ Liên bang Hoa Kỳ (FHWA) với 49 kiểm tra viên trên các cầu thử nghiệm cho thấy phương pháp này mang tính chủ quan cao: chỉ khoảng 68 % điểm tình trạng nằm trong phạm vi ±1 điểm quanh giá trị trung bình \[@8IMKCTE5\] (tr. 67, 71, 82). Trong nhiệm vụ kiểm tra chi tiết một cầu thép, tỷ lệ phát hiện đúng các liên kết bu lông có đai ốc hở ít nhất 4 mm chỉ là 24 % \[@8IMKCTE5\] (tr. 78). Cùng nghiên cứu đó, Phares và cộng sự (2004) ghi nhận điểm tình trạng, ghi chú hiện trường và ảnh đều biến thiên lớn giữa các kiểm tra viên, và khuyết tật quan trọng nhiều khi không được ghi lại trong hồ sơ \[@J7FAWJ8I\] (tr. 403, 408, 412–413).
+
+Tiểu luận rút ra hai diễn giải cho nhà xưởng. Khuyết tật bu lông trong nghiên cứu trên là loại nhìn thấy được; mất lực siết không kèm dấu hiệu hình học còn khó phát hiện bằng mắt hơn, trong khi liên kết nhà xưởng thường nằm trên cao và việc tiếp cận tốn kém (mục 1.2A.3). Kết quả kiểm tra của con người cũng có độ bất định và phụ thuộc người thực hiện, nên bản ghi kiểm tra cần mang thông tin về người kiểm tra, thời điểm và độ bất định của phát hiện, như các trường của bản ghi kiểm tra ở Phụ lục A.
+
+### 3.2A.2. Quan trắc cảm biến: chi phí và mật độ đo
+
+Cawley (2018) so sánh bốn nhóm theo dõi và chỉ ra rằng số cảm biến cần để phủ toàn kết cấu tăng mạnh khi chuyển từ theo dõi toàn cục sang theo dõi cục bộ; theo dõi cục bộ mọi vị trí cần thiết thường quá đắt, nên kiểm tra không phá hủy định kỳ hiệu quả hơn \[@EBB69J4F\] (tr. 2, Bảng 1; tr. 10–11). Quan trắc phải cạnh tranh với kiểm tra định kỳ hay thay thế theo kế hoạch, thông tin thêm phải đáng với chi phí, và chi phí cần tính đủ gồm bảo trì hệ đo và xử lý dữ liệu lặp lại \[@EBB69J4F\] (tr. 12). Worden và cộng sự (2007) cũng xếp chi phí vào các yếu tố quyết định khi chọn phần cứng \[@MCNRW6F5\] (tr. 1656).
+
+Nhà xưởng có nhiều liên kết bu lông cùng loại phân bố trên toàn khung. Diễn giải của tiểu luận là với loại tài sản này, quan trắc dày đặc mọi liên kết khó có cơ sở kinh tế; hướng khả thi là đặt số ít cảm biến ở các liên kết đại diện và dùng tín hiệu để khoanh vùng cấu kiện cần kiểm tra. Luận án vì vậy ghi nhận chi phí như một kết quả đo của Mục tiêu 3, thay vì giả định trước.
+
+### 3.2A.3. Biến đổi vận hành và môi trường trong nhà xưởng
+
+Mục 3.1.1 đã nêu biến đổi môi trường – vận hành là yếu tố chi phối mạnh nhất. Các nguồn đã đọc cho thấy rõ hơn cơ chế của nó. Sohn (2007) dẫn ví dụ tàu lượn, nơi khác biệt đặc trưng động lực do tải hành khách lớn hơn nhiều so với khác biệt do hư hỏng bánh xe, và coi chuẩn hóa dữ liệu theo điều kiện vận hành là một trở ngại chính khi triển khai \[45\] (tr. 539–540, 543–544, 557). Tiên đề IVb của Worden và cộng sự (2007) phát biểu rằng nếu không có trích chọn đặc trưng thông minh, độ nhạy của phép đo với hư hỏng càng cao thì độ nhạy với thay đổi điều kiện vận hành – môi trường càng cao \[@MCNRW6F5\] (tr. 1652–1654). Figueiredo và cộng sự (2011), trên khung nhôm ba tầng lắp bu lông trong phòng thí nghiệm với biến đổi vận hành – môi trường mô phỏng, cho thấy biến đổi này có thể che lấp đặc trưng do hư hỏng và so sánh các thuật toán học mô hình trạng thái bình thường để tách hai loại thay đổi \[@23TBQTIP\] (tr. 561–562, 564, 571). Cawley (2018) cũng nêu rằng tần số các dạng dao động thấp nhạy với điều kiện biên, khối lượng và nhiệt độ hơn với hư hỏng cục bộ \[@EBB69J4F\] (tr. 4, 9).
+
+Trong nhà xưởng, nguồn biến đổi vận hành gồm cầu trục, máy móc và chu kỳ nhiệt theo ca sản xuất và theo mùa. Ju và cộng sự (2020) cho thấy rung do cầu trục di chuyển trong một nhà máy công nghệ cao phụ thuộc vận tốc, gia tốc và độ gồ ghề ray \[@38FMATHE\]; nghiên cứu này xét rung sàn, nên việc rung cầu trục che lấp tín hiệu liên kết trong khung nhà xưởng là diễn giải của tiểu luận, chưa có nguồn đã đọc kiểm chứng trực tiếp. Từ đó, đường cơ sở vận hành của nhà xưởng cần ghi kèm trạng thái cầu trục và nhiệt độ, và luận án dùng hồi quy theo nhiệt độ cùng cờ cầu trục chạy/dừng làm mức bù tối thiểu (Mục 5.6A.3).
+
+### 3.2A.4. Cầu nối phòng thí nghiệm – hiện trường
+
+Các mục 3.3 và 3.4 xác lập điều kiện để kết quả phòng thí nghiệm trở thành bằng chứng có phạm vi hiệu lực. Tiểu mục này xét điều gì ngăn bằng chứng đó được dùng nguyên ở nhà xưởng. Cawley (2018) nhận xét nhiều nghiên cứu làm trên dầm, tấm đơn giản trong phòng thí nghiệm, trong khi vấn đề thực chỉ lộ ra trên kết cấu thật với biến đổi môi trường thực \[@EBB69J4F\] (tr. 14–15); Sohn (2007) cũng ghi nhận thành công trên mô hình thu nhỏ và mẫu thí nghiệm chưa bảo đảm hiệu quả ở hiện trường \[45\] (tr. 539–540, 558).
+
+Bốn nhóm bằng chứng cho thấy bộ phân loại học ở phòng thí nghiệm khó chuyển nguyên sang nhà xưởng. Thứ nhất, nhãn hiện trường đến từ kiểm tra của chuyên gia nên hiếm và đắt; thiếu nhãn, học không giám sát dừng ở bậc phát hiện bất thường trong phân cấp của Rytter \[@87NKU5IS\]. Mỗi công trình còn có điều kiện biên và vật liệu riêng \[@TDRPDWJE\], và dữ liệu đo phủ đủ các điều kiện vận hành và hư hỏng của một công trình hiếm khi có sẵn \[57\]. Thứ hai, ở kết cấu có mối nối, quy trình lắp ráp quyết định độ lặp lại; thiếu kiểm soát lắp ráp, độ bất định đo được có thể lớn hơn độ dịch tần số do phi tuyến của mối nối \[18\]. Thứ ba, biến đổi môi trường – vận hành có thể che lấp thay đổi do hư hỏng, nên dữ liệu huấn luyện phải phủ dải điều kiện rộng \[45\]. Thứ tư, bộ phân loại lực siết học trên một dầm liên kết bu lông đã thất bại khi áp trực tiếp sang dầm tương tự \[56\]; dòng nghiên cứu theo quần thể đặt riêng câu hỏi khi nào tri thức được chuyển giữa các kết cấu \[57\].
+
+Phần chuyển được từ phòng thí nghiệm sang hiện trường vì vậy là nguyên tắc tổ chức bằng chứng và giao thức đánh giá; bộ phân loại và ngưỡng của mô hình 1:10 chỉ được dùng ở hiện trường sau khi kiểm tra phạm vi hiệu lực. Cách luận án đổi vai công cụ AI ở hiện trường dựa trên bốn nhóm bằng chứng này được trình bày ở Mục 5.6A.3.
+
+### 3.2A.5. Hàm ý cho luận án
+
+Bốn giới hạn trên cùng dẫn tới một yêu cầu: ở nhà xưởng, cả kết quả kiểm tra của kỹ sư lẫn tín hiệu cảm biến đều cần được ghi thành bằng chứng mang nguồn gốc, độ bất định và phạm vi hiệu lực, gắn với cấu kiện và với hành động xử lý. Cảm biến có giá trị nhất khi khoanh vùng cấu kiện cần kiểm tra trước; kiểm tra của kỹ sư xác lập tình trạng và tạo nhãn hiện trường cho các lần đánh giá sau. Cách tổ chức các bằng chứng này thành đối tượng thông tin được trình bày ở mục 3.4 và Chương 4.
+
 ## 3.2. Cảm biến và chuỗi xử lý dữ liệu
 
 ### 3.2.1. Loại, số lượng và cấu hình cảm biến
@@ -137,16 +173,6 @@ Cách tiếp cận này thay đổi cách đọc cả kết quả dương lẫn 
 **Nguồn gốc dữ liệu** (provenance) mô tả nguồn phát sinh, quá trình biến đổi và tác nhân liên quan tới một bản ghi. Đối với bằng chứng trạng thái, nguồn gốc trả lời các câu hỏi cụ thể: dữ liệu đến từ cảm biến nào, lần chạy nào, phiên bản nào, được xử lý bằng chuỗi nào và kết quả được tạo dưới giao thức đánh giá nào.
 
 Yêu cầu này nối trực tiếp với quản lý tài sản. Khi bằng chứng hỗ trợ một yêu cầu kiểm tra, người quản lý cần truy ngược được từ hành động về nguồn kỹ thuật đã tạo ra nó; nếu bằng chứng mất thông tin về phạm vi hiệu lực hoặc nguồn gốc khi chuyển sang BIM hay hồ sơ kiểm tra, giá trị quản lý của nó giảm mạnh. Hàm ý chính của Chương 3 vì vậy là: **bằng chứng trạng thái phải được quản lý như một đối tượng thông tin có nguồn gốc và phạm vi hiệu lực**.
-
-## 3.6A. Cầu nối phòng thí nghiệm – hiện trường
-
-<!-- Nhãn tạm (CLAUDE.md 6.0): khi đánh số lại ở GĐ5, nội dung mục này thành một tiểu mục của mục 3.2 mới "Hạn chế của quan trắc hiện tại với công trình công nghiệp". Đoạn thứ hai chuyển nguyên văn từ 5.6A.3 ngày 01/10/2026. -->
-
-Mục 3.3 và 3.4 xác lập điều kiện để kết quả phòng thí nghiệm trở thành bằng chứng có phạm vi hiệu lực. Mục này xét điều gì ngăn bằng chứng đó được dùng nguyên ở nhà xưởng.
-
-Bốn nhóm bằng chứng cho thấy bộ phân loại học ở phòng thí nghiệm khó chuyển nguyên sang nhà xưởng. Thứ nhất, nhãn hiện trường đến từ kiểm tra của chuyên gia nên hiếm và đắt; thiếu nhãn, học không giám sát dừng ở bậc phát hiện bất thường trong phân cấp của Rytter \[@87NKU5IS\]. Mỗi công trình còn có điều kiện biên và vật liệu riêng \[@TDRPDWJE\], và dữ liệu đo phủ đủ các điều kiện vận hành và hư hỏng của một công trình hiếm khi có sẵn \[57\]. Thứ hai, ở kết cấu có mối nối, quy trình lắp ráp quyết định độ lặp lại; thiếu kiểm soát lắp ráp, độ bất định đo được có thể lớn hơn độ dịch tần số do phi tuyến của mối nối \[18\]. Thứ ba, biến đổi môi trường – vận hành có thể che lấp thay đổi do hư hỏng, nên dữ liệu huấn luyện phải phủ dải điều kiện rộng \[45\]. Thứ tư, bộ phân loại lực siết học trên một dầm liên kết bu lông đã thất bại khi áp trực tiếp sang dầm tương tự \[56\]; dòng nghiên cứu theo quần thể đặt riêng câu hỏi khi nào tri thức được chuyển giữa các kết cấu \[57\].
-
-Phần chuyển được từ phòng thí nghiệm sang hiện trường vì vậy là nguyên tắc tổ chức bằng chứng và giao thức đánh giá; bộ phân loại và ngưỡng của mô hình 1:10 chỉ được dùng ở hiện trường sau khi kiểm tra phạm vi hiệu lực. Cách luận án đổi vai công cụ AI ở hiện trường dựa trên bốn nhóm bằng chứng này được trình bày ở Mục 5.6A.3.
 
 ## 3.5. Tổng hợp chương
 
