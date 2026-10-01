@@ -410,3 +410,10 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - NCS duyệt mục 3.2A. CLAUDE.md mục 12 cập nhật.
 - Viết lại `tieuluan/00_dannhap.md` (970 → 1.045 từ), đáp ứng góp ý G5: mở bằng kịch bản cột C3 ở dạng thông tin rời rạc (cảnh báo, biên bản giấy, ảnh, đồng ý qua điện thoại; sáu tháng sau không truy ngược được), dẫn tới ba câu hỏi của người quản lý; định nghĩa bằng chứng trạng thái và phân biệt với kết quả phân loại, chẩn đoán; đối tượng (trỏ 1.2A); hai khoảng trống G-A, G-B (trỏ 5.2); ba mục tiêu (trỏ 5.3) và lời giải kịch bản ở 1.4A; khai báo bóng số theo [8]. Bỏ chuỗi tuyến tính năm mắt xích và cụm "khung Song sinh số" chưa khai báo mức.
 - Trích dẫn: chỉ [8] (đã có). Không trích mới.
+
+## Phiên 02/10/2026 – Duyệt Dẫn nhập (GĐ4 xong); bổ sung Chương 2
+- NCS duyệt Dẫn nhập; GĐ4 hoàn tất. CLAUDE.md mục 12 cập nhật.
+- `tieuluan/02_chuong2.md` (4.412 → 5.131 từ):
+  - 2.1.1: thêm đoạn ISO 55000:2024 (93 từ) ở mức tên, phạm vi, ấn bản; định vị ISO 55000 là khung quản lý tài sản, ISO 19650-3 là khung quản lý thông tin vận hành. Toàn văn chưa tiếp cận (trang iso.org bị Cloudflare chặn, không vượt qua); ghi chú ẩn trong tệp.
+  - Mục nhãn tạm 2.2.2A "Chuẩn biểu diễn vấn đề, yêu cầu và hành động bảo trì" (542 từ), trước 2.2.3: IFC4 (`IfcActionRequest`, `IfcProjectOrder` bảo trì, `IfcTask`, `IfcApproval`, `IfcPerformanceHistory`, `IfcOwnerHistory`); [35] chuỗi IFC 4.3 (tr. 4–7, 9); BCF 3.0 (BCF-XML Topic, Comment, Components; BCF-API mục 1.2, 3.1.5, 3.9); đoạn phần bổ sung của luận án, trỏ 5.2, 5.5. Nội dung theo kết quả kiểm phản chứng 30/09 trong `revision/GD2_nhat_ky_khoang_trong.md`.
+- Trích dẫn mới trong Chương 2: \[@8PB7EN2E\], \[@K5SGFIGW\]; dùng lại [35]. Một chỗ `[CẦN NGUỒN: IFC4 ADD2 TC1]` (đã đọc đặc tả 30/09 nhưng chưa nhập Zotero).

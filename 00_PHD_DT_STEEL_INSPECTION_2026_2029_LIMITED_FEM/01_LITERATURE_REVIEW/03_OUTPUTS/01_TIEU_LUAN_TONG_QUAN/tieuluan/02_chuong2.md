@@ -8,6 +8,9 @@ Nhà công nghiệp khung thép được thiết kế và nghiệm thu tại m�
 
 ISO 19650-3:2020 coi quản lý thông tin trong giai đoạn vận hành là một phần riêng của vòng đời tài sản, với trọng tâm là duy trì thông tin cần cho khai thác và quản lý \[1\]. Theo cách nhìn này, mô hình số, hồ sơ kiểm tra, dữ liệu vận hành và lịch sử bảo trì là thành phần của một hệ thống thông tin tài sản chứ không phải những tệp độc lập.
 
+Ở cấp tổ chức, bộ tiêu chuẩn ISO 55000 cung cấp thuật ngữ, tổng quan và nguyên tắc của quản lý tài sản; ấn bản hiện hành là ISO 55000:2024, thay ấn bản năm 2014 \[@8PB7EN2E\]. Tiểu luận dùng ISO 55000:2024 làm khung tham chiếu cho quản lý tài sản và ISO 19650-3:2020 làm khung cho quản lý thông tin trong giai đoạn vận hành; nhà xưởng khung thép được xét như một tài sản mà quyết định kiểm tra – bảo trì cần dựa trên thông tin về tình trạng của nó.
+<!-- ISO 55000:2024 chưa tiếp cận toàn văn (trang iso.org bị Cloudflare chặn khi kiểm 02/10/2026); chỉ dẫn ở mức tên, phạm vi và ấn bản. Cần NCS cung cấp toàn văn nếu muốn trích nội dung điều khoản. -->
+
 Với nhà công nghiệp khung thép, yêu cầu quản lý thông tin đặc biệt quan trọng vì trạng thái khai thác chịu tác động đồng thời của tải trọng sản xuất, thiết bị, rung động, thay đổi công năng, điều kiện môi trường và lịch sử can thiệp. Những yếu tố này làm cho dữ liệu trạng thái cần được đặt trong bối cảnh thời gian và vận hành thay vì được đọc như một chỉ báo vật lý độc lập. Vì vậy, lịch sử kiểm tra, sửa chữa, điều kiện tiếp xúc và các thay đổi vận hành là thông tin cần được duy trì cùng hồ sơ tài sản.
 
 Hai hướng nghiên cứu song song đã khá trưởng thành. Ở phía quản lý, bảo trì kết cấu thép công nghiệp được tổ chức như một chương trình kiểm tra – bảo trì \[22\]. Ở phía kỹ thuật, quan trắc dài hạn đã chứng minh khả năng thu dữ liệu động lực học liên tục trên kết cấu thép ở quy mô công trình thực, điển hình là hệ thống trên UCLA Factor Building \[23\]. Điều còn thiếu với quản lý tài sản là cách biến dữ liệu kỹ thuật thành thông tin dùng được và truy vết được trong quy trình kiểm tra – bảo trì.
@@ -45,6 +48,20 @@ IFC cung cấp một lược đồ mở để trao đổi dữ liệu BIM giữa
 Giá trị của định danh vượt ra ngoài việc tìm đúng cấu kiện trên mô hình. Một định danh dùng được xuyên hệ thống cho phép các bản ghi khác nhau (dữ liệu cảm biến, hồ sơ kiểm tra, công việc bảo trì) tham chiếu tới cùng một đối tượng mà không dựa vào tên gọi thủ công. Đây là điều kiện cần cho những truy vấn quản lý như “các bằng chứng nào đã được ghi cho cấu kiện này?” hoặc “hồ sơ kiểm tra nào liên quan tới cảnh báo này?”.
 
 Lớp liên kết này đã có nền kỹ thuật tương đối rõ, thể hiện qua ba cách tiếp cận bổ sung cho nhau: mở rộng chính lược đồ IFC để mô hình hóa các thành phần của hệ theo dõi trạng thái cùng quan hệ của chúng với cấu kiện chịu lực \[2\]; ánh xạ định danh giữa BIM và thiết bị cảm biến để hỗ trợ tích hợp dữ liệu \[4\]; và dùng *GlobalId* làm khóa nối cơ sở dữ liệu IFC với dữ liệu chuỗi thời gian nhằm truy xuất theo đối tượng \[5\].
+
+### 2.2.2A. Chuẩn biểu diễn vấn đề, yêu cầu và hành động bảo trì
+
+<!-- Nhãn tạm 2.2.2A; đánh số lại ở GĐ5. Tiền lệ bắt buộc nêu theo CLAUDE.md 6.1 (BCF 3.0, IFC4, [35]); nội dung theo revision/GD2_nhat_ky_khoang_trong.md (kiểm 30/09/2026) và mapping/bellon2025.md. -->
+
+Ngoài định danh cấu kiện, các chuẩn openBIM đã có cách biểu diễn cho vấn đề, yêu cầu và hành động bảo trì. Ba tiền lệ dưới đây là nền mà mô hình thông tin của luận án mở rộng (mục 5.5).
+
+Thứ nhất, IFC4 có nhóm thực thể điều khiển cho quản lý vận hành. `IfcActionRequest` biểu diễn yêu cầu hành động, kể cả báo hỏng cho bảo trì, có trường trạng thái và gán được người yêu cầu, người thực hiện; `IfcProjectOrder` loại lệnh công việc bảo trì và `IfcTask` cũng mang trạng thái; `IfcApproval` ghi trạng thái phê duyệt, thời điểm, người đề nghị và người phê duyệt, kể cả phê duyệt nhiều cấp; `IfcPerformanceHistory` ghi dữ liệu đo theo thời gian từ hệ tự động hóa tòa nhà và gán được cho sản phẩm \[CẦN NGUỒN: IFC4 ADD2 TC1\]. Trường trạng thái lưu giá trị hiện tại, còn `IfcOwnerHistory` lưu lần sửa cuối của đối tượng.
+
+Thứ hai, Bellon và cộng sự (2025) dùng các thực thể chuẩn của IFC 4.3 để biểu diễn chuỗi lần kiểm tra – hư hỏng – cấu kiện – nhiệm vụ bảo trì – chi phí cho hư hỏng phát hiện bằng mắt: lần kiểm tra là một `IfcTask` loại kiểm tra, hư hỏng là sản phẩm của lần kiểm tra qua `IfcRelAssignsToProduct`, hư hỏng gắn vào cấu kiện qua `IfcRelAdheresToElement`, và nhiệm vụ bảo trì nhận hư hỏng qua `IfcRelAssignsToProcess` \[35\] (tr. 4–7, 9). Đây là tiền lệ gần nhất của chuỗi kiểm tra – cấu kiện – hành động bằng thực thể chuẩn.
+
+Thứ ba, BIM Collaboration Format (BCF) 3.0 của buildingSMART biểu diễn vấn đề trao đổi giữa các bên trên mô hình. Mỗi vấn đề có trạng thái và loại lấy từ danh sách của dự án, người tạo và thời điểm tạo, các bình luận có tác giả và ngày; cấu kiện liên quan được chỉ qua góc nhìn mang `IfcGuid` (BCF-XML, mục Topic, Comment, Components). Giao diện lập trình BCF-API 3.0 có dịch vụ sự kiện của vấn đề, mỗi lần đổi trạng thái hay người được giao sinh một sự kiện có ngày, tác giả và giá trị mới, nhằm giữ lịch sử đầy đủ; máy chủ có thể giới hạn thao tác theo người dùng (BCF-API, mục 1.2, 3.1.5, 3.9) \[@K5SGFIGW\].
+
+Ba tiền lệ cho thấy trạng thái, phê duyệt, lịch sử đổi trạng thái và liên kết vấn đề với cấu kiện đã có chuẩn biểu diễn. Phần mà luận án bổ sung nằm ở chỗ nối các cấu trúc đó với bằng chứng tình trạng: quan hệ định kiểu từ yêu cầu hay hành động về bằng chứng đã làm phát sinh nó, nguồn gốc và phạm vi hiệu lực của bằng chứng, và căn cứ cùng vai trò chuyên môn của từng lần đổi trạng thái. Theo nhận định của nghiên cứu sinh, trong IFC4 cả yêu cầu hành động lẫn lịch sử đo đều là lớp con của `IfcControl`, và quan hệ gán điều khiển cho điều khiển bị loại trừ, nên chưa có quan hệ định kiểu từ yêu cầu về dữ liệu quan trắc làm căn cứ. Hai khoảng trống tương ứng được phát biểu ở mục 5.2.
 
 ### 2.2.3. Giới hạn của định danh và mô hình thông tin
 
