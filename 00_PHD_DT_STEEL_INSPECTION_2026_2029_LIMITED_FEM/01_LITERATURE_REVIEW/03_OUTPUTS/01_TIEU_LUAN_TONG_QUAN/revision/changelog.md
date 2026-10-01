@@ -417,3 +417,12 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
   - 2.1.1: thêm đoạn ISO 55000:2024 (93 từ) ở mức tên, phạm vi, ấn bản; định vị ISO 55000 là khung quản lý tài sản, ISO 19650-3 là khung quản lý thông tin vận hành. Toàn văn chưa tiếp cận (trang iso.org bị Cloudflare chặn, không vượt qua); ghi chú ẩn trong tệp.
   - Mục nhãn tạm 2.2.2A "Chuẩn biểu diễn vấn đề, yêu cầu và hành động bảo trì" (542 từ), trước 2.2.3: IFC4 (`IfcActionRequest`, `IfcProjectOrder` bảo trì, `IfcTask`, `IfcApproval`, `IfcPerformanceHistory`, `IfcOwnerHistory`); [35] chuỗi IFC 4.3 (tr. 4–7, 9); BCF 3.0 (BCF-XML Topic, Comment, Components; BCF-API mục 1.2, 3.1.5, 3.9); đoạn phần bổ sung của luận án, trỏ 5.2, 5.5. Nội dung theo kết quả kiểm phản chứng 30/09 trong `revision/GD2_nhat_ky_khoang_trong.md`.
 - Trích dẫn mới trong Chương 2: \[@8PB7EN2E\], \[@K5SGFIGW\]; dùng lại [35]. Một chỗ `[CẦN NGUỒN: IFC4 ADD2 TC1]` (đã đọc đặc tả 30/09 nhưng chưa nhập Zotero).
+
+## Phiên 02/10/2026 – Duyệt Chương 2; đồng bộ Chương 4
+- NCS duyệt phần bổ sung Chương 2. CLAUDE.md mục 12 cập nhật.
+- `tieuluan/04_chuong4.md` (5.843 → 6.322 từ):
+  - 4.2.1: thay câu "đặt bản ghi bằng chứng trên lớp quan trắc của SOSA và SSN" (trái QĐ không dùng RDF, mục 8) bằng đoạn nêu `ssn:Deployment` làm tiền lệ cho ánh xạ cảm biến – cấu kiện cùng [2]; phần bổ sung là khoảng hiệu lực bắt buộc và C3; đối chiếu bằng Bảng A.4. Dẫn `[CẦN NGUỒN: Khuyến nghị W3C SSN]` như Phụ lục A.
+  - 4.5.3: câu loại B "không phải đóng góp mới" viết lại thành câu kế thừa.
+  - 4.5.4 viết lại, đổi tên "Mức ưu tiên, trạng thái xử lý và lịch sử chuyển trạng thái" (496 từ): tách `priority_level` và `Action_Status`; ví dụ trạng thái của `IfcActionRequest` trộn hai trục (nhận định của NCS); tiền lệ BCF-API 3.0 và [44] (tr. 3, 19–25); kế thừa khuôn bước chuyển có bằng chứng và đúng thẩm quyền; trỏ Bảng A.3, C6, C9.
+- Trích dẫn: \[@K5SGFIGW\] (đã có), [44] lần đầu trong Chương 4; thêm một `[CẦN NGUỒN: Khuyến nghị W3C SSN]` và một `[CẦN NGUỒN: IFC4 ADD2 TC1]`.
+- Phát hiện, chưa sửa: 4.5.5 trích [80] (đã bỏ khỏi danh sách key, chưa đọc); 4.2.1 trích [61], [62] cho nội dung SOSA (chưa đọc hai bài, nội dung đã kiểm qua Khuyến nghị W3C).
