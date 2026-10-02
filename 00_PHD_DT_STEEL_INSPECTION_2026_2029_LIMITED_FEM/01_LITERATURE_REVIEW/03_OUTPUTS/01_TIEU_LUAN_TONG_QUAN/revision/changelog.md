@@ -489,3 +489,9 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 
 ## Phiên 02/10/2026 – Rà soát tổng thể
 - `revision/RS_ra_soat_tong_the_20261002.md`: 13 việc A1–A13, văn phong Ch.2–5. NCS quyết định: hồ sơ B0 lấy của nhà xưởng Khánh Hòa (cùng BIM MT2); Bài 1 chạy đủ bốn mô hình và LOCO ba đợt; các phiên HT1 p2 – HT3 đã duyệt. CLAUDE.md mục 2A, 8, 12 cập nhật.
+
+## Phiên 02/10/2026 – HT4 sửa gộp A1–A7, A9 (NCS duyệt)
+- 28 lệnh sửa trên 7 tệp (`revision/HT4_sua_gop_A_edits.json`): bóng số là mức thiết kế (5.9.5, 2.4); Bảng 5.8 ở 4.4.3; 1.2.4 phòng thí nghiệm và hai nhà xưởng, B0 từ nhà xưởng Khánh Hòa (5.5.2, Bảng 5.4, 5.10, Thuật ngữ, Phụ lục A); bỏ "một tầng"; 29 tài liệu; "cấp ăn mòn C3"; chú thích ẩn khai báo AI (Pha 4); "bản ghi kiểm tra" cho thực thể INSPECTION_RECORD (17 chỗ). Biên bản: `revision/HT4_sua_gop_A_20261002.md`.
+
+## Phiên 02/10/2026 – HT3 Pha 3 Chương 5: văn phong (NCS duyệt)
+- 61 lệnh sửa (`revision/HT3_ch5_edits.json`): câu > 45 âm tiết 50 → 24, bôi đậm 45 → 11 (nhãn), cụm giới hạn 6 → 0; bỏ danh sách 9 mục ở 5.1.3, năm ràng buộc ở 5.8.2, hai câu lặp quy tắc; 5.9.2, 5.9.4 viết khẳng định; RQ dạng trích khối; LOCO cả ba đợt; trích dẫn không đổi. Biên bản: `revision/HT3_ch5_van_phong_20261002.md`.

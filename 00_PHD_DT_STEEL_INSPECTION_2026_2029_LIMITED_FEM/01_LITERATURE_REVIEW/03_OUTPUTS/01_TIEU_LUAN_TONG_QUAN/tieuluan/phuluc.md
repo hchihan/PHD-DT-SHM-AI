@@ -66,7 +66,7 @@ Quan hệ có thuộc tính giữa bản ghi kiểm tra và bằng chứng là *
 
 **Sự kiện chuyển trạng thái** (`STATUS_EVENT`). Một lần đổi trạng thái xử lý của hành động, ghi trạng thái trước và sau, thời điểm, vai trò người thực hiện, lý do và bản ghi sử dụng bằng chứng làm căn cứ.
 
-**Đối chứng B0 và B1.** B0 là hồ sơ kiểm định theo thực hành hiện hành, mã hóa tay 20–30 hồ sơ. B1 là mô hình chỉ dùng IFC 4.3 theo \[35\] và BCF 3.0, chưa có tầng bằng chứng và tầng trách nhiệm, dựng trên cùng BIM nhà xưởng.
+**Đối chứng B0 và B1.** B0 là hồ sơ kiểm định theo thực hành hiện hành, mã hóa tay 20–30 hồ sơ của nhà xưởng ở Khánh Hòa. B1 là mô hình chỉ dùng IFC 4.3 theo \[35\] và BCF 3.0, chưa có tầng bằng chứng và tầng trách nhiệm, dựng trên cùng BIM nhà xưởng.
 
 **Ràng buộc về sử dụng bằng chứng ngoài phạm vi hiệu lực.** Ràng buộc C5 ở Phụ lục B.
 

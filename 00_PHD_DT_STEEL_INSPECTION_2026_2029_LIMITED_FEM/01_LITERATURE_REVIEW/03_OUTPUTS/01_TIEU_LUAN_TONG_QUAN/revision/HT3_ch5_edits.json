@@ -1,0 +1,307 @@
+[
+ {
+  "nhom": "tách câu",
+  "truoc": "Các chương trước cho thấy quản lý nhà công nghiệp khung thép trong giai đoạn vận hành không thiếu dữ liệu theo nghĩa tuyệt đối. Dữ liệu tồn tại ở nhiều lớp: tín hiệu cảm biến trong hệ thu nhận; hình học và thuộc tính cấu kiện trong mô hình thông tin công trình; hồ sơ kiểm tra trong biểu mẫu hoặc hệ quản lý bảo trì; lịch sử xử lý trong các hệ thống quản lý công việc.",
+  "sau": "Các chương trước cho thấy khó khăn của quản lý nhà công nghiệp khung thép trong giai đoạn vận hành không nằm ở việc thiếu dữ liệu. Dữ liệu tồn tại ở nhiều lớp. Tín hiệu cảm biến nằm trong hệ thu nhận, còn hình học và thuộc tính cấu kiện nằm trong mô hình thông tin công trình. Hồ sơ kiểm tra nằm trong biểu mẫu hoặc hệ quản lý bảo trì, và lịch sử xử lý nằm trong các hệ thống quản lý công việc."
+ },
+ {
+  "nhom": "giới hạn B",
+  "truoc": "(mục 2.2.2 và mục 5.1.3). Luận án vì vậy không đặt khoảng trống ở việc “có BIM”, “có cảm biến” hay “đưa dữ liệu lên mô hình”.",
+  "sau": "(Mục 2.2.2 và 5.1.3). Luận án vì vậy kế thừa việc có BIM, có cảm biến và đưa dữ liệu lên mô hình như điều kiện nền."
+ },
+ {
+  "nhom": "bôi đậm",
+  "truoc": "Điểm cần giải quyết nằm sâu hơn: **khi một kết quả kỹ thuật đã được xác lập chất lượng và phạm vi hiệu lực, các thuộc tính đó có được bảo toàn khi kết quả đi vào chuỗi thông tin quản lý hay không**.",
+  "sau": "Điểm cần giải quyết nằm ở bước sau: khi một kết quả kỹ thuật đã được xác lập chất lượng và phạm vi hiệu lực, các thuộc tính đó có được bảo toàn khi kết quả đi vào chuỗi thông tin quản lý hay không."
+ },
+ {
+  "nhom": "giới hạn B, tách câu",
+  "truoc": "Các nguyên tắc phương pháp về đánh giá cũng không mới và bao phủ gần hết các rủi ro của một thí nghiệm dao động: phân biệt số quan sát tính toán với số đơn vị độc lập thực \\[14\\]; ảnh hưởng của cấp nguồn vật lý dùng để phân tách dữ liệu \\[15\\]; chia theo sự kiện vật lý trước rồi mới học các phép biến đổi từ phần huấn luyện \\[52\\]; rò rỉ còn tồn tại khi cùng một chi tiết vật lý xuất hiện ở cả hai phía phép chia \\[20\\]; suy giảm khả năng chuyển giao khi giữ lại một đợt thí nghiệm chưa thấy sau tháo – lắp lại \\[19\\].",
+  "sau": "Các nguyên tắc phương pháp về đánh giá đã được xác lập và bao phủ gần hết các rủi ro của một thí nghiệm dao động. Số quan sát tính toán cần được phân biệt với số đơn vị độc lập thực \\[14\\], và cấp nguồn vật lý dùng để phân tách dữ liệu ảnh hưởng tới hiệu năng đo được \\[15\\]. Dữ liệu cần được chia theo sự kiện vật lý trước, rồi mới học các phép biến đổi từ phần huấn luyện \\[52\\]. Rò rỉ vẫn tồn tại khi cùng một chi tiết vật lý xuất hiện ở cả hai phía phép chia \\[20\\], và khả năng chuyển giao suy giảm khi giữ lại một đợt thí nghiệm chưa thấy sau tháo – lắp lại \\[19\\]."
+ },
+ {
+  "nhom": "bôi đậm",
+  "truoc": "giữ lại đợt thí nghiệm và kiểm định mức ngẫu nhiên từ \\[53\\], \\[54\\]. Giá trị nghiên cứu nằm ở việc dùng chúng để xác định **một kết quả có thể được tin cậy trong phạm vi nào**, và đầu ra cần được quản lý như **bằng chứng trạng thái** gắn với nguồn gốc và điều kiện đánh giá.",
+  "sau": "giữ lại đợt thí nghiệm và kiểm định mức ngẫu nhiên từ các nghiên cứu trên và \\[53\\], \\[54\\]. Giá trị nghiên cứu nằm ở việc dùng chúng để xác định một kết quả có thể được tin cậy trong phạm vi nào, và đầu ra cần được quản lý như bằng chứng trạng thái gắn với nguồn gốc và điều kiện đánh giá."
+ },
+ {
+  "nhom": "giới hạn B, lặp ý (Bảng 5.1)",
+  "truoc": "Với các tiền lệ này, tính mới không đặt được ở từng thành phần riêng lẻ. Luận án không xem các nội dung sau là đóng góp mới tự thân:\n\n- liên kết cảm biến với BIM;\n\n- sử dụng định danh IFC;\n\n- đưa hồ sơ kiểm tra hoặc sửa chữa vào hệ thống số;\n\n- điều hướng giữa BIM và hệ quản lý bảo trì;\n\n- ghi nguồn gốc dữ liệu;\n\n- sử dụng các quy tắc kiểm tra dữ liệu;\n\n- đưa con người vào quy trình rà soát;\n\n- dùng câu hỏi nghiệp vụ và phép kiểm tra đạt/không đạt khi đứng riêng;\n\n- duy trì định danh cấu kiện qua các giai đoạn vòng đời khi đứng riêng.",
+  "sau": "Với các tiền lệ này, tính mới không đặt được ở từng thành phần riêng lẻ. Luận án kế thừa từ các nghiên cứu trên việc liên kết cảm biến với BIM, dùng định danh IFC, số hóa hồ sơ kiểm tra – sửa chữa, điều hướng giữa BIM và hệ quản lý bảo trì, ghi nguồn gốc dữ liệu, kiểm dữ liệu bằng quy tắc và phép kiểm đạt/không đạt, đưa con người vào quy trình rà soát, và duy trì định danh cấu kiện qua vòng đời. Bảng 5.1 ghi phần kế thừa và phần còn lại cho từng nhóm nội dung."
+ },
+ {
+  "nhom": "bôi đậm",
+  "truoc": "Phần còn lại nằm ở **cách các thành phần đã tồn tại được nối thành một chuỗi trong đó chất lượng và phạm vi hiệu lực của bằng chứng được bảo toàn tới hồ sơ và trạng thái hành động**.",
+  "sau": "Phần còn lại nằm ở cách các thành phần đã tồn tại được nối thành một chuỗi, trong đó chất lượng và phạm vi hiệu lực của bằng chứng được bảo toàn tới bản ghi kiểm tra và trạng thái hành động."
+ },
+ {
+  "nhom": "bôi đậm",
+  "truoc": "Các khoảng trống của luận án nằm tại **các điểm nối giữa những thành phần đã có tiền lệ**.",
+  "sau": "Các khoảng trống của luận án nằm tại các điểm nối giữa những thành phần đã có tiền lệ."
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "lớn đến đâu đối với phân loại dựa trên dao động của liên kết bu lông trong khung thép: các nghiên cứu đã rà soát cho bài toán này chia tập trong cùng lần lắp ráp hoặc cùng bản ghi \\[48\\], \\[@VVBGM9EN\\], nên không báo được chênh lệch.",
+  "sau": "lớn đến đâu đối với phân loại dựa trên dao động của liên kết bu lông trong khung thép. Các nghiên cứu đã rà soát cho bài toán này chia tập trong cùng lần lắp ráp hoặc cùng bản ghi \\[48\\], \\[@VVBGM9EN\\], nên chưa báo được chênh lệch đó."
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "Từ vựng nguồn gốc cho từng kết quả đã có trong PROV-O \\[69\\]; SSN có khái niệm điều kiện mà năng lực đo của cảm biến có hiệu lực \\[@GHAZGWUN\\] (mục 5.1); thẻ mô hình",
+  "sau": "Từ vựng nguồn gốc cho từng kết quả đã có trong PROV-O \\[69\\], và SSN có khái niệm điều kiện mà năng lực đo của cảm biến có hiệu lực \\[@GHAZGWUN\\] (mục 5.1). Thẻ mô hình"
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "chưa là trường bắt buộc của từng bằng chứng, có lần lắp ráp – can thiệp và điều kiện vận hành làm thành phần, và chưa được kiểm tại lần sử dụng.",
+  "sau": "chưa là trường bắt buộc của từng bằng chứng và chưa được kiểm tại lần sử dụng; lần lắp ráp – can thiệp và điều kiện vận hành cũng chưa là thành phần của phạm vi đó."
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "Nghiên cứu này kiểm hai điều: mức chênh lệch giữa đánh giá cùng lần chạy và hai mức đánh giá theo đơn vị độc lập, giữ lại lần chạy và giữ lại đợt thí nghiệm, trên khung thép thu nhỏ (Mục tiêu 1), và khả năng kiểm bằng máy việc dùng bằng chứng ngoài phạm vi (Mục tiêu 2).",
+  "sau": "Nghiên cứu này kiểm hai điều. Điều thứ nhất là mức chênh lệch giữa đánh giá cùng lần chạy và hai mức đánh giá theo đơn vị độc lập, giữ lại lần chạy và giữ lại đợt thí nghiệm, trên khung thép thu nhỏ (Mục tiêu 1). Điều thứ hai là khả năng kiểm bằng máy việc dùng bằng chứng ngoài phạm vi (Mục tiêu 2)."
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "IFC4 có lệnh bảo trì có trạng thái và phê duyệt ghi người, thời điểm \\[@63XPSMIR\\]; BCF 3.0 ghi trạng thái vấn đề gắn cấu kiện và sự kiện đổi trạng thái \\[@K5SGFIGW\\]; bước chuyển",
+  "sau": "IFC4 có lệnh bảo trì mang trạng thái và phê duyệt ghi người, thời điểm \\[@63XPSMIR\\]. BCF 3.0 ghi trạng thái vấn đề gắn cấu kiện và sự kiện đổi trạng thái \\[@K5SGFIGW\\]. Bước chuyển"
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "chưa đi vào chuỗi kiểm tra – cấu kiện – hành động, và mỗi lần đổi trạng thái của hành động, kể cả lần kỹ sư xác nhận một đầu ra AI, chưa được ghi",
+  "sau": "chưa đi vào chuỗi kiểm tra – cấu kiện – hành động. Mỗi lần đổi trạng thái của hành động, kể cả lần kỹ sư xác nhận một đầu ra AI, cũng chưa được ghi"
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "Nghiên cứu này kiểm xem một mô hình thông tin mở rộng IFC 4.3 và BCF 3.0 bằng tầng bằng chứng và tầng trách nhiệm có phát hiện được các lỗi dùng bằng chứng ngoài phạm vi và đổi trạng thái không căn cứ hay không, so với hồ sơ kiểm định hiện hành và với mô hình chỉ dùng các chuẩn sẵn có (Mục tiêu 2), và có vận hành được trên một nhà xưởng thật hay không (Mục tiêu 3).",
+  "sau": "Nghiên cứu này kiểm xem một mô hình thông tin mở rộng IFC 4.3 và BCF 3.0 bằng tầng bằng chứng và tầng trách nhiệm có phát hiện được hai nhóm lỗi hay không: dùng bằng chứng ngoài phạm vi và đổi trạng thái không căn cứ. Đối chứng là hồ sơ kiểm định hiện hành và mô hình chỉ dùng các chuẩn sẵn có (Mục tiêu 2). Nghiên cứu cũng kiểm chuỗi đó có vận hành được trên một nhà xưởng thật hay không (Mục tiêu 3)."
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "nhà công nghiệp khung thép, trong đó bằng chứng trạng thái từ dữ liệu dao động mang nguồn gốc, độ bất định và phạm vi hiệu lực, được gắn với",
+  "sau": "nhà công nghiệp khung thép. Trong mô hình đó, bằng chứng trạng thái từ dữ liệu dao động mang nguồn gốc, độ bất định và phạm vi hiệu lực, và được gắn với"
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "Định lượng hiệu năng của bốn mô hình, gồm rừng ngẫu nhiên (Random Forest, RF), máy véc-tơ hỗ trợ với nhân RBF (SVM-RBF), mạng tích chập một chiều (1D-CNN) và mạng phần dư một chiều (ResNet1D), trong việc phân biệt các trạng thái liên kết bu lông có kiểm soát trên mô hình khung thép tỉ lệ 1:10 khi đánh giá theo đơn vị độc lập ở hai mức, giữ lại một lần chạy (LORO) và giữ lại một đợt thí nghiệm (LOCO); đo mức chênh lệch của mỗi mức so với đánh giá cùng lần chạy; và khai báo phạm vi hiệu lực cho từng kết quả dưới dạng bản ghi bằng chứng.",
+  "sau": "Định lượng hiệu năng của bốn mô hình trong việc phân biệt các trạng thái liên kết bu lông có kiểm soát trên mô hình khung thép tỉ lệ 1:10. Bốn mô hình gồm rừng ngẫu nhiên (Random Forest, RF), máy véc-tơ hỗ trợ với nhân RBF (SVM-RBF), mạng tích chập một chiều (1D-CNN) và mạng phần dư một chiều (ResNet1D). Hiệu năng được đánh giá theo đơn vị độc lập ở hai mức, giữ lại một lần chạy (LORO) và giữ lại một đợt thí nghiệm (LOCO) trên cả ba đợt, và mức chênh lệch của mỗi mức được đo so với đánh giá cùng lần chạy. Mỗi kết quả được khai báo phạm vi hiệu lực dưới dạng bản ghi bằng chứng."
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "bằng hai tầng: tầng bằng chứng (nguồn gốc, độ bất định, phạm vi hiệu lực) và tầng trách nhiệm (sự kiện chuyển trạng thái có căn cứ và vai trò người thực hiện, xác minh sau sửa chữa).",
+  "sau": "bằng hai tầng. Tầng bằng chứng ghi nguồn gốc, độ bất định và phạm vi hiệu lực; tầng trách nhiệm ghi sự kiện chuyển trạng thái có căn cứ, vai trò người thực hiện và bước xác minh sau sửa chữa."
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "Mô hình được đánh giá trên BIM của nhà xưởng ở Khánh Hòa mà mô hình 1:10 mô phỏng (Mục 1.2.4), so với hồ sơ kiểm định theo thực hành hiện hành (B0) và với mô hình chỉ dùng IFC 4.3 theo \\[35\\] và BCF 3.0 (B1), lấy tỉ lệ phát hiện lỗi chèn mù làm chỉ số chính.",
+  "sau": "Mô hình được đánh giá trên BIM của nhà xưởng ở Khánh Hòa mà mô hình 1:10 mô phỏng (Mục 1.2.4), lấy tỉ lệ phát hiện lỗi chèn mù làm chỉ số chính. Hai đối chứng là hồ sơ kiểm định của chính nhà xưởng này theo thực hành hiện hành (B0) và mô hình chỉ dùng IFC 4.3 theo \\[35\\] cùng BCF 3.0 (B1)."
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "Triển khai chuỗi bằng chứng – hành động của Mục tiêu 2 trên một nhà xưởng khung thép đang khai thác có BIM: lắp 6–10 cảm biến ở các liên kết đại diện, lập đường cơ sở vận hành, sinh bằng chứng cảm biến bằng Autoencoder có bù nhiệt độ",
+  "sau": "Triển khai chuỗi bằng chứng – hành động của Mục tiêu 2 trên nhà xưởng khung thép đang khai thác ở Đắk Lắk, đã có BIM. Các bước gồm lắp 6–10 cảm biến ở các liên kết đại diện, lập đường cơ sở vận hành, sinh bằng chứng cảm biến bằng autoencoder có bù nhiệt độ"
+ },
+ {
+  "nhom": "bôi đậm (câu hỏi nghiên cứu → trích khối)",
+  "truoc": "**Khi đánh giá theo đơn vị độc lập ở hai mức, giữ lại một lần chạy và giữ lại một đợt thí nghiệm, bốn mô hình RF, SVM-RBF, 1D-CNN và ResNet1D phân biệt các trạng thái liên kết bu lông có kiểm soát trên khung thép 1:10 ở mức nào, chênh lệch bao nhiêu so với đánh giá cùng lần chạy, và mỗi kết quả được dùng trong phạm vi nào?**",
+  "sau": "> Khi đánh giá theo đơn vị độc lập ở hai mức, giữ lại một lần chạy và giữ lại một đợt thí nghiệm, bốn mô hình RF, SVM-RBF, 1D-CNN và ResNet1D phân biệt các trạng thái liên kết bu lông có kiểm soát trên khung thép 1:10 ở mức nào, chênh lệch bao nhiêu so với đánh giá cùng lần chạy, và mỗi kết quả được dùng trong phạm vi nào?"
+ },
+ {
+  "nhom": "bôi đậm (câu hỏi nghiên cứu → trích khối)",
+  "truoc": "**Trên cùng BIM của nhà xưởng ở Khánh Hòa, so với hồ sơ kiểm định theo thực hành hiện hành (B0) và với mô hình IFC 4.3 theo \\[35\\] cùng BCF 3.0 chưa có tầng bằng chứng và tầng trách nhiệm (B1), mô hình đề xuất phát hiện được tỉ lệ nào của các lỗi chèn mù theo từng nhóm lỗi, và mức đủ thuộc tính bắt buộc, khả năng truy ngược, chi phí ghi nhận thay đổi ra sao?**",
+  "sau": "> Trên cùng BIM của nhà xưởng ở Khánh Hòa, so với hồ sơ kiểm định theo thực hành hiện hành (B0) và với mô hình IFC 4.3 theo \\[35\\] cùng BCF 3.0 chưa có tầng bằng chứng và tầng trách nhiệm (B1), mô hình đề xuất phát hiện được tỉ lệ nào của các lỗi chèn mù theo từng nhóm lỗi, và mức đủ thuộc tính bắt buộc, khả năng truy ngược, chi phí ghi nhận thay đổi ra sao?"
+ },
+ {
+  "nhom": "bôi đậm (câu hỏi nghiên cứu → trích khối)",
+  "truoc": "**Trên một nhà xưởng khung thép thật có BIM, chuỗi bằng chứng – hành động có thu đủ dữ liệu, giữ đúng ánh xạ cảm biến – cấu kiện và truy ngược được một kịch bản kiểm tra – xử lý đầu cuối không, với chi phí ghi nhận bao nhiêu?**",
+  "sau": "> Trên một nhà xưởng khung thép thật có BIM, chuỗi bằng chứng – hành động có thu đủ dữ liệu, giữ đúng ánh xạ cảm biến – cấu kiện và truy ngược được một kịch bản kiểm tra – xử lý đầu cuối không, với chi phí ghi nhận bao nhiêu?"
+ },
+ {
+  "nhom": "bôi đậm",
+  "truoc": "**Câu hỏi 1: Bằng chứng đáng tin trong phạm vi nào?\\",
+  "sau": "Câu hỏi 1: Bằng chứng đáng tin trong phạm vi nào?\\"
+ },
+ {
+  "nhom": "bôi đậm",
+  "truoc": "Câu hỏi 3: Chuỗi đó vận hành được trên nhà xưởng thật với chi phí bao nhiêu?**",
+  "sau": "Câu hỏi 3: Chuỗi đó vận hành được trên nhà xưởng thật với chi phí bao nhiêu?"
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "Dữ liệu ba đợt thí nghiệm trên khung thép 1:10; bốn mô hình; đánh giá ba mức: cùng lần chạy, giữ lại lần chạy (LORO), giữ lại đợt (LOCO);",
+  "sau": "Dữ liệu ba đợt thí nghiệm trên khung thép 1:10; bốn mô hình; đánh giá ba mức: cùng lần chạy, giữ lại lần chạy (LORO), giữ lại đợt (LOCO, cả ba đợt);"
+ },
+ {
+  "nhom": "thuật ngữ",
+  "truoc": "đường cơ sở vận hành; Autoencoder có bù nhiệt độ",
+  "sau": "đường cơ sở vận hành; autoencoder có bù nhiệt độ"
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "Xác định đơn vị độc lập (lần chạy, đợt) trên dữ liệu ba đợt; đánh giá bốn mô hình theo ba mức, cùng lần chạy, giữ lại một lần chạy (LORO) và giữ lại một đợt (LOCO); báo cáo biến thiên theo seed và fold cùng kiểm định hoán vị; hiệu năng đo bằng chỉ số phân loại chấm theo bản ghi, chỉ số cụ thể được khóa trong Bài báo 1; ghi mỗi kết quả thành bản ghi bằng chứng có phiên bản phương pháp, độ bất định và phạm vi hiệu lực.",
+  "sau": "Xác định đơn vị độc lập (lần chạy, đợt) trên dữ liệu ba đợt, rồi đánh giá bốn mô hình theo ba mức: cùng lần chạy, giữ lại một lần chạy (LORO) và giữ lại một đợt (LOCO, luân phiên cả ba đợt). Hiệu năng đo bằng chỉ số phân loại chấm theo bản ghi; chỉ số cụ thể được khóa trong Bài báo 1. Kết quả được báo cáo kèm biến thiên theo seed và fold cùng kiểm định hoán vị. Mỗi kết quả được ghi thành bản ghi bằng chứng có phiên bản phương pháp, độ bất định và phạm vi hiệu lực."
+ },
+ {
+  "nhom": "câu dài → danh mục song song",
+  "truoc": "Trước lần đo đầu tiên, khóa và lưu có phiên bản: quy tắc mã hóa 20–30 hồ sơ kiểm định cũ của nhà xưởng ở Khánh Hòa làm B0; đặc tả B1 bám sát \\[35\\] và BCF 3.0; danh sách khoảng 30 lỗi do một người không tham gia thiết kế chèn mù, gồm các nhóm dùng bằng chứng ngoài phạm vi, sai thời hạn ánh xạ cảm biến – cấu kiện và đổi trạng thái không căn cứ; bộ câu hỏi truy ngược, được xác nhận với người quản lý kiểm tra – bảo trì phía chủ đầu tư; cách tính bốn chỉ số: M1 là mức đủ thuộc tính bắt buộc, M2 là tỉ lệ phát hiện lỗi chèn mù theo từng nhóm lỗi (chỉ số chính), M3 là thời gian hoặc số bước để trả lời ba câu hỏi của người quản lý, M4 là số phút ghi nhận mỗi bản ghi. So sánh M1 có ý nghĩa với B1; với B0, chênh lệch M1 chủ yếu do mô hình đề xuất bắt buộc các trường.",
+  "sau": "Trước lần đo đầu tiên, năm nội dung được khóa và lưu có phiên bản:\n\n- quy tắc mã hóa 20–30 hồ sơ kiểm định cũ của nhà xưởng ở Khánh Hòa làm B0;\n\n- đặc tả B1 bám sát \\[35\\] và BCF 3.0;\n\n- danh sách khoảng 30 lỗi do một người không tham gia thiết kế chèn mù, gồm các nhóm dùng bằng chứng ngoài phạm vi, sai thời hạn ánh xạ cảm biến – cấu kiện và đổi trạng thái không căn cứ;\n\n- bộ câu hỏi truy ngược, được xác nhận với người quản lý kiểm tra – bảo trì phía chủ đầu tư;\n\n- cách tính bốn chỉ số: M1 là mức đủ thuộc tính bắt buộc, M2 là tỉ lệ phát hiện lỗi chèn mù theo từng nhóm lỗi (chỉ số chính), M3 là thời gian hoặc số bước để trả lời ba câu hỏi của người quản lý, M4 là số phút ghi nhận mỗi bản ghi.\n\nSo sánh M1 có ý nghĩa với B1; với B0, chênh lệch M1 chủ yếu do mô hình đề xuất bắt buộc các trường."
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "Lắp cảm biến với bản ghi lắp đặt và khoảng hiệu lực của ánh xạ; lập đường cơ sở vận hành trong 3–6 tháng; chạy kịch bản cột C3 ở Mục 1.4, trong đó một bất thường dẫn tới bằng chứng gắn cột, kiểm tra của kỹ sư, phê duyệt, hành động, xác minh sau sửa chữa và truy ngược; đối chiếu ánh xạ với thực địa.",
+  "sau": "Lắp cảm biến kèm bản ghi lắp đặt và khoảng hiệu lực của ánh xạ, rồi lập đường cơ sở vận hành trong 3–6 tháng. Sau đó chạy kịch bản cột C3 ở Mục 1.4: một bất thường dẫn tới bằng chứng gắn cột, kiểm tra của kỹ sư, phê duyệt, hành động, xác minh sau sửa chữa và truy ngược. Ánh xạ cảm biến – cấu kiện được đối chiếu với thực địa."
+ },
+ {
+  "nhom": "tách câu, lặp ý (1.4)",
+  "truoc": "kiểm được bằng năm ràng buộc và bằng bộ lỗi chèn mù; trả lời được ba câu hỏi của người quản lý: cái gì bất thường, ở đâu; tin được đến mức nào; ai đã xử lý, dựa vào đâu.",
+  "sau": "kiểm được bằng năm ràng buộc và bằng bộ lỗi chèn mù. Chuỗi trả lời được ba câu hỏi của người quản lý ở Mục 1.4."
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "có người rà soát và có sự kiện chuyển trạng thái được ghi; quyết định thuộc kỹ sư",
+  "sau": "có người rà soát và có sự kiện chuyển trạng thái được ghi. Quyết định thuộc kỹ sư"
+ },
+ {
+  "nhom": "bôi đậm",
+  "truoc": "**Luồng dữ liệu** đi từ cảm biến",
+  "sau": "Luồng dữ liệu đi từ cảm biến"
+ },
+ {
+  "nhom": "bôi đậm",
+  "truoc": "**Luồng trách nhiệm** đi từ người",
+  "sau": "Luồng trách nhiệm đi từ người"
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "độ bất định và phạm vi hiệu lực; sự kiện chuyển trạng thái lưu trạng thái trước và sau",
+  "sau": "độ bất định và phạm vi hiệu lực. Sự kiện chuyển trạng thái lưu trạng thái trước và sau"
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "để các cửa sổ của một bản ghi nằm trọn ở một phía của phép chia \\[14\\], \\[53\\]; mức đợt phản ánh biến thiên do tháo – lắp lại và trạng thái tiếp xúc \\[18\\], \\[19\\], \\[56\\]; đánh giá cùng lần chạy chỉ dùng làm mốc để đo mức lạc quan; điểm được chấm theo bản ghi, là đơn vị vật lý của phép đo; kiểm định hoán vị",
+  "sau": "để các cửa sổ của một bản ghi nằm trọn ở một phía của phép chia \\[14\\], \\[53\\]. Mức đợt luân phiên cả ba đợt và phản ánh biến thiên do tháo – lắp lại và trạng thái tiếp xúc \\[18\\], \\[19\\], \\[56\\]. Đánh giá cùng lần chạy chỉ dùng làm mốc để đo mức lạc quan. Điểm được chấm theo bản ghi, là đơn vị vật lý của phép đo, và kiểm định hoán vị"
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "bị lệch lạc quan \\[@D28DT7CE\\]; độ lệch lớn hơn",
+  "sau": "bị lệch lạc quan \\[@D28DT7CE\\]. Độ lệch lớn hơn"
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "Cấp nhóm, đơn vị chấm điểm và đợt lắp đặt ghi vào trường phạm vi hiệu lực của bản ghi bằng chứng (cách chia dữ liệu, đơn vị suy luận, đợt lắp đặt); biến thiên theo seed, fold và kết quả kiểm định hoán vị ghi vào trường độ bất định; nhãn hoặc xác suất lớp ghi vào trường giá trị; mã phiên bản",
+  "sau": "Đầu ra của WP1 đi vào bốn trường của bản ghi bằng chứng. Cấp nhóm, đơn vị chấm điểm và đợt lắp đặt ghi vào trường phạm vi hiệu lực; biến thiên theo seed, fold và kết quả kiểm định hoán vị ghi vào trường độ bất định. Nhãn hoặc xác suất lớp ghi vào trường giá trị, còn mã phiên bản"
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "khó chuyển nguyên sang nhà xưởng: nhãn hiện trường hiếm và đắt, độ lặp lại của kết cấu có mối nối phụ thuộc quy trình lắp ráp, biến đổi môi trường – vận hành có thể che lấp thay đổi do hư hỏng, và bộ phân loại học trên một kết cấu thất bại khi áp sang kết cấu tương tự.",
+  "sau": "khó chuyển nguyên sang nhà xưởng. Nhãn hiện trường hiếm và đắt, và độ lặp lại của kết cấu có mối nối phụ thuộc quy trình lắp ráp. Biến đổi môi trường – vận hành có thể che lấp thay đổi do hư hỏng, và bộ phân loại học trên một kết cấu đã thất bại khi áp sang kết cấu tương tự."
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "luận án đề xuất bù ảnh hưởng môi trường – vận hành (EOV) theo hướng thứ nhất trong hai hướng Figueiredo và cộng sự (2011) phân biệt: tham số hóa đặc trưng theo các biến đo được, thay vì học",
+  "sau": "luận án đề xuất bù ảnh hưởng môi trường – vận hành (EOV). Figueiredo và cộng sự (2011) phân biệt hai hướng bù; luận án theo hướng thứ nhất, tham số hóa đặc trưng theo các biến đo được thay vì học"
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "chưa có trong dữ liệu huấn luyện \\[@23TBQTIP\\], nên dải điều kiện của đường cơ sở được ghi vào trường điều kiện áp dụng, và bằng chứng sinh ngoài dải đó phải kèm lý do khi sử dụng (ràng buộc về sử dụng bằng chứng ngoài phạm vi hiệu lực, Phụ lục B).",
+  "sau": "chưa có trong dữ liệu huấn luyện \\[@23TBQTIP\\]. Vì vậy dải điều kiện của đường cơ sở được ghi vào trường điều kiện áp dụng, và bằng chứng sinh ngoài dải đó phải kèm lý do khi sử dụng (ràng buộc C5 về sử dụng bằng chứng ngoài phạm vi hiệu lực, Phụ lục B)."
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "sinh từ vòng lặp kiểm tra tạo nhãn: một bằng chứng cảm biến vượt ngưỡng đề nghị kiểm tra theo logic bốn mức, kỹ sư kiểm tra cấu kiện, và kết quả được ghi thành bản ghi kiểm tra có người thực hiện, thời điểm và độ bất định của kiểm tra, làm nhãn hiện trường gắn với",
+  "sau": "sinh từ vòng lặp kiểm tra tạo nhãn. Khi một bằng chứng cảm biến vượt ngưỡng đề nghị kiểm tra theo logic bốn mức, kỹ sư kiểm tra cấu kiện. Kết quả được ghi thành bản ghi kiểm tra có người thực hiện, thời điểm và độ bất định của kiểm tra; bản ghi này là nhãn hiện trường gắn với"
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "thông tin hoàn hảo \\[@Z9RD5DMZ\\]; Bull và cộng sự (2022)",
+  "sau": "thông tin hoàn hảo \\[@Z9RD5DMZ\\]. Bull và cộng sự (2022)"
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "cho phân loại trạng thái liên kết bu lông từ dữ liệu dao động trên khung thép, cùng một cách ghi mỗi kết quả",
+  "sau": "cho phân loại trạng thái liên kết bu lông từ dữ liệu dao động trên khung thép. Đi kèm số đo là một cách ghi mỗi kết quả"
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "làm cho ổ trục; phần riêng của luận án",
+  "sau": "làm cho ổ trục. Phần riêng của luận án"
+ },
+ {
+  "nhom": "lặp ý (Phụ lục B)",
+  "truoc": "Năm ràng buộc kiểm bằng máy là không có bản ghi mồ côi; thời điểm đo nằm trong khoảng hiệu lực của ánh xạ cảm biến – cấu kiện; dùng bằng chứng ngoài phạm vi phải có lý do; bước chuyển trạng thái có căn cứ và đúng vai trò; sự kiện trỏ tới phiên bản bằng chứng còn hiệu lực tại thời điểm chuyển.",
+  "sau": "Năm ràng buộc kiểm bằng máy (C1, C3, C5, C6, C9) được phát biểu ở Phụ lục B."
+ },
+ {
+  "nhom": "lặp ý (quy tắc chung)",
+  "truoc": " Bất thường hiện trường dẫn tới kiểm tra; kết luận hư hỏng do kỹ sư đưa ra sau kiểm tra.",
+  "sau": ""
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "đang khai thác có BIM, với số đo về dữ liệu thu được,",
+  "sau": "đang khai thác có BIM. Bằng chứng này gồm số đo về dữ liệu thu được,"
+ },
+ {
+  "nhom": "thuật ngữ",
+  "truoc": "các năng lực Song sinh số cao hơn",
+  "sau": "các năng lực song sinh số cao hơn"
+ },
+ {
+  "nhom": "thuật ngữ",
+  "truoc": "Thành phố thông minh;",
+  "sau": "thành phố thông minh;"
+ },
+ {
+  "nhom": "giới hạn: viết khẳng định, lặp ý (Bảng 5.5)",
+  "truoc": "**Bằng chứng phòng thí nghiệm** chỉ chứng minh khả năng phân biệt các trạng thái có kiểm soát trong điều kiện đã kiểm chứng. Nó không chứng minh hư hỏng trong bối cảnh sử dụng thực.\n\n**Bằng chứng truy vết thông tin** chỉ chứng minh tính toàn vẹn và khả năng kiểm tra của chuỗi quan hệ. Nó không chứng minh độ chính xác của mô hình phân loại.\n\n**Bằng chứng về khả năng áp dụng trong bối cảnh thực tế** chỉ chứng minh kiến trúc có thể duy trì các quan hệ thông tin cần thiết trong điều kiện vận hành. Nó không chứng minh phát hiện hư hỏng thực.\n\n**Bằng chứng hỗ trợ quyết định** chỉ chứng minh quy trình có thể trình bày căn cứ minh bạch và được con người rà soát. Nó không chứng minh hành động là tối ưu hoặc tự động đúng trong mọi trường hợp.",
+  "sau": "Bốn loại bằng chứng ở Mục 1.7.5 ứng với bốn lớp ở Mục 5.6.3, và Bảng 5.5 ghi điều không được suy ra từ mỗi mức kiểm chứng. Bằng chứng phòng thí nghiệm xác lập khả năng phân biệt các trạng thái có kiểm soát trong điều kiện đã kiểm chứng; hư hỏng trong bối cảnh sử dụng thực được xác lập qua kiểm tra của kỹ sư. Bằng chứng truy vết thông tin xác lập tính toàn vẹn và khả năng kiểm tra của chuỗi quan hệ, tách khỏi độ chính xác của mô hình phân loại. Bằng chứng về khả năng áp dụng xác lập rằng kiến trúc duy trì được các quan hệ thông tin trong điều kiện vận hành; hiệu năng phát hiện hư hỏng thực là hướng mở rộng. Bằng chứng hỗ trợ quyết định xác lập rằng quy trình trình bày được căn cứ minh bạch và có con người rà soát; tính tối ưu của hành động nằm ngoài phạm vi kết luận."
+ },
+ {
+  "nhom": "bôi đậm, tách câu",
+  "truoc": "Mô hình phần tử hữu hạn chỉ được giữ như **mô hình danh nghĩa, chưa hiệu chuẩn, chỉ dùng để tham chiếu và không dùng cho chẩn đoán hư hỏng**. Mô hình có thể hỗ trợ minh họa vị trí cấu kiện hoặc tham khảo bố trí cảm biến nếu ghi rõ giới hạn, nhưng không được dùng để suy ra suy giảm độ cứng, suy ra lực siết bu lông, xác định mức độ hư hỏng, hiệu chuẩn bộ phân loại, hoặc chuyển kết luận định lượng từ mô hình 1:10 sang công trình thực. Mô hình phần tử hữu hạn không có câu hỏi nghiên cứu, gói công việc, chương, bài báo hoặc nghĩa vụ kiểm chứng độc lập.",
+  "sau": "Mô hình phần tử hữu hạn chỉ được giữ như mô hình danh nghĩa, chưa hiệu chuẩn, chỉ dùng để tham chiếu và không dùng cho chẩn đoán hư hỏng. Mô hình có thể hỗ trợ minh họa vị trí cấu kiện hoặc tham khảo bố trí cảm biến nếu ghi rõ giới hạn. Mô hình không được dùng để suy ra suy giảm độ cứng hay lực siết bu lông, xác định mức độ hư hỏng, hiệu chuẩn bộ phân loại, hoặc chuyển kết luận định lượng từ mô hình 1:10 sang công trình thực. Mô hình phần tử hữu hạn không có câu hỏi nghiên cứu, gói công việc, chương, bài báo hoặc nghĩa vụ kiểm chứng độc lập."
+ },
+ {
+  "nhom": "bôi đậm, từ cấm (toàn diện), giới hạn: viết khẳng định",
+  "truoc": "Tiểu luận sử dụng **tổng quan tài liệu theo chủ đề có cấu trúc**, không tự nhận là tổng quan hệ thống toàn diện hoặc phân tích thư mục định lượng. Hai khoảng trống KT1 và KT2 được xác lập trong tập tài liệu đã rà soát (Mục 1.8). Một số nguồn gần với lớp truy vết và hành động mới được đối chiếu ở mức tóm tắt hoặc qua nguồn thứ cấp; đọc toàn văn các nguồn này thuộc giai đoạn luận án.\n\nCác phát biểu về khoảng trống vì vậy dùng ngôn ngữ có điều kiện và không được nâng thành tuyên bố thiếu vắng phổ quát. Mức bằng chứng hiện tại đủ để xác lập một hướng nghiên cứu hẹp, kiểm chứng được, nhưng không đủ để tuyên bố độc quyền về các thành phần kỹ thuật riêng lẻ.",
+  "sau": "Tiểu luận dùng tổng quan tài liệu theo chủ đề có cấu trúc (Mục 1.8.1), khác với tổng quan hệ thống và phân tích thư mục định lượng. Hai khoảng trống KT1 và KT2 được xác lập trong tập tài liệu đã rà soát (Mục 1.8). Một số nguồn gần với lớp truy vết và hành động mới được đối chiếu ở mức tóm tắt hoặc qua nguồn thứ cấp; đọc toàn văn các nguồn này thuộc giai đoạn luận án.\n\nCác phát biểu về khoảng trống vì vậy dùng ngôn ngữ có điều kiện và được giới hạn trong tập tài liệu đã rà soát. Mức bằng chứng hiện tại đủ để xác lập một hướng nghiên cứu hẹp và kiểm chứng được; các thành phần kỹ thuật riêng lẻ được ghi là kế thừa tiền lệ (Bảng 5.1)."
+ },
+ {
+  "nhom": "thuật ngữ",
+  "truoc": "### 5.9.5. Giới hạn và điều kiện của định vị Song sinh số",
+  "sau": "### 5.9.5. Giới hạn và điều kiện của định vị song sinh số"
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "Năng lực thực đạt được, gồm mức tự động của luồng dữ liệu và của vòng phản hồi thông tin, được đánh giá sau khi triển khai trên nhà xưởng theo các thang của \\[9\\], \\[10\\] (Mục 5.6.6), dựa trên những chức năng đã hiện thực hóa.",
+  "sau": "Năng lực thực đạt được được đánh giá sau khi triển khai trên nhà xưởng, theo các thang của \\[9\\], \\[10\\] (Mục 5.6.6). Đánh giá xét mức tự động của luồng dữ liệu và của vòng phản hồi thông tin, dựa trên những chức năng đã hiện thực hóa."
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "viết công cụ kiểm năm ràng buộc và logic bốn mức, mã hóa hồ sơ kiểm định",
+  "sau": "viết công cụ kiểm năm ràng buộc và logic bốn mức. Chuyên đề cũng mã hóa hồ sơ kiểm định"
+ },
+ {
+  "nhom": "lặp ý (5.4.3)",
+  "truoc": " Bất thường trong dữ liệu vận hành là căn cứ đề nghị kiểm tra; kết quả kiểm tra của kỹ sư được ghi làm nhãn hiện trường và bản ghi kiểm tra.",
+  "sau": ""
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "Ba mục tiêu ứng với ba câu hỏi nghiên cứu và hai bài báo: Mục tiêu 1 đo",
+  "sau": "Ba mục tiêu ứng với ba câu hỏi nghiên cứu và hai bài báo. Mục tiêu 1 đo"
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "(Bài báo 1); Mục tiêu 2 xây dựng",
+  "sau": "(Bài báo 1). Mục tiêu 2 xây dựng"
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "(Bài báo 2); Mục tiêu 3 kiểm chứng",
+  "sau": "(Bài báo 2). Mục tiêu 3 kiểm chứng"
+ },
+ {
+  "nhom": "bôi đậm trong bảng",
+  "truoc": "8 dòng bảng có **",
+  "sau": "bỏ **"
+ }
+]

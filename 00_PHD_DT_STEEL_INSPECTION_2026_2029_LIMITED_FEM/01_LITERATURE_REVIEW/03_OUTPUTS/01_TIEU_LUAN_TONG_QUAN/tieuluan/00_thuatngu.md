@@ -79,7 +79,7 @@ Ghi chú: W3C là World Wide Web Consortium; OGC là Open Geospatial Consortium.
 
 | **Ký hiệu** | **Giải thích** |
 |:---|:---|
-| B0 | Đối chứng B0: hồ sơ kiểm định theo thực hành hiện hành ở Việt Nam, mã hóa tay 20–30 hồ sơ |
+| B0 | Đối chứng B0: hồ sơ kiểm định theo thực hành hiện hành ở Việt Nam, mã hóa tay 20–30 hồ sơ của nhà xưởng ở Khánh Hòa (cùng BIM với B1) |
 | B1 | Đối chứng B1: mô hình chỉ dùng IFC 4.3 theo Bellon và cộng sự (2025) cùng BCF 3.0, chưa có tầng bằng chứng và tầng trách nhiệm, dựng trên cùng BIM nhà xưởng |
 | M1 | Mức đủ thuộc tính bắt buộc: tỉ lệ bản ghi có đủ các trường bắt buộc |
 | M2 | Tỉ lệ phát hiện lỗi chèn mù, báo cáo theo từng nhóm lỗi. Là chỉ số chính của Mục tiêu 2 |

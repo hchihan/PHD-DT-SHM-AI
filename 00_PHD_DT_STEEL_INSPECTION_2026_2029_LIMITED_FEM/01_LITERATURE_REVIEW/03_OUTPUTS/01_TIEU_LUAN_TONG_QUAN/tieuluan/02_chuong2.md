@@ -127,7 +127,7 @@ Dữ liệu cảm biến chỉ có giá trị quản lý khi được đặt tro
 
 Khả năng truy vết cần đi xa hơn việc hiển thị dữ liệu trên mô hình. Một hệ thống có thể hiển thị cảm biến hoặc cảnh báo trên BIM mà vẫn chưa trả lời được câu hỏi về hồ sơ kiểm tra, trạng thái xử lý và căn cứ của hành động. Chương 4 vì vậy xét quan hệ thông tin giữa bằng chứng, cấu kiện, hồ sơ và hành động.
 
-Cuối cùng, Song sinh số nên được đánh giá bằng năng lực đã triển khai chứ không bằng tên gọi. Nghiên cứu giữ Song sinh số dựa trên dữ liệu làm **mục tiêu kiến trúc** cho quản lý tài sản; mức năng lực thực tế được đánh giá sau nghiên cứu trường hợp, dựa trên chức năng đã thực hiện và tiêu chí tham chiếu từ các nghiên cứu đã nêu. Nghiên cứu không tự gán trước một mức trưởng thành, và cũng không mặc định rằng BIM cộng cảm biến là đã đạt Song sinh số.
+Cuối cùng, Song sinh số nên được đánh giá bằng năng lực đã triển khai chứ không bằng tên gọi. Nghiên cứu giữ Song sinh số dựa trên dữ liệu làm **mục tiêu kiến trúc** cho quản lý tài sản và khai báo mức thiết kế là bóng số theo \[8\] (Mục 1.1.3). Năng lực thực đạt được đánh giá sau nghiên cứu trường hợp, dựa trên chức năng đã thực hiện và tiêu chí tham chiếu từ các nghiên cứu đã nêu; việc nối BIM với cảm biến không được coi là đã đạt Song sinh số.
 
 Vòng phản hồi mà nghiên cứu hướng tới trước hết là **vòng phản hồi thông tin trong quản lý tài sản**: dữ liệu từ công trình cập nhật lớp bằng chứng; kết quả kiểm tra và trạng thái hành động được ghi trở lại hồ sơ số; các bản ghi đó trở thành bối cảnh cho lần đánh giá tiếp theo. Mức độ vòng phản hồi này đáp ứng các tiêu chí Song sinh số sẽ được kiểm chứng ở nghiên cứu trường hợp.
 

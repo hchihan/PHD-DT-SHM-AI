@@ -1,0 +1,170 @@
+[
+ {
+  "tep": "05_chuong5.md",
+  "ma": "A1",
+  "truoc": "Ở thời điểm tổng quan, Tiểu luận không khẳng định hệ thống đã đạt một mức Song sinh số cụ thể, không giả định đồng bộ hai chiều tự động khi chưa được kiểm chứng và không tự gán năng lực tự quản lý. Việc xác định mức năng lực thực tế thuộc giai đoạn nghiên cứu chuyên đề sau tổng quan và phải dựa trên các chức năng thực sự được hiện thực hóa, không dựa trên tên gọi của kiến trúc.",
+  "sau": "Mức bóng số khai báo ở Mục 1.1.3 là mức thiết kế, theo phân loại của \\[8\\]: dữ liệu đi tự động từ công trình vào mô hình số, còn tác động trở lại công trình đi qua quyết định của con người. Năng lực thực đạt được, gồm mức tự động của luồng dữ liệu và của vòng phản hồi thông tin, được đánh giá sau khi triển khai trên nhà xưởng theo các thang của \\[9\\], \\[10\\] (Mục 5.6.6), dựa trên những chức năng đã hiện thực hóa."
+ },
+ {
+  "tep": "02_chuong2.md",
+  "ma": "A1",
+  "truoc": "Cuối cùng, Song sinh số nên được đánh giá bằng năng lực đã triển khai chứ không bằng tên gọi. Nghiên cứu giữ Song sinh số dựa trên dữ liệu làm **mục tiêu kiến trúc** cho quản lý tài sản; mức năng lực thực tế được đánh giá sau nghiên cứu trường hợp, dựa trên chức năng đã thực hiện và tiêu chí tham chiếu từ các nghiên cứu đã nêu. Nghiên cứu không tự gán trước một mức trưởng thành, và cũng không mặc định rằng BIM cộng cảm biến là đã đạt Song sinh số.",
+  "sau": "Cuối cùng, Song sinh số nên được đánh giá bằng năng lực đã triển khai chứ không bằng tên gọi. Nghiên cứu giữ Song sinh số dựa trên dữ liệu làm **mục tiêu kiến trúc** cho quản lý tài sản và khai báo mức thiết kế là bóng số theo \\[8\\] (Mục 1.1.3). Năng lực thực đạt được đánh giá sau nghiên cứu trường hợp, dựa trên chức năng đã thực hiện và tiêu chí tham chiếu từ các nghiên cứu đã nêu; việc nối BIM với cảm biến không được coi là đã đạt Song sinh số."
+ },
+ {
+  "tep": "04_chuong4.md",
+  "ma": "A2",
+  "truoc": "là hướng mở rộng (Bảng 5.7).",
+  "sau": "là hướng mở rộng (Bảng 5.8)."
+ },
+ {
+  "tep": "01_chuong1.md",
+  "ma": "A3",
+  "truoc": "Phạm vi không gian gồm hai môi trường. Môi trường thứ nhất là mô hình khung thép tỉ lệ 1:10 trong phòng thí nghiệm, nơi trạng thái liên kết được tạo có kiểm soát để xác lập quy trình tạo bằng chứng (Mục tiêu 1). Môi trường thứ hai là một nhà xưởng khung thép đang khai thác đã có mô hình BIM, nơi chuỗi bằng chứng – kiểm tra – hành động được triển khai và kiểm chứng khả thi (Mục tiêu 3). Mô hình 1:10 mô phỏng một nhà xưởng thực tế ở tỉnh Khánh Hòa, và mô hình BIM của nhà xưởng này là nền để đánh giá mô hình thông tin (Mục tiêu 2); nhà xưởng của Mục tiêu 3 ở tỉnh Đắk Lắk (địa bàn tỉnh Phú Yên cũ). Vì là hai công trình khác nhau, kết quả trên mô hình 1:10 được nối với nhà xưởng ở Mục tiêu 3 qua nguyên tắc tổ chức bằng chứng, và luận án không khẳng định tương tự động lực học giữa chúng (Mục 3.4.3). Đối chứng B0 lấy từ hồ sơ kiểm định theo thực hành hiện hành ở Việt Nam (Mục 5.5.2).",
+  "sau": "Phạm vi không gian gồm phòng thí nghiệm và hai nhà xưởng khung thép đang khai thác. Trong phòng thí nghiệm, mô hình khung thép tỉ lệ 1:10 cho phép tạo trạng thái liên kết có kiểm soát để xác lập quy trình tạo bằng chứng (Mục tiêu 1). Mô hình này mô phỏng một nhà xưởng ở tỉnh Khánh Hòa. Mô hình BIM của nhà xưởng Khánh Hòa là nền để đánh giá mô hình thông tin (Mục tiêu 2), và hồ sơ kiểm định cũ của chính nhà xưởng này được mã hóa làm đối chứng B0 (Mục 5.5.2). Nhà xưởng thứ hai ở tỉnh Đắk Lắk (địa bàn tỉnh Phú Yên cũ), đã có mô hình BIM, là nơi chuỗi bằng chứng – kiểm tra – hành động được triển khai và kiểm chứng khả thi (Mục tiêu 3). Kết quả trên mô hình 1:10 được nối với nhà xưởng ở Đắk Lắk qua nguyên tắc tổ chức bằng chứng; luận án không khẳng định tương tự động lực học giữa hai kết cấu (Mục 3.4.3)."
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "A3",
+  "truoc": "quy tắc mã hóa 20–30 hồ sơ kiểm định cũ làm B0;",
+  "sau": "quy tắc mã hóa 20–30 hồ sơ kiểm định cũ của nhà xưởng ở Khánh Hòa làm B0;"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "A3",
+  "truoc": "BIM nhà xưởng ở Khánh Hòa; 20–30 hồ sơ kiểm định cũ; tập bằng chứng",
+  "sau": "BIM nhà xưởng ở Khánh Hòa; 20–30 hồ sơ kiểm định cũ của nhà xưởng này; tập bằng chứng"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "A3",
+  "truoc": "Chuyên đề thứ hai đặc tả mô hình thông tin, viết công cụ kiểm năm ràng buộc và logic bốn mức, mã hóa hồ sơ B0, dựng B1,",
+  "sau": "Chuyên đề thứ hai đặc tả mô hình thông tin, viết công cụ kiểm năm ràng buộc và logic bốn mức, mã hóa hồ sơ kiểm định của nhà xưởng ở Khánh Hòa làm B0, dựng B1,"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "A3",
+  "truoc": "Khảo sát nhà xưởng, chọn vị trí cảm biến, thu hồ sơ B0 và trao đổi với người quản lý kiểm tra – bảo trì làm song song với Định hướng 1,",
+  "sau": "Khảo sát nhà xưởng ở Đắk Lắk, chọn vị trí cảm biến và trao đổi với người quản lý kiểm tra – bảo trì làm song song với Định hướng 1,"
+ },
+ {
+  "tep": "00_thuatngu.md",
+  "ma": "A3",
+  "truoc": "hồ sơ kiểm định theo thực hành hiện hành ở Việt Nam, mã hóa tay 20–30 hồ sơ |",
+  "sau": "hồ sơ kiểm định theo thực hành hiện hành ở Việt Nam, mã hóa tay 20–30 hồ sơ của nhà xưởng ở Khánh Hòa (cùng BIM với B1) |"
+ },
+ {
+  "tep": "phuluc.md",
+  "ma": "A3",
+  "truoc": "B0 là hồ sơ kiểm định theo thực hành hiện hành, mã hóa tay 20–30 hồ sơ.",
+  "sau": "B0 là hồ sơ kiểm định theo thực hành hiện hành, mã hóa tay 20–30 hồ sơ của nhà xưởng ở Khánh Hòa."
+ },
+ {
+  "tep": "00_dannhap.md",
+  "ma": "A4",
+  "truoc": "mở rộng IFC 4.3 và BCF 3.0 bằng một tầng bằng chứng và một tầng trách nhiệm.",
+  "sau": "mở rộng IFC 4.3 và BCF 3.0 bằng tầng bằng chứng và tầng trách nhiệm."
+ },
+ {
+  "tep": "01_chuong1.md",
+  "ma": "A5",
+  "truoc": "Trong ma trận 30 tài liệu đọc sâu,",
+  "sau": "Trong ma trận 29 tài liệu đọc sâu,"
+ },
+ {
+  "tep": "01_chuong1.md",
+  "ma": "A6",
+  "truoc": "tốc độ ăn mòn thép các-bon ở cấp C3 tại hầu hết các trạm",
+  "sau": "tốc độ ăn mòn thép các-bon ở cấp ăn mòn C3 tại hầu hết các trạm"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "A7",
+  "truoc": "Việc sử dụng AI tạo sinh khi thực hiện Tiểu luận được khai báo ở phần đầu;",
+  "sau": "Việc sử dụng AI tạo sinh khi thực hiện Tiểu luận được khai báo ở phần đầu<!-- A7: mục Khai báo sử dụng AI tạo sinh chèn ở Pha 4 (bản nháp revision/nhap_khai_bao_AI_tao_sinh.md), sau khi rà cột muc_da_doc theo CLAUDE 6.4. -->;"
+ },
+ {
+  "tep": "01_chuong1.md",
+  "ma": "A9",
+  "truoc": "Kết quả kiểm tra được ghi thành hồ sơ và liên kết với bằng chứng",
+  "sau": "Kết quả kiểm tra được ghi thành bản ghi kiểm tra và liên kết với bằng chứng"
+ },
+ {
+  "tep": "01_chuong1.md",
+  "ma": "A9",
+  "truoc": "đọc được hồ sơ của kỹ sư A, bằng chứng đã dẫn tới hồ sơ đó",
+  "sau": "đọc được bản ghi kiểm tra của kỹ sư A, bằng chứng đã dẫn tới bản ghi đó"
+ },
+ {
+  "tep": "01_chuong1.md",
+  "ma": "A9",
+  "truoc": "Câu hỏi thứ ba cần hồ sơ kiểm tra, các sự kiện",
+  "sau": "Câu hỏi thứ ba cần bản ghi kiểm tra, các sự kiện"
+ },
+ {
+  "tep": "01_chuong1.md",
+  "ma": "A9",
+  "truoc": "biểu diễn số, bằng chứng trạng thái, hồ sơ kiểm tra và trạng thái hành động.",
+  "sau": "biểu diễn số, bằng chứng trạng thái, bản ghi kiểm tra và trạng thái hành động."
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "A9",
+  "truoc": "được gắn với cấu kiện BIM, hồ sơ kiểm tra và lịch sử trạng thái hành động.",
+  "sau": "được gắn với cấu kiện BIM, bản ghi kiểm tra và lịch sử trạng thái hành động."
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "A9",
+  "truoc": "Mũi tên thứ ba yêu cầu hồ sơ kiểm tra là một bản ghi truy vết được.",
+  "sau": "Mũi tên thứ ba yêu cầu bản ghi kiểm tra truy ngược được tới bằng chứng đã làm phát sinh nó."
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "A9",
+  "truoc": "có khoảng hiệu lực, bằng chứng, hồ sơ kiểm tra, hành động và sự kiện chuyển trạng thái.",
+  "sau": "có khoảng hiệu lực, bằng chứng, bản ghi kiểm tra, hành động và sự kiện chuyển trạng thái."
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "A9",
+  "truoc": "một hồ sơ kiểm tra dùng bằng chứng qua một quan hệ",
+  "sau": "một bản ghi kiểm tra dùng bằng chứng qua một quan hệ"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "A9",
+  "truoc": "cấu kiện, bằng chứng, hồ sơ kiểm tra và trạng thái hành động trên một nhà xưởng",
+  "sau": "cấu kiện, bằng chứng, bản ghi kiểm tra và trạng thái hành động trên một nhà xưởng"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "A9",
+  "truoc": "đi từ cảm biến tới bằng chứng, cấu kiện, hồ sơ và trạng thái hành động.",
+  "sau": "đi từ cảm biến tới bằng chứng, cấu kiện, bản ghi kiểm tra và trạng thái hành động."
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "A9",
+  "truoc": "phạm vi hiệu lực, cấu kiện, hồ sơ kiểm tra, vai trò người rà soát",
+  "sau": "phạm vi hiệu lực, cấu kiện, bản ghi kiểm tra, vai trò người rà soát"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "A9",
+  "truoc": "thông tin về trạng thái tài sản, hồ sơ kiểm tra và trạng thái hành động.",
+  "sau": "thông tin về trạng thái tài sản, bản ghi kiểm tra và trạng thái hành động."
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "A9",
+  "truoc": "truy vết tới cấu kiện BIM; hồ sơ kiểm tra; trạng thái/hỗ trợ hành động;",
+  "sau": "truy vết tới cấu kiện BIM; bản ghi kiểm tra; trạng thái/hỗ trợ hành động;"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "A9",
+  "truoc": "| Bản ghi lỗi đã mã hóa | Hồ sơ kiểm tra (B0) |",
+  "sau": "| Bản ghi lỗi đã mã hóa | Hồ sơ kiểm định đã mã hóa (đối chứng B0) |"
+ }
+]
