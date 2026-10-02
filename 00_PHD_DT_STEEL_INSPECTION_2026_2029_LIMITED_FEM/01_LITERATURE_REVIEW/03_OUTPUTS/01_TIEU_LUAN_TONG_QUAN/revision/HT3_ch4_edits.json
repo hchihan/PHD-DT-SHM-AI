@@ -1,0 +1,292 @@
+[
+ {
+  "nhom": "tách câu",
+  "truoc": "Chương 4 xét câu hỏi ở lớp thông tin: bằng chứng kỹ thuật được liên kết với cấu kiện, hồ sơ kiểm tra và trạng thái hành động theo cách nào để người quản lý",
+  "sau": "Chương 4 xét câu hỏi ở lớp thông tin. Câu hỏi là bằng chứng kỹ thuật được liên kết với cấu kiện, hồ sơ kiểm tra và trạng thái hành động theo cách nào, để người quản lý"
+ },
+ {
+  "nhom": "tách câu, giới hạn A",
+  "truoc": "Cột thứ ba của bảng là phần có ý nghĩa nhất đối với quản lý tài sản, vì nó chỉ ra điều mà mỗi mức *không* chứng minh.",
+  "sau": "Cột thứ ba của bảng có ý nghĩa nhất đối với quản lý tài sản, vì nó ghi phần mà mỗi mức còn để ngỏ."
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "hoặc đã dẫn tới hồ sơ kiểm tra nào; một hồ sơ được gắn với cấu kiện chưa tự động cho biết",
+  "sau": "hoặc đã dẫn tới hồ sơ kiểm tra nào. Tương tự, một hồ sơ được gắn với cấu kiện chưa cho biết"
+ },
+ {
+  "nhom": "bôi đậm, tách câu",
+  "truoc": "Trong chương này, **truy vết** là khả năng duy trì và truy xuất quan hệ giữa các bản ghi qua thời gian và qua hệ thống, để người dùng đi được từ một bằng chứng tới đối tượng liên quan và từ một hồ sơ",
+  "sau": "Trong chương này, truy vết là khả năng duy trì và truy xuất quan hệ giữa các bản ghi qua thời gian và qua hệ thống. Nhờ đó người dùng đi được từ một bằng chứng tới đối tượng liên quan, và từ một hồ sơ"
+ },
+ {
+  "nhom": "giới hạn A, tách câu",
+  "truoc": "Nguyên tắc đầu tiên là không đồng nhất các loại thông tin khác nhau thành thuộc tính của cùng một đối tượng. Cấu kiện là đối tượng vật lý hoặc đối tượng số đại diện cho tài sản; cảm biến là nguồn thu dữ liệu; bằng chứng trạng thái là kết quả của một quá trình xử lý và đánh giá dữ liệu; hồ sơ kiểm tra là bản ghi nghiệp vụ được tạo tại một thời điểm bởi một người hoặc đơn vị có trách nhiệm; hành động là một quá trình quản lý có trạng thái thay đổi theo thời gian.",
+  "sau": "Nguyên tắc thứ nhất là tách các loại thông tin khác nhau thành những thực thể riêng, thay vì gộp thành thuộc tính của cùng một đối tượng. Cấu kiện là đối tượng vật lý hoặc đối tượng số đại diện cho tài sản, còn cảm biến là nguồn thu dữ liệu. Bằng chứng trạng thái là kết quả của một quá trình xử lý và đánh giá dữ liệu. Hồ sơ kiểm tra là bản ghi nghiệp vụ do một người hoặc đơn vị có trách nhiệm tạo tại một thời điểm. Hành động là một quá trình quản lý có trạng thái thay đổi theo thời gian."
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "truy được tới cấu kiện tại thời điểm ghi; hồ sơ kiểm tra có thể",
+  "sau": "truy được tới cấu kiện tại thời điểm ghi. Hồ sơ kiểm tra cũng có thể"
+ },
+ {
+  "nhom": "giới hạn B",
+  "truoc": "Liên kết dữ liệu cảm biến với BIM đã được thực hiện theo hai hướng chính và không còn là vấn đề mới.",
+  "sau": "Liên kết dữ liệu cảm biến với BIM đã được thực hiện theo hai hướng chính, và luận án kế thừa cả hai."
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "với cấu kiện chịu lực, cho thấy cảm biến có thể được biểu diễn ở cấp lược đồ thay vì chỉ được đặt như ký hiệu trên giao diện \\[2\\].",
+  "sau": "với cấu kiện chịu lực \\[2\\]. Nghiên cứu này cho thấy cảm biến có thể được biểu diễn ở cấp lược đồ thay vì chỉ được đặt như ký hiệu trên giao diện."
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "với các biến thể khác nhau về kỹ thuật nền: cấu trúc dữ liệu liên kết để nối trạng thái hệ tự động hóa tòa nhà với ngữ cảnh BIM \\[26\\], ánh xạ giữa các hệ định danh để tích hợp BIM với dữ liệu thiết bị \\[4\\], hoặc dùng",
+  "sau": "với ba biến thể về kỹ thuật nền. Biến thể thứ nhất dùng cấu trúc dữ liệu liên kết để nối trạng thái hệ tự động hóa tòa nhà với ngữ cảnh BIM \\[26\\]. Biến thể thứ hai ánh xạ giữa các hệ định danh để tích hợp BIM với dữ liệu thiết bị \\[4\\], và biến thể thứ ba dùng"
+ },
+ {
+  "nhom": "tách câu, làm rõ nghĩa",
+  "truoc": "ví dụ cảm biến nhiệt gắn trên tường; phần quy định của khái niệm này chưa có thuộc tính thời gian, và các ví dụ không quy định ghi thời điểm",
+  "sau": "ví dụ cảm biến nhiệt gắn trên tường. Phần quy định của khái niệm này chưa có thuộc tính thời gian; các ví dụ không mang tính quy định ghi thời điểm"
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "(Phụ lục A, Bảng A.3), và bổ sung khoảng hiệu lực bắt buộc của ánh xạ,",
+  "sau": "(Phụ lục A, Bảng A.3). Phần bổ sung gồm khoảng hiệu lực bắt buộc của ánh xạ,"
+ },
+ {
+  "nhom": "giới hạn A (tiêu đề)",
+  "truoc": "### 4.2.2. Liên kết cảm biến không đồng nghĩa với liên kết bằng chứng",
+  "sau": "### 4.2.2. Liên kết cảm biến và liên kết bằng chứng"
+ },
+ {
+  "nhom": "bôi đậm, giới hạn A",
+  "truoc": "Dù cảm biến có thể được gắn với cấu kiện, **quan hệ cảm biến – cấu kiện** và **quan hệ bằng chứng – cấu kiện** không phải một.",
+  "sau": "Quan hệ cảm biến – cấu kiện và quan hệ bằng chứng – cấu kiện là hai quan hệ khác nhau."
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "từ một tập dữ liệu cụ thể; sau khi được tạo, bằng chứng",
+  "sau": "từ một tập dữ liệu cụ thể. Sau khi được tạo, bằng chứng"
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "nguồn đo phục vụ cấu kiện nào; một bất thường trong tín hiệu",
+  "sau": "nguồn đo phục vụ cấu kiện nào, nhưng một bất thường trong tín hiệu"
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "hoặc thay đổi vận hành; cảm biến cũng có thể",
+  "sau": "hoặc thay đổi vận hành. Cảm biến cũng có thể"
+ },
+ {
+  "nhom": "giới hạn C",
+  "truoc": "Luận án không suy ra vị trí hư hỏng từ vị trí cảm biến và không dùng mô hình phần tử hữu hạn để chứng minh nguyên nhân hư hỏng.",
+  "sau": "Vị trí và nguyên nhân hư hỏng được xác lập qua kiểm tra của kỹ sư; phạm vi diễn giải được trình bày ở Mục 5.9."
+ },
+ {
+  "nhom": "ngoặc kép",
+  "truoc": "“cảm biến này thuộc cấu kiện này”",
+  "sau": "\"cảm biến này thuộc cấu kiện này\""
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "luôn ổn định trong mọi hoàn cảnh; khi cần, một mã",
+  "sau": "luôn ổn định trong mọi hoàn cảnh. Khi cần, một mã"
+ },
+ {
+  "nhom": "bôi đậm",
+  "truoc": "**BIM/IFC có thể làm neo ngữ cảnh cho dữ liệu cảm biến, nhưng tính liên tục của bằng chứng đòi hỏi thêm một lớp quản lý bản ghi và quan hệ theo thời gian**",
+  "sau": "BIM/IFC có thể làm neo ngữ cảnh cho dữ liệu cảm biến, nhưng tính liên tục của bằng chứng đòi hỏi thêm một lớp quản lý bản ghi và quan hệ theo thời gian"
+ },
+ {
+  "nhom": "bôi đậm",
+  "truoc": "vẫn khác với một **hồ sơ kiểm tra** có định danh",
+  "sau": "vẫn khác với một hồ sơ kiểm tra có định danh"
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "theo hai cách bổ sung nhau: liên kết dữ liệu công việc quản lý vận hành với đối tượng IFC \\[6\\], và xây dựng",
+  "sau": "theo hai cách bổ sung nhau. Cách thứ nhất liên kết dữ liệu công việc quản lý vận hành với đối tượng IFC \\[6\\]; cách thứ hai xây dựng"
+ },
+ {
+  "nhom": "giới hạn: thuật lại nguồn",
+  "truoc": "Nội dung được ghi là tọa độ trục, không phải hồ sơ kiểm tra có người chịu trách nhiệm, trạng thái xử lý và phạm vi hiệu lực của bằng chứng \\[67\\].",
+  "sau": "Nội dung được ghi là tọa độ trục; hồ sơ kiểm tra có người chịu trách nhiệm, trạng thái xử lý và phạm vi hiệu lực của bằng chứng nằm ngoài phạm vi của nghiên cứu đó \\[67\\]."
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "về quản lý khiếm khuyết và sửa chữa dựa trên BIM: hệ thống sử dụng mã khiếm khuyết, liên kết với vị trí cấu kiện, lưu dữ liệu kiểm tra và bản ghi sửa chữa, đồng thời duy trì trạng thái hoàn thành \\[34\\].",
+  "sau": "về quản lý khiếm khuyết và sửa chữa dựa trên BIM \\[34\\]. Hệ thống của nhóm tác giả dùng mã khiếm khuyết, liên kết với vị trí cấu kiện, lưu dữ liệu kiểm tra và bản ghi sửa chữa, đồng thời duy trì trạng thái hoàn thành."
+ },
+ {
+  "nhom": "giới hạn B",
+  "truoc": "nên một nghiên cứu mới không thể coi “đưa hồ sơ kiểm tra vào BIM” là đóng góp chính.",
+  "sau": "nên luận án kế thừa việc đưa hồ sơ kiểm tra vào BIM từ tiền lệ này."
+ },
+ {
+  "nhom": "tách câu, ngoặc kép",
+  "truoc": "như “đã hoàn thành” chưa tương đương với lịch sử trạng thái: người quản lý",
+  "sau": "như \"đã hoàn thành\" chưa tương đương với lịch sử trạng thái. Người quản lý"
+ },
+ {
+  "nhom": "bôi đậm",
+  "truoc": "giữa một **trường trạng thái** và một **chuỗi sự kiện quản lý**.",
+  "sau": "giữa một trường trạng thái và một chuỗi sự kiện quản lý."
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "được đăng ký vào hệ quản lý bảo trì; khả năng điều hướng",
+  "sau": "được đăng ký vào hệ quản lý bảo trì. Khả năng điều hướng"
+ },
+ {
+  "nhom": "bôi đậm",
+  "truoc": "sang **hệ sinh thái thông tin tài sản**.",
+  "sau": "sang hệ sinh thái thông tin tài sản."
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "BIM hiếm khi là hệ duy nhất: dữ liệu cảm biến,",
+  "sau": "BIM hiếm khi là hệ duy nhất. Dữ liệu cảm biến,"
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "\\[68\\], \\[69\\], còn PAV bổ sung",
+  "sau": "\\[68\\], \\[69\\]. PAV bổ sung"
+ },
+ {
+  "nhom": "tách câu, thuật ngữ",
+  "truoc": "tăng khả năng giải trình của trao đổi thông tin: ghi lại nguồn và lịch sử của dữ liệu BIM \\[16\\], kết hợp Song sinh số với blockchain",
+  "sau": "tăng khả năng giải trình của trao đổi thông tin. Các nghiên cứu ghi lại nguồn và lịch sử của dữ liệu BIM \\[16\\], kết hợp song sinh số với blockchain"
+ },
+ {
+  "nhom": "thuật ngữ",
+  "truoc": "trong bối cảnh dữ liệu Song sinh số cho quản lý tài sản",
+  "sau": "trong bối cảnh dữ liệu song sinh số cho quản lý tài sản"
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "từ các nghiên cứu trên; với kiểm tra – bảo trì, giá trị của nó nằm ở việc áp dụng vào bản ghi vận hành:",
+  "sau": "từ các nghiên cứu trên. Với kiểm tra – bảo trì, giá trị của khái niệm nằm ở việc áp vào bản ghi vận hành:"
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "ánh xạ lược đồ chứng chỉ hiệu chuẩn số sang PROV: phòng hiệu chuẩn là prov:Organization, kỹ thuật viên và người phê duyệt là prov:Person phân biệt bằng prov:role, hiệu chuẩn và phê duyệt là hai activity riêng có thời điểm",
+  "sau": "ánh xạ lược đồ chứng chỉ hiệu chuẩn số sang PROV. Phòng hiệu chuẩn là `prov:Organization`; kỹ thuật viên và người phê duyệt là `prov:Person`, phân biệt bằng `prov:role`; hiệu chuẩn và phê duyệt là hai hoạt động riêng, có thời điểm"
+ },
+ {
+  "nhom": "bôi đậm",
+  "truoc": "là truy vết **theo thời gian**,",
+  "sau": "là truy vết theo thời gian,"
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "phục vụ trao đổi \\[32\\]; Hagedorn, Pauwels",
+  "sau": "phục vụ trao đổi \\[32\\]. Hagedorn, Pauwels"
+ },
+ {
+  "nhom": "bôi đậm",
+  "truoc": "từ **trình diễn hệ thống** sang **kiểm chứng cấu trúc thông tin**.",
+  "sau": "từ trình diễn hệ thống sang kiểm chứng cấu trúc thông tin."
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "chưa chứng minh toàn bộ quan hệ được bảo toàn; cần kiểm tra",
+  "sau": "chưa cho thấy toàn bộ quan hệ được bảo toàn. Cần kiểm tra"
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "trả lời hai câu hỏi khác nhau: IDS kiểm tra",
+  "sau": "trả lời hai câu hỏi khác nhau. IDS kiểm tra"
+ },
+ {
+  "nhom": "bôi đậm",
+  "truoc": "**điều hướng hai chiều** với **truy vết hai chiều có kiểm chứng**",
+  "sau": "điều hướng hai chiều với truy vết hai chiều có kiểm chứng"
+ },
+ {
+  "nhom": "tách câu, thuật ngữ ([23])",
+  "truoc": "trong thời gian dài: hệ quan trắc trên một tòa nhà khung thép \\[23\\], đường cơ sở phụ thuộc nhiệt độ cho dữ liệu theo dõi dài hạn \\[75\\], xử lý",
+  "sau": "trong thời gian dài. Ví dụ gồm hệ quan trắc trên một tòa nhà văn phòng khung thép \\[23\\], đường cơ sở phụ thuộc nhiệt độ cho dữ liệu theo dõi dài hạn \\[75\\], và xử lý"
+ },
+ {
+  "nhom": "bôi đậm, giới hạn A",
+  "truoc": "Những nghiên cứu này chứng minh **khả thi triển khai**, chưa chứng minh khả năng chẩn đoán.",
+  "sau": "Những nghiên cứu này xác lập khả thi triển khai; khả năng chẩn đoán là một câu hỏi khác."
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "Khi không đủ nhãn hư hỏng, đường cơ sở vận hành trở thành công cụ chính: dữ liệu mô tả trạng thái vận hành bình thường và giúp theo dõi",
+  "sau": "Khi thiếu nhãn hư hỏng, đường cơ sở vận hành trở thành công cụ chính. Dữ liệu mô tả trạng thái vận hành bình thường giúp theo dõi"
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "rà soát, xác nhận hoặc phê duyệt: người quản lý tham gia rà soát và kiểm tra kết quả sửa chữa \\[78\\], và quản trị con người cùng quan hệ giữa tài sản, tình trạng và công việc như thành phần",
+  "sau": "rà soát, xác nhận hoặc phê duyệt. Người quản lý tham gia rà soát và kiểm tra kết quả sửa chữa \\[78\\], và quản trị con người cùng quan hệ giữa tài sản, tình trạng và công việc được xem là thành phần"
+ },
+ {
+  "nhom": "bôi đậm",
+  "truoc": "là **vai trò của con người có được ghi lại trong dữ liệu hay không**:",
+  "sau": "là vai trò của con người có được ghi lại trong dữ liệu hay không:"
+ },
+ {
+  "nhom": "bôi đậm",
+  "truoc": "**Mức ưu tiên** (priority level)",
+  "sau": "Mức ưu tiên (priority level)"
+ },
+ {
+  "nhom": "bôi đậm",
+  "truoc": "**Trạng thái xử lý** (action status)",
+  "sau": "Trạng thái xử lý (action status)"
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "theo những căn cứ khác nhau: mức ưu tiên đổi khi",
+  "sau": "theo những căn cứ khác nhau. Mức ưu tiên đổi khi"
+ },
+ {
+  "nhom": "tách câu, ngôi viết",
+  "truoc": "Urgent \\[@63XPSMIR\\]; theo nhận định của nghiên cứu sinh, các ví dụ này trộn",
+  "sau": "Urgent \\[@63XPSMIR\\]. Theo đánh giá của phần tổng quan nghiên cứu này, các ví dụ đó trộn"
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "chưa mô tả được lịch sử: một bản ghi \"đã hoàn thành\" không tự cho biết",
+  "sau": "chưa mô tả được lịch sử. Một bản ghi \"đã hoàn thành\" chưa cho biết"
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "García và cộng sự (2026), với gói thông tin bàn giao trong môi trường dữ liệu chung, coi bước chuyển",
+  "sau": "García và cộng sự (2026) xét gói thông tin bàn giao trong môi trường dữ liệu chung. Nhóm tác giả coi bước chuyển"
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "dựa trên bằng chứng tình trạng: mỗi lần chuyển trạng thái xử lý",
+  "sau": "dựa trên bằng chứng tình trạng. Mỗi lần chuyển trạng thái xử lý"
+ },
+ {
+  "nhom": "tách câu",
+  "truoc": "có phạm vi hiệu lực hạn chế: một kết quả từ dữ liệu dao động",
+  "sau": "có phạm vi hiệu lực hạn chế. Một kết quả từ dữ liệu dao động"
+ },
+ {
+  "nhom": "bôi đậm",
+  "truoc": "quyết định **minh bạch, có căn cứ và có thể truy ngược**,",
+  "sau": "quyết định minh bạch, có căn cứ và có thể truy ngược,"
+ },
+ {
+  "nhom": "giới hạn C, tách câu",
+  "truoc": "Luận án không giải bài toán tối ưu kế hoạch kiểm tra và không lượng hóa chi phí vòng đời. Khung giá trị thông tin được nêu ở đây như căn cứ lý thuyết cho lớp hỗ trợ hành động: mức ưu tiên kiểm tra là một đề xuất có căn cứ để người có trách nhiệm rà soát, và việc hiệu chỉnh ngưỡng chuyển mức bằng dữ liệu chi phí cùng rủi ro thuộc bước phát triển sau luận án.",
+  "sau": "Khung giá trị thông tin được nêu ở đây như căn cứ lý thuyết cho lớp hỗ trợ hành động. Mức ưu tiên kiểm tra là một đề xuất có căn cứ để người có trách nhiệm rà soát. Tối ưu kế hoạch kiểm tra, lượng hóa chi phí vòng đời và hiệu chỉnh ngưỡng chuyển mức bằng dữ liệu chi phí cùng rủi ro thuộc hướng phát triển sau luận án (Mục 5.9.1)."
+ },
+ {
+  "nhom": "bôi đậm",
+  "truoc": "cung cấp **bằng chứng từ các nghiên cứu hiện có**",
+  "sau": "cung cấp bằng chứng từ các nghiên cứu hiện có"
+ },
+ {
+  "nhom": "bôi đậm trong bảng",
+  "truoc": "2 dòng bảng có **",
+  "sau": "bỏ **"
+ }
+]
