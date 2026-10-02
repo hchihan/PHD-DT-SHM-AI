@@ -498,3 +498,6 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 
 ## Phiên 02/10/2026 – HT3 Pha 3 Chương 4: văn phong (NCS duyệt)
 - 58 lệnh sửa (`revision/HT3_ch4_edits.json`): câu > 45 âm tiết 37 → 7, > 60 âm tiết 14 → 0, bôi đậm 25 → 0, cụm giới hạn 4 → 0; tiêu đề 4.2.2 "Liên kết cảm biến và liên kết bằng chứng"; loại B ở 4.2.1, 4.3.2 thành câu kế thừa; loại C ở 4.2.2, 4.5.5 trỏ Mục 5.9; ngôi viết 4.5.4; [23] ghi "tòa nhà văn phòng"; trích dẫn không đổi. Biên bản: `revision/HT3_ch4_van_phong_20261002.md`.
+
+## Phiên 02/10/2026 – HT3 Pha 3 Chương 3: văn phong (NCS duyệt)
+- 59 lệnh sửa (`revision/HT3_ch3_edits.json`): câu > 45 âm tiết 41 → 5, > 60 âm tiết 10 → 0, bôi đậm 22 → 0, cụm giới hạn 5 → 0; 3.1.3 bỏ ba nguyên tắc đánh số (trỏ 1.7.5, 5.9.2); 3.2.4 trỏ 3.4.3 về theo dõi theo quần thể; cách đọc LORO/LOCO viết khẳng định; ngôi viết 3.2.1–3.2.3; trích dẫn, số liệu không đổi. Biên bản: `revision/HT3_ch3_van_phong_20261002.md`.
