@@ -501,3 +501,6 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 
 ## Phiên 02/10/2026 – HT3 Pha 3 Chương 3: văn phong (NCS duyệt)
 - 59 lệnh sửa (`revision/HT3_ch3_edits.json`): câu > 45 âm tiết 41 → 5, > 60 âm tiết 10 → 0, bôi đậm 22 → 0, cụm giới hạn 5 → 0; 3.1.3 bỏ ba nguyên tắc đánh số (trỏ 1.7.5, 5.9.2); 3.2.4 trỏ 3.4.3 về theo dõi theo quần thể; cách đọc LORO/LOCO viết khẳng định; ngôi viết 3.2.1–3.2.3; trích dẫn, số liệu không đổi. Biên bản: `revision/HT3_ch3_van_phong_20261002.md`.
+
+## Phiên 02/10/2026 – HT3 Pha 3 Chương 2: văn phong (NCS duyệt)
+- 61 lệnh sửa (`revision/HT3_ch2_edits.json`): câu > 45 âm tiết 41 → 12, > 60 âm tiết 16 → 0, bôi đậm 25 → 0, "Song sinh số" viết hoa giữa câu 18 → 0; bỏ lặp với 1.1.1, 1.1.2, 4.2.1, 1.1.3; câu giới hạn 2.2.4, 2.5 viết khẳng định; ngôi viết thống nhất; trích dẫn không đổi. Biên bản: `revision/HT3_ch2_van_phong_20261002.md`.
