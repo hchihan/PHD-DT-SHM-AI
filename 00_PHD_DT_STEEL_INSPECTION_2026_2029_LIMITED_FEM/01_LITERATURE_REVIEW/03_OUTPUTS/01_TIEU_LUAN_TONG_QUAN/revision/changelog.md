@@ -504,3 +504,6 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 
 ## Phiên 02/10/2026 – HT3 Pha 3 Chương 2: văn phong (NCS duyệt)
 - 61 lệnh sửa (`revision/HT3_ch2_edits.json`): câu > 45 âm tiết 41 → 12, > 60 âm tiết 16 → 0, bôi đậm 25 → 0, "Song sinh số" viết hoa giữa câu 18 → 0; bỏ lặp với 1.1.1, 1.1.2, 4.2.1, 1.1.3; câu giới hạn 2.2.4, 2.5 viết khẳng định; ngôi viết thống nhất; trích dẫn không đổi. Biên bản: `revision/HT3_ch2_van_phong_20261002.md`.
+
+## Phiên 02/10/2026 – HT3 Pha 3 Dẫn nhập, Phụ lục (NCS duyệt); Pha 3 hoàn tất
+- 12 lệnh sửa (`revision/HT3_dannhap_phuluc_edits.json`): Dẫn nhập tách 7 câu, bỏ bôi đậm, thêm "trong tập tài liệu đã rà soát" cho phát biểu khoảng trống; Phụ lục tách câu B.3, bỏ bôi đậm A.2; Chương 1 viết thường "song sinh số" 17 chỗ. Biên bản: `revision/HT3_dannhap_phuluc_van_phong_20261002.md`.

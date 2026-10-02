@@ -44,7 +44,7 @@ Hình 5.1 trình bày chuỗi định danh *Sensor_ID → BIM_GUID → Condition
 | | `evidence_ref` | Có với bước chuyển cần căn cứ (Bảng A.2) | Bản ghi sử dụng bằng chứng đã dùng làm căn cứ |
 | | `reason` | Có | Lý do chuyển |
 
-Quan hệ có thuộc tính giữa bản ghi kiểm tra và bằng chứng là **bản ghi sử dụng bằng chứng** (`EVIDENCE_USE`), gồm `Inspection_Record_ID`, `Condition_Evidence_ID`, `used_at`, `within_scope` (bằng chứng có nằm trong phạm vi hiệu lực tại thời điểm dùng hay không) và `justification` (lý do khi dùng ngoài phạm vi).
+Quan hệ có thuộc tính giữa bản ghi kiểm tra và bằng chứng là bản ghi sử dụng bằng chứng (`EVIDENCE_USE`), gồm `Inspection_Record_ID`, `Condition_Evidence_ID`, `used_at`, `within_scope` (bằng chứng có nằm trong phạm vi hiệu lực tại thời điểm dùng hay không) và `justification` (lý do khi dùng ngoài phạm vi).
 
 ### A.3. Định nghĩa thuật ngữ dùng ở Mục 5.6 và 5.7
 
@@ -139,6 +139,6 @@ Hai cột cuối mô tả trường mà mỗi đối chứng có theo thiết k�
 
 ### B.3. Tiền lệ và giới hạn
 
-Kiểm ràng buộc tự động trên dữ liệu công trình đã có tiền lệ trong quản lý tiến độ 4D: \[21\] kiểm mỗi cấu kiện liên kết với ít nhất một công việc, là kỹ thuật tương tự C1, và kiểm các công việc gắn cùng một cấu kiện không chồng lấn thời gian bằng thời điểm bắt đầu và kết thúc, là kỹ thuật tương tự C3 và C9 (tr. 17–18). Khuôn "bước chuyển có căn cứ và đúng thẩm quyền" của C6 có tiền lệ ở quản trị gói thông tin bàn giao \[44\]. SSN mô tả triển khai cảm biến trên nền tảng \[@GHAZGWUN\]; C3 thêm khoảng hiệu lực bắt buộc và kiểm thời điểm đo theo khoảng đó.
+Kiểm ràng buộc tự động trên dữ liệu công trình đã có tiền lệ trong quản lý tiến độ 4D. Nghiên cứu \[21\] kiểm mỗi cấu kiện liên kết với ít nhất một công việc, kỹ thuật tương tự C1. Nghiên cứu này cũng kiểm các công việc gắn cùng một cấu kiện không chồng lấn thời gian bằng thời điểm bắt đầu và kết thúc, kỹ thuật tương tự C3 và C9 (tr. 17–18). Khuôn "bước chuyển có căn cứ và đúng thẩm quyền" của C6 có tiền lệ ở quản trị gói thông tin bàn giao \[44\]. SSN mô tả triển khai cảm biến trên nền tảng \[@GHAZGWUN\]; C3 thêm khoảng hiệu lực bắt buộc và kiểm thời điểm đo theo khoảng đó.
 
 Năm ràng buộc kiểm tính toàn vẹn của dữ liệu. Việc cảm biến có thực sự được lắp ở cấu kiện đã khai báo được kiểm bằng hồ sơ lắp đặt và đối chiếu tại hiện trường trong Mục tiêu 3 (Mục 5.6.2).

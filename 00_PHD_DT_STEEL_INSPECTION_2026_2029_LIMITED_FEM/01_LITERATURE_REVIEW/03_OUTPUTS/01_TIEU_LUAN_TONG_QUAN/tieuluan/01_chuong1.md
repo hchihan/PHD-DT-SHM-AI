@@ -12,7 +12,7 @@ Trong nhà công nghiệp khung thép, trạng thái liên kết bu lông là đ
 
 ### 1.1.2. Chuyển đổi số trong quản lý vận hành
 
-Cảm biến, mô hình thông tin công trình (BIM), chuẩn trao đổi dữ liệu IFC, cơ sở dữ liệu vận hành và Song sinh số cho phép gắn dữ liệu kỹ thuật với ngữ cảnh của tài sản. Ở từng mắt xích, nền kỹ thuật đã tương đối rõ. Lược đồ IFC có thể được mở rộng để biểu diễn hệ theo dõi trạng thái và quan hệ giữa cảm biến với cấu kiện \[2\]. Dữ liệu vận hành có thể được tích hợp với mô hình số ở cấp công trình và khuôn viên \[3\]. Định danh toàn cục của đối tượng IFC có thể dùng để nối mô hình với cơ sở dữ liệu chuỗi thời gian \[4\], \[5\]. Trong các tài liệu đã rà soát, việc đưa dữ liệu cảm biến vào ngữ cảnh mô hình công trình đã có nhiều giải pháp.
+Cảm biến, mô hình thông tin công trình (BIM), chuẩn trao đổi dữ liệu IFC, cơ sở dữ liệu vận hành và song sinh số cho phép gắn dữ liệu kỹ thuật với ngữ cảnh của tài sản. Ở từng mắt xích, nền kỹ thuật đã tương đối rõ. Lược đồ IFC có thể được mở rộng để biểu diễn hệ theo dõi trạng thái và quan hệ giữa cảm biến với cấu kiện \[2\]. Dữ liệu vận hành có thể được tích hợp với mô hình số ở cấp công trình và khuôn viên \[3\]. Định danh toàn cục của đối tượng IFC có thể dùng để nối mô hình với cơ sở dữ liệu chuỗi thời gian \[4\], \[5\]. Trong các tài liệu đã rà soát, việc đưa dữ liệu cảm biến vào ngữ cảnh mô hình công trình đã có nhiều giải pháp.
 
 Tuy vậy, tích hợp dữ liệu chưa bảo đảm truy vết thông tin. Trong vận hành, dữ liệu cảm biến nằm trong hệ thu nhận; hình học và thuộc tính cấu kiện nằm trong BIM; hồ sơ kiểm tra nằm trong biểu mẫu, cơ sở dữ liệu hoặc hệ quản lý bảo trì; lịch sử hành động có thể nằm ở một hệ thống khác. Sự phân tán này là lý do Kim và cộng sự (2018) phải xây một lớp ngữ nghĩa riêng để nối dữ liệu quản lý vận hành với đối tượng IFC \[6\]. Boje và cộng sự (2020) cho rằng mô hình thông tin tĩnh không đáp ứng được một hệ thống số vận hành cần dữ liệu động, ngữ nghĩa và khả năng liên thông \[7\].
 
@@ -20,7 +20,7 @@ Khoảng cách giữa có dữ liệu và có bằng chứng dùng được cho 
 
 ### 1.1.3. Song sinh số như mục tiêu kiến trúc của nghiên cứu
 
-Khái niệm Song sinh số được dùng với nhiều mức năng lực khác nhau trong các nghiên cứu. Kritzinger và cộng sự (2018) phân biệt mô hình số, bóng số và song sinh số theo chiều và mức tự động của luồng dữ liệu giữa đối tượng vật lý với biểu diễn số \[8\]. Sepasgozar (2021) đưa sự phân biệt này vào môi trường xây dựng \[9\], còn Chen và cộng sự (2021) tiếp cận Song sinh số trong quản lý tài sản bằng mô hình trưởng thành nhiều chiều \[10\]. Cả ba cách phân loại cùng cho thấy mức năng lực của một hệ thống phải được đánh giá trên các chức năng thực có, không suy ra từ tên gọi.
+Khái niệm song sinh số được dùng với nhiều mức năng lực khác nhau trong các nghiên cứu. Kritzinger và cộng sự (2018) phân biệt mô hình số, bóng số và song sinh số theo chiều và mức tự động của luồng dữ liệu giữa đối tượng vật lý với biểu diễn số \[8\]. Sepasgozar (2021) đưa sự phân biệt này vào môi trường xây dựng \[9\], còn Chen và cộng sự (2021) tiếp cận song sinh số trong quản lý tài sản bằng mô hình trưởng thành nhiều chiều \[10\]. Cả ba cách phân loại cùng cho thấy mức năng lực của một hệ thống phải được đánh giá trên các chức năng thực có, không suy ra từ tên gọi.
 
 Việc nối BIM với cảm biến tự nó chưa đủ để gọi một hệ thống là song sinh số. Luận án dùng phân loại của \[8\] để khai báo mức tích hợp. Dữ liệu đi tự động từ công trình vào mô hình số, còn mọi tác động trở lại công trình đi qua quyết định của con người, nên hệ thống ở mức bóng số (digital shadow). Tên đề tài giữ cụm "song sinh số dựa trên dữ liệu" theo hướng kiến trúc, kèm khai báo này (mục 5.6.6). Trong kiến trúc đó, dữ liệu từ tài sản vật lý được tổ chức thành bằng chứng trạng thái có nguồn gốc và phạm vi hiệu lực. Bằng chứng được liên kết với cấu kiện trong BIM và với bản ghi kiểm tra. Trạng thái hành động kiểm tra – bảo trì được ghi trở lại hệ thống thông tin và trở thành bối cảnh cho các lần đánh giá sau. Nếu được sử dụng, mô hình phần tử hữu hạn là mô hình danh nghĩa, chưa hiệu chuẩn, dùng để tham chiếu và không dùng cho chẩn đoán hư hỏng (Mục 5.9.3). Dự báo tuổi thọ còn lại, bảo trì dự báo, suy luận suy giảm độ cứng và tự động tác động lên tài sản không thuộc mục tiêu hiện tại.
 
@@ -30,7 +30,7 @@ Tại Việt Nam, bảo trì công trình xây dựng hiện được quy địn
 
 Về mô hình thông tin công trình, Quyết định số 258/QĐ-TTg ngày 17/3/2023 phê duyệt lộ trình áp dụng BIM. Theo lộ trình này, BIM là bắt buộc từ năm 2023 với công trình cấp I và cấp đặc biệt, và từ năm 2025 với công trình cấp II trở lên, thuộc các dự án đầu tư xây dựng mới sử dụng vốn đầu tư công, vốn nhà nước ngoài đầu tư công và đầu tư theo phương thức đối tác công tư \[12\]. Quyết định cũng yêu cầu chủ đầu tư các dự án áp dụng BIM theo lộ trình tổ chức cập nhật mô hình để phục vụ quản lý, vận hành và bảo trì công trình (Điều 1, khoản 3, điểm g).
 
-Hai văn bản trên cho thấy hồ sơ bảo trì, thông tin kiểm tra và mô hình thông tin công trình đều là đối tượng quản lý đã có cơ sở pháp lý tại Việt Nam. Tiểu luận dùng chúng để đặt bài toán quản lý thông tin của luận án vào bối cảnh trong nước, không dùng để suy ra ngưỡng kỹ thuật và không coi Song sinh số là yêu cầu pháp lý; cả hai văn bản đều không quy định về Song sinh số.
+Hai văn bản trên cho thấy hồ sơ bảo trì, thông tin kiểm tra và mô hình thông tin công trình đều là đối tượng quản lý đã có cơ sở pháp lý tại Việt Nam. Tiểu luận dùng chúng để đặt bài toán quản lý thông tin của luận án vào bối cảnh trong nước, không dùng để suy ra ngưỡng kỹ thuật và không coi song sinh số là yêu cầu pháp lý; cả hai văn bản đều không quy định về song sinh số.
 
 ## 1.2. Nhà công nghiệp khung thép liên kết bu lông
 
@@ -165,7 +165,7 @@ Trên công trình đang vận hành, dữ liệu hư hỏng có nhãn thường
 
 Phần có thể chuyển từ phòng thí nghiệm sang bối cảnh thực tế là nguyên tắc tổ chức bằng chứng: bằng chứng phải có định danh, nguồn gốc, bối cảnh, phạm vi hiệu lực và quan hệ với cấu kiện. Ở cấp tổng quan, yêu cầu này được dùng để xác lập ranh giới phương pháp: dữ liệu vận hành có thể hỗ trợ nhận biết biến đổi và kích hoạt kiểm tra, nhưng không tự động trở thành nhãn hư hỏng. Khả năng áp dụng của khung trên một nhà xưởng thật được kiểm chứng ở Mục tiêu 3 của luận án (Mục 5.3.3).
 
-### 1.6.4. Cần một kiến trúc Song sinh số bám theo quá trình quản lý
+### 1.6.4. Cần một kiến trúc song sinh số bám theo quá trình quản lý
 
 Song sinh số chỉ có ý nghĩa với luận án khi nó giúp duy trì liên hệ giữa tài sản vật lý, thông tin số và lịch sử quản lý. Các khung phân loại và mô hình trưởng thành yêu cầu năng lực của một hệ thống số được xác định rõ, không suy ra từ tên gọi \[8\]–\[10\]. Các yêu cầu về dữ liệu động và ngữ nghĩa \[7\], về khả năng nối dữ liệu thời gian với IFC \[5\] và về vai trò của con người khi rà soát kết quả số \[17\] cũng đã được đặt ra.
 
@@ -181,7 +181,7 @@ Mục tiêu của Tiểu luận tổng quan là hệ thống hóa và tổng h�
 
 Tiểu luận thực hiện năm mục tiêu cụ thể:
 
-1\. Hệ thống hóa cơ sở về quản lý tài sản, quản lý thông tin vận hành, BIM, IFC và Song sinh số có liên quan trực tiếp tới kiểm tra – bảo trì công trình.
+1\. Hệ thống hóa cơ sở về quản lý tài sản, quản lý thông tin vận hành, BIM, IFC và song sinh số có liên quan trực tiếp tới kiểm tra – bảo trì công trình.
 
 2\. Tổng hợp bằng chứng nghiên cứu về dữ liệu dao động và điều kiện cần để một kết quả phân loại có thể được xem là bằng chứng trạng thái có phạm vi hiệu lực rõ.
 
@@ -195,13 +195,13 @@ Tiểu luận trình bày thiết kế và công cụ của thực nghiệm; k�
 
 ### 1.7.3. Đối tượng tổng quan
 
-Đối tượng tổng quan gồm các nghiên cứu và tài liệu chuẩn thuộc bốn nhóm gắn với chuỗi nghiên cứu: (1) quản lý tài sản, quản lý thông tin giai đoạn vận hành và Song sinh số trong môi trường xây dựng; (2) theo dõi trạng thái bằng dữ liệu dao động, cách tổ chức và đánh giá bằng chứng trạng thái; (3) BIM, IFC, định danh cấu kiện và liên kết dữ liệu cảm biến với mô hình thông tin; (4) hồ sơ kiểm tra – bảo trì, nguồn gốc dữ liệu, kiểm chứng quan hệ, khả năng truy vết và hỗ trợ hành động có con người rà soát.
+Đối tượng tổng quan gồm các nghiên cứu và tài liệu chuẩn thuộc bốn nhóm gắn với chuỗi nghiên cứu: (1) quản lý tài sản, quản lý thông tin giai đoạn vận hành và song sinh số trong môi trường xây dựng; (2) theo dõi trạng thái bằng dữ liệu dao động, cách tổ chức và đánh giá bằng chứng trạng thái; (3) BIM, IFC, định danh cấu kiện và liên kết dữ liệu cảm biến với mô hình thông tin; (4) hồ sơ kiểm tra – bảo trì, nguồn gốc dữ liệu, kiểm chứng quan hệ, khả năng truy vết và hỗ trợ hành động có con người rà soát.
 
 Khách thể, đối tượng và phạm vi nghiên cứu của luận án được nêu ở Mục 1.2.4. Áp các nguyên tắc về quản trị bằng chứng, định danh và truy vết cho loại kết cấu và tài sản công trình khác là hướng phát triển sau luận án (Mục 5.9.1).
 
 ### 1.7.4. Phạm vi của Tiểu luận tổng quan
 
-Tiểu luận rà soát tài liệu thuộc bốn mắt xích của chuỗi nghiên cứu: quản lý tài sản và Song sinh số trong vận hành; dữ liệu dao động và bằng chứng trạng thái; BIM/IFC, định danh và truy vết cấp cấu kiện; hồ sơ kiểm tra, khả năng áp dụng trong bối cảnh thực tế và hỗ trợ hành động. Học máy, học sâu, nguồn gốc dữ liệu, khả năng liên thông và con người trong vòng lặp được rà soát ở vai trò hỗ trợ.
+Tiểu luận rà soát tài liệu thuộc bốn mắt xích của chuỗi nghiên cứu: quản lý tài sản và song sinh số trong vận hành; dữ liệu dao động và bằng chứng trạng thái; BIM/IFC, định danh và truy vết cấp cấu kiện; hồ sơ kiểm tra, khả năng áp dụng trong bối cảnh thực tế và hỗ trợ hành động. Học máy, học sâu, nguồn gốc dữ liệu, khả năng liên thông và con người trong vòng lặp được rà soát ở vai trò hỗ trợ.
 
 Ngoài phạm vi hiện tại là các hướng như chẩn đoán hư hỏng hiện trường khi chưa có kiểm tra xác nhận, dự báo tuổi thọ còn lại, bảo trì dự báo, suy luận suy giảm độ cứng, tối ưu hóa vị trí cảm biến và bảo trì tự động. Bảng phân lớp phạm vi đầy đủ của luận án, gồm cả nhóm hướng nghiên cứu sau luận án, được trình bày ở Mục 5.9.1.
 
@@ -217,13 +217,13 @@ Bất thường trong dữ liệu vận hành dẫn tới xem xét và kiểm tr
 
 ### 1.8.1. Cách tiếp cận
 
-Tiểu luận sử dụng tổng quan tài liệu theo chủ đề có cấu trúc (structured thematic literature review), khác với tổng quan hệ thống (systematic literature review) và phân tích thư mục định lượng. Vấn đề nghiên cứu đi qua nhiều miền kiến thức: quản lý tài sản, BIM/IFC, Song sinh số, theo dõi trạng thái bằng dao động, học máy, nguồn gốc dữ liệu, quản lý hồ sơ kiểm tra và hỗ trợ hành động. Mục tiêu vì thế là xác định các tiền lệ và giới hạn ảnh hưởng trực tiếp tới chuỗi nghiên cứu.
+Tiểu luận sử dụng tổng quan tài liệu theo chủ đề có cấu trúc (structured thematic literature review), khác với tổng quan hệ thống (systematic literature review) và phân tích thư mục định lượng. Vấn đề nghiên cứu đi qua nhiều miền kiến thức: quản lý tài sản, BIM/IFC, song sinh số, theo dõi trạng thái bằng dao động, học máy, nguồn gốc dữ liệu, quản lý hồ sơ kiểm tra và hỗ trợ hành động. Mục tiêu vì thế là xác định các tiền lệ và giới hạn ảnh hưởng trực tiếp tới chuỗi nghiên cứu.
 
 Quá trình tổng hợp tuân theo ba nguyên tắc. Thứ nhất, tài liệu được tổ chức theo mắt xích của chuỗi nghiên cứu thay vì theo tên công nghệ. Thứ hai, các nghiên cứu trọng yếu được đọc và tổng hợp theo cấu trúc luận điểm, bằng chứng, giới hạn và hàm ý nghiên cứu. Thứ ba, mọi phát biểu về khoảng trống phải được kiểm tra bằng nguồn phản biện hoặc tiền lệ gần nhất trước khi được giữ lại. Nguồn tài liệu, chiến lược khảo sát, quy trình sàng lọc, tiêu chí lựa chọn và cách đánh giá chất lượng bằng chứng được trình bày ở mục 1.8.5.
 
 ### 1.8.2. Các nhóm chủ đề
 
-Tập tài liệu được tổ chức thành chín nhóm bám theo chuỗi nghiên cứu: quản lý tài sản và thông tin trong giai đoạn vận hành; BIM, IFC, mô hình thông tin tài sản và định danh cấu kiện; Song sinh số cùng các khung đánh giá mức năng lực; dữ liệu dao động và theo dõi trạng thái liên kết; đơn vị vật lý độc lập, rò rỉ dữ liệu và khả năng chuyển giao; liên kết cảm biến – BIM và dữ liệu chuỗi thời gian; hồ sơ kiểm tra, khiếm khuyết, sửa chữa và hệ quản lý bảo trì; nguồn gốc dữ liệu, kiểm chứng quan hệ và lịch sử thông tin; con người trong vòng lặp và hỗ trợ hành động kiểm tra – bảo trì. Cách phân nhóm này tránh gom những tài liệu rất khác nhau vào các nhãn quá rộng như "trí tuệ nhân tạo", "BIM" hay "Song sinh số". Trong ma trận 29 tài liệu đọc sâu, chín nhóm này được gom thành năm cụm: song sinh số; theo dõi trạng thái – liên kết bu lông – biến đổi môi trường và vận hành; độ tin cậy của đánh giá; truy vết thông tin; giá trị của thông tin cho quyết định.
+Tập tài liệu được tổ chức thành chín nhóm bám theo chuỗi nghiên cứu: quản lý tài sản và thông tin trong giai đoạn vận hành; BIM, IFC, mô hình thông tin tài sản và định danh cấu kiện; song sinh số cùng các khung đánh giá mức năng lực; dữ liệu dao động và theo dõi trạng thái liên kết; đơn vị vật lý độc lập, rò rỉ dữ liệu và khả năng chuyển giao; liên kết cảm biến – BIM và dữ liệu chuỗi thời gian; hồ sơ kiểm tra, khiếm khuyết, sửa chữa và hệ quản lý bảo trì; nguồn gốc dữ liệu, kiểm chứng quan hệ và lịch sử thông tin; con người trong vòng lặp và hỗ trợ hành động kiểm tra – bảo trì. Cách phân nhóm này tránh gom những tài liệu rất khác nhau vào các nhãn quá rộng như "trí tuệ nhân tạo", "BIM" hay "song sinh số". Trong ma trận 29 tài liệu đọc sâu, chín nhóm này được gom thành năm cụm: song sinh số; theo dõi trạng thái – liên kết bu lông – biến đổi môi trường và vận hành; độ tin cậy của đánh giá; truy vết thông tin; giá trị của thông tin cho quyết định.
 
 ### 1.8.3. Kiểm soát mức bằng chứng của nguồn tài liệu
 
@@ -243,7 +243,7 @@ Mục này mô tả nguồn tài liệu, cách tìm, cách sàng lọc và cách
 
 Nguồn tài liệu được xem xét gồm các bài báo khoa học đăng trên tạp chí quốc tế có phản biện, bài báo hội nghị khoa học, các công trình tổng quan, tiêu chuẩn kỹ thuật và tài liệu chính thức của các tổ chức chuyên ngành có liên quan.
 
-Việc khảo sát tập trung vào các nghiên cứu thuộc lĩnh vực Quản lý xây dựng, quản lý tài sản công trình, quản lý thông tin trong giai đoạn vận hành, BIM/IFC, Song sinh số (Digital Twin), theo dõi trạng thái kết cấu (SHM), phân tích dữ liệu dao động, truy vết thông tin và hỗ trợ kiểm tra – bảo trì.
+Việc khảo sát tập trung vào các nghiên cứu thuộc lĩnh vực Quản lý xây dựng, quản lý tài sản công trình, quản lý thông tin trong giai đoạn vận hành, BIM/IFC, song sinh số (Digital Twin), theo dõi trạng thái kết cấu (SHM), phân tích dữ liệu dao động, truy vết thông tin và hỗ trợ kiểm tra – bảo trì.
 
 Các tài liệu được tổ chức theo chín nhóm chủ đề đã xác định tại mục 1.8.2, bám sát các mắt xích của chuỗi nghiên cứu, thay vì phân loại riêng biệt theo từng công nghệ.
 
@@ -259,7 +259,7 @@ Các nhóm từ khóa chính bao gồm:
 
 - Quản lý tài sản và thông tin vận hành: asset management, facility management, operation and maintenance, asset information management.
 
-- BIM và Song sinh số: Building Information Modeling, Industry Foundation Classes, Digital Twin, BIM-enabled asset management.
+- BIM và song sinh số: Building Information Modeling, Industry Foundation Classes, Digital Twin, BIM-enabled asset management.
 
 - Theo dõi trạng thái kết cấu: structural health monitoring, vibration-based condition monitoring, bolted steel connections.
 
@@ -349,7 +349,7 @@ Tiểu luận gồm năm chương, đi từ nền quản lý tới bằng chứn
 
 Chương 1 (Giới thiệu và phương pháp tổng quan) trình bày bối cảnh, vấn đề quản lý trung tâm, sự cần thiết, mục tiêu, phạm vi, phương pháp tổng quan, mục tiêu và câu hỏi nghiên cứu của luận án và kiến trúc tổng thể ở mức giới thiệu.
 
-Chương 2 (Tổng quan về quản lý tài sản và Song sinh số trong giai đoạn vận hành) xây dựng nền lý luận về quản lý tài sản, thông tin vận hành, BIM/IFC, định danh cấu kiện, Song sinh số, khả năng liên thông, nguồn gốc dữ liệu và con người trong vòng lặp; chương giải thích vì sao BIM/IFC mới là điều kiện nền, chưa tự tạo ra khả năng truy vết.
+Chương 2 (Tổng quan về quản lý tài sản và song sinh số trong giai đoạn vận hành) xây dựng nền lý luận về quản lý tài sản, thông tin vận hành, BIM/IFC, định danh cấu kiện, song sinh số, khả năng liên thông, nguồn gốc dữ liệu và con người trong vòng lặp; chương giải thích vì sao BIM/IFC mới là điều kiện nền, chưa tự tạo ra khả năng truy vết.
 
 Chương 3 (Tổng quan về dữ liệu dao động và bằng chứng trạng thái) tập trung vào điều kiện để một kết quả từ dữ liệu dao động trở thành bằng chứng có thể kiểm lại, qua các nội dung về đơn vị vật lý độc lập, rò rỉ dữ liệu, đánh giá theo nhóm, khả năng chuyển giao, độ bất định, nguồn gốc và phạm vi hiệu lực.
 
@@ -357,4 +357,4 @@ Chương 4 (Tổng quan về truy vết bằng chứng và hỗ trợ kiểm tra
 
 Chương 5 (Tổng hợp khoảng trống và định hướng nghiên cứu) tổng hợp những nội dung đã được giải quyết, phát biểu hai khoảng trống còn lại, rồi trình bày luận đề trung tâm, ba mục tiêu và ba câu hỏi nghiên cứu, ma trận mục tiêu – gói công việc – bài báo – thiết kế kiểm chứng, kiến trúc bóng số dựa trên dữ liệu, công cụ trí tuệ nhân tạo, đóng góp dự kiến, phạm vi và định hướng nghiên cứu tiếp theo.
 
-Chương 2 bắt đầu từ lớp ngoài cùng của chuỗi: bối cảnh quản lý tài sản đặt ra yêu cầu gì đối với thông tin vận hành, và BIM/IFC cùng Song sinh số đáp ứng được tới đâu.
+Chương 2 bắt đầu từ lớp ngoài cùng của chuỗi: bối cảnh quản lý tài sản đặt ra yêu cầu gì đối với thông tin vận hành, và BIM/IFC cùng song sinh số đáp ứng được tới đâu.
