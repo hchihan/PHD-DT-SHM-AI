@@ -507,3 +507,7 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 
 ## Phiên 02/10/2026 – HT3 Pha 3 Dẫn nhập, Phụ lục (NCS duyệt); Pha 3 hoàn tất
 - 12 lệnh sửa (`revision/HT3_dannhap_phuluc_edits.json`): Dẫn nhập tách 7 câu, bỏ bôi đậm, thêm "trong tập tài liệu đã rà soát" cho phát biểu khoảng trống; Phụ lục tách câu B.3, bỏ bôi đậm A.2; Chương 1 viết thường "song sinh số" 17 chỗ. Biên bản: `revision/HT3_dannhap_phuluc_van_phong_20261002.md`.
+
+## Phiên 02/10/2026 – HT5 Pha 4: chốt bản v2 (lưu làm mốc trước khi rút gọn)
+- Khai báo AI tạo sinh (`tieuluan/00_khaibao_AI.md`), bìa tháng 10/2026, vẽ lại bốn hình (`figures/ve_hinh.py`), script xuất bản đánh số IEEE (`xuat_ban/build.py`, 114 tài liệu), bản giải trình G1–G7, danh sách chuyển sang luận án. Biên bản: `revision/HT5_pha4_20261002.md`.
+- NCS yêu cầu tiếp: rút gọn toàn văn còn 60–80 trang, khoảng 80 trích dẫn có trong Zotero, trích dẫn liên kết Zotero, một tệp docx.

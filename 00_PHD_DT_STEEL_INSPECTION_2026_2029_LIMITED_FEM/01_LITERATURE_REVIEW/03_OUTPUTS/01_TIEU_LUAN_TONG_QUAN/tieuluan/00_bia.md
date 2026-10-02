@@ -18,4 +18,4 @@ TRƯỜNG ĐẠI HỌC BÁCH KHOA
 
 **PGS.TS PHẠM ANH ĐỨC**
 
-Đà Nẵng, tháng 09 năm 2026
+Đà Nẵng, tháng 10 năm 2026

@@ -130,8 +130,8 @@ Phần còn lại nằm ở khả năng giải trình của điểm nối từ b
 
 Từ các vấn đề trên, trục nghiên cứu được khóa thành một chuỗi duy nhất, trình bày ở Hình 1.1.
 
-![](../TLTQ_28.09.2026/figures/Hinh_1_1_Chuoi_nghien_cuu_tong_the.png)
-<!-- GĐ0: hình gốc vẽ bằng shape trong .docx; ảnh cắt từ PDF do Word xuất ngày 28/09/2026 -->
+![](../figures/Hinh_1_1_Chuoi_nghien_cuu_tong_the.png)
+<!-- Pha 4 (02/10/2026): vẽ lại bằng figures/ve_hinh.py -->
 
 <span id="TLTQ_Hinh_1_1" class="anchor"></span>Hình 1.1. Chuỗi nghiên cứu tổng thể
 

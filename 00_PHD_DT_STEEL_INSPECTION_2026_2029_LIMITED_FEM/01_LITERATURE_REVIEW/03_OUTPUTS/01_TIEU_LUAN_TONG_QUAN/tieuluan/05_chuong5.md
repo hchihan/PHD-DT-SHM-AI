@@ -224,8 +224,8 @@ Chuỗi nghiên cứu được giữ cố định theo Hình 1.1, và mỗi mũi
 
 Hình 5.1 trình bày năm mã định danh của chuỗi theo thứ tự từ nguồn đo tới trạng thái xử lý.
 
-![](../TLTQ_28.09.2026/figures/Hinh_5_1_Chuoi_dinh_danh_cot_loi.png)
-<!-- GĐ0: hình gốc vẽ bằng shape trong .docx; ảnh cắt từ PDF do Word xuất ngày 28/09/2026 -->
+![](../figures/Hinh_5_1_Chuoi_dinh_danh_cot_loi.png)
+<!-- Pha 4 (02/10/2026): vẽ lại bằng figures/ve_hinh.py -->
 
 <span id="TLTQ_Hinh_5_1" class="anchor"></span>Hình 5.1. Chuỗi định danh cốt lõi
 
@@ -239,8 +239,8 @@ Cần phân biệt hai loại đúng đắn. Loại thứ nhất là tính toàn
 
 Hình 5.2 xếp bốn lớp từ bằng chứng phòng thí nghiệm ở dưới cùng tới hỗ trợ quyết định quản lý ở trên cùng.
 
-![](../TLTQ_28.09.2026/figures/Hinh_5_2_Kien_truc_kiem_chung_bon_lop.png)
-<!-- GĐ0: hình gốc vẽ bằng shape trong .docx; ảnh cắt từ PDF do Word xuất ngày 28/09/2026 -->
+![](../figures/Hinh_5_2_Kien_truc_kiem_chung_bon_lop.png)
+<!-- Pha 4 (02/10/2026): vẽ lại bằng figures/ve_hinh.py -->
 
 <span id="TLTQ_Hinh_5_2" class="anchor"></span>Hình 5.2. Kiến trúc kiểm chứng bốn lớp
 
@@ -322,7 +322,7 @@ Bảng 5.6 gom công cụ của bốn gói công việc và trường dữ liệ
 | WP2 | Không dùng AI; mã hóa tay hồ sơ cũ | Phân loại lỗi; đối chứng B0 | Bản ghi lỗi đã mã hóa | Hồ sơ kiểm định đã mã hóa (đối chứng B0) |
 | WP4 | Logic bốn mức bằng luật minh bạch | Đề xuất mức ưu tiên | Mức ưu tiên kèm luật đã áp dụng | Mức ưu tiên của hành động; sự kiện chuyển trạng thái |
 
-Công cụ hỗ trợ ngoài AI gồm Python, scikit-learn, PyTorch; git để cấp mã phiên bản phương pháp; IfcOpenShell để đọc và ghi IFC; SQLite để lưu bản ghi; một công cụ viết bằng Python để kiểm năm ràng buộc ở Phụ lục B. Việc sử dụng AI tạo sinh khi thực hiện Tiểu luận được khai báo ở phần đầu<!-- A7: mục Khai báo sử dụng AI tạo sinh chèn ở Pha 4 (bản nháp revision/nhap_khai_bao_AI_tao_sinh.md), sau khi rà cột muc_da_doc theo CLAUDE 6.4. -->; phạm vi diễn giải của các công cụ trên được trình bày ở Mục 5.9.
+Công cụ hỗ trợ ngoài AI gồm Python, scikit-learn, PyTorch; git để cấp mã phiên bản phương pháp; IfcOpenShell để đọc và ghi IFC; SQLite để lưu bản ghi; một công cụ viết bằng Python để kiểm năm ràng buộc ở Phụ lục B. Việc sử dụng AI tạo sinh khi thực hiện Tiểu luận được khai báo ở phần đầu; phạm vi diễn giải của các công cụ trên được trình bày ở Mục 5.9.
 
 ## 5.8. Đóng góp dự kiến của luận án
 
@@ -350,8 +350,8 @@ Nếu hiệu năng giảm khi giữ lại cả lần chạy hoặc cả đợt, 
 
 Logic hỗ trợ hành động bốn mức (Bình thường → Theo dõi → Kiểm tra → Kiểm tra ưu tiên) là một phần của mô hình này. Mỗi mức ưu tiên gắn với bằng chứng, phạm vi hiệu lực, cấu kiện, bản ghi kiểm tra, vai trò người rà soát và lịch sử trạng thái xử lý. Hình 5.3 thể hiện bốn mức ưu tiên theo thứ tự tăng dần.
 
-![](../TLTQ_28.09.2026/figures/Hinh_5_3_Logic_ho_tro_hanh_dong.png)
-<!-- GĐ0: hình gốc vẽ bằng shape trong .docx; ảnh cắt từ PDF do Word xuất ngày 28/09/2026 -->
+![](../figures/Hinh_5_3_Logic_ho_tro_hanh_dong.png)
+<!-- Pha 4 (02/10/2026): vẽ lại bằng figures/ve_hinh.py -->
 
 <span id="TLTQ_Hinh_5_3" class="anchor"></span>Hình 5.3. Bốn mức ưu tiên của logic hỗ trợ hành động
 
