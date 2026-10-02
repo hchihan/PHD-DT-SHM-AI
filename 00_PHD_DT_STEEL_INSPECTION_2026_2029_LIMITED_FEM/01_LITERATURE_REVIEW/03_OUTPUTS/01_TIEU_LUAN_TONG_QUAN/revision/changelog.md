@@ -461,3 +461,31 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 
 ## Phiên 02/10/2026 – Danh sách tài liệu thiếu toàn văn
 - Lập `revision/thieu_toan_van.md`: đối chiếu 112 tài liệu đang trích với PDF trong Zotero và `pdf/`; 25 tài liệu cần bổ sung (7 ưu tiên cao, 14 bài báo khác, 4 chuẩn/văn bản) và 2 nguồn `[CẦN NGUỒN]` chưa có trong Zotero.
+
+## Phiên 02/10/2026 – HT0 chẩn đoán (Pha 0, prompt hoàn thiện tiểu luận)
+- Lập `revision/HT0_chan_doan_20261002.md`: ma trận bốn trục T1–T4, kiểm lại N1–N17, bổ sung N18–N37, số từ từng chương. Không sửa `tieuluan/`.
+- NCS quyết định: nhãn khoảng trống KT1 (vế A1, A2) và KT2; IDS là hướng mở rộng; chỉ số RQ1 nêu sơ bộ; ngôi viết "theo đánh giá của phần tổng quan nghiên cứu này" (Dẫn nhập và 1.2.1 giữ "Từ thực tế kiểm định"); bỏ "một tầng".
+
+## Phiên 02/10/2026 – HT1 Pha 1 phiên 1: thuật ngữ (NCS duyệt)
+- `00_thuatngu.md` viết lại: `Action_Status` bốn bước xử lý, thêm `priority_level` (N2); GlobalId là giới hạn ở 2.2.4 (N13); SHACL, SOSA bỏ "luận án dùng", IDS hướng mở rộng (N19); thêm khái niệm cốt lõi, KT1, KT2, cấp dữ liệu thí nghiệm, đánh giá cùng lần chạy, B0, B1, M1–M4 (N24).
+- N4: cấp dữ liệu "đợt thí nghiệm → đợt lắp đặt → lần chạy → bản ghi → cửa sổ tín hiệu" (3.4.1, Phụ lục A). N18: 3.1.3 định nghĩa khớp 1.3. N28: KT1/KT2 ở Ch.5, Dẫn nhập. Bỏ "một tầng" (1.2.4). Inspection_Record_ID = "bản ghi kiểm tra" (1.5.5, 5.6.2).
+- Biên bản: `revision/HT1_phien1_thuat_ngu_20261002.md`. Không thêm trích dẫn.
+
+## Phiên 02/10/2026 – HT1 Pha 1 phiên 2: tham chiếu và đánh số (NCS duyệt)
+- N1, N21 (hai khoảng trống ở 1.8.4, 5.9.4); N5 (gọi "đối chứng B0"); N6 (M1–M4 định nghĩa ở 5.5.2); N7 (bảng phụ lục A.1–A.3); N22 (đường dẫn hình); N23 (thêm Bảng 5.2, đánh số lại 5.3–5.6, câu dẫn bảng/hình); N30; rút gọn Bảng thuật ngữ. Biên bản: `revision/HT1_phien2_tham_chieu_danh_so_20261002.md`.
+
+## Phiên 02/10/2026 – HT1 Pha 1 phiên 3: danh mục và nguồn (NCS duyệt)
+- N8 (35 mục khóa Zotero vào `99_tailieu.md`; [63], [65], [77], [80], [84] chuyển vào chú thích ẩn); N9 (năm Ramasso 2025, Kamariotis 2023); N11 (nhập Zotero `GHAZGWUN` W3C SSN, `63XPSMIR` IFC4 ADD2 TC1, thay 8 chỗ `[CẦN NGUỒN]`); N12 (NĐ 207/2026 kiểm tên, ngày; số điều còn `[CẦN KIỂM]`); N14, N15, N31. Biên bản: `revision/HT1_phien3_danh_muc_nguon_20261002.md`.
+
+## Phiên 02/10/2026 – HT2 Pha 2 trục T1–T4 (NCS duyệt)
+- T1: khôi phục bốn tài liệu Zotero bị xóa (khóa mới TGMTUFPX, 23ZIDHJX, IB6Q2FEH, WZWSJR22); luận đề ở Dẫn nhập; 1.5, 1.6, 1.9 nối KT1, KT2, MT–RQ.
+- T2: 1.2.4 khách thể – đối tượng – phạm vi; khai báo bóng số tập trung ở 1.1.3.
+- T3: 3.4.3 định nghĩa mốc cùng lần chạy; Mục 5.5.3 và Bảng 5.4 (câu hỏi – phương pháp – dữ liệu – chỉ số – đối chứng); IDS là hướng mở rộng.
+- T4: Bảng 5.7 tách đóng góp khoa học / thực tiễn; MT2 dùng BIM nhà xưởng Khánh Hòa.
+- Biên bản: `revision/HT2_T1…T4_*_20261002.md`.
+
+## Phiên 02/10/2026 – HT3 Pha 3 Chương 1: văn phong (NCS duyệt)
+- 47 lệnh sửa (`revision/HT3_ch1_edits.json`): bỏ bôi đậm trong văn xuôi, tách câu dài, gom câu giới hạn, bỏ đoạn lặp. Biên bản: `revision/HT3_ch1_van_phong_20261002.md`.
+
+## Phiên 02/10/2026 – Rà soát tổng thể
+- `revision/RS_ra_soat_tong_the_20261002.md`: 13 việc A1–A13, văn phong Ch.2–5. NCS quyết định: hồ sơ B0 lấy của nhà xưởng Khánh Hòa (cùng BIM MT2); Bài 1 chạy đủ bốn mô hình và LOCO ba đợt; các phiên HT1 p2 – HT3 đã duyệt. CLAUDE.md mục 2A, 8, 12 cập nhật.

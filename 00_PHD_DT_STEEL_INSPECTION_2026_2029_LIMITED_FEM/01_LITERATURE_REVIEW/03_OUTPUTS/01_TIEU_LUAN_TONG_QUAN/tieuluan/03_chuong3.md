@@ -30,7 +30,7 @@ Bảng này cho thấy một bất đối xứng lặp lại: các nghiên cứu
 
 ### 3.1.3. Phân biệt bằng chứng trạng thái và chẩn đoán hư hỏng
 
-Trong nghiên cứu này, đầu ra của một mô hình phân loại trên dữ liệu dao động được gọi là **bằng chứng trạng thái** (condition evidence). Bằng chứng này có thể gồm nhãn trạng thái, xác suất hoặc mức độ tin cậy, cùng bối cảnh đã tạo ra kết quả. Nó không được xem là kết luận trực tiếp về hư hỏng vật lý, mức độ nghiêm trọng hoặc chỉ số sức khỏe của cấu kiện.
+Theo định nghĩa ở Mục 1.3, đầu ra của một mô hình phân loại trên dữ liệu dao động là **kết quả phân loại**; kết quả đó trở thành **bằng chứng trạng thái** (condition evidence) khi được ghi kèm nguồn gốc, độ bất định và phạm vi hiệu lực. Ở chương này, bằng chứng trạng thái được xét cho nguồn dữ liệu dao động: nhãn trạng thái, xác suất hoặc điểm số, cùng bối cảnh đã tạo ra kết quả. Nó không được xem là kết luận trực tiếp về hư hỏng vật lý, mức độ nghiêm trọng hoặc chỉ số sức khỏe của cấu kiện.
 
 Sự phân biệt này cần thiết vì nhãn và trạng thái vật lý không tương ứng một–một theo cả hai chiều. Theo chiều thứ nhất, nhãn phân loại phụ thuộc vào nhiều yếu tố ngoài trạng thái vật lý (cấu hình cảm biến, đợt thí nghiệm, điều kiện lắp đặt, đường cơ sở tham chiếu, phiên bản dữ liệu và chuỗi xử lý), nên thay đổi một yếu tố có thể làm đổi kết quả mà không có thay đổi vật lý tương ứng. Theo chiều ngược lại, dữ liệu dao động không đủ để xác định nguyên nhân của một thay đổi vật lý thực; tín hiệu còn chịu ảnh hưởng của điều kiện môi trường, vận hành, lắp đặt và lịch sử can thiệp. Dữ liệu dao động vì vậy cung cấp dấu hiệu thay đổi trạng thái; nguyên nhân phải được xác nhận bằng hoạt động kiểm tra phù hợp.
 
@@ -48,7 +48,7 @@ Từ đó, ba nguyên tắc được giữ nhất quán cho luận án:
 
 ### 3.2.1. Kiểm tra trực quan: kết quả phụ thuộc người kiểm tra
 
-Kiểm tra trực quan là phương pháp chủ đạo trong thực hành kiểm tra công trình. Nghiên cứu của Cục Đường bộ Liên bang Hoa Kỳ (FHWA) với 49 kiểm tra viên trên các cầu thử nghiệm cho thấy phương pháp này mang tính chủ quan cao: chỉ khoảng 68 % điểm tình trạng nằm trong phạm vi ±1 điểm quanh giá trị trung bình \[@8IMKCTE5\] (tr. 67, 71, 82). Trong nhiệm vụ kiểm tra chi tiết một cầu thép, tỷ lệ phát hiện đúng các liên kết bu lông có đai ốc hở ít nhất 4 mm chỉ là 24 % \[@8IMKCTE5\] (tr. 78). Cùng nghiên cứu đó, Phares và cộng sự (2004) ghi nhận điểm tình trạng, ghi chú hiện trường và ảnh đều biến thiên lớn giữa các kiểm tra viên, và khuyết tật quan trọng nhiều khi không được ghi lại trong hồ sơ \[@J7FAWJ8I\] (tr. 403, 408, 412–413).
+Kiểm tra trực quan là phương pháp chủ đạo trong thực hành kiểm tra công trình. Nghiên cứu của Cục Đường bộ Liên bang Hoa Kỳ (FHWA) với 49 kiểm tra viên trên các cầu thử nghiệm cho thấy phương pháp này mang tính chủ quan cao: chỉ khoảng 68 % điểm tình trạng nằm trong phạm vi ±1 điểm quanh giá trị trung bình \[@23ZIDHJX\] (tr. 67, 71, 82). Trong nhiệm vụ kiểm tra chi tiết một cầu thép, tỷ lệ phát hiện đúng các liên kết bu lông có đai ốc hở ít nhất 4 mm chỉ là 24 % \[@23ZIDHJX\] (tr. 78). Cùng nghiên cứu đó, Phares và cộng sự (2004) ghi nhận điểm tình trạng, ghi chú hiện trường và ảnh đều biến thiên lớn giữa các kiểm tra viên, và khuyết tật quan trọng nhiều khi không được ghi lại trong hồ sơ \[@IB6Q2FEH\] (tr. 403, 408, 412–413).
 
 Tiểu luận rút ra hai diễn giải cho nhà xưởng. Khuyết tật bu lông trong nghiên cứu trên là loại nhìn thấy được; mất lực siết không kèm dấu hiệu hình học còn khó phát hiện bằng mắt hơn, trong khi liên kết nhà xưởng thường nằm trên cao và việc tiếp cận tốn kém (mục 1.2.3). Kết quả kiểm tra của con người cũng có độ bất định và phụ thuộc người thực hiện, nên bản ghi kiểm tra cần mang thông tin về người kiểm tra, thời điểm và độ bất định của phát hiện, như các trường của bản ghi kiểm tra ở Phụ lục A.
 
@@ -82,7 +82,7 @@ Bốn giới hạn trên cùng dẫn tới một yêu cầu: ở nhà xưởng, 
 
 Các nghiên cứu dùng nhiều loại và số lượng cảm biến, phổ biến nhất là gia tốc kế và cảm biến biến dạng, từ vài vị trí tới mạng đo nhiều điểm. Phần lớn dùng một cấu hình cố định và tập trung vào mô hình phân loại, ít đánh giá có kiểm soát ảnh hưởng của chính cấu hình đó.
 
-Cấu hình cảm biến là một phần của điều kiện tạo bằng chứng: kết quả đạt được với một tổ hợp cảm biến không mặc nhiên giữ nguyên khi số lượng hay vị trí thay đổi. Wheat và cộng sự (2024) cho thấy vị trí cảm biến ảnh hưởng tới hiệu năng ngay trong một giao thức đánh giá giữ nguyên \[15\]; Dadoulis và Manolis (2026) định lượng đóng góp của từng kênh đo \[51\]. Trong luận án, cấu hình cảm biến giữ vai trò hỗ trợ cho Câu hỏi nghiên cứu 1 (đánh giá chất lượng bằng chứng dưới các cấu hình khác nhau); chương này không tìm “vị trí tối ưu” và không coi cấu hình cảm biến là trục nghiên cứu độc lập.
+Cấu hình cảm biến là một phần của điều kiện tạo bằng chứng: kết quả đạt được với một tổ hợp cảm biến không mặc nhiên giữ nguyên khi số lượng hay vị trí thay đổi. Wheat và cộng sự (2024) cho thấy vị trí cảm biến ảnh hưởng tới hiệu năng ngay trong một giao thức đánh giá giữ nguyên \[15\]; Dadoulis và Manolis (2026) định lượng đóng góp của từng kênh đo \[51\]. Trong luận án, cấu hình cảm biến là một thành phần của phạm vi hiệu lực và được ghi vào bối cảnh quan trắc của mỗi bằng chứng (Phụ lục A); chương này không tìm “vị trí tối ưu” và không coi cấu hình cảm biến là trục nghiên cứu độc lập.
 
 ### 3.3.2. Tiền xử lý, phân đoạn và tạo đầu vào
 
@@ -106,9 +106,9 @@ Vấn đề đầu tiên của dữ liệu dao động là xác định đâu l�
 
 Trong thí nghiệm dao động, cấu trúc dữ liệu thường có dạng phân cấp:
 
-**Đợt thí nghiệm → lần lắp đặt / trạng thái lắp ráp → lần chạy hoặc lần thu → cửa sổ tín hiệu**
+**Đợt thí nghiệm → đợt lắp đặt (trạng thái lắp ráp) → lần chạy → bản ghi → cửa sổ tín hiệu**
 
-Cửa sổ tín hiệu nằm ở cấp thấp nhất và không phải đơn vị độc lập. Lần chạy hoặc lần thu thường là cấp vật lý phù hợp hơn cho đánh giá trong cùng một đợt; khi mục tiêu là kiểm tra khả năng chuyển giao qua lắp đặt hoặc qua đợt đo, cấp độc lập phải được nâng lên tương ứng. Chọn đúng đơn vị độc lập vì vậy quyết định trực tiếp phạm vi diễn giải của kết quả, ngoài ý nghĩa thống kê.
+Cửa sổ tín hiệu nằm ở cấp thấp nhất và không phải đơn vị độc lập. Lần chạy thường là cấp vật lý phù hợp hơn cho đánh giá trong cùng một đợt; khi mục tiêu là kiểm tra khả năng chuyển giao qua đợt lắp đặt hoặc qua đợt thí nghiệm, cấp độc lập phải được nâng lên tương ứng. Chọn đúng đơn vị độc lập vì vậy quyết định trực tiếp phạm vi diễn giải của kết quả, ngoài ý nghĩa thống kê.
 
 ### 3.4.2. Rò rỉ dữ liệu và đánh giá theo nhóm
 
@@ -122,9 +122,11 @@ Rò rỉ dữ liệu đã được nhận diện rộng trong học máy nói ch
 
 ### 3.4.3. Đánh giá giữ lại một lần chạy và giữ lại một đợt thí nghiệm
 
+Mốc so sánh của luận án là **đánh giá cùng lần chạy** (within-run evaluation): tập huấn luyện và tập kiểm tra được chia bên trong cùng các lần chạy, nên dữ liệu kiểm tra có thể đến từ lần chạy đã có trong huấn luyện. Hai nghiên cứu đã rà soát cho bài toán phân loại liên kết bu lông trên khung thép chia tập trong cùng lần lắp ráp hoặc cùng bản ghi \[48\], \[@VVBGM9EN\] (Mục 5.2.1). Chênh lệch giữa mốc này và hai giao thức dưới đây là đại lượng mà vế A1 của KT1 cần đo.
+
 Luận án sử dụng hai giao thức đánh giá theo nhóm để trả lời hai câu hỏi khác nhau. **Đánh giá giữ lại một lần chạy** (Leave-One-Run-Out – LORO) giữ toàn bộ dữ liệu của một lần chạy làm tập kiểm tra và huấn luyện trên các lần chạy còn lại, qua đó đánh giá khả năng khái quát sang một lần chạy độc lập trong phạm vi cùng một đợt thí nghiệm. **Đánh giá giữ lại một đợt thí nghiệm** (Leave-One-Campaign-Out – LOCO) giữ toàn bộ dữ liệu của một đợt làm tập kiểm tra, và khắt khe hơn vì đợt mới có thể đi kèm tháo – lắp lại cảm biến, thay đổi trạng thái tiếp xúc, điều kiện môi trường cùng các yếu tố vận hành khác.
 
-Mức khắt khe của LOCO có cơ sở vật lý. Brake, Schwingshackl và Reuß (2019) cho thấy quá trình lắp ráp và trạng thái tiếp xúc tạo biến thiên lớn trong kết cấu có liên kết \[18\]; Ramasso, de Oliveira Teloli và Marcel (2024) ghi nhận hiệu năng trong cùng đợt và trên đợt chưa thấy có thể chênh lệch rõ khi liên kết được tháo – lắp lại \[19\]; Da Silva và cộng sự (2024) minh họa khó khăn khi chuyển mô hình giữa các mẫu liên kết danh nghĩa tương tự nhau \[56\].
+Mức khắt khe của LOCO có cơ sở vật lý. Brake, Schwingshackl và Reuß (2019) cho thấy quá trình lắp ráp và trạng thái tiếp xúc tạo biến thiên lớn trong kết cấu có liên kết \[18\]; Ramasso, de Oliveira Teloli và Marcel (2025) ghi nhận hiệu năng trong cùng đợt và trên đợt chưa thấy có thể chênh lệch rõ khi liên kết được tháo – lắp lại \[19\]; Da Silva và cộng sự (2024) minh họa khó khăn khi chuyển mô hình giữa các mẫu liên kết danh nghĩa tương tự nhau \[56\].
 
 Hai giao thức trả lời hai câu hỏi tách biệt: LORO cho biết bằng chứng có khái quát sang một lần chạy mới trong cùng bối cảnh thí nghiệm hay không; LOCO cho biết bằng chứng có giữ giá trị khi chuyển sang đợt thí nghiệm khác hay không. Một kết quả LORO tốt không cho phép suy rộng sang đợt mới, càng không sang công trình thực. Một kết quả LOCO thấp không xóa giá trị của bằng chứng trong cùng đợt mà chỉ cho thấy phạm vi hiệu lực hẹp hơn. Cách đọc này quan trọng khi bằng chứng đi sang lớp quản lý thông tin, nơi người dùng thường không tiếp cận được giao thức đánh giá gốc.
 

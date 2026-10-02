@@ -20,7 +20,7 @@
 
 \[10\] L. Chen, X. Xie, Q. Lu, A. K. Parlikad, M. Pitt, and J. Yang, “Gemini Principles-Based Digital Twin Maturity Model for Asset Management,” *Sustainability*, vol. 13, no. 15, p. 8224, Jan. 2021, doi: 10.3390/su13158224.
 
-\[11\] Chính phủ, “Nghị định số 207/2026/NĐ-CP quy định chi tiết một số điều của Luật Xây dựng về quản lý chất lượng, thi công xây dựng và bảo trì công trình xây dựng,” 207/2026/NĐ-CP.
+\[11\] Chính phủ, “Nghị định số 207/2026/NĐ-CP quy định chi tiết một số điều của Luật Xây dựng về quản lý chất lượng, thi công xây dựng và bảo trì công trình xây dựng,” Nghị định số 207/2026/NĐ-CP, ban hành ngày 15/6/2026, hiệu lực từ ngày 01/7/2026. \[Online\]. Available: https://thuvienphapluat.vn/van-ban/Xay-dung-Do-thi/Nghi-dinh-207-2026-ND-CP-huong-dan-Luat-Xay-dung-quan-ly-chat-luong-thi-cong-xay-dung-701883.aspx (truy cập ngày 02/10/2026).
 
 \[12\] Thủ tướng Chính phủ, “Quyết định số 258/QĐ-TTg ngày 17/3/2023 phê duyệt Lộ trình áp dụng Mô hình thông tin công trình (BIM) trong hoạt động xây dựng,” Hà Nội, Mar. 2023.
 
@@ -124,11 +124,7 @@
 
 \[62\] A. Haller *et al.*, “The modular SSN ontology: A joint W3C and OGC standard specifying the semantics of sensors, observations, sampling, and actuation,” *Semantic Web*, vol. 10, no. 1, pp. 9–32, Dec. 2018, doi: 10.3233/sw-180320.
 
-\[63\] D. Isailović, V. Stojanovic, M. Trapp, R. Richter, R. Hajdin, and J. Döllner, “Bridge damage: detection, IFC-based semantic enrichment and visualization,” *Automation in Construction*, vol. 112, p. 103088, 2020, doi: 10.1016/j.autcon.2020.103088.
-
 \[64\] S. Xu, J. Wang, X. Wang, P. Wu, W. Shou, and C. Liu, “A Parameter-Driven Method for Modeling Bridge Defects through IFC,” *Journal of Computing in Civil Engineering*, vol. 36, no. 4, p. 04022015, Jul. 2022, doi: 10.1061/(ASCE)CP.1943-5487.0001026.
-
-\[65\] A. G. Mohamed, A. Khaled, and I. S. Abotaleb, “A Bridge Information Modeling (BrIM) Framework for Inspection and Maintenance Intervention in Reinforced Concrete Bridges,” *Buildings*, vol. 13, no. 11, p. 2798, Nov. 2023, doi: 10.3390/buildings13112798.
 
 \[66\] C.-H. Jeon, D.-C. Nguyen, G. Roh, and C.-S. Shim, “Development of BrIM-Based Bridge Maintenance System for Existing Bridges,” *Buildings*, vol. 13, no. 9, p. 2332, Sep. 2023, doi: 10.3390/buildings13092332.
 
@@ -152,13 +148,9 @@
 
 \[76\] A. Entezami, H. Sarmadi, and B. Behkamal, “Long-term health monitoring of concrete and steel bridges under large and missing data by unsupervised meta learning,” *Engineering Structures*, vol. 279, p. 115616, Mar. 2023, doi: 10.1016/j.engstruct.2023.115616.
 
-\[77\] R. Sacks *et al.*, “SeeBridge as next generation bridge inspection: overview, information delivery manual and model view definition,” *Automation in Construction*, vol. 90, pp. 134–145, 2018, doi: 10.1016/j.autcon.2018.02.033.
-
 \[78\] C. Wan *et al.*, “Development of a bridge management system based on the building information modeling technology,” *Sustainability*, vol. 11, no. 17, p. 4583, 2019, doi: 10.3390/su11174583.
 
 \[79\] W.-H. Zhang, J. Qin, D.-G. Lu, M. Liu, and M. H. Faber, “VoI analysis of temporally continuous SHM information in the context of adaptive risk-based inspection planning,” *Structural Safety*, vol. 99, p. 102258, Nov. 2022, doi: 10.1016/j.strusafe.2022.102258.
-
-\[80\] T. Bull *et al.*, “Probabilistic digital-twin-informed risk-based inspection planning for offshore wind turbine structures,” *Structural Health Monitoring*, vol. 25, no. 4, pp. 2383–2402, Mar. 2025, doi: 10.1177/14759217251316199.
 
 \[81\] A. Lorvão Antunes, J. Barateiro, V. Marecos, J. Petrović, and E. Cardoso, “Ontology-based BIM-AMS integration in European Highways,” *Intelligent Systems with Applications*, vol. 22, p. 200366, Apr. 2024, doi: 10.1016/j.iswa.2024.200366.
 
@@ -166,4 +158,84 @@
 
 \[83\] J. Oraskari, M. Senthilvel, and J. Beetz, “SHACL is for LBD what mvdXML is for IFC,” presented at the Proceedings of the 38th International Conference of CIB W78 on Information Technology for Construction, CIB W78, 2021, pp. 693–702. \[Online\]. Available: https://itc.scix.net/pdfs/w78-2021-paper-069.pdf
 
+## Tài liệu bổ sung (trích bằng khóa Zotero, đánh số theo IEEE ở GĐ6)
+
+<!-- N8, N11 (02/10/2026): xuất từ Zotero kiểu IEEE; bốn mục He 2016, Graybeal 2002, Phares 2004, Cross 2011 nhập lại theo DOI qua Crossref ngày 02/10/2026 (bản ghi cũ TGMTUFPX, 23ZIDHJX, IB6Q2FEH, WZWSJR22 đã bị xóa khỏi Thùng rác). -->
+
+\[@23TBQTIP\] E. Figueiredo, G. Park, C. R. Farrar, K. Worden, and J. Figueiras, “Machine learning algorithms for damage detection under operational and environmental variability,” Structural Health Monitoring, vol. 10, no. 6, pp. 559–572, Nov. 2011, doi: 10.1177/1475921710388971.
+
+\[@2AZ7VZ5R\] P. Nooralishahi et al., “Drone-Based Non-Destructive Inspection of Industrial Sites: A Review and Case Studies,” Drones, vol. 5, no. 4, p. 106, Sep. 2021, doi: 10.3390/drones5040106.
+
+\[@2ZJSENQU\] K. Maes, L. Van Meerbeeck, E. P. B. Reynders, and G. Lombaert, “Validation of vibration-based structural health monitoring on retrofitted railway bridge KW51,” Mechanical Systems and Signal Processing, vol. 165, p. 108380, Feb. 2022, doi: 10.1016/j.ymssp.2021.108380.
+
+\[@38FMATHE\] S. Ju, H. Kuo, S. Yu, and S. Ni, “Investigation of vibration induced by moving cranes in high-tech factories,” Journal of Low Frequency Noise, Vibration and Active Control, vol. 39, no. 1, pp. 84–97, 2020, doi: 10.1177/1461348419837416.
+
+\[@5TQ4AZVX\] L. Breiman, “Random Forests,” Machine Learning, vol. 45, no. 1, pp. 5–32, Oct. 2001, doi: 10.1023/a:1010933404324.
+
+\[@63XPSMIR\] buildingSMART International, “IFC4 ADD2 TC1 (4.0.2.1) documentation,” Oct. 2017 (tương đương ISO 16739-1:2018). \[Online\]. Available: https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD2_TC1/HTML/ (truy cập ngày 02/10/2026)
+
+\[@TGMTUFPX\] K. He, X. Zhang, S. Ren, and J. Sun, “Deep Residual Learning for Image Recognition,” IEEE, 2016, pp. 770–778, doi: 10.1109/cvpr.2016.90.
+
+\[@6JAQQCGE\] A. Vabalas, E. Gowen, E. Poliakoff, and A. J. Casson, “Machine learning algorithm validation with a limited sample size,” PLOS ONE, vol. 14, no. 11, p. e0224365, Nov. 2019, doi: 10.1371/journal.pone.0224365.
+
+\[@73MBWFVJ\] E. Mosqueira-Rey, E. Hernández-Pereira, D. Alonso-Ríos, J. Bobes-Bascarán, and Á. Fernández-Leal, “Human-in-the-loop machine learning: a state of the art,” Artificial Intelligence Review, vol. 56, no. 4, pp. 3005–3054, Aug. 2022, doi: 10.1007/s10462-022-10246-w.
+
+\[@82WQNDHU\] M. Mitchell et al., “Model Cards for Model Reporting,” ACM, Jan. 2019, pp. 220–229. doi: 10.1145/3287560.3287596.
+
+\[@87NKU5IS\] L. A. Bull, N. Dervilis, K. Worden, E. J. Cross, and T. J. Rogers, “A sampling-based approach for information-theoretic inspection management,” Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences, vol. 478, no. 2262, p. 20210790, Jun. 2022, doi: 10.1098/rspa.2021.0790.
+
+\[@23ZIDHJX\] B. A. Graybeal, B. M. Phares, D. D. Rolander, M. Moore, and G. Washer, “Visual Inspection of Highway Bridges,” Journal of Nondestructive Evaluation, vol. 21, no. 3, pp. 67–83, 2002, doi: 10.1023/a:1022508121821.
+
+\[@8PB7EN2E\] International Organization for Standardization, “Asset management - vocabulary, overview and principles,” ISO 55000:2024, 2024, \[Online\]. Available: https://www.iso.org/standard/83053.html
+
+\[@D28DT7CE\] S. Varma and R. Simon, “Bias in error estimation when using cross-validation for model selection,” BMC Bioinformatics, vol. 7, no. 1, p. 91, Feb. 2006, doi: 10.1186/1471-2105-7-91.
+
+\[@EBB69J4F\] P. Cawley, “Structural health monitoring: Closing the gap between research and industrial deployment,” Structural Health Monitoring, vol. 17, no. 5, pp. 1225–1244, Jan. 2018, doi: 10.1177/1475921717750047.
+
+\[@G98ZWHKW\] S. Ghazimoghadam and S. A. A. Hosseinzadeh, “A novel unsupervised deep learning approach for vibration-based damage diagnosis using a multi-head self-attention LSTM autoencoder,” Measurement, vol. 229, p. 114410, Apr. 2024, doi: 10.1016/j.measurement.2024.114410.
+
+\[@GHAZGWUN\] A. Haller, K. Janowicz, S. Cox, D. Le Phuoc, K. Taylor, and M. Lefrançois, Eds., “Semantic Sensor Network Ontology,” W3C Recommendation, 19 Oct. 2017. \[Online\]. Available: https://www.w3.org/TR/2017/REC-vocab-ssn-20171019/ (truy cập ngày 02/10/2026)
+
+\[@HPREAQAJ\] O. Abdeljaber, O. Avci, S. Kiranyaz, M. Gabbouj, and D. J. Inman, “Real-time vibration-based structural damage detection using one-dimensional convolutional neural networks,” Journal of Sound and Vibration, vol. 388, pp. 154–170, Feb. 2017, doi: 10.1016/j.jsv.2016.10.043.
+
+\[@IJGQYI7W\] E. F. Daniel et al., “Evolution of corrosion degradation in galvanised steel bolts exposed to a tropical marine environment,” Journal of Materials Research and Technology, vol. 27, pp. 5177–5190, Nov. 2023, doi: 10.1016/j.jmrt.2023.10.295.
+
+\[@IU5KZQEA\] S. Kiranyaz, O. Avci, O. Abdeljaber, T. Ince, M. Gabbouj, and D. J. Inman, “1D convolutional neural networks and applications: A survey,” Mechanical Systems and Signal Processing, vol. 151, p. 107398, Apr. 2021, doi: 10.1016/j.ymssp.2020.107398.
+
+\[@J358BJ7Z\] M. U. Saleem and H. J. Qureshi, “Design Solutions for Sustainable Construction of Pre Engineered Steel Buildings,” Sustainability, vol. 10, no. 6, p. 1761, May 2018, doi: 10.3390/su10061761.
+
+\[@IB6Q2FEH\] B. M. Phares, G. A. Washer, D. D. Rolander, B. A. Graybeal, and M. Moore, “Routine Highway Bridge Inspection Condition Documentation Accuracy and Reliability,” Journal of Bridge Engineering, vol. 9, no. 4, pp. 403–413, 2004, doi: 10.1061/(asce)1084-0702(2004)9:4(403).
+
+\[@JVI2GUPC\] C. Cortes and V. Vapnik, “Support-Vector Networks,” Machine Learning, vol. 20, no. 3, pp. 273–297, Sep. 1995, doi: 10.1023/a:1022627411411.
+
+\[@K5SGFIGW\] buildingSMART International, “BIM Collaboration Format (BCF) 3.0: BCF-XML and BCF-API,” buildingSMART International, Technical specification BCF 3.0, Jun. 2021. \[Online\]. Available: https://github.com/buildingSMART/BCF-XML/releases/tag/v3.0
+
+\[@WZWSJR22\] E. J. Cross, K. Worden, and Q. Chen, “Cointegration: a novel approach for the removal of environmental trends in structural health monitoring data,” Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences, vol. 467, no. 2133, pp. 2712–2732, 2011, doi: 10.1098/rspa.2011.0023.
+
+\[@MCNRW6F5\] K. Worden, C. R. Farrar, G. Manson, and G. Park, “The fundamental axioms of structural health monitoring,” Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences, vol. 463, no. 2082, pp. 1639–1664, Apr. 2007, doi: 10.1098/rspa.2007.1834.
+
+\[@QMVQCEL5\] J. Torres-Barriuso, N. Lasarte, I. Piñero, E. Roji, and P. Elguezabal, “Digitalization of the Workflow for Drone-Assisted Inspection and Automated Assessment of Industrial Buildings for Effective Maintenance Management,” Buildings, 2025, doi: 10.3390/buildings15020242.
+
+\[@QUGY4928\] O. Avci, O. Abdeljaber, S. Kiranyaz, M. Hussein, M. Gabbouj, and D. J. Inman, “A review of vibration-based damage detection in civil structures: From traditional methods to Machine Learning and Deep Learning applications,” Mechanical Systems and Signal Processing, vol. 147, p. 107077, Jan. 2021, doi: 10.1016/j.ymssp.2020.107077.
+
+\[@SKCFNXPU\] L. T. H. Lien, P. T. San, and H. L. Hong, “Results of studying atmospheric corrosion in Vietnam 1995–2005,” Science and Technology of Advanced Materials, vol. 8, no. 7–8, pp. 552–558, Jan. 2007, doi: 10.1016/j.stam.2007.08.011.
+
+\[@TDRPDWJE\] Z. Wang and Y.-J. Cha, “Unsupervised deep learning approach using a deep auto-encoder with a one-class support vector machine to detect damage,” Structural Health Monitoring, vol. 20, no. 1, pp. 406–425, Jan. 2021, doi: 10.1177/1475921720934051.
+
+\[@VVBGM9EN\] O. Eraliev, K.-H. Lee, and C.-H. Lee, “Vibration-Based Loosening Detection of a Multi-Bolt Structure Using Machine Learning Algorithms,” Sensors, vol. 22, no. 3, p. 1210, Jan. 2022, doi: 10.3390/s22031210.
+
+\[@WP5WUUF9\] H. Gong, X. Ding, J. Liu, and H. Feng, “Review of research on loosening of threaded fasteners,” Friction, vol. 10, no. 3, pp. 335–359, 2022, doi: 10.1007/s40544-021-0497-1.
+
+\[@WXHN9TA2\] Z. Wang, W. Yan, and T. Oates, “Time series classification from scratch with deep neural networks: A strong baseline,” in 2017 International Joint Conference on Neural Networks (IJCNN), IEEE, May 2017, pp. 1578–1585. doi: 10.1109/ijcnn.2017.7966039.
+
+\[@XM5ZUP99\] Hiếu Phương, “Cả nước có 478 khu công nghiệp đã đi vào hoạt động với tỷ lệ lấp đầy cao,” *Tạp chí Kinh tế – Tài chính*, 16/11/2025. \[Online\]. Available: https://tapchikinhtetaichinh.vn/ca-nuoc-co-478-khu-cong-nghiep-da-di-vao-hoat-dong-voi-ty-le-lap-day-cao-102742.html (truy cập ngày 01/10/2026)
+
+\[@Z9RD5DMZ\] A. J. Hughes, L. A. Bull, P. Gardner, R. J. Barthorpe, N. Dervilis, and K. Worden, “On risk-based active learning for structural health monitoring,” Mechanical Systems and Signal Processing, vol. 167, p. 108569, Mar. 2022, doi: 10.1016/j.ymssp.2021.108569.
+
+<!-- N8 (02/10/2026): năm mục sau không còn được trích trong thân bài, đã bỏ khỏi danh mục. Số thứ tự để trống đến khi đánh số lại ở GĐ6.
+\[63\] D. Isailović, V. Stojanovic, M. Trapp, R. Richter, R. Hajdin, and J. Döllner, “Bridge damage: detection, IFC-based semantic enrichment and visualization,” *Automation in Construction*, vol. 112, p. 103088, 2020, doi: 10.1016/j.autcon.2020.103088.
+\[65\] A. G. Mohamed, A. Khaled, and I. S. Abotaleb, “A Bridge Information Modeling (BrIM) Framework for Inspection and Maintenance Intervention in Reinforced Concrete Bridges,” *Buildings*, vol. 13, no. 11, p. 2798, Nov. 2023, doi: 10.3390/buildings13112798.
+\[77\] R. Sacks *et al.*, “SeeBridge as next generation bridge inspection: overview, information delivery manual and model view definition,” *Automation in Construction*, vol. 90, pp. 134–145, 2018, doi: 10.1016/j.autcon.2018.02.033.
+\[80\] T. Bull *et al.*, “Probabilistic digital-twin-informed risk-based inspection planning for offshore wind turbine structures,” *Structural Health Monitoring*, vol. 25, no. 4, pp. 2383–2402, Mar. 2025, doi: 10.1177/14759217251316199.
 \[84\] G. Mariniello, C. Gragnaniello, and D. Asprone, “Enhancing structural health monitoring data management and damage detection in digital twins with blockchain and smart contracts,” *Automation in Construction*, vol. 180, p. 106558, Dec. 2025, doi: 10.1016/j.autcon.2025.106558.
+-->

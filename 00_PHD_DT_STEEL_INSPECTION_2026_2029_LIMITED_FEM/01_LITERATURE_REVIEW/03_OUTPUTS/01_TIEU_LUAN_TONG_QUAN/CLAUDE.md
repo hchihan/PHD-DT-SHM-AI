@@ -75,6 +75,11 @@
 | **MT3** | **Triển khai và kiểm chứng khả thi** trên một nhà xưởng khung thép thật có BIM: lắp hệ cảm biến, lập đường cơ sở vận hành, sinh bằng chứng cảm biến bằng Autoencoder (bù nhiệt độ, cờ cầu trục), chạy kịch bản kiểm tra – xử lý – truy ngược đầu cuối (kịch bản cột C3) | Công trình có BIM; NCS bảo đảm lắp cảm biến | Chương luận án; phần hiện trường của Bài 2 nếu kịp, hoặc bài hội nghị (không bắt buộc) | G-A, G-B (áp dụng) | Dữ liệu về đủ, ánh xạ cảm biến – cấu kiện đúng, kịch bản C3 truy ngược được, chi phí ghi nhận |
 
 Quy tắc phạm vi:
+- **Ba công trình (NCS quyết định 02/10/2026):** khung 1:10 trong PTN (MT1) mô phỏng một nhà xưởng ở Khánh Hòa; BIM của
+  nhà xưởng Khánh Hòa là nền đánh giá MT2, và **hồ sơ B0 lấy của chính nhà xưởng này** (cùng BIM với B1 và mô hình đề xuất);
+  nhà xưởng MT3 ở Đắk Lắk (địa bàn Phú Yên cũ).
+- **Bài 1 (NCS quyết định 02/10/2026):** chạy đủ bốn mô hình (RF, SVM-RBF, 1D-CNN, ResNet1D) và giữ lại đợt (LOCO) trên cả
+  ba đợt, kèm mốc cùng lần chạy; tiểu luận mô tả đúng thiết kế này.
 - **Phần quy cho đóng góp của MT2** là chênh lệch mô hình đề xuất so với **B1**; chênh lệch so với **B0** là đóng góp bối cảnh –
   thực tiễn cho thực hành kiểm định ở Việt Nam, không khái quát sang nơi khác.
 - **Song song với MT1:** khảo sát nhà xưởng, chọn vị trí cảm biến, lấy hồ sơ B0, phỏng vấn (QĐ 12).
@@ -347,7 +352,7 @@ sự kiện), bổ sung **tầng bằng chứng** và **tầng trách nhiệm**.
 | `ACTION` | Action_ID, **Inspection_Record_ID**, priority_level (4 mức), Action_Status (mở → đang xử lý → hoàn thành → đã xác minh; suy ra từ STATUS_EVENT mới nhất) |
 | `STATUS_EVENT` | Status_Event_ID, Action_ID, from_to, timestamp, actor_role, evidence_ref (trỏ `EVIDENCE_USE`), reason |
 
-Trường in đậm thêm theo Phụ lục A, NCS duyệt 02/10/2026 (cần cho C3, C5, C9 và vòng lặp kiểm tra tạo nhãn). Danh mục đầy đủ, cột bắt buộc, bước chuyển trạng thái được phép (Bảng A.3, dùng cho C6) và cách tính `within_scope` (Bảng B.1): `tieuluan/phuluc.md`.
+Trường in đậm thêm theo Phụ lục A, NCS duyệt 02/10/2026 (cần cho C3, C5, C9 và vòng lặp kiểm tra tạo nhãn). Danh mục đầy đủ, cột bắt buộc, bước chuyển trạng thái được phép (Bảng A.2, dùng cho C6) và cách tính `within_scope` (Bảng B.1): `tieuluan/phuluc.md`.
 
 Quan hệ: EVIDENCE n:m COMPONENT ở tầng dữ liệu; khi xuất IFC tách mỗi cặp thành một `IfcRelAdheresToElement`.
 
@@ -358,7 +363,7 @@ cảm biến – cấu kiện · **C5** dùng bằng chứng ngoài phạm vi ph
 **Công cụ (một bộ duy nhất):** Python, IfcOpenShell, SQLite hoặc JSON, script kiểm ràng buộc; scikit-learn/PyTorch cho
 MT1, MT3. Không dùng RDF/SHACL/ontology; ánh xạ khái niệm sang SOSA/SSN, PROV-O chỉ trình bày bằng một bảng trong Bài 2.
 
-**Đối chứng:** **B0** = hồ sơ kiểm định theo thực hành hiện hành ở Việt Nam, mã hóa tay 20–30 hồ sơ. **B1** = mô hình IFC 4.3
+**Đối chứng:** **B0** = hồ sơ kiểm định theo thực hành hiện hành ở Việt Nam, mã hóa tay 20–30 hồ sơ của nhà xưởng Khánh Hòa (cùng BIM). **B1** = mô hình IFC 4.3
 theo [35] + BCF 3.0, **chưa có** tầng bằng chứng và tầng trách nhiệm, dựng trên **cùng** BIM nhà xưởng, cùng script (tắt các
 ràng buộc C5, C6, C9 và các trường mới). B0, B1 và mô hình đề xuất dùng cùng danh sách lỗi chèn mù, cùng bộ câu hỏi truy ngược,
 cùng tập bằng chứng MT1.
@@ -481,6 +486,7 @@ sáu tháng sau có sự cố, truy ngược được toàn bộ.
 | GĐ3 Khoảng trống | ✅ NCS duyệt bản GĐ3b (01/10): G-A (A1, A2), G-B; F-1 (B1), F-2 (phỏng vấn) duyệt; còn gửi thầy | `revision/GD3_khoang_trong_va_muc_tieu.md`: bảng kiểm, hai khoảng trống (G-A 7 nhóm căn cứ trước 2025, G-B 6), ba mục tiêu MT1–MT3, ma trận, văn bản đề xuất thay 5.2 và RQ (785 từ, chưa chèn `tieuluan/`); `[CẦN NGUỒN]`: IFC4 ADD2 TC1, Khuyến nghị W3C SSN |
 | GĐ4 Viết mục mới (4.2–4.9) | ✅ Xong (02/10): 5.2, 1.2A, 3.2A, Dẫn nhập NCS duyệt | `tieuluan/01_chuong1.md` 1.2A (`revision/1_2A_luan_diem_nguon.csv`); `tieuluan/03_chuong3.md` 3.2A (gộp 3.6A; `revision/3_2A_luan_diem_nguon.csv`); `tieuluan/00_dannhap.md` mở bằng kịch bản cột C3 |
 | GĐ5 Tái cấu trúc | 🟡 Đã duyệt (02/10): đồng bộ Ch.1, 2, 4, 5, Phụ lục A, B; MT1 ba mức; câu giới hạn v2; 6 tài liệu cầu (giữ [64], [66], [78]). Đánh số lại toàn bộ mục, bảng, tham chiếu chéo; rút trùng 1.1.1/1.2; 2.5, 3.6 nhắc mục mới (02/10), chờ NCS duyệt | Còn ngoài GĐ5: [61], [62] ở 4.2.1 (chuyển sang Khuyến nghị W3C khi nhập Zotero); câu autoencoder chờ PDF Ghazimoghadam; toàn văn ISO 55000:2024; giọng 5.9.2 (tùy chọn) |
+| Hoàn thiện tiểu luận (prompt 02/10) | 🟡 NCS duyệt (02/10): HT0; Pha 1 (HT1 p1–p3); Pha 2 (HT2 T1–T4); Pha 3 Chương 1 (HT3). Rà soát tổng thể `revision/RS_ra_soat_tong_the_20261002.md`. Đang làm: sửa gộp A1–A7, A9; Pha 3 Chương 5 | Nhãn khoảng trống trong văn bản: **KT1** (vế A1 đánh giá, A2 khai báo) và **KT2** (= G-A, G-B ở mục 2); G1–G7 giữ cho góp ý của thầy. `revision/HT0_…`, `HT1_…` |
 | GĐ6 Nhất quán & xuất bản | ⬜ | |
 
 ---
