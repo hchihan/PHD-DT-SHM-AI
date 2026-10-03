@@ -65,7 +65,23 @@
     kiểm tại lần sử dụng).
 
 14. **Điều chỉnh của NCS ngày 02/10/2026 (bản rút gọn, sau HT6):** (a) tiểu luận nêu **ba khoảng trống** KT1 (bằng chứng có phạm vi hiệu lực từ dữ liệu dao động, gồm A1, A2), KT2 (từ bằng chứng đến hành động có trách nhiệm), KT3 (khả năng áp dụng chuỗi trên nhà công nghiệp khung thép đang khai thác), ứng 1:1 với MT1–MT3 và với ba câu hỏi của người quản lý; thay mục 9 ở trên về số khoảng trống; (b) tiểu luận **không nêu bài báo** (Bài 1, Bài 2) làm sản phẩm; kế hoạch bài báo ở mục 13 giữ cho điều hành nội bộ; (c) hiện trường MT3 dùng **ba cảm biến** đặt ở vị trí đã khảo sát trước (thay 6–10 cảm biến); (d) Mục 3.2 nêu thực hành quan trắc tại Việt Nam ở mức tóm tắt, 5 nguồn nhập Zotero qua Consensus (tag `TLTQ:3.2-VietNam`).
-15. **Điều chỉnh của NCS ngày 03/10/2026 (bản r4):** (a) song sinh số là mục tiêu kiến trúc, bỏ khai báo bóng số; (b) thí nghiệm 1:10 mô tả là "nhiều đợt" (không cố định ba đợt, 18 lần chạy, 216 bản ghi), thiết bị kích động và cảm biến chỉ nêu là loại thương mại của PASCO (r5); (c) Chương 3, 4 trình bày tổng quan trước, phương pháp áp dụng sau (r5: 3.4 MT1, 3.5 MT3, 4.6 MT2; phương pháp quan trắc và hạn chế với nhà công nghiệp chuyển thành 1.2.4); Chương 5 là chương kết ngắn, 5.5 chỉ nêu phương pháp khoa học; (d) 1.5.2 nêu quá trình sàng lọc chung, chỉ báo kết quả cuối: 84 tài liệu trích dẫn, 30 tài liệu key đọc sâu.
+15. **Điều chỉnh của NCS ngày 03/10/2026 (bản r4):** (a) song sinh số là mục tiêu kiến trúc, bỏ khai báo bóng số; (b) thí nghiệm 1:10 mô tả là "nhiều đợt" (không cố định ba đợt, 18 lần chạy, 216 bản ghi), thiết bị kích động và cảm biến chỉ nêu là loại thương mại của PASCO (r5); (c) Chương 3, 4 trình bày tổng quan trước, phương pháp áp dụng sau (r5: 3.4 MT1, 3.5 MT3, 4.6 MT2; phương pháp quan trắc và hạn chế với nhà công nghiệp chuyển thành 1.2.4); Chương 5 là chương kết ngắn, 5.5 chỉ nêu phương pháp khoa học; (d) 1.5.2 nêu quá trình sàng lọc chung, chỉ báo kết quả cuối: 84 tài liệu trích dẫn, 30 tài liệu key đọc sâu. *(Vế (b) và (d) được thay một phần bởi QĐ 16.)*
+16. **Quyết định từ vòng r7 đến bản FINAL (NCS và Hội đồng, 03/10/2026; bản khóa: `xuat_ban/HO_CHI_HAN_TIEU_LUAN_TONG_QUAN_FINAL_PROOFREAD.docx`, commit 015abd9):**
+    (a) **Một luận điểm trung tâm:** kết quả từ dữ liệu dao động chỉ thành căn cứ quản lý khi được tổ chức thành bằng chứng có nguồn gốc, độ bất định, phạm vi hiệu lực; các thuộc tính đó được bảo toàn, kiểm khi dùng, truy vết qua cấu kiện – bản ghi kiểm tra – lịch sử hành động. Luận đề nói "truy xuất, rà soát mức phù hợp và giải trình", **không** nói "đáng tin"; độ tin cậy kỹ thuật đánh giá riêng (RQ1).
+    (b) **Ba khoảng trống liên kết:** KT1 = hiệu lực của bằng chứng; KT2 = truy vết bằng chứng (khác tích hợp cảm biến – BIM); KT3 = **khả thi duy trì chuỗi trong vận hành**, không hỏi hiệu năng phát hiện. Mỗi KT viết theo: nghiên cứu gần nhất → đã giải quyết → giới hạn → phần còn lại. Đánh giá chống rò rỉ là phương pháp kế thừa, không phải phần mới.
+    (c) **Câu hỏi quản lý trung tâm:** "Tại thời điểm quyết định, bằng chứng nào được dùng, còn phù hợp không, ai dùng với vai trò gì, vì sao trạng thái hành động thay đổi?" Dùng nhất quán ở Dẫn nhập, 1.3, KT2, RQ2, 5.6, 5.8.
+    (d) **Phạm vi hiệu lực** = điều kiện đã đánh giá và giới hạn sử dụng; không bảo đảm từng dự đoán đúng. Kiểm định hoán vị không phải độ bất định.
+    (e) **MT2 là "lớp dữ liệu truy vết liên thông IFC 4.3/BCF 3.0 qua ánh xạ xuất"**, không sửa lược đồ chuẩn; không gọi là "mở rộng IFC" hay "tầng bằng chứng/tầng trách nhiệm" như đóng góp; công cụ (Revit, IfcOpenShell, SQLite, Python) chỉ là môi trường hiện thực.
+    (f) **Đóng góp ba tầng:** (1) quản trị hiệu lực của bằng chứng; (2) truy vết bằng chứng – hành động kiểm chứng được (mô hình dữ liệu, ràng buộc, câu hỏi năng lực); (3) sử dụng bằng chứng theo thời gian và có trách nhiệm. LORO, LOCO, M1–M4, lỗi chèn chỉ là **bằng chứng kiểm chứng**. Giá trị thực tiễn đọc M3 cùng M4; không suy ra hiệu quả kinh tế, giảm sự cố.
+    (g) **Vai trò thí nghiệm 1:10:** tạo trạng thái can thiệp có kiểm soát; không chứng minh tương tự động lực học; nhãn B1/B2/B3 là vị trí can thiệp, lực siết không đo nên không định lượng mức nới lỏng. Bản ghi bằng chứng 1:10 chỉ là **ca thử quy tắc** cho MT2, không là căn cứ quyết định tại nhà xưởng. Không chuyển mô hình, bộ phân loại, ngưỡng ra hiện trường (đoạn nối cuối 3.4.3).
+    (h) **Thí nghiệm mô tả bằng Bảng 3.2:** ba đợt đã thực hiện, sáu lần chạy lặp mỗi tổ hợp trạng thái – kích động, đợt đầu hai vị trí cảm biến, sau ba vị trí; việc tháo – lắp khung giữa các đợt chưa được ghi (theo Paper 1 v9; thay vế (b) của QĐ 15; NCS cần xác nhận lần cuối). Không ghi "đợt bổ sung dự kiến".
+    (i) **Năm cấp dữ liệu:** đợt thí nghiệm → lần thiết lập trạng thái (= đợt lắp đặt) → lần chạy → bản ghi → cửa sổ. Tách đơn vị chấm điểm (bản ghi), đơn vị chia dữ liệu (lần chạy/đợt), đơn vị độc lập vật lý (lần thiết lập). LORO chưa tách trạng thái khỏi dấu vết lần thiết lập; LOCO thấp hơn = phạm vi hẹp hơn, không phải thất bại.
+    (j) **Gate trong tiểu luận chỉ ở mức kiến trúc:** Gate 1 (bằng chứng PTN), Gate 2–3 (mô hình truy vết và kiểm chứng), Gate 4–5 (khả thi hiện trường, hỗ trợ quyết định), WP4 = Gate 5. Không liệt kê điều kiện kỹ thuật Gate 1 (siêu tham số, fold, sensor mode…); các chi tiết đó thuộc Chuyên đề 1 / Paper 1.
+    (k) **Hiện trường (MT3):** dữ liệu thật tách kịch bản giả định cột C3; bản ghi kiểm tra thật chỉ có nếu có đợt kiểm tra trong thời gian quan trắc, không hứa trước; không đánh giá hiệu năng autoencoder và bù nhiệt độ – cầu trục.
+    (l) **Bối cảnh ven biển:** không suy từ tên tỉnh; điều kiện môi trường từng nhà xưởng ghi khi khảo sát; không đo tác động ăn mòn.
+    (m) **Pháp lý:** Nghị định 207/2026 chỉ nêu số hiệu, tên, ngày ban hành, hiệu lực (đã kiểm trên Cổng Chính phủ); không nêu số điều; bỏ câu "quan trắc chỉ là yêu cầu theo từng trường hợp".
+    (n) **Số tài liệu:** 85 tài liệu trích dẫn (thêm BCF-API 3.0 `P3ZIHF8G`, tách khỏi BCF-XML `K5SGFIGW`); 30 tài liệu chọn đọc (12 đọc sâu, 18 có trọng tâm), 1 không tiếp cận toàn văn bị loại, 29 key giữ lại.
+    (o) **Tiêu chí dừng:** sau bản FINAL không sửa học thuật nếu không có góp ý mới bằng văn bản của GVHD hoặc Hội đồng. Còn 5 mục kiểm tay ở `revision/FINAL_TECHNICAL_PROOFREAD_REPORT.md`.
 
 ---
 
@@ -74,22 +90,26 @@
 | | Mục tiêu | Có sẵn | Sản phẩm | Khoảng trống | Kết quả đo (đủ để kết luận) |
 |---|---|---|---|---|---|
 | **MT1** | Xác lập quy trình tạo **bằng chứng trạng thái liên kết bu lông có phạm vi hiệu lực** từ dữ liệu dao động trên khung thép thu nhỏ 1:10 trong phòng thí nghiệm, với bốn mô hình (RF, SVM-RBF, 1D-CNN, ResNet1D) dưới đánh giá theo nhóm ở hai mức (giữ lại lần chạy, giữ lại đợt), kiểm định hoán vị, báo cáo biến thiên theo seed và fold | Dữ liệu ba đợt thí nghiệm, kết quả Paper 1 (Gate 1) | **Bài 1** (Q2/Q3, SHM – đo lường) | G-A | Hiệu năng ở hai mức đơn vị độc lập (lần chạy, đợt), chênh lệch của mỗi mức so với đánh giá cùng lần chạy, khai báo phạm vi hiệu lực của kết quả |
-| **MT2** | Xây dựng **mô hình thông tin truy vết bằng chứng → hành động** cho kiểm tra – bảo trì kết cấu thép, mở rộng IFC 4.3 ([35]) và BCF 3.0 bằng tầng bằng chứng và tầng trách nhiệm (6 thực thể, 5 ràng buộc kiểm tự động, logic hỗ trợ hành động bốn mức bằng luật) | Schema đồ thị, C1–C9, mapping với [2], [35], [44] | **Bài 2** (Q2, tin học xây dựng) | G-B (+G-A) | M2 (chính, theo nhóm lỗi) và M1, M3, M4 ở mục 8, so với B0 (hồ sơ kiểm định hiện hành) và B1 (IFC 4.3 theo [35] + BCF 3.0, chưa có hai tầng mới), trên cùng BIM nhà xưởng thật và dữ liệu MT1 |
-| **MT3** | **Triển khai và kiểm chứng khả thi** trên một nhà xưởng khung thép thật có BIM: lắp hệ cảm biến, lập đường cơ sở vận hành, sinh bằng chứng cảm biến bằng Autoencoder (bù nhiệt độ, cờ cầu trục), chạy kịch bản kiểm tra – xử lý – truy ngược đầu cuối (kịch bản cột C3) | Công trình có BIM; NCS bảo đảm lắp cảm biến | Chương luận án; phần hiện trường của Bài 2 nếu kịp, hoặc bài hội nghị (không bắt buộc) | G-A, G-B (áp dụng) | Dữ liệu về đủ, ánh xạ cảm biến – cấu kiện đúng, kịch bản C3 truy ngược được, chi phí ghi nhận |
+| **MT2** | Xây dựng và kiểm chứng **lớp dữ liệu truy vết bằng chứng → hành động** cho kiểm tra – bảo trì kết cấu thép, liên thông với IFC 4.3 ([35]) và BCF 3.0 qua ánh xạ xuất, không sửa lược đồ chuẩn (5 thực thể, 2 quan hệ có thuộc tính, 1 bản ghi sự kiện; 5 ràng buộc; câu hỏi năng lực; logic hỗ trợ hành động bốn mức bằng luật) | Schema đồ thị, C1–C9, mapping với [2], [35], [44] | **Bài 2** (Q2, tin học xây dựng) | G-B (+G-A) | Câu hỏi năng lực trả lời đúng, đủ (M3); M2 theo nhóm lỗi, có ca hợp lệ; M1, M4; so với B0 (bộ hồ sơ của nhà xưởng nghiên cứu) và B1 (baseline từ khả năng IFC 4.3 + BCF 3.0 theo tiền lệ gần nhất), trên cùng BIM nhà xưởng; bản ghi MT1 chỉ là ca thử |
+| **MT3** | **Triển khai và kiểm chứng khả năng duy trì chuỗi** trong vận hành của một nhà xưởng khung thép thật có BIM: lắp hệ cảm biến, lập đường cơ sở vận hành, sinh bằng chứng cảm biến bằng Autoencoder (bù nhiệt độ, cờ cầu trục), chạy kịch bản kiểm tra – xử lý – truy ngược đầu cuối (kịch bản cột C3) | Công trình có BIM; NCS bảo đảm lắp cảm biến | Chương luận án; phần hiện trường của Bài 2 nếu kịp, hoặc bài hội nghị (không bắt buộc) | G-A, G-B (áp dụng) | Dữ liệu thật về đủ, ánh xạ cảm biến – cấu kiện đúng; kịch bản giả định C3 (ghi tách dữ liệu thật) truy ngược được; công sức ghi nhận |
 
 Quy tắc phạm vi:
 - **Ba công trình (NCS quyết định 02/10/2026):** khung 1:10 trong PTN (MT1) mô phỏng một nhà xưởng ở Khánh Hòa; BIM của
   nhà xưởng Khánh Hòa là nền đánh giá MT2, và **hồ sơ B0 lấy của chính nhà xưởng này** (cùng BIM với B1 và mô hình đề xuất);
   nhà xưởng MT3 ở Đắk Lắk (địa bàn Phú Yên cũ).
-- **Bài 1 (NCS quyết định 02/10/2026):** chạy đủ bốn mô hình (RF, SVM-RBF, 1D-CNN, ResNet1D) và giữ lại đợt (LOCO) trên cả
-  ba đợt, kèm mốc cùng lần chạy; tiểu luận mô tả đúng thiết kế này.
-- **Phần quy cho đóng góp của MT2** là chênh lệch mô hình đề xuất so với **B1**; chênh lệch so với **B0** là đóng góp bối cảnh –
-  thực tiễn cho thực hành kiểm định ở Việt Nam, không khái quát sang nơi khác.
+- **Bài 1 (NCS quyết định 02/10/2026):** chạy đủ bốn mô hình (RF, SVM-RBF, 1D-CNN, ResNet1D) và giữ lại đợt (LOCO), kèm mốc cùng lần chạy.
+  *Cập nhật 03/10:* LOCO chính chỉ gồm các đợt có chung kênh cảm biến và loại kích động (CP1 chỉ có S1–S2; kết quả lưu hiện chỉ có
+  LOCO CP2↔CP3); việc chọn siêu tham số phải không dùng phần kiểm tra. Hai điểm này cần IT xác nhận trước Gate 1 (xem
+  `revision/UNRESOLVED_EVIDENCE_ITEMS.md`). Tiểu luận chỉ nêu nguyên tắc, không nêu kết quả.
+- **Phần quy cho đóng góp của MT2** là chênh lệch so với **B1**; nhóm lỗi nào B1 bắt được bằng cơ chế sẵn có thì không tính vào
+  đóng góp. Chênh lệch so với **B0** chỉ mô tả khoảng cách với bộ hồ sơ của công trình nghiên cứu, không đại diện thực hành toàn quốc.
 - **Song song với MT1:** khảo sát nhà xưởng, chọn vị trí cảm biến, lấy hồ sơ B0, phỏng vấn (QĐ 12).
 - **Bài 2 không chờ quan trắc dài hạn:** kiểm chứng bằng BIM nhà xưởng thật + hồ sơ kiểm định cũ (B0) + B1 + dữ liệu MT1
-  (bằng chứng có phạm vi đã biết, dùng để chèn ca dùng ngoài phạm vi). Dữ liệu hiện trường MT3 có sớm thì thêm một mục minh họa.
-- **MT3 chỉ tuyên bố khả thi và truy vết**, không tuyên bố hiệu năng phát hiện hư hỏng ở hiện trường. Quan trắc 3–6 tháng,
-  khoảng 6–10 cảm biến ở các liên kết đại diện, 1–2 đợt kiểm tra thật.
+  (chỉ là ca thử quy tắc; bộ ca cần cả ca trong và ngoài phạm vi, khóa cùng danh sách lỗi). Dữ liệu hiện trường MT3 có sớm thì thêm một mục minh họa.
+- **MT3 chỉ tuyên bố khả thi duy trì chuỗi và truy vết**, không tuyên bố hiệu năng phát hiện hư hỏng ở hiện trường. Quan trắc 3–6
+  tháng, **ba cảm biến** (QĐ 14c); bản ghi kiểm tra thật chỉ đưa vào nếu có đợt kiểm tra trong thời gian quan trắc.
+- **Ánh xạ RQ – WP – Gate:** RQ1/WP1/Gate 1; RQ2/WP2/Gate 2–3; RQ3/WP3/Gate 4–5; WP4 (tổng hợp hỗ trợ quyết định)/Gate 5.
+  FEM chỉ danh nghĩa, chưa hiệu chuẩn, tham chiếu; không dùng cho chẩn đoán.
 - Song sinh số dựa trên dữ liệu là **mục tiêu kiến trúc** của luận án; không dùng câu "mức thiết kế khai báo là bóng số" (NCS quyết định 03/10/2026, thay khai báo bóng số trước đây). Phân loại Kritzinger [8] chỉ dùng làm thước đo; năng lực thực tế đánh giá sau triển khai.
 - RQ của tiểu luận được viết lại 1:1 theo MT1–MT3 ở GĐ5 (RQ1 ↔ MT1, RQ2 ↔ MT2, RQ3 ↔ MT3).
 
@@ -133,6 +153,10 @@ Cuối cùng phải xuất **bản giải trình tiếp thu góp ý**: góp ý �
 - Không dùng văn phong quảng bá, không phóng đại, không liệt kê kiểu gạch đầu dòng trong thân văn
   khi có thể viết thành đoạn.
 - Dùng thuật ngữ đúng theo Bảng thuật ngữ (mục 10), nhất quán toàn bài.
+
+- **Từ 03/10/2026:** mọi văn xuôi rà theo skill `strict-writing-discipline` (không danh sách đen, hạn chế "không phải… / không chỉ…",
+  không ngoặc kép cong trong thân bài; dấu hiệu suy luận của NCS ghi bằng "tiểu luận nhận định/suy ra", tránh lặp "theo đánh giá
+  của phần tổng quan nghiên cứu này"). Từ cấm như "cốt lõi", "then chốt" thay bằng từ trung tính.
 
 ### 4.3 Cách làm việc
 - **Mỗi phiên chỉ một nhiệm vụ** (một mục hoặc một nhóm tài liệu).
@@ -265,6 +289,15 @@ Tiền lệ bắt buộc nêu (kết quả kiểm phản chứng GĐ2, 30/09/202
   (cũ 5.6A), 5.8 Đóng góp, 5.9 Phạm vi – giới hạn, 5.10 Định hướng, 5.11 Tổng hợp. Schema ở 5.6.2; kiểm chứng và chỉ số ở 5.5.2.
   Bảng 1.1 (cũ 1.1A), Bảng 5.4 (cũ 5.6A), Bảng 5.5 (cũ 5.4). Các nhãn cũ ở mục 6.1, 9, 12 là ghi chép lịch sử.
 
+- **Cấu trúc bản FINAL (r10–r11, 03/10/2026):** Ch.1: 1.1 Bối cảnh (1.1.1 thông tin vận hành; 1.1.2 pháp lý); 1.2 Nhà công nghiệp
+  (1.2.1 đặc điểm vận hành và bài toán kiểm tra; 1.2.2 hạn chế của quan trắc và quản lý thông tin); 1.3 Bằng chứng trạng thái và
+  nhu cầu người quản lý; 1.4 Vấn đề; 1.5 (1.5.1 mục tiêu, khách thể, phạm vi; 1.5.2 phương pháp). Ch.3: 3.1; 3.2.1–3.2.3; 3.3; 3.4.1–3.4.3
+  (Bảng 3.2 thiết kế thí nghiệm; đoạn nối cuối 3.4.3); 3.5 chiến lược bằng chứng hiện trường; 3.6. Ch.4: 4.1 liên kết → truy vết;
+  4.2 yêu cầu thông tin, định danh; 4.3 bằng chứng theo thời gian; 4.4 ràng buộc, câu hỏi năng lực; 4.5 hỗ trợ hành động; 4.6.1 thực
+  thể, quan hệ (Hình 4.2 ba kiểu quan hệ); 4.6.2 quy tắc thời gian, ràng buộc, câu hỏi năng lực; 4.6.3 thiết kế kiểm chứng; 4.6.4
+  ánh xạ và công cụ; 4.7. Ch.5: 5.1 tổng hợp bằng chứng; 5.2 ba khoảng trống liên kết; 5.3 luận đề, mục tiêu, Bảng 5.2 (nguồn duy
+  nhất KT→MT→RQ→WP→Gate); 5.4 RQ; 5.5 thiết kế, cổng kiểm chứng; 5.6 ba tầng đóng góp; 5.7 phạm vi, giới hạn; 5.8 kiến trúc nghiên cứu.
+
 ### 6.4 Lưu ý cho Giai đoạn 6
 - Trước khi chèn bản khai báo AI tạo sinh, rà cột `muc_da_doc` của mọi bảng luận điểm – nguồn; tài liệu chỉ đọc tóm tắt phải được đọc thêm, hoặc chỉ dùng cho nhận định ở mức tóm tắt, để câu "mọi trích dẫn đều được đối chiếu với bản gốc" là đúng.
 
@@ -341,23 +374,38 @@ Danh sách luận điểm và ứng viên: `revision/GD1_luan_diem_can_nguon.csv
 
 Bản đầy đủ 12 thực thể, C1–C9, 12 chỉ số trước đây xem lịch sử git (commit trước 01/10/2026 tối); không dùng nữa.
 
-**Định vị:** mở rộng trên nền IFC 4.3 của [35] (`IfcRelAssignsToProduct` lần kiểm tra → bằng chứng,
-`IfcRelAdheresToElement` bằng chứng → cấu kiện, `IfcRelAssignsToProcess` bằng chứng → hành động) và BCF 3.0 (trạng thái,
-sự kiện), bổ sung **tầng bằng chứng** và **tầng trách nhiệm**. Không dựng mô hình song song.
+**Định vị (cập nhật 03/10/2026):** **lớp dữ liệu truy vết liên thông** với IFC 4.3 theo cách dùng của [35] (`IfcRelAssignsToProduct`
+lần kiểm tra → bằng chứng, `IfcRelAdheresToElement` bằng chứng → cấu kiện, `IfcRelAssignsToProcess` bằng chứng → hành động) và
+BCF 3.0 (trạng thái, sự kiện) qua ánh xạ xuất (Bảng A.3). Dữ liệu lưu SQLite; không thêm thực thể, không sửa lược đồ IFC. Bảng
+ánh xạ là phương án biểu diễn; việc giữ khóa và liên kết khi xuất – nhập sẽ được kiểm bằng một phép xuất – nhập trên dữ liệu thử.
 
-**6 thực thể:**
+**5 thực thể, 2 quan hệ có thuộc tính, 1 bản ghi sự kiện** (Bảng A.1 có cột "Loại"; không dùng cách gọi "6 thực thể"):
 | Thực thể | Trường chính (thuộc tính đã gộp) |
 |---|---|
 | `COMPONENT` | BIM_GUID, model_version |
 | `SENSOR` + `SENSOR_MAPPING` | Sensor_ID; valid_from, valid_to, install_record_ref |
 | `EVIDENCE` | Condition_Evidence_ID, evidence_type (cảm biến / quan sát / NDT), BIM_GUID (n:m), Sensor_ID (loại cảm biến), value, uncertainty, method_version (git commit), scope: inference_unit, data_split, install_batch, applicable_conditions; obs_context (đợt đo, **khoảng thời gian đo**, cấu hình cảm biến, nhiệt độ, cờ cầu trục); **created_at**; revision_of (bản ghi không sửa đè) |
-| `INSPECTION_RECORD` | Inspection_Record_ID, BIM_GUID, **inspector_role, inspected_at, finding, finding_uncertainty**; dùng EVIDENCE qua quan hệ `EVIDENCE_USE` có trường **used_at**, within_scope, justification |
+| `INSPECTION_RECORD` | Inspection_Record_ID, BIM_GUID, **inspector_ref, inspector_role, inspected_at, finding, finding_uncertainty** (vị trí, nguyên nhân hư hỏng chỉ xác lập ở đây) |
+| `EVIDENCE_USE` (quan hệ) | Inspection_Record_ID, Condition_Evidence_ID, used_at, within_scope, justification |
 | `ACTION` | Action_ID, **Inspection_Record_ID**, priority_level (4 mức), Action_Status (mở → đang xử lý → hoàn thành → đã xác minh; suy ra từ STATUS_EVENT mới nhất) |
-| `STATUS_EVENT` | Status_Event_ID, Action_ID, from_to, timestamp, actor_role, evidence_ref (trỏ `EVIDENCE_USE`), reason |
+| `STATUS_EVENT` (bản ghi sự kiện) | Status_Event_ID, Action_ID, from_to, timestamp, **actor_ref**, actor_role, evidence_ref (trỏ `EVIDENCE_USE`), reason; với hành động can thiệp, timestamp của Đang xử lý → Hoàn thành là thời điểm can thiệp |
 
 Trường in đậm thêm theo Phụ lục A, NCS duyệt 02/10/2026 (cần cho C3, C5, C9 và vòng lặp kiểm tra tạo nhãn). Danh mục đầy đủ, cột bắt buộc, bước chuyển trạng thái được phép (Bảng A.2, dùng cho C6) và cách tính `within_scope` (Bảng B.1): `tieuluan/phuluc.md`.
 
 Quan hệ: EVIDENCE n:m COMPONENT ở tầng dữ liệu; khi xuất IFC tách mỗi cặp thành một `IfcRelAdheresToElement`.
+
+**Quy tắc (NCS duyệt 03/10/2026, theo góp ý Hội đồng):**
+- Ba kiểu quan hệ tách bạch: cảm biến → cấu kiện/khu vực giám sát (có khoảng hiệu lực); bằng chứng → cấu kiện/khu vực mà bối cảnh
+  quan trắc thuộc về (**không** chỉ vị trí hư hỏng); bản ghi kiểm tra → phát hiện thực tế (Hình 4.2).
+- Mỗi bản ghi kiểm tra và sự kiện chuyển trạng thái ghi **mã chủ thể + vai trò tại thời điểm thực hiện**; luận án không thiết kế hệ thống tài khoản.
+- **Thời điểm can thiệp ≠ thời điểm xác minh:** từ lúc can thiệp, bằng chứng và đường cơ sở của đợt lắp đặt trước phải rà soát hoặc
+  tạm ngừng dùng (tính ngoài phạm vi khi xét C5); bước Đã xác minh xác nhận đợt lắp đặt mới.
+- **Lý do ngoại lệ (C5)** chỉ làm ngoại lệ truy ngược được; không xác nhận giá trị kỹ thuật, không tự cho phép can thiệp.
+- **Bước đề nghị kiểm tra** sẽ được đặc tả trong giai đoạn triển khai MT2; tiểu luận chỉ xác lập yêu cầu truy được về bằng chứng,
+  chủ thể và vai trò (chưa chọn giữa loại hành động kiểm tra và bản ghi riêng).
+- **Câu hỏi năng lực** (competency questions) là thành phần trung tâm: nhóm bằng chứng (nguồn cảm biến, ánh xạ tại thời điểm tạo, còn
+  trong phạm vi khi dùng, bản ghi kiểm tra tạo từ bằng chứng) và nhóm trách nhiệm (ai đổi trạng thái, vai trò, căn cứ, lý do; sau can
+  thiệp bằng chứng/đường cơ sở nào hết dùng). Khóa kèm đáp án chuẩn trước lần hiện thực cuối; xác nhận qua phỏng vấn (QĐ 12).
 
 **5 ràng buộc** (kiểm bằng script Python): **C1** không mồ côi · **C3** thời điểm đo nằm trong hiệu lực ánh xạ
 cảm biến – cấu kiện · **C5** dùng bằng chứng ngoài phạm vi phải có lý do · **C6** bước chuyển có căn cứ và đúng vai trò ·
@@ -366,20 +414,21 @@ cảm biến – cấu kiện · **C5** dùng bằng chứng ngoài phạm vi ph
 **Công cụ (một bộ duy nhất):** Python, IfcOpenShell, SQLite hoặc JSON, script kiểm ràng buộc; scikit-learn/PyTorch cho
 MT1, MT3. Không dùng RDF/SHACL/ontology; ánh xạ khái niệm sang SOSA/SSN, PROV-O chỉ trình bày bằng một bảng trong Bài 2.
 
-**Đối chứng:** **B0** = hồ sơ kiểm định theo thực hành hiện hành ở Việt Nam, mã hóa tay 20–30 hồ sơ của nhà xưởng Khánh Hòa (cùng BIM). **B1** = mô hình IFC 4.3
-theo [35] + BCF 3.0, **chưa có** tầng bằng chứng và tầng trách nhiệm, dựng trên **cùng** BIM nhà xưởng, cùng script (tắt các
-ràng buộc C5, C6, C9 và các trường mới). B0, B1 và mô hình đề xuất dùng cùng danh sách lỗi chèn mù, cùng bộ câu hỏi truy ngược,
+**Đối chứng:** **B0** = bộ hồ sơ kiểm định cũ của chính nhà xưởng Khánh Hòa (20–30 hồ sơ, mã hóa tay, cùng BIM); chỉ đại diện công trình
+nghiên cứu. **B1** = baseline dựa trên các khả năng của IFC 4.3 và BCF 3.0 xác định từ tiền lệ gần nhất ([35], [2], IFC4, BCF-XML/API),
+cùng BIM; các ràng buộc chạy trên B1 ở dạng tương ứng với những trường B1 có (thay cách "tắt C5, C6, C9" trước đây). Phương án đề xuất
+bổ sung hai quy tắc: phạm vi hiệu lực bắt buộc, kiểm khi dùng; bước chuyển trạng thái trỏ tới lần dùng bằng chứng kèm chủ thể, vai trò. B0, B1 và mô hình đề xuất dùng cùng danh sách lỗi chèn mù, cùng bộ câu hỏi truy ngược,
 cùng tập bằng chứng MT1.
 
 **4 chỉ số:**
 | Chỉ số | Đo |
 |---|---|
 | M1 Đủ thuộc tính bắt buộc | tỉ lệ bản ghi đầy đủ; chỉ mô tả — chênh lệch so với B0 hiển nhiên do schema bắt buộc trường, so sánh có ý nghĩa là với B1 |
-| **M2 Phát hiện lỗi chèn mù (chỉ số chính)** | khoảng 30 lỗi do người thứ ba chèn; báo cáo theo từng nhóm lỗi, trọng tâm "dùng bằng chứng ngoài phạm vi" (C5, C9) và "đổi trạng thái không căn cứ" (C6); tỉ lệ bắt được ở B0, B1, mô hình đề xuất |
-| M3 Truy ngược | thời gian hoặc số bước trả lời ba câu hỏi của người quản lý |
-| M4 Chi phí ghi nhận | số phút mỗi bản ghi |
+| **M2 Phát hiện lỗi chèn mù (phép đo định lượng chính)** | khoảng 30 lỗi do người thứ ba chèn; báo cáo theo từng nhóm lỗi, trọng tâm "dùng bằng chứng ngoài phạm vi" (C5, C9) và "đổi trạng thái không căn cứ" (C6); bộ thử có cả bản ghi hợp lệ để đo báo lỗi nhầm |
+| M3 Truy ngược | câu hỏi năng lực được chấm **đúng và đủ** theo đáp án chuẩn trước, rồi mới so thời gian hoặc số bước; đo trực tiếp câu hỏi quản lý chính; đọc cùng M4 |
+| M4 Công sức ghi nhận | số phút mỗi bản ghi |
 **Khóa trước khi đo** (lưu trong repo, có commit trước lần đo đầu): quy tắc mã hóa B0; đặc tả B1 (bám sát [35] tr. 4–7 và BCF 3.0,
-ghi mọi lựa chọn khi dựng); danh sách lỗi chèn mù và người chèn; bộ câu hỏi truy ngược (sau phỏng vấn); cách tính M1–M4. Nơi lưu
+ghi mọi lựa chọn khi dựng); danh sách lỗi chèn mù, ca hợp lệ, ca trong/ngoài phạm vi và người chèn; bộ câu hỏi năng lực kèm đáp án chuẩn (sau phỏng vấn); cách tính M1–M4. Nơi lưu
 đề xuất `03_PAPERS/PAPER_2/khoa_truoc_khi_do/` (NCS xác nhận). Bỏ chỉ số tính tổng quát (một công trình, ghi ở phần giới hạn).
 
 ---
@@ -490,7 +539,9 @@ sáu tháng sau có sự cố, truy ngược được toàn bộ.
 | GĐ4 Viết mục mới (4.2–4.9) | ✅ Xong (02/10): 5.2, 1.2A, 3.2A, Dẫn nhập NCS duyệt | `tieuluan/01_chuong1.md` 1.2A (`revision/1_2A_luan_diem_nguon.csv`); `tieuluan/03_chuong3.md` 3.2A (gộp 3.6A; `revision/3_2A_luan_diem_nguon.csv`); `tieuluan/00_dannhap.md` mở bằng kịch bản cột C3 |
 | GĐ5 Tái cấu trúc | 🟡 Đã duyệt (02/10): đồng bộ Ch.1, 2, 4, 5, Phụ lục A, B; MT1 ba mức; câu giới hạn v2; 6 tài liệu cầu (giữ [64], [66], [78]). Đánh số lại toàn bộ mục, bảng, tham chiếu chéo; rút trùng 1.1.1/1.2; 2.5, 3.6 nhắc mục mới (02/10), chờ NCS duyệt | Còn ngoài GĐ5: [61], [62] ở 4.2.1 (chuyển sang Khuyến nghị W3C khi nhập Zotero); câu autoencoder chờ PDF Ghazimoghadam; toàn văn ISO 55000:2024; giọng 5.9.2 (tùy chọn) |
 | Hoàn thiện tiểu luận (prompt 02/10) | 🟡 NCS duyệt (02/10): HT0; Pha 1 (HT1 p1–p3); Pha 2 (HT2 T1–T4); Pha 3 Chương 1 (HT3). Rà soát tổng thể `revision/RS_ra_soat_tong_the_20261002.md`. HT4 sửa gộp A1–A7, A9 và Pha 3 toàn văn NCS duyệt (02/10). Đang làm: Pha 4 (GĐ6) | Nhãn khoảng trống trong văn bản: **KT1** (vế A1 đánh giá, A2 khai báo) và **KT2** (= G-A, G-B ở mục 2); G1–G7 giữ cho góp ý của thầy. `revision/HT0_…`, `HT1_…` |
-| GĐ6 Nhất quán & xuất bản | ⬜ | |
+| HT8–HT11 (r3–r6) | 🟡 Đã làm 03/10: đồng bộ slide, tái cấu trúc r4–r5, viết lại 1.2.3–1.2.5 | `revision/changelog.md` |
+| HT12–HT18 (r7 → FINAL) | 🟡 Đã làm 03/10, chờ NCS duyệt cuối: r7 (8 nhận xét phản biện), r8 (pháp lý, ven biển), r9 (góp ý Hội đồng vòng 1, chuẩn hóa Zotero, BCF-API), r10 (prompt Thư ký Hội đồng: tái cấu trúc Ch.1, 4, 5), r11 (vòng 2, strict-writing-discipline), FINAL proofread (Crossref 75 DOI, Hình 4.2, đoạn nối 3.4.3) | Bản khóa `xuat_ban/HO_CHI_HAN_TIEU_LUAN_TONG_QUAN_FINAL_PROOFREAD.docx` (69 trang, 85 tài liệu); `revision/REVISION_LOG_R9_TO_R10.md`, `REVISION_LOG_R10_TO_R11.md`, `FINAL_TECHNICAL_PROOFREAD_REPORT.md`, `UNRESOLVED_EVIDENCE_ITEMS.md`; commit 015abd9 |
+| GĐ6 Nhất quán & xuất bản | ✅ Bản FINAL (03/10): READY TO SUBMIT AFTER MANUAL CHECK | Còn 5 mục kiểm tay (QĐ 258 nội dung; liên kết NĐ 207; số trang trích dẫn; Bảng 3.2 vs QĐ 15b; số liệu KCN). Chưa cập nhật slide `BAO_CAO_TLTQ_02102026.pptx` theo bản FINAL; chưa push |
 
 ---
 
