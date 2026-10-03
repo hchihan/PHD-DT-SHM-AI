@@ -578,3 +578,7 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - Đối chiếu Crossref 75 DOI: sửa năm in của 4 mục trên Zotero (4NQWJW3U, R4E6KWUP, F3ZIND76, 73MBWFVJ); trích dẫn ↔ danh mục 85/85, thứ tự IEEE đúng.
 - build.py dùng `markdown-smart` để giữ ngoặc kép thẳng trong thân bài.
 - Xuất `xuat_ban/HO_CHI_HAN_TIEU_LUAN_TONG_QUAN_FINAL_PROOFREAD.docx` (69 trang); báo cáo `revision/FINAL_TECHNICAL_PROOFREAD_REPORT.md` (READY TO SUBMIT AFTER MANUAL CHECK).
+
+## Phiên 03/10/2026 – HT19 cập nhật slide theo bản FINAL (chờ NCS duyệt)
+- Tệp mới `BAO_CAO_TLTQ_FINAL_20261003.pptx` (19 slide; giữ nguyên bản 02/10). Sửa chữ trên slide 4–19 và ghi chú thuyết trình; không đổi bố cục, hình ảnh. Script và nhật ký trước/sau: `revision/HT19_slide_scripts/`.
+- Nội dung: pháp lý nêu số hiệu NĐ 207/2026, QĐ 258, không nêu số điều; độ bất định thay độ tin cậy; câu hỏi trung tâm; phễu 85/30 (12 + 18)/29; KT1 hiệu lực, KT2 truy vết, KT3 duy trì chuỗi; RQ1–RQ3 theo 5.4; B0, B1, M1–M4, Gate 1–5; Mục tiêu 3 ghi tách kịch bản giả định; bỏ nhãn "Luận án đạt được: Bóng số"; ba tầng đóng góp; ba nhận định kết và ba câu hỏi xin góp ý mới.
