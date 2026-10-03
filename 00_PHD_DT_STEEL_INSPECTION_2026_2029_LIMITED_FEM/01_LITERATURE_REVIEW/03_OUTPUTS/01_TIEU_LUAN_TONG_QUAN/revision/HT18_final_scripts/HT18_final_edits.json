@@ -1,0 +1,38 @@
+[
+ {
+  "tep": "03_chuong3.md",
+  "nhom": "Bridge",
+  "truoc": " Mục tiêu 2 dùng các bản ghi bằng chứng này làm ca kiểm thử quy tắc của lớp dữ liệu truy vết; chúng không là căn cứ cho quyết định tại nhà xưởng (Mục 4.6.3).",
+  "sau": "\n\nThí nghiệm vì vậy có một vai trò xác định trong toàn luận án. Nó tạo một môi trường có trạng thái can thiệp được kiểm soát, để đánh giá cách một kết quả từ dữ liệu dao động trở thành bằng chứng trạng thái mang nguồn gốc, độ bất định và phạm vi hiệu lực. Thí nghiệm không nhằm tạo một bộ phân loại để đưa ra nhà xưởng. Các bản ghi bằng chứng sinh ra từ thí nghiệm được Mục tiêu 2 dùng làm ca thử, để kiểm xem ba thuộc tính đó có được giữ nguyên và truy vết được khi bằng chứng đi qua cấu kiện liên kết BIM, bản ghi kiểm tra và lịch sử hành động hay không (Mục 4.6.3). Khi chuyển sang hiện trường, mô hình, bộ phân loại và ngưỡng của phòng thí nghiệm không được chuyển theo; luận án chỉ kế thừa nguyên tắc tổ chức, đánh giá và sử dụng bằng chứng (Mục 3.5)."
+ },
+ {
+  "tep": "04_chuong4.md",
+  "nhom": "Visual",
+  "truoc": "Nhờ vậy, mô hình không cho phép hiểu rằng AI từ dữ liệu cảm biến đã xác định chính xác vị trí hư hỏng.",
+  "sau": "Nhờ vậy, mô hình không cho phép hiểu rằng AI từ dữ liệu cảm biến đã xác định chính xác vị trí hư hỏng. Hình 4.2 đặt ba kiểu quan hệ cạnh nhau.\n\n![](../figures/Hinh_4_2_Ba_kieu_quan_he.png)\n\n<span id=\"TLTQ_Hinh_4_2\" class=\"anchor\"></span>Hình 4.2. Ba kiểu quan hệ: cảm biến – cấu kiện, bằng chứng – cấu kiện và bản ghi kiểm tra – phát hiện thực tế"
+ },
+ {
+  "tep": "00_dannhap.md",
+  "nhom": "Terms",
+  "truoc": "Song sinh số được đề xuất như kiến trúc",
+  "sau": "Song sinh số (Digital Twin) được đề xuất như kiến trúc"
+ },
+ {
+  "tep": "02_chuong2.md",
+  "nhom": "Terms",
+  "truoc": "bằng chứng tình trạng",
+  "sau": "bằng chứng trạng thái"
+ },
+ {
+  "tep": "00_thuatngu.md",
+  "nhom": "Terms",
+  "truoc": "| MT, RQ, WP, Gate | evidence gate |",
+  "sau": "| MT, RQ, WP, Gate | Evidence Gate |"
+ },
+ {
+  "tep": "00_thuatngu.md",
+  "nhom": "Terms",
+  "truoc": "| Nguồn gốc | provenance |",
+  "sau": "| Bản ghi kiểm tra | inspection record | Bản ghi kết quả một lần kiểm tra của kỹ sư trong mô hình dữ liệu (thực thể `INSPECTION_RECORD`); \"hồ sơ kiểm tra\" chỉ hồ sơ kiểm tra – kiểm định nói chung |\n| Nguồn gốc | provenance |"
+ }
+]

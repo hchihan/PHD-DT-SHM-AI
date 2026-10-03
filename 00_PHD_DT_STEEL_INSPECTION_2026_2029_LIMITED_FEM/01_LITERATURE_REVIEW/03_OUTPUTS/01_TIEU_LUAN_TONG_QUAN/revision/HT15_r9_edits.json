@@ -1,0 +1,566 @@
+[
+ {
+  "tep": "00_dannhap.md",
+  "ma": "L-cauhoi",
+  "truoc": "Tuy vậy, một kết quả rút từ dữ liệu dao động chỉ trở thành căn cứ quản lý khi người dùng biết nó được tạo ra thế nào, tin được đến đâu và còn đúng trong phạm vi nào. Kết quả đó cũng phải truy ngược được qua hồ sơ kiểm tra tới quyết định xử lý và người chịu trách nhiệm.",
+  "sau": "Tuy vậy, một kết quả rút từ dữ liệu dao động chỉ trở thành căn cứ quản lý rà soát được khi người dùng biết nó được tạo ra thế nào, đã được đánh giá trong điều kiện nào và được phép dùng tới đâu. Kết quả đó cũng phải truy ngược được qua hồ sơ kiểm tra tới quyết định xử lý và người chịu trách nhiệm. Câu hỏi quản lý trung tâm vì vậy là: tại thời điểm quyết định, bằng chứng nào còn phù hợp làm căn cứ, ai đã sử dụng và vì sao?"
+ },
+ {
+  "tep": "00_dannhap.md",
+  "ma": "N-solieu",
+  "truoc": "với 30 tài liệu key, gồm 12 tài liệu đọc sâu và 18 tài liệu đọc có trọng tâm.",
+  "sau": "trong đó 29 tài liệu key được đọc toàn văn (Mục 1.5.2)."
+ },
+ {
+  "tep": "00_dannhap.md",
+  "ma": "L-KT3-mach",
+  "truoc": "Khoảng trống thứ ba (KT3) liên quan tới khả năng áp dụng chuỗi đó trên nhà công nghiệp khung thép đang khai thác. Tương ứng với ba khoảng trống, luận án đặt ba mục tiêu: xác lập quy trình tạo bằng chứng có phạm vi hiệu lực trong phòng thí nghiệm, xây dựng lớp dữ liệu truy vết bằng chứng – hành động liên thông với IFC và BCF, và kiểm chứng khả thi trên một nhà xưởng thật.",
+  "sau": "Khoảng trống thứ ba (KT3) liên quan tới việc duy trì chuỗi đó trong vận hành của nhà công nghiệp khung thép đang khai thác. Tương ứng, luận án đặt ba mục tiêu nối tiếp nhau: Mục tiêu 1 xác định điều kiện tạo và đánh giá bằng chứng trong phòng thí nghiệm; Mục tiêu 2 bảo toàn và kiểm các điều kiện đó khi bằng chứng được sử dụng, bằng một lớp dữ liệu truy vết liên thông với IFC và BCF; Mục tiêu 3 kiểm khả năng duy trì chuỗi trên một nhà xưởng đang khai thác."
+ },
+ {
+  "tep": "00_dannhap.md",
+  "ma": "L-dangtin",
+  "truoc": "điều kiện để dữ liệu dao động tạo ra bằng chứng đáng tin,",
+  "sau": "điều kiện để dữ liệu dao động tạo ra bằng chứng rà soát được,"
+ },
+ {
+  "tep": "00_khaibao_AI.md",
+  "ma": "N-crossref",
+  "truoc": "Mỗi tài liệu được đưa vào Tiểu luận đều được đối chiếu thông tin thư mục (tên bài, tác giả, năm, nơi công bố, DOI) với bản ghi Crossref và nhập vào thư viện Zotero trước khi trích dẫn.",
+  "sau": "Thông tin thư mục (tên bài, tác giả, năm, nơi công bố) của tài liệu có DOI được đối chiếu với bản ghi Crossref; văn bản pháp luật, tiêu chuẩn và trang web được đối chiếu với trang của cơ quan phát hành. Mọi tài liệu được nhập vào thư viện Zotero trước khi trích dẫn."
+ },
+ {
+  "tep": "00_khaibao_AI.md",
+  "ma": "N-solieu",
+  "truoc": "Trong 30 tài liệu key (12 tài liệu đọc sâu, 18 tài liệu đọc có trọng tâm), 29 tài liệu được tiếp cận và đối chiếu ở mức toàn văn; tài liệu còn lại bị loại ở bước đọc.",
+  "sau": "Trong 30 tài liệu được chọn để đọc trọng điểm, 29 tài liệu được đọc toàn văn và được trích dẫn; một tài liệu không tiếp cận được toàn văn nên không được dùng (Mục 1.5.2)."
+ },
+ {
+  "tep": "00_thuatngu.md",
+  "ma": "R1-phamvi",
+  "truoc": "kèm nguồn gốc, độ bất định và phạm vi được phép sử dụng (Mục 1.3) |",
+  "sau": "kèm nguồn gốc, độ bất định và phạm vi hiệu lực (Mục 1.3) |"
+ },
+ {
+  "tep": "00_thuatngu.md",
+  "ma": "R1-phamvi",
+  "truoc": "| Phạm vi hiệu lực | validity scope | Điều kiện mà trong đó bằng chứng còn đúng: đơn vị suy luận, cách chia dữ liệu, đợt lắp đặt, điều kiện áp dụng |",
+  "sau": "| Phạm vi hiệu lực | validity scope | Các điều kiện mà bằng chứng đã được đánh giá (đơn vị suy luận, cách chia dữ liệu, đợt lắp đặt, cấu hình cảm biến, điều kiện vận hành) và giới hạn sử dụng rút ra từ đó; không bảo đảm từng nhận định đúng (Mục 1.3, 3.3) |"
+ },
+ {
+  "tep": "00_thuatngu.md",
+  "ma": "L-KT3",
+  "truoc": "Ba khoảng trống: bằng chứng có phạm vi hiệu lực (vế A1 đánh giá, A2 khai báo); từ bằng chứng đến hành động có trách nhiệm; khả năng áp dụng chuỗi trên nhà công nghiệp đang khai thác (Mục 5.2)",
+  "sau": "Ba khoảng trống: bằng chứng có phạm vi hiệu lực (vế A1 đánh giá, A2 khai báo và kiểm khi dùng); từ bằng chứng đến hành động có trách nhiệm; duy trì chuỗi trong vận hành nhà công nghiệp đang khai thác (Mục 5.2)"
+ },
+ {
+  "tep": "00_thuatngu.md",
+  "ma": "R1-capdulieu",
+  "truoc": "| Đợt thí nghiệm, lần chạy, bản ghi, cửa sổ | campaign, run, recording, window | Các cấp của dữ liệu thí nghiệm; bản ghi là đơn vị chấm điểm, cửa sổ là đơn vị tính toán |",
+  "sau": "| Đợt thí nghiệm, lần thiết lập trạng thái, lần chạy, bản ghi, cửa sổ | campaign, state establishment, run, recording, window | Các cấp của dữ liệu thí nghiệm (Mục 3.2.1); bản ghi là đơn vị chấm điểm, lần chạy hoặc đợt là đơn vị giữ trọn khi chia dữ liệu |"
+ },
+ {
+  "tep": "00_thuatngu.md",
+  "ma": "R1-capdulieu",
+  "truoc": "| Đợt lắp đặt | installation batch | Khoảng thời gian kể từ lần lắp ráp hoặc can thiệp gần nhất lên liên kết |",
+  "sau": "| Đợt lắp đặt | installation batch | Khoảng thời gian kể từ lần lắp ráp hoặc can thiệp gần nhất lên liên kết; trong phòng thí nghiệm, mỗi lần thiết lập trạng thái mở một đợt lắp đặt |"
+ },
+ {
+  "tep": "00_thuatngu.md",
+  "ma": "L-B0",
+  "truoc": "Đối chứng: hồ sơ kiểm định hiện hành;",
+  "sau": "Đối chứng: bộ hồ sơ kiểm định cũ của nhà xưởng nghiên cứu;"
+ },
+ {
+  "tep": "00_thuatngu.md",
+  "ma": "R2-chuthe",
+  "truoc": "| M1–M4 | – | Đủ thuộc tính; tỉ lệ phát hiện lỗi chèn mù (chính); khả năng truy ngược; chi phí ghi nhận |",
+  "sau": "| M1–M4 | – | Đủ thuộc tính; tỉ lệ phát hiện lỗi chèn mù và báo lỗi nhầm; truy ngược đúng, đủ rồi mới xét thời gian; công sức ghi nhận (Mục 4.6.2) |\n| Mã chủ thể | actor reference | Mã người hoặc tổ chức thực hiện một bước, ghi cùng vai trò tại thời điểm thực hiện (Mục 4.6.1, Phụ lục A) |"
+ },
+ {
+  "tep": "01_chuong1.md",
+  "ma": "C-gop112",
+  "truoc": "### 1.1.2. Song sinh số và mức tích hợp của hệ thống\n\nKhái niệm song sinh số được dùng với nhiều mức năng lực khác nhau. Kritzinger và cộng sự phân biệt mô hình số, bóng số và song sinh số theo chiều và mức tự động của luồng dữ liệu giữa đối tượng vật lý và biểu diễn số \\[8\\]. Sepasgozar đưa sự phân biệt này vào môi trường xây dựng \\[9\\], còn Chen và cộng sự đánh giá song sinh số trong quản lý tài sản bằng mô hình trưởng thành nhiều chiều \\[10\\]. Ba cách phân loại cùng cho thấy năng lực của một hệ thống phải được đánh giá trên chức năng thực có.\n\nLuận án dùng phân loại của \\[8\\] làm thước đo mức tích hợp. Song sinh số dựa trên dữ liệu là mục tiêu kiến trúc của luận án. Kiến trúc này gồm luồng dữ liệu đi tự động từ công trình vào mô hình số, và luồng phản hồi thông tin quản lý đi từ mô hình số trở lại công trình: bằng chứng trạng thái, kết quả kiểm tra và hành động được ghi vào hồ sơ số, trở thành bối cảnh cho lần đánh giá sau và làm căn cứ cho quyết định kiểm tra – bảo trì tác động lên công trình (Mục 2.3). Ở luồng phản hồi, tác động lên công trình đi qua quyết định của kỹ sư và người có thẩm quyền. Năng lực mà hệ thống thực sự đạt được so với kiến trúc này được đánh giá sau triển khai theo các khung của \\[9\\], \\[10\\]. Mô hình phần tử hữu hạn, nếu được dùng, là mô hình danh nghĩa, chưa hiệu chuẩn, dùng để tham chiếu và không dùng cho chẩn đoán hư hỏng (Mục 5.7).\n\n",
+  "sau": "Song sinh số dựa trên dữ liệu là mục tiêu kiến trúc của luận án; mức tích hợp mà hệ thống đạt được được đánh giá theo phân loại của Kritzinger và cộng sự \\[8\\] (Mục 2.3).\n\n"
+ },
+ {
+  "tep": "01_chuong1.md",
+  "ma": "C-gop112",
+  "truoc": "### 1.1.3. Bối cảnh pháp lý tại Việt Nam",
+  "sau": "### 1.1.2. Bối cảnh pháp lý tại Việt Nam"
+ },
+ {
+  "tep": "01_chuong1.md",
+  "ma": "C-lap121",
+  "truoc": "Dù có vai trò đó, nhà công nghiệp ít được nghiên cứu quan trắc quan tâm. Trong các tài liệu đã rà soát, nghiên cứu và thực hành quan trắc kết cấu tập trung vào cầu và công trình hạ tầng, còn nghiên cứu về theo dõi trạng thái và hỗ trợ kiểm tra – bảo trì cho nhà công nghiệp khung thép đang khai thác còn ít (Mục 1.2.4). ",
+  "sau": "Dù có vai trò đó, trong các tài liệu đã rà soát, nghiên cứu về theo dõi trạng thái và hỗ trợ kiểm tra – bảo trì cho nhà công nghiệp khung thép đang khai thác còn ít (Mục 1.2.4). "
+ },
+ {
+  "tep": "01_chuong1.md",
+  "ma": "N-VN",
+  "truoc": "Theo đánh giá của phần tổng quan nghiên cứu này, thực hành trong nước hiện tập trung vào cầu, chuyển vị và lún; trong các tài liệu đã tìm được, chưa thấy quan trắc dao động liên kết bu lông trên nhà công nghiệp khung thép đang khai thác, và kết quả quan trắc chưa được gắn với hồ sơ kiểm tra – bảo trì của cấu kiện.",
+  "sau": "Trong tập tài liệu trong nước đã khảo sát, quan trắc tập trung vào cầu, chuyển vị và lún; chưa gặp nghiên cứu quan trắc dao động liên kết bu lông trên nhà công nghiệp khung thép đang khai thác, và kết quả quan trắc chưa được gắn với hồ sơ kiểm tra – bảo trì của cấu kiện."
+ },
+ {
+  "tep": "01_chuong1.md",
+  "ma": "R1-phamvi",
+  "truoc": "Thành phần thứ hai là độ bất định: nhãn thay đổi ra sao khi phép đánh giá được lặp lại. Thành phần thứ ba là phạm vi hiệu lực (validity scope): nhận định đúng cho khu vực cột C3 mà cảm biến giám sát, trong các chế độ vận hành đã có mặt ở dữ liệu tham chiếu. Nhận định chỉ ra khu vực cần xem xét, không xác định vị trí hư hỏng.",
+  "sau": "Thành phần thứ hai là độ bất định: kết quả đánh giá thay đổi ra sao khi phép đánh giá được lặp lại. Thành phần thứ ba là phạm vi hiệu lực (validity scope): các điều kiện mà nhận định đã được đánh giá, ở đây là khu vực cột C3 mà cảm biến giám sát và các chế độ vận hành có mặt trong dữ liệu tham chiếu, cùng giới hạn sử dụng rút ra từ các điều kiện đó. Phạm vi hiệu lực cho biết bằng chứng được phép dùng tới đâu; nó không bảo đảm từng nhận định trong phạm vi đều đúng, và nhận định chỉ ra khu vực cần xem xét chứ không xác định vị trí hư hỏng. Ba thành phần làm cho bằng chứng truy xuất, rà soát và giải trình được; độ tin cậy kỹ thuật của bản thân nhận định được đánh giá riêng (Mục 3.2)."
+ },
+ {
+  "tep": "01_chuong1.md",
+  "ma": "R2-chuthe",
+  "truoc": "Câu hỏi thứ ba cần bản ghi kiểm tra, các sự kiện chuyển trạng thái của hành động và thẩm quyền của người thực hiện.",
+  "sau": "Câu hỏi thứ ba cần bản ghi kiểm tra, các sự kiện chuyển trạng thái của hành động, và chủ thể cùng vai trò của người thực hiện tại từng bước."
+ },
+ {
+  "tep": "01_chuong1.md",
+  "ma": "L-cauhoi",
+  "truoc": "Ba câu hỏi là khung do luận án đề xuất và sẽ được xác nhận qua phỏng vấn người quản lý trước khi khóa bộ câu hỏi truy ngược (Mục 4.6.2).",
+  "sau": "Ba câu hỏi là khung do luận án đề xuất và sẽ được xác nhận qua phỏng vấn người quản lý trước khi khóa bộ câu hỏi truy ngược (Mục 4.6.2).\n\nBa câu hỏi quy về một câu hỏi quản lý trung tâm có yếu tố thời gian: tại thời điểm quyết định, bằng chứng nào còn phù hợp làm căn cứ, ai đã sử dụng và vì sao? Một bằng chứng phù hợp khi được tạo có thể không còn phù hợp sau một lần can thiệp lên liên kết, nên câu trả lời phải đọc được từ hồ sơ tại đúng thời điểm của quyết định."
+ },
+ {
+  "tep": "01_chuong1.md",
+  "ma": "C-so",
+  "truoc": "(Mục 1.1.3) tạo nhu cầu",
+  "sau": "(Mục 1.1.2) tạo nhu cầu"
+ },
+ {
+  "tep": "01_chuong1.md",
+  "ma": "L-KT3",
+  "truoc": "còn khả năng áp dụng của chuỗi trên công trình thật cần được kiểm chứng riêng (KT3, Mục 5.2.3).",
+  "sau": "còn việc duy trì và truy ngược chuỗi trên công trình thật cần được kiểm chứng riêng (KT3, Mục 5.2.3)."
+ },
+ {
+  "tep": "01_chuong1.md",
+  "ma": "N-solieu",
+  "truoc": "Kết quả cuối cùng là 84 tài liệu được trích dẫn trong tiểu luận, trong đó có 30 tài liệu key, gồm 12 tài liệu đọc sâu và 18 tài liệu đọc có trọng tâm vào phương pháp, dữ liệu và giới hạn. Trong 30 tài liệu key, 29 tài liệu được tiếp cận toàn văn; một tài liệu bị loại ở bước đọc.",
+  "sau": "Kết quả cuối cùng là 85 tài liệu được trích dẫn. Trong quá trình chọn lọc, 30 tài liệu được chọn để đọc trọng điểm (tài liệu key): 12 tài liệu đọc sâu và 18 tài liệu đọc có trọng tâm vào phương pháp, dữ liệu và giới hạn. Một tài liệu thuộc nhóm đọc có trọng tâm không tiếp cận được toàn văn nên bị loại; 29 tài liệu key còn lại được đọc toàn văn và được giữ trong tập trích dẫn."
+ },
+ {
+  "tep": "01_chuong1.md",
+  "ma": "N-solieu",
+  "truoc": "| 4 (một tài liệu bị loại ở bước đọc) |",
+  "sau": "| 3 (một tài liệu không tiếp cận được toàn văn, đã loại) |"
+ },
+ {
+  "tep": "02_chuong2.md",
+  "ma": "R2-lienthong",
+  "truoc": "Ba tiền lệ dưới đây là nền mà mô hình thông tin của luận án mở rộng (Mục 4.6.1).",
+  "sau": "Ba tiền lệ dưới đây là nền mà lớp dữ liệu truy vết của luận án liên thông tới (Mục 4.6.1)."
+ },
+ {
+  "tep": "02_chuong2.md",
+  "ma": "N-BCFAPI",
+  "truoc": "Giao diện BCF-API 3.0 sinh một sự kiện có ngày, tác giả và giá trị mới mỗi khi trạng thái hay người được giao thay đổi, nhằm giữ lịch sử đầy đủ.",
+  "sau": "Giao diện BCF-API 3.0 sinh sự kiện chủ đề (topic event) mỗi khi một vấn đề được tạo hoặc cập nhật, ghi ngày, tác giả, loại thay đổi và giá trị mới, kể cả khi trạng thái hay người được giao thay đổi \\[@P3ZIHF8G\\] (mục 3.9)."
+ },
+ {
+  "tep": "02_chuong2.md",
+  "ma": "C-gop112",
+  "truoc": "và các bản ghi đó trở thành bối cảnh cho lần đánh giá tiếp theo.",
+  "sau": "và các bản ghi đó trở thành bối cảnh cho lần đánh giá tiếp theo. Luận án dùng phân loại của \\[8\\] làm thước đo mức tích hợp và đặt song sinh số dựa trên dữ liệu làm mục tiêu kiến trúc: luồng dữ liệu đi tự động từ công trình vào mô hình số, còn luồng phản hồi tác động lên công trình đi qua quyết định của kỹ sư và người có thẩm quyền. Năng lực mà hệ thống thực sự đạt được được đánh giá sau triển khai theo các khung của \\[9\\], \\[10\\]."
+ },
+ {
+  "tep": "02_chuong2.md",
+  "ma": "C-lap24",
+  "truoc": " Song sinh số dựa trên dữ liệu là mục tiêu kiến trúc của luận án (Mục 1.1.2); năng lực thực tế được đánh giá sau triển khai.",
+  "sau": ""
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "C-gop31",
+  "truoc": "### 3.1.1. Nguyên lý và các nghiên cứu trên khung thép\n\n",
+  "sau": ""
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "C-gop31",
+  "truoc": "### 3.1.2. Kết quả phân loại, bằng chứng trạng thái và chẩn đoán hư hỏng\n\nTheo định nghĩa ở Mục 1.3, đầu ra của mô hình là kết quả phân loại; kết quả đó trở thành bằng chứng trạng thái khi được ghi kèm nguồn gốc, độ bất định và phạm vi hiệu lực. Nhãn và trạng thái vật lý không tương ứng một – một theo cả hai chiều. Nhãn phụ thuộc vào cấu hình cảm biến, đợt thí nghiệm, điều kiện lắp đặt và chuỗi xử lý, nên có thể đổi mà không có thay đổi vật lý. Ngược lại, dữ liệu dao động một mình chưa xác định được nguyên nhân của một thay đổi vật lý thực. Kết luận về hư hỏng vì vậy thuộc về kiểm tra của kỹ sư.\n\n",
+  "sau": "Theo định nghĩa ở Mục 1.3, đầu ra của mô hình là kết quả phân loại, chưa phải bằng chứng trạng thái hay chẩn đoán hư hỏng. Nhãn có thể đổi theo cấu hình cảm biến, đợt thí nghiệm, điều kiện lắp đặt và chuỗi xử lý mà không có thay đổi vật lý, và dữ liệu dao động một mình chưa xác định được nguyên nhân của một thay đổi thực; kết luận về hư hỏng thuộc về kiểm tra của kỹ sư.\n\n"
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "R1-capdulieu",
+  "truoc": "Dữ liệu dao động có cấu trúc phân cấp: đợt thí nghiệm, đợt lắp đặt, lần chạy, bản ghi, cửa sổ tín hiệu. Nhiều cửa sổ",
+  "sau": "Dữ liệu dao động thu trong thí nghiệm có cấu trúc phân cấp, và tiểu luận dùng thống nhất năm cấp. Đợt thí nghiệm là một buổi đo; giữa hai đợt, khung được cấu hình lại. Lần thiết lập trạng thái là khoảng thời gian liên tục một trạng thái liên kết được thiết lập trên khung, tức một lần siết hoặc nới cụ thể; mỗi lần thiết lập mở một đợt lắp đặt mới của liên kết. Lần chạy là một trong các lần đo lặp liên tiếp của cùng trạng thái dưới cùng dạng kích động; các lần chạy của một trạng thái trong cùng lần thiết lập dùng chung một lần siết. Bản ghi là một lần thu tín hiệu liên tục của một trạng thái dưới một dạng kích động. Cửa sổ là đoạn tín hiệu cắt từ bản ghi để tính toán. Cần tách hai vai trò: đơn vị chấm điểm là bản ghi, còn đơn vị được giữ trọn ở một phía của phép chia là lần chạy hoặc đợt, tùy mức đánh giá.\n\nNhiều cửa sổ"
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "C-gop323",
+  "truoc": "### 3.2.2. Đánh giá cùng lần chạy, giữ lại lần chạy và giữ lại đợt thí nghiệm",
+  "sau": "### 3.2.2. Các mức đánh giá theo nhóm và cơ chế bổ trợ"
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "R1-LORO",
+  "truoc": "và trả lời câu hỏi kết quả có khái quát sang lần chạy mới trong cùng đợt hay không.",
+  "sau": "và trả lời câu hỏi kết quả có khái quát sang lần chạy mới trong cùng đợt hay không. Vì các lần chạy còn lại của cùng trạng thái thường thuộc cùng lần thiết lập, LORO chưa tách được trạng thái liên kết khỏi dấu vết của lần thiết lập đó: một kết quả LORO cao có thể chỉ cho thấy mô hình nhận ra lần thiết lập đã thấy."
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "C-gop323",
+  "truoc": "### 3.2.3. Các cơ chế đánh giá bổ trợ\n\nBa cơ chế bổ trợ giúp mô tả độ ổn định của bằng chứng. Lặp lại với nhiều hạt giống ngẫu nhiên tách biến thiên do huấn luyện khỏi biến thiên do dữ liệu. Báo cáo độ bất định ở cấp đơn vị độc lập cho biết kết quả có ổn định qua các lần chạy hay không. Kiểm định hoán vị cho biết hiệu năng có vượt mức có thể xuất hiện do may rủi hay không, với điều kiện phép hoán vị bảo toàn cấu trúc nhóm của dữ liệu \\[59\\].\n\n",
+  "sau": "Ba cơ chế bổ trợ giúp mô tả độ ổn định của kết quả. Lặp lại với nhiều hạt giống ngẫu nhiên tách biến thiên do huấn luyện khỏi biến thiên do dữ liệu. Báo cáo biến thiên ở cấp đơn vị độc lập cho biết kết quả có ổn định qua các lần chạy hay không; hai đại lượng này tạo nên độ bất định của kết quả đánh giá. Kiểm định hoán vị trả lời một câu hỏi khác: hiệu năng có vượt mức có thể xuất hiện do may rủi hay không, với điều kiện phép hoán vị bảo toàn cấu trúc nhóm của dữ liệu \\[59\\]. Kết quả kiểm định là căn cứ để chấp nhận rằng mô hình học được tín hiệu, không phải thước đo độ bất định.\n\n"
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "C-gop323",
+  "truoc": "### 3.2.4. Cấu hình cảm biến và chuỗi xử lý",
+  "sau": "### 3.2.3. Cấu hình cảm biến và chuỗi xử lý"
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "R1-phamvi",
+  "truoc": "Nếu giá trị của một nhãn phụ thuộc vào nguồn thu, cấu hình cảm biến, phiên bản dữ liệu, chuỗi xử lý và giao thức đánh giá, thì nhãn đó cần được tổ chức thành một bản ghi mang đủ bối cảnh. Cần phân biệt hai mức tin cậy thường bị gộp làm một. Mức thứ nhất là độ tin cậy của một dự đoán riêng lẻ, như xác suất do mô hình sinh ra; đại lượng này phụ thuộc cách hiệu chỉnh của mô hình và có thể cao ngay cả khi mô hình sai. Mức thứ hai là hiệu năng, độ bất định và phạm vi hiệu lực đã được kiểm chứng của chính mô hình dưới một giao thức đánh giá xác định. Bản ghi bằng chứng phải lưu cả hai mức và ghi rõ mức nào đang được dùng.\n\nỞ mức tối thiểu, một bản ghi bằng chứng trạng thái cần gắn với nguồn thu (đợt thí nghiệm, lần chạy), cấu hình cảm biến, phiên bản dữ liệu và chuỗi xử lý, giao thức đánh giá, độ bất định đã quan sát và phạm vi hiệu lực đã kiểm chứng. Phạm vi hiệu lực mô tả nơi bằng chứng đã được kiểm chứng là có giá trị và phải gắn với giao thức đánh giá đã dùng. Ở công trình thực, phạm vi này còn phụ thuộc điều kiện vận hành, môi trường và lịch sử can thiệp. Nguồn gốc dữ liệu (provenance) trả lời các câu hỏi cụ thể: dữ liệu đến từ cảm biến nào, lần chạy nào, được xử lý bằng chuỗi nào và kết quả được tạo dưới giao thức nào. Nếu bằng chứng mất các thông tin này khi chuyển sang BIM hay hồ sơ kiểm tra, giá trị quản lý của nó giảm mạnh.\n\n",
+  "sau": "Nếu giá trị của một nhãn phụ thuộc vào nguồn thu, cấu hình cảm biến, phiên bản dữ liệu, chuỗi xử lý và giao thức đánh giá, thì nhãn đó cần được tổ chức thành một bản ghi mang đủ bối cảnh. Cần phân biệt hai mức tin cậy thường bị gộp làm một. Mức thứ nhất là độ tin cậy của một dự đoán riêng lẻ, như xác suất do mô hình sinh ra; đại lượng này phụ thuộc cách hiệu chỉnh của mô hình và có thể cao ngay cả khi mô hình sai. Mức thứ hai là hiệu năng và độ bất định của chính mô hình dưới một giao thức đánh giá xác định. Bản ghi bằng chứng lưu cả hai mức và ghi rõ mức nào đang được dùng; không mức nào bảo đảm một dự đoán cụ thể là đúng.\n\nPhạm vi hiệu lực, theo nghĩa dùng trong luận án, là tập điều kiện mà bằng chứng đã được đánh giá và giới hạn sử dụng rút ra từ đó: đơn vị suy luận, cách chia dữ liệu, đợt lắp đặt, cấu hình cảm biến và điều kiện vận hành. Một kết quả đánh giá tốt cho biết mô hình hoạt động tốt trong các điều kiện đã thử; nó không cho biết mô hình còn tốt khi các điều kiện đó thay đổi. Ở công trình thực, các điều kiện này còn gồm môi trường và lịch sử can thiệp. Nguồn gốc dữ liệu (provenance) trả lời các câu hỏi cụ thể: dữ liệu đến từ cảm biến nào, lần chạy nào, được xử lý bằng chuỗi nào và kết quả được tạo dưới giao thức nào. Nguồn gốc và phạm vi hiệu lực giúp người dùng kiểm được bằng chứng có đang được dùng trong điều kiện đã đánh giá hay không; nếu chúng mất khi bằng chứng chuyển sang BIM hay hồ sơ kiểm tra, việc kiểm đó không còn thực hiện được.\n\n"
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "R1-thietke",
+  "truoc": "Thí nghiệm có hai mục tiêu. Mục tiêu thứ nhất là tạo ra bằng chứng trạng thái liên kết bu lông có nguồn gốc, độ bất định và phạm vi hiệu lực theo định nghĩa ở Mục 1.3. Mục tiêu thứ hai là kiểm chứng khả năng nhận biết trạng thái liên kết của các mô hình AI khi được đánh giá theo đơn vị độc lập, tức là trên dữ liệu chưa tham gia huấn luyện.\n\nThí nghiệm được thực hiện trên mô hình khung thép tỉ lệ 1:10 trong phòng thí nghiệm. Mô hình mô phỏng khung một nhà xưởng ở tỉnh Khánh Hòa và cho phép tạo trạng thái liên kết có kiểm soát, điều không làm được trên công trình đang khai thác. Các trạng thái gồm một trạng thái tham chiếu và các trạng thái can thiệp vào liên kết ở vùng đỉnh, ở nút dầm – cột và ở liên kết giằng; nhãn trạng thái chỉ vị trí can thiệp, không phải thang mức độ hư hỏng. Kết cấu được kích động bằng thiết bị tạo rung, và dao động được đo bằng cảm biến gia tốc đặt ở vùng đỉnh, nút dầm – cột và vùng giằng – cột; thiết bị kích động và cảm biến là loại thương mại của hãng PASCO.\n\nThí nghiệm được tổ chức thành nhiều đợt. Giữa các đợt, liên kết được tháo – lắp lại theo các cách khác nhau, dạng kích động và cấu hình cảm biến có thể thay đổi; trong một đợt, các lần chạy lặp lại cùng trạng thái và cùng kiểu kích động. Mỗi đợt vì vậy là một đợt lắp đặt khác, và dữ liệu có đúng cấu trúc phân cấp mà Mục 3.2.1 xét: đợt thí nghiệm, lần thiết lập trạng thái, lần chạy, bản ghi và cửa sổ tín hiệu. Cấu trúc này cho phép kiểm tra bằng chứng còn giữ được đến đâu khi điều kiện tạo dữ liệu thay đổi. Các đợt bổ sung có thể được tổ chức trong quá trình luận án; một đợt chỉ được đưa vào phép giữ lại đợt khi thỏa điều kiện so sánh đã khóa (Mục 3.4.3).\n\n",
+  "sau": "Thí nghiệm có hai mục tiêu. Mục tiêu thứ nhất là tạo ra bằng chứng trạng thái liên kết bu lông có nguồn gốc, độ bất định và phạm vi hiệu lực theo định nghĩa ở Mục 1.3. Mục tiêu thứ hai là đánh giá khả năng nhận biết trạng thái liên kết của các mô hình AI theo đơn vị độc lập, tức là trên dữ liệu chưa tham gia huấn luyện.\n\nThí nghiệm dùng một mô hình khung thép tỉ lệ 1:10 trong phòng thí nghiệm, cho phép tạo trạng thái liên kết có kiểm soát, điều không làm được trên công trình đang khai thác. Bảng 3.2 tóm lược thiết kế và tách phần đã thực hiện với phần dự kiến.\n\n<span id=\"TLTQ_Bang_3_2\" class=\"anchor\"></span>Bảng 3.2. Thiết kế thí nghiệm trên mô hình khung thép 1:10\n\n| Thành phần | Nội dung | Tình trạng |\n|:------|:--------------------|:-----|\n| Đối tượng thu nhỏ | Khung thép mô phỏng khung một nhà xưởng ở tỉnh Khánh Hòa theo tỉ lệ hình học 1:10; tiết diện cấu kiện được chọn để độ cứng chống uốn tương đối của các cấu kiện chính phù hợp tỉ lệ thiết kế. Đây là tiêu chí chế tạo, không phải tương tự động lực học đã kiểm chứng | Đã chế tạo |\n| Trạng thái tham chiếu | Khung ở trạng thái lắp ráp tham chiếu; lực siết bu lông không được đo | Đã thực hiện |\n| Thao tác can thiệp | Mỗi lần nới một liên kết bu lông được chỉ định: vùng đỉnh, nút dầm – cột hoặc liên kết giằng. Nhãn trạng thái chỉ vị trí can thiệp, không phải thang mức độ hư hỏng | Đã thực hiện |\n| Kích động | Thiết bị tạo rung thương mại của hãng PASCO, ba dạng kích động: hai mức kích động phách và một dạng ồn trắng | Đã thực hiện; biên độ và định nghĩa vật lý của từng dạng cần ghi bổ sung |\n| Cảm biến | Cảm biến gia tốc ba trục không dây của hãng PASCO tại vùng đỉnh, nút dầm – cột và vùng giằng – cột; đợt đầu dùng hai vị trí, các đợt sau dùng ba vị trí | Đã thực hiện |\n| Đợt và lần lặp | Mỗi đợt là một buổi đo; trong một đợt, mỗi tổ hợp trạng thái – dạng kích động có sáu lần chạy lặp liên tiếp | Ba đợt đã thực hiện; đợt bổ sung dự kiến khi cần |\n| Biến giữ nguyên | Khung, các vị trí can thiệp, loại cảm biến và thiết bị kích động; trong một lần thiết lập: trạng thái liên kết và cách lắp cảm biến | – |\n| Biến thay đổi | Giữa các trạng thái: liên kết được can thiệp. Giữa các đợt: ngày đo, cấu hình cảm biến và thứ tự thiết lập trạng thái; việc tháo – lắp toàn bộ khung giữa các đợt chưa được ghi lại | – |\n\nThiết kế này có một hệ quả cho đánh giá. Trong một đợt, các lần chạy của cùng trạng thái được đo liên tiếp trên cùng một lần thiết lập, nên chúng chia sẻ cùng lần siết và cùng cách lắp cảm biến. Đánh giá giữ lại lần chạy vì vậy chưa trả lời được mô hình nhận ra trạng thái liên kết hay dấu vết của lần thiết lập; câu hỏi đó được kiểm ở mức giữ lại đợt, nơi cả lần thiết lập lẫn buổi đo đều khác (Mục 3.2.2). Một đợt chỉ được đưa vào phép giữ lại đợt khi thỏa điều kiện so sánh đã khóa (Mục 3.4.3).\n\n"
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "R1-AI",
+  "truoc": "nhờ đó ổn định trước nhiễu và cho biết mức đóng góp của từng đặc trưng",
+  "sau": "nhờ đó giảm độ nhạy với nhiễu và cho phép ước lượng mức đóng góp của từng đặc trưng"
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "R1-AI",
+  "truoc": "với nhân RBF, mô hình phân biệt được các lớp không tách tuyến tính khi số mẫu không lớn",
+  "sau": "với nhân RBF, mô hình tạo được biên phân cách phi tuyến"
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "R1-AI",
+  "truoc": "Hai mô hình này là mốc dễ giải thích, vì kết quả đối chiếu được với các đặc trưng có ý nghĩa vật lý của tín hiệu, và phù hợp với dữ liệu phòng thí nghiệm có số đơn vị vật lý độc lập hạn chế (Mục 3.1.1).",
+  "sau": "Hai mô hình này là mốc trên đặc trưng có ý nghĩa vật lý: kết quả đối chiếu được với các đặc trưng của tín hiệu, và chúng phù hợp với dữ liệu phòng thí nghiệm có số đơn vị vật lý độc lập hạn chế (Mục 3.1)."
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "R1-AI",
+  "truoc": "Mạng phần dư một chiều kế thừa khối dư của He và cộng sự, cấu trúc cho phép huấn luyện mạng sâu hơn mà không suy giảm độ chính xác do độ sâu \\[@TGMTUFPX\\]; trong bốn mô hình, đây là mô hình có năng lực biểu diễn cao nhất.",
+  "sau": "Mạng phần dư một chiều kế thừa kết nối dư của He và cộng sự, cấu trúc hỗ trợ việc huấn luyện mạng sâu \\[@TGMTUFPX\\]."
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "R1-AI",
+  "truoc": "Một câu hỏi cụ thể là mô hình có năng lực cao hơn có khai thác",
+  "sau": "Một câu hỏi cụ thể là mô hình nhiều tham số hơn có khai thác"
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "R1-capdulieu",
+  "truoc": "Điểm được chấm theo bản ghi, là đơn vị vật lý của phép đo. Ở LORO và LOCO,",
+  "sau": "Điểm được chấm theo bản ghi; đơn vị được giữ trọn khi chia là lần chạy ở LORO và đợt ở LOCO (Mục 3.2.1). Ở LORO và LOCO,"
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "R1-hoanvi",
+  "truoc": "cấp nhóm, đơn vị chấm điểm và đợt lắp đặt vào trường phạm vi hiệu lực; biến thiên và kết quả kiểm định hoán vị vào trường độ bất định ở mức giao thức đánh giá;",
+  "sau": "cấp nhóm, đơn vị chấm điểm, đợt lắp đặt và cấu hình cảm biến vào trường phạm vi hiệu lực; biến thiên theo seed và fold vào trường độ bất định; kết quả kiểm định hoán vị vào mô tả giao thức đánh giá, như căn cứ rằng hiệu năng vượt mức ngẫu nhiên;"
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "R2-canthiep",
+  "truoc": "Bằng chứng sinh ngoài dải điều kiện của đường cơ sở phải kèm lý do khi sử dụng.",
+  "sau": "Bằng chứng sinh ngoài dải điều kiện của đường cơ sở được ghi là ngoài phạm vi khi sử dụng. Khi một liên kết trong vùng quan trắc được can thiệp, đường cơ sở cũ không còn được dùng làm tham chiếu kể từ thời điểm can thiệp cho tới khi được rà soát (Mục 4.6.1)."
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "C-tonghop3",
+  "truoc": "## 3.6. Tổng hợp chương\n\nDữ liệu dao động cùng học máy đã được dùng rộng để phân biệt trạng thái liên kết bu lông trong điều kiện thí nghiệm. Ở công trình công nghiệp, quan trắc hiện tại gặp bốn giới hạn (Mục 1.2.4): kiểm tra trực quan phụ thuộc người kiểm tra, quan trắc dày đặc khó có cơ sở kinh tế, biến đổi vận hành – môi trường có thể che lấp thay đổi do hư hỏng, và bộ phân loại học ở phòng thí nghiệm khó chuyển nguyên sang hiện trường. Trọng tâm vì vậy nằm ở giao thức đánh giá: đơn vị độc lập, kiểm soát rò rỉ và cấp vật lý được giữ lại quyết định phạm vi diễn giải của kết quả. Một kết quả phân loại chỉ trở thành bằng chứng trạng thái khi gắn với nguồn gốc, độ bất định và phạm vi hiệu lực. Mục tiêu 1 áp dụng các yêu cầu này trên mô hình khung thép 1:10 với bốn mô hình AI và ba mức đánh giá; Mục tiêu 3 đưa cách tạo bằng chứng ra nhà xưởng thật bằng phát hiện bất thường so với đường cơ sở vận hành. Chương 4 xét bước tiếp theo: bằng chứng phải gắn đúng cấu kiện, giữ các thuộc tính đó khi đi qua nhiều hệ thống và truy ngược được từ hành động về căn cứ.\n",
+  "sau": "## 3.6. Tổng hợp chương\n\nDữ liệu dao động cùng học máy đã phân biệt được trạng thái liên kết bu lông trong điều kiện thí nghiệm, nhưng giá trị của kết quả phụ thuộc giao thức đánh giá: đơn vị độc lập, kiểm soát rò rỉ và cấp vật lý được giữ trọn quyết định kết quả được phép diễn giải tới đâu. Một kết quả phân loại trở thành bằng chứng trạng thái khi mang nguồn gốc, độ bất định và phạm vi hiệu lực; các thuộc tính đó làm bằng chứng rà soát được, còn độ tin cậy kỹ thuật vẫn phải được đánh giá riêng. Mục tiêu 1 áp dụng các yêu cầu này trên mô hình khung thép 1:10; Mục tiêu 3 tạo bằng chứng ở nhà xưởng bằng phát hiện bất thường so với đường cơ sở vận hành. Chương 4 xét bước tiếp theo: bằng chứng phải gắn đúng cấu kiện, giữ các thuộc tính đó khi đi qua nhiều hệ thống và truy ngược được từ hành động về căn cứ.\n"
+ },
+ {
+  "tep": "04_chuong4.md",
+  "ma": "N-BCFAPI",
+  "truoc": "BCF-API 3.0 sinh một sự kiện có ngày, tác giả và giá trị mới mỗi khi trạng thái của vấn đề thay đổi \\[@K5SGFIGW\\].",
+  "sau": "BCF-API 3.0 sinh một sự kiện có ngày, tác giả, loại thay đổi và giá trị mới mỗi khi trạng thái của vấn đề thay đổi \\[@P3ZIHF8G\\]."
+ },
+ {
+  "tep": "04_chuong4.md",
+  "ma": "R2-nguyentac",
+  "truoc": "Khi bước này được đặc tả, câu hỏi \"ai đã đề nghị kiểm tra, dựa vào bằng chứng nào\" trở thành truy ngược được như các bước sau.",
+  "sau": "Khi bước này được đặc tả, câu hỏi \"ai đã đề nghị kiểm tra, dựa vào bằng chứng nào\" trở thành truy ngược được như các bước sau.\n\nBốn nguyên tắc giữ cho chuỗi trả lời được câu hỏi trung tâm ở Mục 1.3. Thứ nhất, mỗi bản ghi kiểm tra và mỗi sự kiện chuyển trạng thái ghi mã chủ thể, tức người hoặc tổ chức thực hiện, cùng vai trò của chủ thể đó tại thời điểm thực hiện; chỉ ghi vai trò thì không phân biệt được hai kỹ sư cùng vai trò. Thứ hai, thời điểm can thiệp vật lý được tách khỏi thời điểm xác minh hồ sơ: khi một hành động can thiệp lên liên kết được thực hiện, bằng chứng và đường cơ sở gắn với đợt lắp đặt trước phải được rà soát hoặc tạm ngừng dùng làm căn cứ kể từ thời điểm can thiệp, còn bước xác minh sau sửa chữa xác nhận điều kiện mới. Thứ ba, lý do ghi kèm khi dùng bằng chứng ngoài phạm vi chỉ làm cho ngoại lệ truy ngược được; nó không xác nhận giá trị kỹ thuật của bằng chứng và không tự cho phép can thiệp, vì quyết định can thiệp cần căn cứ kiểm tra phù hợp được người có thẩm quyền xác nhận. Thứ tư, bảng ánh xạ sang IFC 4.3 và BCF 3.0 (Bảng A.3) là phương án biểu diễn, chưa chứng minh dữ liệu được bảo toàn khi trao đổi; việc khóa định danh và liên kết có còn nguyên sau khi xuất rồi đọc lại hay không sẽ được kiểm bằng một phép xuất – nhập trên chính dữ liệu thử."
+ },
+ {
+  "tep": "04_chuong4.md",
+  "ma": "N-BCFAPI",
+  "truoc": "trạng thái và sự kiện đổi trạng thái của vấn đề theo BCF 3.0 \\[@K5SGFIGW\\].",
+  "sau": "trạng thái và sự kiện đổi trạng thái của vấn đề theo BCF 3.0 \\[@K5SGFIGW\\], \\[@P3ZIHF8G\\]."
+ },
+ {
+  "tep": "04_chuong4.md",
+  "ma": "L-B0",
+  "truoc": "Đối chứng B0 là 20–30 hồ sơ kiểm định cũ theo thực hành hiện hành.",
+  "sau": "Đối chứng B0 là 20–30 hồ sơ kiểm định cũ của chính nhà xưởng ở Khánh Hòa, đại diện cho thực hành tại công trình nghiên cứu."
+ },
+ {
+  "tep": "04_chuong4.md",
+  "ma": "R2-M3M2",
+  "truoc": "Bước thứ năm đo bốn chỉ số trên cùng bộ ca. M3, thời gian hoặc số bước để trả lời ba câu hỏi của người quản lý, đo trực tiếp câu hỏi quản lý chính: truy ngược căn cứ và người chịu trách nhiệm của một quyết định. M2 là tỉ lệ phát hiện lỗi chèn mù theo từng nhóm lỗi, do một người không tham gia thiết kế chèn khoảng 30 lỗi vào cả ba phương án; đây là phép đo định lượng chính cho khả năng phát hiện khi chuỗi bị thiếu hoặc sai. M1 là mức đủ thuộc tính bắt buộc; M4 là số phút ghi nhận mỗi bản ghi. Quy tắc mã hóa B0, đặc tả B1, danh sách lỗi cùng các ca trong và ngoài phạm vi, bộ câu hỏi truy ngược và cách tính chỉ số ",
+  "sau": "Bước thứ năm đo bốn chỉ số trên cùng bộ ca. M3 đo trực tiếp câu hỏi quản lý chính: với mỗi câu hỏi truy ngược, câu trả lời trước hết được chấm đúng và đủ theo đáp án chuẩn lập trước; chỉ với các câu trả lời đúng và đủ mới so thời gian hoặc số bước. M2 là tỉ lệ phát hiện lỗi chèn mù theo từng nhóm lỗi, do một người không tham gia thiết kế chèn khoảng 30 lỗi vào cả ba phương án; bộ thử có cả các bản ghi hợp lệ không chèn lỗi, để đo thêm việc báo lỗi nhầm. M1 là mức đủ thuộc tính bắt buộc; M4 là số phút ghi nhận mỗi bản ghi. M3 và M4 được đọc cùng nhau: giá trị thực tiễn là việc tìm đúng căn cứ thuận lợi hơn bao nhiêu, đổi lại công sức ghi nhận tăng thêm bao nhiêu. Quy tắc mã hóa B0, đặc tả B1, danh sách lỗi cùng các ca hợp lệ và các ca trong, ngoài phạm vi, bộ câu hỏi truy ngược kèm đáp án chuẩn và cách tính chỉ số "
+ },
+ {
+  "tep": "04_chuong4.md",
+  "ma": "L-B0",
+  "truoc": "chênh lệch so với B0 mô tả khoảng cách với thực hành kiểm định hiện hành ở Việt Nam.",
+  "sau": "chênh lệch so với B0 mô tả khoảng cách với bộ hồ sơ khảo sát tại công trình nghiên cứu, chưa đại diện cho thực hành kiểm định chung."
+ },
+ {
+  "tep": "04_chuong4.md",
+  "ma": "N-BCFAPI",
+  "truoc": "| Rà soát, phê duyệt; sự kiện đổi trạng thái \\[44\\], \\[@K5SGFIGW\\] |",
+  "sau": "| Rà soát, phê duyệt; sự kiện đổi trạng thái \\[44\\], \\[@P3ZIHF8G\\] |"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "N-thamchieu",
+  "truoc": "ở Mục 3.4, 3.6 và 4.6.",
+  "sau": "ở Mục 3.4, 3.5 và 4.6."
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "N-BCFAPI",
+  "truoc": "chuẩn biểu diễn trạng thái và sự kiện \\[35\\], \\[@63XPSMIR\\], \\[@K5SGFIGW\\],",
+  "sau": "chuẩn biểu diễn trạng thái và sự kiện \\[35\\], \\[@63XPSMIR\\], \\[@K5SGFIGW\\], \\[@P3ZIHF8G\\],"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "R1-phamvi",
+  "truoc": "| Kết quả phụ thuộc lần lắp ráp | Phạm vi hiệu lực thành trường bắt buộc của từng bằng chứng | KT1 |",
+  "sau": "| Kết quả phụ thuộc lần lắp ráp | Điều kiện đã đánh giá thành trường bắt buộc, kiểm tại lần dùng | KT1 |"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "N-BCFAPI",
+  "truoc": "| \\[35\\], \\[@63XPSMIR\\], \\[@K5SGFIGW\\], \\[44\\] |",
+  "sau": "| \\[35\\], \\[@63XPSMIR\\], \\[@K5SGFIGW\\], \\[@P3ZIHF8G\\], \\[44\\] |"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "N-DT",
+  "truoc": "| Mức tích hợp, tích hợp dữ liệu | Chuỗi dừng ở cảnh báo | KT2 |",
+  "sau": "| Mức tích hợp, tích hợp dữ liệu | Trong các khung đã rà soát, chuỗi dừng ở cảnh báo | KT2 |"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "L-KT3",
+  "truoc": "| Giới hạn quan trắc; bù biến đổi; khả thi dài hạn | Chuỗi bằng chứng – kiểm tra – hành động trên nhà xưởng có cầu trục | KT3 |",
+  "sau": "| Giới hạn quan trắc; bù biến đổi; khả thi dài hạn | Duy trì chuỗi bằng chứng – kiểm tra – hành động trong vận hành nhà xưởng có cầu trục | KT3 |"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "N-VN",
+  "truoc": "| Quan trắc cầu, lún, sụt lún | Nhà xưởng khung thép; gắn với hồ sơ kiểm tra | KT3 |",
+  "sau": "| Quan trắc cầu, lún, sụt lún | Trong tập đã khảo sát: chưa có nhà xưởng khung thép, chưa gắn với hồ sơ kiểm tra | KT3 |"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "N-SSN",
+  "truoc": "Vế A2 (khai báo): phạm vi hiệu lực và độ bất định chưa là trường bắt buộc của từng bằng chứng, có lần lắp ráp – can thiệp và điều kiện vận hành làm thành phần; từ vựng nguồn gốc \\[69\\], \\[@GHAZGWUN\\] và thẻ mô hình \\[@82WQNDHU\\], \\[53\\] chỉ khai phạm vi ở mức mô hình.",
+  "sau": "Vế A2 (khai báo và kiểm khi dùng): các chuẩn và đề xuất hiện có đã biểu diễn được nhiều phần của bài toán. SOSA/SSN biểu diễn từng quan trắc cùng cảm biến, thủ tục và đối tượng được quan trắc \\[@GHAZGWUN\\]; PROV-O biểu diễn nguồn gốc của từng thực thể, hoạt động và tác nhân \\[69\\]; thẻ mô hình khai báo điều kiện đánh giá và mục đích sử dụng ở mức mô hình \\[@82WQNDHU\\], còn \\[53\\] đề xuất bảng thông tin mô hình để khai báo và kiểm các dạng rò rỉ. Trong tập tài liệu đã rà soát, phần chưa có là quy tắc nghiệp vụ buộc mỗi bằng chứng trạng thái trong kiểm tra – bảo trì mang điều kiện đã đánh giá, gồm lần lắp ráp – can thiệp và điều kiện vận hành, như trường bắt buộc, và kiểm việc dùng bằng chứng so với các điều kiện đó tại lần sử dụng."
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "R1-phamvi",
+  "truoc": "Nếu không có con số về mức lạc quan và không có phạm vi đi kèm từng kết quả, người quản lý không trả lời được câu hỏi \"tin được đến mức nào?\".",
+  "sau": "Nếu không có con số về mức lạc quan và không có điều kiện đã đánh giá đi kèm từng kết quả, người quản lý không rà soát được bằng chứng đã được kiểm tới đâu, tức câu hỏi \"tin được đến mức nào?\"."
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "N-BCFAPI",
+  "truoc": "BCF 3.0 ghi sự kiện đổi trạng thái của vấn đề \\[@K5SGFIGW\\];",
+  "sau": "BCF-API 3.0 ghi sự kiện đổi trạng thái của vấn đề \\[@P3ZIHF8G\\];"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "N-DT",
+  "truoc": "Tuy vậy, chuỗi của các khung song sinh số dừng ở cảnh báo \\[3\\], \\[7\\],",
+  "sau": "Tuy vậy, trong các khung song sinh số đã rà soát, chuỗi dừng ở cảnh báo \\[3\\], \\[7\\],"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "R2-chuthe",
+  "truoc": "cũng chưa được ghi thành sự kiện có căn cứ, vai trò người thực hiện và bước xác minh sau sửa chữa.",
+  "sau": "cũng chưa được ghi thành sự kiện có căn cứ, có chủ thể và vai trò người thực hiện, với bước xác minh sau sửa chữa tách khỏi thời điểm can thiệp."
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "L-cauhoi",
+  "truoc": "Đây là câu hỏi \"ai đã xử lý, dựa vào đâu?\".",
+  "sau": "Đây là câu hỏi \"ai đã xử lý, dựa vào đâu?\", đặt tại đúng thời điểm của từng quyết định."
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "L-KT3",
+  "truoc": "### 5.2.3. KT3 – Khả năng áp dụng chuỗi bằng chứng – hành động trên nhà công nghiệp khung thép đang khai thác",
+  "sau": "### 5.2.3. KT3 – Duy trì chuỗi bằng chứng – hành động trong vận hành nhà công nghiệp khung thép"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "L-KT3",
+  "truoc": "có vận hành được trong các điều kiện đó hay không: dữ liệu có về đủ, ánh xạ cảm biến – cấu kiện có giữ đúng qua thời gian và chi phí ghi nhận có chấp nhận được.",
+  "sau": "có được duy trì và truy ngược được trong các điều kiện đó hay không: dữ liệu có về đủ, ánh xạ cảm biến – cấu kiện có giữ đúng qua thời gian, mỗi bằng chứng có truy được về nguồn đo và hồ sơ, và công sức ghi nhận có chấp nhận được."
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "L-KT3",
+  "truoc": "Người quản lý cũng chưa biết chi phí ghi nhận và mức khả thi của việc trả lời câu hỏi \"cái gì bất thường, ở đâu?\" trong điều kiện vận hành thật.",
+  "sau": "Người quản lý cũng chưa biết việc duy trì chuỗi đó đòi hỏi bao nhiêu công sức ghi nhận trong vận hành thật. KT3 không đặt câu hỏi về hiệu năng phát hiện hay định vị bất thường, vì phép thử hiện trường dự kiến không có đủ dữ liệu hư hỏng để trả lời câu hỏi đó."
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "L-524",
+  "truoc": "Ba khoảng trống ứng với ba câu hỏi của người quản lý ở Mục 1.3 và với ba môi trường nghiên cứu: phòng thí nghiệm (KT1), mô hình thông tin (KT2) và hiện trường (KT3). Ba khoảng trống nối với nhau qua bản ghi bằng chứng: KT1 tạo ra bằng chứng có phạm vi, KT2 ghi và kiểm việc dùng bằng chứng đó, KT3 kiểm chuỗi trên công trình thật.\n\n",
+  "sau": "Ba khoảng trống ứng với ba môi trường nghiên cứu, phòng thí nghiệm (KT1), mô hình thông tin (KT2) và hiện trường (KT3), và cùng phục vụ câu hỏi quản lý trung tâm ở Mục 1.3: tại thời điểm quyết định, bằng chứng nào còn phù hợp làm căn cứ, ai đã sử dụng và vì sao. KT1 xác định điều kiện tạo và đánh giá bằng chứng, ứng với câu hỏi \"tin được đến mức nào?\". KT2 bảo toàn và kiểm các điều kiện đó khi bằng chứng được dùng, ứng với câu hỏi \"ai đã xử lý, dựa vào đâu?\". KT3 kiểm việc duy trì chuỗi trong vận hành thực, nơi câu hỏi \"cái gì bất thường, ở đâu?\" được trả lời ở mức khu vực cấu kiện cần kiểm tra. Ba khoảng trống nối với nhau qua bản ghi bằng chứng.\n\n"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "L-luande",
+  "truoc": "Kết quả đó trở thành căn cứ đáng tin và giải trình được khi mỗi bằng chứng trạng thái mang theo nguồn gốc, độ bất định và phạm vi hiệu lực, được kiểm tại lần sử dụng, và được nối qua bản ghi kiểm tra tới lịch sử trạng thái của hành động kiểm tra – bảo trì.",
+  "sau": "Kết quả đó trở thành căn cứ có thể truy xuất, rà soát mức phù hợp và giải trình khi mỗi bằng chứng trạng thái mang theo nguồn gốc, độ bất định và phạm vi hiệu lực, được kiểm tại lần sử dụng, và được nối qua bản ghi kiểm tra tới lịch sử trạng thái của hành động kiểm tra – bảo trì. Độ tin cậy kỹ thuật của bản thân kết quả được đánh giá riêng."
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "R1-phamvi",
+  "truoc": "và khai báo phạm vi hiệu lực, độ bất định cho từng kết quả dưới dạng bản ghi bằng chứng.",
+  "sau": "và ghi điều kiện đã đánh giá (phạm vi hiệu lực), độ bất định cho từng kết quả dưới dạng bản ghi bằng chứng."
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "L-B0",
+  "truoc": "so với hồ sơ kiểm định hiện hành (B0)",
+  "sau": "so với bộ hồ sơ kiểm định cũ của chính nhà xưởng (B0)"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "L-KT3",
+  "truoc": "**Mục tiêu 3 (giải quyết KT3).** Triển khai và kiểm chứng khả thi chuỗi bằng chứng – hành động trên nhà xưởng khung thép đang khai thác ở Đắk Lắk,",
+  "sau": "**Mục tiêu 3 (giải quyết KT3).** Triển khai và kiểm chứng khả năng duy trì chuỗi bằng chứng – hành động trong vận hành của nhà xưởng khung thép đang khai thác ở Đắk Lắk,"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "R2-M3M2",
+  "truoc": "| Truy ngược căn cứ và người chịu trách nhiệm; tỉ lệ phát hiện lỗi so với B0, B1 trên bộ ca đã khóa |",
+  "sau": "| Truy ngược đúng, đủ căn cứ và người chịu trách nhiệm; tỉ lệ phát hiện lỗi so với B0, B1 trên bộ ca đã khóa |"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "R1-phamvi",
+  "truoc": "và mỗi kết quả dùng được trong phạm vi nào?",
+  "sau": "và mỗi kết quả được ghi kèm những điều kiện đã đánh giá nào?"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "L-mach",
+  "truoc": "Ba câu hỏi kế tiếp nhau về dữ liệu. RQ1 cấp cho RQ2 các bản ghi bằng chứng dùng làm ca kiểm thử quy tắc; RQ2 cấp lớp dữ liệu truy vết và công cụ kiểm ràng buộc cho RQ3.",
+  "sau": "Ba câu hỏi tạo thành một mạch: RQ1 xác định điều kiện tạo và đánh giá bằng chứng; RQ2 bảo toàn và kiểm các điều kiện đó khi bằng chứng được sử dụng trong chuỗi kiểm tra – hành động; RQ3 kiểm khả năng duy trì chuỗi trong vận hành thực. Về dữ liệu, RQ1 cấp cho RQ2 các bản ghi bằng chứng dùng làm ca kiểm thử quy tắc, và RQ2 cấp lớp dữ liệu truy vết cùng công cụ kiểm ràng buộc cho RQ3."
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "C-lapAI",
+  "truoc": " Xuyên suốt, công cụ AI chỉ tạo bằng chứng; quyết định thuộc về kỹ sư và người quản lý có thẩm quyền.",
+  "sau": " Vai trò của AI theo nguyên tắc ở Mục 3.4.2."
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "N-BCFAPI",
+  "truoc": "sự kiện đổi trạng thái \\[@K5SGFIGW\\]; bước chuyển có bằng chứng \\[44\\]",
+  "sau": "sự kiện đổi trạng thái \\[@P3ZIHF8G\\]; bước chuyển có bằng chứng \\[44\\]"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "R2-M3M2",
+  "truoc": "| Trả lời bộ câu hỏi truy ngược về căn cứ và người chịu trách nhiệm; tỉ lệ phát hiện lỗi chèn mù so với B0 và B1 trên bộ ca đã khóa |",
+  "sau": "| Trả lời đúng và đủ bộ câu hỏi truy ngược về căn cứ và người chịu trách nhiệm; tỉ lệ phát hiện lỗi chèn mù và báo lỗi nhầm so với B0 và B1 trên bộ ca đã khóa |"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "L-donggop",
+  "truoc": "## 5.6. Đóng góp dự kiến\n\nĐóng góp dự kiến được tách thành hai loại theo đối chứng dùng để đo (Bảng 5.5) và chỉ được khẳng định khi kết quả kiểm chứng ủng hộ. Đóng góp khoa học là phần chênh lệch so với tiền lệ trong tài liệu: mốc đánh giá cùng lần chạy cho KT1, và đối chứng B1 cho KT2. Đóng góp thực tiễn là phần chênh lệch so với thực hành kiểm định hiện hành ở Việt Nam (B0) và khả năng vận hành của chuỗi trên một nhà xưởng đang khai thác (KT3).\n\n<span id=\"TLTQ_Bang_5_5\" class=\"anchor\"></span>Bảng 5.5. Đóng góp khoa học và đóng góp thực tiễn dự kiến\n\n| Loại | Đóng góp dự kiến | Khoảng trống | Mục tiêu | Đo bằng |\n|:--|:---|:--:|:--:|:---|\n| Khoa học | Mức chênh lệch giữa đánh giá cùng lần chạy và đánh giá theo đơn vị độc lập cho phân loại trạng thái liên kết bu lông của khung thép | KT1 | 1 | Hiệu năng ở ba mức đánh giá, biến thiên, kiểm định hoán vị |\n| Khoa học | Bằng chứng mang phạm vi hiệu lực và độ bất định như trường bắt buộc, kiểm tại lần sử dụng | KT1, KT2 | 1, 2 | M2 ở nhóm lỗi dùng bằng chứng ngoài phạm vi, so với B1 |\n| Khoa học | Lớp dữ liệu truy vết liên thông với IFC 4.3 và BCF 3.0, trong đó mỗi bước chuyển trạng thái trỏ tới lần dùng bằng chứng làm căn cứ | KT2 | 2 | M3 và M2 ở nhóm lỗi đổi trạng thái không căn cứ, cùng M1, M4, so với B1 |\n| Thực tiễn | Khoảng cách giữa mô hình đề xuất và hồ sơ kiểm định hiện hành ở Việt Nam | KT2 | 2 | M1–M4 so với B0 |\n| Thực tiễn | Quy trình triển khai chuỗi bằng chứng – hành động với số ít cảm biến trên nhà xưởng đang khai thác | KT3 | 3 | Dữ liệu thật về đủ, ánh xạ đúng; truy ngược kịch bản giả định; chi phí ghi nhận |\n\nỞ cấp ngành Quản lý xây dựng, các đóng góp hợp lại thành một cách tổ chức và kiểm chứng dòng thông tin từ bằng chứng kỹ thuật tới quy trình kiểm tra – bảo trì: mỗi hành động kiểm tra truy ngược được về căn cứ, phạm vi hiệu lực, người rà soát và lịch sử xử lý. Các khái niệm của SSN và PROV-O được đối chiếu bằng một bảng ánh xạ (Phụ lục A); luận án không xây dựng ontology hay nền tảng phần mềm mới.\n\n",
+  "sau": "## 5.6. Đóng góp dự kiến\n\nĐóng góp dự kiến được phát biểu dưới dạng tri thức và nguyên tắc thiết kế mà luận án muốn rút ra; chênh lệch so với đối chứng là bằng chứng đánh giá cho các phát biểu đó, không phải bản thân đóng góp (Bảng 5.5). Mỗi đóng góp chỉ được khẳng định khi kết quả kiểm chứng ủng hộ.\n\n<span id=\"TLTQ_Bang_5_5\" class=\"anchor\"></span>Bảng 5.5. Đóng góp dự kiến và bằng chứng đánh giá\n\n| Loại | Tri thức hoặc nguyên tắc dự kiến | Khoảng trống | Mục tiêu | Bằng chứng đánh giá |\n|:----|:--------------|:---:|:---:|:--------|\n| Khoa học | Điều kiện đánh giá cần khai báo cho bằng chứng phân loại trạng thái liên kết bu lông từ dữ liệu dao động: cấp đơn vị được giữ trọn khi chia dữ liệu (lần chạy, đợt) quyết định mức lạc quan của kết quả và phạm vi được phép dùng | KT1 | 1 | Chênh lệch hiệu năng giữa đánh giá cùng lần chạy, LORO và LOCO; biến thiên theo seed và fold |\n| Khoa học | Nguyên tắc dùng bằng chứng đúng phạm vi: mỗi bằng chứng mang điều kiện đã đánh giá như trường bắt buộc và được kiểm tại lần dùng; lý do ngoại lệ không thay cho căn cứ kiểm tra | KT1, KT2 | 1, 2 | M2 ở nhóm lỗi dùng bằng chứng ngoài phạm vi, so với B1 |\n| Khoa học | Nguyên tắc giải trình quyết định qua thời gian: mỗi bước chuyển trạng thái gắn chủ thể, vai trò và lần dùng bằng chứng làm căn cứ; can thiệp vật lý mở lại điều kiện sử dụng của bằng chứng cũ | KT2 | 2 | M3 (đúng, đủ rồi mới xét thời gian) và M2 ở nhóm lỗi đổi trạng thái không căn cứ, so với B1 |\n| Thực tiễn | Mức truy ngược đúng đạt được so với công sức ghi nhận tăng thêm, trên bộ hồ sơ khảo sát tại công trình nghiên cứu | KT2 | 2 | M3 đọc cùng M4, so với B0; M1 |\n| Thực tiễn | Các điều kiện để duy trì chuỗi bằng chứng – hành động với số ít cảm biến trong vận hành nhà xưởng | KT3 | 3 | Dữ liệu thật về đủ, ánh xạ đúng; truy ngược kịch bản giả định; công sức ghi nhận |\n\nỞ cấp ngành Quản lý xây dựng, tri thức dự kiến không nằm ở việc nối được một hệ thống mà ở một cách kiểm soát căn cứ của quyết định kiểm tra – bảo trì qua thời gian: tại thời điểm quyết định, bằng chứng nào được phép làm căn cứ, ai đã dùng và vì sao, với công sức ghi nhận chấp nhận được. Ba câu hỏi nghiên cứu cung cấp bằng chứng cho phát biểu này ở ba môi trường. Hiệu quả kinh tế, mức giảm sự cố hay chất lượng bảo trì không được đo nên không được suy ra. Các khái niệm của SSN và PROV-O được đối chiếu bằng một bảng ánh xạ (Phụ lục A); luận án không xây dựng ontology hay nền tảng phần mềm mới.\n\n"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "L-gioihan",
+  "truoc": "Mỗi loại bằng chứng được dùng cho kết luận cùng loại (Bảng 5.4), và bất thường trong dữ liệu vận hành dẫn tới xem xét và kiểm tra, không dẫn trực tiếp tới kết luận hư hỏng.",
+  "sau": "Mỗi loại bằng chứng được dùng cho kết luận cùng loại (Bảng 5.4), và bất thường trong dữ liệu vận hành dẫn tới xem xét và kiểm tra, không dẫn trực tiếp tới kết luận hư hỏng. Nguồn gốc, độ bất định và phạm vi hiệu lực làm bằng chứng rà soát được, không bảo đảm dự đoán đúng. Hồ sơ B0 gồm 20–30 hồ sơ của một nhà xưởng nên chỉ đại diện cho thực hành tại công trình nghiên cứu."
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "N-VN",
+  "truoc": "Về phương pháp tổng quan, ba khoảng trống được xác lập trong tập tài liệu đã rà soát;",
+  "sau": "Về phương pháp tổng quan, ba khoảng trống và các nhận định về thực hành quan trắc ở Việt Nam, về các khung song sinh số được xác lập trong tập tài liệu đã rà soát;"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "L-KT3",
+  "truoc": "và khả năng áp dụng chuỗi đó trên nhà công nghiệp khung thép đang khai thác (KT3).",
+  "sau": "và việc duy trì chuỗi đó trong vận hành nhà công nghiệp khung thép (KT3)."
+ },
+ {
+  "tep": "phuluc.md",
+  "ma": "R1-phamvi",
+  "truoc": "| Phạm vi hiệu lực: đơn vị suy luận, cách chia dữ liệu, đợt lắp đặt, điều kiện áp dụng |",
+  "sau": "| Phạm vi hiệu lực, tức điều kiện đã đánh giá và giới hạn sử dụng: đơn vị suy luận, cách chia dữ liệu, đợt lắp đặt, điều kiện áp dụng |"
+ },
+ {
+  "tep": "phuluc.md",
+  "ma": "R2-chuthe",
+  "truoc": "`Inspection_Record_ID`, `BIM_GUID`, `inspector_role`, `inspected_at`,",
+  "sau": "`Inspection_Record_ID`, `BIM_GUID`, `inspector_ref`, `inspector_role`, `inspected_at`,"
+ },
+ {
+  "tep": "phuluc.md",
+  "ma": "R2-chuthe",
+  "truoc": "gồm vị trí và nguyên nhân hư hỏng nếu có; vai trò, thời điểm, độ bất định;",
+  "sau": "gồm vị trí và nguyên nhân hư hỏng nếu có; mã chủ thể và vai trò người kiểm tra, thời điểm, độ bất định;"
+ },
+ {
+  "tep": "phuluc.md",
+  "ma": "R2-chuthe",
+  "truoc": "`Status_Event_ID`, `Action_ID`, `from_to`, `timestamp`, `actor_role`, `reason` | Có | Một lần đổi trạng thái: trước và sau, thời điểm, vai trò, lý do |",
+  "sau": "`Status_Event_ID`, `Action_ID`, `from_to`, `timestamp`, `actor_ref`, `actor_role`, `reason` | Có | Một lần đổi trạng thái: trước và sau, thời điểm, mã chủ thể và vai trò người thực hiện, lý do; với hành động can thiệp, `timestamp` của bước Đang xử lý → Hoàn thành là thời điểm can thiệp |"
+ },
+ {
+  "tep": "phuluc.md",
+  "ma": "R2-chuthe",
+  "truoc": "tên vai trò theo tổ chức của chủ đầu tư được điền khi khóa đặc tả của Mục tiêu 2.",
+  "sau": "tên vai trò theo tổ chức của chủ đầu tư được điền khi khóa đặc tả của Mục tiêu 2. Mã chủ thể (`inspector_ref`, `actor_ref`) là mã người hoặc tổ chức theo danh mục của chủ đầu tư; luận án không thiết kế hệ thống tài khoản."
+ },
+ {
+  "tep": "phuluc.md",
+  "ma": "R2-IFC",
+  "truoc": "không sửa lược đồ chuẩn và không triển khai RDF.",
+  "sau": "không sửa lược đồ chuẩn và không triển khai RDF. Bảng là phương án biểu diễn; việc giữ khóa và liên kết khi xuất – nhập được kiểm như nêu ở Mục 4.6.1."
+ },
+ {
+  "tep": "phuluc.md",
+  "ma": "N-BCFAPI",
+  "truoc": "| Trạng thái và sự kiện của vấn đề BCF \\[@K5SGFIGW\\] |",
+  "sau": "| Trạng thái và sự kiện của vấn đề BCF \\[@K5SGFIGW\\], \\[@P3ZIHF8G\\] |"
+ },
+ {
+  "tep": "phuluc.md",
+  "ma": "R2-chuthe",
+  "truoc": "| Mỗi sự kiện có `from_to` thuộc Bảng A.2, vai trò được phép và `evidence_ref` khi bảng yêu cầu |",
+  "sau": "| Mỗi sự kiện có `from_to` thuộc Bảng A.2, mã chủ thể, vai trò được phép và `evidence_ref` khi bảng yêu cầu |"
+ },
+ {
+  "tep": "phuluc.md",
+  "ma": "R2-canthiep",
+  "truoc": "Đợt lắp đặt hiện hành của cấu kiện đổi khi một hành động can thiệp lên liên kết chuyển sang \"Đã xác minh\". ",
+  "sau": "Đợt lắp đặt hiện hành của cấu kiện được đánh dấu cần rà soát kể từ thời điểm can thiệp, ghi ở sự kiện Đang xử lý → Hoàn thành của hành động can thiệp; từ thời điểm đó, bằng chứng của đợt trước được tính là ngoài phạm vi khi xét C5, và sự kiện Hoàn thành → Đã xác minh xác nhận đợt lắp đặt mới. Lý do ghi theo C5 chỉ làm ngoại lệ truy ngược được, không xác nhận giá trị kỹ thuật của bằng chứng. "
+ },
+ {
+  "tep": "phuluc.md",
+  "ma": "R2-M3M2",
+  "truoc": "tỉ lệ phát hiện thực tế là kết quả đo của Mục tiêu 2.",
+  "sau": "tỉ lệ phát hiện thực tế là kết quả đo của Mục tiêu 2. Bộ thử có cả bản ghi hợp lệ không chèn lỗi để đo việc báo lỗi nhầm."
+ }
+]

@@ -1,0 +1,80 @@
+[
+ {
+  "tep": "04_chuong4.md",
+  "ma": "TV5-E4",
+  "truoc": "theo cách \\[35\\] áp dụng: chuỗi lần kiểm tra – hư hỏng – cấu kiện – nhiệm vụ bảo trì bằng thực thể chuẩn IFC 4.3, trạng thái hư hỏng theo quy ước",
+  "sau": "theo cách \\[35\\] áp dụng. Chuỗi lần kiểm tra – hư hỏng – cấu kiện – nhiệm vụ bảo trì được biểu diễn bằng thực thể chuẩn IFC 4.3, cùng trạng thái hư hỏng theo quy ước"
+ },
+ {
+  "tep": "04_chuong4.md",
+  "ma": "TV5-E4",
+  "truoc": "(tr. 8–10); gán cảm biến cho cấu kiện như \\[2\\]; lệnh bảo trì có trạng thái và phê duyệt của IFC4 \\[@63XPSMIR\\]; trạng thái và sự kiện đổi trạng thái của vấn đề theo BCF 3.0",
+  "sau": "(tr. 8–10). B1 còn dùng phép gán cảm biến cho cấu kiện như \\[2\\], lệnh bảo trì có trạng thái và phê duyệt của IFC4 \\[@63XPSMIR\\], và trạng thái cùng sự kiện đổi trạng thái của vấn đề theo BCF 3.0"
+ },
+ {
+  "tep": "04_chuong4.md",
+  "ma": "TV5-E4",
+  "truoc": "Bộ câu hỏi dự kiến gồm các loại sau: bằng chứng E sinh từ cảm biến nào; cảm biến đó được ánh xạ tới cấu kiện nào tại thời điểm E được tạo; E có còn nằm trong phạm vi hiệu lực tại thời điểm được dùng không; bản ghi kiểm tra nào được tạo từ E; ai đã đổi trạng thái hành động, với vai trò gì tại thời điểm đổi; bằng chứng và lý do nào làm căn cứ; và sau một can thiệp, bằng chứng hoặc đường cơ sở nào không còn được dùng.",
+  "sau": "Bộ câu hỏi dự kiến gồm hai nhóm. Nhóm về bằng chứng hỏi: bằng chứng E sinh từ cảm biến nào; cảm biến đó được ánh xạ tới cấu kiện nào tại thời điểm E được tạo; E có còn nằm trong phạm vi hiệu lực tại thời điểm được dùng không; và bản ghi kiểm tra nào được tạo từ E. Nhóm về trách nhiệm hỏi: ai đã đổi trạng thái hành động, với vai trò gì tại thời điểm đổi; bằng chứng và lý do nào làm căn cứ; và sau một can thiệp, bằng chứng hoặc đường cơ sở nào không còn được dùng."
+ },
+ {
+  "tep": "04_chuong4.md",
+  "ma": "TV5-E4",
+  "truoc": "và áp cho hành động kiểm tra – bảo trì: mỗi lần chuyển trạng thái là một sự kiện ghi thời điểm, vai trò người thực hiện, bằng chứng làm căn cứ và lý do; trạng thái hiện thời",
+  "sau": "và áp cho hành động kiểm tra – bảo trì. Theo đó, mỗi lần chuyển trạng thái là một sự kiện ghi thời điểm, chủ thể và vai trò người thực hiện, bằng chứng làm căn cứ và lý do. Trạng thái hiện thời"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "TV5-E4",
+  "truoc": "Gate 1 chỉ được đóng khi đủ bảy điều kiện: danh sách lần chạy được khóa; phép chia dữ liệu theo nhóm không rò rỉ; tham số tiền xử lý được học bên trong phần huấn luyện của từng lần chia; việc chọn siêu tham số không dùng phần kiểm tra; chế độ đầu vào cảm biến của ResNet1D được xác nhận; cách gộp dự đoán khi tính chỉ số được thống nhất; và LORO, LOCO chỉ dùng các đợt thỏa điều kiện so sánh (Mục 3.4.3).",
+  "sau": "Gate 1 chỉ được đóng khi đủ bảy điều kiện. Ba điều kiện thuộc dữ liệu: danh sách lần chạy được khóa; phép chia dữ liệu theo nhóm không rò rỉ; và LORO, LOCO chỉ dùng các đợt thỏa điều kiện so sánh. Ba điều kiện thuộc huấn luyện: tham số tiền xử lý được học bên trong phần huấn luyện của từng lần chia; việc chọn siêu tham số không dùng phần kiểm tra; và chế độ đầu vào cảm biến của ResNet1D được xác nhận. Điều kiện cuối là cách gộp dự đoán khi tính chỉ số được thống nhất (Mục 3.4.3)."
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "TV5-E4",
+  "truoc": "trên mô hình khung thép tỉ lệ 1:10, bằng cách đo mức chênh lệch giữa đánh giá cùng lần chạy và hai mức đánh giá theo đơn vị độc lập với bốn mô hình học máy, rồi ghi điều kiện đã đánh giá và độ bất định cho từng kết quả.",
+  "sau": "trên mô hình khung thép tỉ lệ 1:10. Quy trình đo mức chênh lệch giữa đánh giá cùng lần chạy và hai mức đánh giá theo đơn vị độc lập với bốn mô hình học máy, rồi ghi điều kiện đã đánh giá và độ bất định cho từng kết quả."
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "TV5-E4",
+  "truoc": "Mỗi kết quả được ghi thành một bản ghi bằng chứng: cấp nhóm, đơn vị chấm điểm, đợt lắp đặt và cấu hình cảm biến vào trường phạm vi hiệu lực; biến thiên theo seed và fold vào trường độ bất định; kết quả kiểm định hoán vị vào mô tả giao thức đánh giá, như căn cứ rằng hiệu năng vượt mức ngẫu nhiên; nhãn hoặc xác suất vào trường giá trị; mã phiên bản chuỗi xử lý vào trường phiên bản phương pháp.",
+  "sau": "Mỗi kết quả được ghi thành một bản ghi bằng chứng. Cấp nhóm, đơn vị chấm điểm, đợt lắp đặt và cấu hình cảm biến được ghi vào trường phạm vi hiệu lực; biến thiên theo seed và fold vào trường độ bất định. Kết quả kiểm định hoán vị được ghi vào mô tả giao thức đánh giá, như căn cứ rằng hiệu năng vượt mức ngẫu nhiên. Nhãn hoặc xác suất được ghi vào trường giá trị, và mã phiên bản chuỗi xử lý vào trường phiên bản phương pháp."
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "TV5-E4",
+  "truoc": "với cấu trúc gọn \\[@HPREAQAJ\\], và là nhóm mô hình được dùng nhiều trong phát hiện hư hỏng dựa trên dao động \\[@QUGY4928\\]; các nghiên cứu",
+  "sau": "với cấu trúc gọn \\[@HPREAQAJ\\], và là nhóm mô hình được dùng nhiều trong phát hiện hư hỏng dựa trên dao động \\[@QUGY4928\\]. Các nghiên cứu"
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "TV5-E4",
+  "truoc": "Mục tiêu cần đạt là đánh giá khả năng duy trì chuỗi trong điều kiện thật qua bốn số đo, không đánh giá hiệu năng phát hiện hư hỏng: tỉ lệ dữ liệu về đủ",
+  "sau": "Mục tiêu cần đạt là đánh giá khả năng duy trì chuỗi trong điều kiện thật, không đánh giá hiệu năng phát hiện hư hỏng. Bốn số đo được dùng: tỉ lệ dữ liệu về đủ"
+ },
+ {
+  "tep": "01_chuong1.md",
+  "ma": "TV5-E4",
+  "truoc": "quanh giá trị trung bình, và tỷ lệ phát hiện đúng",
+  "sau": "quanh giá trị trung bình. Tỷ lệ phát hiện đúng"
+ },
+ {
+  "tep": "01_chuong1.md",
+  "ma": "TV5-E4",
+  "truoc": "Chương trình bày bối cảnh quản lý vận hành và pháp lý, đặc điểm của nhà công nghiệp khung thép liên kết bu lông cùng hạn chế của quan trắc và quản lý thông tin hiện nay, khái niệm bằng chứng trạng thái và nhu cầu của người quản lý, vấn đề nghiên cứu, rồi mục tiêu, phạm vi và phương pháp tổng quan.",
+  "sau": "Chương trình bày bối cảnh quản lý vận hành và pháp lý, đặc điểm của nhà công nghiệp khung thép liên kết bu lông, và hạn chế của quan trắc cùng quản lý thông tin hiện nay. Tiếp theo là khái niệm bằng chứng trạng thái, nhu cầu của người quản lý, vấn đề nghiên cứu, rồi mục tiêu, phạm vi và phương pháp tổng quan."
+ },
+ {
+  "tep": "02_chuong2.md",
+  "ma": "TV5-E4",
+  "truoc": "Luận án dùng phân loại của \\[8\\] làm thước đo mức tích hợp và đặt song sinh số dựa trên dữ liệu làm mục tiêu kiến trúc: luồng dữ liệu",
+  "sau": "Luận án dùng phân loại của \\[8\\] làm thước đo mức tích hợp và đặt song sinh số dựa trên dữ liệu làm mục tiêu kiến trúc. Trong kiến trúc đó, luồng dữ liệu"
+ },
+ {
+  "tep": "01_chuong1.md",
+  "ma": "TV5-E4",
+  "truoc": "Tiểu luận không lập sơ đồ PRISMA vì hai lý do: đây là tổng quan theo chủ đề có cấu trúc, không phải tổng quan hệ thống; và số kết quả tìm kiếm ban đầu ở từng cơ sở dữ liệu chưa được lưu đầy đủ, nên không lập được sơ đồ phản ánh trung thực quá trình sàng lọc.",
+  "sau": "Tiểu luận không lập sơ đồ PRISMA vì hai lý do. Đây là tổng quan theo chủ đề có cấu trúc, không phải tổng quan hệ thống. Số kết quả tìm kiếm ban đầu ở từng cơ sở dữ liệu cũng chưa được lưu đầy đủ, nên không lập được sơ đồ phản ánh trung thực quá trình sàng lọc."
+ }
+]

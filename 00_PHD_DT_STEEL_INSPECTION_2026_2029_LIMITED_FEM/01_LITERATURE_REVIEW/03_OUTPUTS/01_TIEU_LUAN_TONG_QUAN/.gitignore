@@ -1,3 +1,17 @@
 # PDF tài liệu tham khảo: lưu cục bộ, liên kết vào Zotero (linked file), không đưa vào Git
 pdf/
 *.pdf
+
+# Tệp hệ thống, tệp khóa và thư mục tư liệu lớn (03/10/2026)
+desktop.ini
+~$*
+.cache/
+*.pptx
+*.doc
+*.xlsx
+TLTQ_28.09.2026/
+PAPER_DRAFTING/
+# Bản xuất: chỉ đưa bản final vào Git
+*.docx
+!xuat_ban/HO_CHI_HAN_TIEU_LUAN_TONG_QUAN_FINAL_PROOFREAD.docx
+xuat_ban/*.md

@@ -1,0 +1,128 @@
+[
+ {
+  "tep": "03_chuong3.md",
+  "ma": "TV2-B3",
+  "truoc": "Cần tách hai vai trò: đơn vị chấm điểm là bản ghi, còn đơn vị được giữ trọn ở một phía của phép chia là lần chạy hoặc đợt, tùy mức đánh giá.",
+  "sau": "Cần tách ba vai trò. Đơn vị chấm điểm là bản ghi. Đơn vị chia dữ liệu, tức đơn vị được giữ trọn ở một phía của phép chia, là lần chạy hoặc đợt, tùy mức đánh giá. Đơn vị độc lập vật lý là lần thiết lập trạng thái, vì các lần chạy trong cùng một lần thiết lập dùng chung một lần siết. Cửa sổ không phải mẫu độc lập."
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "TV2-B4",
+  "truoc": "Kết quả LORO có giá trị trong cùng bối cảnh thí nghiệm; dùng cho đợt mới cần kết quả LOCO, và dùng cho công trình thực cần kiểm chứng riêng. Một kết quả LOCO thấp vẫn giữ giá trị trong cùng đợt và cho thấy phạm vi hiệu lực hẹp hơn.",
+  "sau": "LORO vì vậy đo khả năng khái quát sang lần chạy mới trong cùng đợt và cùng bối cảnh; nó không phải bằng chứng cuối cùng. LOCO kiểm khả năng giữ hiệu năng khi đợt và bối cảnh lắp đặt thay đổi; dùng cho công trình thực vẫn cần kiểm chứng riêng. Nếu kết quả LOCO thấp hơn LORO, điều đó cho thấy bằng chứng có phạm vi hiệu lực hẹp hơn, không phải thất bại của phép đánh giá."
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "TV4-D1D2",
+  "truoc": "Nguồn gốc dữ liệu (provenance) trả lời các câu hỏi cụ thể: dữ liệu đến từ cảm biến nào, lần chạy nào, được xử lý bằng chuỗi nào và kết quả được tạo dưới giao thức nào.",
+  "sau": "Phạm vi hiệu lực vì vậy là thuộc tính bắt buộc của bằng chứng, có thể được kiểm tự động tại thời điểm bằng chứng được sử dụng, chứ không phải một ghi chú trong văn bản. Nguồn gốc dữ liệu (provenance) trả lời các câu hỏi cụ thể: dữ liệu đến từ cảm biến nào, đợt và lần chạy nào, được xử lý bằng phiên bản chuỗi xử lý nào, dùng mô hình và cấu hình nào, được đánh giá dưới giao thức nào, và được tạo vào thời điểm nào."
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "TV2-B2",
+  "truoc": "Mục tiêu thứ hai là đánh giá khả năng nhận biết trạng thái liên kết của các mô hình AI theo đơn vị độc lập, tức là trên dữ liệu chưa tham gia huấn luyện.",
+  "sau": "Mục tiêu thứ hai là đánh giá khả năng phân biệt các trạng thái liên kết có kiểm soát của các mô hình AI theo đơn vị độc lập, tức là trên dữ liệu chưa tham gia huấn luyện."
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "TV2-B1",
+  "truoc": "| Đối tượng thu nhỏ | Khung thép mô phỏng khung một nhà xưởng ở tỉnh Khánh Hòa theo tỉ lệ hình học 1:10;",
+  "sau": "| Đối tượng thu nhỏ | Khung thép được thiết kế theo khung một nhà xưởng ở tỉnh Khánh Hòa với tỉ lệ hình học 1:10, để tạo trạng thái liên kết có kiểm soát; không dùng để suy ra ứng xử định lượng của nhà xưởng;"
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "TV2-B2",
+  "truoc": "Nhãn trạng thái chỉ vị trí can thiệp, không phải thang mức độ hư hỏng | Đã thực hiện |",
+  "sau": "Nhãn trạng thái chỉ vị trí can thiệp đã biết, không phải mức độ hư hỏng hay mức lực siết. Vì lực siết không được đo, thí nghiệm kiểm khả năng phân biệt trạng thái can thiệp, không định lượng mức nới lỏng | Đã thực hiện |"
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "TV2-B5",
+  "truoc": "Thí nghiệm nhằm đo mức chênh lệch giữa các cách đánh giá, không nhằm tìm mô hình tốt nhất; một kết luận về mức chênh lệch đáng tin hơn khi nó lặp lại trên nhiều loại mô hình.",
+  "sau": "Thí nghiệm không nhằm tìm mô hình AI tốt nhất. Mục đích là kiểm tra kết luận về giao thức đánh giá có phụ thuộc mạnh vào họ mô hình hay không; một kết luận về mức chênh lệch đáng tin hơn khi nó lặp lại trên nhiều loại mô hình."
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "TV2-B6",
+  "truoc": "Cách so sánh các thiết kế đánh giá kế thừa từ",
+  "sau": "Bảy điều kiện để đóng Gate 1 được nêu ở Mục 5.5; tại thời điểm viết tiểu luận, chưa đủ bằng chứng để coi các điều kiện đó đã được đáp ứng, nên tiểu luận không nêu kết quả. Cách so sánh các thiết kế đánh giá kế thừa từ"
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "TV5-ref",
+  "truoc": "chúng không là căn cứ cho quyết định tại nhà xưởng (Mục 4.6.2).",
+  "sau": "chúng không là căn cứ cho quyết định tại nhà xưởng (Mục 4.6.3)."
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "TV5-F",
+  "truoc": "## 3.5. Quan trắc hiện trường cho Mục tiêu 3",
+  "sau": "## 3.5. Chiến lược tạo bằng chứng hiện trường cho Mục tiêu 3"
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "TV1-A2",
+  "truoc": "Mục tiêu 3 kiểm chứng khả thi của chuỗi bằng chứng – hành động trên nhà xưởng",
+  "sau": "Mục tiêu 3 kiểm chứng khả năng duy trì chuỗi bằng chứng – hành động trên nhà xưởng"
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "TV5-ref",
+  "truoc": "Vì nhãn hư hỏng ở hiện trường hiếm (Mục 1.2.4)",
+  "sau": "Vì nhãn hư hỏng ở hiện trường hiếm (Mục 1.2.2)"
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "TV5-ref",
+  "truoc": "cho tới khi được rà soát (Mục 4.6.1).",
+  "sau": "cho tới khi được rà soát (Mục 4.6.2)."
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "TV1-A2",
+  "truoc": "Mục tiêu cần đạt là đánh giá khả năng vận hành của chuỗi trong điều kiện thật qua bốn số đo:",
+  "sau": "Mục tiêu cần đạt là đánh giá khả năng duy trì chuỗi trong điều kiện thật qua bốn số đo, không đánh giá hiệu năng phát hiện hư hỏng:"
+ },
+ {
+  "tep": "02_chuong2.md",
+  "ma": "TV5-F",
+  "truoc": "BIM và IFC là nền cho định danh cấu kiện nhưng không tự tạo ra chuỗi truy vết;",
+  "sau": "BIM và IFC tạo nền định danh và khả năng liên thông thông tin nhưng chưa tự tạo ra truy vết từ bằng chứng tới hành động;"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "TV4-D4",
+  "truoc": "người quản lý có truy ngược được căn cứ và người chịu trách nhiệm của từng quyết định kiểm tra – bảo trì hay không, và lớp dữ liệu đề xuất khác B0 và B1 ở điểm nào? Câu hỏi được đo bằng khả năng truy ngược, tỉ lệ phát hiện lỗi chèn mù theo từng nhóm lỗi, mức đủ thuộc tính và công sức ghi nhận.",
+  "sau": "người quản lý có xác định được bằng chứng nào đã được dùng, bằng chứng đó có còn phù hợp tại thời điểm dùng không, và ai chịu trách nhiệm cho từng quyết định kiểm tra – bảo trì hay không; lớp dữ liệu đề xuất khác B0 và B1 ở điểm nào? Câu hỏi được đo bằng câu hỏi năng lực trả lời đúng và đủ, tỉ lệ phát hiện lỗi chèn mù theo từng nhóm lỗi, mức đủ thuộc tính và công sức ghi nhận."
+ },
+ {
+  "tep": "00_thuatngu.md",
+  "ma": "TV3-C6",
+  "truoc": "| Mã chủ thể | actor reference | Mã người hoặc tổ chức thực hiện một bước, ghi cùng vai trò tại thời điểm thực hiện (Mục 4.6.1, Phụ lục A) |",
+  "sau": "| Mã chủ thể | actor reference | Mã người hoặc tổ chức thực hiện một bước, ghi cùng vai trò tại thời điểm thực hiện (Mục 4.6.2, Phụ lục A) |\n| Câu hỏi năng lực | competency question | Câu hỏi mà mô hình truy vết phải trả lời đúng và đủ theo đáp án chuẩn lập trước (Mục 4.4, 4.6.2) |"
+ },
+ {
+  "tep": "00_thuatngu.md",
+  "ma": "TV5-ref",
+  "truoc": "công sức ghi nhận (Mục 4.6.2) |",
+  "sau": "công sức ghi nhận (Mục 4.6.3) |"
+ },
+ {
+  "tep": "phuluc.md",
+  "ma": "TV5-ref",
+  "truoc": "việc giữ khóa và liên kết khi xuất – nhập được kiểm như nêu ở Mục 4.6.1.",
+  "sau": "việc giữ khóa và liên kết khi xuất – nhập được kiểm như nêu ở Mục 4.6.4."
+ },
+ {
+  "tep": "phuluc.md",
+  "ma": "TV5-ref",
+  "truoc": "với đủ khả năng của IFC 4.3 và BCF 3.0 (Mục 4.6.2)",
+  "sau": "với đủ khả năng của IFC 4.3 và BCF 3.0 (Mục 4.6.3)"
+ },
+ {
+  "tep": "00_dannhap.md",
+  "ma": "TV1-A1",
+  "truoc": "Chuyển đổi số mang lại cho bài toán này nhiều công cụ đã có nền nghiên cứu riêng. Dữ liệu dao động và học máy giúp nhận biết thay đổi trạng thái kết cấu \\[13\\]. Lược đồ IFC biểu diễn được hệ theo dõi trạng thái và quan hệ cảm biến – cấu kiện \\[2\\]. Song sinh số được đề xuất như kiến trúc nối dữ liệu vận hành với mô hình số của tài sản \\[3\\], \\[7\\]. Tuy vậy, một kết quả rút từ dữ liệu dao động chỉ trở thành căn cứ quản lý rà soát được khi người dùng biết nó được tạo ra thế nào, đã được đánh giá trong điều kiện nào và được phép dùng tới đâu. Kết quả đó cũng phải truy ngược được qua hồ sơ kiểm tra tới quyết định xử lý và người chịu trách nhiệm. Câu hỏi quản lý trung tâm vì vậy là: tại thời điểm quyết định, bằng chứng nào còn phù hợp làm căn cứ, ai đã sử dụng và vì sao? Theo đánh giá của phần tổng quan nghiên cứu này, khó khăn hiện nay nằm ở các điểm nối giữa những thành phần đã có, nhiều hơn ở từng thành phần riêng lẻ.\n\nTiểu luận tổng quan này nhằm hệ thống hóa cơ sở lý luận và bằng chứng nghiên cứu về chuỗi thông tin từ dữ liệu dao động tới bằng chứng trạng thái, cấu kiện trong mô hình thông tin, hồ sơ kiểm tra và trạng thái hành động kiểm tra – bảo trì. Trên cơ sở đó, tiểu luận xác định các khoảng trống còn lại và đề xuất định hướng nghiên cứu cho luận án. Khách thể nghiên cứu là nhà công nghiệp khung thép liên kết bu lông trong giai đoạn vận hành. Song sinh số dựa trên dữ liệu là mục tiêu kiến trúc của luận án; mức năng lực mà hệ thống đạt được được đánh giá theo phân loại của Kritzinger và cộng sự \\[8\\].\n\nTiểu luận sử dụng tổng quan tài liệu theo chủ đề có cấu trúc, trong đó 29 tài liệu key được đọc toàn văn (Mục 1.5.2). Khoảng trống được xác lập bằng phép trừ tiền lệ, tức là chỉ giữ phần còn lại sau khi đối chiếu với các nghiên cứu và chuẩn gần nhất (Mục 1.5). Kết quả là ba khoảng trống. Khoảng trống thứ nhất (KT1) liên quan tới bằng chứng trạng thái có phạm vi hiệu lực từ dữ liệu dao động. Khoảng trống thứ hai (KT2) liên quan tới đường đi từ bằng chứng đến hành động có trách nhiệm. Khoảng trống thứ ba (KT3) liên quan tới việc duy trì chuỗi đó trong vận hành của nhà công nghiệp khung thép đang khai thác. Tương ứng, luận án đặt ba mục tiêu nối tiếp nhau: Mục tiêu 1 xác định điều kiện tạo và đánh giá bằng chứng trong phòng thí nghiệm; Mục tiêu 2 bảo toàn và kiểm các điều kiện đó khi bằng chứng được sử dụng, bằng một lớp dữ liệu truy vết liên thông với IFC và BCF; Mục tiêu 3 kiểm khả năng duy trì chuỗi trên một nhà xưởng đang khai thác.\n\n",
+  "sau": "(viết lại ba đoạn giữa của Dẫn nhập)"
+ }
+]

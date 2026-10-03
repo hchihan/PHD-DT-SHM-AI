@@ -511,3 +511,70 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 ## Phiên 02/10/2026 – HT5 Pha 4: chốt bản v2 (lưu làm mốc trước khi rút gọn)
 - Khai báo AI tạo sinh (`tieuluan/00_khaibao_AI.md`), bìa tháng 10/2026, vẽ lại bốn hình (`figures/ve_hinh.py`), script xuất bản đánh số IEEE (`xuat_ban/build.py`, 114 tài liệu), bản giải trình G1–G7, danh sách chuyển sang luận án. Biên bản: `revision/HT5_pha4_20261002.md`.
 - NCS yêu cầu tiếp: rút gọn toàn văn còn 60–80 trang, khoảng 80 trích dẫn có trong Zotero, trích dẫn liên kết Zotero, một tệp docx.
+
+## Phiên 03/10/2026 – HT8 đồng bộ tiểu luận với bản slide bảo vệ (chờ NCS duyệt)
+- NCS quyết định: giữ số liệu và giao thức MT1 trong tiểu luận; giữ ký hiệu KT/MT/RQ/B0/B1/M1–M4/C1–C9; giữ trích dẫn IEEE; bỏ câu nhận định tỷ trọng nhà khung thép bu lông ở 1.2.1.
+- 01_chuong1.md: 1.1.2 song sinh số là mục tiêu kiến trúc, mức đạt được là bóng số kèm vòng phản hồi thông tin; 1.2.1 vai trò kinh tế, hậu quả dừng sản xuất ([22] Hemker), thừa nhận ít nghiên cứu cho nhà công nghiệp; 1.2.2 bỏ "ven biển"; 1.3 thêm đoạn ý nghĩa của bằng chứng trạng thái với nhà xưởng; 1.5.2 thêm số liệu sàng lọc (25 từ khóa, 14 truy vấn, 45 ứng viên, nhận 22, 84 tài liệu; nguồn revision/bao_cao_GD1.md) và hai lý do không lập PRISMA.
+- 03_chuong3.md: 3.2 thêm Bảng 3.2 phương pháp quan trắc theo loại công trình và đoạn lý do nhà công nghiệp ít được quan trắc; ghi rõ nghiên cứu FHWA làm trên cầu đường bộ.
+- 05_chuong5.md: luận đề viết dạng cần kiểm chứng; MT3 "phương án dự kiến" ba cảm biến, 3–6 tháng không phải cấu hình tối ưu; kịch bản C3 giả định ghi tách hồ sơ thật; Bảng 5.4 bỏ "giảm báo động giả"; đóng góp chỉ khẳng định khi kiểm chứng ủng hộ; "số ít cảm biến"; 5.9 thêm câu định vị song sinh số.
+- Xuất `xuat_ban/HO_CHI_HAN_TIEU_LUAN_TONG_QUAN_20261003_r3.docx` (65 trang, 84 tài liệu); ba thẻ [CẦN KIỂM] ở 1.1.3 gỡ khỏi docx, còn giữ trong Markdown.
+
+## Phiên 03/10/2026 – HT9 tái cấu trúc bản r4 (chờ NCS duyệt)
+- NCS quyết định: Chương 3 tổng quan trước, áp dụng sau; phần hiện trường của MT3 đặt ở Chương 3; chỉ sửa tiểu luận, chưa sửa slide.
+- 1.5.2: bỏ chi tiết sàng lọc nội bộ (Consensus, Crossref, Zotero, 14 truy vấn, 45 ứng viên, 22 tài liệu), chỉ nêu công cụ tìm kiếm có hỗ trợ AI và kết quả cuối 84 tài liệu trích dẫn, 30 tài liệu key đọc sâu.
+- Song sinh số là mục tiêu kiến trúc ở Dẫn nhập, Thuật ngữ, 1.1.2, 2.4, 5.3, 5.7, 5.8; không còn câu khai báo bóng số.
+- Chương 3: 3.1 (gộp 3.1.1, 3.1.3 cũ), 3.2 đổi tên "Phương pháp quan trắc hiện nay và hạn chế với công trình công nghiệp", 3.3–3.4 giữ; thêm 3.5 Thí nghiệm 1:10 và công cụ AI (Mục tiêu 1: mục tiêu thí nghiệm, WAVER 9855, PASCO PS-3223, nhiều đợt thay đổi cách tháo lắp và dạng kích động; bốn mô hình AI chuyển từ 5.5.1, 5.5.4; giao thức đánh giá), 3.6 Quan trắc hiện trường (Mục tiêu 3, chuyển từ 5.5.3), 3.7 Tổng hợp.
+- Chương 4: thêm 4.6 Phương pháp truy vết cho Mục tiêu 2 (4.6.1 chuỗi định danh, mô hình dữ liệu, Hình 4.1, chuyển từ 5.6.1; 4.6.2 công cụ Revit, IFC 4.3/openBIM, IfcOpenShell, BCF 3.0, SQLite, Python, năm bước, B0/B1, M1–M4, mục tiêu cần đạt); 4.7 Tổng hợp.
+- Chương 5 rút gọn: 5.1 một đoạn + Bảng 5.1; 5.2 giữ; 5.3–5.4 gọn; 5.5 chỉ phương pháp khoa học (Bảng 5.3 mới, Hình 5.1, Bảng 5.4 bốn lớp); 5.6 đóng góp; 5.7 phạm vi; 5.8 định hướng. Đánh số lại tham chiếu chéo (Mục 5.8→5.7, 5.6.1→4.6.1).
+- Xuất `xuat_ban/HO_CHI_HAN_TIEU_LUAN_TONG_QUAN_20261003_r4.docx`: 62 trang, 84 tài liệu; thẻ [CẦN KIỂM] ở 1.1.3 gỡ khỏi docx, giữ trong Markdown. Bản sao Markdown r3: scratchpad bk_r3.
+
+## Phiên 03/10/2026 – HT10 bản r5 (chờ NCS duyệt)
+- Mục 3.2 cũ chuyển thành 1.2.4 "Phương pháp quan trắc hiện nay và hạn chế với nhà công nghiệp" (Bảng 3.2 → Bảng 1.1; bảng Chương 1 đánh số lại 1.1–1.4); Khách thể thành 1.2.5; Chương 3 đánh số lại 3.1–3.6 và mọi tham chiếu chéo.
+- 3.4.1: thiết bị kích động và cảm biến chỉ nêu là loại thương mại của hãng PASCO (bỏ tên WAVER 9855, mã PS-3223, số kênh, tần số lấy mẫu).
+- 3.4.2 viết lại "Các mô hình AI sử dụng và lý do lựa chọn": ba tiêu chí chọn; lý do từng mô hình (RF, SVM-RBF, 1D-CNN, ResNet1D) với nguồn đã có; câu hỏi về năng lực mô hình và mức chênh lệch để kiểm chứng ở chuyên đề sau.
+- 5.8 thêm đoạn định hướng mở rộng đối tượng sau luận án (nhà công nghiệp khác, kết cấu thép khác, tài sản khác trong khu công nghiệp).
+- Xuất `xuat_ban/HO_CHI_HAN_TIEU_LUAN_TONG_QUAN_20261003_r5.docx`: 64 trang, 84 tài liệu. Bản sao Markdown r4: scratchpad bk_r4.
+
+## Phiên 03/10/2026 – HT11 viết lại 1.2.3–1.2.5, bản r6 (chờ NCS duyệt)
+- 1.2.3: hai đoạn, kết bằng "yêu cầu kép" cho thông tin trạng thái và câu chuyển sang 1.2.4.
+- 1.2.4: mạch quốc tế trước, Việt Nam sau: tổng quan hai nhóm phương pháp + Bảng 1.1 → kiểm tra trực quan (FHWA, thiết bị bay) → cảm biến và chi phí → biến đổi vận hành – môi trường (thêm ví dụ đường cơ sở nhiệt độ trên cầu, cầu KW51) → khoảng cách phòng thí nghiệm – hiện trường → thực hành tại Việt Nam và pháp lý → đoạn tổng hợp bốn lý do nhà công nghiệp ít được quan trắc, thừa nhận còn ít nghiên cứu, yêu cầu cho luận án.
+- 1.2.5: mở bằng đoạn lựa chọn đối tượng tổng hợp từ 1.2.1–1.2.4; giữ khách thể, đối tượng, phạm vi; quan trắc hiện trường ghi "dự kiến" 3–6 tháng.
+- Trích dẫn không đổi (kiểm tự động: không thiếu, không thêm). Xuất `xuat_ban/HO_CHI_HAN_TIEU_LUAN_TONG_QUAN_20261003_r6.docx`: 65 trang, 84 tài liệu. Bản sao Markdown r5: scratchpad bk_r5.
+
+## Phiên 03/10/2026 – HT13 bản r7 theo nhận xét phản biện (chờ NCS duyệt)
+- Sáu ưu tiên của NCS: mạch nghiệp vụ RQ2 năm bước (bước đề nghị kiểm tra ghi là phần cần đặc tả); RQ2 lấy truy ngược căn cứ – người chịu trách nhiệm làm câu hỏi quản lý, B1 mô tả bằng khả năng sẵn có của IFC 4.3/BCF 3.0; bằng chứng 1:10 chỉ là ca kiểm thử quy tắc; 3.4.3 viết điều kiện LOCO và chọn siêu tham số là điều kiện khóa trước Gate 1 (đối chiếu báo cáo IT-01–IT-06 và Paper 1 v9); vị trí cảm biến ≠ vị trí hư hỏng, không chuyển bộ phân loại 1:10, tách dữ liệu thật với kịch bản giả định; KT3 viết lại, "lớp dữ liệu truy vết liên thông với IFC/BCF", A.1 phân loại 5 thực thể – 2 quan hệ – 1 bản ghi sự kiện, 12/18/29 tài liệu, bối cảnh ven biển. Bảng 5.2 thêm WP và Gate.
+- 48 lệnh sửa trên 8 tệp (`revision/HT13_r7_edits.json`); bàn giao và ba điểm cần xác nhận: `revision/HT13_ban_giao_r7_20261003.md`.
+- Xuất `xuat_ban/HO_CHI_HAN_TIEU_LUAN_TONG_QUAN_20261003_r7.docx`: 84 tài liệu, danh mục trùng r6; thẻ [CẦN KIỂM] ở 1.1.3 gỡ khỏi docx, giữ trong Markdown. Chưa sửa PPTX. Bản sao Markdown r6: scratchpad bk_r6_tieuluan.
+
+## Phiên 03/10/2026 – HT14 bản r8 (chờ NCS duyệt)
+- 13 lệnh sửa trên 4 tệp (`revision/HT14_r8_edits.json`) và chỉnh tỉ lệ cột Bảng 5.2, A.1, B.2.
+- 1.1.3: Nghị định 207/2026 chỉ giữ tên, ngày ban hành, hiệu lực và phạm vi điều chỉnh (đã kiểm); bỏ "thay thế NĐ 06/2021", Điều 34, Điều 37 vì chưa đối chiếu được văn bản gốc (thuvienphapluat trả 403); bỏ hai câu "quan trắc chỉ là yêu cầu theo từng trường hợp" ở 1.2.4, tổng hợp còn ba nhóm lý do; 1.4 sửa câu dẫn pháp lý. Nguồn thứ cấp (luatvietnam.vn) cho thấy danh mục công trình phải quan trắc nằm ở Thông tư 32/2026/TT-BXD, chưa có trong Zotero.
+- 1.2.5, 5.7: bỏ câu suy bối cảnh ven biển từ tên tỉnh; điều kiện môi trường của từng nhà xưởng ghi khi khảo sát.
+- 3.4.3: giao thức Gate 1 viết ngắn ở thì dự kiến (độc lập dữ liệu kiểm tra, chọn mô hình trên huấn luyện/xác thực, điều kiện so sánh đợt khóa trước).
+- 4.6.1, 5.4: RQ2 nối đề nghị kiểm tra → bản ghi kiểm tra → quyết định → xác minh; bước đề nghị kiểm tra là phần mô hình sẽ đặc tả.
+- Xuất `xuat_ban/HO_CHI_HAN_TIEU_LUAN_TONG_QUAN_20261003_r8.docx`: 66 trang, 84 tài liệu (trùng r7), mục lục và danh mục bảng/hình đã cập nhật trong Word, tham chiếu chéo kiểm tự động không lỗi. Chưa sửa PPTX.
+
+## Phiên 03/10/2026 – HT15 bản r9 theo góp ý hội đồng (chờ NCS duyệt)
+- Tái cấu trúc: gộp 1.1.2 vào 2.3, 3.1.1+3.1.2 thành 3.1, 3.2.3 vào 3.2.2; rút lặp ở 1.2.1, 2.4, 3.6, 5.5, 5.7; thêm Bảng 3.2 thiết kế thí nghiệm.
+- Lập luận: luận đề "truy xuất, rà soát, giải trình" (độ tin cậy kỹ thuật đánh giá riêng); phạm vi hiệu lực = điều kiện đã đánh giá và giới hạn sử dụng; câu hỏi trung tâm theo thời điểm quyết định; mạch RQ1–RQ3; đóng góp phát biểu bằng nguyên tắc; B0 giới hạn ở công trình nghiên cứu; KT3 = duy trì chuỗi; mã chủ thể, mốc can thiệp, lý do ngoại lệ, M3 đúng – đủ trước, M2 có ca hợp lệ; 5.2.1 sửa phát biểu về SSN/PROV.
+- Nguồn: thêm Zotero `P3ZIHF8G` (BCF-API 3.0), `K5SGFIGW` thành BCF-XML; chuẩn hóa metadata 11 mục; `matrix/doi_chieu_danh_muc.csv` thêm dòng P3ZIHF8G.
+- 99 lệnh sửa (`revision/HT15_r9_edits.json` + lượt bỏ lặp). Xuất `xuat_ban/HO_CHI_HAN_TIEU_LUAN_TONG_QUAN_20261003_r9.docx`: 69 trang, 85 tài liệu, mục lục cập nhật trong Word. Bàn giao: `revision/HT15_ban_giao_r9_20261003.md`.
+
+## Phiên 03/10/2026 – HT16 bản r10 theo prompt tổng hợp của Thư ký Hội đồng (chờ NCS duyệt)
+- Chương 1: 1.2 gộp thành hai cụm (đặc điểm vận hành và bài toán kiểm tra; hạn chế của quan trắc và quản lý thông tin); khách thể – phạm vi chuyển vào 1.5.1; 1.4 phát biểu một vấn đề trung tâm, ba mặt nối tiếp.
+- Chương 3: ba loại đơn vị (chấm điểm, chia dữ liệu, độc lập vật lý); cách đọc LORO/LOCO; nguồn gốc và phạm vi hiệu lực là thuộc tính kiểm được; Bảng 3.2 nêu rõ vai trò mô hình 1:10 và lực siết không đo; mục đích bốn mô hình AI; 3.5 đổi tên.
+- Chương 4: sắp lại 4.1–4.6 theo trình tự yêu cầu thông tin → định danh → thời gian → ràng buộc, câu hỏi năng lực → hỗ trợ hành động → phương pháp (4.6.1 thực thể – quan hệ, 4.6.2 quy tắc – câu hỏi năng lực, 4.6.3 thiết kế kiểm chứng, 4.6.4 ánh xạ và công cụ).
+- Chương 5: khoảng trống theo nghiên cứu gần nhất → đã giải quyết → giới hạn → phần còn lại; Bảng 5.2 bảy cột (thêm WP4/Gate 5) là nguồn duy nhất; 5.5 thêm bảy điều kiện đóng Gate 1 và vai trò Gate 2–5; 5.6 ba tầng đóng góp; 5.7 gom giới hạn theo ba loại bằng chứng; 5.8 kiến trúc nghiên cứu và đoạn tóm lại.
+- Dẫn nhập viết lại quanh vấn đề trung tâm; thuật ngữ "câu hỏi năng lực" thống nhất; tách 13 câu dài.
+- Xuất `xuat_ban/HO_CHI_HAN_TIEU_LUAN_TONG_QUAN_20261003_r10_REVISED.docx` (70 trang, 85 tài liệu, mục lục cập nhật trong Word). Bàn giao: `revision/REVISION_LOG_R9_TO_R10.md`, `revision/UNRESOLVED_EVIDENCE_ITEMS.md`; script và nhật ký sửa: `revision/HT16_r10_scripts/`.
+
+## Phiên 03/10/2026 – HT17 bản r11 theo góp ý vòng 2 của Hội đồng (chờ NCS duyệt)
+- Giữ năm chương. Dẫn nhập thêm câu đóng góp chính (quản trị vòng đời bằng chứng); 5.2 gắn KT1–KT3 với hiệu lực – truy vết – khả thi hiện trường; luận đề 5.3 và RQ2 rút gọn; Gate 1 chỉ còn ở mức kiến trúc (bỏ bảy điều kiện, bỏ "đợt bổ sung"); B1 mô tả là baseline từ tiền lệ gần nhất; bước đề nghị kiểm tra để giai đoạn triển khai; Bảng 5.5 sửa câu tuyệt đối; 5.8 kết bằng ba nhận định.
+- Rà văn phong theo strict-writing-discipline: "theo đánh giá của phần tổng quan" 7 → 1; phủ định song hành trong văn xuôi giảm còn các phân định cần thiết; bỏ "thực sự", "trong bối cảnh", "Tóm lại".
+- Xuất `xuat_ban/HO_CHI_HAN_TIEU_LUAN_TONG_QUAN_20261003_r11_FINAL_REVIEW.docx` (69 trang, 85 tài liệu). Nhật ký: `revision/REVISION_LOG_R10_TO_R11.md`.
+
+## Phiên 03/10/2026 – HT18 final technical proofread (chờ NCS duyệt)
+- Đoạn nối thí nghiệm → truy vết cuối 3.4.3; Hình 4.2 ba kiểu quan hệ (figures/ve_hinh_4_2.py) ở 4.6.1; thuật ngữ: "(Digital Twin)" lần đầu, "bản ghi kiểm tra" vào bảng thuật ngữ, "Evidence Gate", sửa "bằng chứng tình trạng".
+- Đối chiếu Crossref 75 DOI: sửa năm in của 4 mục trên Zotero (4NQWJW3U, R4E6KWUP, F3ZIND76, 73MBWFVJ); trích dẫn ↔ danh mục 85/85, thứ tự IEEE đúng.
+- build.py dùng `markdown-smart` để giữ ngoặc kép thẳng trong thân bài.
+- Xuất `xuat_ban/HO_CHI_HAN_TIEU_LUAN_TONG_QUAN_FINAL_PROOFREAD.docx` (69 trang); báo cáo `revision/FINAL_TECHNICAL_PROOFREAD_REPORT.md` (READY TO SUBMIT AFTER MANUAL CHECK).

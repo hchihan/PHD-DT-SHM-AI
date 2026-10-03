@@ -1,0 +1,272 @@
+[
+ {
+  "tep": "00_dannhap.md",
+  "ma": "U6-docsau",
+  "truoc": "với 30 tài liệu key được đọc sâu.",
+  "sau": "với 30 tài liệu key, gồm 12 tài liệu đọc sâu và 18 tài liệu đọc có trọng tâm."
+ },
+ {
+  "tep": "00_dannhap.md",
+  "ma": "U6-lopdulieu",
+  "truoc": "xây dựng mô hình thông tin truy vết bằng chứng – hành động,",
+  "sau": "xây dựng lớp dữ liệu truy vết bằng chứng – hành động liên thông với IFC và BCF,"
+ },
+ {
+  "tep": "00_khaibao_AI.md",
+  "ma": "U6-docsau",
+  "truoc": "Trong 30 tài liệu key, 29 tài liệu được đọc toàn văn.",
+  "sau": "Trong 30 tài liệu key (12 tài liệu đọc sâu, 18 tài liệu đọc có trọng tâm), 29 tài liệu được tiếp cận và đối chiếu ở mức toàn văn; tài liệu còn lại bị loại ở bước đọc."
+ },
+ {
+  "tep": "00_thuatngu.md",
+  "ma": "U2-B1",
+  "truoc": "| B0, B1 | – | Đối chứng: hồ sơ kiểm định hiện hành; mô hình IFC 4.3 theo Bellon và cộng sự cùng BCF 3.0 |",
+  "sau": "| B0, B1 | – | Đối chứng: hồ sơ kiểm định hiện hành; IFC 4.3 theo cách dùng của Bellon và cộng sự cùng BCF 3.0, dựng với đủ các khả năng sẵn có của hai chuẩn |"
+ },
+ {
+  "tep": "00_thuatngu.md",
+  "ma": "U-gate",
+  "truoc": "| MT, RQ, WP | – | Mục tiêu, câu hỏi nghiên cứu, gói công việc của luận án |",
+  "sau": "| MT, RQ, WP, Gate | evidence gate | Mục tiêu, câu hỏi nghiên cứu, gói công việc và cổng kiểm chứng của luận án; cổng kiểm chứng là điểm duyệt bằng chứng trước khi kết quả được dùng cho bước sau |"
+ },
+ {
+  "tep": "01_chuong1.md",
+  "ma": "U5-khongchuyen",
+  "truoc": "Phần chuyển được từ phòng thí nghiệm sang hiện trường vì vậy là nguyên tắc tổ chức bằng chứng và giao thức đánh giá; bộ phân loại và ngưỡng chỉ được dùng ở hiện trường sau khi kiểm tra phạm vi hiệu lực.",
+  "sau": "Phần chuyển được từ phòng thí nghiệm sang hiện trường vì vậy là nguyên tắc tổ chức bằng chứng và giao thức đánh giá. Luận án không dùng bộ phân loại và ngưỡng học trên mô hình 1:10 ở nhà xưởng; ở hiện trường, bằng chứng được tạo bằng phát hiện bất thường so với đường cơ sở vận hành của chính công trình (Mục 3.5)."
+ },
+ {
+  "tep": "01_chuong1.md",
+  "ma": "U6-venbien",
+  "truoc": "là nơi triển khai và kiểm chứng khả thi (Mục tiêu 3). ",
+  "sau": "là nơi triển khai và kiểm chứng khả thi (Mục tiêu 3). Hai nhà xưởng thuộc địa bàn các tỉnh ven biển Nam Trung Bộ. Môi trường ven biển làm tăng nguy cơ ăn mòn liên kết (Mục 1.2.2) và được ghi như một phần bối cảnh vận hành của công trình; luận án không đo tốc độ ăn mòn hay tác động của ăn mòn lên trạng thái liên kết. "
+ },
+ {
+  "tep": "01_chuong1.md",
+  "ma": "U5-vitri",
+  "truoc": "Thành phần thứ ba là phạm vi hiệu lực (validity scope): nhận định đúng cho cột C3 trong các chế độ vận hành đã có mặt ở dữ liệu tham chiếu.",
+  "sau": "Thành phần thứ ba là phạm vi hiệu lực (validity scope): nhận định đúng cho khu vực cột C3 mà cảm biến giám sát, trong các chế độ vận hành đã có mặt ở dữ liệu tham chiếu. Nhận định chỉ ra khu vực cần xem xét, không xác định vị trí hư hỏng."
+ },
+ {
+  "tep": "01_chuong1.md",
+  "ma": "U1-U5-kichban",
+  "truoc": "Hệ thống ghi nhận dao động của cột trục C3 lệch khỏi đường cơ sở vận hành và tạo một bằng chứng trạng thái gắn với cột C3. Kỹ sư A kiểm tra tại hiện trường, xác nhận một bu lông bị lỏng và ghi kết quả thành bản ghi kiểm tra liên kết với bằng chứng đã làm phát sinh kiểm tra. Trưởng phòng B, người có thẩm quyền, phê duyệt việc siết lại; bu lông được siết và hành động được đóng.",
+  "sau": "Hệ thống ghi nhận dao động đo tại cột trục C3 lệch khỏi đường cơ sở vận hành và tạo một bằng chứng trạng thái gắn với khu vực cột C3 mà cảm biến giám sát. Dựa trên bằng chứng này, người quản lý đề nghị kiểm tra khu vực đó. Kỹ sư A kiểm tra tại hiện trường, xác định một bu lông bị lỏng ở một liên kết cụ thể và ghi kết quả thành bản ghi kiểm tra liên kết với bằng chứng đã làm phát sinh kiểm tra. Trưởng phòng B, người có thẩm quyền, phê duyệt việc siết lại; bu lông được siết, kỹ sư kiểm tra lại sau sửa chữa và hành động được đóng."
+ },
+ {
+  "tep": "01_chuong1.md",
+  "ma": "U5-vitri",
+  "truoc": "Câu hỏi thứ nhất cần liên kết giữa bằng chứng và cấu kiện. Câu hỏi thứ hai",
+  "sau": "Câu hỏi thứ nhất cần liên kết giữa bằng chứng và khu vực cấu kiện mà nguồn đo giám sát; vị trí hư hỏng được trả lời bằng bản ghi kiểm tra. Câu hỏi thứ hai"
+ },
+ {
+  "tep": "01_chuong1.md",
+  "ma": "C6-cauhoi",
+  "truoc": "các sự kiện chuyển trạng thái của hành động và thẩm quyền của người thực hiện.",
+  "sau": "các sự kiện chuyển trạng thái của hành động và thẩm quyền của người thực hiện. Ba câu hỏi là khung do luận án đề xuất và sẽ được xác nhận qua phỏng vấn người quản lý trước khi khóa bộ câu hỏi truy ngược (Mục 4.6.2)."
+ },
+ {
+  "tep": "01_chuong1.md",
+  "ma": "U6-docsau",
+  "truoc": "trong đó 30 tài liệu key được đọc sâu (12 tài liệu đọc toàn văn và 18 tài liệu đọc có trọng tâm). Mỗi tài liệu key có một ghi chú đọc sâu",
+  "sau": "trong đó có 30 tài liệu key, gồm 12 tài liệu đọc sâu và 18 tài liệu đọc có trọng tâm vào phương pháp, dữ liệu và giới hạn. Trong 30 tài liệu key, 29 tài liệu được tiếp cận toàn văn; một tài liệu bị loại ở bước đọc. Mỗi tài liệu key có một ghi chú đọc"
+ },
+ {
+  "tep": "01_chuong1.md",
+  "ma": "U6-docsau",
+  "truoc": "4 (một tài liệu bỏ ở bước đọc sâu)",
+  "sau": "4 (một tài liệu bị loại ở bước đọc)"
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "U5-khongchuyen",
+  "truoc": "mức tương đồng vật lý được ghi nhận như một giới hạn của kết quả.",
+  "sau": "mức tương đồng vật lý được ghi nhận như một giới hạn của kết quả, và bộ phân loại cùng ngưỡng học trên mô hình 1:10 không được dùng ở nhà xưởng."
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "U4-LOCO",
+  "truoc": "Các đợt bổ sung có thể được tổ chức trong quá trình luận án mà không làm đổi thiết kế đánh giá.",
+  "sau": "Các đợt bổ sung có thể được tổ chức trong quá trình luận án; một đợt chỉ được đưa vào phép giữ lại đợt chính khi thỏa điều kiện so sánh ở Mục 3.4.3."
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "U4-Gate1",
+  "truoc": "Bốn mô hình được đánh giá theo ba mức trên cùng dữ liệu: cùng lần chạy (mốc), giữ lại cả lần chạy (LORO) và giữ lại cả đợt (LOCO, luân phiên từng đợt) (Mục 3.2.2). Điểm được chấm theo bản ghi, là đơn vị vật lý của phép đo; mọi tham số tiền xử lý và siêu tham số được học bên trong vòng huấn luyện của từng lần chia \\[52\\], \\[@D28DT7CE\\]. Kết quả được báo cáo kèm biến thiên theo seed và fold, cùng kiểm định hoán vị bảo toàn cấu trúc nhóm \\[59\\]. Chỉ số phân loại cụ thể được khóa trước khi chạy.",
+  "sau": "Bốn mô hình được đánh giá theo ba mức: cùng lần chạy (mốc), giữ lại cả lần chạy (LORO) và giữ lại cả đợt (LOCO) (Mục 3.2.2). Điểm được chấm theo bản ghi, là đơn vị vật lý của phép đo. Để chênh lệch của LOCO được đọc là ảnh hưởng của việc đổi đợt, tức tháo – lắp lại và thời điểm đo, phép LOCO chính chỉ so các đợt có chung kênh cảm biến và cùng loại kích động; đợt không thỏa hai điều kiện này được báo riêng như một mức phạm vi khác, vì vị trí cảm biến tự nó đã làm đổi hiệu năng \\[15\\]. Mọi tham số tiền xử lý được học từ phần huấn luyện của từng lần chia \\[52\\]. Siêu tham số cần được chọn bên trong từng lần chia ngoài, không dùng dữ liệu của phần kiểm tra, vì chọn mô hình trên chính dữ liệu đánh giá làm kết quả lạc quan \\[@D28DT7CE\\]. Danh sách đợt vào phép LOCO chính, cách chọn siêu tham số và chỉ số phân loại là các điều kiện được khóa trước lần đánh giá cuối ở cổng kiểm chứng Gate 1. Kết quả được báo cáo kèm biến thiên theo seed và fold, cùng kiểm định hoán vị bảo toàn cấu trúc nhóm \\[59\\]."
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "U3-cathu",
+  "truoc": "Tập bằng chứng có phạm vi hiệu lực đã biết này là đầu vào cho đánh giá mô hình thông tin của Mục tiêu 2 (Mục 4.6).",
+  "sau": "Mục tiêu 2 dùng các bản ghi bằng chứng này làm ca kiểm thử quy tắc của lớp dữ liệu truy vết; chúng không là căn cứ cho quyết định tại nhà xưởng (Mục 4.6.2)."
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "U5-hosothat",
+  "truoc": "Kết quả kiểm tra của kỹ sư được ghi thành bản ghi kiểm tra có người thực hiện,",
+  "sau": "Khi trong thời gian quan trắc có đợt kiểm tra, kết quả kiểm tra của kỹ sư được ghi thành bản ghi kiểm tra có người thực hiện,"
+ },
+ {
+  "tep": "03_chuong3.md",
+  "ma": "U5-thatgiadinh",
+  "truoc": "Kịch bản giả định cột C3 (Mục 1.3) được chạy đầu cuối và ghi tách với bản ghi kiểm tra thật: bất thường, bằng chứng, kiểm tra, phê duyệt, hành động, xác minh sau sửa chữa và truy ngược. Mục tiêu cần đạt là đánh giá khả năng vận hành của chuỗi trong điều kiện thật qua bốn số đo: tỉ lệ dữ liệu về đủ, độ đúng của ánh xạ đối chiếu với thực địa, khả năng truy ngược kịch bản và chi phí ghi nhận.",
+  "sau": "Dữ liệu thật và kịch bản giả định được ghi tách nhau. Phần thật gồm tín hiệu, ánh xạ cảm biến – cấu kiện, đường cơ sở và bằng chứng sinh từ dữ liệu quan trắc. Bản ghi kiểm tra thật chỉ có khi trong thời gian quan trắc có đợt kiểm tra định kỳ hoặc kiểm tra do bất thường, nên phụ thuộc vào sự kiện tại hiện trường. Phần giả định là kịch bản cột C3 (Mục 1.3), chạy đầu cuối trên các bản ghi được đánh dấu giả định: bất thường, bằng chứng, đề nghị kiểm tra, kiểm tra, phê duyệt, hành động, xác minh sau sửa chữa và truy ngược. Mục tiêu cần đạt là đánh giá khả năng vận hành của chuỗi trong điều kiện thật qua bốn số đo: tỉ lệ dữ liệu về đủ và độ đúng của ánh xạ đối chiếu với thực địa, tính trên dữ liệu thật; khả năng truy ngược, tính trên kịch bản giả định; và chi phí ghi nhận."
+ },
+ {
+  "tep": "04_chuong4.md",
+  "ma": "U6-thucthe-U5",
+  "truoc": "Mô hình dữ liệu là một đồ thị gồm sáu thực thể: cấu kiện; cảm biến cùng ánh xạ cảm biến – cấu kiện có khoảng hiệu lực; bằng chứng; bản ghi kiểm tra; hành động; và sự kiện chuyển trạng thái (Phụ lục A). Quan hệ giữa bằng chứng và cấu kiện là nhiều – nhiều.",
+  "sau": "Mô hình dữ liệu là một đồ thị gồm năm thực thể (cấu kiện, cảm biến, bằng chứng, bản ghi kiểm tra, hành động), hai quan hệ có thuộc tính riêng (ánh xạ cảm biến – cấu kiện có khoảng hiệu lực; sử dụng bằng chứng) và một loại bản ghi sự kiện (sự kiện chuyển trạng thái) (Bảng A.1). Quan hệ giữa bằng chứng và cấu kiện là nhiều – nhiều và chỉ khu vực mà nguồn đo giám sát, tức nơi bằng chứng đề nghị xem xét; vị trí hư hỏng chỉ được ghi trong bản ghi kiểm tra."
+ },
+ {
+  "tep": "04_chuong4.md",
+  "ma": "U6-lopdulieu",
+  "truoc": "Mô hình được trình bày như phần mở rộng của mô hình IFC 4.3 của \\[35\\] và của BCF 3.0, không như một mô hình độc lập.",
+  "sau": "Mô hình là một lớp dữ liệu truy vết liên thông với IFC 4.3 theo cách dùng của \\[35\\] và với BCF 3.0: dữ liệu được lưu trong cơ sở dữ liệu riêng và được ánh xạ sang thực thể, quan hệ chuẩn khi xuất (Bảng A.3); luận án không thêm thực thể hay sửa lược đồ IFC."
+ },
+ {
+  "tep": "04_chuong4.md",
+  "ma": "U1-nghiepvu",
+  "truoc": "Việc cảm biến có thực sự được lắp ở cấu kiện đã khai báo được kiểm bằng hồ sơ lắp đặt và đối chiếu tại hiện trường (Mục 3.5).",
+  "sau": "Việc cảm biến có thực sự được lắp ở cấu kiện đã khai báo được kiểm bằng hồ sơ lắp đặt và đối chiếu tại hiện trường (Mục 3.5).\n\nVề nghiệp vụ, chuỗi đi qua năm bước do các chủ thể khác nhau thực hiện. Thứ nhất, một cảnh báo từ dữ liệu được ghi thành bằng chứng, và luật minh bạch tính từ bằng chứng một mức ưu tiên cho khu vực cấu kiện mà nguồn đo giám sát. Thứ hai, người quản lý kiểm tra – bảo trì xem bằng chứng, mức ưu tiên và phạm vi hiệu lực rồi quyết định có đề nghị kiểm tra khu vực đó hay không; đề nghị kiểm tra chưa phải kết luận về hư hỏng. Thứ ba, kỹ sư kiểm tra tại hiện trường và lập bản ghi kiểm tra; vị trí, nguyên nhân và mức độ hư hỏng, nếu có, chỉ được xác lập ở bước này. Thứ tư, người có thẩm quyền quyết định xử lý: hành động được tạo và việc thực hiện được phê duyệt. Thứ năm, sau khi thực hiện, kỹ sư kiểm tra lại; hành động chỉ chuyển sang Đã xác minh khi có bản ghi kiểm tra sau sửa chữa. Các bước thứ ba đến thứ năm đã có bản ghi tương ứng trong mô hình (Bảng A.1, A.2). Bước đề nghị kiểm tra chưa có loại bản ghi riêng; việc ghi bước này thành một loại hành động kiểm tra hay thành một bản ghi riêng, cùng vai trò và căn cứ bắt buộc, là phần cần đặc tả khi khóa mô hình của Mục tiêu 2."
+ },
+ {
+  "tep": "04_chuong4.md",
+  "ma": "U2-U3-buoc",
+  "truoc": "Việc thực hiện gồm năm bước. Bước thứ nhất chuẩn bị mô hình BIM và định danh cấu kiện. Bước thứ hai đặc tả mô hình dữ liệu như phần mở rộng IFC 4.3 và BCF 3.0 (Mục 4.6.1). Bước thứ ba hiện thực mô hình trên SQLite cùng công cụ kiểm ràng buộc, rồi nạp dữ liệu: hồ sơ kiểm định cũ của nhà xưởng được mã hóa tay, và tập bằng chứng có phạm vi hiệu lực đã biết từ Mục tiêu 1 (Mục 3.4.3). Bước thứ tư dựng hai đối chứng trên cùng BIM: đối chứng B0 là 20–30 hồ sơ kiểm định cũ theo thực hành hiện hành, và đối chứng B1 là mô hình chỉ dùng IFC 4.3 theo \\[35\\] cùng BCF 3.0, chưa có tầng bằng chứng và tầng trách nhiệm. Bước thứ năm cho một người không tham gia thiết kế chèn mù khoảng 30 lỗi vào cả ba phương án, rồi đo bốn chỉ số: M1 là mức đủ thuộc tính bắt buộc; M2 là tỉ lệ phát hiện lỗi chèn mù theo từng nhóm lỗi, là chỉ số chính; M3 là thời gian hoặc số bước để trả lời ba câu hỏi của người quản lý; M4 là số phút ghi nhận mỗi bản ghi. Quy tắc mã hóa B0, đặc tả B1, danh sách lỗi, bộ câu hỏi truy ngược và cách tính chỉ số được khóa và lưu có phiên bản trước lần đo đầu tiên; bộ câu hỏi được xác nhận với người quản lý kiểm tra – bảo trì phía chủ đầu tư.",
+  "sau": "Việc thực hiện gồm năm bước. Bước thứ nhất chuẩn bị mô hình BIM và định danh cấu kiện. Bước thứ hai đặc tả lớp dữ liệu truy vết và ánh xạ xuất sang IFC 4.3, BCF 3.0 (Mục 4.6.1). Bước thứ ba hiện thực lớp dữ liệu trên SQLite cùng công cụ kiểm ràng buộc, rồi nạp dữ liệu: hồ sơ kiểm định cũ của nhà xưởng được mã hóa tay, và các bản ghi bằng chứng của Mục tiêu 1 (Mục 3.4.3). Bằng chứng từ mô hình 1:10 khi đặt lên BIM nhà xưởng chỉ là ca kiểm thử quy tắc, không phải căn cứ hợp lệ cho quyết định tại nhà xưởng. Bộ ca thử vì vậy cần có cả ca trong phạm vi và ca ngoài phạm vi hiệu lực; cách tạo các ca này được chọn và khóa cùng danh sách lỗi.\n\nBước thứ tư dựng hai đối chứng trên cùng BIM. Đối chứng B0 là 20–30 hồ sơ kiểm định cũ theo thực hành hiện hành. Đối chứng B1 dùng đủ các khả năng mà hai chuẩn đã có, theo cách \\[35\\] áp dụng: chuỗi lần kiểm tra – hư hỏng – cấu kiện – nhiệm vụ bảo trì bằng thực thể chuẩn IFC 4.3, trạng thái hư hỏng theo quy ước `ACTIVE`, `OUTDATED`, `REPAIRED`, người kiểm tra và lịch sử sửa đổi qua `IfcOwnerHistory` \\[35\\] (tr. 8–10); gán cảm biến cho cấu kiện như \\[2\\]; lệnh bảo trì có trạng thái và phê duyệt của IFC4 \\[@63XPSMIR\\]; trạng thái và sự kiện đổi trạng thái của vấn đề theo BCF 3.0 \\[@K5SGFIGW\\]. Các ràng buộc chạy trên B1 ở dạng tương ứng với những trường B1 có. Phần luận án đề xuất và cần kiểm chứng gồm hai quy tắc: phạm vi hiệu lực là trường bắt buộc của bằng chứng và được kiểm tại lần dùng; mỗi bước chuyển trạng thái của hành động trỏ tới lần dùng bằng chứng làm căn cứ, kèm vai trò người thực hiện. Nhóm lỗi nào B1 phát hiện được bằng cơ chế sẵn có thì không được tính vào phần đóng góp.\n\nBước thứ năm đo bốn chỉ số trên cùng bộ ca. M3, thời gian hoặc số bước để trả lời ba câu hỏi của người quản lý, đo trực tiếp câu hỏi quản lý chính: truy ngược căn cứ và người chịu trách nhiệm của một quyết định. M2 là tỉ lệ phát hiện lỗi chèn mù theo từng nhóm lỗi, do một người không tham gia thiết kế chèn khoảng 30 lỗi vào cả ba phương án; đây là phép đo định lượng chính cho khả năng phát hiện khi chuỗi bị thiếu hoặc sai. M1 là mức đủ thuộc tính bắt buộc; M4 là số phút ghi nhận mỗi bản ghi. Quy tắc mã hóa B0, đặc tả B1, danh sách lỗi cùng các ca trong và ngoài phạm vi, bộ câu hỏi truy ngược và cách tính chỉ số được khóa và lưu có phiên bản trước lần đo đầu tiên; bộ câu hỏi sẽ được xác nhận qua phỏng vấn người quản lý kiểm tra – bảo trì phía chủ đầu tư trước khi khóa. Khi bộ ca chưa được khóa, tiểu luận không nêu kết quả dự kiến của M2."
+ },
+ {
+  "tep": "04_chuong4.md",
+  "ma": "U2-muctieu",
+  "truoc": "Mục tiêu cần đạt là một mô hình thông tin và bộ công cụ kiểm cho phép trả lời ba câu hỏi của người quản lý ở Mục 1.3, cùng kết quả so sánh khả năng phát hiện lỗi với B0 và B1.",
+  "sau": "Mục tiêu cần đạt là một lớp dữ liệu truy vết và bộ công cụ kiểm cho phép người quản lý trả lời ba câu hỏi ở Mục 1.3, trước hết là truy ngược căn cứ và người chịu trách nhiệm của từng quyết định, cùng kết quả so sánh với B0 và B1."
+ },
+ {
+  "tep": "04_chuong4.md",
+  "ma": "U6-lopdulieu",
+  "truoc": "Mục tiêu 2 nối chúng bằng một mô hình dữ liệu mở rộng IFC 4.3 và BCF 3.0, hiện thực bằng các công cụ openBIM và kiểm bằng lỗi chèn mù so với hai đối chứng (Mục 4.6).",
+  "sau": "Mục tiêu 2 nối chúng bằng một lớp dữ liệu truy vết liên thông với IFC 4.3 và BCF 3.0, hiện thực bằng các công cụ openBIM và kiểm bằng bộ câu hỏi truy ngược cùng lỗi chèn mù so với hai đối chứng (Mục 4.6)."
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "U6-KT3",
+  "truoc": "Trong các tài liệu đã rà soát, chưa có nghiên cứu triển khai và kiểm chứng một chuỗi gồm số ít cảm biến đặt ở vị trí đã khảo sát, đường cơ sở vận hành có ghi nhiệt độ và trạng thái cầu trục, bằng chứng có phạm vi hiệu lực và vòng lặp kiểm tra tạo nhãn gắn với hồ sơ kiểm tra – bảo trì, trên một nhà công nghiệp khung thép đang khai thác. Khoảng trống này",
+  "sau": "Trong các tài liệu đã rà soát, các hướng xử lý hiện trường nêu trên chưa được kiểm chứng trong điều kiện vận hành của nhà công nghiệp khung thép: rung do cầu trục và máy móc, nhiệt độ thay đổi theo chu kỳ, số cảm biến bị giới hạn bởi chi phí và khả năng tiếp cận, và nhãn hư hỏng gần như không có. Vì vậy chưa rõ một chuỗi bằng chứng – kiểm tra – hành động, khi được đưa từ phòng thí nghiệm và mô hình dữ liệu ra công trình, có vận hành được trong các điều kiện đó hay không: dữ liệu có về đủ, ánh xạ cảm biến – cấu kiện có giữ đúng qua thời gian và chi phí ghi nhận có chấp nhận được. Khoảng trống này"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "U2-MT2",
+  "truoc": "**Mục tiêu 2 (giải quyết KT2).** Xây dựng mô hình thông tin truy vết bằng chứng – hành động cho kiểm tra – bảo trì kết cấu thép, mở rộng mô hình IFC 4.3 của \\[35\\] và BCF 3.0 bằng tầng bằng chứng và tầng trách nhiệm; kiểm chứng khả năng phát hiện lỗi của mô hình so với hồ sơ kiểm định hiện hành (B0) và với mô hình chỉ dùng chuẩn sẵn có (B1), trên BIM của nhà xưởng ở Khánh Hòa.",
+  "sau": "**Mục tiêu 2 (giải quyết KT2).** Xây dựng lớp dữ liệu truy vết bằng chứng – hành động cho kiểm tra – bảo trì kết cấu thép, liên thông với IFC 4.3 theo cách dùng của \\[35\\] và với BCF 3.0 qua ánh xạ xuất, không sửa lược đồ chuẩn; kiểm chứng khả năng truy ngược căn cứ và người chịu trách nhiệm của quyết định kiểm tra – bảo trì so với hồ sơ kiểm định hiện hành (B0) và với IFC 4.3, BCF 3.0 dùng đủ khả năng sẵn có (B1), trên BIM của nhà xưởng ở Khánh Hòa."
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "U5-MT3",
+  "truoc": "với phương án dự kiến số ít cảm biến đặt ở các vị trí đã khảo sát trước, đường cơ sở vận hành và kịch bản kiểm tra – xử lý – truy ngược đầu cuối.",
+  "sau": "với phương án dự kiến số ít cảm biến đặt ở các vị trí đã khảo sát trước, đường cơ sở vận hành, và kịch bản kiểm tra – xử lý – truy ngược đầu cuối chạy trên các bản ghi được đánh dấu giả định, tách khỏi dữ liệu và hồ sơ thật."
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "U-bang52",
+  "truoc": "| Khoảng trống | Mục tiêu | Câu hỏi nghiên cứu | Môi trường | Kết quả cần đạt |\n|:--:|:--:|:--:|:---|:---|\n| KT1 | Mục tiêu 1 | RQ1 | Phòng thí nghiệm, khung thép 1:10 | Mức chênh lệch giữa ba mức đánh giá; bằng chứng có phạm vi hiệu lực và độ bất định cho từng kết quả |\n| KT2 | Mục tiêu 2 | RQ2 | Mô hình thông tin trên BIM nhà xưởng ở Khánh Hòa | Mô hình sáu thực thể, năm ràng buộc; tỉ lệ phát hiện lỗi so với B0, B1 |\n| KT3 | Mục tiêu 3 | RQ3 | Nhà xưởng đang khai thác ở Đắk Lắk | Chuỗi vận hành được; kịch bản đầu cuối truy ngược được; chi phí ghi nhận |",
+  "sau": "| Khoảng trống | Mục tiêu | Câu hỏi nghiên cứu | Gói công việc, cổng kiểm chứng | Môi trường | Kết quả cần đạt |\n|:--:|:--:|:--:|:--:|:---|:---|\n| KT1 | Mục tiêu 1 | RQ1 | WP1, Gate 1 | Phòng thí nghiệm, khung thép 1:10 | Mức chênh lệch giữa ba mức đánh giá; bằng chứng có phạm vi hiệu lực và độ bất định cho từng kết quả |\n| KT2 | Mục tiêu 2 | RQ2 | WP2, Gate 2–3 | Lớp dữ liệu truy vết trên BIM nhà xưởng ở Khánh Hòa | Truy ngược căn cứ và người chịu trách nhiệm; tỉ lệ phát hiện lỗi so với B0, B1 trên bộ ca đã khóa |\n| KT3 | Mục tiêu 3 | RQ3 | WP3, Gate 4–5 | Nhà xưởng đang khai thác ở Đắk Lắk | Dữ liệu thật về đủ, ánh xạ đúng; kịch bản giả định truy ngược được đầu cuối; chi phí ghi nhận |"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "U2-RQ2",
+  "truoc": "> RQ2: Trên cùng BIM của nhà xưởng ở Khánh Hòa, mô hình thông tin đề xuất phát hiện được tỉ lệ nào của các lỗi chèn mù theo từng nhóm lỗi, so với B0 và B1, và mức đủ thuộc tính, khả năng truy ngược, chi phí ghi nhận thay đổi ra sao?",
+  "sau": "> RQ2: Trên cùng BIM của nhà xưởng ở Khánh Hòa, khi bằng chứng có phạm vi hiệu lực được đưa vào chuỗi kiểm tra – hành động, người quản lý có truy ngược được căn cứ và người chịu trách nhiệm của từng quyết định kiểm tra – bảo trì hay không, và hai quy tắc của lớp dữ liệu đề xuất làm khả năng đó khác B0 và B1 ra sao, đo bằng khả năng truy ngược, tỉ lệ phát hiện lỗi chèn mù theo từng nhóm lỗi, mức đủ thuộc tính và chi phí ghi nhận?"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "U5-RQ3",
+  "truoc": "> RQ3: Trên nhà xưởng đang khai thác, chuỗi bằng chứng – hành động có thu đủ dữ liệu, giữ đúng ánh xạ cảm biến – cấu kiện và truy ngược được một kịch bản kiểm tra – xử lý đầu cuối không, với chi phí ghi nhận bao nhiêu?",
+  "sau": "> RQ3: Trên nhà xưởng đang khai thác, chuỗi bằng chứng – hành động có thu đủ dữ liệu thật, giữ đúng ánh xạ cảm biến – cấu kiện qua thời gian quan trắc, và truy ngược được đầu cuối một kịch bản kiểm tra – xử lý giả định được ghi tách khỏi dữ liệu thật hay không, với chi phí ghi nhận bao nhiêu?"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "U3-cathu",
+  "truoc": "RQ1 cấp cho RQ2 một tập bằng chứng có phạm vi hiệu lực đã biết;",
+  "sau": "RQ1 cấp cho RQ2 các bản ghi bằng chứng dùng làm ca kiểm thử quy tắc;"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "C8",
+  "truoc": "Nghiên cứu thiết kế, tức xây dựng một mô hình thông tin rồi đánh giá bằng so sánh với đối chứng, trả lời RQ2 (Mục 4.6).",
+  "sau": "Xây dựng một lớp dữ liệu truy vết rồi đánh giá bằng so sánh với hai đối chứng trả lời RQ2 (Mục 4.6)."
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "C8",
+  "truoc": "| RQ2 | Nghiên cứu thiết kế; đánh giá so sánh với hai đối chứng bằng lỗi chèn mù |",
+  "sau": "| RQ2 | Xây dựng lớp dữ liệu truy vết; so sánh với hai đối chứng bằng bộ câu hỏi truy ngược và lỗi chèn mù |"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "U2-U3-V2",
+  "truoc": "| Lớp 2 – Truy vết thông tin (V2) | 2 | Tỉ lệ phát hiện lỗi chèn mù so với B0 và B1; trả lời bộ câu hỏi truy ngược | Độ chính xác kỹ thuật của mô hình phân loại |",
+  "sau": "| Lớp 2 – Truy vết thông tin (V2) | 2 | Trả lời bộ câu hỏi truy ngược về căn cứ và người chịu trách nhiệm; tỉ lệ phát hiện lỗi chèn mù so với B0 và B1 trên bộ ca đã khóa | Độ chính xác kỹ thuật của mô hình phân loại; giá trị của bằng chứng 1:10 cho quyết định tại nhà xưởng |"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "U5-V3",
+  "truoc": "| Lớp 3 – Khả năng áp dụng trong bối cảnh thực tế (V3) | 3 | Dữ liệu về đủ, ánh xạ đúng, truy ngược được kịch bản đầu cuối, chi phí ghi nhận | Phát hiện hư hỏng thực |",
+  "sau": "| Lớp 3 – Khả năng áp dụng trong bối cảnh thực tế (V3) | 3 | Dữ liệu thật về đủ, ánh xạ đúng; truy ngược được kịch bản giả định đầu cuối; chi phí ghi nhận | Phát hiện hư hỏng thực; hiệu năng phát hiện bất thường |"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "U6-lopdulieu",
+  "truoc": "| Khoa học | Tầng bằng chứng và tầng trách nhiệm mở rộng IFC 4.3 và BCF 3.0 | KT2 | 2 | M2 ở nhóm lỗi đổi trạng thái không căn cứ, cùng M1, M3, M4, so với B1 |",
+  "sau": "| Khoa học | Lớp dữ liệu truy vết liên thông với IFC 4.3 và BCF 3.0, trong đó mỗi bước chuyển trạng thái trỏ tới lần dùng bằng chứng làm căn cứ | KT2 | 2 | M3 và M2 ở nhóm lỗi đổi trạng thái không căn cứ, cùng M1, M4, so với B1 |"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "U5-bang55",
+  "truoc": "| Thực tiễn | Quy trình triển khai chuỗi bằng chứng – hành động với số ít cảm biến trên nhà xưởng đang khai thác | KT3 | 3 | Dữ liệu về đủ, ánh xạ đúng, truy ngược kịch bản, chi phí ghi nhận |",
+  "sau": "| Thực tiễn | Quy trình triển khai chuỗi bằng chứng – hành động với số ít cảm biến trên nhà xưởng đang khai thác | KT3 | 3 | Dữ liệu thật về đủ, ánh xạ đúng; truy ngược kịch bản giả định; chi phí ghi nhận |"
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "U5-gioihan",
+  "truoc": "Với số ít cảm biến, Mục tiêu 3 kết luận về khả năng vận hành và truy vết của chuỗi tại các vị trí đã đo, không kết luận về toàn bộ kết cấu.",
+  "sau": "Vị trí cảm biến chỉ khu vực cần xem xét; vị trí hư hỏng do kiểm tra xác lập. Bộ phân loại và ngưỡng học trên mô hình 1:10 không được dùng ở nhà xưởng. Ở Mục tiêu 2, bằng chứng từ mô hình 1:10 chỉ là ca kiểm thử quy tắc, và kết quả M2 có giá trị cho bộ ca đã khóa trên một công trình. Với số ít cảm biến, Mục tiêu 3 kết luận về khả năng vận hành và truy vết của chuỗi tại các vị trí đã đo, không kết luận về toàn bộ kết cấu; phần truy ngược đầu cuối được kiểm trên kịch bản giả định, và bản ghi kiểm tra thật chỉ được đưa vào khi có đợt kiểm tra trong thời gian quan trắc. Mục tiêu 3 không đánh giá hiệu năng phát hiện của autoencoder hay hiệu quả của bước bù nhiệt độ – cầu trục. Môi trường ven biển là bối cảnh của hai nhà xưởng; tác động của ăn mòn không được đo."
+ },
+ {
+  "tep": "05_chuong5.md",
+  "ma": "U-gate",
+  "truoc": "Bước thứ hai đặc tả và kiểm chứng mô hình thông tin; bước này không chờ quan trắc dài hạn. Bước thứ ba lắp cảm biến, lập đường cơ sở vận hành và chạy kịch bản cột C3.",
+  "sau": "Bước thứ hai đặc tả và kiểm chứng lớp dữ liệu truy vết; bước này không chờ quan trắc dài hạn. Bước thứ ba lắp cảm biến, lập đường cơ sở vận hành và chạy kịch bản giả định cột C3 tách khỏi dữ liệu thật. Mỗi bước kết thúc ở cổng kiểm chứng tương ứng (Bảng 5.2) trước khi kết quả được dùng cho bước sau."
+ },
+ {
+  "tep": "phuluc.md",
+  "ma": "U6-thucthe",
+  "truoc": "Bảng A.1 liệt kê sáu thực thể của mô hình dữ liệu (Mục 4.6.1).",
+  "sau": "Bảng A.1 liệt kê các thành phần của mô hình dữ liệu (Mục 4.6.1), phân thành ba loại: thực thể (năm), quan hệ có thuộc tính riêng (hai) và bản ghi sự kiện (một)."
+ },
+ {
+  "tep": "phuluc.md",
+  "ma": "U6-U1-A1",
+  "truoc": "| Thực thể | Trường | Bắt buộc | Mô tả |\n|---|---|:--:|---|\n| `COMPONENT` (cấu kiện) | `BIM_GUID`, `model_version` | Có | Định danh cấu kiện (GlobalId) và phiên bản mô hình BIM |\n| `SENSOR` (cảm biến) | `Sensor_ID` | Có | Định danh nguồn đo |\n| `SENSOR_MAPPING` (ánh xạ cảm biến – cấu kiện) | `Sensor_ID`, `BIM_GUID`, `valid_from`, `valid_to`, `install_record_ref` | Có (`valid_to` rỗng khi còn hiệu lực) | Cảm biến nào gắn cấu kiện nào, trong khoảng thời gian nào, theo hồ sơ lắp đặt nào |\n| `EVIDENCE` (bằng chứng trạng thái) | `Condition_Evidence_ID`, `evidence_type`, `BIM_GUID` (một hoặc nhiều), `value`, `uncertainty`, `method_version`, `created_at` | Có | Loại (cảm biến, quan sát, NDT), giá trị, độ bất định, phiên bản phương pháp (git commit), thời điểm tạo |\n| | `scope.inference_unit`, `scope.data_split`, `scope.install_batch`, `scope.applicable_conditions` | Có | Phạm vi hiệu lực: đơn vị suy luận, cách chia dữ liệu, đợt lắp đặt, điều kiện áp dụng |\n| | `Sensor_ID`, `obs_context` | Có với loại cảm biến | Nguồn đo; bối cảnh quan trắc (khoảng thời gian đo, cấu hình cảm biến, nhiệt độ, trạng thái cầu trục) |\n| | `revision_of` | Không | Bản ghi cũ mà bản ghi này thay thế |\n| `INSPECTION_RECORD` (bản ghi kiểm tra) | `Inspection_Record_ID`, `BIM_GUID`, `inspector_role`, `inspected_at`, `finding`, `finding_uncertainty` | Có | Kết quả kiểm tra của kỹ sư, vai trò, thời điểm, độ bất định; là nhãn hiện trường |\n| `ACTION` (hành động) | `Action_ID`, `Inspection_Record_ID`, `priority_level` | Có | Hành động phát sinh từ bản ghi kiểm tra; mức ưu tiên bốn mức |\n| | `Action_Status` | Suy ra | Trạng thái xử lý, suy ra từ sự kiện chuyển trạng thái mới nhất |\n| `STATUS_EVENT` (sự kiện chuyển trạng thái) | `Status_Event_ID`, `Action_ID`, `from_to`, `timestamp`, `actor_role`, `reason` | Có | Một lần đổi trạng thái: trước và sau, thời điểm, vai trò, lý do |\n| | `evidence_ref` | Có với bước chuyển cần căn cứ | Bản ghi sử dụng bằng chứng đã dùng làm căn cứ |\n\nQuan hệ giữa bản ghi kiểm tra và bằng chứng là bản ghi sử dụng bằng chứng (`EVIDENCE_USE`), gồm `used_at`, `within_scope` (bằng chứng có nằm trong phạm vi hiệu lực tại thời điểm dùng hay không) và `justification` (lý do khi dùng ngoài phạm vi). Bảng A.2 nêu các bước chuyển trạng thái được phép; tên vai trò theo tổ chức của chủ đầu tư được điền khi khóa đặc tả của Mục tiêu 2.",
+  "sau": "| Thành phần | Loại | Trường | Bắt buộc | Mô tả |\n|---|---|---|:--:|---|\n| `COMPONENT` (cấu kiện) | Thực thể | `BIM_GUID`, `model_version` | Có | Định danh cấu kiện (GlobalId) và phiên bản mô hình BIM |\n| `SENSOR` (cảm biến) | Thực thể | `Sensor_ID` | Có | Định danh nguồn đo |\n| `SENSOR_MAPPING` (ánh xạ cảm biến – cấu kiện) | Quan hệ có thuộc tính | `Sensor_ID`, `BIM_GUID`, `valid_from`, `valid_to`, `install_record_ref` | Có (`valid_to` rỗng khi còn hiệu lực) | Cảm biến nào gắn cấu kiện nào, trong khoảng thời gian nào, theo hồ sơ lắp đặt nào |\n| `EVIDENCE` (bằng chứng trạng thái) | Thực thể | `Condition_Evidence_ID`, `evidence_type`, `BIM_GUID` (một hoặc nhiều), `value`, `uncertainty`, `method_version`, `created_at` | Có | Loại (cảm biến, quan sát, NDT), giá trị, độ bất định, phiên bản phương pháp (git commit), thời điểm tạo; `BIM_GUID` chỉ khu vực cấu kiện mà nguồn đo giám sát, không phải vị trí hư hỏng |\n| | | `scope.inference_unit`, `scope.data_split`, `scope.install_batch`, `scope.applicable_conditions` | Có | Phạm vi hiệu lực: đơn vị suy luận, cách chia dữ liệu, đợt lắp đặt, điều kiện áp dụng |\n| | | `Sensor_ID`, `obs_context` | Có với loại cảm biến | Nguồn đo; bối cảnh quan trắc (khoảng thời gian đo, cấu hình cảm biến, nhiệt độ, trạng thái cầu trục) |\n| | | `revision_of` | Không | Bản ghi cũ mà bản ghi này thay thế |\n| `INSPECTION_RECORD` (bản ghi kiểm tra) | Thực thể | `Inspection_Record_ID`, `BIM_GUID`, `inspector_role`, `inspected_at`, `finding`, `finding_uncertainty` | Có | Kết quả kiểm tra của kỹ sư, gồm vị trí và nguyên nhân hư hỏng nếu có; vai trò, thời điểm, độ bất định; là nhãn hiện trường |\n| `EVIDENCE_USE` (sử dụng bằng chứng) | Quan hệ có thuộc tính | `Inspection_Record_ID`, `Condition_Evidence_ID`, `used_at`, `within_scope`, `justification` | Có (`justification` khi `within_scope` sai) | Một lần bản ghi kiểm tra dùng một bằng chứng: thời điểm dùng, bằng chứng có nằm trong phạm vi hiệu lực tại thời điểm dùng hay không, lý do khi dùng ngoài phạm vi |\n| `ACTION` (hành động) | Thực thể | `Action_ID`, `Inspection_Record_ID`, `priority_level` | Có | Hành động phát sinh từ bản ghi kiểm tra; mức ưu tiên bốn mức |\n| | | `Action_Status` | Suy ra | Trạng thái xử lý, suy ra từ sự kiện chuyển trạng thái mới nhất |\n| `STATUS_EVENT` (sự kiện chuyển trạng thái) | Bản ghi sự kiện | `Status_Event_ID`, `Action_ID`, `from_to`, `timestamp`, `actor_role`, `reason` | Có | Một lần đổi trạng thái: trước và sau, thời điểm, vai trò, lý do |\n| | | `evidence_ref` | Có với bước chuyển cần căn cứ | Bản ghi sử dụng bằng chứng đã dùng làm căn cứ |\n\nBảng A.2 nêu các bước chuyển trạng thái được phép; tên vai trò theo tổ chức của chủ đầu tư được điền khi khóa đặc tả của Mục tiêu 2. Bước đề nghị kiểm tra, từ bằng chứng và mức ưu tiên tới quyết định mở một lần kiểm tra, chưa có loại bản ghi riêng trong Bảng A.1; loại bản ghi, vai trò và căn cứ của bước này được đặc tả khi khóa mô hình của Mục tiêu 2 (Mục 4.6.1)."
+ },
+ {
+  "tep": "phuluc.md",
+  "ma": "U6-lopdulieu",
+  "truoc": "luận án lưu dữ liệu bằng SQLite và xuất IFC, không triển khai RDF.",
+  "sau": "lớp dữ liệu được lưu bằng SQLite và ánh xạ sang IFC 4.3, BCF 3.0 khi xuất, không sửa lược đồ chuẩn và không triển khai RDF."
+ },
+ {
+  "tep": "phuluc.md",
+  "ma": "U2-B2",
+  "truoc": "Bảng B.2 nối mỗi nhóm lỗi chèn mù với ràng buộc phát hiện và với trường mà hai đối chứng có theo thiết kế; tỉ lệ phát hiện thực tế là kết quả đo của Mục tiêu 2.",
+  "sau": "Bảng B.2 nối mỗi nhóm lỗi chèn mù với ràng buộc phát hiện và với khả năng của hai đối chứng. Cột B1 là phân tích dự kiến, được rà lại khi khóa đặc tả B1 với đủ khả năng của IFC 4.3 và BCF 3.0 (Mục 4.6.2); tỉ lệ phát hiện thực tế là kết quả đo của Mục tiêu 2."
+ },
+ {
+  "tep": "phuluc.md",
+  "ma": "U2-B2",
+  "truoc": "| Nhóm lỗi | Ràng buộc | B0 có trường để kiểm | B1 có trường để kiểm |\n|---|:--:|:--:|:--:|\n| Bản ghi mồ côi, tham chiếu sai | C1 | Một phần | Có |\n| Bằng chứng gán cho cảm biến đã dời hoặc ánh xạ đã hết hạn | C3 | Không | Không |\n| Dùng bằng chứng ngoài phạm vi hiệu lực mà không có lý do | C5 | Không | Không |\n| Đổi trạng thái không có căn cứ hoặc sai vai trò | C6 | Một phần | Một phần |\n| Chuyển trạng thái dựa trên bằng chứng đã bị thay thế | C9 | Không | Không |",
+  "sau": "| Nhóm lỗi | Ràng buộc | B0 có trường để kiểm | Khả năng của B1 (phân tích dự kiến) |\n|---|:--:|:--:|---|\n| Bản ghi mồ côi, tham chiếu sai | C1 | Một phần | Có |\n| Bằng chứng gán cho cảm biến đã dời hoặc ánh xạ đã hết hạn | C3 | Không | Một phần: có gán cảm biến – cấu kiện \\[2\\], chưa có khoảng hiệu lực của ánh xạ (Bảng A.3) |\n| Dùng bằng chứng ngoài phạm vi hiệu lực mà không có lý do | C5 | Không | Chưa có trường phạm vi hiệu lực của bằng chứng |\n| Đổi trạng thái không có căn cứ hoặc sai vai trò | C6 | Một phần | Một phần: trạng thái, sự kiện của BCF 3.0 và phê duyệt của IFC4 |\n| Chuyển trạng thái dựa trên bằng chứng đã bị thay thế | C9 | Không | Một phần: lịch sử sửa đổi và quy ước `OUTDATED` \\[35\\]; chưa có quan hệ từ sự kiện tới bằng chứng |"
+ }
+]

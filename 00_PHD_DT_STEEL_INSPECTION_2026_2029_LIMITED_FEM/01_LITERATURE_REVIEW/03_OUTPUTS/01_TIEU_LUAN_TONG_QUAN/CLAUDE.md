@@ -64,6 +64,9 @@
     nhất, bắt buộc nêu trong Bài 1) và **A2 – khai báo** (phạm vi hiệu lực, độ bất định là trường bắt buộc của từng bằng chứng,
     kiểm tại lần sử dụng).
 
+14. **Điều chỉnh của NCS ngày 02/10/2026 (bản rút gọn, sau HT6):** (a) tiểu luận nêu **ba khoảng trống** KT1 (bằng chứng có phạm vi hiệu lực từ dữ liệu dao động, gồm A1, A2), KT2 (từ bằng chứng đến hành động có trách nhiệm), KT3 (khả năng áp dụng chuỗi trên nhà công nghiệp khung thép đang khai thác), ứng 1:1 với MT1–MT3 và với ba câu hỏi của người quản lý; thay mục 9 ở trên về số khoảng trống; (b) tiểu luận **không nêu bài báo** (Bài 1, Bài 2) làm sản phẩm; kế hoạch bài báo ở mục 13 giữ cho điều hành nội bộ; (c) hiện trường MT3 dùng **ba cảm biến** đặt ở vị trí đã khảo sát trước (thay 6–10 cảm biến); (d) Mục 3.2 nêu thực hành quan trắc tại Việt Nam ở mức tóm tắt, 5 nguồn nhập Zotero qua Consensus (tag `TLTQ:3.2-VietNam`).
+15. **Điều chỉnh của NCS ngày 03/10/2026 (bản r4):** (a) song sinh số là mục tiêu kiến trúc, bỏ khai báo bóng số; (b) thí nghiệm 1:10 mô tả là "nhiều đợt" (không cố định ba đợt, 18 lần chạy, 216 bản ghi), thiết bị kích động và cảm biến chỉ nêu là loại thương mại của PASCO (r5); (c) Chương 3, 4 trình bày tổng quan trước, phương pháp áp dụng sau (r5: 3.4 MT1, 3.5 MT3, 4.6 MT2; phương pháp quan trắc và hạn chế với nhà công nghiệp chuyển thành 1.2.4); Chương 5 là chương kết ngắn, 5.5 chỉ nêu phương pháp khoa học; (d) 1.5.2 nêu quá trình sàng lọc chung, chỉ báo kết quả cuối: 84 tài liệu trích dẫn, 30 tài liệu key đọc sâu.
+
 ---
 
 ## 2A. Ba mục tiêu luận án (KHÓA 01/10/2026 — yêu cầu tối thiểu của trường)
@@ -87,7 +90,7 @@ Quy tắc phạm vi:
   (bằng chứng có phạm vi đã biết, dùng để chèn ca dùng ngoài phạm vi). Dữ liệu hiện trường MT3 có sớm thì thêm một mục minh họa.
 - **MT3 chỉ tuyên bố khả thi và truy vết**, không tuyên bố hiệu năng phát hiện hư hỏng ở hiện trường. Quan trắc 3–6 tháng,
   khoảng 6–10 cảm biến ở các liên kết đại diện, 1–2 đợt kiểm tra thật.
-- Mức tích hợp khai báo theo Kritzinger [8]: bóng số (DS); tên đề tài giữ "song sinh số dựa trên dữ liệu" kèm khai báo này ở Chương 1.
+- Song sinh số dựa trên dữ liệu là **mục tiêu kiến trúc** của luận án; không dùng câu "mức thiết kế khai báo là bóng số" (NCS quyết định 03/10/2026, thay khai báo bóng số trước đây). Phân loại Kritzinger [8] chỉ dùng làm thước đo; năng lực thực tế đánh giá sau triển khai.
 - RQ của tiểu luận được viết lại 1:1 theo MT1–MT3 ở GĐ5 (RQ1 ↔ MT1, RQ2 ↔ MT2, RQ3 ↔ MT3).
 
 ---
