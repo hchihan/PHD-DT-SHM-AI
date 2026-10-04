@@ -582,3 +582,11 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 ## Phiên 03/10/2026 – HT19 cập nhật slide theo bản FINAL (chờ NCS duyệt)
 - Tệp mới `BAO_CAO_TLTQ_FINAL_20261003.pptx` (19 slide; giữ nguyên bản 02/10). Sửa chữ trên slide 4–19 và ghi chú thuyết trình; không đổi bố cục, hình ảnh. Script và nhật ký trước/sau: `revision/HT19_slide_scripts/`.
 - Nội dung: pháp lý nêu số hiệu NĐ 207/2026, QĐ 258, không nêu số điều; độ bất định thay độ tin cậy; câu hỏi trung tâm; phễu 85/30 (12 + 18)/29; KT1 hiệu lực, KT2 truy vết, KT3 duy trì chuỗi; RQ1–RQ3 theo 5.4; B0, B1, M1–M4, Gate 1–5; Mục tiêu 3 ghi tách kịch bản giả định; bỏ nhãn "Luận án đạt được: Bóng số"; ba tầng đóng góp; ba nhận định kết và ba câu hỏi xin góp ý mới.
+
+## Phiên 04/10/2026 – HT20–HT23, bản chốt (NCS chốt)
+- 1.2.1 lý do chọn đối tượng: nguồn mới Qin và cs. 2024 (`S96MXF6A`), Wang và cs. 2013 (`ZVGGDWE8`), dùng Saleem & Qureshi 2018 (`J358BJ7Z`); đọc toàn văn ba PDF, thêm số trang; bỏ số liệu khu công nghiệp của Cục ĐTNN. Báo cáo: `revision/ASSET_SELECTION_EVIDENCE_REPORT.md`.
+- 1.1.2 pháp lý: đọc văn bản gốc NĐ 207/2026 (Điều 36–38) và TT 32/2026 (`HNY4EZVB`, Điều 3, 6, Phụ lục); thêm TCVN 9360:2024 (`EAFCGACH`), TCVN 9399:2012 (`T2X2CV6F`). Biên bản: `revision/HT22_phap_ly_va_1_2_1.md`.
+- 5.3 và 1.1.1: mục tiêu tổng quát theo khung song sinh số dựa trên dữ liệu (QĐ 17a).
+- Đưa sửa tay của NCS trong bản Word r3 về Markdown (1.5.2, Bảng 1.4, Bảng 3.2, 3.5, 4.6.3).
+- Slide: HT20 (đồng bộ 1.2.1), HT21 (trực quan hóa, tách slide 10, 20 slide), HT22 (pháp lý), HT23 (góp ý Hội đồng), r4 (khung song sinh số, slide 4 ba cột, slide 18 dựng lại), r5 (cỡ chữ: thân bài 16pt, tiêu đề 26pt, trích dẫn 12pt; 0 ô tràn). Script: `revision/HT20_slide_scripts/`, `revision/HT21_slide_scripts/`. Nhật ký: `revision/SLIDE_REVISION_LOG_R3_TO_R5.md`, `revision/HT21_ra_soat_slide_vs_docx.md`.
+- Bản chốt: `00_BAN_CHOT/` (docx 71 trang, 90 tài liệu; pptx và pdf 20 slide). Bản trung gian chuyển vào `_luu_tru/xuat_ban_cu/`, `_luu_tru/slide_cu/` (không xóa). Thêm `README.md`.

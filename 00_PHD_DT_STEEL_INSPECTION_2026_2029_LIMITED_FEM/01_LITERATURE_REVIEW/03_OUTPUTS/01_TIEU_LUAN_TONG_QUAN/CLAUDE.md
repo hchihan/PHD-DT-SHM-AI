@@ -82,6 +82,20 @@
     (m) **Pháp lý:** Nghị định 207/2026 chỉ nêu số hiệu, tên, ngày ban hành, hiệu lực (đã kiểm trên Cổng Chính phủ); không nêu số điều; bỏ câu "quan trắc chỉ là yêu cầu theo từng trường hợp".
     (n) **Số tài liệu:** 85 tài liệu trích dẫn (thêm BCF-API 3.0 `P3ZIHF8G`, tách khỏi BCF-XML `K5SGFIGW`); 30 tài liệu chọn đọc (12 đọc sâu, 18 có trọng tâm), 1 không tiếp cận toàn văn bị loại, 29 key giữ lại.
     (o) **Tiêu chí dừng:** sau bản FINAL không sửa học thuật nếu không có góp ý mới bằng văn bản của GVHD hoặc Hội đồng. Còn 5 mục kiểm tay ở `revision/FINAL_TECHNICAL_PROOFREAD_REPORT.md`.
+17. **Bản chốt 04/10/2026 (NCS chốt; thay một phần QĐ 15(a), 16(m), 16(n)).** Bản Word: `00_BAN_CHOT/HO_CHI_HAN_TIEU_LUAN_TONG_QUAN_BAN_CHOT_20261004.docx`
+    (71 trang, 90 tài liệu); slide: `00_BAN_CHOT/BAO_CAO_TLTQ_BAN_CHOT_20261004.pptx` và `.pdf` (20 slide). Bản trung gian ở `_luu_tru/`.
+    (a) **Mục tiêu tổng quát (5.3, 1.1.1):** phát triển và kiểm chứng một **khung song sinh số dựa trên dữ liệu** cho hỗ trợ kiểm tra – bảo trì nhà công nghiệp
+    khung thép liên kết bu lông; khung = kiến trúc tích hợp dữ liệu – bằng chứng – cấu kiện BIM – hồ sơ kiểm tra – lịch sử hành động – phản hồi quản lý;
+    kiểm chứng theo ba năng lực (RQ1 tạo bằng chứng, RQ2 truy vết, RQ3 duy trì chuỗi); không điều khiển tự động, không chẩn đoán tự động. Thay cách nói
+    "chuỗi thông tin truy vết… hướng tới song sinh số như mục tiêu kiến trúc".
+    (b) **Pháp lý (1.1.2):** nêu số điều đã đọc từ văn bản gốc: NĐ 207/2026 Điều 36, 37, 38; TT 32/2026/TT-BXD (`HNY4EZVB`) Điều 3, 6, Phụ lục; TCVN 9360:2024
+    (`EAFCGACH`), TCVN 9399:2012 (`T2X2CV6F`). Nhận định "chưa có hướng dẫn phương pháp quan trắc dao động" chỉ trong phạm vi văn bản đã rà. Thay QĐ 16(m).
+    (c) **Lý do chọn đối tượng (1.2.1):** Qin và cs. 2024 (`S96MXF6A`), Saleem & Qureshi 2018 (`J358BJ7Z`), Wang và cs. 2013 (`ZVGGDWE8`), Hemker [22];
+    bỏ số liệu khu công nghiệp của Cục ĐTNN (`XM5ZUP99`). Không dùng "logistics", "phổ biến nhất", "chiếm ưu thế".
+    (d) **Số tài liệu:** 90 trích dẫn; "29 tài liệu trọng điểm đọc toàn văn" (bản Word bỏ đoạn PRISMA và cách đếm 12 + 18). Thay QĐ 16(n).
+    (e) **Cách gọi B1:** "baseline theo IFC 4.3/BCF 3.0 và các tiền lệ gần nhất"; không dùng "chuẩn hiện có", "cách làm tốt nhất".
+    (f) **Sửa tay của NCS trong Word** phải được đưa về Markdown trước khi dựng lại (xem `README.md`). Nhật ký: `revision/SLIDE_REVISION_LOG_R3_TO_R5.md`,
+    `revision/ASSET_SELECTION_EVIDENCE_REPORT.md`, `revision/HT22_phap_ly_va_1_2_1.md`.
 
 ---
 
@@ -542,6 +556,7 @@ sáu tháng sau có sự cố, truy ngược được toàn bộ.
 | HT8–HT11 (r3–r6) | 🟡 Đã làm 03/10: đồng bộ slide, tái cấu trúc r4–r5, viết lại 1.2.3–1.2.5 | `revision/changelog.md` |
 | HT12–HT18 (r7 → FINAL) | 🟡 Đã làm 03/10, chờ NCS duyệt cuối: r7 (8 nhận xét phản biện), r8 (pháp lý, ven biển), r9 (góp ý Hội đồng vòng 1, chuẩn hóa Zotero, BCF-API), r10 (prompt Thư ký Hội đồng: tái cấu trúc Ch.1, 4, 5), r11 (vòng 2, strict-writing-discipline), FINAL proofread (Crossref 75 DOI, Hình 4.2, đoạn nối 3.4.3) | Bản khóa `xuat_ban/HO_CHI_HAN_TIEU_LUAN_TONG_QUAN_FINAL_PROOFREAD.docx` (69 trang, 85 tài liệu); `revision/REVISION_LOG_R9_TO_R10.md`, `REVISION_LOG_R10_TO_R11.md`, `FINAL_TECHNICAL_PROOFREAD_REPORT.md`, `UNRESOLVED_EVIDENCE_ITEMS.md`; commit 015abd9 |
 | GĐ6 Nhất quán & xuất bản | ✅ Bản FINAL (03/10): READY TO SUBMIT AFTER MANUAL CHECK | Còn 5 mục kiểm tay (QĐ 258 nội dung; liên kết NĐ 207; số trang trích dẫn; Bảng 3.2 vs QĐ 15b; số liệu KCN). Slide đã cập nhật theo bản FINAL: `BAO_CAO_TLTQ_FINAL_20261003.pptx` (HT19, ngoài Git; script `revision/HT19_slide_scripts/`); chưa push |
+| Bản chốt 04/10 (HT20–HT23, r4–r5) | ✅ NCS chốt (04/10) | `00_BAN_CHOT/`: docx 71 trang, 90 tài liệu; slide 20 trang (thân bài 16pt, tiêu đề 26pt, trích dẫn 12pt). QĐ 17. Repo dọn: bản trung gian ở `_luu_tru/`; hướng dẫn dựng lại ở `README.md` |
 
 ---
 
