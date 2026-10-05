@@ -1,0 +1,6 @@
+# Dựng bản Word: xuat_ban/build.py (cần thêm pandoc cài riêng, có trong PATH)
+python-docx
+# Vẽ hình: figures/ve_hinh.py, figures/ve_hinh_4_2.py
+matplotlib
+# Sửa slide và đo chữ tràn: revision/HT19_…, HT20_…, HT21_slide_scripts/
+python-pptx

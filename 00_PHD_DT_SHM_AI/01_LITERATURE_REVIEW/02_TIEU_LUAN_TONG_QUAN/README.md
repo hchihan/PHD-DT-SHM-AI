@@ -8,6 +8,7 @@
 |---|---|
 | `00_BAN_CHOT/HO_CHI_HAN_TIEU_LUAN_TONG_QUAN_BAN_CHOT_20261004.docx` | Báo cáo, 71 trang, 90 tài liệu, trích dẫn là trường Zotero (Refresh được trong Word) |
 | `00_BAN_CHOT/BAO_CAO_TLTQ_BAN_CHOT_20261004.pptx`, `.pdf` | Slide báo cáo, 20 slide, có ghi chú thuyết trình |
+| `00_BAN_CHOT/HO_CHI_HAN_GIAI_TRINH_TIEP_THU_GOP_Y_20261004.docx` | Bản giải trình tiếp thu góp ý theo bản chốt (nguồn Markdown: `revision/giai_trinh_gop_y.md`) |
 
 Các bản trung gian (r9, r11, FINAL_PROOFREAD, ASSET_RATIONALE r1–r3, slide các vòng) nằm ở `_luu_tru/`, không đưa vào Git.
 
@@ -28,7 +29,12 @@ Các bản trung gian (r9, r11, FINAL_PROOFREAD, ASSET_RATIONALE r1–r3, slide 
 
 ## Dựng lại bản Word
 
-Yêu cầu: Python 3, `pandoc`, Zotero đang chạy (API cục bộ `localhost:23119`).
+Yêu cầu: Python 3, các gói trong `requirements.txt`, và `pandoc` (cài riêng, không qua pip; phải có trong PATH). Zotero đang chạy
+(API cục bộ `localhost:23119`) chỉ cần khi có trích dẫn mới chưa nằm trong `xuat_ban/zotero_cache.json`; bộ đệm hiện có đủ 90 tài liệu.
+
+```bash
+pip install -r requirements.txt
+```
 
 ```bash
 python xuat_ban/build.py TEN_TEP_XUAT
@@ -52,5 +58,4 @@ Quy ước hiển thị: thân bài 16pt (tối thiểu 14pt ở ô dày), tríc
 
 ## Việc còn mở
 
-- Bản giải trình tiếp thu góp ý (`xuat_ban/HO_CHI_HAN_GIAI_TRINH_TIEP_THU_GOP_Y_20261002.docx`) là bản 02/10, chưa cập nhật theo các vòng sau.
 - Slide 15 ghi "nhiều đợt" trong khi Bảng 3.2 ghi ba đợt; slide 13 mô tả dữ liệu Bước 2 khác 4.6.3 (sửa tay của NCS, giữ nguyên).

@@ -590,3 +590,9 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - Đưa sửa tay của NCS trong bản Word r3 về Markdown (1.5.2, Bảng 1.4, Bảng 3.2, 3.5, 4.6.3).
 - Slide: HT20 (đồng bộ 1.2.1), HT21 (trực quan hóa, tách slide 10, 20 slide), HT22 (pháp lý), HT23 (góp ý Hội đồng), r4 (khung song sinh số, slide 4 ba cột, slide 18 dựng lại), r5 (cỡ chữ: thân bài 16pt, tiêu đề 26pt, trích dẫn 12pt; 0 ô tràn). Script: `revision/HT20_slide_scripts/`, `revision/HT21_slide_scripts/`. Nhật ký: `revision/SLIDE_REVISION_LOG_R3_TO_R5.md`, `revision/HT21_ra_soat_slide_vs_docx.md`.
 - Bản chốt: `00_BAN_CHOT/` (docx 71 trang, 90 tài liệu; pptx và pdf 20 slide). Bản trung gian chuyển vào `_luu_tru/xuat_ban_cu/`, `_luu_tru/slide_cu/` (không xóa). Thêm `README.md`.
+
+## Phiên 05/10/2026 – chuyển thư mục, sửa đường dẫn, requirements.txt
+- Thư mục tiểu luận chuyển sang `00_PHD_DT_SHM_AI/01_LITERATURE_REVIEW/02_TIEU_LUAN_TONG_QUAN` (commit 16c310e; Git nhận là đổi tên, lịch sử giữ nguyên).
+- CLAUDE.md: trỏ bản FINAL_PROOFREAD và slide FINAL 03/10 về `_luu_tru/`; nơi lưu "khóa trước khi đo" đổi thành `../04_PAPER_2_TRACEABILITY/khoa_truoc_khi_do/`.
+- README.md: thêm bản giải trình 04/10 vào bảng bản chốt, bỏ mục việc còn mở đã xong, ghi yêu cầu môi trường dựng lại.
+- Thêm `requirements.txt` (python-docx, matplotlib, python-pptx); pandoc cài riêng. Không sửa nội dung học thuật.
