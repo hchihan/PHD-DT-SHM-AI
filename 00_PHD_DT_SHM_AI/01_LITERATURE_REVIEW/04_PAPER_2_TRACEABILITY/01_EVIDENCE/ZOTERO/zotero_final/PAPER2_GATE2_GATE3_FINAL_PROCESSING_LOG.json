@@ -1,0 +1,332 @@
+{
+  "timestamp": "2026-09-15T14:09:21+07:00",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "script_sha256": "d2fa9f9644c7c79607a7d94c68a0659305d72c04395843df913a5de732e00516",
+  "routing": {
+    "RQ": "RQ2",
+    "WP": "WP2",
+    "Evidence_Gate": "Gate 3",
+    "Paper": "Paper 2",
+    "Chapter": "Chapter 5",
+    "scope": "Supporting",
+    "evidence_type": "Information traceability"
+  },
+  "input_hashes_before": {
+    "zotero_master_output\\PAPER2_GATE2_GATE3_MANUAL_REVIEW.csv": "ac1a6442ac04660f65c8781bd5c4f8653c8094bc94633fbded5201bf30ff0388",
+    "zotero_master_output\\PAPER2_GATE2_GATE3_MASTER_LIBRARY.csv": "083a62dd2c8c57080a8f11df01dc7871d7de6c98bde6e4c87739a7fa0f508350",
+    "zotero_master_output\\PAPER2_GATE2_GATE3_ZOTERO_MASTER.ris": "ded7a8bbc66aa5c8616b75e8dedcd89d649d479cbfa845fad40ef96b5c26670f",
+    "zotero_master_output\\PAPER2_GATE2_GATE3_DEDUPLICATION_REPORT.csv": "0b8422c76676c64e83f481699cd27007f8d86568f1092d1431215504494c747d"
+  },
+  "input_hashes_after": {
+    "zotero_master_output\\PAPER2_GATE2_GATE3_MANUAL_REVIEW.csv": "ac1a6442ac04660f65c8781bd5c4f8653c8094bc94633fbded5201bf30ff0388",
+    "zotero_master_output\\PAPER2_GATE2_GATE3_MASTER_LIBRARY.csv": "083a62dd2c8c57080a8f11df01dc7871d7de6c98bde6e4c87739a7fa0f508350",
+    "zotero_master_output\\PAPER2_GATE2_GATE3_ZOTERO_MASTER.ris": "ded7a8bbc66aa5c8616b75e8dedcd89d649d479cbfa845fad40ef96b5c26670f",
+    "zotero_master_output\\PAPER2_GATE2_GATE3_DEDUPLICATION_REPORT.csv": "0b8422c76676c64e83f481699cd27007f8d86568f1092d1431215504494c747d"
+  },
+  "parameters": {
+    "fuzzy_threshold": 0.94,
+    "doi_comparison_case": "lowercase",
+    "input_files_modified": false,
+    "metadata_precedence": "publisher/DOI metadata > RIS > CSV > Markdown"
+  },
+  "counts": {
+    "previous_confirmed_ris": 174,
+    "manual_cases_reviewed": 26,
+    "same_paper_confirmed": 0,
+    "unique_papers_added": 25,
+    "duplicate_records_excluded": 0,
+    "unresolved": 1,
+    "final_unique_papers": 199,
+    "final_papers_with_doi": 199,
+    "priority_a1": 18,
+    "priority_a2": 17,
+    "final_doi_duplicates": 0,
+    "final_exact_normalized_title_duplicates": 0,
+    "fuzzy_title_pairs_ge_0_94": 0
+  },
+  "crossref_resolution_log": [
+    {
+      "manual_review_id": "MR0001",
+      "input_doi": "10.5194/isprs-archives-xlviii-g-2025-687-2025",
+      "resolved_doi": "10.5194/isprs-archives-xlviii-g-2025-687-2025",
+      "input_title": "A BIM-based Framework for Building Depreciation Estimation through Maintenance Management Integration",
+      "resolved_title": "A BIM-based Framework for Building Depreciation Estimation through Maintenance Management Integration",
+      "title_similarity": 1.0,
+      "resolved_year": "2025",
+      "crossref_url": "https://api.crossref.org/works/10.5194%2Fisprs-archives-xlviii-g-2025-687-2025"
+    },
+    {
+      "manual_review_id": "MR0002",
+      "input_doi": "10.1016/j.tust.2019.103252",
+      "resolved_doi": "10.1016/j.tust.2019.103252",
+      "input_title": "A BIM-based framework for operation and maintenance of utility tunnels",
+      "resolved_title": "A BIM-based framework for operation and maintenance of utility tunnels",
+      "title_similarity": 1.0,
+      "resolved_year": "2020",
+      "crossref_url": "https://api.crossref.org/works/10.1016%2Fj.tust.2019.103252"
+    },
+    {
+      "manual_review_id": "MR0003",
+      "input_doi": "10.1007/978-3-032-09040-9_3",
+      "resolved_doi": "10.1007/978-3-032-09040-9_3",
+      "input_title": "A Digital Twins Model Based on IFC Open BIM Models Managed on Web Platforms",
+      "resolved_title": "A Digital Twins Model Based on IFC Open BIM Models Managed on Web Platforms",
+      "title_similarity": 1.0,
+      "resolved_year": "2026",
+      "crossref_url": "https://api.crossref.org/works/10.1007%2F978-3-032-09040-9_3"
+    },
+    {
+      "manual_review_id": "MR0004",
+      "input_doi": "10.1117/12.2600140",
+      "resolved_doi": "10.1117/12.2600140",
+      "input_title": "A novel BIM approach for supporting technical decision-making process in transport infrastructure management",
+      "resolved_title": "A novel BIM approach for supporting technical decision-making process in transport infrastructure management",
+      "title_similarity": 1.0,
+      "resolved_year": "2021",
+      "crossref_url": "https://api.crossref.org/works/10.1117%2F12.2600140"
+    },
+    {
+      "manual_review_id": "MR0005",
+      "input_doi": "10.3390/buildings15152633",
+      "resolved_doi": "10.3390/buildings15152633",
+      "input_title": "A Semantic Web and IFC-Based Framework for Automated BIM Inspection",
+      "resolved_title": "A Semantic Web and IFC-Based Framework for Automated BIM Compliance Checking",
+      "title_similarity": 0.825175,
+      "resolved_year": "2025",
+      "crossref_url": "https://api.crossref.org/works/10.3390%2Fbuildings15152633"
+    },
+    {
+      "manual_review_id": "MR0006",
+      "input_doi": "10.1016/j.tust.2025.106859",
+      "resolved_doi": "10.1016/j.tust.2025.106859",
+      "input_title": "Automated Digital Reconstruction of High-Fidelity Present-Day Geometries for Segmental Tunnel Linings",
+      "resolved_title": "Automated digital reconstruction of high-fidelity present-day geometries for segmental tunnel linings based on segmented point clouds",
+      "title_similarity": 0.863248,
+      "resolved_year": "2025",
+      "crossref_url": "https://api.crossref.org/works/10.1016%2Fj.tust.2025.106859"
+    },
+    {
+      "manual_review_id": "MR0007",
+      "input_doi": "10.1201/9781003559047-67",
+      "resolved_doi": "10.1201/9781003559047-67",
+      "input_title": "Automated Digital Twin Reconstruction for Tunnel Inspection and Maintenance",
+      "resolved_title": "Automated digital twin reconstruction for tunnel inspection and maintenance",
+      "title_similarity": 1.0,
+      "resolved_year": "2025",
+      "crossref_url": "https://api.crossref.org/works/10.1201%2F9781003559047-67"
+    },
+    {
+      "manual_review_id": "MR0008",
+      "input_doi": "10.36680/j.itcon.2026.004",
+      "resolved_doi": "10.36680/j.itcon.2026.004",
+      "input_title": "Automated Geometry-Based Analysis for Object-Level Scan-vs-BIM Validation of TBE Components",
+      "resolved_title": "Automated geometry-based analysis for object-level Scan-vs-BIM validation of TBE components",
+      "title_similarity": 1.0,
+      "resolved_year": "2026",
+      "crossref_url": "https://api.crossref.org/works/10.36680%2Fj.itcon.2026.004"
+    },
+    {
+      "manual_review_id": "MR0009",
+      "input_doi": "10.1016/j.autcon.2020.103257",
+      "resolved_doi": "10.1016/j.autcon.2020.103257",
+      "input_title": "Building automation system - BIM integration using a linked data structure",
+      "resolved_title": "Building automation system - BIM integration using a linked data structure",
+      "title_similarity": 1.0,
+      "resolved_year": "2020",
+      "crossref_url": "https://api.crossref.org/works/10.1016%2Fj.autcon.2020.103257"
+    },
+    {
+      "manual_review_id": "MR0010",
+      "input_doi": "10.1061/(asce)cp.1943-5487.0000826",
+      "resolved_doi": "10.1061/(asce)cp.1943-5487.0000826",
+      "input_title": "Development of a BIM-Based Data Management System for Structural Health Monitoring with Application to Modular Buildings",
+      "resolved_title": "Development of a BIM-Based Data Management System for Structural Health Monitoring with Application to Modular Buildings: Case Study",
+      "title_similarity": 0.956175,
+      "resolved_year": "2019",
+      "crossref_url": "https://api.crossref.org/works/10.1061%2F%28asce%29cp.1943-5487.0000826"
+    },
+    {
+      "manual_review_id": "MR0011",
+      "input_doi": "10.55092/sc20250001",
+      "resolved_doi": "10.55092/sc20250001",
+      "input_title": "Development of a Trustworthy AI-supported Digital Twin Framework for Road Operation and Maintenance",
+      "resolved_title": "Development of A Trustworthy AI-supported Digital Twin Framework for Road Operation and Maintenance",
+      "title_similarity": 1.0,
+      "resolved_year": "2025",
+      "crossref_url": "https://api.crossref.org/works/10.55092%2Fsc20250001"
+    },
+    {
+      "manual_review_id": "MR0012",
+      "input_doi": "10.1061/jcemd4.coeng-15868",
+      "resolved_doi": "10.1061/jcemd4.coeng-15868",
+      "input_title": "Development of Building Information Model–Enabled Facility Management for Metro Rail Stations",
+      "resolved_title": "Development of Building Information Model–Enabled Facility Management for Metro Rail Stations",
+      "title_similarity": 1.0,
+      "resolved_year": "2025",
+      "crossref_url": "https://api.crossref.org/works/10.1061%2Fjcemd4.coeng-15868"
+    },
+    {
+      "manual_review_id": "MR0013",
+      "input_doi": "10.1016/j.autcon.2020.103277",
+      "resolved_doi": "10.1016/j.autcon.2020.103277",
+      "input_title": "Digital twin-enabled anomaly detection for built asset monitoring in operation and maintenance",
+      "resolved_title": "Digital twin-enabled anomaly detection for built asset monitoring in operation and maintenance",
+      "title_similarity": 1.0,
+      "resolved_year": "2020",
+      "crossref_url": "https://api.crossref.org/works/10.1016%2Fj.autcon.2020.103277"
+    },
+    {
+      "manual_review_id": "MR0014",
+      "input_doi": "10.3989/ic.12.043",
+      "resolved_doi": "10.3989/ic.12.043",
+      "input_title": "Expansion of IFC model with structural sensors",
+      "resolved_title": "Expansión del modelo IFC con sensores estructurales",
+      "title_similarity": 0.618557,
+      "resolved_year": "2013",
+      "crossref_url": "https://api.crossref.org/works/10.3989%2Fic.12.043"
+    },
+    {
+      "manual_review_id": "MR0015",
+      "input_doi": "10.5194/isprs-archives-xlix-b1-2026-583-2026",
+      "resolved_doi": "10.5194/isprs-archives-xlix-b1-2026-583-2026",
+      "input_title": "From BIM–SAR Fusion to API-Based Digital Twin Services for Building Deformation Monitoring",
+      "resolved_title": "From BIM–SAR Fusion to API-Based Digital Twin Services for Building Deformation Monitoring",
+      "title_similarity": 1.0,
+      "resolved_year": "2026",
+      "crossref_url": "https://api.crossref.org/works/10.5194%2Fisprs-archives-xlix-b1-2026-583-2026"
+    },
+    {
+      "manual_review_id": "MR0016",
+      "input_doi": "10.1155/2021/4913394",
+      "resolved_doi": "10.1155/2021/4913394",
+      "input_title": "IFC and Monitoring Database System Based on Graph Data Models",
+      "resolved_title": "IFC and Monitoring Database System Based on Graph Data Models",
+      "title_similarity": 1.0,
+      "resolved_year": "2021",
+      "crossref_url": "https://api.crossref.org/works/10.1155%2F2021%2F4913394"
+    },
+    {
+      "manual_review_id": "MR0017",
+      "input_doi": "10.1061/(asce)cf.1943-5509.0000941",
+      "resolved_doi": "10.1061/(asce)cf.1943-5509.0000941",
+      "input_title": "IFC BIM-Based Facility Management Approach to Optimize Data Collection for Corrective Maintenance",
+      "resolved_title": "IFC BIM-Based Facility Management Approach to Optimize Data Collection for Corrective Maintenance",
+      "title_similarity": 1.0,
+      "resolved_year": "2017",
+      "crossref_url": "https://api.crossref.org/works/10.1061%2F%28asce%29cf.1943-5509.0000941"
+    },
+    {
+      "manual_review_id": "MR0018",
+      "input_doi": "10.1016/j.aei.2018.04.011",
+      "resolved_doi": "10.1016/j.aei.2018.04.011",
+      "input_title": "IFC Monitor – An IFC schema extension for modeling structural health monitoring systems",
+      "resolved_title": "IFC Monitor – An IFC schema extension for modeling structural health monitoring systems",
+      "title_similarity": 1.0,
+      "resolved_year": "2018",
+      "crossref_url": "https://api.crossref.org/works/10.1016%2Fj.aei.2018.04.011"
+    },
+    {
+      "manual_review_id": "MR0019",
+      "input_doi": "10.1117/12.2638108",
+      "resolved_doi": "10.1117/12.2638108",
+      "input_title": "Implementation of an interoperable BIM platform integrating ground-based and remote sensing information for network-level infrastructures monitoring",
+      "resolved_title": "Implementation of an interoperable BIM platform integrating ground-based and remote sensing information for network-level infrastructures monitoring",
+      "title_similarity": 1.0,
+      "resolved_year": "2022",
+      "crossref_url": "https://api.crossref.org/works/10.1117%2F12.2638108"
+    },
+    {
+      "manual_review_id": "MR0020",
+      "input_doi": "10.3389/fbuil.2025.1715347",
+      "resolved_doi": "10.3389/fbuil.2025.1715347",
+      "input_title": "Integrating Thermal Point Clouds into BIM-GIS Environments",
+      "resolved_title": "Integrating thermal point clouds into BIM-GIS environments: workflow proposal for multi-layer digital twins",
+      "title_similarity": 0.707317,
+      "resolved_year": "2026",
+      "crossref_url": "https://api.crossref.org/works/10.3389%2Ffbuil.2025.1715347"
+    },
+    {
+      "manual_review_id": "MR0021",
+      "input_doi": "10.3390/s25071998",
+      "resolved_doi": "10.3390/s25071998",
+      "input_title": "Integration of Accelerometers and Machine Learning with BIM for Railway Tight- and Wide-Gauge Detection",
+      "resolved_title": "Integration of Accelerometers and Machine Learning with BIM for Railway Tight- and Wide-Gauge Detection",
+      "title_similarity": 1.0,
+      "resolved_year": "2025",
+      "crossref_url": "https://api.crossref.org/works/10.3390%2Fs25071998"
+    },
+    {
+      "manual_review_id": "MR0022",
+      "input_doi": "10.1016/j.autcon.2017.12.019",
+      "resolved_doi": "10.1016/j.autcon.2017.12.019",
+      "input_title": "Integration of IFC objects and facility management work information using Semantic Web",
+      "resolved_title": "Integration of ifc objects and facility management work information using Semantic Web",
+      "title_similarity": 1.0,
+      "resolved_year": "2018",
+      "crossref_url": "https://api.crossref.org/works/10.1016%2Fj.autcon.2017.12.019"
+    },
+    {
+      "manual_review_id": "MR0023",
+      "input_doi": "10.1016/j.autcon.2025.106268",
+      "resolved_doi": "10.1016/j.autcon.2025.106268",
+      "input_title": "Ontology-based Representation of Quality Assurance and Inspection Planning in Construction",
+      "resolved_title": "Ontology-based representation of quality assurance and inspection planning in construction",
+      "title_similarity": 1.0,
+      "resolved_year": "2025",
+      "crossref_url": "https://api.crossref.org/works/10.1016%2Fj.autcon.2025.106268"
+    },
+    {
+      "manual_review_id": "MR0024",
+      "input_doi": "10.1016/j.autcon.2024.105931",
+      "resolved_doi": "10.1016/j.autcon.2024.105931",
+      "input_title": "Scan vs. BIM: Automated Geometry Detection and BIM Updating of Steel Framing through Laser Scanning",
+      "resolved_title": "Scan vs. BIM: Automated geometry detection and BIM updating of steel framing through laser scanning",
+      "title_similarity": 1.0,
+      "resolved_year": "2025",
+      "crossref_url": "https://api.crossref.org/works/10.1016%2Fj.autcon.2024.105931"
+    },
+    {
+      "manual_review_id": "MR0025",
+      "input_doi": "10.1016/j.autcon.2018.02.033",
+      "resolved_doi": "10.1016/j.autcon.2018.02.033",
+      "input_title": "SeeBridge as next generation bridge inspection: Overview, Information Delivery Manual and Model View Definition",
+      "resolved_title": "SeeBridge as next generation bridge inspection: Overview, Information Delivery Manual and Model View Definition",
+      "title_similarity": 1.0,
+      "resolved_year": "2018",
+      "crossref_url": "https://api.crossref.org/works/10.1016%2Fj.autcon.2018.02.033"
+    },
+    {
+      "manual_review_id": "MR0026",
+      "input_doi": "10.1016/j.autcon.2023.105106",
+      "resolved_doi": "10.1016/j.autcon.2023.105106",
+      "input_title": "Semantic rule checking of cross-domain building data in information containers for linked document delivery using the shapes constraint language",
+      "resolved_title": "Semantic rule checking of cross-domain building data in information containers for linked document delivery using the shapes constraint language",
+      "title_similarity": 1.0,
+      "resolved_year": "2023",
+      "crossref_url": "https://api.crossref.org/works/10.1016%2Fj.autcon.2023.105106"
+    }
+  ],
+  "fuzzy_pairs_reviewed": [],
+  "quality_checks": {
+    "manual_count_26": true,
+    "final_count_identity": true,
+    "doi_unique": true,
+    "exact_normalized_title_unique": true,
+    "all_dois_start_10": true,
+    "ris_ty_count": 199,
+    "ris_er_count": 199,
+    "ris_empty_records": 0,
+    "broken_multiline_fields": 0,
+    "utf8_roundtrip": true,
+    "unicode_replacement_character_absent": true,
+    "input_hashes_unchanged": true,
+    "zotero_import_structure": true
+  },
+  "artifacts": [
+    "H:\\My Drive\\03_RESEARCH\\01_PHD_DT_AI_AM\\00_PHD_DT_STEEL_INSPECTION_2026_2029_LIMITED_FEM\\01_LITERATURE_REVIEW\\03_OUTPUTS\\05_PAPER_2_TRACEABILITY\\Zotero MCP\\zotero_final\\PAPER2_GATE2_GATE3_ZOTERO_MASTER_FINAL.ris",
+    "H:\\My Drive\\03_RESEARCH\\01_PHD_DT_AI_AM\\00_PHD_DT_STEEL_INSPECTION_2026_2029_LIMITED_FEM\\01_LITERATURE_REVIEW\\03_OUTPUTS\\05_PAPER_2_TRACEABILITY\\Zotero MCP\\zotero_final\\PAPER2_GATE2_GATE3_MASTER_LIBRARY_FINAL.csv",
+    "H:\\My Drive\\03_RESEARCH\\01_PHD_DT_AI_AM\\00_PHD_DT_STEEL_INSPECTION_2026_2029_LIMITED_FEM\\01_LITERATURE_REVIEW\\03_OUTPUTS\\05_PAPER_2_TRACEABILITY\\Zotero MCP\\zotero_final\\PAPER2_GATE2_GATE3_MANUAL_REVIEW_RESOLUTION.csv",
+    "H:\\My Drive\\03_RESEARCH\\01_PHD_DT_AI_AM\\00_PHD_DT_STEEL_INSPECTION_2026_2029_LIMITED_FEM\\01_LITERATURE_REVIEW\\03_OUTPUTS\\05_PAPER_2_TRACEABILITY\\Zotero MCP\\zotero_final\\PAPER2_GATE2_GATE3_UNRESOLVED.csv",
+    "H:\\My Drive\\03_RESEARCH\\01_PHD_DT_AI_AM\\00_PHD_DT_STEEL_INSPECTION_2026_2029_LIMITED_FEM\\01_LITERATURE_REVIEW\\03_OUTPUTS\\05_PAPER_2_TRACEABILITY\\Zotero MCP\\zotero_final\\PAPER2_GATE2_GATE3_FINAL_SUMMARY.md"
+  ]
+}

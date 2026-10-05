@@ -1,0 +1,1293 @@
+{
+  "runs": [
+    {
+      "run_dir": "/kaggle/working/cross_cp2_s123_to_cp3_s123_1dcnn_loro_batch64_v1/train_val_split_04_train7-8-10-11-12_val9/ddp_seed42",
+      "dataset_name": "cross_cp2_s123_to_cp3_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-06dfe3b",
+      "seed": 42,
+      "split_id": "train7-8-10-11-12_val9_test13-14-15-16-17-18",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          10,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          9
+        ],
+        "test_run_ids": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          0,
+          14,
+          4,
+          0
+        ],
+        [
+          0,
+          9,
+          9,
+          0
+        ],
+        [
+          0,
+          11,
+          7,
+          0
+        ],
+        [
+          0,
+          8,
+          10,
+          0
+        ]
+      ],
+      "accuracy": 0.2222222222222222,
+      "balanced_accuracy": 0.2222222222222222,
+      "f1_macro": 0.14791666666666667,
+      "roc_auc_macro": 0.6244855967078189,
+      "test_loss": 2.245628985408622
+    },
+    {
+      "run_dir": "/kaggle/working/cross_cp2_s123_to_cp3_s123_1dcnn_loro_batch64_v1/train_val_split_01_train7-8-9-10-11_val12/ddp_seed42",
+      "dataset_name": "cross_cp2_s123_to_cp3_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-06dfe3b",
+      "seed": 42,
+      "split_id": "train7-8-9-10-11_val12_test13-14-15-16-17-18",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "val_run_ids": [
+          12
+        ],
+        "test_run_ids": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          0,
+          0,
+          14,
+          4
+        ],
+        [
+          0,
+          0,
+          16,
+          2
+        ],
+        [
+          0,
+          0,
+          16,
+          2
+        ],
+        [
+          0,
+          0,
+          12,
+          6
+        ]
+      ],
+      "accuracy": 0.3055555555555556,
+      "balanced_accuracy": 0.3055555555555555,
+      "f1_macro": 0.19901315789473684,
+      "roc_auc_macro": 0.5462962962962963,
+      "test_loss": 2.697250758094349
+    },
+    {
+      "run_dir": "/kaggle/working/cross_cp2_s123_to_cp3_s123_1dcnn_loro_batch64_v1/train_val_split_02_train7-8-9-10-12_val11/ddp_seed42",
+      "dataset_name": "cross_cp2_s123_to_cp3_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-06dfe3b",
+      "seed": 42,
+      "split_id": "train7-8-9-10-12_val11_test13-14-15-16-17-18",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          9,
+          10,
+          12
+        ],
+        "val_run_ids": [
+          11
+        ],
+        "test_run_ids": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          0,
+          3,
+          15,
+          0
+        ],
+        [
+          0,
+          1,
+          17,
+          0
+        ],
+        [
+          0,
+          2,
+          16,
+          0
+        ],
+        [
+          0,
+          2,
+          16,
+          0
+        ]
+      ],
+      "accuracy": 0.2361111111111111,
+      "balanced_accuracy": 0.2361111111111111,
+      "f1_macro": 0.11679174484052533,
+      "roc_auc_macro": 0.6612654320987654,
+      "test_loss": 2.149188637276719
+    },
+    {
+      "run_dir": "/kaggle/working/cross_cp2_s123_to_cp3_s123_1dcnn_loro_batch64_v1/train_val_split_03_train7-8-9-11-12_val10/ddp_seed42",
+      "dataset_name": "cross_cp2_s123_to_cp3_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-06dfe3b",
+      "seed": 42,
+      "split_id": "train7-8-9-11-12_val10_test13-14-15-16-17-18",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          9,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          10
+        ],
+        "test_run_ids": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          1,
+          11,
+          6,
+          0
+        ],
+        [
+          0,
+          10,
+          8,
+          0
+        ],
+        [
+          0,
+          5,
+          13,
+          0
+        ],
+        [
+          2,
+          2,
+          14,
+          0
+        ]
+      ],
+      "accuracy": 0.3333333333333333,
+      "balanced_accuracy": 0.33333333333333337,
+      "f1_macro": 0.24267466750886058,
+      "roc_auc_macro": 0.6319444444444444,
+      "test_loss": 2.3714038987726087
+    },
+    {
+      "run_dir": "/kaggle/working/cross_cp2_s123_to_cp3_s123_1dcnn_loro_batch64_v1/train_val_split_05_train7-9-10-11-12_val8/ddp_seed42",
+      "dataset_name": "cross_cp2_s123_to_cp3_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-06dfe3b",
+      "seed": 42,
+      "split_id": "train7-9-10-11-12_val8_test13-14-15-16-17-18",
+      "split": {
+        "train_run_ids": [
+          7,
+          9,
+          10,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          8
+        ],
+        "test_run_ids": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          1,
+          12,
+          5,
+          0
+        ],
+        [
+          1,
+          11,
+          6,
+          0
+        ],
+        [
+          0,
+          6,
+          12,
+          0
+        ],
+        [
+          0,
+          10,
+          8,
+          0
+        ]
+      ],
+      "accuracy": 0.3333333333333333,
+      "balanced_accuracy": 0.33333333333333337,
+      "f1_macro": 0.24394020766201216,
+      "roc_auc_macro": 0.5982510288065844,
+      "test_loss": 2.471841521646785
+    },
+    {
+      "run_dir": "/kaggle/working/cross_cp2_s123_to_cp3_s123_1dcnn_loro_batch64_v1/train_val_split_06_train8-9-10-11-12_val7/ddp_seed42",
+      "dataset_name": "cross_cp2_s123_to_cp3_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-06dfe3b",
+      "seed": 42,
+      "split_id": "train8-9-10-11-12_val7_test13-14-15-16-17-18",
+      "split": {
+        "train_run_ids": [
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          7
+        ],
+        "test_run_ids": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          1,
+          15,
+          2,
+          0
+        ],
+        [
+          0,
+          12,
+          6,
+          0
+        ],
+        [
+          2,
+          8,
+          8,
+          0
+        ],
+        [
+          1,
+          10,
+          7,
+          0
+        ]
+      ],
+      "accuracy": 0.2916666666666667,
+      "balanced_accuracy": 0.29166666666666663,
+      "f1_macro": 0.21552634357512407,
+      "roc_auc_macro": 0.5972222222222222,
+      "test_loss": 2.936396167652817
+    }
+  ],
+  "summary": [
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cross_cp2_s123_to_cp3_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-06dfe3b",
+      "split_id": "train7-8-10-11-12_val9_test13-14-15-16-17-18",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.2222222222222222,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.2222222222222222,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.14791666666666667,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.6244855967078189,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 2.245628985408622,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          0,
+          14,
+          4,
+          0
+        ],
+        [
+          0,
+          9,
+          9,
+          0
+        ],
+        [
+          0,
+          11,
+          7,
+          0
+        ],
+        [
+          0,
+          8,
+          10,
+          0
+        ]
+      ],
+      "confusion_mean": [
+        [
+          0.0,
+          14.0,
+          4.0,
+          0.0
+        ],
+        [
+          0.0,
+          9.0,
+          9.0,
+          0.0
+        ],
+        [
+          0.0,
+          11.0,
+          7.0,
+          0.0
+        ],
+        [
+          0.0,
+          8.0,
+          10.0,
+          0.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          0.0,
+          0.7777777777777778,
+          0.2222222222222222,
+          0.0
+        ],
+        [
+          0.0,
+          0.5,
+          0.5,
+          0.0
+        ],
+        [
+          0.0,
+          0.6111111111111112,
+          0.3888888888888889,
+          0.0
+        ],
+        [
+          0.0,
+          0.4444444444444444,
+          0.5555555555555556,
+          0.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cross_cp2_s123_to_cp3_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-06dfe3b",
+      "split_id": "train7-8-9-10-11_val12_test13-14-15-16-17-18",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.3055555555555556,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.3055555555555555,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.19901315789473684,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.5462962962962963,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 2.697250758094349,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          0,
+          0,
+          14,
+          4
+        ],
+        [
+          0,
+          0,
+          16,
+          2
+        ],
+        [
+          0,
+          0,
+          16,
+          2
+        ],
+        [
+          0,
+          0,
+          12,
+          6
+        ]
+      ],
+      "confusion_mean": [
+        [
+          0.0,
+          0.0,
+          14.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          16.0,
+          2.0
+        ],
+        [
+          0.0,
+          0.0,
+          16.0,
+          2.0
+        ],
+        [
+          0.0,
+          0.0,
+          12.0,
+          6.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          0.0,
+          0.0,
+          0.7777777777777778,
+          0.2222222222222222
+        ],
+        [
+          0.0,
+          0.0,
+          0.8888888888888888,
+          0.1111111111111111
+        ],
+        [
+          0.0,
+          0.0,
+          0.8888888888888888,
+          0.1111111111111111
+        ],
+        [
+          0.0,
+          0.0,
+          0.6666666666666666,
+          0.3333333333333333
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cross_cp2_s123_to_cp3_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-06dfe3b",
+      "split_id": "train7-8-9-10-12_val11_test13-14-15-16-17-18",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.2361111111111111,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.2361111111111111,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.11679174484052533,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.6612654320987654,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 2.149188637276719,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          0,
+          3,
+          15,
+          0
+        ],
+        [
+          0,
+          1,
+          17,
+          0
+        ],
+        [
+          0,
+          2,
+          16,
+          0
+        ],
+        [
+          0,
+          2,
+          16,
+          0
+        ]
+      ],
+      "confusion_mean": [
+        [
+          0.0,
+          3.0,
+          15.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          17.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.0,
+          16.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.0,
+          16.0,
+          0.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          0.0,
+          0.16666666666666666,
+          0.8333333333333334,
+          0.0
+        ],
+        [
+          0.0,
+          0.05555555555555555,
+          0.9444444444444444,
+          0.0
+        ],
+        [
+          0.0,
+          0.1111111111111111,
+          0.8888888888888888,
+          0.0
+        ],
+        [
+          0.0,
+          0.1111111111111111,
+          0.8888888888888888,
+          0.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cross_cp2_s123_to_cp3_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-06dfe3b",
+      "split_id": "train7-8-9-11-12_val10_test13-14-15-16-17-18",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.3333333333333333,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.33333333333333337,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.24267466750886058,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.6319444444444444,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 2.3714038987726087,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          1,
+          11,
+          6,
+          0
+        ],
+        [
+          0,
+          10,
+          8,
+          0
+        ],
+        [
+          0,
+          5,
+          13,
+          0
+        ],
+        [
+          2,
+          2,
+          14,
+          0
+        ]
+      ],
+      "confusion_mean": [
+        [
+          1.0,
+          11.0,
+          6.0,
+          0.0
+        ],
+        [
+          0.0,
+          10.0,
+          8.0,
+          0.0
+        ],
+        [
+          0.0,
+          5.0,
+          13.0,
+          0.0
+        ],
+        [
+          2.0,
+          2.0,
+          14.0,
+          0.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          0.05555555555555555,
+          0.6111111111111112,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.0,
+          0.5555555555555556,
+          0.4444444444444444,
+          0.0
+        ],
+        [
+          0.0,
+          0.2777777777777778,
+          0.7222222222222222,
+          0.0
+        ],
+        [
+          0.1111111111111111,
+          0.1111111111111111,
+          0.7777777777777778,
+          0.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cross_cp2_s123_to_cp3_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-06dfe3b",
+      "split_id": "train7-9-10-11-12_val8_test13-14-15-16-17-18",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.3333333333333333,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.33333333333333337,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.24394020766201216,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.5982510288065844,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 2.471841521646785,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          1,
+          12,
+          5,
+          0
+        ],
+        [
+          1,
+          11,
+          6,
+          0
+        ],
+        [
+          0,
+          6,
+          12,
+          0
+        ],
+        [
+          0,
+          10,
+          8,
+          0
+        ]
+      ],
+      "confusion_mean": [
+        [
+          1.0,
+          12.0,
+          5.0,
+          0.0
+        ],
+        [
+          1.0,
+          11.0,
+          6.0,
+          0.0
+        ],
+        [
+          0.0,
+          6.0,
+          12.0,
+          0.0
+        ],
+        [
+          0.0,
+          10.0,
+          8.0,
+          0.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          0.05555555555555555,
+          0.6666666666666666,
+          0.2777777777777778,
+          0.0
+        ],
+        [
+          0.05555555555555555,
+          0.6111111111111112,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.0,
+          0.3333333333333333,
+          0.6666666666666666,
+          0.0
+        ],
+        [
+          0.0,
+          0.5555555555555556,
+          0.4444444444444444,
+          0.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cross_cp2_s123_to_cp3_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-06dfe3b",
+      "split_id": "train8-9-10-11-12_val7_test13-14-15-16-17-18",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.2916666666666667,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.29166666666666663,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.21552634357512407,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.5972222222222222,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 2.936396167652817,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          1,
+          15,
+          2,
+          0
+        ],
+        [
+          0,
+          12,
+          6,
+          0
+        ],
+        [
+          2,
+          8,
+          8,
+          0
+        ],
+        [
+          1,
+          10,
+          7,
+          0
+        ]
+      ],
+      "confusion_mean": [
+        [
+          1.0,
+          15.0,
+          2.0,
+          0.0
+        ],
+        [
+          0.0,
+          12.0,
+          6.0,
+          0.0
+        ],
+        [
+          2.0,
+          8.0,
+          8.0,
+          0.0
+        ],
+        [
+          1.0,
+          10.0,
+          7.0,
+          0.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          0.05555555555555555,
+          0.8333333333333334,
+          0.1111111111111111,
+          0.0
+        ],
+        [
+          0.0,
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.1111111111111111,
+          0.4444444444444444,
+          0.4444444444444444,
+          0.0
+        ],
+        [
+          0.05555555555555555,
+          0.5555555555555556,
+          0.3888888888888889,
+          0.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "split",
+      "dataset_name": "cross_cp2_s123_to_cp3_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-06dfe3b",
+      "seed": 42,
+      "n_runs": 6,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.28703703703703703,
+      "accuracy_sd": 0.047844484010236346,
+      "balanced_accuracy_mean": 0.28703703703703703,
+      "balanced_accuracy_sd": 0.04784448401023636,
+      "f1_macro_mean": 0.19431046469132096,
+      "f1_macro_sd": 0.05183815730550072,
+      "roc_auc_macro_mean": 0.6099108367626886,
+      "roc_auc_macro_sd": 0.03918918161009219,
+      "test_loss_mean": 2.4786183281419834,
+      "test_loss_sd": 0.29383992369869144,
+      "confusion_sum": [
+        [
+          3,
+          55,
+          46,
+          4
+        ],
+        [
+          1,
+          43,
+          62,
+          2
+        ],
+        [
+          2,
+          32,
+          72,
+          2
+        ],
+        [
+          3,
+          32,
+          67,
+          6
+        ]
+      ],
+      "confusion_mean": [
+        [
+          0.5,
+          9.166666666666666,
+          7.666666666666667,
+          0.6666666666666666
+        ],
+        [
+          0.16666666666666666,
+          7.166666666666667,
+          10.333333333333334,
+          0.3333333333333333
+        ],
+        [
+          0.3333333333333333,
+          5.333333333333333,
+          12.0,
+          0.3333333333333333
+        ],
+        [
+          0.5,
+          5.333333333333333,
+          11.166666666666666,
+          1.0
+        ]
+      ],
+      "confusion_sd": [
+        [
+          0.5477225575051661,
+          6.177917664283546,
+          5.465040408511785,
+          1.632993161855452
+        ],
+        [
+          0.408248290463863,
+          5.269408568963566,
+          4.926120853842978,
+          0.816496580927726
+        ],
+        [
+          0.816496580927726,
+          3.9832984656772417,
+          3.847076812334269,
+          0.816496580927726
+        ],
+        [
+          0.8366600265340756,
+          4.501851470969102,
+          3.488074922742725,
+          2.449489742783178
+        ]
+      ],
+      "confusion_row_normalized": [
+        [
+          0.027777777777777776,
+          0.5092592592592593,
+          0.42592592592592593,
+          0.037037037037037035
+        ],
+        [
+          0.009259259259259259,
+          0.39814814814814814,
+          0.5740740740740741,
+          0.018518518518518517
+        ],
+        [
+          0.018518518518518517,
+          0.2962962962962963,
+          0.6666666666666666,
+          0.018518518518518517
+        ],
+        [
+          0.027777777777777776,
+          0.2962962962962963,
+          0.6203703703703703,
+          0.05555555555555555
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed+split",
+      "dataset_name": "cross_cp2_s123_to_cp3_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-06dfe3b",
+      "n_runs": 6,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.28703703703703703,
+      "accuracy_sd": 0.047844484010236346,
+      "balanced_accuracy_mean": 0.28703703703703703,
+      "balanced_accuracy_sd": 0.04784448401023636,
+      "f1_macro_mean": 0.19431046469132096,
+      "f1_macro_sd": 0.05183815730550072,
+      "roc_auc_macro_mean": 0.6099108367626886,
+      "roc_auc_macro_sd": 0.03918918161009219,
+      "test_loss_mean": 2.4786183281419834,
+      "test_loss_sd": 0.29383992369869144,
+      "confusion_sum": [
+        [
+          3,
+          55,
+          46,
+          4
+        ],
+        [
+          1,
+          43,
+          62,
+          2
+        ],
+        [
+          2,
+          32,
+          72,
+          2
+        ],
+        [
+          3,
+          32,
+          67,
+          6
+        ]
+      ],
+      "confusion_mean": [
+        [
+          0.5,
+          9.166666666666666,
+          7.666666666666667,
+          0.6666666666666666
+        ],
+        [
+          0.16666666666666666,
+          7.166666666666667,
+          10.333333333333334,
+          0.3333333333333333
+        ],
+        [
+          0.3333333333333333,
+          5.333333333333333,
+          12.0,
+          0.3333333333333333
+        ],
+        [
+          0.5,
+          5.333333333333333,
+          11.166666666666666,
+          1.0
+        ]
+      ],
+      "confusion_sd": [
+        [
+          0.5477225575051661,
+          6.177917664283546,
+          5.465040408511785,
+          1.632993161855452
+        ],
+        [
+          0.408248290463863,
+          5.269408568963566,
+          4.926120853842978,
+          0.816496580927726
+        ],
+        [
+          0.816496580927726,
+          3.9832984656772417,
+          3.847076812334269,
+          0.816496580927726
+        ],
+        [
+          0.8366600265340756,
+          4.501851470969102,
+          3.488074922742725,
+          2.449489742783178
+        ]
+      ],
+      "confusion_row_normalized": [
+        [
+          0.027777777777777776,
+          0.5092592592592593,
+          0.42592592592592593,
+          0.037037037037037035
+        ],
+        [
+          0.009259259259259259,
+          0.39814814814814814,
+          0.5740740740740741,
+          0.018518518518518517
+        ],
+        [
+          0.018518518518518517,
+          0.2962962962962963,
+          0.6666666666666666,
+          0.018518518518518517
+        ],
+        [
+          0.027777777777777776,
+          0.2962962962962963,
+          0.6203703703703703,
+          0.05555555555555555
+        ]
+      ]
+    }
+  ]
+}

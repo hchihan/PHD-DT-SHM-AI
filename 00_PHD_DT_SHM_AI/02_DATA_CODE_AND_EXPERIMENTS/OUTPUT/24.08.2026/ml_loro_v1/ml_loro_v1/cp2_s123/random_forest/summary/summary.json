@@ -1,0 +1,5241 @@
+{
+  "runs": [
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/random_forest/split_19_7-10-11-12-8-9/ml_seed42",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "seed": 42,
+      "split_id": "train7-10-11-12_val8_test9",
+      "split": {
+        "train_run_ids": [
+          7,
+          10,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          8
+        ],
+        "test_run_ids": [
+          9
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.1963651734143216
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/random_forest/split_20_7-10-11-12-9-8/ml_seed42",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "seed": 42,
+      "split_id": "train7-10-11-12_val9_test8",
+      "split": {
+        "train_run_ids": [
+          7,
+          10,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          9
+        ],
+        "test_run_ids": [
+          8
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.17371688332191726
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/random_forest/split_08_7-8-10-11-12-9/ml_seed42",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "seed": 42,
+      "split_id": "train7-8-10-11_val12_test9",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          10,
+          11
+        ],
+        "val_run_ids": [
+          12
+        ],
+        "test_run_ids": [
+          9
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.19155311759432114
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/random_forest/split_07_7-8-10-11-9-12/ml_seed42",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "seed": 42,
+      "split_id": "train7-8-10-11_val9_test12",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          10,
+          11
+        ],
+        "val_run_ids": [
+          9
+        ],
+        "test_run_ids": [
+          12
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.9166666666666666,
+      "balanced_accuracy": 0.9166666666666666,
+      "f1_macro": 0.9142857142857143,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.2678780056460605
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/random_forest/split_10_7-8-10-12-11-9/ml_seed42",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "seed": 42,
+      "split_id": "train7-8-10-12_val11_test9",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          10,
+          12
+        ],
+        "val_run_ids": [
+          11
+        ],
+        "test_run_ids": [
+          9
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.1936219526750915
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/random_forest/split_09_7-8-10-12-9-11/ml_seed42",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "seed": 42,
+      "split_id": "train7-8-10-12_val9_test11",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          10,
+          12
+        ],
+        "val_run_ids": [
+          9
+        ],
+        "test_run_ids": [
+          11
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.1740811894411168
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/random_forest/split_12_7-8-11-12-10-9/ml_seed42",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "seed": 42,
+      "split_id": "train7-8-11-12_val10_test9",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          10
+        ],
+        "test_run_ids": [
+          9
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.20429355931158216
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/random_forest/split_11_7-8-11-12-9-10/ml_seed42",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "seed": 42,
+      "split_id": "train7-8-11-12_val9_test10",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          9
+        ],
+        "test_run_ids": [
+          10
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.1537037877910272
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/random_forest/split_01_7-8-9-10-11-12/ml_seed42",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "seed": 42,
+      "split_id": "train7-8-9-10_val11_test12",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "val_run_ids": [
+          11
+        ],
+        "test_run_ids": [
+          12
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.9166666666666666,
+      "balanced_accuracy": 0.9166666666666666,
+      "f1_macro": 0.9142857142857143,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.28427565478146605
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/random_forest/split_02_7-8-9-10-12-11/ml_seed42",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "seed": 42,
+      "split_id": "train7-8-9-10_val12_test11",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "val_run_ids": [
+          12
+        ],
+        "test_run_ids": [
+          11
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.17740775961965533
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/random_forest/split_03_7-8-9-11-10-12/ml_seed42",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "seed": 42,
+      "split_id": "train7-8-9-11_val10_test12",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          9,
+          11
+        ],
+        "val_run_ids": [
+          10
+        ],
+        "test_run_ids": [
+          12
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.9166666666666666,
+      "balanced_accuracy": 0.9166666666666666,
+      "f1_macro": 0.9142857142857143,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.2737732916887592
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/random_forest/split_04_7-8-9-11-12-10/ml_seed42",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "seed": 42,
+      "split_id": "train7-8-9-11_val12_test10",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          9,
+          11
+        ],
+        "val_run_ids": [
+          12
+        ],
+        "test_run_ids": [
+          10
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.14627681294562886
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/random_forest/split_05_7-8-9-12-10-11/ml_seed42",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "seed": 42,
+      "split_id": "train7-8-9-12_val10_test11",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          9,
+          12
+        ],
+        "val_run_ids": [
+          10
+        ],
+        "test_run_ids": [
+          11
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.1752331551581403
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/random_forest/split_06_7-8-9-12-11-10/ml_seed42",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "seed": 42,
+      "split_id": "train7-8-9-12_val11_test10",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          9,
+          12
+        ],
+        "val_run_ids": [
+          11
+        ],
+        "test_run_ids": [
+          10
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.1550039044250095
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/random_forest/split_14_7-9-10-11-12-8/ml_seed42",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "seed": 42,
+      "split_id": "train7-9-10-11_val12_test8",
+      "split": {
+        "train_run_ids": [
+          7,
+          9,
+          10,
+          11
+        ],
+        "val_run_ids": [
+          12
+        ],
+        "test_run_ids": [
+          8
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.1673108379061097
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/random_forest/split_13_7-9-10-11-8-12/ml_seed42",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "seed": 42,
+      "split_id": "train7-9-10-11_val8_test12",
+      "split": {
+        "train_run_ids": [
+          7,
+          9,
+          10,
+          11
+        ],
+        "val_run_ids": [
+          8
+        ],
+        "test_run_ids": [
+          12
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.9166666666666666,
+      "balanced_accuracy": 0.9166666666666666,
+      "f1_macro": 0.9142857142857143,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.2798722012568286
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/random_forest/split_16_7-9-10-12-11-8/ml_seed42",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "seed": 42,
+      "split_id": "train7-9-10-12_val11_test8",
+      "split": {
+        "train_run_ids": [
+          7,
+          9,
+          10,
+          12
+        ],
+        "val_run_ids": [
+          11
+        ],
+        "test_run_ids": [
+          8
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.1635842224270041
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/random_forest/split_15_7-9-10-12-8-11/ml_seed42",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "seed": 42,
+      "split_id": "train7-9-10-12_val8_test11",
+      "split": {
+        "train_run_ids": [
+          7,
+          9,
+          10,
+          12
+        ],
+        "val_run_ids": [
+          8
+        ],
+        "test_run_ids": [
+          11
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.16202483828157252
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/random_forest/split_18_7-9-11-12-10-8/ml_seed42",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "seed": 42,
+      "split_id": "train7-9-11-12_val10_test8",
+      "split": {
+        "train_run_ids": [
+          7,
+          9,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          10
+        ],
+        "test_run_ids": [
+          8
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.1704233275046844
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/random_forest/split_17_7-9-11-12-8-10/ml_seed42",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "seed": 42,
+      "split_id": "train7-9-11-12_val8_test10",
+      "split": {
+        "train_run_ids": [
+          7,
+          9,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          8
+        ],
+        "test_run_ids": [
+          10
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.14405170103003914
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/random_forest/split_27_8-10-11-12-7-9/ml_seed42",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "seed": 42,
+      "split_id": "train8-10-11-12_val7_test9",
+      "split": {
+        "train_run_ids": [
+          8,
+          10,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          7
+        ],
+        "test_run_ids": [
+          9
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.18689000022843905
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/random_forest/split_28_8-10-11-12-9-7/ml_seed42",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "seed": 42,
+      "split_id": "train8-10-11-12_val9_test7",
+      "split": {
+        "train_run_ids": [
+          8,
+          10,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          9
+        ],
+        "test_run_ids": [
+          7
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.20857850554804513
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/random_forest/split_22_8-9-10-11-12-7/ml_seed42",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "seed": 42,
+      "split_id": "train8-9-10-11_val12_test7",
+      "split": {
+        "train_run_ids": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "val_run_ids": [
+          12
+        ],
+        "test_run_ids": [
+          7
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.21212206207351209
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/random_forest/split_21_8-9-10-11-7-12/ml_seed42",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "seed": 42,
+      "split_id": "train8-9-10-11_val7_test12",
+      "split": {
+        "train_run_ids": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "val_run_ids": [
+          7
+        ],
+        "test_run_ids": [
+          12
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.9166666666666666,
+      "balanced_accuracy": 0.9166666666666666,
+      "f1_macro": 0.9142857142857143,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.2774497537851667
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/random_forest/split_24_8-9-10-12-11-7/ml_seed42",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "seed": 42,
+      "split_id": "train8-9-10-12_val11_test7",
+      "split": {
+        "train_run_ids": [
+          8,
+          9,
+          10,
+          12
+        ],
+        "val_run_ids": [
+          11
+        ],
+        "test_run_ids": [
+          7
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.22031661300758215
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/random_forest/split_23_8-9-10-12-7-11/ml_seed42",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "seed": 42,
+      "split_id": "train8-9-10-12_val7_test11",
+      "split": {
+        "train_run_ids": [
+          8,
+          9,
+          10,
+          12
+        ],
+        "val_run_ids": [
+          7
+        ],
+        "test_run_ids": [
+          11
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.17211699463839603
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/random_forest/split_26_8-9-11-12-10-7/ml_seed42",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "seed": 42,
+      "split_id": "train8-9-11-12_val10_test7",
+      "split": {
+        "train_run_ids": [
+          8,
+          9,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          10
+        ],
+        "test_run_ids": [
+          7
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.219882013433272
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/random_forest/split_25_8-9-11-12-7-10/ml_seed42",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "seed": 42,
+      "split_id": "train8-9-11-12_val7_test10",
+      "split": {
+        "train_run_ids": [
+          8,
+          9,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          7
+        ],
+        "test_run_ids": [
+          10
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.1458851028201124
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/random_forest/split_29_9-10-11-12-7-8/ml_seed42",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "seed": 42,
+      "split_id": "train9-10-11-12_val7_test8",
+      "split": {
+        "train_run_ids": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          7
+        ],
+        "test_run_ids": [
+          8
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.21365614289852763
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/random_forest/split_30_9-10-11-12-8-7/ml_seed42",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "seed": 42,
+      "split_id": "train9-10-11-12_val8_test7",
+      "split": {
+        "train_run_ids": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          8
+        ],
+        "test_run_ids": [
+          7
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.2673910797292081
+    }
+  ],
+  "summary": [
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "split_id": "train7-10-11-12_val8_test9",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.1963651734143216,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "split_id": "train7-10-11-12_val9_test8",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.17371688332191726,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "split_id": "train7-8-10-11_val12_test9",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.19155311759432114,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "split_id": "train7-8-10-11_val9_test12",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.9166666666666666,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.9166666666666666,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.9142857142857143,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.2678780056460605,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "split_id": "train7-8-10-12_val11_test9",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.1936219526750915,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "split_id": "train7-8-10-12_val9_test11",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.1740811894411168,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "split_id": "train7-8-11-12_val10_test9",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.20429355931158216,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "split_id": "train7-8-11-12_val9_test10",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.1537037877910272,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "split_id": "train7-8-9-10_val11_test12",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.9166666666666666,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.9166666666666666,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.9142857142857143,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.28427565478146605,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "split_id": "train7-8-9-10_val12_test11",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.17740775961965533,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "split_id": "train7-8-9-11_val10_test12",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.9166666666666666,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.9166666666666666,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.9142857142857143,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.2737732916887592,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "split_id": "train7-8-9-11_val12_test10",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.14627681294562886,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "split_id": "train7-8-9-12_val10_test11",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.1752331551581403,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "split_id": "train7-8-9-12_val11_test10",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.1550039044250095,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "split_id": "train7-9-10-11_val12_test8",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.1673108379061097,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "split_id": "train7-9-10-11_val8_test12",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.9166666666666666,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.9166666666666666,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.9142857142857143,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.2798722012568286,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "split_id": "train7-9-10-12_val11_test8",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.1635842224270041,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "split_id": "train7-9-10-12_val8_test11",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.16202483828157252,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "split_id": "train7-9-11-12_val10_test8",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.1704233275046844,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "split_id": "train7-9-11-12_val8_test10",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.14405170103003914,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "split_id": "train8-10-11-12_val7_test9",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.18689000022843905,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "split_id": "train8-10-11-12_val9_test7",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.20857850554804513,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "split_id": "train8-9-10-11_val12_test7",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.21212206207351209,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "split_id": "train8-9-10-11_val7_test12",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.9166666666666666,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.9166666666666666,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.9142857142857143,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.2774497537851667,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "split_id": "train8-9-10-12_val11_test7",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.22031661300758215,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "split_id": "train8-9-10-12_val7_test11",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.17211699463839603,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "split_id": "train8-9-11-12_val10_test7",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.219882013433272,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "split_id": "train8-9-11-12_val7_test10",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.1458851028201124,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "split_id": "train9-10-11-12_val7_test8",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.21365614289852763,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "split_id": "train9-10-11-12_val8_test7",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.2673910797292081,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "split",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "seed": 42,
+      "n_runs": 30,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.986111111111111,
+      "accuracy_sd": 0.031587418482454326,
+      "balanced_accuracy_mean": 0.986111111111111,
+      "balanced_accuracy_sd": 0.031587418482454326,
+      "f1_macro_mean": 0.9857142857142858,
+      "f1_macro_sd": 0.032489916153381586,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": 0.0,
+      "test_loss_mean": 0.19929132147941994,
+      "test_loss_sd": 0.044207857422841654,
+      "confusion_sum": [
+        [
+          90,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          85,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          90,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          90
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.8333333333333335,
+          0.16666666666666666,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.3790490217894516,
+          0.3790490217894517,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.9444444444444444,
+          0.05555555555555555,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed+split",
+      "dataset_name": "cp2_s123_random_forest",
+      "model_name": "random_forest",
+      "version": "random_forest-536c3a4",
+      "n_runs": 30,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.986111111111111,
+      "accuracy_sd": 0.031587418482454326,
+      "balanced_accuracy_mean": 0.986111111111111,
+      "balanced_accuracy_sd": 0.031587418482454326,
+      "f1_macro_mean": 0.9857142857142858,
+      "f1_macro_sd": 0.032489916153381586,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": 0.0,
+      "test_loss_mean": 0.19929132147941994,
+      "test_loss_sd": 0.044207857422841654,
+      "confusion_sum": [
+        [
+          90,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          85,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          90,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          90
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.8333333333333335,
+          0.16666666666666666,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.3790490217894516,
+          0.3790490217894517,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.9444444444444444,
+          0.05555555555555555,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

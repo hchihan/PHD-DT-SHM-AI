@@ -1,0 +1,63 @@
+{
+  "dataset_name": "cp3_s123_hist_gradient_boosting",
+  "model_name": "hist_gradient_boosting",
+  "version": "hist_gradient_boosting-536c3a4",
+  "seed": 42,
+  "split_id": "train13-14-15-16_val18_test17",
+  "split": {
+    "train_run_ids": [
+      13,
+      14,
+      15,
+      16
+    ],
+    "val_run_ids": [
+      18
+    ],
+    "test_run_ids": [
+      17
+    ],
+    "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+    "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+    "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+    "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+  },
+  "classes": [
+    "Healthy",
+    "B1",
+    "B2",
+    "B3"
+  ],
+  "level": "recording",
+  "test_loss": 1.9470932346765428,
+  "accuracy": 0.5833333333333334,
+  "balanced_accuracy": 0.5833333333333333,
+  "f1_macro": 0.5861111111111111,
+  "roc_auc_macro": 0.7962962962962963,
+  "confusion": [
+    [
+      2,
+      1,
+      0,
+      0
+    ],
+    [
+      2,
+      1,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ]
+}

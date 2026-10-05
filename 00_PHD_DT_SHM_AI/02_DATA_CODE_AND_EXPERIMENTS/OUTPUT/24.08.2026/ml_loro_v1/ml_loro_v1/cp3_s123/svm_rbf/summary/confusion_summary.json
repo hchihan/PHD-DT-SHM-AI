@@ -1,0 +1,3347 @@
+[
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp3_s123_svm_rbf",
+    "model_name": "svm_rbf",
+    "version": "svm_rbf-536c3a4",
+    "split_id": "train13-14-15-16_val17_test18",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.4166666666666667,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.41666666666666663,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.43253968253968256,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 0.6574074074074074,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 1.8545447033880307,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        2,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        2,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        1,
+        1
+      ]
+    ],
+    "confusion_mean": [
+      [
+        2.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        2.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        0.6666666666666666,
+        0.0,
+        0.3333333333333333,
+        0.0
+      ],
+      [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333,
+        0.0
+      ],
+      [
+        0.6666666666666666,
+        0.0,
+        0.3333333333333333,
+        0.0
+      ],
+      [
+        0.3333333333333333,
+        0.0,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp3_s123_svm_rbf",
+    "model_name": "svm_rbf",
+    "version": "svm_rbf-536c3a4",
+    "split_id": "train13-14-15-16_val18_test17",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.5,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.5,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.5194444444444444,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 0.7407407407407407,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 1.6867759041272687,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        2,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        2,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        2
+      ]
+    ],
+    "confusion_mean": [
+      [
+        2.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        2.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        2.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        0.6666666666666666,
+        0.0,
+        0.3333333333333333,
+        0.0
+      ],
+      [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333,
+        0.0
+      ],
+      [
+        0.6666666666666666,
+        0.0,
+        0.3333333333333333,
+        0.0
+      ],
+      [
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.6666666666666666
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp3_s123_svm_rbf",
+    "model_name": "svm_rbf",
+    "version": "svm_rbf-536c3a4",
+    "split_id": "train13-14-15-17_val16_test18",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.75,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.7499999999999999,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.7541666666666667,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 0.8796296296296297,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 1.186383740922071,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        2,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2
+      ]
+    ],
+    "confusion_mean": [
+      [
+        2.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        2.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        2.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        0.6666666666666666,
+        0.0,
+        0.3333333333333333,
+        0.0
+      ],
+      [
+        0.3333333333333333,
+        0.6666666666666666,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.6666666666666666
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp3_s123_svm_rbf",
+    "model_name": "svm_rbf",
+    "version": "svm_rbf-536c3a4",
+    "split_id": "train13-14-15-17_val18_test16",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.4166666666666667,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.41666666666666663,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.45555555555555555,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 0.6388888888888888,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 1.884260639008127,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        2
+      ]
+    ],
+    "confusion_mean": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        2.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        2.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        2.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333,
+        0.0
+      ],
+      [
+        0.6666666666666666,
+        0.3333333333333333,
+        0.0,
+        0.0
+      ],
+      [
+        0.6666666666666666,
+        0.0,
+        0.3333333333333333,
+        0.0
+      ],
+      [
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.6666666666666666
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp3_s123_svm_rbf",
+    "model_name": "svm_rbf",
+    "version": "svm_rbf-536c3a4",
+    "split_id": "train13-14-15-18_val16_test17",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.6666666666666666,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.6666666666666666,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.6,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 0.9166666666666666,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 1.0745149792560185,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        2.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.3333333333333333,
+        0.0,
+        0.6666666666666666,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp3_s123_svm_rbf",
+    "model_name": "svm_rbf",
+    "version": "svm_rbf-536c3a4",
+    "split_id": "train13-14-15-18_val17_test16",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.3333333333333333,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.3333333333333333,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.375,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 0.6203703703703703,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 1.862020999210223,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        1,
+        2,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        2,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        1
+      ]
+    ],
+    "confusion_mean": [
+      [
+        1.0,
+        2.0,
+        0.0,
+        0.0
+      ],
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        2.0,
+        0.0
+      ],
+      [
+        2.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        0.3333333333333333,
+        0.6666666666666666,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.3333333333333333,
+        0.0,
+        0.6666666666666666,
+        0.0
+      ],
+      [
+        0.6666666666666666,
+        0.0,
+        0.0,
+        0.3333333333333333
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp3_s123_svm_rbf",
+    "model_name": "svm_rbf",
+    "version": "svm_rbf-536c3a4",
+    "split_id": "train13-14-16-17_val15_test18",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.75,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.7499999999999999,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.7267857142857144,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 0.9166666666666666,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 1.1475896996393533,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        2.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        2.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.6666666666666666,
+        0.3333333333333333,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.6666666666666666
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp3_s123_svm_rbf",
+    "model_name": "svm_rbf",
+    "version": "svm_rbf-536c3a4",
+    "split_id": "train13-14-16-17_val18_test15",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.8333333333333334,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.8333333333333334,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.8125,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 0.9814814814814814,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.8581305063612795,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        2.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp3_s123_svm_rbf",
+    "model_name": "svm_rbf",
+    "version": "svm_rbf-536c3a4",
+    "split_id": "train13-14-16-18_val15_test17",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.75,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.75,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.7595238095238095,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 0.9259259259259259,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.9697582593998457,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        2,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        2.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        2.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        2.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        0.6666666666666666,
+        0.3333333333333333,
+        0.0,
+        0.0
+      ],
+      [
+        0.3333333333333333,
+        0.6666666666666666,
+        0.0,
+        0.0
+      ],
+      [
+        0.3333333333333333,
+        0.0,
+        0.6666666666666666,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp3_s123_svm_rbf",
+    "model_name": "svm_rbf",
+    "version": "svm_rbf-536c3a4",
+    "split_id": "train13-14-16-18_val17_test15",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.75,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.75,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.7416666666666666,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 0.9814814814814814,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.9644605494630598,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        2.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        2.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.6666666666666666,
+        0.0,
+        0.3333333333333333
+      ],
+      [
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp3_s123_svm_rbf",
+    "model_name": "svm_rbf",
+    "version": "svm_rbf-536c3a4",
+    "split_id": "train13-14-17-18_val15_test16",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.5,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.5,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.4777777777777778,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 0.7222222222222223,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 1.5330843310717845,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        1,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        2
+      ]
+    ],
+    "confusion_mean": [
+      [
+        0.0,
+        2.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        2.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        2.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        2.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        0.0,
+        0.6666666666666666,
+        0.3333333333333333,
+        0.0
+      ],
+      [
+        0.3333333333333333,
+        0.6666666666666666,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.3333333333333333,
+        0.6666666666666666,
+        0.0
+      ],
+      [
+        0.0,
+        0.3333333333333333,
+        0.0,
+        0.6666666666666666
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp3_s123_svm_rbf",
+    "model_name": "svm_rbf",
+    "version": "svm_rbf-536c3a4",
+    "split_id": "train13-14-17-18_val16_test15",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.75,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.75,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.7595238095238095,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 0.9537037037037037,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.96108972998852,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        2,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        2.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        2.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        2.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        0.6666666666666666,
+        0.3333333333333333,
+        0.0,
+        0.0
+      ],
+      [
+        0.3333333333333333,
+        0.6666666666666666,
+        0.0,
+        0.0
+      ],
+      [
+        0.3333333333333333,
+        0.0,
+        0.6666666666666666,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp3_s123_svm_rbf",
+    "model_name": "svm_rbf",
+    "version": "svm_rbf-536c3a4",
+    "split_id": "train13-15-16-17_val14_test18",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.75,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.7499999999999999,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.7267857142857144,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 0.9074074074074074,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 1.1278414220514577,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        2.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        2.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.6666666666666666,
+        0.3333333333333333,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.6666666666666666
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp3_s123_svm_rbf",
+    "model_name": "svm_rbf",
+    "version": "svm_rbf-536c3a4",
+    "split_id": "train13-15-16-17_val18_test14",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.578923959984985,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp3_s123_svm_rbf",
+    "model_name": "svm_rbf",
+    "version": "svm_rbf-536c3a4",
+    "split_id": "train13-15-16-18_val14_test17",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.5833333333333334,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.5833333333333333,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.5861111111111111,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 0.8981481481481481,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.9827090765343501,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        2.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        2.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        2.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        0.6666666666666666,
+        0.3333333333333333,
+        0.0,
+        0.0
+      ],
+      [
+        0.6666666666666666,
+        0.3333333333333333,
+        0.0,
+        0.0
+      ],
+      [
+        0.6666666666666666,
+        0.0,
+        0.3333333333333333,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp3_s123_svm_rbf",
+    "model_name": "svm_rbf",
+    "version": "svm_rbf-536c3a4",
+    "split_id": "train13-15-16-18_val17_test14",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.9166666666666666,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.9166666666666666,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.9142857142857144,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.6855659806764566,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        2.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.6666666666666666
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp3_s123_svm_rbf",
+    "model_name": "svm_rbf",
+    "version": "svm_rbf-536c3a4",
+    "split_id": "train13-15-17-18_val14_test16",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.5,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.5,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.4861111111111111,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 0.6851851851851851,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 1.498331507576717,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        1,
+        2,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        2.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.3333333333333333,
+        0.6666666666666666,
+        0.0,
+        0.0
+      ],
+      [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp3_s123_svm_rbf",
+    "model_name": "svm_rbf",
+    "version": "svm_rbf-536c3a4",
+    "split_id": "train13-15-17-18_val16_test14",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.5111854861858964,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp3_s123_svm_rbf",
+    "model_name": "svm_rbf",
+    "version": "svm_rbf-536c3a4",
+    "split_id": "train13-16-17-18_val14_test15",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.5,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.5,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.4363636363636364,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 0.888888888888889,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 1.6307700089675763,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        0,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        0.0,
+        0.0,
+        1.0,
+        2.0
+      ],
+      [
+        0.0,
+        2.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        2.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      [
+        0.0,
+        0.6666666666666666,
+        0.0,
+        0.3333333333333333
+      ],
+      [
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp3_s123_svm_rbf",
+    "model_name": "svm_rbf",
+    "version": "svm_rbf-536c3a4",
+    "split_id": "train13-16-17-18_val15_test14",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.75,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.7499999999999999,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.7476190476190475,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 0.9259259259259258,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 1.1818752482546213,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        2,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        2
+      ]
+    ],
+    "confusion_mean": [
+      [
+        2.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        2.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        2.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        0.6666666666666666,
+        0.0,
+        0.0,
+        0.3333333333333333
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.3333333333333333,
+        0.6666666666666666,
+        0.0
+      ],
+      [
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.6666666666666666
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp3_s123_svm_rbf",
+    "model_name": "svm_rbf",
+    "version": "svm_rbf-536c3a4",
+    "split_id": "train14-15-16-17_val13_test18",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.75,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.7499999999999999,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.7267857142857144,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 0.9351851851851851,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 1.0985896248155744,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        2.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.6666666666666666
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp3_s123_svm_rbf",
+    "model_name": "svm_rbf",
+    "version": "svm_rbf-536c3a4",
+    "split_id": "train14-15-16-17_val18_test13",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.8333333333333334,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.8333333333333333,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.8035714285714286,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 0.9722222222222221,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.9276274814924078,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        0.3333333333333333,
+        0.0,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp3_s123_svm_rbf",
+    "model_name": "svm_rbf",
+    "version": "svm_rbf-536c3a4",
+    "split_id": "train14-15-16-18_val13_test17",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.75,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.75,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.75,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 0.8981481481481481,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.8924452331611821,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        2.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        2.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        2.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        0.6666666666666666,
+        0.3333333333333333,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.6666666666666666,
+        0.3333333333333333,
+        0.0
+      ],
+      [
+        0.3333333333333333,
+        0.0,
+        0.6666666666666666,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp3_s123_svm_rbf",
+    "model_name": "svm_rbf",
+    "version": "svm_rbf-536c3a4",
+    "split_id": "train14-15-16-18_val17_test13",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.75,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.75,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.7267857142857143,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 0.9814814814814814,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.9534993484312779,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      [
+        0.0,
+        2.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        0.3333333333333333,
+        0.0,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      [
+        0.0,
+        0.6666666666666666,
+        0.3333333333333333,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp3_s123_svm_rbf",
+    "model_name": "svm_rbf",
+    "version": "svm_rbf-536c3a4",
+    "split_id": "train14-15-17-18_val13_test16",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.5,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.5,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.475,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 0.7037037037037037,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 1.4271439547116613,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        1,
+        2,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        0.0,
+        2.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        2.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        0.0,
+        0.6666666666666666,
+        0.3333333333333333,
+        0.0
+      ],
+      [
+        0.3333333333333333,
+        0.6666666666666666,
+        0.0,
+        0.0
+      ],
+      [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp3_s123_svm_rbf",
+    "model_name": "svm_rbf",
+    "version": "svm_rbf-536c3a4",
+    "split_id": "train14-15-17-18_val16_test13",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.9166666666666666,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.9166666666666666,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.9142857142857143,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.7467956088572205,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        2,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        2.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        0.6666666666666666,
+        0.0,
+        0.0,
+        0.3333333333333333
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp3_s123_svm_rbf",
+    "model_name": "svm_rbf",
+    "version": "svm_rbf-536c3a4",
+    "split_id": "train14-16-17-18_val13_test15",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.5833333333333334,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.5833333333333333,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.5642857142857143,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 0.8703703703703703,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 1.3341634735521648,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        2,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        2.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        0.6666666666666666,
+        0.0,
+        0.3333333333333333,
+        0.0
+      ],
+      [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333,
+        0.0
+      ],
+      [
+        0.0,
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp3_s123_svm_rbf",
+    "model_name": "svm_rbf",
+    "version": "svm_rbf-536c3a4",
+    "split_id": "train14-16-17-18_val15_test13",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.5833333333333334,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.5833333333333333,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.5583333333333333,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 0.8888888888888888,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 1.3867502949603159,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        2
+      ]
+    ],
+    "confusion_mean": [
+      [
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0,
+        2.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        2.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        0.3333333333333333,
+        0.0,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      [
+        0.0,
+        0.3333333333333333,
+        0.6666666666666666,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.6666666666666666
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp3_s123_svm_rbf",
+    "model_name": "svm_rbf",
+    "version": "svm_rbf-536c3a4",
+    "split_id": "train15-16-17-18_val13_test14",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.8333333333333334,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.8333333333333333,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.8285714285714286,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 0.9629629629629629,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.9213531570066216,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        2,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        2.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        2.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        0.6666666666666666,
+        0.0,
+        0.0,
+        0.3333333333333333
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.3333333333333333,
+        0.6666666666666666,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp3_s123_svm_rbf",
+    "model_name": "svm_rbf",
+    "version": "svm_rbf-536c3a4",
+    "split_id": "train15-16-17-18_val14_test13",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.75,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.75,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.7202380952380952,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 0.8796296296296297,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 1.2030559708510515,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        2.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        0.3333333333333333,
+        0.0,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.3333333333333333,
+        0.6666666666666666,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "split",
+    "dataset_name": "cp3_s123_svm_rbf",
+    "model_name": "svm_rbf",
+    "version": "svm_rbf-536c3a4",
+    "seed": 42,
+    "n_runs": 30,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.6888888888888888,
+    "accuracy_sd": 0.17498403503166865,
+    "balanced_accuracy_mean": 0.6888888888888888,
+    "balanced_accuracy_sd": 0.17498403503166865,
+    "f1_macro_mean": 0.6793205868205868,
+    "f1_macro_sd": 0.17270236157038332,
+    "roc_auc_macro_mean": 0.8777777777777778,
+    "roc_auc_macro_sd": 0.11878561856433444,
+    "test_loss_mean": 1.1690413626635705,
+    "test_loss_sd": 0.3729970432191979,
+    "confusion_sum": [
+      [
+        55,
+        14,
+        12,
+        9
+      ],
+      [
+        24,
+        56,
+        8,
+        2
+      ],
+      [
+        15,
+        7,
+        61,
+        7
+      ],
+      [
+        7,
+        1,
+        6,
+        76
+      ]
+    ],
+    "confusion_mean": [
+      [
+        1.8333333333333333,
+        0.4666666666666667,
+        0.4,
+        0.3
+      ],
+      [
+        0.8,
+        1.8666666666666667,
+        0.26666666666666666,
+        0.06666666666666667
+      ],
+      [
+        0.5,
+        0.23333333333333334,
+        2.033333333333333,
+        0.23333333333333334
+      ],
+      [
+        0.23333333333333334,
+        0.03333333333333333,
+        0.2,
+        2.533333333333333
+      ]
+    ],
+    "confusion_sd": [
+      [
+        1.0199166069132668,
+        0.819307248726686,
+        0.49827287912243995,
+        0.5349830806219241
+      ],
+      [
+        0.924755326447544,
+        0.9371024061116423,
+        0.5208304597621879,
+        0.2537081317024625
+      ],
+      [
+        0.7310832774866962,
+        0.43018306715207627,
+        0.8502873077655143,
+        0.6260623155792924
+      ],
+      [
+        0.5040069329937306,
+        0.18257418583505527,
+        0.4068381021724863,
+        0.6288102248298566
+      ]
+    ],
+    "confusion_row_normalized": [
+      [
+        0.6111111111111112,
+        0.15555555555555556,
+        0.13333333333333333,
+        0.1
+      ],
+      [
+        0.26666666666666666,
+        0.6222222222222222,
+        0.08888888888888889,
+        0.022222222222222223
+      ],
+      [
+        0.16666666666666666,
+        0.07777777777777778,
+        0.6777777777777778,
+        0.07777777777777778
+      ],
+      [
+        0.07777777777777778,
+        0.011111111111111112,
+        0.06666666666666667,
+        0.8444444444444444
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed+split",
+    "dataset_name": "cp3_s123_svm_rbf",
+    "model_name": "svm_rbf",
+    "version": "svm_rbf-536c3a4",
+    "n_runs": 30,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.6888888888888888,
+    "accuracy_sd": 0.17498403503166865,
+    "balanced_accuracy_mean": 0.6888888888888888,
+    "balanced_accuracy_sd": 0.17498403503166865,
+    "f1_macro_mean": 0.6793205868205868,
+    "f1_macro_sd": 0.17270236157038332,
+    "roc_auc_macro_mean": 0.8777777777777778,
+    "roc_auc_macro_sd": 0.11878561856433444,
+    "test_loss_mean": 1.1690413626635705,
+    "test_loss_sd": 0.3729970432191979,
+    "confusion_sum": [
+      [
+        55,
+        14,
+        12,
+        9
+      ],
+      [
+        24,
+        56,
+        8,
+        2
+      ],
+      [
+        15,
+        7,
+        61,
+        7
+      ],
+      [
+        7,
+        1,
+        6,
+        76
+      ]
+    ],
+    "confusion_mean": [
+      [
+        1.8333333333333333,
+        0.4666666666666667,
+        0.4,
+        0.3
+      ],
+      [
+        0.8,
+        1.8666666666666667,
+        0.26666666666666666,
+        0.06666666666666667
+      ],
+      [
+        0.5,
+        0.23333333333333334,
+        2.033333333333333,
+        0.23333333333333334
+      ],
+      [
+        0.23333333333333334,
+        0.03333333333333333,
+        0.2,
+        2.533333333333333
+      ]
+    ],
+    "confusion_sd": [
+      [
+        1.0199166069132668,
+        0.819307248726686,
+        0.49827287912243995,
+        0.5349830806219241
+      ],
+      [
+        0.924755326447544,
+        0.9371024061116423,
+        0.5208304597621879,
+        0.2537081317024625
+      ],
+      [
+        0.7310832774866962,
+        0.43018306715207627,
+        0.8502873077655143,
+        0.6260623155792924
+      ],
+      [
+        0.5040069329937306,
+        0.18257418583505527,
+        0.4068381021724863,
+        0.6288102248298566
+      ]
+    ],
+    "confusion_row_normalized": [
+      [
+        0.6111111111111112,
+        0.15555555555555556,
+        0.13333333333333333,
+        0.1
+      ],
+      [
+        0.26666666666666666,
+        0.6222222222222222,
+        0.08888888888888889,
+        0.022222222222222223
+      ],
+      [
+        0.16666666666666666,
+        0.07777777777777778,
+        0.6777777777777778,
+        0.07777777777777778
+      ],
+      [
+        0.07777777777777778,
+        0.011111111111111112,
+        0.06666666666666667,
+        0.8444444444444444
+      ]
+    ]
+  }
+]

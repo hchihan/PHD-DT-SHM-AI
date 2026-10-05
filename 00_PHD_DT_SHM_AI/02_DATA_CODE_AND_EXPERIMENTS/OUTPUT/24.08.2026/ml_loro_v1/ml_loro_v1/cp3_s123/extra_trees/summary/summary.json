@@ -1,0 +1,5241 @@
+{
+  "runs": [
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp3_s123/extra_trees/split_01_13-14-15-16-17-18/ml_seed42",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "seed": 42,
+      "split_id": "train13-14-15-16_val17_test18",
+      "split": {
+        "train_run_ids": [
+          13,
+          14,
+          15,
+          16
+        ],
+        "val_run_ids": [
+          17
+        ],
+        "test_run_ids": [
+          18
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.5833333333333334,
+      "balanced_accuracy": 0.5833333333333333,
+      "f1_macro": 0.5113636363636364,
+      "roc_auc_macro": 0.8425925925925926,
+      "test_loss": 1.119583356609742
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp3_s123/extra_trees/split_02_13-14-15-16-18-17/ml_seed42",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "seed": 42,
+      "split_id": "train13-14-15-16_val18_test17",
+      "split": {
+        "train_run_ids": [
+          13,
+          14,
+          15,
+          16
+        ],
+        "val_run_ids": [
+          18
+        ],
+        "test_run_ids": [
+          17
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "f1_macro": 0.45,
+      "roc_auc_macro": 0.8148148148148148,
+      "test_loss": 1.1074320746509934
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp3_s123/extra_trees/split_03_13-14-15-17-16-18/ml_seed42",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "seed": 42,
+      "split_id": "train13-14-15-17_val16_test18",
+      "split": {
+        "train_run_ids": [
+          13,
+          14,
+          15,
+          17
+        ],
+        "val_run_ids": [
+          16
+        ],
+        "test_run_ids": [
+          18
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.75,
+      "balanced_accuracy": 0.75,
+      "f1_macro": 0.7416666666666667,
+      "roc_auc_macro": 0.9259259259259259,
+      "test_loss": 0.974954323398642
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp3_s123/extra_trees/split_04_13-14-15-17-18-16/ml_seed42",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "seed": 42,
+      "split_id": "train13-14-15-17_val18_test16",
+      "split": {
+        "train_run_ids": [
+          13,
+          14,
+          15,
+          17
+        ],
+        "val_run_ids": [
+          18
+        ],
+        "test_run_ids": [
+          16
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "f1_macro": 0.375,
+      "roc_auc_macro": 0.7962962962962963,
+      "test_loss": 1.1525188326844311
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp3_s123/extra_trees/split_05_13-14-15-18-16-17/ml_seed42",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "seed": 42,
+      "split_id": "train13-14-15-18_val16_test17",
+      "split": {
+        "train_run_ids": [
+          13,
+          14,
+          15,
+          18
+        ],
+        "val_run_ids": [
+          16
+        ],
+        "test_run_ids": [
+          17
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.5833333333333334,
+      "balanced_accuracy": 0.5833333333333333,
+      "f1_macro": 0.5113636363636364,
+      "roc_auc_macro": 0.9351851851851851,
+      "test_loss": 0.9715843523020997
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp3_s123/extra_trees/split_06_13-14-15-18-17-16/ml_seed42",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "seed": 42,
+      "split_id": "train13-14-15-18_val17_test16",
+      "split": {
+        "train_run_ids": [
+          13,
+          14,
+          15,
+          18
+        ],
+        "val_run_ids": [
+          17
+        ],
+        "test_run_ids": [
+          16
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.5833333333333334,
+      "balanced_accuracy": 0.5833333333333333,
+      "f1_macro": 0.5113636363636364,
+      "roc_auc_macro": 0.712962962962963,
+      "test_loss": 1.1628819151761536
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp3_s123/extra_trees/split_07_13-14-16-17-15-18/ml_seed42",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "seed": 42,
+      "split_id": "train13-14-16-17_val15_test18",
+      "split": {
+        "train_run_ids": [
+          13,
+          14,
+          16,
+          17
+        ],
+        "val_run_ids": [
+          15
+        ],
+        "test_run_ids": [
+          18
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.75,
+      "balanced_accuracy": 0.75,
+      "f1_macro": 0.6666666666666666,
+      "roc_auc_macro": 0.9444444444444444,
+      "test_loss": 0.8911045258651226
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp3_s123/extra_trees/split_08_13-14-16-17-18-15/ml_seed42",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "seed": 42,
+      "split_id": "train13-14-16-17_val18_test15",
+      "split": {
+        "train_run_ids": [
+          13,
+          14,
+          16,
+          17
+        ],
+        "val_run_ids": [
+          18
+        ],
+        "test_run_ids": [
+          15
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.6446180993812035
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp3_s123/extra_trees/split_09_13-14-16-18-15-17/ml_seed42",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "seed": 42,
+      "split_id": "train13-14-16-18_val15_test17",
+      "split": {
+        "train_run_ids": [
+          13,
+          14,
+          16,
+          18
+        ],
+        "val_run_ids": [
+          15
+        ],
+        "test_run_ids": [
+          17
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.75,
+      "balanced_accuracy": 0.75,
+      "f1_macro": 0.7595238095238095,
+      "roc_auc_macro": 0.9351851851851851,
+      "test_loss": 0.858896550783619
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp3_s123/extra_trees/split_10_13-14-16-18-17-15/ml_seed42",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "seed": 42,
+      "split_id": "train13-14-16-18_val17_test15",
+      "split": {
+        "train_run_ids": [
+          13,
+          14,
+          16,
+          18
+        ],
+        "val_run_ids": [
+          17
+        ],
+        "test_run_ids": [
+          15
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.6259604717963098
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp3_s123/extra_trees/split_11_13-14-17-18-15-16/ml_seed42",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "seed": 42,
+      "split_id": "train13-14-17-18_val15_test16",
+      "split": {
+        "train_run_ids": [
+          13,
+          14,
+          17,
+          18
+        ],
+        "val_run_ids": [
+          15
+        ],
+        "test_run_ids": [
+          16
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.6666666666666666,
+      "balanced_accuracy": 0.6666666666666666,
+      "f1_macro": 0.6,
+      "roc_auc_macro": 0.8796296296296297,
+      "test_loss": 1.0024878111112736
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp3_s123/extra_trees/split_12_13-14-17-18-16-15/ml_seed42",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "seed": 42,
+      "split_id": "train13-14-17-18_val16_test15",
+      "split": {
+        "train_run_ids": [
+          13,
+          14,
+          17,
+          18
+        ],
+        "val_run_ids": [
+          16
+        ],
+        "test_run_ids": [
+          15
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.6081212531292336
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp3_s123/extra_trees/split_13_13-15-16-17-14-18/ml_seed42",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "seed": 42,
+      "split_id": "train13-15-16-17_val14_test18",
+      "split": {
+        "train_run_ids": [
+          13,
+          15,
+          16,
+          17
+        ],
+        "val_run_ids": [
+          14
+        ],
+        "test_run_ids": [
+          18
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.8333333333333334,
+      "balanced_accuracy": 0.8333333333333333,
+      "f1_macro": 0.8125,
+      "roc_auc_macro": 0.9629629629629629,
+      "test_loss": 0.8796517657900625
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp3_s123/extra_trees/split_14_13-15-16-17-18-14/ml_seed42",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "seed": 42,
+      "split_id": "train13-15-16-17_val18_test14",
+      "split": {
+        "train_run_ids": [
+          13,
+          15,
+          16,
+          17
+        ],
+        "val_run_ids": [
+          18
+        ],
+        "test_run_ids": [
+          14
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.588616788692848
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp3_s123/extra_trees/split_15_13-15-16-18-14-17/ml_seed42",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "seed": 42,
+      "split_id": "train13-15-16-18_val14_test17",
+      "split": {
+        "train_run_ids": [
+          13,
+          15,
+          16,
+          18
+        ],
+        "val_run_ids": [
+          14
+        ],
+        "test_run_ids": [
+          17
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.8333333333333334,
+      "balanced_accuracy": 0.8333333333333333,
+      "f1_macro": 0.8333333333333333,
+      "roc_auc_macro": 0.9351851851851851,
+      "test_loss": 0.8626191995418763
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp3_s123/extra_trees/split_16_13-15-16-18-17-14/ml_seed42",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "seed": 42,
+      "split_id": "train13-15-16-18_val17_test14",
+      "split": {
+        "train_run_ids": [
+          13,
+          15,
+          16,
+          18
+        ],
+        "val_run_ids": [
+          17
+        ],
+        "test_run_ids": [
+          14
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.6049203882360498
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp3_s123/extra_trees/split_17_13-15-17-18-14-16/ml_seed42",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "seed": 42,
+      "split_id": "train13-15-17-18_val14_test16",
+      "split": {
+        "train_run_ids": [
+          13,
+          15,
+          17,
+          18
+        ],
+        "val_run_ids": [
+          14
+        ],
+        "test_run_ids": [
+          16
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.6666666666666666,
+      "balanced_accuracy": 0.6666666666666666,
+      "f1_macro": 0.6,
+      "roc_auc_macro": 0.8796296296296297,
+      "test_loss": 1.0182595011455866
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp3_s123/extra_trees/split_18_13-15-17-18-16-14/ml_seed42",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "seed": 42,
+      "split_id": "train13-15-17-18_val16_test14",
+      "split": {
+        "train_run_ids": [
+          13,
+          15,
+          17,
+          18
+        ],
+        "val_run_ids": [
+          16
+        ],
+        "test_run_ids": [
+          14
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.6063543398779327
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp3_s123/extra_trees/split_19_13-16-17-18-14-15/ml_seed42",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "seed": 42,
+      "split_id": "train13-16-17-18_val14_test15",
+      "split": {
+        "train_run_ids": [
+          13,
+          16,
+          17,
+          18
+        ],
+        "val_run_ids": [
+          14
+        ],
+        "test_run_ids": [
+          15
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.9166666666666666,
+      "balanced_accuracy": 0.9166666666666666,
+      "f1_macro": 0.9142857142857143,
+      "roc_auc_macro": 0.9907407407407407,
+      "test_loss": 0.8475748711324479
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp3_s123/extra_trees/split_20_13-16-17-18-15-14/ml_seed42",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "seed": 42,
+      "split_id": "train13-16-17-18_val15_test14",
+      "split": {
+        "train_run_ids": [
+          13,
+          16,
+          17,
+          18
+        ],
+        "val_run_ids": [
+          15
+        ],
+        "test_run_ids": [
+          14
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.826217444977795
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp3_s123/extra_trees/split_21_14-15-16-17-13-18/ml_seed42",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "seed": 42,
+      "split_id": "train14-15-16-17_val13_test18",
+      "split": {
+        "train_run_ids": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "val_run_ids": [
+          13
+        ],
+        "test_run_ids": [
+          18
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.75,
+      "balanced_accuracy": 0.75,
+      "f1_macro": 0.6666666666666666,
+      "roc_auc_macro": 0.9444444444444444,
+      "test_loss": 0.876544398239388
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp3_s123/extra_trees/split_22_14-15-16-17-18-13/ml_seed42",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "seed": 42,
+      "split_id": "train14-15-16-17_val18_test13",
+      "split": {
+        "train_run_ids": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "val_run_ids": [
+          18
+        ],
+        "test_run_ids": [
+          13
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.6440524579899971
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp3_s123/extra_trees/split_23_14-15-16-18-13-17/ml_seed42",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "seed": 42,
+      "split_id": "train14-15-16-18_val13_test17",
+      "split": {
+        "train_run_ids": [
+          14,
+          15,
+          16,
+          18
+        ],
+        "val_run_ids": [
+          13
+        ],
+        "test_run_ids": [
+          17
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.75,
+      "balanced_accuracy": 0.75,
+      "f1_macro": 0.7428571428571429,
+      "roc_auc_macro": 0.9259259259259259,
+      "test_loss": 0.866442161695422
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp3_s123/extra_trees/split_24_14-15-16-18-17-13/ml_seed42",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "seed": 42,
+      "split_id": "train14-15-16-18_val17_test13",
+      "split": {
+        "train_run_ids": [
+          14,
+          15,
+          16,
+          18
+        ],
+        "val_run_ids": [
+          17
+        ],
+        "test_run_ids": [
+          13
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.6547635734081865
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp3_s123/extra_trees/split_25_14-15-17-18-13-16/ml_seed42",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "seed": 42,
+      "split_id": "train14-15-17-18_val13_test16",
+      "split": {
+        "train_run_ids": [
+          14,
+          15,
+          17,
+          18
+        ],
+        "val_run_ids": [
+          13
+        ],
+        "test_run_ids": [
+          16
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.6666666666666666,
+      "balanced_accuracy": 0.6666666666666666,
+      "f1_macro": 0.6,
+      "roc_auc_macro": 0.888888888888889,
+      "test_loss": 0.9937470405200961
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp3_s123/extra_trees/split_26_14-15-17-18-16-13/ml_seed42",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "seed": 42,
+      "split_id": "train14-15-17-18_val16_test13",
+      "split": {
+        "train_run_ids": [
+          14,
+          15,
+          17,
+          18
+        ],
+        "val_run_ids": [
+          16
+        ],
+        "test_run_ids": [
+          13
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.6340448945216688
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp3_s123/extra_trees/split_27_14-16-17-18-13-15/ml_seed42",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "seed": 42,
+      "split_id": "train14-16-17-18_val13_test15",
+      "split": {
+        "train_run_ids": [
+          14,
+          16,
+          17,
+          18
+        ],
+        "val_run_ids": [
+          13
+        ],
+        "test_run_ids": [
+          15
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 0.9907407407407407,
+      "test_loss": 0.8377227749234174
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp3_s123/extra_trees/split_28_14-16-17-18-15-13/ml_seed42",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "seed": 42,
+      "split_id": "train14-16-17-18_val15_test13",
+      "split": {
+        "train_run_ids": [
+          14,
+          16,
+          17,
+          18
+        ],
+        "val_run_ids": [
+          15
+        ],
+        "test_run_ids": [
+          13
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.8445839730551891
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp3_s123/extra_trees/split_29_15-16-17-18-13-14/ml_seed42",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "seed": 42,
+      "split_id": "train15-16-17-18_val13_test14",
+      "split": {
+        "train_run_ids": [
+          15,
+          16,
+          17,
+          18
+        ],
+        "val_run_ids": [
+          13
+        ],
+        "test_run_ids": [
+          14
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.7774998653574535
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp3_s123/extra_trees/split_30_15-16-17-18-14-13/ml_seed42",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "seed": 42,
+      "split_id": "train15-16-17-18_val14_test13",
+      "split": {
+        "train_run_ids": [
+          15,
+          16,
+          17,
+          18
+        ],
+        "val_run_ids": [
+          14
+        ],
+        "test_run_ids": [
+          13
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.9166666666666666,
+      "balanced_accuracy": 0.9166666666666666,
+      "f1_macro": 0.9142857142857143,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.8376164847805593
+    }
+  ],
+  "summary": [
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "split_id": "train13-14-15-16_val17_test18",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.5833333333333334,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.5833333333333333,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.5113636363636364,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.8425925925925926,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 1.119583356609742,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          2.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.6666666666666666,
+          0.0,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "split_id": "train13-14-15-16_val18_test17",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.5,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.5,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.45,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.8148148148148148,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 1.1074320746509934,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          2.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          2.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0,
+          0.0
+        ],
+        [
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "split_id": "train13-14-15-17_val16_test18",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.75,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.75,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.7416666666666667,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.9259259259259259,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.974954323398642,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          2.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          2.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0,
+          0.0
+        ],
+        [
+          0.3333333333333333,
+          0.0,
+          0.6666666666666666,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "split_id": "train13-14-15-17_val18_test16",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.5,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.5,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.375,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.7962962962962963,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 1.1525188326844311,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "split_id": "train13-14-15-18_val16_test17",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.5833333333333334,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.5833333333333333,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.5113636363636364,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.9351851851851851,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.9715843523020997,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          2.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.6666666666666666,
+          0.0,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "split_id": "train13-14-15-18_val17_test16",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.5833333333333334,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.5833333333333333,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.5113636363636364,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.712962962962963,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 1.1628819151761536,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          2.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.6666666666666666,
+          0.0,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "split_id": "train13-14-16-17_val15_test18",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.75,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.75,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.6666666666666666,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.9444444444444444,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.8911045258651226,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "split_id": "train13-14-16-17_val18_test15",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.6446180993812035,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "split_id": "train13-14-16-18_val15_test17",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.75,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.75,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.7595238095238095,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.9351851851851851,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.858896550783619,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          2.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          2.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          2.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0,
+          0.0
+        ],
+        [
+          0.3333333333333333,
+          0.6666666666666666,
+          0.0,
+          0.0
+        ],
+        [
+          0.3333333333333333,
+          0.0,
+          0.6666666666666666,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "split_id": "train13-14-16-18_val17_test15",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.6259604717963098,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "split_id": "train13-14-17-18_val15_test16",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.6666666666666666,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.6666666666666666,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.6,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.8796296296296297,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 1.0024878111112736,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          2.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.3333333333333333,
+          0.0,
+          0.6666666666666666,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "split_id": "train13-14-17-18_val16_test15",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.6081212531292336,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "split_id": "train13-15-16-17_val14_test18",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.8333333333333334,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.8333333333333333,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.8125,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.9629629629629629,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.8796517657900625,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          2.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "split_id": "train13-15-16-17_val18_test14",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.588616788692848,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "split_id": "train13-15-16-18_val14_test17",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.8333333333333334,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.8333333333333333,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.8333333333333333,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.9351851851851851,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.8626191995418763,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          2.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          2.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0,
+          0.0
+        ],
+        [
+          0.3333333333333333,
+          0.6666666666666666,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "split_id": "train13-15-16-18_val17_test14",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.6049203882360498,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "split_id": "train13-15-17-18_val14_test16",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.6666666666666666,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.6666666666666666,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.6,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.8796296296296297,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 1.0182595011455866,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          2.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.3333333333333333,
+          0.0,
+          0.6666666666666666,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "split_id": "train13-15-17-18_val16_test14",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.6063543398779327,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "split_id": "train13-16-17-18_val14_test15",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.9166666666666666,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.9166666666666666,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.9142857142857143,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.9907407407407407,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.8475748711324479,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          2.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          0.6666666666666666,
+          0.0,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "split_id": "train13-16-17-18_val15_test14",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.826217444977795,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "split_id": "train14-15-16-17_val13_test18",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.75,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.75,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.6666666666666666,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.9444444444444444,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.876544398239388,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "split_id": "train14-15-16-17_val18_test13",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.6440524579899971,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "split_id": "train14-15-16-18_val13_test17",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.75,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.75,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.7428571428571429,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.9259259259259259,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.866442161695422,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          2.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          2.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0,
+          0.0
+        ],
+        [
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "split_id": "train14-15-16-18_val17_test13",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.6547635734081865,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "split_id": "train14-15-17-18_val13_test16",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.6666666666666666,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.6666666666666666,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.6,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.888888888888889,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.9937470405200961,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          2.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.3333333333333333,
+          0.0,
+          0.6666666666666666,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "split_id": "train14-15-17-18_val16_test13",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.6340448945216688,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "split_id": "train14-16-17-18_val13_test15",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.9907407407407407,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.8377227749234174,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "split_id": "train14-16-17-18_val15_test13",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.8445839730551891,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "split_id": "train15-16-17-18_val13_test14",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.7774998653574535,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "split_id": "train15-16-17-18_val14_test13",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.9166666666666666,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.9166666666666666,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.9142857142857143,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.8376164847805593,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          2.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          0.6666666666666666,
+          0.0,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "split",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "seed": 42,
+      "n_runs": 30,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.8333333333333334,
+      "accuracy_sd": 0.17643771762079025,
+      "balanced_accuracy_mean": 0.8333333333333334,
+      "balanced_accuracy_sd": 0.17643771762079025,
+      "f1_macro_mean": 0.8070292207792208,
+      "f1_macro_sd": 0.2086762320156084,
+      "roc_auc_macro_mean": 0.9435185185185184,
+      "roc_auc_macro_sd": 0.07424748221010909,
+      "test_loss_mean": 0.8440458496924933,
+      "test_loss_sd": 0.17671911655573136,
+      "confusion_sum": [
+        [
+          84,
+          4,
+          2,
+          0
+        ],
+        [
+          37,
+          53,
+          0,
+          0
+        ],
+        [
+          17,
+          0,
+          73,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          90
+        ]
+      ],
+      "confusion_mean": [
+        [
+          2.8,
+          0.13333333333333333,
+          0.06666666666666667,
+          0.0
+        ],
+        [
+          1.2333333333333334,
+          1.7666666666666666,
+          0.0,
+          0.0
+        ],
+        [
+          0.5666666666666667,
+          0.0,
+          2.433333333333333,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": [
+        [
+          0.40683810217248617,
+          0.3457459036417605,
+          0.2537081317024625,
+          0.0
+        ],
+        [
+          1.3565507307349296,
+          1.3565507307349296,
+          0.0,
+          0.0
+        ],
+        [
+          0.935260735665815,
+          0.0,
+          0.9352607356658148,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "confusion_row_normalized": [
+        [
+          0.9333333333333333,
+          0.044444444444444446,
+          0.022222222222222223,
+          0.0
+        ],
+        [
+          0.4111111111111111,
+          0.5888888888888889,
+          0.0,
+          0.0
+        ],
+        [
+          0.18888888888888888,
+          0.0,
+          0.8111111111111111,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed+split",
+      "dataset_name": "cp3_s123_extra_trees",
+      "model_name": "extra_trees",
+      "version": "extra_trees-536c3a4",
+      "n_runs": 30,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.8333333333333334,
+      "accuracy_sd": 0.17643771762079025,
+      "balanced_accuracy_mean": 0.8333333333333334,
+      "balanced_accuracy_sd": 0.17643771762079025,
+      "f1_macro_mean": 0.8070292207792208,
+      "f1_macro_sd": 0.2086762320156084,
+      "roc_auc_macro_mean": 0.9435185185185184,
+      "roc_auc_macro_sd": 0.07424748221010909,
+      "test_loss_mean": 0.8440458496924933,
+      "test_loss_sd": 0.17671911655573136,
+      "confusion_sum": [
+        [
+          84,
+          4,
+          2,
+          0
+        ],
+        [
+          37,
+          53,
+          0,
+          0
+        ],
+        [
+          17,
+          0,
+          73,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          90
+        ]
+      ],
+      "confusion_mean": [
+        [
+          2.8,
+          0.13333333333333333,
+          0.06666666666666667,
+          0.0
+        ],
+        [
+          1.2333333333333334,
+          1.7666666666666666,
+          0.0,
+          0.0
+        ],
+        [
+          0.5666666666666667,
+          0.0,
+          2.433333333333333,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": [
+        [
+          0.40683810217248617,
+          0.3457459036417605,
+          0.2537081317024625,
+          0.0
+        ],
+        [
+          1.3565507307349296,
+          1.3565507307349296,
+          0.0,
+          0.0
+        ],
+        [
+          0.935260735665815,
+          0.0,
+          0.9352607356658148,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "confusion_row_normalized": [
+        [
+          0.9333333333333333,
+          0.044444444444444446,
+          0.022222222222222223,
+          0.0
+        ],
+        [
+          0.4111111111111111,
+          0.5888888888888889,
+          0.0,
+          0.0
+        ],
+        [
+          0.18888888888888888,
+          0.0,
+          0.8111111111111111,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

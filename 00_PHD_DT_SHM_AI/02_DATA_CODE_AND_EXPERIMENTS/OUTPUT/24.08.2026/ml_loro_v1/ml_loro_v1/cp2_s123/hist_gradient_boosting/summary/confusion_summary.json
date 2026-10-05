@@ -1,0 +1,3347 @@
+[
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp2_s123_hist_gradient_boosting",
+    "model_name": "hist_gradient_boosting",
+    "version": "hist_gradient_boosting-536c3a4",
+    "split_id": "train7-10-11-12_val8_test9",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.09316886464421442,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp2_s123_hist_gradient_boosting",
+    "model_name": "hist_gradient_boosting",
+    "version": "hist_gradient_boosting-536c3a4",
+    "split_id": "train7-10-11-12_val9_test8",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.013319293600993645,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp2_s123_hist_gradient_boosting",
+    "model_name": "hist_gradient_boosting",
+    "version": "hist_gradient_boosting-536c3a4",
+    "split_id": "train7-8-10-11_val12_test9",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.06721107235314128,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp2_s123_hist_gradient_boosting",
+    "model_name": "hist_gradient_boosting",
+    "version": "hist_gradient_boosting-536c3a4",
+    "split_id": "train7-8-10-11_val9_test12",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.9166666666666666,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.9166666666666666,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.9142857142857143,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 0.9814814814814815,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.4704955508058062,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        2.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.6666666666666666,
+        0.3333333333333333,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp2_s123_hist_gradient_boosting",
+    "model_name": "hist_gradient_boosting",
+    "version": "hist_gradient_boosting-536c3a4",
+    "split_id": "train7-8-10-12_val11_test9",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.1255300480462571,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp2_s123_hist_gradient_boosting",
+    "model_name": "hist_gradient_boosting",
+    "version": "hist_gradient_boosting-536c3a4",
+    "split_id": "train7-8-10-12_val9_test11",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.03683366946193783,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp2_s123_hist_gradient_boosting",
+    "model_name": "hist_gradient_boosting",
+    "version": "hist_gradient_boosting-536c3a4",
+    "split_id": "train7-8-11-12_val10_test9",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.07813296762200658,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp2_s123_hist_gradient_boosting",
+    "model_name": "hist_gradient_boosting",
+    "version": "hist_gradient_boosting-536c3a4",
+    "split_id": "train7-8-11-12_val9_test10",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.03686849496912812,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp2_s123_hist_gradient_boosting",
+    "model_name": "hist_gradient_boosting",
+    "version": "hist_gradient_boosting-536c3a4",
+    "split_id": "train7-8-9-10_val11_test12",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.9166666666666666,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.9166666666666666,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.9142857142857143,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 0.962962962962963,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.5590729551120754,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        2.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.6666666666666666,
+        0.3333333333333333,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp2_s123_hist_gradient_boosting",
+    "model_name": "hist_gradient_boosting",
+    "version": "hist_gradient_boosting-536c3a4",
+    "split_id": "train7-8-9-10_val12_test11",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.02299416737616372,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp2_s123_hist_gradient_boosting",
+    "model_name": "hist_gradient_boosting",
+    "version": "hist_gradient_boosting-536c3a4",
+    "split_id": "train7-8-9-11_val10_test12",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.9166666666666666,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.9166666666666666,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.9142857142857143,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 0.9907407407407407,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.5623512710762443,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        2.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.6666666666666666,
+        0.3333333333333333,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp2_s123_hist_gradient_boosting",
+    "model_name": "hist_gradient_boosting",
+    "version": "hist_gradient_boosting-536c3a4",
+    "split_id": "train7-8-9-11_val12_test10",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.012920517694588407,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp2_s123_hist_gradient_boosting",
+    "model_name": "hist_gradient_boosting",
+    "version": "hist_gradient_boosting-536c3a4",
+    "split_id": "train7-8-9-12_val10_test11",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.016620707451221538,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp2_s123_hist_gradient_boosting",
+    "model_name": "hist_gradient_boosting",
+    "version": "hist_gradient_boosting-536c3a4",
+    "split_id": "train7-8-9-12_val11_test10",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.022499596577002706,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp2_s123_hist_gradient_boosting",
+    "model_name": "hist_gradient_boosting",
+    "version": "hist_gradient_boosting-536c3a4",
+    "split_id": "train7-9-10-11_val12_test8",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.027865733131892105,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp2_s123_hist_gradient_boosting",
+    "model_name": "hist_gradient_boosting",
+    "version": "hist_gradient_boosting-536c3a4",
+    "split_id": "train7-9-10-11_val8_test12",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.9166666666666666,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.9166666666666666,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.9142857142857143,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 0.9722222222222222,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.5150077302162082,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        2.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.6666666666666666,
+        0.3333333333333333,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp2_s123_hist_gradient_boosting",
+    "model_name": "hist_gradient_boosting",
+    "version": "hist_gradient_boosting-536c3a4",
+    "split_id": "train7-9-10-12_val11_test8",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.020301198096124597,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp2_s123_hist_gradient_boosting",
+    "model_name": "hist_gradient_boosting",
+    "version": "hist_gradient_boosting-536c3a4",
+    "split_id": "train7-9-10-12_val8_test11",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.015064501787834283,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp2_s123_hist_gradient_boosting",
+    "model_name": "hist_gradient_boosting",
+    "version": "hist_gradient_boosting-536c3a4",
+    "split_id": "train7-9-11-12_val10_test8",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.023934031468164977,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp2_s123_hist_gradient_boosting",
+    "model_name": "hist_gradient_boosting",
+    "version": "hist_gradient_boosting-536c3a4",
+    "split_id": "train7-9-11-12_val8_test10",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.018707580008650117,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp2_s123_hist_gradient_boosting",
+    "model_name": "hist_gradient_boosting",
+    "version": "hist_gradient_boosting-536c3a4",
+    "split_id": "train8-10-11-12_val7_test9",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.05641049468455338,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp2_s123_hist_gradient_boosting",
+    "model_name": "hist_gradient_boosting",
+    "version": "hist_gradient_boosting-536c3a4",
+    "split_id": "train8-10-11-12_val9_test7",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.014202758691112264,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp2_s123_hist_gradient_boosting",
+    "model_name": "hist_gradient_boosting",
+    "version": "hist_gradient_boosting-536c3a4",
+    "split_id": "train8-9-10-11_val12_test7",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.04848344479493792,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp2_s123_hist_gradient_boosting",
+    "model_name": "hist_gradient_boosting",
+    "version": "hist_gradient_boosting-536c3a4",
+    "split_id": "train8-9-10-11_val7_test12",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.9166666666666666,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.9166666666666666,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.9142857142857143,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 0.9722222222222222,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.6356917346042363,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        2.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.6666666666666666,
+        0.3333333333333333,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp2_s123_hist_gradient_boosting",
+    "model_name": "hist_gradient_boosting",
+    "version": "hist_gradient_boosting-536c3a4",
+    "split_id": "train8-9-10-12_val11_test7",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.042533358785095836,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp2_s123_hist_gradient_boosting",
+    "model_name": "hist_gradient_boosting",
+    "version": "hist_gradient_boosting-536c3a4",
+    "split_id": "train8-9-10-12_val7_test11",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.014720930738113576,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp2_s123_hist_gradient_boosting",
+    "model_name": "hist_gradient_boosting",
+    "version": "hist_gradient_boosting-536c3a4",
+    "split_id": "train8-9-11-12_val10_test7",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.03858884254723662,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp2_s123_hist_gradient_boosting",
+    "model_name": "hist_gradient_boosting",
+    "version": "hist_gradient_boosting-536c3a4",
+    "split_id": "train8-9-11-12_val7_test10",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.025489964298302494,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp2_s123_hist_gradient_boosting",
+    "model_name": "hist_gradient_boosting",
+    "version": "hist_gradient_boosting-536c3a4",
+    "split_id": "train9-10-11-12_val7_test8",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.0772752681848515,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp2_s123_hist_gradient_boosting",
+    "model_name": "hist_gradient_boosting",
+    "version": "hist_gradient_boosting-536c3a4",
+    "split_id": "train9-10-11-12_val8_test7",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.11520419244759579,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "split",
+    "dataset_name": "cp2_s123_hist_gradient_boosting",
+    "model_name": "hist_gradient_boosting",
+    "version": "hist_gradient_boosting-536c3a4",
+    "seed": 42,
+    "n_runs": 30,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.986111111111111,
+    "accuracy_sd": 0.031587418482454326,
+    "balanced_accuracy_mean": 0.986111111111111,
+    "balanced_accuracy_sd": 0.031587418482454326,
+    "f1_macro_mean": 0.9857142857142858,
+    "f1_macro_sd": 0.032489916153381586,
+    "roc_auc_macro_mean": 0.9959876543209876,
+    "roc_auc_macro_sd": 0.009931930158871402,
+    "test_loss_mean": 0.12691669804252306,
+    "test_loss_sd": 0.19539367490572476,
+    "confusion_sum": [
+      [
+        90,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        85,
+        5,
+        0
+      ],
+      [
+        0,
+        0,
+        90,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        90
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        2.8333333333333335,
+        0.16666666666666666,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.3790490217894516,
+        0.3790490217894517,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.9444444444444444,
+        0.05555555555555555,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed+split",
+    "dataset_name": "cp2_s123_hist_gradient_boosting",
+    "model_name": "hist_gradient_boosting",
+    "version": "hist_gradient_boosting-536c3a4",
+    "n_runs": 30,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.986111111111111,
+    "accuracy_sd": 0.031587418482454326,
+    "balanced_accuracy_mean": 0.986111111111111,
+    "balanced_accuracy_sd": 0.031587418482454326,
+    "f1_macro_mean": 0.9857142857142858,
+    "f1_macro_sd": 0.032489916153381586,
+    "roc_auc_macro_mean": 0.9959876543209876,
+    "roc_auc_macro_sd": 0.009931930158871402,
+    "test_loss_mean": 0.12691669804252306,
+    "test_loss_sd": 0.19539367490572476,
+    "confusion_sum": [
+      [
+        90,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        85,
+        5,
+        0
+      ],
+      [
+        0,
+        0,
+        90,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        90
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        2.8333333333333335,
+        0.16666666666666666,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.3790490217894516,
+        0.3790490217894517,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.9444444444444444,
+        0.05555555555555555,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  }
+]

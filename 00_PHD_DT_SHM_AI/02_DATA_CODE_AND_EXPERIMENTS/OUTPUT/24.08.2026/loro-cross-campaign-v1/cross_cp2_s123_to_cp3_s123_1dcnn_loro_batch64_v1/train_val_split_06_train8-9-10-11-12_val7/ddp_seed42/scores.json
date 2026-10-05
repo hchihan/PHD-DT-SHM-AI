@@ -1,0 +1,69 @@
+{
+  "dataset_name": "cross_cp2_s123_to_cp3_s123_1dcnn",
+  "model_name": "1dcnn",
+  "version": "1dcnn-06dfe3b",
+  "seed": 42,
+  "split_id": "train8-9-10-11-12_val7_test13-14-15-16-17-18",
+  "split": {
+    "train_run_ids": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "val_run_ids": [
+      7
+    ],
+    "test_run_ids": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+    "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+    "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+    "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+  },
+  "classes": [
+    "Healthy",
+    "B1",
+    "B2",
+    "B3"
+  ],
+  "level": "recording",
+  "test_loss": 2.936396167652817,
+  "accuracy": 0.2916666666666667,
+  "balanced_accuracy": 0.29166666666666663,
+  "f1_macro": 0.21552634357512407,
+  "roc_auc_macro": 0.5972222222222222,
+  "confusion": [
+    [
+      1,
+      15,
+      2,
+      0
+    ],
+    [
+      0,
+      12,
+      6,
+      0
+    ],
+    [
+      2,
+      8,
+      8,
+      0
+    ],
+    [
+      1,
+      10,
+      7,
+      0
+    ]
+  ]
+}

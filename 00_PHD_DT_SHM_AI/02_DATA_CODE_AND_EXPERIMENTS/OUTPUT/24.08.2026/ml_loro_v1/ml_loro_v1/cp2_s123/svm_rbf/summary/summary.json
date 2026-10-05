@@ -1,0 +1,5241 @@
+{
+  "runs": [
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/svm_rbf/split_19_7-10-11-12-8-9/ml_seed42",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "seed": 42,
+      "split_id": "train7-10-11-12_val8_test9",
+      "split": {
+        "train_run_ids": [
+          7,
+          10,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          8
+        ],
+        "test_run_ids": [
+          9
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.07985627751901607
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/svm_rbf/split_20_7-10-11-12-9-8/ml_seed42",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "seed": 42,
+      "split_id": "train7-10-11-12_val9_test8",
+      "split": {
+        "train_run_ids": [
+          7,
+          10,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          9
+        ],
+        "test_run_ids": [
+          8
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.0411596388378918
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/svm_rbf/split_08_7-8-10-11-12-9/ml_seed42",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "seed": 42,
+      "split_id": "train7-8-10-11_val12_test9",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          10,
+          11
+        ],
+        "val_run_ids": [
+          12
+        ],
+        "test_run_ids": [
+          9
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.06091728568118153
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/svm_rbf/split_07_7-8-10-11-9-12/ml_seed42",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "seed": 42,
+      "split_id": "train7-8-10-11_val9_test12",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          10,
+          11
+        ],
+        "val_run_ids": [
+          9
+        ],
+        "test_run_ids": [
+          12
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.9166666666666666,
+      "balanced_accuracy": 0.9166666666666666,
+      "f1_macro": 0.9142857142857143,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.22375845194287447
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/svm_rbf/split_10_7-8-10-12-11-9/ml_seed42",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "seed": 42,
+      "split_id": "train7-8-10-12_val11_test9",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          10,
+          12
+        ],
+        "val_run_ids": [
+          11
+        ],
+        "test_run_ids": [
+          9
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.0875110652360623
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/svm_rbf/split_09_7-8-10-12-9-11/ml_seed42",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "seed": 42,
+      "split_id": "train7-8-10-12_val9_test11",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          10,
+          12
+        ],
+        "val_run_ids": [
+          9
+        ],
+        "test_run_ids": [
+          11
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.05785940639875905
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/svm_rbf/split_12_7-8-11-12-10-9/ml_seed42",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "seed": 42,
+      "split_id": "train7-8-11-12_val10_test9",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          10
+        ],
+        "test_run_ids": [
+          9
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.0733662433884376
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/svm_rbf/split_11_7-8-11-12-9-10/ml_seed42",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "seed": 42,
+      "split_id": "train7-8-11-12_val9_test10",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          9
+        ],
+        "test_run_ids": [
+          10
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.03571801966457326
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/svm_rbf/split_01_7-8-9-10-11-12/ml_seed42",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "seed": 42,
+      "split_id": "train7-8-9-10_val11_test12",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "val_run_ids": [
+          11
+        ],
+        "test_run_ids": [
+          12
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.9166666666666666,
+      "balanced_accuracy": 0.9166666666666666,
+      "f1_macro": 0.9142857142857143,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.21826952408161943
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/svm_rbf/split_02_7-8-9-10-12-11/ml_seed42",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "seed": 42,
+      "split_id": "train7-8-9-10_val12_test11",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "val_run_ids": [
+          12
+        ],
+        "test_run_ids": [
+          11
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.06015829351838479
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/svm_rbf/split_03_7-8-9-11-10-12/ml_seed42",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "seed": 42,
+      "split_id": "train7-8-9-11_val10_test12",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          9,
+          11
+        ],
+        "val_run_ids": [
+          10
+        ],
+        "test_run_ids": [
+          12
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.9166666666666666,
+      "balanced_accuracy": 0.9166666666666666,
+      "f1_macro": 0.9142857142857143,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.23615540740575217
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/svm_rbf/split_04_7-8-9-11-12-10/ml_seed42",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "seed": 42,
+      "split_id": "train7-8-9-11_val12_test10",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          9,
+          11
+        ],
+        "val_run_ids": [
+          12
+        ],
+        "test_run_ids": [
+          10
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.03373297896539181
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/svm_rbf/split_05_7-8-9-12-10-11/ml_seed42",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "seed": 42,
+      "split_id": "train7-8-9-12_val10_test11",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          9,
+          12
+        ],
+        "val_run_ids": [
+          10
+        ],
+        "test_run_ids": [
+          11
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.06828684953648362
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/svm_rbf/split_06_7-8-9-12-11-10/ml_seed42",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "seed": 42,
+      "split_id": "train7-8-9-12_val11_test10",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          9,
+          12
+        ],
+        "val_run_ids": [
+          11
+        ],
+        "test_run_ids": [
+          10
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.05149832227209502
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/svm_rbf/split_14_7-9-10-11-12-8/ml_seed42",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "seed": 42,
+      "split_id": "train7-9-10-11_val12_test8",
+      "split": {
+        "train_run_ids": [
+          7,
+          9,
+          10,
+          11
+        ],
+        "val_run_ids": [
+          12
+        ],
+        "test_run_ids": [
+          8
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.02688261806054604
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/svm_rbf/split_13_7-9-10-11-8-12/ml_seed42",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "seed": 42,
+      "split_id": "train7-9-10-11_val8_test12",
+      "split": {
+        "train_run_ids": [
+          7,
+          9,
+          10,
+          11
+        ],
+        "val_run_ids": [
+          8
+        ],
+        "test_run_ids": [
+          12
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.9166666666666666,
+      "balanced_accuracy": 0.9166666666666666,
+      "f1_macro": 0.9142857142857143,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.22817313205448314
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/svm_rbf/split_16_7-9-10-12-11-8/ml_seed42",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "seed": 42,
+      "split_id": "train7-9-10-12_val11_test8",
+      "split": {
+        "train_run_ids": [
+          7,
+          9,
+          10,
+          12
+        ],
+        "val_run_ids": [
+          11
+        ],
+        "test_run_ids": [
+          8
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.028842764145888163
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/svm_rbf/split_15_7-9-10-12-8-11/ml_seed42",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "seed": 42,
+      "split_id": "train7-9-10-12_val8_test11",
+      "split": {
+        "train_run_ids": [
+          7,
+          9,
+          10,
+          12
+        ],
+        "val_run_ids": [
+          8
+        ],
+        "test_run_ids": [
+          11
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.052093159103565684
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/svm_rbf/split_18_7-9-11-12-10-8/ml_seed42",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "seed": 42,
+      "split_id": "train7-9-11-12_val10_test8",
+      "split": {
+        "train_run_ids": [
+          7,
+          9,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          10
+        ],
+        "test_run_ids": [
+          8
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.04293613775306857
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/svm_rbf/split_17_7-9-11-12-8-10/ml_seed42",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "seed": 42,
+      "split_id": "train7-9-11-12_val8_test10",
+      "split": {
+        "train_run_ids": [
+          7,
+          9,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          8
+        ],
+        "test_run_ids": [
+          10
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.0327031139916201
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/svm_rbf/split_27_8-10-11-12-7-9/ml_seed42",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "seed": 42,
+      "split_id": "train8-10-11-12_val7_test9",
+      "split": {
+        "train_run_ids": [
+          8,
+          10,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          7
+        ],
+        "test_run_ids": [
+          9
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.06558179732730106
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/svm_rbf/split_28_8-10-11-12-9-7/ml_seed42",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "seed": 42,
+      "split_id": "train8-10-11-12_val9_test7",
+      "split": {
+        "train_run_ids": [
+          8,
+          10,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          9
+        ],
+        "test_run_ids": [
+          7
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.09340163101666218
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/svm_rbf/split_22_8-9-10-11-12-7/ml_seed42",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "seed": 42,
+      "split_id": "train8-9-10-11_val12_test7",
+      "split": {
+        "train_run_ids": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "val_run_ids": [
+          12
+        ],
+        "test_run_ids": [
+          7
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.10222860587399955
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/svm_rbf/split_21_8-9-10-11-7-12/ml_seed42",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "seed": 42,
+      "split_id": "train8-9-10-11_val7_test12",
+      "split": {
+        "train_run_ids": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "val_run_ids": [
+          7
+        ],
+        "test_run_ids": [
+          12
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.9166666666666666,
+      "balanced_accuracy": 0.9166666666666666,
+      "f1_macro": 0.9142857142857143,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.2314487753344824
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/svm_rbf/split_24_8-9-10-12-11-7/ml_seed42",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "seed": 42,
+      "split_id": "train8-9-10-12_val11_test7",
+      "split": {
+        "train_run_ids": [
+          8,
+          9,
+          10,
+          12
+        ],
+        "val_run_ids": [
+          11
+        ],
+        "test_run_ids": [
+          7
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.1331948719380449
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/svm_rbf/split_23_8-9-10-12-7-11/ml_seed42",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "seed": 42,
+      "split_id": "train8-9-10-12_val7_test11",
+      "split": {
+        "train_run_ids": [
+          8,
+          9,
+          10,
+          12
+        ],
+        "val_run_ids": [
+          7
+        ],
+        "test_run_ids": [
+          11
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.06347456458915836
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/svm_rbf/split_26_8-9-11-12-10-7/ml_seed42",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "seed": 42,
+      "split_id": "train8-9-11-12_val10_test7",
+      "split": {
+        "train_run_ids": [
+          8,
+          9,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          10
+        ],
+        "test_run_ids": [
+          7
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.13106209662415003
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/svm_rbf/split_25_8-9-11-12-7-10/ml_seed42",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "seed": 42,
+      "split_id": "train8-9-11-12_val7_test10",
+      "split": {
+        "train_run_ids": [
+          8,
+          9,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          7
+        ],
+        "test_run_ids": [
+          10
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.04232230436195247
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/svm_rbf/split_29_9-10-11-12-7-8/ml_seed42",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "seed": 42,
+      "split_id": "train9-10-11-12_val7_test8",
+      "split": {
+        "train_run_ids": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          7
+        ],
+        "test_run_ids": [
+          8
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.06404134119371037
+    },
+    {
+      "run_dir": "/kaggle/working/ml_loro_v1/cp2_s123/svm_rbf/split_30_9-10-11-12-8-7/ml_seed42",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "seed": 42,
+      "split_id": "train9-10-11-12_val8_test7",
+      "split": {
+        "train_run_ids": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          8
+        ],
+        "test_run_ids": [
+          7
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc_macro": 1.0,
+      "test_loss": 0.16195187600566643
+    }
+  ],
+  "summary": [
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "split_id": "train7-10-11-12_val8_test9",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.07985627751901607,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "split_id": "train7-10-11-12_val9_test8",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.0411596388378918,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "split_id": "train7-8-10-11_val12_test9",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.06091728568118153,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "split_id": "train7-8-10-11_val9_test12",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.9166666666666666,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.9166666666666666,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.9142857142857143,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.22375845194287447,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "split_id": "train7-8-10-12_val11_test9",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.0875110652360623,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "split_id": "train7-8-10-12_val9_test11",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.05785940639875905,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "split_id": "train7-8-11-12_val10_test9",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.0733662433884376,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "split_id": "train7-8-11-12_val9_test10",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.03571801966457326,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "split_id": "train7-8-9-10_val11_test12",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.9166666666666666,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.9166666666666666,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.9142857142857143,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.21826952408161943,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "split_id": "train7-8-9-10_val12_test11",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.06015829351838479,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "split_id": "train7-8-9-11_val10_test12",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.9166666666666666,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.9166666666666666,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.9142857142857143,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.23615540740575217,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "split_id": "train7-8-9-11_val12_test10",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.03373297896539181,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "split_id": "train7-8-9-12_val10_test11",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.06828684953648362,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "split_id": "train7-8-9-12_val11_test10",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.05149832227209502,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "split_id": "train7-9-10-11_val12_test8",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.02688261806054604,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "split_id": "train7-9-10-11_val8_test12",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.9166666666666666,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.9166666666666666,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.9142857142857143,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.22817313205448314,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "split_id": "train7-9-10-12_val11_test8",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.028842764145888163,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "split_id": "train7-9-10-12_val8_test11",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.052093159103565684,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "split_id": "train7-9-11-12_val10_test8",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.04293613775306857,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "split_id": "train7-9-11-12_val8_test10",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.0327031139916201,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "split_id": "train8-10-11-12_val7_test9",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.06558179732730106,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "split_id": "train8-10-11-12_val9_test7",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.09340163101666218,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "split_id": "train8-9-10-11_val12_test7",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.10222860587399955,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "split_id": "train8-9-10-11_val7_test12",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.9166666666666666,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.9166666666666666,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.9142857142857143,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.2314487753344824,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "split_id": "train8-9-10-12_val11_test7",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.1331948719380449,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "split_id": "train8-9-10-12_val7_test11",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.06347456458915836,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "split_id": "train8-9-11-12_val10_test7",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.13106209662415003,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "split_id": "train8-9-11-12_val7_test10",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.04232230436195247,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "split_id": "train9-10-11-12_val7_test8",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.06404134119371037,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "split_id": "train9-10-11-12_val8_test7",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 1.0,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 1.0,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 1.0,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.16195187600566643,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "split",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "seed": 42,
+      "n_runs": 30,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.986111111111111,
+      "accuracy_sd": 0.031587418482454326,
+      "balanced_accuracy_mean": 0.986111111111111,
+      "balanced_accuracy_sd": 0.031587418482454326,
+      "f1_macro_mean": 0.9857142857142858,
+      "f1_macro_sd": 0.032489916153381586,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": 0.0,
+      "test_loss_mean": 0.09428621846076074,
+      "test_loss_sd": 0.06839461774974867,
+      "confusion_sum": [
+        [
+          90,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          85,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          90,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          90
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.8333333333333335,
+          0.16666666666666666,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.3790490217894516,
+          0.3790490217894517,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.9444444444444444,
+          0.05555555555555555,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed+split",
+      "dataset_name": "cp2_s123_svm_rbf",
+      "model_name": "svm_rbf",
+      "version": "svm_rbf-536c3a4",
+      "n_runs": 30,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.986111111111111,
+      "accuracy_sd": 0.031587418482454326,
+      "balanced_accuracy_mean": 0.986111111111111,
+      "balanced_accuracy_sd": 0.031587418482454326,
+      "f1_macro_mean": 0.9857142857142858,
+      "f1_macro_sd": 0.032489916153381586,
+      "roc_auc_macro_mean": 1.0,
+      "roc_auc_macro_sd": 0.0,
+      "test_loss_mean": 0.09428621846076074,
+      "test_loss_sd": 0.06839461774974867,
+      "confusion_sum": [
+        [
+          90,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          85,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          90,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          90
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.8333333333333335,
+          0.16666666666666666,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.3790490217894516,
+          0.3790490217894517,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.9444444444444444,
+          0.05555555555555555,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

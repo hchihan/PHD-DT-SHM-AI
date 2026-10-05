@@ -1,0 +1,3347 @@
+[
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp1_s12_resnet1d",
+    "model_name": "resnet1D",
+    "version": "resnet1D-75d5c1e",
+    "split_id": "train1-2-3-4_val5_test6",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.9166666666666666,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.9166666666666666,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.9142857142857143,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.3510853714413113,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        2.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.6666666666666666,
+        0.3333333333333333
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp1_s12_resnet1d",
+    "model_name": "resnet1D",
+    "version": "resnet1D-75d5c1e",
+    "split_id": "train1-2-3-4_val6_test5",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.3295641985955517,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp1_s12_resnet1d",
+    "model_name": "resnet1D",
+    "version": "resnet1D-75d5c1e",
+    "split_id": "train1-2-3-5_val4_test6",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.9166666666666666,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.9166666666666666,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.9142857142857143,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.3923358784781562,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        2.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        0.6666666666666666,
+        0.3333333333333333,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp1_s12_resnet1d",
+    "model_name": "resnet1D",
+    "version": "resnet1D-75d5c1e",
+    "split_id": "train1-2-3-5_val6_test4",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.28803660410786003,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp1_s12_resnet1d",
+    "model_name": "resnet1D",
+    "version": "resnet1D-75d5c1e",
+    "split_id": "train1-2-3-6_val4_test5",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.9166666666666666,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.9166666666666666,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.9142857142857143,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.35380885138134777,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        2.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.6666666666666666,
+        0.3333333333333333
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp1_s12_resnet1d",
+    "model_name": "resnet1D",
+    "version": "resnet1D-75d5c1e",
+    "split_id": "train1-2-3-6_val5_test4",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.9166666666666666,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.9166666666666666,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.9142857142857144,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.3183246588788901,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        2.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.6666666666666666
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp1_s12_resnet1d",
+    "model_name": "resnet1D",
+    "version": "resnet1D-75d5c1e",
+    "split_id": "train1-2-4-5_val3_test6",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.9166666666666666,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.9166666666666666,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.9142857142857143,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.3553625875049167,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        2.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.6666666666666666,
+        0.3333333333333333
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp1_s12_resnet1d",
+    "model_name": "resnet1D",
+    "version": "resnet1D-75d5c1e",
+    "split_id": "train1-2-4-5_val6_test3",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.3222276361537553,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp1_s12_resnet1d",
+    "model_name": "resnet1D",
+    "version": "resnet1D-75d5c1e",
+    "split_id": "train1-2-4-6_val3_test5",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.35877490115329574,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp1_s12_resnet1d",
+    "model_name": "resnet1D",
+    "version": "resnet1D-75d5c1e",
+    "split_id": "train1-2-4-6_val5_test3",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.9166666666666666,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.9166666666666666,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.9142857142857143,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.3507803787070861,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        2.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.6666666666666666,
+        0.3333333333333333
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp1_s12_resnet1d",
+    "model_name": "resnet1D",
+    "version": "resnet1D-75d5c1e",
+    "split_id": "train1-2-5-6_val3_test4",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.9166666666666666,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.9166666666666666,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.9142857142857144,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.3188000972737971,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        2.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.6666666666666666
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp1_s12_resnet1d",
+    "model_name": "resnet1D",
+    "version": "resnet1D-75d5c1e",
+    "split_id": "train1-2-5-6_val4_test3",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.2976537033454659,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp1_s12_resnet1d",
+    "model_name": "resnet1D",
+    "version": "resnet1D-75d5c1e",
+    "split_id": "train1-3-4-5_val2_test6",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.9166666666666666,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.9166666666666666,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.9142857142857143,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.34659520785013836,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        2.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.6666666666666666,
+        0.3333333333333333
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp1_s12_resnet1d",
+    "model_name": "resnet1D",
+    "version": "resnet1D-75d5c1e",
+    "split_id": "train1-3-4-5_val6_test2",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.3408359125307745,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp1_s12_resnet1d",
+    "model_name": "resnet1D",
+    "version": "resnet1D-75d5c1e",
+    "split_id": "train1-3-4-6_val2_test5",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.3539142823710884,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp1_s12_resnet1d",
+    "model_name": "resnet1D",
+    "version": "resnet1D-75d5c1e",
+    "split_id": "train1-3-4-6_val5_test2",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.9166666666666666,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.9166666666666666,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.9142857142857144,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 0.9814814814814814,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.39365281456524565,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        2.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.6666666666666666
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp1_s12_resnet1d",
+    "model_name": "resnet1D",
+    "version": "resnet1D-75d5c1e",
+    "split_id": "train1-3-5-6_val2_test4",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.2977788392006327,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp1_s12_resnet1d",
+    "model_name": "resnet1D",
+    "version": "resnet1D-75d5c1e",
+    "split_id": "train1-3-5-6_val4_test2",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.9166666666666666,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.9166666666666666,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.9142857142857143,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.35585024922164443,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        2.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.6666666666666666,
+        0.3333333333333333
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp1_s12_resnet1d",
+    "model_name": "resnet1D",
+    "version": "resnet1D-75d5c1e",
+    "split_id": "train1-4-5-6_val2_test3",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.9166666666666666,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.9166666666666666,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.9142857142857143,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.326415764404736,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        2.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.6666666666666666,
+        0.3333333333333333
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp1_s12_resnet1d",
+    "model_name": "resnet1D",
+    "version": "resnet1D-75d5c1e",
+    "split_id": "train1-4-5-6_val3_test2",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.9166666666666666,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.9166666666666666,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.9142857142857143,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.36238492723183124,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        2.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.6666666666666666,
+        0.3333333333333333
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp1_s12_resnet1d",
+    "model_name": "resnet1D",
+    "version": "resnet1D-75d5c1e",
+    "split_id": "train2-3-4-5_val1_test6",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.9166666666666666,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.9166666666666666,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.9142857142857143,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.3669526411427392,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        2.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.6666666666666666,
+        0.3333333333333333
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp1_s12_resnet1d",
+    "model_name": "resnet1D",
+    "version": "resnet1D-75d5c1e",
+    "split_id": "train2-3-4-5_val6_test1",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.9166666666666666,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.9166666666666666,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.9142857142857143,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.4075037176106252,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        2.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.6666666666666666,
+        0.3333333333333333
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp1_s12_resnet1d",
+    "model_name": "resnet1D",
+    "version": "resnet1D-75d5c1e",
+    "split_id": "train2-3-4-6_val1_test5",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.9166666666666666,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.9166666666666666,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.9142857142857144,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.37163707951909486,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        2.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.6666666666666666
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp1_s12_resnet1d",
+    "model_name": "resnet1D",
+    "version": "resnet1D-75d5c1e",
+    "split_id": "train2-3-4-6_val5_test1",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 1.0,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 1.0,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.4167290698914301,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp1_s12_resnet1d",
+    "model_name": "resnet1D",
+    "version": "resnet1D-75d5c1e",
+    "split_id": "train2-3-5-6_val1_test4",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.9166666666666666,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.9166666666666666,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.9142857142857144,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.41362208558112074,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        2.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.6666666666666666
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp1_s12_resnet1d",
+    "model_name": "resnet1D",
+    "version": "resnet1D-75d5c1e",
+    "split_id": "train2-3-5-6_val4_test1",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.9166666666666666,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.9166666666666666,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.9142857142857143,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.4496598136262829,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        2.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.6666666666666666,
+        0.3333333333333333
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp1_s12_resnet1d",
+    "model_name": "resnet1D",
+    "version": "resnet1D-75d5c1e",
+    "split_id": "train2-4-5-6_val1_test3",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.9166666666666666,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.9166666666666666,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.9142857142857144,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.35568788780789196,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        2.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.6666666666666666
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp1_s12_resnet1d",
+    "model_name": "resnet1D",
+    "version": "resnet1D-75d5c1e",
+    "split_id": "train2-4-5-6_val3_test1",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.9166666666666666,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.9166666666666666,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.9142857142857143,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.4166206871571184,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        2.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.6666666666666666,
+        0.3333333333333333
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp1_s12_resnet1d",
+    "model_name": "resnet1D",
+    "version": "resnet1D-75d5c1e",
+    "split_id": "train3-4-5-6_val1_test2",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.9166666666666666,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.9166666666666666,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.9142857142857144,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 0.9907407407407407,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.40485528469905,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        2.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.6666666666666666
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed",
+    "dataset_name": "cp1_s12_resnet1d",
+    "model_name": "resnet1D",
+    "version": "resnet1D-75d5c1e",
+    "split_id": "train3-4-5-6_val2_test1",
+    "n_runs": 1,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.9166666666666666,
+    "accuracy_sd": null,
+    "balanced_accuracy_mean": 0.9166666666666666,
+    "balanced_accuracy_sd": null,
+    "f1_macro_mean": 0.9142857142857143,
+    "f1_macro_sd": null,
+    "roc_auc_macro_mean": 1.0,
+    "roc_auc_macro_sd": null,
+    "test_loss_mean": 0.4277898478670185,
+    "test_loss_sd": null,
+    "confusion_sum": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "confusion_mean": [
+      [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        2.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ]
+    ],
+    "confusion_sd": null,
+    "confusion_row_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.6666666666666666,
+        0.3333333333333333
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "split",
+    "dataset_name": "cp1_s12_resnet1d",
+    "model_name": "resnet1D",
+    "version": "resnet1D-75d5c1e",
+    "seed": 42,
+    "n_runs": 30,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.9416666666666669,
+    "accuracy_sd": 0.038840966641616605,
+    "balanced_accuracy_mean": 0.9416666666666669,
+    "balanced_accuracy_sd": 0.038840966641616605,
+    "f1_macro_mean": 0.94,
+    "f1_macro_sd": 0.03995070854566277,
+    "roc_auc_macro_mean": 0.999074074074074,
+    "roc_auc_macro_sd": 0.0037275731475597275,
+    "test_loss_mean": 0.3615080326433299,
+    "test_loss_sd": 0.04118915088678991,
+    "confusion_sum": [
+      [
+        89,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        90,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        77,
+        13
+      ],
+      [
+        0,
+        0,
+        7,
+        83
+      ]
+    ],
+    "confusion_mean": [
+      [
+        2.966666666666667,
+        0.03333333333333333,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        2.566666666666667,
+        0.43333333333333335
+      ],
+      [
+        0.0,
+        0.0,
+        0.23333333333333334,
+        2.7666666666666666
+      ]
+    ],
+    "confusion_sd": [
+      [
+        0.18257418583505527,
+        0.18257418583505525,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.504006932993731,
+        0.5040069329937308
+      ],
+      [
+        0.0,
+        0.0,
+        0.43018306715207627,
+        0.43018306715207627
+      ]
+    ],
+    "confusion_row_normalized": [
+      [
+        0.9888888888888889,
+        0.011111111111111112,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.8555555555555555,
+        0.14444444444444443
+      ],
+      [
+        0.0,
+        0.0,
+        0.07777777777777778,
+        0.9222222222222223
+      ]
+    ]
+  },
+  {
+    "aggregate_over": "seed+split",
+    "dataset_name": "cp1_s12_resnet1d",
+    "model_name": "resnet1D",
+    "version": "resnet1D-75d5c1e",
+    "n_runs": 30,
+    "classes": [
+      "Healthy",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "accuracy_mean": 0.9416666666666669,
+    "accuracy_sd": 0.038840966641616605,
+    "balanced_accuracy_mean": 0.9416666666666669,
+    "balanced_accuracy_sd": 0.038840966641616605,
+    "f1_macro_mean": 0.94,
+    "f1_macro_sd": 0.03995070854566277,
+    "roc_auc_macro_mean": 0.999074074074074,
+    "roc_auc_macro_sd": 0.0037275731475597275,
+    "test_loss_mean": 0.3615080326433299,
+    "test_loss_sd": 0.04118915088678991,
+    "confusion_sum": [
+      [
+        89,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        90,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        77,
+        13
+      ],
+      [
+        0,
+        0,
+        7,
+        83
+      ]
+    ],
+    "confusion_mean": [
+      [
+        2.966666666666667,
+        0.03333333333333333,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        2.566666666666667,
+        0.43333333333333335
+      ],
+      [
+        0.0,
+        0.0,
+        0.23333333333333334,
+        2.7666666666666666
+      ]
+    ],
+    "confusion_sd": [
+      [
+        0.18257418583505527,
+        0.18257418583505525,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.504006932993731,
+        0.5040069329937308
+      ],
+      [
+        0.0,
+        0.0,
+        0.43018306715207627,
+        0.43018306715207627
+      ]
+    ],
+    "confusion_row_normalized": [
+      [
+        0.9888888888888889,
+        0.011111111111111112,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.8555555555555555,
+        0.14444444444444443
+      ],
+      [
+        0.0,
+        0.0,
+        0.07777777777777778,
+        0.9222222222222223
+      ]
+    ]
+  }
+]

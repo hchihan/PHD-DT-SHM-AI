@@ -1,0 +1,91 @@
+{
+  "dataset_name": "cp2_s3",
+  "model_name": "resnet1D",
+  "version": "resnet1D-843fbf2",
+  "git_commit": "843fbf2",
+  "git_dirty": false,
+  "seed": 42,
+  "split_id": "train7-8-9-12_val11_test10",
+  "split": {
+    "train_run_ids": [
+      7,
+      8,
+      9,
+      12
+    ],
+    "val_run_ids": [
+      11
+    ],
+    "test_run_ids": [
+      10
+    ],
+    "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s3",
+    "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s3",
+    "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s3",
+    "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+  },
+  "classes": [
+    "Healthy",
+    "B1",
+    "B2",
+    "B3"
+  ],
+  "world_size": 1,
+  "device": "cuda:0",
+  "config": {
+    "data": {
+      "channels": 4,
+      "window": 400,
+      "windows_per_recording": null,
+      "eps": 1e-08
+    },
+    "model": {
+      "n_feature_maps": 16
+    },
+    "optim": {
+      "optimizer": "AdamW",
+      "learning_rate": 0.0003,
+      "weight_decay": 0.03,
+      "batch_size": 64,
+      "epochs": 100,
+      "amp": true,
+      "early_stopping_patience": 20,
+      "num_workers": 0,
+      "loss": "CrossEntropyLoss"
+    }
+  },
+  "args": {
+    "dataset_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s3",
+    "train_root": null,
+    "val_root": null,
+    "test_root": null,
+    "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json",
+    "dataset_name": "cp2_s3",
+    "output_root": "/kaggle/working/sensor_loro_batch64_v1/cp2/cp2_s3/split_06_7-8-9-12-11-10",
+    "model": "resnet1D",
+    "expected_channels": 4,
+    "train_run_ids": "7,8,9,12",
+    "val_run_ids": "11",
+    "test_run_ids": "10",
+    "epochs": 100,
+    "batch_size": 64,
+    "num_workers": 0,
+    "learning_rate": 0.0003,
+    "weight_decay": 0.03,
+    "seed": 42,
+    "fc_dim": 128,
+    "dropout": 0.2,
+    "n_feature_maps": 16,
+    "amp": true,
+    "early_stopping_patience": 20,
+    "test_only": false,
+    "no_logs": true
+  },
+  "started_at": "2026-08-24T04:22:59+00:00",
+  "best_epoch": 42,
+  "best_val_acc": 0.9166666666666666,
+  "best_val_loss": 0.290507561209404,
+  "epochs_ran": 62,
+  "finished_at": "2026-08-24T04:23:33+00:00",
+  "level": "recording"
+}

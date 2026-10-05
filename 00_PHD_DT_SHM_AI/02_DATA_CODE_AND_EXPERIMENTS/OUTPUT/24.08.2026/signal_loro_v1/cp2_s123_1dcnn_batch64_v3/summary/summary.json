@@ -1,0 +1,5241 @@
+{
+  "runs": [
+    {
+      "run_dir": "/kaggle/working/cp2_s123_1dcnn_batch64_v3/split_19_7-10-11-12-8-9/ddp_seed42",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "seed": 42,
+      "split_id": "train7-10-11-12_val8_test9",
+      "split": {
+        "train_run_ids": [
+          7,
+          10,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          8
+        ],
+        "test_run_ids": [
+          9
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          2
+        ]
+      ],
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "f1_macro": 0.49166666666666664,
+      "roc_auc_macro": 0.8425925925925927,
+      "test_loss": 1.0939329482238116
+    },
+    {
+      "run_dir": "/kaggle/working/cp2_s123_1dcnn_batch64_v3/split_20_7-10-11-12-9-8/ddp_seed42",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "seed": 42,
+      "split_id": "train7-10-11-12_val9_test8",
+      "split": {
+        "train_run_ids": [
+          7,
+          10,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          9
+        ],
+        "test_run_ids": [
+          8
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.6666666666666666,
+      "balanced_accuracy": 0.6666666666666666,
+      "f1_macro": 0.5803571428571428,
+      "roc_auc_macro": 0.9074074074074074,
+      "test_loss": 0.9034846740610459
+    },
+    {
+      "run_dir": "/kaggle/working/cp2_s123_1dcnn_batch64_v3/split_08_7-8-10-11-12-9/ddp_seed42",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "seed": 42,
+      "split_id": "train7-8-10-11_val12_test9",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          10,
+          11
+        ],
+        "val_run_ids": [
+          12
+        ],
+        "test_run_ids": [
+          9
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.4166666666666667,
+      "balanced_accuracy": 0.41666666666666663,
+      "f1_macro": 0.4125,
+      "roc_auc_macro": 0.787037037037037,
+      "test_loss": 1.2504416458337688
+    },
+    {
+      "run_dir": "/kaggle/working/cp2_s123_1dcnn_batch64_v3/split_07_7-8-10-11-9-12/ddp_seed42",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "seed": 42,
+      "split_id": "train7-8-10-11_val9_test12",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          10,
+          11
+        ],
+        "val_run_ids": [
+          9
+        ],
+        "test_run_ids": [
+          12
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          2
+        ]
+      ],
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "f1_macro": 0.5,
+      "roc_auc_macro": 0.8333333333333334,
+      "test_loss": 1.0961267885408903
+    },
+    {
+      "run_dir": "/kaggle/working/cp2_s123_1dcnn_batch64_v3/split_10_7-8-10-12-11-9/ddp_seed42",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "seed": 42,
+      "split_id": "train7-8-10-12_val11_test9",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          10,
+          12
+        ],
+        "val_run_ids": [
+          11
+        ],
+        "test_run_ids": [
+          9
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          2
+        ]
+      ],
+      "accuracy": 0.4166666666666667,
+      "balanced_accuracy": 0.41666666666666663,
+      "f1_macro": 0.4589285714285714,
+      "roc_auc_macro": 0.8055555555555556,
+      "test_loss": 1.215863041260827
+    },
+    {
+      "run_dir": "/kaggle/working/cp2_s123_1dcnn_batch64_v3/split_09_7-8-10-12-9-11/ddp_seed42",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "seed": 42,
+      "split_id": "train7-8-10-12_val9_test11",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          10,
+          12
+        ],
+        "val_run_ids": [
+          9
+        ],
+        "test_run_ids": [
+          11
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.75,
+      "balanced_accuracy": 0.75,
+      "f1_macro": 0.6666666666666666,
+      "roc_auc_macro": 0.9537037037037037,
+      "test_loss": 0.7986535124289684
+    },
+    {
+      "run_dir": "/kaggle/working/cp2_s123_1dcnn_batch64_v3/split_12_7-8-11-12-10-9/ddp_seed42",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "seed": 42,
+      "split_id": "train7-8-11-12_val10_test9",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          10
+        ],
+        "test_run_ids": [
+          9
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          2
+        ]
+      ],
+      "accuracy": 0.5833333333333334,
+      "balanced_accuracy": 0.5833333333333333,
+      "f1_macro": 0.5166666666666666,
+      "roc_auc_macro": 0.8055555555555556,
+      "test_loss": 1.090688062085252
+    },
+    {
+      "run_dir": "/kaggle/working/cp2_s123_1dcnn_batch64_v3/split_11_7-8-11-12-9-10/ddp_seed42",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "seed": 42,
+      "split_id": "train7-8-11-12_val9_test10",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          9
+        ],
+        "test_run_ids": [
+          10
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.6666666666666666,
+      "balanced_accuracy": 0.6666666666666666,
+      "f1_macro": 0.6666666666666666,
+      "roc_auc_macro": 0.8055555555555556,
+      "test_loss": 1.0336427847544352
+    },
+    {
+      "run_dir": "/kaggle/working/cp2_s123_1dcnn_batch64_v3/split_01_7-8-9-10-11-12/ddp_seed42",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "seed": 42,
+      "split_id": "train7-8-9-10_val11_test12",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "val_run_ids": [
+          11
+        ],
+        "test_run_ids": [
+          12
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          2
+        ]
+      ],
+      "accuracy": 0.6666666666666666,
+      "balanced_accuracy": 0.6666666666666666,
+      "f1_macro": 0.675,
+      "roc_auc_macro": 0.8240740740740741,
+      "test_loss": 1.4198473610608433
+    },
+    {
+      "run_dir": "/kaggle/working/cp2_s123_1dcnn_batch64_v3/split_02_7-8-9-10-12-11/ddp_seed42",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "seed": 42,
+      "split_id": "train7-8-9-10_val12_test11",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "val_run_ids": [
+          12
+        ],
+        "test_run_ids": [
+          11
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.75,
+      "balanced_accuracy": 0.75,
+      "f1_macro": 0.7291666666666666,
+      "roc_auc_macro": 0.962962962962963,
+      "test_loss": 1.0373536628143791
+    },
+    {
+      "run_dir": "/kaggle/working/cp2_s123_1dcnn_batch64_v3/split_03_7-8-9-11-10-12/ddp_seed42",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "seed": 42,
+      "split_id": "train7-8-9-11_val10_test12",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          9,
+          11
+        ],
+        "val_run_ids": [
+          10
+        ],
+        "test_run_ids": [
+          12
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          2
+        ]
+      ],
+      "accuracy": 0.6666666666666666,
+      "balanced_accuracy": 0.6666666666666666,
+      "f1_macro": 0.6553571428571429,
+      "roc_auc_macro": 0.8703703703703703,
+      "test_loss": 1.2036542352180035
+    },
+    {
+      "run_dir": "/kaggle/working/cp2_s123_1dcnn_batch64_v3/split_04_7-8-9-11-12-10/ddp_seed42",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "seed": 42,
+      "split_id": "train7-8-9-11_val12_test10",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          9,
+          11
+        ],
+        "val_run_ids": [
+          12
+        ],
+        "test_run_ids": [
+          10
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.8333333333333334,
+      "balanced_accuracy": 0.8333333333333333,
+      "f1_macro": 0.830952380952381,
+      "roc_auc_macro": 0.8611111111111112,
+      "test_loss": 1.0741896818665897
+    },
+    {
+      "run_dir": "/kaggle/working/cp2_s123_1dcnn_batch64_v3/split_05_7-8-9-12-10-11/ddp_seed42",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "seed": 42,
+      "split_id": "train7-8-9-12_val10_test11",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          9,
+          12
+        ],
+        "val_run_ids": [
+          10
+        ],
+        "test_run_ids": [
+          11
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.75,
+      "balanced_accuracy": 0.75,
+      "f1_macro": 0.7428571428571429,
+      "roc_auc_macro": 0.9259259259259259,
+      "test_loss": 0.8426348121443679
+    },
+    {
+      "run_dir": "/kaggle/working/cp2_s123_1dcnn_batch64_v3/split_06_7-8-9-12-11-10/ddp_seed42",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "seed": 42,
+      "split_id": "train7-8-9-12_val11_test10",
+      "split": {
+        "train_run_ids": [
+          7,
+          8,
+          9,
+          12
+        ],
+        "val_run_ids": [
+          11
+        ],
+        "test_run_ids": [
+          10
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.6666666666666666,
+      "balanced_accuracy": 0.6666666666666666,
+      "f1_macro": 0.6666666666666666,
+      "roc_auc_macro": 0.9074074074074073,
+      "test_loss": 1.0085773533465816
+    },
+    {
+      "run_dir": "/kaggle/working/cp2_s123_1dcnn_batch64_v3/split_14_7-9-10-11-12-8/ddp_seed42",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "seed": 42,
+      "split_id": "train7-9-10-11_val12_test8",
+      "split": {
+        "train_run_ids": [
+          7,
+          9,
+          10,
+          11
+        ],
+        "val_run_ids": [
+          12
+        ],
+        "test_run_ids": [
+          8
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.5833333333333334,
+      "balanced_accuracy": 0.5833333333333333,
+      "f1_macro": 0.5642857142857143,
+      "roc_auc_macro": 0.8703703703703702,
+      "test_loss": 1.0432913803586772
+    },
+    {
+      "run_dir": "/kaggle/working/cp2_s123_1dcnn_batch64_v3/split_13_7-9-10-11-8-12/ddp_seed42",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "seed": 42,
+      "split_id": "train7-9-10-11_val8_test12",
+      "split": {
+        "train_run_ids": [
+          7,
+          9,
+          10,
+          11
+        ],
+        "val_run_ids": [
+          8
+        ],
+        "test_run_ids": [
+          12
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          2
+        ]
+      ],
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "f1_macro": 0.4708333333333333,
+      "roc_auc_macro": 0.8333333333333333,
+      "test_loss": 1.1048054290793792
+    },
+    {
+      "run_dir": "/kaggle/working/cp2_s123_1dcnn_batch64_v3/split_16_7-9-10-12-11-8/ddp_seed42",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "seed": 42,
+      "split_id": "train7-9-10-12_val11_test8",
+      "split": {
+        "train_run_ids": [
+          7,
+          9,
+          10,
+          12
+        ],
+        "val_run_ids": [
+          11
+        ],
+        "test_run_ids": [
+          8
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.6666666666666666,
+      "balanced_accuracy": 0.6666666666666666,
+      "f1_macro": 0.6071428571428571,
+      "roc_auc_macro": 0.8981481481481481,
+      "test_loss": 0.8823215381771911
+    },
+    {
+      "run_dir": "/kaggle/working/cp2_s123_1dcnn_batch64_v3/split_15_7-9-10-12-8-11/ddp_seed42",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "seed": 42,
+      "split_id": "train7-9-10-12_val8_test11",
+      "split": {
+        "train_run_ids": [
+          7,
+          9,
+          10,
+          12
+        ],
+        "val_run_ids": [
+          8
+        ],
+        "test_run_ids": [
+          11
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.8333333333333334,
+      "balanced_accuracy": 0.8333333333333333,
+      "f1_macro": 0.8125,
+      "roc_auc_macro": 0.9907407407407407,
+      "test_loss": 0.7238059250795865
+    },
+    {
+      "run_dir": "/kaggle/working/cp2_s123_1dcnn_batch64_v3/split_18_7-9-11-12-10-8/ddp_seed42",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "seed": 42,
+      "split_id": "train7-9-11-12_val10_test8",
+      "split": {
+        "train_run_ids": [
+          7,
+          9,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          10
+        ],
+        "test_run_ids": [
+          8
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.75,
+      "balanced_accuracy": 0.75,
+      "f1_macro": 0.7375,
+      "roc_auc_macro": 0.8981481481481481,
+      "test_loss": 0.9087971252553603
+    },
+    {
+      "run_dir": "/kaggle/working/cp2_s123_1dcnn_batch64_v3/split_17_7-9-11-12-8-10/ddp_seed42",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "seed": 42,
+      "split_id": "train7-9-11-12_val8_test10",
+      "split": {
+        "train_run_ids": [
+          7,
+          9,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          8
+        ],
+        "test_run_ids": [
+          10
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.5833333333333334,
+      "balanced_accuracy": 0.5833333333333333,
+      "f1_macro": 0.6047619047619048,
+      "roc_auc_macro": 0.8611111111111112,
+      "test_loss": 0.9217261749155381
+    },
+    {
+      "run_dir": "/kaggle/working/cp2_s123_1dcnn_batch64_v3/split_27_8-10-11-12-7-9/ddp_seed42",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "seed": 42,
+      "split_id": "train8-10-11-12_val7_test9",
+      "split": {
+        "train_run_ids": [
+          8,
+          10,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          7
+        ],
+        "test_run_ids": [
+          9
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          2
+        ]
+      ],
+      "accuracy": 0.4166666666666667,
+      "balanced_accuracy": 0.41666666666666663,
+      "f1_macro": 0.4111111111111111,
+      "roc_auc_macro": 0.7962962962962963,
+      "test_loss": 1.2901901812636898
+    },
+    {
+      "run_dir": "/kaggle/working/cp2_s123_1dcnn_batch64_v3/split_28_8-10-11-12-9-7/ddp_seed42",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "seed": 42,
+      "split_id": "train8-10-11-12_val9_test7",
+      "split": {
+        "train_run_ids": [
+          8,
+          10,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          9
+        ],
+        "test_run_ids": [
+          7
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.8333333333333334,
+      "balanced_accuracy": 0.8333333333333333,
+      "f1_macro": 0.8035714285714286,
+      "roc_auc_macro": 0.9907407407407407,
+      "test_loss": 0.7333263739681057
+    },
+    {
+      "run_dir": "/kaggle/working/cp2_s123_1dcnn_batch64_v3/split_22_8-9-10-11-12-7/ddp_seed42",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "seed": 42,
+      "split_id": "train8-9-10-11_val12_test7",
+      "split": {
+        "train_run_ids": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "val_run_ids": [
+          12
+        ],
+        "test_run_ids": [
+          7
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.8333333333333334,
+      "balanced_accuracy": 0.8333333333333333,
+      "f1_macro": 0.8375,
+      "roc_auc_macro": 0.9629629629629629,
+      "test_loss": 0.7778799648154272
+    },
+    {
+      "run_dir": "/kaggle/working/cp2_s123_1dcnn_batch64_v3/split_21_8-9-10-11-7-12/ddp_seed42",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "seed": 42,
+      "split_id": "train8-9-10-11_val7_test12",
+      "split": {
+        "train_run_ids": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "val_run_ids": [
+          7
+        ],
+        "test_run_ids": [
+          12
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          2
+        ]
+      ],
+      "accuracy": 0.6666666666666666,
+      "balanced_accuracy": 0.6666666666666666,
+      "f1_macro": 0.6541666666666667,
+      "roc_auc_macro": 0.851851851851852,
+      "test_loss": 1.208927544469257
+    },
+    {
+      "run_dir": "/kaggle/working/cp2_s123_1dcnn_batch64_v3/split_24_8-9-10-12-11-7/ddp_seed42",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "seed": 42,
+      "split_id": "train8-9-10-12_val11_test7",
+      "split": {
+        "train_run_ids": [
+          8,
+          9,
+          10,
+          12
+        ],
+        "val_run_ids": [
+          11
+        ],
+        "test_run_ids": [
+          7
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.75,
+      "balanced_accuracy": 0.75,
+      "f1_macro": 0.7291666666666666,
+      "roc_auc_macro": 0.9074074074074073,
+      "test_loss": 0.9162345697735154
+    },
+    {
+      "run_dir": "/kaggle/working/cp2_s123_1dcnn_batch64_v3/split_23_8-9-10-12-7-11/ddp_seed42",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "seed": 42,
+      "split_id": "train8-9-10-12_val7_test11",
+      "split": {
+        "train_run_ids": [
+          8,
+          9,
+          10,
+          12
+        ],
+        "val_run_ids": [
+          7
+        ],
+        "test_run_ids": [
+          11
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.8333333333333334,
+      "balanced_accuracy": 0.8333333333333333,
+      "f1_macro": 0.8375,
+      "roc_auc_macro": 0.9907407407407407,
+      "test_loss": 1.0616422254423183
+    },
+    {
+      "run_dir": "/kaggle/working/cp2_s123_1dcnn_batch64_v3/split_26_8-9-11-12-10-7/ddp_seed42",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "seed": 42,
+      "split_id": "train8-9-11-12_val10_test7",
+      "split": {
+        "train_run_ids": [
+          8,
+          9,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          10
+        ],
+        "test_run_ids": [
+          7
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.75,
+      "balanced_accuracy": 0.75,
+      "f1_macro": 0.7285714285714286,
+      "roc_auc_macro": 0.962962962962963,
+      "test_loss": 0.7793186682544343
+    },
+    {
+      "run_dir": "/kaggle/working/cp2_s123_1dcnn_batch64_v3/split_25_8-9-11-12-7-10/ddp_seed42",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "seed": 42,
+      "split_id": "train8-9-11-12_val7_test10",
+      "split": {
+        "train_run_ids": [
+          8,
+          9,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          7
+        ],
+        "test_run_ids": [
+          10
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "f1_macro": 0.5125,
+      "roc_auc_macro": 0.8425925925925926,
+      "test_loss": 0.9992097821890139
+    },
+    {
+      "run_dir": "/kaggle/working/cp2_s123_1dcnn_batch64_v3/split_29_9-10-11-12-7-8/ddp_seed42",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "seed": 42,
+      "split_id": "train9-10-11-12_val7_test8",
+      "split": {
+        "train_run_ids": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          7
+        ],
+        "test_run_ids": [
+          8
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.5833333333333334,
+      "balanced_accuracy": 0.5833333333333333,
+      "f1_macro": 0.5595238095238095,
+      "roc_auc_macro": 0.8333333333333333,
+      "test_loss": 1.072604951204038
+    },
+    {
+      "run_dir": "/kaggle/working/cp2_s123_1dcnn_batch64_v3/split_30_9-10-11-12-8-7/ddp_seed42",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "seed": 42,
+      "split_id": "train9-10-11-12_val8_test7",
+      "split": {
+        "train_run_ids": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "val_run_ids": [
+          8
+        ],
+        "test_run_ids": [
+          7
+        ],
+        "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp2_s123",
+        "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+      },
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.8333333333333334,
+      "balanced_accuracy": 0.8333333333333333,
+      "f1_macro": 0.8309523809523809,
+      "roc_auc_macro": 0.9351851851851851,
+      "test_loss": 0.9635460789656219
+    }
+  ],
+  "summary": [
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "split_id": "train7-10-11-12_val8_test9",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.5,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.5,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.49166666666666664,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.8425925925925927,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 1.0939329482238116,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          2
+        ]
+      ],
+      "confusion_mean": [
+        [
+          2.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          2.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          2.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0,
+          0.0
+        ],
+        [
+          0.6666666666666666,
+          0.0,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.0,
+          0.3333333333333333,
+          0.6666666666666666,
+          0.0
+        ],
+        [
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.6666666666666666
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "split_id": "train7-10-11-12_val9_test8",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.6666666666666666,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.6666666666666666,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.5803571428571428,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.9074074074074074,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.9034846740610459,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          2.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          2.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          0.6666666666666666,
+          0.0,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.6666666666666666,
+          0.0,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "split_id": "train7-8-10-11_val12_test9",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.4166666666666667,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.41666666666666663,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.4125,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.787037037037037,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 1.2504416458337688,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          1.0,
+          2.0,
+          0.0,
+          0.0
+        ],
+        [
+          2.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          2.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          0.3333333333333333,
+          0.6666666666666666,
+          0.0,
+          0.0
+        ],
+        [
+          0.6666666666666666,
+          0.0,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.6666666666666666,
+          0.0,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "split_id": "train7-8-10-11_val9_test12",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.5,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.5,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.5,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.8333333333333334,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 1.0961267885408903,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          2
+        ]
+      ],
+      "confusion_mean": [
+        [
+          2.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          2.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.3333333333333333,
+          0.0,
+          0.6666666666666666,
+          0.0
+        ],
+        [
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.6666666666666666
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "split_id": "train7-8-10-12_val11_test9",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.4166666666666667,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.41666666666666663,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.4589285714285714,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.8055555555555556,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 1.215863041260827,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          2
+        ]
+      ],
+      "confusion_mean": [
+        [
+          1.0,
+          2.0,
+          0.0,
+          0.0
+        ],
+        [
+          2.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.0,
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          0.3333333333333333,
+          0.6666666666666666,
+          0.0,
+          0.0
+        ],
+        [
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.6666666666666666
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "split_id": "train7-8-10-12_val9_test11",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.75,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.75,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.6666666666666666,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.9537037037037037,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.7986535124289684,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "split_id": "train7-8-11-12_val10_test9",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.5833333333333334,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.5833333333333333,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.5166666666666666,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.8055555555555556,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 1.090688062085252,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          2
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          2.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          2.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.6666666666666666,
+          0.0,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.3333333333333333,
+          0.0,
+          0.6666666666666666,
+          0.0
+        ],
+        [
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.6666666666666666
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "split_id": "train7-8-11-12_val9_test10",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.6666666666666666,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.6666666666666666,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.6666666666666666,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.8055555555555556,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 1.0336427847544352,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          2.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          2.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.3333333333333333,
+          0.6666666666666666,
+          0.0,
+          0.0
+        ],
+        [
+          0.3333333333333333,
+          0.0,
+          0.6666666666666666,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "split_id": "train7-8-9-10_val11_test12",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.6666666666666666,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.6666666666666666,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.675,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.8240740740740741,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 1.4198473610608433,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          2
+        ]
+      ],
+      "confusion_mean": [
+        [
+          1.0,
+          0.0,
+          2.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          0.3333333333333333,
+          0.0,
+          0.6666666666666666,
+          0.0
+        ],
+        [
+          0.0,
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.3333333333333333,
+          0.6666666666666666
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "split_id": "train7-8-9-10_val12_test11",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.75,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.75,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.7291666666666666,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.962962962962963,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 1.0373536628143791,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.0,
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "split_id": "train7-8-9-11_val10_test12",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.6666666666666666,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.6666666666666666,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.6553571428571429,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.8703703703703703,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 1.2036542352180035,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          2
+        ]
+      ],
+      "confusion_mean": [
+        [
+          1.0,
+          2.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          0.3333333333333333,
+          0.6666666666666666,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.3333333333333333,
+          0.6666666666666666
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "split_id": "train7-8-9-11_val12_test10",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.8333333333333334,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.8333333333333333,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.830952380952381,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.8611111111111112,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 1.0741896818665897,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          2.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          2.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          0.6666666666666666,
+          0.0,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.3333333333333333,
+          0.6666666666666666,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "split_id": "train7-8-9-12_val10_test11",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.75,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.75,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.7428571428571429,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.9259259259259259,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.8426348121443679,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          2.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          2.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0,
+          0.0
+        ],
+        [
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "split_id": "train7-8-9-12_val11_test10",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.6666666666666666,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.6666666666666666,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.6666666666666666,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.9074074074074073,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 1.0085773533465816,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          2.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          2.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          2.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          0.6666666666666666,
+          0.0,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0,
+          0.0
+        ],
+        [
+          0.3333333333333333,
+          0.0,
+          0.6666666666666666,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "split_id": "train7-9-10-11_val12_test8",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.5833333333333334,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.5833333333333333,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.5642857142857143,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.8703703703703702,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 1.0432913803586772,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          2.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.0,
+          0.3333333333333333
+        ],
+        [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.0,
+          0.3333333333333333,
+          0.6666666666666666,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "split_id": "train7-9-10-11_val8_test12",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.5,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.5,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.4708333333333333,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.8333333333333333,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 1.1048054290793792,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          2
+        ]
+      ],
+      "confusion_mean": [
+        [
+          1.0,
+          2.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          2.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          0.3333333333333333,
+          0.6666666666666666,
+          0.0,
+          0.0
+        ],
+        [
+          0.3333333333333333,
+          0.0,
+          0.6666666666666666,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.6666666666666666
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "split_id": "train7-9-10-12_val11_test8",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.6666666666666666,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.6666666666666666,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.6071428571428571,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.8981481481481481,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.8823215381771911,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          2.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          2.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0,
+          0.0
+        ],
+        [
+          0.6666666666666666,
+          0.0,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "split_id": "train7-9-10-12_val8_test11",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.8333333333333334,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.8333333333333333,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.8125,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.9907407407407407,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.7238059250795865,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          2.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "split_id": "train7-9-11-12_val10_test8",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.75,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.75,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.7375,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.8981481481481481,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.9087971252553603,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          2.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          2.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.3333333333333333,
+          0.6666666666666666,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "split_id": "train7-9-11-12_val8_test10",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.5833333333333334,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.5833333333333333,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.6047619047619048,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.8611111111111112,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.9217261749155381,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          1.0,
+          2.0,
+          0.0,
+          0.0
+        ],
+        [
+          2.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          2.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          0.3333333333333333,
+          0.6666666666666666,
+          0.0,
+          0.0
+        ],
+        [
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.3333333333333333,
+          0.6666666666666666,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "split_id": "train8-10-11-12_val7_test9",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.4166666666666667,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.41666666666666663,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.4111111111111111,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.7962962962962963,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 1.2901901812636898,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          2
+        ]
+      ],
+      "confusion_mean": [
+        [
+          2.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          2.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0,
+          0.0
+        ],
+        [
+          0.6666666666666666,
+          0.0,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.6666666666666666
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "split_id": "train8-10-11-12_val9_test7",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.8333333333333334,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.8333333333333333,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.8035714285714286,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.9907407407407407,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.7333263739681057,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "split_id": "train8-9-10-11_val12_test7",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.8333333333333334,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.8333333333333333,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.8375,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.9629629629629629,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.7778799648154272,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          2.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          2.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.3333333333333333,
+          0.6666666666666666,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "split_id": "train8-9-10-11_val7_test12",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.6666666666666666,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.6666666666666666,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.6541666666666667,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.851851851851852,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 1.208927544469257,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          2
+        ]
+      ],
+      "confusion_mean": [
+        [
+          2.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0,
+          0.0
+        ],
+        [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.3333333333333333,
+          0.6666666666666666
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "split_id": "train8-9-10-12_val11_test7",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.75,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.75,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.7291666666666666,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.9074074074074073,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.9162345697735154,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          2.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          0.6666666666666666,
+          0.0,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "split_id": "train8-9-10-12_val7_test11",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.8333333333333334,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.8333333333333333,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.8375,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.9907407407407407,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 1.0616422254423183,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          2.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          2.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.3333333333333333,
+          0.6666666666666666,
+          0.0,
+          0.0
+        ],
+        [
+          0.3333333333333333,
+          0.0,
+          0.6666666666666666,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "split_id": "train8-9-11-12_val10_test7",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.75,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.75,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.7285714285714286,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.962962962962963,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.7793186682544343,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          2.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "split_id": "train8-9-11-12_val7_test10",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.5,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.5,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.5125,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.8425925925925926,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.9992097821890139,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          1.0,
+          2.0,
+          0.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          2.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          0.3333333333333333,
+          0.6666666666666666,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.3333333333333333,
+          0.0,
+          0.6666666666666666,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "split_id": "train9-10-11-12_val7_test8",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.5833333333333334,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.5833333333333333,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.5595238095238095,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.8333333333333333,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 1.072604951204038,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          2.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          2.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          2.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0,
+          0.0
+        ],
+        [
+          0.6666666666666666,
+          0.0,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          0.0,
+          0.3333333333333333,
+          0.6666666666666666,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "split_id": "train9-10-11-12_val8_test7",
+      "n_runs": 1,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.8333333333333334,
+      "accuracy_sd": null,
+      "balanced_accuracy_mean": 0.8333333333333333,
+      "balanced_accuracy_sd": null,
+      "f1_macro_mean": 0.8309523809523809,
+      "f1_macro_sd": null,
+      "roc_auc_macro_mean": 0.9351851851851851,
+      "roc_auc_macro_sd": null,
+      "test_loss_mean": 0.9635460789656219,
+      "test_loss_sd": null,
+      "confusion_sum": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_mean": [
+        [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          2.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          2.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ]
+      ],
+      "confusion_sd": null,
+      "confusion_row_normalized": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.3333333333333333,
+          0.6666666666666666,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.3333333333333333,
+          0.6666666666666666,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "split",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "seed": 42,
+      "n_runs": 30,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.6583333333333332,
+      "accuracy_sd": 0.13552438244665752,
+      "balanced_accuracy_mean": 0.6583333333333332,
+      "balanced_accuracy_sd": 0.13552438244665752,
+      "f1_macro_mean": 0.6431679894179894,
+      "f1_macro_sd": 0.1328058332505468,
+      "roc_auc_macro_mean": 0.8839506172839506,
+      "roc_auc_macro_sd": 0.0634891493178655,
+      "test_loss_mean": 1.015223949228364,
+      "test_loss_sd": 0.17230579185832415,
+      "confusion_sum": [
+        [
+          57,
+          24,
+          8,
+          1
+        ],
+        [
+          44,
+          28,
+          17,
+          1
+        ],
+        [
+          9,
+          10,
+          71,
+          0
+        ],
+        [
+          6,
+          0,
+          3,
+          81
+        ]
+      ],
+      "confusion_mean": [
+        [
+          1.9,
+          0.8,
+          0.26666666666666666,
+          0.03333333333333333
+        ],
+        [
+          1.4666666666666666,
+          0.9333333333333333,
+          0.5666666666666667,
+          0.03333333333333333
+        ],
+        [
+          0.3,
+          0.3333333333333333,
+          2.3666666666666667,
+          0.0
+        ],
+        [
+          0.2,
+          0.0,
+          0.1,
+          2.7
+        ]
+      ],
+      "confusion_sd": [
+        [
+          0.7588557629520365,
+          0.7611243951073873,
+          0.5208304597621877,
+          0.1825741858350553
+        ],
+        [
+          0.8995528902176072,
+          0.8683449709106096,
+          0.5683207771559353,
+          0.18257418583505536
+        ],
+        [
+          0.534983080621924,
+          0.5466722735905339,
+          0.6686751354593717,
+          0.0
+        ],
+        [
+          0.4068381021724863,
+          0.0,
+          0.30512857662936466,
+          0.466091599699399
+        ]
+      ],
+      "confusion_row_normalized": [
+        [
+          0.6333333333333333,
+          0.26666666666666666,
+          0.08888888888888889,
+          0.011111111111111112
+        ],
+        [
+          0.4888888888888889,
+          0.3111111111111111,
+          0.18888888888888888,
+          0.011111111111111112
+        ],
+        [
+          0.1,
+          0.1111111111111111,
+          0.7888888888888889,
+          0.0
+        ],
+        [
+          0.06666666666666667,
+          0.0,
+          0.03333333333333333,
+          0.9
+        ]
+      ]
+    },
+    {
+      "aggregate_over": "seed+split",
+      "dataset_name": "cp2_s123_1dcnn",
+      "model_name": "1dcnn",
+      "version": "1dcnn-75d5c1e",
+      "n_runs": 30,
+      "classes": [
+        "Healthy",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "accuracy_mean": 0.6583333333333332,
+      "accuracy_sd": 0.13552438244665752,
+      "balanced_accuracy_mean": 0.6583333333333332,
+      "balanced_accuracy_sd": 0.13552438244665752,
+      "f1_macro_mean": 0.6431679894179894,
+      "f1_macro_sd": 0.1328058332505468,
+      "roc_auc_macro_mean": 0.8839506172839506,
+      "roc_auc_macro_sd": 0.0634891493178655,
+      "test_loss_mean": 1.015223949228364,
+      "test_loss_sd": 0.17230579185832415,
+      "confusion_sum": [
+        [
+          57,
+          24,
+          8,
+          1
+        ],
+        [
+          44,
+          28,
+          17,
+          1
+        ],
+        [
+          9,
+          10,
+          71,
+          0
+        ],
+        [
+          6,
+          0,
+          3,
+          81
+        ]
+      ],
+      "confusion_mean": [
+        [
+          1.9,
+          0.8,
+          0.26666666666666666,
+          0.03333333333333333
+        ],
+        [
+          1.4666666666666666,
+          0.9333333333333333,
+          0.5666666666666667,
+          0.03333333333333333
+        ],
+        [
+          0.3,
+          0.3333333333333333,
+          2.3666666666666667,
+          0.0
+        ],
+        [
+          0.2,
+          0.0,
+          0.1,
+          2.7
+        ]
+      ],
+      "confusion_sd": [
+        [
+          0.7588557629520365,
+          0.7611243951073873,
+          0.5208304597621877,
+          0.1825741858350553
+        ],
+        [
+          0.8995528902176072,
+          0.8683449709106096,
+          0.5683207771559353,
+          0.18257418583505536
+        ],
+        [
+          0.534983080621924,
+          0.5466722735905339,
+          0.6686751354593717,
+          0.0
+        ],
+        [
+          0.4068381021724863,
+          0.0,
+          0.30512857662936466,
+          0.466091599699399
+        ]
+      ],
+      "confusion_row_normalized": [
+        [
+          0.6333333333333333,
+          0.26666666666666666,
+          0.08888888888888889,
+          0.011111111111111112
+        ],
+        [
+          0.4888888888888889,
+          0.3111111111111111,
+          0.18888888888888888,
+          0.011111111111111112
+        ],
+        [
+          0.1,
+          0.1111111111111111,
+          0.7888888888888889,
+          0.0
+        ],
+        [
+          0.06666666666666667,
+          0.0,
+          0.03333333333333333,
+          0.9
+        ]
+      ]
+    }
+  ]
+}

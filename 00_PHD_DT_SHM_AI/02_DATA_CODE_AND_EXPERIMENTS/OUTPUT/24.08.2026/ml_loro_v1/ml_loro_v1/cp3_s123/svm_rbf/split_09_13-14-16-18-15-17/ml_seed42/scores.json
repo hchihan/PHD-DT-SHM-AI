@@ -1,0 +1,63 @@
+{
+  "dataset_name": "cp3_s123_svm_rbf",
+  "model_name": "svm_rbf",
+  "version": "svm_rbf-536c3a4",
+  "seed": 42,
+  "split_id": "train13-14-16-18_val15_test17",
+  "split": {
+    "train_run_ids": [
+      13,
+      14,
+      16,
+      18
+    ],
+    "val_run_ids": [
+      15
+    ],
+    "test_run_ids": [
+      17
+    ],
+    "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+    "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+    "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+    "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+  },
+  "classes": [
+    "Healthy",
+    "B1",
+    "B2",
+    "B3"
+  ],
+  "level": "recording",
+  "test_loss": 0.9697582593998457,
+  "accuracy": 0.75,
+  "balanced_accuracy": 0.75,
+  "f1_macro": 0.7595238095238095,
+  "roc_auc_macro": 0.9259259259259259,
+  "confusion": [
+    [
+      2,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      2,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ]
+}

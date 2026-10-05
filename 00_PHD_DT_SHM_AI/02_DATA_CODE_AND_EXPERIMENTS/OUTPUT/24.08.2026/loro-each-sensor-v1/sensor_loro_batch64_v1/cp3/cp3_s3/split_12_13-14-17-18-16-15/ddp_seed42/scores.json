@@ -1,0 +1,63 @@
+{
+  "dataset_name": "cp3_s3",
+  "model_name": "resnet1D",
+  "version": "resnet1D-843fbf2",
+  "seed": 42,
+  "split_id": "train13-14-17-18_val16_test15",
+  "split": {
+    "train_run_ids": [
+      13,
+      14,
+      17,
+      18
+    ],
+    "val_run_ids": [
+      16
+    ],
+    "test_run_ids": [
+      15
+    ],
+    "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s3",
+    "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s3",
+    "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s3",
+    "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+  },
+  "classes": [
+    "Healthy",
+    "B1",
+    "B2",
+    "B3"
+  ],
+  "level": "recording",
+  "test_loss": 1.2221460897347023,
+  "accuracy": 0.5,
+  "balanced_accuracy": 0.5,
+  "f1_macro": 0.375,
+  "roc_auc_macro": 0.9074074074074074,
+  "confusion": [
+    [
+      0,
+      3,
+      0,
+      0
+    ],
+    [
+      0,
+      3,
+      0,
+      0
+    ],
+    [
+      0,
+      3,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ]
+}

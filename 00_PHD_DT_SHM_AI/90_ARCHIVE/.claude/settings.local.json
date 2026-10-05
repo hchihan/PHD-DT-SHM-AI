@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell($root='H:\\\\My Drive\\\\03_RESEARCH\\\\01_PHD_DT_AI_AM\\\\00_PHD_DT_STEEL_INSPECTION_2026_2029_LIMITED_FEM'; $out='C:\\\\Users\\\\VNT\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\H--My-Drive-03-RESEARCH-01-PHD-DT-AI-AM-00-PHD-DT-STEEL-INSPECTION-2026-2029-LIMITED-FEM\\\\cab8f4fe-d484-40bb-8784-752a920ad093\\\\scratchpad\\\\raw_files.csv'; Get-ChildItem -LiteralPath $root -Recurse -Force -File -ErrorAction SilentlyContinue | Select-Object FullName,Length,CreationTimeUtc,LastWriteTimeUtc,Extension,@{n='Attr';e={[int]$_.Attributes}} | Export-Csv -LiteralPath $out -NoTypeInformation -Encoding utf8; \\(Get-Content $out | Measure-Object -Line\\).Lines)",
+      "PowerShell($root='H:\\\\My Drive\\\\03_RESEARCH\\\\01_PHD_DT_AI_AM\\\\00_PHD_DT_STEEL_INSPECTION_2026_2029_LIMITED_FEM'; $out='C:\\\\Users\\\\VNT\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\H--My-Drive-03-RESEARCH-01-PHD-DT-AI-AM-00-PHD-DT-STEEL-INSPECTION-2026-2029-LIMITED-FEM\\\\cab8f4fe-d484-40bb-8784-752a920ad093\\\\scratchpad\\\\raw_dirs.csv'; Get-ChildItem -LiteralPath $root -Recurse -Force -Directory -ErrorAction SilentlyContinue | Select-Object FullName,CreationTimeUtc,LastWriteTimeUtc,@{n='Attr';e={[int]$_.Attributes}} | Export-Csv -LiteralPath $out -NoTypeInformation -Encoding utf8; \\(Get-Content $out | Measure-Object -Line\\).Lines)",
+      "Bash(python -c ' *)",
+      "Bash(python gen_reports.py)",
+      "PowerShell($rx='\\(RUN_REGISTRY|MASTER_RUN_REGISTRY|run_registry|CANONICAL_THREE_CAMPAIGN|BAO_CAO_RESNET1D|RESNET1D|build_registry|pipeline_lib|run_cnn|canon_lib|stage\\\\d|build_data_cache|run_feature_baselines|run_permutation|run_sensitivity|assemble_outputs|generate_windows|run_pipeline\\\\.sh|ANALYSIS_SET|FOLD_MANIFEST|SENSOR_MAPPING|CHANNEL_QUALITY|RAW_FILE_INVENTORY|sensor_fingerprint|PHYSICAL_SENSOR\\)'; Get-ChildItem -LiteralPath 'D:\\\\01_RESEARCH' -Recurse -Force -ErrorAction SilentlyContinue | Where-Object { $_.Name -match $rx } | Select-Object @{n='D';e={if\\($_.PSIsContainer\\){'DIR'}else{'FILE'}}},FullName,Length,LastWriteTime | Sort-Object FullName | Format-Table -AutoSize -Wrap)",
+      "PowerShell($root='H:\\\\My Drive\\\\03_RESEARCH\\\\01_PHD_DT_AI_AM\\\\00_PHD_DT_STEEL_INSPECTION_2026_2029_LIMITED_FEM'; $s='C:\\\\Users\\\\VNT\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\H--My-Drive-03-RESEARCH-01-PHD-DT-AI-AM-00-PHD-DT-STEEL-INSPECTION-2026-2029-LIMITED-FEM\\\\cab8f4fe-d484-40bb-8784-752a920ad093\\\\scratchpad'; Get-ChildItem -LiteralPath $root -Recurse -Force -File -ErrorAction SilentlyContinue | Select-Object FullName,Length,CreationTimeUtc,LastWriteTimeUtc,Extension | Export-Csv -LiteralPath \"$s\\\\raw_files2.csv\" -NoTypeInformation -Encoding utf8; Get-ChildItem -LiteralPath $root -Recurse -Force -Directory -ErrorAction SilentlyContinue | Select-Object FullName | Export-Csv -LiteralPath \"$s\\\\raw_dirs2.csv\" -NoTypeInformation -Encoding utf8; Write-Output \"DONE\")",
+      "Bash(sed -i \"s/raw_files2.csv/cur_files.csv/; s/raw_dirs2.csv/cur_dirs.csv/\" planner.py)",
+      "Bash(python planner.py)",
+      "Read(//d/01_RESEARCH/**)",
+      "Bash(npm install *)",
+      "Read(//c/Users/VNT/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/d4875ad0-d769-4d19-8397-afde1af7cc2f/3dbf15ff-e207-4dbf-8e5c-fa93105114aa/skills/pptx/**)",
+      "Bash(python C:/Users/VNT/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/d4875ad0-d769-4d19-8397-afde1af7cc2f/3dbf15ff-e207-4dbf-8e5c-fa93105114aa/skills/pptx/scripts/office/validate.py SLIDE_KET_QUA_BUOC1_BUOC2_20260805.pptx)",
+      "Bash(python pptx_scripts/office/validate.py SLIDE_KET_QUA_BUOC1_BUOC2_20260805.pptx)",
+      "Read(//c/Program Files/LibreOffice/program/**)",
+      "Bash(python -c \"import pptx; print\\('python-pptx ok', pptx.__version__\\)\")",
+      "Bash(node make_slides.js SLIDE_KET_QUA_BUOC1_BUOC2_20260805.pptx)",
+      "Bash(PYTHONUTF8=1 PYTHONIOENCODING=utf-8 python pptx_scripts/office/validate.py SLIDE_KET_QUA_BUOC1_BUOC2_20260805.pptx)",
+      "Bash(PYTHONUTF8=1 PYTHONIOENCODING=utf-8 python qa.py SLIDE_KET_QUA_BUOC1_BUOC2_20260805.pptx)"
+    ]
+  }
+}

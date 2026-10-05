@@ -1,0 +1,92 @@
+{
+  "dataset_name": "cp3_s123_1dcnn",
+  "model_name": "1dcnn",
+  "version": "1dcnn-75d5c1e",
+  "git_commit": "75d5c1e",
+  "git_dirty": false,
+  "seed": 42,
+  "split_id": "train15-16-17-18_val13_test14",
+  "split": {
+    "train_run_ids": [
+      15,
+      16,
+      17,
+      18
+    ],
+    "val_run_ids": [
+      13
+    ],
+    "test_run_ids": [
+      14
+    ],
+    "train_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+    "val_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+    "test_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+    "manifest": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/manifest.json"
+  },
+  "classes": [
+    "Healthy",
+    "B1",
+    "B2",
+    "B3"
+  ],
+  "world_size": 1,
+  "device": "cuda:0",
+  "config": {
+    "data": {
+      "channels": 12,
+      "window": 400,
+      "windows_per_recording": null,
+      "eps": 1e-08
+    },
+    "model": {
+      "fc_dim": 64,
+      "dropout": 0.5
+    },
+    "optim": {
+      "optimizer": "AdamW",
+      "learning_rate": 0.0002,
+      "weight_decay": 0.03,
+      "batch_size": 64,
+      "epochs": 80,
+      "amp": true,
+      "early_stopping_patience": 10,
+      "num_workers": 0,
+      "loss": "CrossEntropyLoss"
+    }
+  },
+  "args": {
+    "dataset_root": "/kaggle/input/datasets/platformciviltwin/signal-dataset-v1/v1/cp3_s123",
+    "train_root": null,
+    "val_root": null,
+    "test_root": null,
+    "manifest": null,
+    "dataset_name": "cp3_s123_1dcnn",
+    "output_root": "/kaggle/working/cp3_s123_1dcnn_batch64_v3/split_29_15-16-17-18-13-14",
+    "model": "1dcnn",
+    "expected_channels": 12,
+    "train_run_ids": "15,16,17,18",
+    "val_run_ids": "13",
+    "test_run_ids": "14",
+    "epochs": 80,
+    "batch_size": 64,
+    "num_workers": 0,
+    "learning_rate": 0.0002,
+    "weight_decay": 0.03,
+    "seed": 42,
+    "fc_dim": 64,
+    "dropout": 0.5,
+    "n_feature_maps": 64,
+    "amp": true,
+    "early_stopping_patience": 10,
+    "test_only": false,
+    "no_logs": true
+  },
+  "started_at": "2026-08-23T10:38:27+00:00",
+  "best_epoch": 11,
+  "best_val_acc": 0.5,
+  "best_val_loss": 1.284924060448833,
+  "epochs_ran": 21,
+  "finished_at": "2026-08-23T10:38:32+00:00",
+  "level": "recording"
+}
