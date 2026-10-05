@@ -6,6 +6,7 @@
 
 | Tệp | Nội dung |
 |---|---|
+| `00_BAN_CHOT/HO_CHI_HAN_TIEU_LUAN_TONG_QUAN_BAN_CHOT_20261005.docx` | **Bản hiện hành.** Bản 04/10 vá theo QĐ 18 (IDS trong B1; câu 3.4.1), khớp `tieuluan/` |
 | `00_BAN_CHOT/HO_CHI_HAN_TIEU_LUAN_TONG_QUAN_BAN_CHOT_20261004.docx` | Báo cáo, 71 trang, 90 tài liệu, trích dẫn là trường Zotero (Refresh được trong Word) |
 | `00_BAN_CHOT/BAO_CAO_TLTQ_BAN_CHOT_20261004.pptx`, `.pdf` | Slide báo cáo, 20 slide, có ghi chú thuyết trình |
 | `00_BAN_CHOT/HO_CHI_HAN_GIAI_TRINH_TIEP_THU_GOP_Y_20261004.docx` | Bản giải trình tiếp thu góp ý theo bản chốt (nguồn Markdown: `revision/giai_trinh_gop_y.md`) |
@@ -31,6 +32,8 @@ Các bản trung gian (r9, r11, FINAL_PROOFREAD, ASSET_RATIONALE r1–r3, slide 
 
 Yêu cầu: Python 3, các gói trong `requirements.txt`, và `pandoc` (cài riêng, không qua pip; phải có trong PATH). Zotero đang chạy
 (API cục bộ `localhost:23119`) chỉ cần khi có trích dẫn mới chưa nằm trong `xuat_ban/zotero_cache.json`; bộ đệm hiện có đủ 90 tài liệu.
+Đã kiểm ngày 05/10/2026 với Python 3.14, pandoc 3.12 (`winget install JohnMacFarlane.Pandoc`), python-docx 1.2.0: bản dựng trùng văn bản với
+`00_BAN_CHOT/..._BAN_CHOT_20261005.docx` (934/934 đoạn, trừ mục lục và danh mục bảng, hình cần Update Field).
 
 ```bash
 pip install -r requirements.txt

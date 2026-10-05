@@ -4008,5 +4008,45 @@
    }
   },
   "bib": "Bộ Khoa học và Công nghệ, “TCVN 9399:2012: Nhà và công trình xây dựng – Xác định chuyển dịch ngang bằng phương pháp trắc địa,” TCVN 9399:2012, 2012. [Online]. Available: https://tieuchuan.vsqi.gov.vn/tieuchuan/view?sohieu=TCVN+9399%3A2012"
+ },
+ "ZGVM3US5": {
+  "csl": {
+   "id": "http://zotero.org/users/19663145/items/ZGVM3US5",
+   "type": "article-journal",
+   "abstract": "Bridge structural health monitoring (SHM) depends on sensor streams that may contain missing blocks, noise, spikes, drift, and recorded faults. We evaluated a frozen, group-aware stress testing protocol on 64 Vänersborg bridge opening events and 153 processed Z24 scenario × setup traces. Models used healthy training data only; degradations were restricted to held-out groups. Area under the receiver operating characteristic curve (ROC-AUC) and average precision (AP) were co-primary metrics. Vänersborg principal component analysis (PCA) baseline AUC and AP values were 0.500/0.454, respectively. In addition, 20% missingness yielded 0.188 and 0.327 (paired changes −0.313 and −0.126), and 0.5% spikes yielded 0.058 and 0.298 (−0.442 and −0.156), respectively. Z24 PCA baseline AUC and AP values were 0.731 and 0.929, respectively, and the studied perturbations changed both metrics only slightly. Under event power-scaled 5 dB noise, Vänersborg PCA AUC decreased by 0.221, while the other detectors increased. A new label-blind sensitivity analysis fixed one robust channel variance from the healthy training events. This equalized injected power across evaluation classes and changed the PCA ΔAUC to +0.075, showing that the original scaling asymmetry contributed materially to the detector-specific directions. Results are exact conditional summaries of two observed finite archives and do not establish universal quality, severity, or maintenance thresholds.",
+   "container-title": "Infrastructures",
+   "DOI": "10.3390/infrastructures11100344",
+   "ISSN": "2412-3811",
+   "issue": "10",
+   "page": "344",
+   "publisher": "MDPI AG",
+   "title": "A Group-Aware Data Quality Stress Testing Framework for Bridge Structural Health Monitoring: Evidence from the Vänersborg and Z24 Datasets",
+   "URL": "https://doi.org/10.3390/infrastructures11100344",
+   "volume": "11",
+   "author": [
+    {
+     "family": "Hu",
+     "given": "Jianxin"
+    },
+    {
+     "family": "Che",
+     "given": "Gongjian"
+    },
+    {
+     "family": "Wang",
+     "given": "Yucheng"
+    }
+   ],
+   "issued": {
+    "date-parts": [
+     [
+      "2026",
+      9,
+      29
+     ]
+    ]
+   }
+  },
+  "bib": "J. Hu, G. Che, and Y. Wang, “A Group-Aware Data Quality Stress Testing Framework for Bridge Structural Health Monitoring: Evidence from the Vänersborg and Z24 Datasets,” <i>Infrastructures</i>, vol. 11, no. 10, p. 344, Sep. 2026, doi: 10.3390/infrastructures11100344."
  }
 }

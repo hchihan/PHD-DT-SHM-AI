@@ -96,6 +96,21 @@
     (e) **Cách gọi B1:** "baseline theo IFC 4.3/BCF 3.0 và các tiền lệ gần nhất"; không dùng "chuẩn hiện có", "cách làm tốt nhất".
     (f) **Sửa tay của NCS trong Word** phải được đưa về Markdown trước khi dựng lại (xem `README.md`). Nhật ký: `revision/SLIDE_REVISION_LOG_R3_TO_R5.md`,
     `revision/ASSET_SELECTION_EVIDENCE_REPORT.md`, `revision/HT22_phap_ly_va_1_2_1.md`.
+18. **Sửa tối thiểu bản chốt (NCS quyết định 05/10/2026, ngoại lệ của QĐ 16(o) sau rà soát hướng nghiên cứu).** Bản Word:
+    `00_BAN_CHOT/HO_CHI_HAN_TIEU_LUAN_TONG_QUAN_BAN_CHOT_20261005.docx` (vá từ bản 04/10, giữ trường Zotero; bản 04/10 giữ nguyên).
+    (a) **B1 gồm cả khả năng kiểm thuộc tính bắt buộc của IDS** (nguồn [73] de Marco 2024, `QVMQGE3K`, số IEEE [87] trong bản Word): sửa 4.4,
+    4.6.3, Bảng 5.6 (bỏ IDS khỏi hướng phát triển), bảng thuật ngữ. Thay một phần QĐ 17(e).
+    (b) **3.4.1:** đợt đo bổ sung, nếu có, được thiết kế để tách trạng thái liên kết khỏi lần thiết lập và buổi đo, trình bày ở Chuyên đề 1.
+    Thay vế "không ghi đợt bổ sung dự kiến" của QĐ 16(h).
+    (c) Slide bản chốt 04/10 chưa sửa theo (a): slide 11, 12, 16, 20 và ghi chú còn ghi B1 là "IFC 4.3/BCF 3.0".
+19. **Bổ sung Hu 2026, xác minh de Marco (NCS quyết định 05/10/2026, phiên laptop có Zotero).** Bản Word:
+    `00_BAN_CHOT/HO_CHI_HAN_TIEU_LUAN_TONG_QUAN_BAN_CHOT_20261005_HU.docx` (dựng lại từ Markdown; bản 20261005 giữ nguyên).
+    (a) **Hu, Che, Wang (2026)**, *Infrastructures* 11(10), 344, DOI 10.3390/infrastructures11100344, khóa `ZGVM3US5`, PDF
+    `pdf/ZGVM3US5_Hu2026.pdf`: nguồn bổ trợ (quy tắc 4.1) ở 3.2.1 (tr. 2, 6, 4) và 5.2.1 (tr. 2, 6). Dữ liệu cầu, không phải khung bu lông:
+    thu hẹp nhưng không đóng KT1. Số IEEE [73] trong bản Word; các số sau dịch +1 (de Marco thành [88]).
+    (b) **de Marco 2024** (`QVMQGE3K`) đọc toàn văn: 4.4 ghi "(tr. 4, 8)"; phép đối chiếu IDS với ràng buộc quan hệ là suy luận của tiểu luận.
+    (c) Bỏ bài Maska & Okibe 2026 (IJMPTS): không có DOI/ISSN riêng, tạp chí chưa kiểm được.
+    (d) **Số tài liệu:** 91 trích dẫn (1.5.2). Thay QĐ 17(d) phần số lượng.
 
 ---
 
@@ -429,7 +444,7 @@ cảm biến – cấu kiện · **C5** dùng bằng chứng ngoài phạm vi ph
 MT1, MT3. Không dùng RDF/SHACL/ontology; ánh xạ khái niệm sang SOSA/SSN, PROV-O chỉ trình bày bằng một bảng trong Bài 2.
 
 **Đối chứng:** **B0** = bộ hồ sơ kiểm định cũ của chính nhà xưởng Khánh Hòa (20–30 hồ sơ, mã hóa tay, cùng BIM); chỉ đại diện công trình
-nghiên cứu. **B1** = baseline dựa trên các khả năng của IFC 4.3 và BCF 3.0 xác định từ tiền lệ gần nhất ([35], [2], IFC4, BCF-XML/API),
+nghiên cứu. **B1** = baseline dựa trên các khả năng của IFC 4.3, BCF 3.0 và IDS (QĐ 18a) xác định từ tiền lệ gần nhất ([35], [2], IFC4, BCF-XML/API, [73]),
 cùng BIM; các ràng buộc chạy trên B1 ở dạng tương ứng với những trường B1 có (thay cách "tắt C5, C6, C9" trước đây). Phương án đề xuất
 bổ sung hai quy tắc: phạm vi hiệu lực bắt buộc, kiểm khi dùng; bước chuyển trạng thái trỏ tới lần dùng bằng chứng kèm chủ thể, vai trò. B0, B1 và mô hình đề xuất dùng cùng danh sách lỗi chèn mù, cùng bộ câu hỏi truy ngược,
 cùng tập bằng chứng MT1.
@@ -557,6 +572,7 @@ sáu tháng sau có sự cố, truy ngược được toàn bộ.
 | HT12–HT18 (r7 → FINAL) | 🟡 Đã làm 03/10, chờ NCS duyệt cuối: r7 (8 nhận xét phản biện), r8 (pháp lý, ven biển), r9 (góp ý Hội đồng vòng 1, chuẩn hóa Zotero, BCF-API), r10 (prompt Thư ký Hội đồng: tái cấu trúc Ch.1, 4, 5), r11 (vòng 2, strict-writing-discipline), FINAL proofread (Crossref 75 DOI, Hình 4.2, đoạn nối 3.4.3) | Bản khóa `_luu_tru/xuat_ban_cu/HO_CHI_HAN_TIEU_LUAN_TONG_QUAN_FINAL_PROOFREAD.docx` (69 trang, 85 tài liệu); `revision/REVISION_LOG_R9_TO_R10.md`, `REVISION_LOG_R10_TO_R11.md`, `FINAL_TECHNICAL_PROOFREAD_REPORT.md`, `UNRESOLVED_EVIDENCE_ITEMS.md`; commit 015abd9 |
 | GĐ6 Nhất quán & xuất bản | ✅ Bản FINAL (03/10): READY TO SUBMIT AFTER MANUAL CHECK | Còn 5 mục kiểm tay (QĐ 258 nội dung; liên kết NĐ 207; số trang trích dẫn; Bảng 3.2 vs QĐ 15b; số liệu KCN). Slide đã cập nhật theo bản FINAL: `_luu_tru/slide_cu/BAO_CAO_TLTQ_FINAL_20261003.pptx` (HT19, ngoài Git; script `revision/HT19_slide_scripts/`); chưa push |
 | Bản chốt 04/10 (HT20–HT23, r4–r5) | ✅ NCS chốt (04/10) | `00_BAN_CHOT/`: docx 71 trang, 90 tài liệu; slide 20 trang (thân bài 16pt, tiêu đề 26pt, trích dẫn 12pt). QĐ 17. Repo dọn: bản trung gian ở `_luu_tru/`; hướng dẫn dựng lại ở `README.md` |
+| Bản chốt 05/10 (QĐ 18, QĐ 19) | 🟡 Dựng lại 05/10, chờ Zotero Refresh trên laptop | `00_BAN_CHOT/..._BAN_CHOT_20261005_HU.docx`: 91 tài liệu, 263 nhóm trích dẫn; slide chưa sửa theo QĐ 18(c) |
 
 ---
 

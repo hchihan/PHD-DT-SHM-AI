@@ -596,3 +596,17 @@ NCS duyệt ĐD0; collection đích `TL-Key/Bổ sung`.
 - CLAUDE.md: trỏ bản FINAL_PROOFREAD và slide FINAL 03/10 về `_luu_tru/`; nơi lưu "khóa trước khi đo" đổi thành `../04_PAPER_2_TRACEABILITY/khoa_truoc_khi_do/`.
 - README.md: thêm bản giải trình 04/10 vào bảng bản chốt, bỏ mục việc còn mở đã xong, ghi yêu cầu môi trường dựng lại.
 - Thêm `requirements.txt` (python-docx, matplotlib, python-pptx); pandoc cài riêng. Không sửa nội dung học thuật.
+
+## Phiên 05/10/2026 (2) – sửa tối thiểu bản chốt sau rà soát hướng nghiên cứu (QĐ 18)
+- B1 gồm khả năng kiểm thuộc tính bắt buộc của IDS (nguồn [73] đã có): 4.4, 4.6.3, Bảng 5.6, thuật ngữ.
+- 3.4.1: câu về dữ liệu bổ sung nay nói đợt bổ sung được thiết kế để tách trạng thái khỏi lần thiết lập và buổi đo, trình bày ở Chuyên đề 1.
+- Bản Word `00_BAN_CHOT/..._BAN_CHOT_20261005.docx` vá trực tiếp từ bản 04/10 (máy không có pandoc); không đổi số trích dẫn, danh mục. Slide chưa sửa.
+- Cài pandoc 3.12 và python-docx 1.2.0; dựng lại từ `tieuluan/` trùng văn bản với bản Word 05/10 (934/934 đoạn). Đưa sửa tay của NCS ở Bảng 1.4 (ô "3", theo QĐ 17d) về `01_chuong1.md`.
+
+
+## Phiên 05/10/2026 (3) – laptop có Zotero: kiểm bộ đệm, bổ sung Hu 2026, xác minh de Marco (QĐ 19)
+- Bước 1–4 prompt laptop: đồng bộ Drive khớp 6 mã băm; bộ đệm trùng Zotero 90/90 khóa; dựng lại trùng bản 05/10 (chỉ khác mục lục).
+- de Marco 2024 đọc toàn văn: 4.4 thêm "(tr. 4, 8)"; PDF đổi tên `pdf/QVMQGE3K_deMarco2024.pdf`.
+- Thêm Hu và cs. 2026 (Infrastructures 11, 344; Zotero `ZGVM3US5`) làm nguồn bổ trợ ở 3.2.1 và 5.2.1; 1.5.2 nay 91 tài liệu. Bỏ bài IJMPTS.
+- `matrix/doi_chieu_danh_muc.csv`: ghi chú đọc de Marco, thêm dòng Hu.
+- Bản Word `00_BAN_CHOT/..._BAN_CHOT_20261005_HU.docx` dựng lại từ Markdown: 91 tài liệu, 263 nhóm trích dẫn; số IEEE từ [73] dịch +1 (de Marco thành [88]).

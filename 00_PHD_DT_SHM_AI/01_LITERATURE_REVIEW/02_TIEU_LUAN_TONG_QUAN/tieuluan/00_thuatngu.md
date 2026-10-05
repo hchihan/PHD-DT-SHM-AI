@@ -28,7 +28,7 @@
 | NDT | Non-Destructive Testing | Kiểm tra không phá hủy |
 | priority_level | priority level | Mức ưu tiên: Bình thường → Theo dõi → Kiểm tra → Kiểm tra ưu tiên |
 | Action_Status | action status | Trạng thái xử lý: Mở → Đang xử lý → Hoàn thành → Đã xác minh |
-| B0, B1 | – | Đối chứng: bộ hồ sơ kiểm định cũ của nhà xưởng nghiên cứu; baseline dựa trên các khả năng của IFC 4.3 và BCF 3.0 xác định từ các tiền lệ gần nhất |
+| B0, B1 | – | Đối chứng: bộ hồ sơ kiểm định cũ của nhà xưởng nghiên cứu; baseline dựa trên các khả năng của IFC 4.3, BCF 3.0 và IDS xác định từ các tiền lệ gần nhất |
 | M1–M4 | – | Đủ thuộc tính; tỉ lệ phát hiện lỗi chèn mù và báo lỗi nhầm; truy ngược đúng, đủ rồi mới xét thời gian; công sức ghi nhận (Mục 4.6.3) |
 | Mã chủ thể | actor reference | Mã người hoặc tổ chức thực hiện một bước, ghi cùng vai trò tại thời điểm thực hiện (Mục 4.6.2, Phụ lục A) |
 | Câu hỏi năng lực | competency question | Câu hỏi mà mô hình truy vết phải trả lời đúng và đủ theo đáp án chuẩn lập trước (Mục 4.4, 4.6.2) |
