@@ -1,7 +1,7 @@
 # Chuẩn hiện hành của dự án (đồng bộ từ CLAUDE.md, 01/10/2026)
 
 Tệp này là **bản tóm tắt đồng bộ** từ `CLAUDE.md` của dự án Tiểu luận tổng quan
-(`00_PHD_DT_STEEL_INSPECTION_2026_2029_LIMITED_FEM/01_LITERATURE_REVIEW/03_OUTPUTS/01_TIEU_LUAN_TONG_QUAN/CLAUDE.md`).
+(`00_PHD_DT_SHM_AI/01_LITERATURE_REVIEW/02_TIEU_LUAN_TONG_QUAN/CLAUDE.md`).
 CLAUDE.md đã được NCS duyệt từng mục và được cập nhật sau mỗi phiên; skill được tạo trước đó (07–08/2026).
 
 ## 0. Quy tắc ưu tiên
