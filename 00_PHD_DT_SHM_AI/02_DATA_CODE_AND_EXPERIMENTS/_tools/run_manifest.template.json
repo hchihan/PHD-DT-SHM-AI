@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "run_id": "cp1_1dcnn_v5_ddp_seed42",
+  "created_utc": "2026-10-09T00:00:00Z",
+  "command": "python scripts/train_ddp.py --model 1dcnn --seed 42",
+  "seed": 42,
+  "code": {
+    "repo": "sensor_signal_analyzer",
+    "commit": "<40 ký tự hex>",
+    "dirty": false
+  },
+  "data": {
+    "dataset_version": "<tên/phiên bản, khớp 03_DATA_QUALITY_AND_PROVENANCE_LOG.csv>",
+    "files": [
+      {"path": "<đường dẫn tương đối từ gốc repo Git hoặc từ thư mục manifest>", "sha256": "<64 hex>"}
+    ]
+  },
+  "split": {
+    "scheme": "LORO",
+    "folds": ["<tên fold 1>", "<tên fold 2>"]
+  },
+  "model": {
+    "arch": "1D-CNN",
+    "hyperparams": {},
+    "checkpoint_sha256": "<64 hex hoặc null nếu không lưu mô hình>"
+  },
+  "env": {
+    "python": "3.x.y",
+    "packages": {"torch": "x.y.z", "numpy": "x.y.z", "scikit-learn": "x.y.z"}
+  },
+  "results": ["scores.json", "predictions.json", "history.json"]
+}

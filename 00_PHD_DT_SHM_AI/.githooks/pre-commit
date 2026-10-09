@@ -1,0 +1,4 @@
+#!/bin/sh
+# Chặn commit tệp lớn, mô hình/nhị phân, khóa API, notebook còn output (chỉ xét 00_PHD_DT_SHM_AI/).
+# Cài: git config core.hooksPath 00_PHD_DT_SHM_AI/.githooks   (chạy ở gốc repo)
+exec python "$(dirname "$0")/../.claude/hooks/guard.py" --staged

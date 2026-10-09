@@ -10,7 +10,7 @@ description: "Quản trị định hướng, phạm vi, bằng chứng và Evide
 
 **Version:** v0.2 | **Cập nhật:** 2026-08-09
 **Kiến trúc:** Limited-FEM (Verdict B, hai thầy hướng dẫn chấp thuận 17/07/2026).
-**Project root:** thư mục `00_PHD_DT_STEEL_INSPECTION_2026_2029_LIMITED_FEM`.
+**Project root:** thư mục `00_PHD_DT_SHM_AI` (đổi tên từ `00_PHD_DT_STEEL_INSPECTION_2026_2029_LIMITED_FEM`, commit da2038b).
 
 Skill này không tạo ra thẩm quyền nghiên cứu mới. Nó định tuyến về thẩm quyền đã có trong
 repo và chặn công việc dùng nguồn superseded hoặc vượt phạm vi.
